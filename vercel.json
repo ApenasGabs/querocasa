@@ -1,12 +1,17 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/results",
-      "destination": "/api/results"
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
     },
     {
-      "source": "/ping",
-      "destination": "/api/ping"
+      "src": "vite.config.js",
+      "use": "@vercel/static-build"
     }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
