@@ -593,13 +593,6 @@
     "publishDate": "18 de jul, 11:45"
   },
   {
-    "address": "Campinas, Cidade Satélite Íris",
-    "bedrooms": "2",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-satelite-iris-r-160-000-1336658660",
-    "price": "R$ 160.000",
-    "publishDate": "11 de set, 01:06"
-  },
-  {
     "address": "Campinas, Parque Vista Alegre",
     "bedrooms": "3",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-1330482650",
@@ -1160,7 +1153,7 @@
     "publishDate": "2 de set, 16:36"
   },
   {
-    "address": "Campinas, Jardim Novo Campos Elíseos",
+    "address": "Campinas, Vila Rica",
     "bedrooms": "3",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-residencial-1331957074",
     "price": "R$ 320.000",
@@ -1550,6 +1543,13 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-parque-valenca-1-com-piscina-1327115707",
     "price": "R$ 415.000",
     "publishDate": "7 de ago, 17:40"
+  },
+  {
+    "address": "Campinas, Jardim Florence",
+    "bedrooms": "4",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/salao-de-festas-c-2-casas-terreas-1337605376",
+    "price": "R$ 415.000",
+    "publishDate": "Hoje, 03:14"
   },
   {
     "address": "Campinas, Dic V (Conjunto Habitacional Chico Mendes)",
