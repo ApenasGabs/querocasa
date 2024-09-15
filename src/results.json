@@ -1,5 +1,12 @@
 [
   {
+    "address": "Campinas, Jardim Miranda",
+    "bedrooms": "2",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-regiao-shopping-unimart-jd-miranda-campinas-1337762073",
+    "price": "R$ 480.000",
+    "publishDate": "Ontem, 19:49"
+  },
+  {
     "address": "Campinas, Dic IV (Conjunto Habitacional Lech Walesa)",
     "bedrooms": "1",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1323148187",
@@ -67,13 +74,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-uma-casa-1331139981",
     "price": "R$ 420",
     "publishDate": "21 de ago, 23:41"
-  },
-  {
-    "address": "Campinas, Jardim Novo Maracanã",
-    "bedrooms": "3",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/otima-casa-3-dormitorios-aceita-financiamento-1321188795",
-    "price": "R$ 450",
-    "publishDate": "16 de jul, 01:53"
   },
   {
     "address": "Campinas, Jardim New York",
@@ -348,13 +348,6 @@
     "publishDate": "21 de ago, 12:47"
   },
   {
-    "address": "Campinas, Distrito Industrial",
-    "bedrooms": "2",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1329212777",
-    "price": "R$ 100.000",
-    "publishDate": "15 de ago, 11:54"
-  },
-  {
     "address": "Campinas, Núcleo Residencial Princesa D'Oeste",
     "bedrooms": "2",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1325655989",
@@ -563,13 +556,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-10x10-comercial-1322622557",
     "price": "R$ 150.000",
     "publishDate": "21 de jul, 12:46"
-  },
-  {
-    "address": "Campinas, Parque Valença II",
-    "bedrooms": "2",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/imovel-1321038424",
-    "price": "R$ 150.000",
-    "publishDate": "15 de jul, 17:53"
   },
   {
     "address": "Campinas, Eldorado dos Carajás",
@@ -803,18 +789,18 @@
     "publishDate": "16 de jul, 17:15"
   },
   {
-    "address": "Campinas, Cidade Satélite Íris",
-    "bedrooms": "4",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-um-sobrado-1337567499",
-    "price": "R$ 220.000",
-    "publishDate": "Ontem, 23:09"
-  },
-  {
     "address": "Campinas, Santa Clara",
     "bedrooms": "4",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-santa-clara-do-lago-1330129551",
     "price": "R$ 220.000",
-    "publishDate": "12 de set, 04:25"
+    "publishDate": "Hoje, 04:25"
+  },
+  {
+    "address": "Campinas, Cidade Satélite Íris",
+    "bedrooms": "4",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-um-sobrado-1337567499",
+    "price": "R$ 220.000",
+    "publishDate": "13 de set, 23:09"
   },
   {
     "address": "Campinas, Jardim Uruguai",
@@ -1062,6 +1048,13 @@
     "publishDate": "21 de jul, 18:23"
   },
   {
+    "address": "Campinas, Jardim Campina Grande",
+    "bedrooms": "4",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-1-terreno-com-2-casas-1337752065",
+    "price": "R$ 280.000",
+    "publishDate": "Ontem, 18:42"
+  },
+  {
     "address": "Campinas, Jardim Santo Antonio",
     "bedrooms": "3",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-urgente-1332583135",
@@ -1115,7 +1108,7 @@
     "bedrooms": "2",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-com-2-casa-e-1-kitnet-em-barao-geraldo-1323727939",
     "price": "R$ 300.000",
-    "publishDate": "25 de jul, 15:58"
+    "publishDate": "Ontem, 14:40"
   },
   {
     "address": "Campinas, Parque Universitário de Viracopos",
@@ -1405,13 +1398,6 @@
     "publishDate": "9 de set, 13:22"
   },
   {
-    "address": "Campinas, Parque Santa Bárbara",
-    "bedrooms": "3",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-pq-santa-barbara-campinas-1321104912",
-    "price": "R$ 389.000",
-    "publishDate": "15 de jul, 21:23"
-  },
-  {
     "address": "Campinas, Jardim São Pedro de Viracopos",
     "bedrooms": "2",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/linda-casa-regiao-super-valorizada-em-campinas-1334584769",
@@ -1549,7 +1535,7 @@
     "bedrooms": "4",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/salao-de-festas-c-2-casas-terreas-1337605376",
     "price": "R$ 415.000",
-    "publishDate": "Hoje, 03:14"
+    "publishDate": "Ontem, 03:14"
   },
   {
     "address": "Campinas, Dic V (Conjunto Habitacional Chico Mendes)",
@@ -1619,7 +1605,7 @@
     "bedrooms": "3",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-dormitorios-jardim-dos-oliveiras-1337553975",
     "price": "R$ 450.000",
-    "publishDate": "Ontem, 21:58"
+    "publishDate": "13 de set, 21:58"
   },
   {
     "address": "Campinas, Jardim García",
@@ -1633,7 +1619,7 @@
     "bedrooms": "2",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-sobrado-em-campinas-1329979470",
     "price": "R$ 450.000",
-    "publishDate": "Ontem, 18:58"
+    "publishDate": "13 de set, 18:58"
   },
   {
     "address": "Campinas, Jardim Novo Campos Elíseos",
