@@ -6,10 +6,12 @@
       "use": "@vercel/node"
     },
     {
-      "src": "dist/**/*",
+      "src": "package.json",
       "use": "@vercel/static-build"
     }
   ],
-  "routes": [{ "src": "/api/(.*)", "dest": "/api/server.js" }],
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/server.js" },
+    { "src": "/(.*)", "dest": "/dist/index.html" }
+  ]
 }
