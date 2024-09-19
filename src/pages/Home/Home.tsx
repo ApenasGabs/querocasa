@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 import Card from "../../components/Card/Card";
 import Modal from "../../components/Modal/Modal";
@@ -11,6 +11,17 @@ const Home = () => {
   const { data, loading, error } = useFetchData();
   const size = loading ? 0 : data.length;
   console.log("error: ", error);
+
+  const HouseList = useMemo(
+    () => (
+      <>
+        {data.map((house) => (
+          <Card description={house.price} title={house.address} />
+        ))}
+      </>
+    ),
+    [data]
+  );
   return (
     <div className="w-full ">
       <Navbar links={[<p> {size}</p>]} />
@@ -21,6 +32,7 @@ const Home = () => {
 
       <div>
         <Card />
+        {HouseList}
       </div>
       <div
         className="flex flex-wrap justify-between gap-2 p-5"
