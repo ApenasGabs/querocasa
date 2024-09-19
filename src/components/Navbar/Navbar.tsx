@@ -1,4 +1,4 @@
-const projectsLinks = [
+const defaultLinks = [
   <p className="text-xl">Outros links: </p>,
   <a
     className="btn btn-ghost text-xl"
@@ -9,7 +9,12 @@ const projectsLinks = [
     <span className="badge badge-sm badge-warning">NEW</span>
   </a>,
 ];
-const Navbar = () => {
+
+interface NavbarProps {
+  links?: JSX.Element[];
+}
+const Navbar = ({ links = [] }: NavbarProps) => {
+  const navbarLinks = links?.length ? links.concat(defaultLinks) : defaultLinks;
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -34,8 +39,8 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            {projectsLinks.map((projectLink) => (
-              <li>{projectLink}</li>
+            {navbarLinks.map((navbarLink) => (
+              <li>{navbarLink}</li>
             ))}
           </ul>
         </div>
@@ -43,8 +48,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          {projectsLinks.map((projectLink) => (
-            <li>{projectLink}</li>
+          {navbarLinks.map((navbarLink) => (
+            <li>{navbarLink}</li>
           ))}
         </ul>
       </div>

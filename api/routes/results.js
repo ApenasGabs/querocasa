@@ -1,19 +1,29 @@
 import { Router } from "express";
-import { readFileSync } from "fs";
+import { promises as fs } from "fs";
 import { join } from "path";
 
 const router = Router();
 
-router.get("/results", (req, res) => {
+router.get("/results", async (req, res) => {
   try {
-    const filePath = join(process.cwd(), "src", "results.json");
-    const data = readFileSync(filePath, "utf-8");
-    const results = JSON.parse(data);
+    const dataDir = join(process.cwd(), "data", "results");
+    const files = await fs.readdir(dataDir);
+    console.log("files: ", files);
+    const jsonFiles = files.filter((file) => file.endsWith(".json"));
+
+    const results = await Promise.all(
+      jsonFiles.map(async (file) => {
+        console.log("file: ", file);
+        const filePath = join(dataDir, file);
+        const content = await fs.readFile(filePath, "utf-8");
+        return JSON.parse(content);
+      })
+    );
 
     res.status(200).json(results);
   } catch (error) {
-    console.error("Error reading results.json:", error);
-    res.status(500).json({ message: "Error reading results.json" });
+    console.error("Error reading JSON files:", error);
+    res.status(500).json({ message: "Error reading JSON files" });
   }
 });
 
