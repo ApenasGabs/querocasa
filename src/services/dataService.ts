@@ -1,6 +1,6 @@
 export const fetchDataFiles = async () => {
   try {
-    const response = await fetch("/api/fetchData");
+    const response = await fetch("/api/results");
     if (!response.ok) {
       throw new Error("Failed to fetch data");
     }

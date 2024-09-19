@@ -8,7 +8,6 @@ interface dataPops {
   publishDate: string;
 }
 
-
 export const useFetchData = () => {
   const [data, setData] = useState<dataPops[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
