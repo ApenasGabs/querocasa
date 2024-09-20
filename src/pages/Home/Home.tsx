@@ -1,16 +1,30 @@
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import Card from "../../components/Card/Card";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
-import { useFetchData } from "../../hooks/useFetchData";
+import { dataPops } from "../../hooks/useFetchData";
+import { fetchDataFiles } from "../../services/dataService";
 
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
-  const { data, loading, error } = useFetchData();
-  const size = loading ? 0 : data.length;
-  console.log("error: ", error);
+  const [data, setData] = useState<dataPops[]>([]);
+  console.log("data: ", data);
+  const size = data.length;
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const fetchedData = await fetchDataFiles();
+        console.log("fetchedData: ", fetchedData);
+        setData(fetchedData);
+      } catch (err: unknown) {
+        console.error("err: ", err);
+      }
+    };
+    loadData();
+  }, []);
 
   const HouseList = useMemo(
     () => (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchDataFiles } from "../services/dataService";
-interface dataPops {
+export interface dataPops {
   address: string;
   bedrooms: string;
   link: string;
@@ -17,6 +17,7 @@ export const useFetchData = () => {
     const loadData = async () => {
       try {
         const fetchedData = await fetchDataFiles();
+        console.log("fetchedData: ", fetchedData);
         setData(fetchedData);
       } catch (err: unknown) {
         console.error("err: ", err);

@@ -3,6 +3,7 @@ import axios from "axios";
 export const fetchDataFiles = async () => {
   try {
     const response = await axios.get("/api/results");
+    console.log("response: ", response);
     if (response.status !== 200) {
       throw new Error("Failed to fetch data");
     }
