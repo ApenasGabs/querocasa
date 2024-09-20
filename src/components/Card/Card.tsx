@@ -5,6 +5,7 @@ interface CardProps {
   link?: string;
   title?: string;
   price?: string;
+  publishDate?: string;
 }
 const Card = ({
   buttonContent = "Quero 🏡",
@@ -13,6 +14,7 @@ const Card = ({
   img = "https://pacaembu.com/svg/ic-mcmv.svg",
   title = "Loren",
   link = "",
+  publishDate = new Date().toLocaleDateString(),
 }: CardProps) => {
   return (
     <div className="card bg-base-100 image-full w-full shadow-xl">
@@ -22,8 +24,11 @@ const Card = ({
       <div className="card-body">
         <h2 className="card-title"> {title}</h2>
         <p> {description}</p>
-        <div className="card-actions justify-end">
-          <p className="self-center"> {price}</p>
+        <div className="card-actions justify-between">
+          <div>
+            <p>{price}</p>
+            <p className="text-xs"> {publishDate}</p>
+          </div>
           <a
             href={link}
             className="btn btn-primary"

@@ -22,6 +22,7 @@ const Home = () => {
               price={house.price}
               title={house.address}
               link={house.link}
+              publishDate={house.publishDate}
             />
           ))
         ) : (
@@ -33,7 +34,7 @@ const Home = () => {
   );
   return (
     <div className="w-full ">
-      <Navbar links={[<p> {size}</p>]} />
+      <Navbar links={[<p>{size} casas encontradas</p>]} />
       <Modal
         isModalOpen={isModalOpen}
         onClose={() => setIsModalOpen((prev) => !prev)}
