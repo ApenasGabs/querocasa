@@ -3,12 +3,14 @@ interface CardProps {
   img?: string;
   title?: string;
   description?: string;
+  link?: string;
 }
 const Card = ({
   buttonContent = "Quero 🏡",
   description = "Loren ipslun?",
   img = "https://pacaembu.com/svg/ic-mcmv.svg",
   title = "Loren",
+  link = "",
 }: CardProps) => {
   return (
     <div className="card bg-base-100 image-full w-full shadow-xl">
@@ -19,7 +21,14 @@ const Card = ({
         <h2 className="card-title"> {title}</h2>
         <p> {description}</p>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">{buttonContent}</button>
+          <a
+            href={link}
+            className="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {buttonContent}
+          </a>
         </div>
       </div>
     </div>
