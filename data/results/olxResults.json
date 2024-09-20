@@ -236,13 +236,6 @@
     "publishDate": "2024-08-02 09:13:00"
   },
   {
-    "address": "Campinas, Jardim Santa Cruz",
-    "bedrooms": "2",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ap-no-raposo-tavares-em-campinas-sp-1326852677",
-    "price": "R$ 62.900",
-    "publishDate": "2024-08-06 18:22:00"
-  },
-  {
     "address": "Campinas, Jardim Roseira",
     "bedrooms": "2",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1331666854",
@@ -269,6 +262,13 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1334806567",
     "price": "R$ 70.000",
     "publishDate": "2024-09-04 00:33:00"
+  },
+  {
+    "address": "Campinas, Núcleo Residencial Jardim Santa Marta",
+    "bedrooms": "1",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-para-venda-ou-troca-1339243054",
+    "price": "R$ 75.000",
+    "publishDate": "2024-09-20 09:42:00"
   },
   {
     "address": "Campinas, Jardim do Lago Continuação",
@@ -320,6 +320,13 @@
     "publishDate": "2024-08-11 16:10:00"
   },
   {
+    "address": "Campinas, Jardim São Judas Tadeu",
+    "bedrooms": "2",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-casa-com-escritura-1339278881",
+    "price": "R$ 100.000",
+    "publishDate": "2024-09-20 13:07:00"
+  },
+  {
     "address": "Campinas, Cidade Satélite Íris",
     "bedrooms": "3",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-em-campinas-sao-paulo-1336525899",
@@ -341,11 +348,11 @@
     "publishDate": "2024-08-21 12:47:00"
   },
   {
-    "address": "Campinas, Distrito Industrial",
+    "address": "Campinas, Núcleo Residencial Princesa D'Oeste",
     "bedrooms": "2",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1329212777",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1325655989",
     "price": "R$ 100.000",
-    "publishDate": "2024-08-15 11:54:00"
+    "publishDate": "2024-08-01 21:59:00"
   },
   {
     "address": "Campinas, Núcleo Residencial Princesa D'Oeste",
@@ -544,13 +551,6 @@
     "publishDate": "2024-09-15 22:19:00"
   },
   {
-    "address": "Campinas, Jardim Cidade Singer II",
-    "bedrooms": "2",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-10x10-comercial-1322622557",
-    "price": "R$ 150.000",
-    "publishDate": "2024-07-21 12:46:00"
-  },
-  {
     "address": "Campinas, Eldorado dos Carajás",
     "bedrooms": "3",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1336262431",
@@ -710,13 +710,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1331143968",
     "price": "R$ 200.000",
     "publishDate": "2024-08-22 00:01:00"
-  },
-  {
-    "address": "Campinas, Residencial Cosmos",
-    "bedrooms": "1",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-residencial-cosmos-campinas-1322734955",
-    "price": "R$ 200.000",
-    "publishDate": "2024-07-22 00:56:00"
   },
   {
     "address": "Campinas, Jardim Uruguai",
@@ -1020,13 +1013,6 @@
     "publishDate": "2024-07-23 22:29:00"
   },
   {
-    "address": "Campinas, Jardim Florence",
-    "bedrooms": "5+",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-florence-1322680382",
-    "price": "R$ 280.000",
-    "publishDate": "2024-07-21 18:23:00"
-  },
-  {
     "address": "Campinas, Jardim Campina Grande",
     "bedrooms": "4",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-1-terreno-com-2-casas-1337752065",
@@ -1046,13 +1032,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-urgente-1332583135",
     "price": "R$ 280.000",
     "publishDate": "2024-08-27 13:53:00"
-  },
-  {
-    "address": "Campinas, Jardim Nova Esperança",
-    "bedrooms": "4",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-aceito-carro-apartamento-ou-terreno-1197685778",
-    "price": "R$ 280.000",
-    "publishDate": "2024-07-21 23:56:00"
   },
   {
     "address": "Campinas, Jardim Proença",
@@ -1087,7 +1066,7 @@
     "bedrooms": "2",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-com-2-casa-e-1-kitnet-em-barao-geraldo-1323727939",
     "price": "R$ 300.000",
-    "publishDate": "2024-09-17 14:40:00"
+    "publishDate": "2024-09-20 14:40:00"
   },
   {
     "address": "Campinas, Vila Eliza",
@@ -1666,7 +1645,7 @@
   {
     "address": "Campinas, Parque Via Norte",
     "bedrooms": "2",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-1338704612",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-ou-permuta-menor-valor-1338704612",
     "price": "R$ 480.000",
     "publishDate": "2024-09-18 15:20:00"
   },
