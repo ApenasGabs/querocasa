@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import Card from "../../components/Card/Card";
 import Modal from "../../components/Modal/Modal";
@@ -12,6 +12,7 @@ const Home = () => {
   const [data, setData] = useState<dataPops[]>([]);
   console.log("data: ", data);
   const size = data.length;
+  console.log("size: ", size);
 
   useEffect(() => {
     const loadData = async () => {
@@ -26,15 +27,12 @@ const Home = () => {
     loadData();
   }, []);
 
-  const HouseList = useMemo(
-    () => (
-      <>
-        {data.map((house) => (
-          <Card description={house.price} title={house.address} />
-        ))}
-      </>
-    ),
-    [data]
+  const HouseList = () => (
+    <>
+      {data.map((house) => (
+        <Card description={house.price} title={house.address} />
+      ))}
+    </>
   );
   return (
     <div className="w-full ">
@@ -46,7 +44,7 @@ const Home = () => {
 
       <div>
         <Card />
-        {HouseList}
+        <HouseList />
       </div>
       <div
         className="flex flex-wrap justify-between gap-2 p-5"
