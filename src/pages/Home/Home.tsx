@@ -18,7 +18,8 @@ const Home = () => {
         {data.length > 1 ? (
           data.map((house) => (
             <Card
-              description={house.price}
+              description={house.description}
+              price={house.price}
               title={house.address}
               link={house.link}
             />

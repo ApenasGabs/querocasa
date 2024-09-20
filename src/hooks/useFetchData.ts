@@ -5,6 +5,7 @@ export interface dataPops {
   bedrooms: string;
   link: string;
   price: string;
+  description: string;
   publishDate: string;
 }
 
