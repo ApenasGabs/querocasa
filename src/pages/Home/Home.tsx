@@ -1,38 +1,26 @@
-import { useEffect, useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 
 import Card from "../../components/Card/Card";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
-import { dataPops } from "../../hooks/useFetchData";
-import { fetchDataFiles } from "../../services/dataService";
+import { useFetchData } from "../../hooks/useFetchData";
 
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
-  const [data, setData] = useState<dataPops[]>([]);
-  console.log("data: ", data);
-  const size = data.length;
-  console.log("size: ", size);
+  const { data, loading, error } = useFetchData();
+  const size = loading ? 0 : data.length;
+  console.log("error: ", error);
 
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const fetchedData = await fetchDataFiles();
-        console.log("fetchedData: ", fetchedData);
-        setData(fetchedData[0]);
-      } catch (err: unknown) {
-        console.error("err: ", err);
-      }
-    };
-    loadData();
-  }, []);
-
-  const HouseList = () => (
-    <>
-      {data.map((house) => (
-        <Card description={house.price} title={house.address} />
-      ))}
-    </>
+  const HouseList = useMemo(
+    () => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+        {data.map((house) => (
+          <Card description={house.price} title={house.address} />
+        ))}
+      </div>
+    ),
+    [data]
   );
   return (
     <div className="w-full ">
@@ -42,10 +30,7 @@ const Home = () => {
         onClose={() => setIsModalOpen((prev) => !prev)}
       />
 
-      <div>
-        <Card />
-        <HouseList />
-      </div>
+      <div>{HouseList}</div>
       <div
         className="flex flex-wrap justify-between gap-2 p-5"
         ref={scrollContainerRef}

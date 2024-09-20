@@ -17,8 +17,7 @@ export const useFetchData = () => {
     const loadData = async () => {
       try {
         const fetchedData = await fetchDataFiles();
-        console.log("fetchedData: ", fetchedData);
-        setData(fetchedData);
+        setData(fetchedData[0]);
       } catch (err: unknown) {
         console.error("err: ", err);
         setError("Failed to load data");

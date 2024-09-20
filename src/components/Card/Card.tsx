@@ -11,7 +11,7 @@ const Card = ({
   title = "Loren",
 }: CardProps) => {
   return (
-    <div className="card bg-base-100 image-full w-96 shadow-xl">
+    <div className="card bg-base-100 image-full w-full shadow-xl">
       <figure>
         <img src={img} className="logo react" alt="i" />
       </figure>
