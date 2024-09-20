@@ -9,7 +9,7 @@ import { fetchDataFiles } from "../../services/dataService";
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
-  const [data, setData] = useState<dataPops[][]>([]);
+  const [data, setData] = useState<dataPops[]>([]);
   console.log("data: ", data);
   const size = data.length;
   console.log("size: ", size);
@@ -29,7 +29,7 @@ const Home = () => {
 
   const HouseList = () => (
     <>
-      {data[0].map((house) => (
+      {data.map((house) => (
         <Card description={house.price} title={house.address} />
       ))}
     </>
