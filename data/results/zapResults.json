@@ -1,0 +1,179 @@
+[
+  {
+    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
+    "description": {
+      "floorSize": "64 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 295.000"
+  },
+  {
+    "address": "Parque Eldorado, Campinas",
+    "description": {
+      "floorSize": "160 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2"
+    },
+    "price": "R$ 50.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "82 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Vila Regina, Campinas",
+    "description": {
+      "floorSize": "110 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 290.000"
+  },
+  {
+    "address": "Vila San Martin, Campinas",
+    "description": {
+      "floorSize": "45 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1"
+    },
+    "price": "R$ 60.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "140 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 80.000"
+  },
+  {
+    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
+    "description": {
+      "floorSize": "97 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 85.000"
+  },
+  {
+    "address": "Jardim Lisa, Campinas",
+    "description": {
+      "floorSize": "125 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 90.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 98.000"
+  },
+  {
+    "address": "Jardim Novo Sol, Campinas",
+    "description": {
+      "floorSize": "85 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 106.000"
+  },
+  {
+    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
+    "description": {
+      "floorSize": "194 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1"
+    },
+    "price": "R$ 108.000"
+  },
+  {
+    "address": "Núcleo Residencial Princesa D'Oeste, Campinas",
+    "description": {
+      "floorSize": "90 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 115.000"
+  },
+  {
+    "address": "Jardim São Judas Tadeu, Campinas",
+    "description": {
+      "floorSize": "76 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 191.216"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 192.000"
+  },
+  {
+    "address": "Vila Rica, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 195.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 196.100"
+  },
+  {
+    "address": "Jardim Mirassol, Campinas",
+    "description": {
+      "floorSize": "60 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "3"
+    },
+    "price": "R$ 197.000"
+  },
+  {
+    "address": "Jardim Uruguai, Campinas",
+    "description": {
+      "floorSize": "200 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 200.000"
+  }
+]
