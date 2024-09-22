@@ -218,13 +218,6 @@
   },
   {
     "address": "Campinas, Cidade Satélite Íris",
-    "description": "2 quartos, 1 banheiro",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1339352589",
-    "price": "R$ 60.000",
-    "publishDate": "2024-09-20 18:08:00"
-  },
-  {
-    "address": "Campinas, Cidade Satélite Íris",
     "description": "1 quarto, 11 metros quadrados, 1 vaga de garagem, 1 banheiro",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-satelite-iris-1-1337151120",
     "price": "R$ 60.000",
@@ -306,6 +299,13 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-uma-casa-com-otimo-preco-1328987804",
     "price": "R$ 85.000",
     "publishDate": "2024-08-14 15:29:00"
+  },
+  {
+    "address": "Campinas, Jardim Alto do Ipaussurama",
+    "description": "3 quartos, 1 vaga de garagem, 2 banheiros",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-area-verde-1339452941",
+    "price": "R$ 90.000",
+    "publishDate": "2024-09-20 23:54:00"
   },
   {
     "address": "Campinas, Jardim Campineiro",
@@ -749,13 +749,6 @@
     "publishDate": "2024-09-18 20:56:00"
   },
   {
-    "address": "Campinas, Jardim Campos Elíseos",
-    "description": "3 quartos, 120 metros quadrados, 3 vagas de garagem, 1 banheiro",
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jardim-campos-eliseos-1334825477",
-    "price": "R$ 220.000",
-    "publishDate": "2024-09-04 01:57:00"
-  },
-  {
     "address": "Campinas, Santa Clara",
     "description": "2 quartos, 110 metros quadrados, 2 vagas de garagem, 1 banheiro",
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-clube-santa-clara-do-lago-1332990754",
@@ -845,6 +838,13 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/imovel-jd-sao-jose-1336454000",
     "price": "R$ 245.000",
     "publishDate": "2024-09-10 15:50:00"
+  },
+  {
+    "address": "Campinas, Conjunto Habitacional Parque da Floresta",
+    "description": "3 quartos, 250 metros quadrados, 5 ou mais vagas de garagem, 2 banheiros",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-de-esquina-1339743232",
+    "price": "R$ 250.000",
+    "publishDate": "2024-09-21 18:22:00"
   },
   {
     "address": "Campinas, Parque Taquaral",
@@ -1657,6 +1657,13 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-ou-permuta-menor-valor-1338704612",
     "price": "R$ 480.000",
     "publishDate": "2024-09-18 15:20:00"
+  },
+  {
+    "address": "Campinas, Vila Industrial",
+    "description": "4 quartos, 389 metros quadrados, 4 vagas de garagem, 5 ou mais banheiros",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-de-luxo-com-4-suites-e-varanda-ampla-e-confortavel-1339791180",
+    "price": "R$ 490.000",
+    "publishDate": "2024-09-21 22:30:00"
   },
   {
     "address": "Campinas, Vila Orozimbo Maia",
