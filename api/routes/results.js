@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { promises as fs } from "fs";
-import { join } from "path";
+import { join, parse } from "path";
 
 const router = Router();
 
@@ -16,11 +16,16 @@ router.get("/results", async (req, res) => {
         console.log("file: ", file);
         const filePath = join(dataDir, file);
         const content = await fs.readFile(filePath, "utf-8");
-        return JSON.parse(content);
+        const fileNameWithoutExt = parse(file).name;
+        return { [fileNameWithoutExt]: JSON.parse(content) };
       })
     );
 
-    res.status(200).json(results);
+    const formattedResults = results.reduce((acc, curr) => {
+      return { ...acc, ...curr };
+    }, {});
+
+    res.status(200).json(formattedResults);
   } catch (error) {
     console.error("Error reading JSON files:", error);
     res.status(500).json({ message: "Error reading JSON files" });
