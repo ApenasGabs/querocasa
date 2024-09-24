@@ -1,16 +1,8 @@
 import { useEffect, useState } from "react";
-import { fetchDataFiles } from "../services/dataService";
-export interface dataPops {
-  address: string;
-  bedrooms: string;
-  link: string;
-  price: string;
-  description: string;
-  publishDate: string;
-}
+import { dataPops, emptyData, fetchDataFiles } from "../services/dataService";
 
 export const useFetchData = () => {
-  const [data, setData] = useState<dataPops[]>([]);
+  const [data, setData] = useState<dataPops>(emptyData);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -18,7 +10,8 @@ export const useFetchData = () => {
     const loadData = async () => {
       try {
         const fetchedData = await fetchDataFiles();
-        setData(fetchedData[0]);
+        console.log("fetchedData: ", fetchedData);
+        setData(fetchedData);
       } catch (err: unknown) {
         console.error("err: ", err);
         setError("Failed to load data");

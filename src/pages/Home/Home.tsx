@@ -9,14 +9,14 @@ const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const { data, loading, error } = useFetchData();
-  const size = loading ? 0 : data.length;
   console.log("error: ", error);
-
-  const HouseList = useMemo(
+  const { olxResults, zapResults } = data;
+  const size = loading && !data ? 0 : olxResults.length + zapResults.length;
+  const OlxHouseList = useMemo(
     () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-        {data.length > 1 ? (
-          data.map((house) => (
+        {olxResults.length > 1 ? (
+          olxResults.map((house) => (
             <Card
               description={house.description}
               price={house.price}
@@ -30,7 +30,28 @@ const Home = () => {
         )}
       </div>
     ),
-    [data]
+    [olxResults]
+  );
+
+  const ZapHouseList = useMemo(
+    () => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+        {zapResults.length > 1 ? (
+          zapResults.map((house) => (
+            <Card
+              description={`${house.description.floorSize} - ${house.description.numberOfRooms} - ${house.description.numberOfBathroomsTotal}`}
+              price={house.price}
+              title={house.address}
+              link={house.link}
+              publishDate={`${house.description.numberOfParkingSpaces} vagas`}
+            />
+          ))
+        ) : (
+          <Card />
+        )}
+      </div>
+    ),
+    [zapResults]
   );
   return (
     <div className="w-full ">
@@ -40,7 +61,8 @@ const Home = () => {
         onClose={() => setIsModalOpen((prev) => !prev)}
       />
 
-      <div>{HouseList}</div>
+      <div>{ZapHouseList}</div>
+      <div>{OlxHouseList}</div>
       <div
         className="flex flex-wrap justify-between gap-2 p-5"
         ref={scrollContainerRef}
