@@ -7,7 +7,7 @@
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "1"
     },
-    "price": "R$ 295.000"
+    "price": "R$ 30.000"
   },
   {
     "address": "Parque Eldorado, Campinas",
@@ -50,16 +50,6 @@
     "price": "R$ 50.000"
   },
   {
-    "address": "Vila Regina, Campinas",
-    "description": {
-      "floorSize": "110 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "1"
-    },
-    "price": "R$ 50.000"
-  },
-  {
     "address": "Residencial Nova Bandeirante, Campinas",
     "description": {
       "floorSize": "90 m²",
@@ -71,6 +61,16 @@
     "price": "R$ 50.000"
   },
   {
+    "address": "Vila Regina, Campinas",
+    "description": {
+      "floorSize": "110 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "1"
+    },
+    "price": "R$ 290.000"
+  },
+  {
     "address": "Vila San Martin, Campinas",
     "description": {
       "floorSize": "45 m²",
@@ -79,6 +79,17 @@
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-vila-san-martin-campinas-45m2-id-2649796253/",
     "price": "R$ 60.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "140 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-cidade-satelite-iris-campinas-140m2-id-2742611357/",
+    "price": "R$ 80.000"
   },
   {
     "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
@@ -135,15 +146,15 @@
     "price": "R$ 108.000"
   },
   {
-    "address": "Jardim Uruguai, Campinas",
+    "address": "Núcleo Residencial Princesa D'Oeste, Campinas",
     "description": {
-      "floorSize": "60 m²",
+      "floorSize": "90 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
+      "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-uruguai-campinas-60m2-id-2742611354/",
-    "price": "R$ 110.000"
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-nucleo-residencial-princesa-d-oeste-campinas-90m2-id-2743105451/",
+    "price": "R$ 115.000"
   },
   {
     "address": "Jardim Itaguaçu I, Campinas",
@@ -154,6 +165,17 @@
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-jardim-itaguacu-i-campinas-200m2-id-2722403540/",
+    "price": "R$ 120.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-cidade-satelite-iris-campinas-80m2-id-2743110059/",
     "price": "R$ 120.000"
   },
   {
@@ -211,16 +233,6 @@
     "price": "R$ 140.000"
   },
   {
-    "address": "Jardim Campos Elíseos, Campinas",
-    "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-jardim-campos-eliseos-campinas-100m2-id-2742610768/",
-    "price": "R$ 140.000"
-  },
-  {
     "address": "Jardim Santo Antonio, Campinas",
     "description": {
       "floorSize": "280 m²",
@@ -229,6 +241,17 @@
       "numberOfParkingSpaces": "3"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-santo-antonio-campinas-280m2-id-2647916105/",
+    "price": "R$ 140.000"
+  },
+  {
+    "address": "Jardim São Pedro de Viracopos, Campinas",
+    "description": {
+      "floorSize": "90 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-sao-pedro-de-viracopos-campinas-90m2-id-2742610766/",
     "price": "R$ 140.000"
   },
   {
@@ -243,25 +266,14 @@
     "price": "R$ 145.000"
   },
   {
-    "address": "Cidade Satélite Íris, Campinas",
+    "address": "Núcleo Residencial Vila Vitória, Campinas",
     "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-80m2-id-2742611453/",
-    "price": "R$ 150.000"
-  },
-  {
-    "address": "Conjunto Habitacional Vida Nova, Campinas",
-    "description": {
-      "floorSize": "80 m²",
+      "floorSize": "118 m²",
       "numberOfRooms": "3",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-80m2-id-2742608180/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-nucleo-residencial-vila-vitoria-campinas-118m2-id-2720290645/",
     "price": "R$ 150.000"
   },
   {
@@ -276,17 +288,6 @@
     "price": "R$ 150.000"
   },
   {
-    "address": "Núcleo Residencial Vila Vitória, Campinas",
-    "description": {
-      "floorSize": "118 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-nucleo-residencial-vila-vitoria-campinas-118m2-id-2720290645/",
-    "price": "R$ 150.000"
-  },
-  {
     "address": "Vila Rica, Campinas",
     "description": {
       "floorSize": "100 m²",
@@ -295,6 +296,17 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-vila-rica-campinas-100m2-id-2639354399/",
+    "price": "R$ 150.000"
+  },
+  {
+    "address": "Vila San Martin, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-san-martin-campinas-70m2-id-2644116639/",
     "price": "R$ 150.000"
   },
   {
@@ -318,17 +330,6 @@
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-rica-campinas-55m2-id-2649592674/",
     "price": "R$ 150.000"
-  },
-  {
-    "address": "Chácaras Campos Elíseos, Campinas",
-    "description": {
-      "floorSize": "130 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-chacaras-campos-eliseos-campinas-130m2-id-2743110258/",
-    "price": "R$ 155.000"
   },
   {
     "address": "Jardim Uruguai, Campinas",
@@ -470,6 +471,16 @@
     "price": "R$ 165.000"
   },
   {
+    "address": "Jardim Capivari, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-jardim-capivari-campinas-80m2-id-2742611259/",
+    "price": "R$ 165.000"
+  },
+  {
     "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": {
       "floorSize": "80 m²",
@@ -492,17 +503,6 @@
     "price": "R$ 170.000"
   },
   {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-residencial-parque-sao-bento-campinas-70m2-id-2581977636/",
-    "price": "R$ 170.000"
-  },
-  {
     "address": "Jardim São Jorge, Campinas",
     "description": {
       "floorSize": "150 m²",
@@ -511,6 +511,17 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-jardim-sao-jorge-campinas-150m2-id-2714900532/",
+    "price": "R$ 170.000"
+  },
+  {
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-residencial-parque-sao-bento-campinas-70m2-id-2581977636/",
     "price": "R$ 170.000"
   },
   {
@@ -604,23 +615,23 @@
   {
     "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
     "description": {
-      "floorSize": "134 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-134m2-id-2696500438/",
-    "price": "R$ 176.939"
-  },
-  {
-    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
-    "description": {
       "floorSize": "133 m²",
       "numberOfRooms": "4",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-cozinha-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-133m2-id-2742789224/",
+    "price": "R$ 176.939"
+  },
+  {
+    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
+    "description": {
+      "floorSize": "134 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-134m2-id-2696500438/",
     "price": "R$ 176.939"
   },
   {
@@ -668,17 +679,6 @@
     "price": "R$ 178.000"
   },
   {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": {
-      "floorSize": "159 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-159m2-id-2542403264/",
-    "price": "R$ 180.000"
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": {
       "floorSize": "116 m²",
@@ -698,6 +698,28 @@
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-nogueira-campinas-48m2-id-2653393245/",
+    "price": "R$ 180.000"
+  },
+  {
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": {
+      "floorSize": "159 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-159m2-id-2542403264/",
+    "price": "R$ 180.000"
+  },
+  {
+    "address": "Jardim Esplanada, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-esplanada-campinas-70m2-id-2714167689/",
     "price": "R$ 180.000"
   },
   {
@@ -722,14 +744,13 @@
     "price": "R$ 180.000"
   },
   {
-    "address": "Jardim Esplanada, Campinas",
+    "address": "Vila Industrial, Campinas",
     "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
+      "floorSize": "80 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-esplanada-campinas-70m2-id-2714167689/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-vila-industrial-campinas-80m2-id-2733784755/",
     "price": "R$ 180.000"
   },
   {
@@ -744,16 +765,6 @@
     "price": "R$ 180.000"
   },
   {
-    "address": "Vila Industrial, Campinas",
-    "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-vila-industrial-campinas-80m2-id-2733784755/",
-    "price": "R$ 180.000"
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": {
       "floorSize": "75 m²",
@@ -762,17 +773,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-vida-nova-campinas-75m2-id-2542405099/",
-    "price": "R$ 180.000"
-  },
-  {
-    "address": "Jardim São Domingos, Campinas",
-    "description": {
-      "floorSize": "167 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-sao-domingos-campinas-167m2-id-2476875286/",
     "price": "R$ 180.000"
   },
   {
@@ -787,6 +787,17 @@
     "price": "R$ 180.000"
   },
   {
+    "address": "Jardim São Domingos, Campinas",
+    "description": {
+      "floorSize": "167 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-sao-domingos-campinas-167m2-id-2476875286/",
+    "price": "R$ 180.000"
+  },
+  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": {
       "floorSize": "126 m²",
@@ -795,6 +806,17 @@
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-vida-nova-campinas-126m2-id-2736339737/",
+    "price": "R$ 180.000"
+  },
+  {
+    "address": "Campo Grande, Campinas",
+    "description": {
+      "floorSize": "260 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-campo-grande-campinas-260m2-id-2742611454/",
     "price": "R$ 180.000"
   },
   {
@@ -872,17 +894,6 @@
     "price": "R$ 190.000"
   },
   {
-    "address": "Jardim Lisa, Campinas",
-    "description": {
-      "floorSize": "60 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-lisa-campinas-60m2-id-2742610074/",
-    "price": "R$ 190.000"
-  },
-  {
     "address": "Núcleo Residencial Vila Vitória, Campinas",
     "description": {
       "floorSize": "180 m²",
@@ -891,6 +902,17 @@
       "numberOfParkingSpaces": "3"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-residencial-vila-vitoria-campinas-180m2-id-2735362513/",
+    "price": "R$ 190.000"
+  },
+  {
+    "address": "Jardim Lisa, Campinas",
+    "description": {
+      "floorSize": "60 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-lisa-campinas-60m2-id-2742610074/",
     "price": "R$ 190.000"
   },
   {
@@ -905,13 +927,14 @@
     "price": "R$ 190.000"
   },
   {
-    "address": "Jardim Lisa, Campinas",
+    "address": "Vila Lunardi, Campinas",
     "description": {
-      "floorSize": "166 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
+      "floorSize": "80 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-lunardi-campinas-80m2-id-2701427506/",
     "price": "R$ 190.000"
   },
   {
@@ -925,14 +948,13 @@
     "price": "R$ 190.000"
   },
   {
-    "address": "Vila Lunardi, Campinas",
+    "address": "Jardim Lisa, Campinas",
     "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
+      "floorSize": "166 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-lunardi-campinas-80m2-id-2701427506/",
     "price": "R$ 190.000"
   },
   {
@@ -1076,6 +1098,17 @@
     "price": "R$ 195.000"
   },
   {
+    "address": "Jardim Lisa, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-lisa-campinas-70m2-id-2742608174/",
+    "price": "R$ 195.000"
+  },
+  {
     "address": "Cidade Satélite Íris, Campinas",
     "description": {
       "floorSize": "120 m²",
@@ -1087,26 +1120,15 @@
     "price": "R$ 196.100"
   },
   {
-    "address": "Jardim Mirassol, Campinas",
+    "address": "Jardim Ouro Verde, Campinas",
     "description": {
-      "floorSize": "60 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-quintal-jardim-mirassol-campinas-60m2-id-2627441508/",
-    "price": "R$ 197.000"
-  },
-  {
-    "address": "Conjunto Habitacional Vida Nova, Campinas",
-    "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
+      "floorSize": "103 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-conjunto-habitacional-vida-nova-campinas-100m2-id-2550966186/",
-    "price": "R$ 199.000"
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-2-quartos-com-churrasqueira-jardim-ouro-verde-campinas-103m2-id-2714133788/",
+    "price": "R$ 192.000"
   },
   {
     "address": "Cidade Satélite Íris, Campinas",
@@ -1128,6 +1150,17 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-rica-campinas-80m2-id-2653392374/",
+    "price": "R$ 195.000"
+  },
+  {
+    "address": "Jardim Lisa, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-lisa-campinas-70m2-id-2742608174/",
     "price": "R$ 195.000"
   },
   {
@@ -1164,6 +1197,26 @@
     "price": "R$ 199.000"
   },
   {
+    "address": "Vila Lídia, Campinas",
+    "description": {
+      "floorSize": "89 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-lidia-campinas-89m2-id-2562767164/",
+    "price": "R$ 200.000"
+  },
+  {
+    "address": "Jardim Monte Alto, Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 200.000"
+  },
+  {
     "address": "Conjunto Habitacional Parque Itajaí, Campinas",
     "description": {
       "floorSize": "60 m²",
@@ -1186,16 +1239,6 @@
     "price": "R$ 200.000"
   },
   {
-    "address": "Vila Lídia, Campinas",
-    "description": {
-      "floorSize": "89 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-lidia-campinas-89m2-id-2562767164/",
-    "price": "R$ 200.000"
-  },
-  {
     "address": "Vila Aeroporto III, Campinas",
     "description": {
       "floorSize": "113 m²",
@@ -1204,16 +1247,6 @@
       "numberOfParkingSpaces": "3"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-vila-aeroporto-iii-campinas-113m2-id-2632602467/",
-    "price": "R$ 200.000"
-  },
-  {
-    "address": "Jardim Monte Alto, Campinas",
-    "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
     "price": "R$ 200.000"
   },
   {
@@ -1227,14 +1260,14 @@
     "price": "R$ 200.000"
   },
   {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "address": "Jardim Uruguai, Campinas",
     "description": {
       "floorSize": "200 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-200m2-id-2716288499/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-jardim-uruguai-campinas-200m2-id-2743109861/",
     "price": "R$ 200.000"
   },
   {
@@ -1249,14 +1282,14 @@
     "price": "R$ 200.000"
   },
   {
-    "address": "Dic IV (Conjunto Habitacional Lech Walesa), Campinas",
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
     "description": {
-      "floorSize": "150 m²",
+      "floorSize": "50 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-dic-iv-conjunto-habitacional-lech-walesa-campinas-150m2-id-2664379521/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-50m2-id-2711855090/",
     "price": "R$ 200.000"
   },
   {
@@ -1271,14 +1304,14 @@
     "price": "R$ 200.000"
   },
   {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "address": "Dic IV (Conjunto Habitacional Lech Walesa), Campinas",
     "description": {
-      "floorSize": "50 m²",
+      "floorSize": "150 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-50m2-id-2711855090/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-dic-iv-conjunto-habitacional-lech-walesa-campinas-150m2-id-2664379521/",
     "price": "R$ 200.000"
   },
   {
@@ -1293,57 +1326,24 @@
     "price": "R$ 200.000"
   },
   {
-    "address": "Cidade Satélite Íris, Campinas",
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
     "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "3",
+      "floorSize": "200 m²",
+      "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-cidade-satelite-iris-campinas-120m2-id-2726234739/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-200m2-id-2716288499/",
     "price": "R$ 200.000"
   },
   {
-    "address": "Núcleo Residencial Independência, Campinas",
+    "address": "Cidade Satélite Íris, Campinas",
     "description": {
-      "floorSize": "90 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-nucleo-residencial-independencia-campinas-90m2-id-2714134601/",
-    "price": "R$ 200.000"
-  },
-  {
-    "address": "Jardim Novo Real Parque, Campinas",
-    "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-jardim-novo-real-parque-campinas-120m2-id-2728290783/",
-    "price": "R$ 200.000"
-  },
-  {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "4"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-residencial-parque-sao-bento-campinas-70m2-id-2661482459/",
-    "price": "R$ 200.000"
-  },
-  {
-    "address": "Botafogo, Campinas",
-    "description": {
-      "floorSize": "110 m²",
+      "floorSize": "200 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-botafogo-campinas-110m2-id-2728742132/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-cidade-satelite-iris-campinas-200m2-id-2711856610/",
     "price": "R$ 200.000"
   },
   {
@@ -1358,16 +1358,6 @@
     "price": "R$ 200.000"
   },
   {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": {
-      "floorSize": "200 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-cidade-satelite-iris-campinas-200m2-id-2711856610/",
-    "price": "R$ 200.000"
-  },
-  {
     "address": "Jardim Fernanda, Campinas",
     "description": {
       "floorSize": "60 m²",
@@ -1376,6 +1366,17 @@
       "numberOfParkingSpaces": "3"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-fernanda-campinas-60m2-id-2489486556/",
+    "price": "R$ 200.000"
+  },
+  {
+    "address": "Jardim Novo Real Parque, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-jardim-novo-real-parque-campinas-120m2-id-2728290783/",
     "price": "R$ 200.000"
   },
   {
@@ -1412,13 +1413,46 @@
     "price": "R$ 200.000"
   },
   {
-    "address": "Jardim Aliança, Campinas",
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
     "description": {
-      "floorSize": "150 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "3"
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "4"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-alianca-campinas-150m2-id-2532181158/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-residencial-parque-sao-bento-campinas-70m2-id-2661482459/",
+    "price": "R$ 200.000"
+  },
+  {
+    "address": "Botafogo, Campinas",
+    "description": {
+      "floorSize": "110 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-botafogo-campinas-110m2-id-2728742132/",
+    "price": "R$ 200.000"
+  },
+  {
+    "address": "Jardim Vista Alegre, Campinas",
+    "description": {
+      "floorSize": "250 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-vista-alegre-campinas-250m2-id-2743106842/",
+    "price": "R$ 200.000"
+  },
+  {
+    "address": "Núcleo Residencial Independência, Campinas",
+    "description": {
+      "floorSize": "90 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-nucleo-residencial-independencia-campinas-90m2-id-2714134601/",
     "price": "R$ 200.000"
   },
   {
@@ -1443,16 +1477,6 @@
     "price": "R$ 205.000"
   },
   {
-    "address": "Jardim do Lago, Campinas",
-    "description": {
-      "floorSize": "126 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-piscina-jardim-do-lago-campinas-126m2-id-2724936751/",
-    "price": "R$ 205.000"
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": {
       "floorSize": "24 m²",
@@ -1461,6 +1485,16 @@
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-24m2-id-2654136325/",
+    "price": "R$ 205.000"
+  },
+  {
+    "address": "Jardim do Lago, Campinas",
+    "description": {
+      "floorSize": "126 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-piscina-jardim-do-lago-campinas-126m2-id-2724936751/",
     "price": "R$ 205.000"
   },
   {
@@ -1485,27 +1519,6 @@
     "price": "R$ 207.200"
   },
   {
-    "address": "Centro, Campinas",
-    "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-centro-campinas-100m2-id-2631981369/",
-    "price": "R$ 210.000"
-  },
-  {
-    "address": "Jardim Monte Cristo/Parque Oziel, Campinas",
-    "description": {
-      "floorSize": "50 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-monte-cristo-parque-oziel-campinas-50m2-id-2742611255/",
-    "price": "R$ 210.000"
-  },
-  {
     "address": "Dic VI (Conjunto Habitacional Santo Dias Silva), Campinas",
     "description": {
       "floorSize": "160 m²",
@@ -1514,17 +1527,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-dic-vi-conjunto-habitacional-santo-dias-silva-campinas-160m2-id-2722396784/",
-    "price": "R$ 210.000"
-  },
-  {
-    "address": "Jardim Campina Grande, Campinas",
-    "description": {
-      "floorSize": "61 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-campina-grande-campinas-61m2-id-2738093045/",
     "price": "R$ 210.000"
   },
   {
@@ -1539,25 +1541,35 @@
     "price": "R$ 210.000"
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-loteamento-residencial-novo-mundo-campinas-80m2-id-1897825486/",
-    "price": "R$ 210.000"
-  },
-  {
     "address": "Jardim Campina Grande, Campinas",
     "description": {
-      "floorSize": "75 m²",
+      "floorSize": "61 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-campina-grande-campinas-75m2-id-2532180660/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-campina-grande-campinas-61m2-id-2738093045/",
+    "price": "R$ 210.000"
+  },
+  {
+    "address": "Centro, Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-centro-campinas-100m2-id-2631981369/",
+    "price": "R$ 210.000"
+  },
+  {
+    "address": "Eldorado dos Carajás, Campinas",
+    "description": {
+      "floorSize": "130 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-eldorado-dos-carajas-campinas-130m2-id-2644095361/",
     "price": "R$ 210.000"
   },
   {
@@ -1572,14 +1584,25 @@
     "price": "R$ 210.000"
   },
   {
-    "address": "Eldorado dos Carajás, Campinas",
+    "address": "Jardim Campina Grande, Campinas",
     "description": {
-      "floorSize": "130 m²",
+      "floorSize": "75 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-campina-grande-campinas-75m2-id-2532180660/",
+    "price": "R$ 210.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "80 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-eldorado-dos-carajas-campinas-130m2-id-2644095361/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-loteamento-residencial-novo-mundo-campinas-80m2-id-1897825486/",
     "price": "R$ 210.000"
   },
   {
@@ -1660,6 +1683,17 @@
     "price": "R$ 215.000"
   },
   {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-100m2-id-2655567868/",
+    "price": "R$ 215.000"
+  },
+  {
     "address": "Parque Fazendinha, Campinas",
     "description": {
       "floorSize": "250 m²",
@@ -1682,14 +1716,14 @@
     "price": "R$ 215.000"
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "address": "Parque Residencial Shalon, Campinas",
     "description": {
       "floorSize": "100 m²",
-      "numberOfRooms": "2",
+      "numberOfRooms": "3",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-100m2-id-2655567868/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-parque-residencial-shalon-campinas-100m2-id-2646539165/",
     "price": "R$ 215.000"
   },
   {
@@ -1701,17 +1735,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-rica-campinas-100m2-id-2637485701/",
-    "price": "R$ 215.000"
-  },
-  {
-    "address": "Parque Residencial Shalon, Campinas",
-    "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-parque-residencial-shalon-campinas-100m2-id-2646539165/",
     "price": "R$ 215.000"
   },
   {
@@ -1737,25 +1760,35 @@
     "price": "R$ 219.000"
   },
   {
-    "address": "Vila Castelo Branco, Campinas",
+    "address": "Chácara Nova Boa Vista, Campinas",
     "description": {
-      "floorSize": "135 m²",
+      "floorSize": "100 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
+      "numberOfBathroomsTotal": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-castelo-branco-campinas-135m2-id-2720191738/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-chacara-nova-boa-vista-campinas-100m2-id-2738504921/",
+    "price": "R$ 220.000"
+  },
+  {
+    "address": "Jardim Novo Campos Elíseos, Campinas",
+    "description": {
+      "floorSize": "200 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-jardim-novo-campos-eliseos-campinas-200m2-id-2737092394/",
     "price": "R$ 220.000"
   },
   {
     "address": "Parque Residencial Shalon, Campinas",
     "description": {
-      "floorSize": "70 m²",
+      "floorSize": "96 m²",
       "numberOfRooms": "3",
       "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
+      "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-parque-residencial-shalon-campinas-70m2-id-2686056703/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-parque-residencial-shalon-campinas-96m2-id-2725786333/",
     "price": "R$ 220.000"
   },
   {
@@ -1780,14 +1813,25 @@
     "price": "R$ 220.000"
   },
   {
-    "address": "Jardim Novo Campos Elíseos, Campinas",
+    "address": "Vila Castelo Branco, Campinas",
     "description": {
-      "floorSize": "200 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "2"
+      "floorSize": "135 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-jardim-novo-campos-eliseos-campinas-200m2-id-2737092394/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-castelo-branco-campinas-135m2-id-2720191738/",
+    "price": "R$ 220.000"
+  },
+  {
+    "address": "Parque Residencial Shalon, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-parque-residencial-shalon-campinas-70m2-id-2686056703/",
     "price": "R$ 220.000"
   },
   {
@@ -1799,6 +1843,16 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-jardim-mirassol-campinas-80m2-id-2532183941/",
+    "price": "R$ 220.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "65 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
     "price": "R$ 220.000"
   },
   {
@@ -1818,16 +1872,6 @@
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
-    },
-    "price": "R$ 220.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "65 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
     },
     "price": "R$ 220.000"
   },
@@ -1854,14 +1898,14 @@
     "price": "R$ 220.000"
   },
   {
-    "address": "Parque Fazendinha, Campinas",
+    "address": "Jardim Mirassol, Campinas",
     "description": {
-      "floorSize": "140 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "2"
+      "floorSize": "87 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "5"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-parque-fazendinha-campinas-140m2-id-2644460156/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-mirassol-campinas-87m2-id-2643226497/",
     "price": "R$ 220.000"
   },
   {
@@ -1898,6 +1942,17 @@
     "price": "R$ 220.000"
   },
   {
+    "address": "Parque Fazendinha, Campinas",
+    "description": {
+      "floorSize": "140 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-parque-fazendinha-campinas-140m2-id-2644460156/",
+    "price": "R$ 220.000"
+  },
+  {
     "address": "Loteamento Chácaras Gargantilhas, Campinas",
     "description": {
       "floorSize": "50 m²",
@@ -1906,17 +1961,6 @@
       "numberOfParkingSpaces": "5"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-quintal-loteamento-chacaras-gargantilhas-campinas-50m2-id-2678412295/",
-    "price": "R$ 220.000"
-  },
-  {
-    "address": "Jardim Mirassol, Campinas",
-    "description": {
-      "floorSize": "87 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "5"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-mirassol-campinas-87m2-id-2643226497/",
     "price": "R$ 220.000"
   },
   {
@@ -1955,23 +1999,23 @@
   {
     "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": {
-      "floorSize": "43 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-interfone-loteamento-residencial-novo-mundo-campinas-43m2-id-2568562828/",
-    "price": "R$ 220.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
       "floorSize": "65 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-jardim-loteamento-residencial-novo-mundo-campinas-65m2-id-2603446457/",
+    "price": "R$ 220.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "43 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-interfone-loteamento-residencial-novo-mundo-campinas-43m2-id-2568562828/",
     "price": "R$ 220.000"
   },
   {
@@ -2007,17 +2051,6 @@
     "price": "R$ 220.000"
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "125 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-125m2-id-2711856734/",
-    "price": "R$ 222.000"
-  },
-  {
     "address": "Jardim Novo Maracanã, Campinas",
     "description": {
       "floorSize": "75 m²",
@@ -2026,6 +2059,17 @@
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-novo-maracana-campinas-75m2-id-2704417189/",
+    "price": "R$ 222.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "125 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-125m2-id-2711856734/",
     "price": "R$ 222.000"
   },
   {
@@ -2113,6 +2157,17 @@
     "price": "R$ 225.000"
   },
   {
+    "address": "Jardim Campineiro, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "5",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-com-cozinha-jardim-campineiro-campinas-120m2-id-2653396860/",
+    "price": "R$ 225.000"
+  },
+  {
     "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": {
       "floorSize": "157 m²",
@@ -2124,15 +2179,58 @@
     "price": "R$ 225.000"
   },
   {
-    "address": "Jardim Campineiro, Campinas",
+    "address": "Dic VI (Conjunto Habitacional Santo Dias Silva), Campinas",
     "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "5",
+      "floorSize": "160 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-dic-vi-conjunto-habitacional-santo-dias-silva-campinas-160m2-id-2740416422/",
+    "price": "R$ 225.000"
+  },
+  {
+    "address": "Jardim Santa Rosa, Campinas",
+    "description": {
+      "floorSize": "58 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-santa-rosa-campinas-58m2-id-2648793160/",
+    "price": "R$ 225.000"
+  },
+  {
+    "address": "Jardim Fernanda - Continuação, Campinas",
+    "description": {
+      "floorSize": "125 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-fernanda-continuacao-campinas-125m2-id-2714132427/",
+    "price": "R$ 225.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "75 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1 - 2",
+      "numberOfParkingSpaces": "1 - 2"
+    },
+    "price": "R$ 225.020"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "125 m²",
+      "numberOfRooms": "2",
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-com-cozinha-jardim-campineiro-campinas-120m2-id-2653396860/",
-    "price": "R$ 225.000"
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-jardim-cidade-satelite-iris-campinas-125m2-id-2722704168/",
+    "price": "R$ 226.000"
   },
   {
     "address": "Dic VI (Conjunto Habitacional Santo Dias Silva), Campinas",
@@ -2211,68 +2309,14 @@
     "price": "R$ 229.000"
   },
   {
-    "address": "Jardim Fernanda - Continuação, Campinas",
+    "address": "Jardim Londres, Campinas",
     "description": {
-      "floorSize": "125 m²",
+      "floorSize": "70 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-fernanda-continuacao-campinas-125m2-id-2714132427/",
-    "price": "R$ 225.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "75 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1 - 2",
-      "numberOfParkingSpaces": "1 - 2"
-    },
-    "price": "R$ 225.020"
-  },
-  {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": {
-      "floorSize": "125 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-jardim-cidade-satelite-iris-campinas-125m2-id-2722704168/",
-    "price": "R$ 226.000"
-  },
-  {
-    "address": "Núcleo Residencial Sete de Setembro, Campinas",
-    "description": {
-      "floorSize": "75 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-nucleo-residencial-sete-de-setembro-campinas-75m2-id-2714133350/",
-    "price": "R$ 226.000"
-  },
-  {
-    "address": "Parque São Paulo, Campinas",
-    "description": {
-      "floorSize": "160 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "4",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-piscina-parque-sao-paulo-campinas-160m2-id-2741399320/",
-    "price": "R$ 229.000"
-  },
-  {
-    "address": "Jardim Ouro Verde, Campinas",
-    "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "3",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-ouro-verde-campinas-100m2-id-2663067301/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-londres-campinas-70m2-id-2711856317/",
     "price": "R$ 230.000"
   },
   {
@@ -2287,14 +2331,24 @@
     "price": "R$ 230.000"
   },
   {
-    "address": "Jardim Londres, Campinas",
+    "address": "Jardim Ouro Verde, Campinas",
     "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
+      "floorSize": "100 m²",
+      "numberOfRooms": "3",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-londres-campinas-70m2-id-2711856317/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-ouro-verde-campinas-100m2-id-2663067301/",
+    "price": "R$ 230.000"
+  },
+  {
+    "address": "Parque Dom Pedro II, Campinas",
+    "description": {
+      "floorSize": "130 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-parque-dom-pedro-ii-campinas-130m2-id-2585874408/",
     "price": "R$ 230.000"
   },
   {
@@ -2309,13 +2363,25 @@
     "price": "R$ 230.000"
   },
   {
-    "address": "Parque Dom Pedro II, Campinas",
+    "address": "Jardim Novo Real Parque, Campinas",
     "description": {
-      "floorSize": "130 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "2"
+      "floorSize": "125 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-parque-dom-pedro-ii-campinas-130m2-id-2585874408/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-novo-real-parque-campinas-125m2-id-2717152354/",
+    "price": "R$ 230.000"
+  },
+  {
+    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
+    "description": {
+      "floorSize": "200 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-conjunto-habitacional-parque-itajai-campinas-200m2-id-2655937650/",
     "price": "R$ 230.000"
   },
   {
@@ -2329,17 +2395,6 @@
     "price": "R$ 230.000"
   },
   {
-    "address": "Jardim Novo Real Parque, Campinas",
-    "description": {
-      "floorSize": "125 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-novo-real-parque-campinas-125m2-id-2717152354/",
-    "price": "R$ 230.000"
-  },
-  {
     "address": "Jardim Londres, Campinas",
     "description": {
       "floorSize": "100 m²",
@@ -2348,17 +2403,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-londres-campinas-100m2-id-2581466330/",
-    "price": "R$ 230.000"
-  },
-  {
-    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
-    "description": {
-      "floorSize": "200 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-conjunto-habitacional-parque-itajai-campinas-200m2-id-2655937650/",
     "price": "R$ 230.000"
   },
   {
@@ -2448,6 +2492,28 @@
     "price": "R$ 230.000"
   },
   {
+    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-parque-itajai-campinas-80m2-id-2624354826/",
+    "price": "R$ 230.000"
+  },
+  {
+    "address": "Núcleo Residencial Nossa Senhora Aparecida, Campinas",
+    "description": {
+      "floorSize": "144 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-nucleo-residencial-nossa-senhora-aparecida-campinas-144m2-id-2714131357/",
+    "price": "R$ 230.000"
+  },
+  {
     "address": "Vila Castelo Branco, Campinas",
     "description": {
       "floorSize": "84 m²",
@@ -2465,28 +2531,6 @@
       "numberOfBathroomsTotal": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-industrial-campinas-99m2-id-2692843293/",
-    "price": "R$ 230.000"
-  },
-  {
-    "address": "Núcleo Residencial Nossa Senhora Aparecida, Campinas",
-    "description": {
-      "floorSize": "144 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-nucleo-residencial-nossa-senhora-aparecida-campinas-144m2-id-2714131357/",
-    "price": "R$ 230.000"
-  },
-  {
-    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
-    "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-parque-itajai-campinas-80m2-id-2624354826/",
     "price": "R$ 230.000"
   },
   {
@@ -2556,17 +2600,6 @@
     "price": "R$ 235.000"
   },
   {
-    "address": "Loteamento Residencial Rosário, Campinas",
-    "description": {
-      "floorSize": "66 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-loteamento-residencial-rosario-campinas-66m2-id-2714134398/",
-    "price": "R$ 235.000"
-  },
-  {
     "address": "Conjunto Habitacional Parque Itajaí, Campinas",
     "description": {
       "floorSize": "90 m²",
@@ -2595,6 +2628,17 @@
       "numberOfBathroomsTotal": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-marieta-campinas-170m2-id-2736970621/",
+    "price": "R$ 235.000"
+  },
+  {
+    "address": "Loteamento Residencial Rosário, Campinas",
+    "description": {
+      "floorSize": "66 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-loteamento-residencial-rosario-campinas-66m2-id-2714134398/",
     "price": "R$ 235.000"
   },
   {
@@ -2642,17 +2686,6 @@
     "price": "R$ 235.000"
   },
   {
-    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
-    "description": {
-      "floorSize": "180 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-habitacional-parque-da-floresta-campinas-180m2-id-2721815136/",
-    "price": "R$ 235.000"
-  },
-  {
     "address": "Santa Clara, Campinas",
     "description": {
       "floorSize": "110 m²",
@@ -2672,6 +2705,17 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-piscina-santa-clara-campinas-110m2-id-2742200281/",
+    "price": "R$ 235.000"
+  },
+  {
+    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
+    "description": {
+      "floorSize": "180 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-habitacional-parque-da-floresta-campinas-180m2-id-2721815136/",
     "price": "R$ 235.000"
   },
   {
@@ -2924,17 +2968,6 @@
     "price": "R$ 240.000"
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-loteamento-residencial-novo-mundo-campinas-70m2-id-2714131496/",
-    "price": "R$ 240.000"
-  },
-  {
     "address": "Jardim Santa Lúcia, Campinas",
     "description": {
       "floorSize": "130 m²",
@@ -2943,6 +2976,17 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-jardim-santa-lucia-campinas-130m2-id-2691158065/",
+    "price": "R$ 240.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-loteamento-residencial-novo-mundo-campinas-70m2-id-2714131496/",
     "price": "R$ 240.000"
   },
   {
@@ -3009,17 +3053,6 @@
     "price": "R$ 245.000"
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-70m2-id-2538916365/",
-    "price": "R$ 245.000"
-  },
-  {
     "address": "Jardim Yeda, Campinas",
     "description": {
       "floorSize": "160 m²",
@@ -3031,14 +3064,14 @@
     "price": "R$ 245.000"
   },
   {
-    "address": "Jardim Florence, Campinas",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": {
-      "floorSize": "175 m²",
-      "numberOfRooms": "5",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "3"
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-jardim-florence-campinas-175m2-id-2721404150/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-70m2-id-2538916365/",
     "price": "R$ 245.000"
   },
   {
@@ -3052,36 +3085,14 @@
     "price": "R$ 245.000"
   },
   {
-    "address": "Eldorado dos Carajás, Campinas",
+    "address": "Jardim Florence, Campinas",
     "description": {
-      "floorSize": "126 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
+      "floorSize": "175 m²",
+      "numberOfRooms": "5",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "3"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-eldorado-dos-carajas-campinas-126m2-id-2682627758/",
-    "price": "R$ 245.000"
-  },
-  {
-    "address": "Residencial Colina das Nascentes, Campinas",
-    "description": {
-      "floorSize": "126 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-4-quartos-residencial-colina-das-nascentes-campinas-126m2-id-2714134206/",
-    "price": "R$ 245.000"
-  },
-  {
-    "address": "Jardim São Pedro de Viracopos, Campinas",
-    "description": {
-      "floorSize": "245 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-sao-pedro-de-viracopos-campinas-245m2-id-2714130359/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-jardim-florence-campinas-175m2-id-2721404150/",
     "price": "R$ 245.000"
   },
   {
@@ -3106,16 +3117,6 @@
     "price": "R$ 245.000"
   },
   {
-    "address": "Núcleo Residencial Jardim Santa Marta, Campinas",
-    "description": {
-      "floorSize": "300 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "6"
-    },
-    "price": "R$ 245.000"
-  },
-  {
     "address": "Residencial São Luís, Campinas",
     "description": {
       "floorSize": "54 m²",
@@ -3127,14 +3128,46 @@
     "price": "R$ 245.000"
   },
   {
-    "address": "Vila Lunardi, Campinas",
+    "address": "Eldorado dos Carajás, Campinas",
     "description": {
-      "floorSize": "100 m²",
+      "floorSize": "126 m²",
       "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
+      "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-lunardi-campinas-100m2-id-2637304394/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-eldorado-dos-carajas-campinas-126m2-id-2682627758/",
+    "price": "R$ 245.000"
+  },
+  {
+    "address": "Núcleo Residencial Jardim Santa Marta, Campinas",
+    "description": {
+      "floorSize": "300 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "6"
+    },
+    "price": "R$ 245.000"
+  },
+  {
+    "address": "Jardim São Pedro de Viracopos, Campinas",
+    "description": {
+      "floorSize": "245 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-sao-pedro-de-viracopos-campinas-245m2-id-2714130359/",
+    "price": "R$ 245.000"
+  },
+  {
+    "address": "Residencial Colina das Nascentes, Campinas",
+    "description": {
+      "floorSize": "126 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-4-quartos-residencial-colina-das-nascentes-campinas-126m2-id-2714134206/",
     "price": "R$ 245.000"
   },
   {
@@ -3146,6 +3179,17 @@
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-boa-esperanca-campinas-100m2-id-2714889202/",
+    "price": "R$ 245.000"
+  },
+  {
+    "address": "Vila Lunardi, Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-lunardi-campinas-100m2-id-2637304394/",
     "price": "R$ 245.000"
   },
   {
@@ -3204,100 +3248,25 @@
     "price": "R$ 249.100"
   },
   {
-    "address": "Parque Residencial Vila União, Campinas",
-    "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Jardim García, Campinas",
-    "description": {
-      "floorSize": "89 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "5"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-garcia-campinas-89m2-id-2722689943/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Jardim São Fernando, Campinas",
+    "address": "Jardim Ouro Preto, Campinas",
     "description": {
       "floorSize": "150 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-sao-fernando-campinas-150m2-id-2651996264/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Vila Castelo Branco, Campinas",
-    "description": {
-      "floorSize": "99 m²",
       "numberOfRooms": "3",
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-vila-castelo-branco-campinas-99m2-id-2731801217/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-varanda-jardim-ouro-preto-campinas-150m2-id-2708952073/",
     "price": "R$ 250.000"
   },
   {
-    "address": "Jardim Chapadão, Campinas",
+    "address": "Conjunto Habitacional Vila Réggio, Campinas",
     "description": {
-      "floorSize": "110 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-jardim-chapadao-campinas-110m2-id-2666702372/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": {
-      "floorSize": "126 m²",
+      "floorSize": "65 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "3"
+      "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-126m2-id-2619777936/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Conjunto Habitacional Padre Anchieta, Campinas",
-    "description": {
-      "floorSize": "60 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "5"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-padre-anchieta-campinas-60m2-id-2737716213/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Jardim Tamoio, Campinas",
-    "description": {
-      "floorSize": "40 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-tamoio-campinas-40m2-id-2559687163/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Parque Via Norte, Campinas",
-    "description": {
-      "floorSize": "180 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-quintal-parque-via-norte-campinas-180m2-id-2714889847/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-vila-reggio-campinas-65m2-id-2743411457/",
     "price": "R$ 250.000"
   },
   {
@@ -3323,14 +3292,90 @@
     "price": "R$ 250.000"
   },
   {
-    "address": "Conjunto Habitacional Vila Réggio, Campinas",
+    "address": "Vila Aeroporto, Campinas",
     "description": {
-      "floorSize": "65 m²",
+      "floorSize": "125 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
+      "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-vila-reggio-campinas-65m2-id-2743411457/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-vila-aeroporto-campinas-125m2-id-2681925097/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Parque Residencial Vila União, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": {
+      "floorSize": "126 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-126m2-id-2619777936/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Conjunto Habitacional Padre Anchieta, Campinas",
+    "description": {
+      "floorSize": "60 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "5"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-padre-anchieta-campinas-60m2-id-2737716213/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Jardim García, Campinas",
+    "description": {
+      "floorSize": "89 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "5"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-garcia-campinas-89m2-id-2722689943/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Jardim São Fernando, Campinas",
+    "description": {
+      "floorSize": "150 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-sao-fernando-campinas-150m2-id-2651996264/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": {
+      "floorSize": "126 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-126m2-id-2619777936/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Conjunto Habitacional Padre Anchieta, Campinas",
+    "description": {
+      "floorSize": "60 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "5"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-padre-anchieta-campinas-60m2-id-2737716213/",
     "price": "R$ 250.000"
   },
   {
@@ -3419,17 +3464,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-vila-palacios-campinas-55m2-id-2720406346/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Vila Castelo Branco, Campinas",
-    "description": {
-      "floorSize": "250 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-castelo-branco-campinas-250m2-id-2714132887/",
     "price": "R$ 250.000"
   },
   {
@@ -3562,16 +3596,6 @@
     "price": "R$ 250.000"
   },
   {
-    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
-    "description": {
-      "floorSize": "93 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1 - 2",
-      "numberOfParkingSpaces": "1 - 3"
-    },
-    "price": "R$ 260.000"
-  },
-  {
     "address": "Loteamento Residencial Porto Seguro, Campinas",
     "description": {
       "floorSize": "70 m²",
@@ -3626,6 +3650,27 @@
     "price": "R$ 250.000"
   },
   {
+    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
+    "description": {
+      "floorSize": "93 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1 - 2",
+      "numberOfParkingSpaces": "1 - 3"
+    },
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Vila Castelo Branco, Campinas",
+    "description": {
+      "floorSize": "250 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-castelo-branco-campinas-250m2-id-2714132887/",
+    "price": "R$ 250.000"
+  },
+  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": {
       "floorSize": "176 m²",
@@ -3637,14 +3682,79 @@
     "price": "R$ 250.000"
   },
   {
-    "address": "Jardim Liliza, Campinas",
+    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
     "description": {
-      "floorSize": "40 m²",
-      "numberOfRooms": "1",
+      "floorSize": "75 m²",
+      "numberOfRooms": "4",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-liliza-campinas-40m2-id-2714168275/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-escritorio-dic-v-conjunto-habitacional-chico-mendes-campinas-75m2-id-2452453629/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Vila Trinta e Um de Março, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-trinta-e-um-de-marco-campinas-70m2-id-2730604420/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Jardim Marisa, Campinas",
+    "description": {
+      "floorSize": "125 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-marisa-campinas-125m2-id-2581231214/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "210 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-cozinha-cidade-satelite-iris-campinas-210m2-id-2653397181/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Jardim Ouro Preto, Campinas",
+    "description": {
+      "floorSize": "170 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-ouro-preto-campinas-170m2-id-2647808302/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
+    "description": {
+      "floorSize": "170 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-170m2-id-2575858361/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Residencial Colina das Nascentes, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-residencial-colina-das-nascentes-campinas-120m2-id-2603748212/",
     "price": "R$ 250.000"
   },
   {
@@ -3659,14 +3769,14 @@
     "price": "R$ 250.000"
   },
   {
-    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
     "description": {
-      "floorSize": "170 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "3"
+      "floorSize": "39 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-170m2-id-2575858361/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-residencial-parque-sao-bento-campinas-39m2-id-2714168809/",
     "price": "R$ 250.000"
   },
   {
@@ -3692,123 +3802,14 @@
     "price": "R$ 250.000"
   },
   {
-    "address": "Fundação da Casa Popular, Campinas",
+    "address": "Jardim Liliza, Campinas",
     "description": {
-      "floorSize": "69 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-fundacao-da-casa-popular-campinas-69m2-id-2742269158/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Cidade Singer, Campinas",
-    "description": {
-      "floorSize": "250 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-cidade-singer-campinas-250m2-id-2734616143/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Conjunto Habitacional Residencial Olímpia, Campinas",
-    "description": {
-      "floorSize": "95 m²",
-      "numberOfRooms": "3",
+      "floorSize": "40 m²",
+      "numberOfRooms": "1",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-ar-condicionado-conjunto-habitacional-residencial-olimpia-campinas-95m2-id-2624621618/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": {
-      "floorSize": "210 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-cozinha-cidade-satelite-iris-campinas-210m2-id-2653397181/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
-    "description": {
-      "floorSize": "75 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-escritorio-dic-v-conjunto-habitacional-chico-mendes-campinas-75m2-id-2452453629/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Residencial Colina das Nascentes, Campinas",
-    "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-residencial-colina-das-nascentes-campinas-120m2-id-2603748212/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Jardim Marisa, Campinas",
-    "description": {
-      "floorSize": "125 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-marisa-campinas-125m2-id-2581231214/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Vila Trinta e Um de Março, Campinas",
-    "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-trinta-e-um-de-marco-campinas-70m2-id-2730604420/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Jardim Ouro Preto, Campinas",
-    "description": {
-      "floorSize": "170 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-ouro-preto-campinas-170m2-id-2647808302/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": {
-      "floorSize": "39 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-residencial-parque-sao-bento-campinas-39m2-id-2714168809/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Jardim Bassoli, Campinas",
-    "description": {
-      "floorSize": "65 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-bassoli-campinas-65m2-id-2743313096/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-liliza-campinas-40m2-id-2714168275/",
     "price": "R$ 250.000"
   },
   {
@@ -3823,6 +3824,39 @@
     "price": "R$ 250.000"
   },
   {
+    "address": "Fundação da Casa Popular, Campinas",
+    "description": {
+      "floorSize": "69 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-fundacao-da-casa-popular-campinas-69m2-id-2742269158/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Jardim Marisa, Campinas",
+    "description": {
+      "floorSize": "56 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-marisa-campinas-56m2-id-2657234623/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Parque Valença II, Campinas",
+    "description": {
+      "floorSize": "250 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-parque-valenca-ii-campinas-250m2-id-2711855270/",
+    "price": "R$ 250.000"
+  },
+  {
     "address": "Parque Dom Pedro II, Campinas",
     "description": {
       "floorSize": "180 m²",
@@ -3834,46 +3868,14 @@
     "price": "R$ 250.000"
   },
   {
-    "address": "Loteamento Vila Lafayette Álvaro, Campinas",
+    "address": "Jardim Bassoli, Campinas",
     "description": {
-      "floorSize": "178 m²",
+      "floorSize": "65 m²",
       "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "3"
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-loteamento-vila-lafayette-alvaro-campinas-178m2-id-2711855820/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Jardim São Fernando, Campinas",
-    "description": {
-      "floorSize": "50 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-sao-fernando-campinas-50m2-id-2573920904/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Loteamento Residencial Porto Seguro, Campinas",
-    "description": {
-      "floorSize": "126 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-porto-seguro-campinas-126m2-id-2703940023/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
-    "description": {
-      "floorSize": "150 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-sala-de-jantar-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-150m2-id-2740666001/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-bassoli-campinas-65m2-id-2743313096/",
     "price": "R$ 250.000"
   },
   {
@@ -3921,28 +3923,6 @@
     "price": "R$ 250.000"
   },
   {
-    "address": "Jardim Marisa, Campinas",
-    "description": {
-      "floorSize": "56 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-marisa-campinas-56m2-id-2657234623/",
-    "price": "R$ 250.000"
-  },
-  {
-    "address": "Parque Valença II, Campinas",
-    "description": {
-      "floorSize": "250 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-parque-valenca-ii-campinas-250m2-id-2711855270/",
-    "price": "R$ 250.000"
-  },
-  {
     "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
     "description": {
       "floorSize": "75 m²",
@@ -3962,6 +3942,49 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-residencial-parque-sao-bento-campinas-75m2-id-2462037949/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Loteamento Vila Lafayette Álvaro, Campinas",
+    "description": {
+      "floorSize": "178 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-loteamento-vila-lafayette-alvaro-campinas-178m2-id-2711855820/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Jardim São Fernando, Campinas",
+    "description": {
+      "floorSize": "50 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-sao-fernando-campinas-50m2-id-2573920904/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Loteamento Residencial Porto Seguro, Campinas",
+    "description": {
+      "floorSize": "126 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-porto-seguro-campinas-126m2-id-2703940023/",
+    "price": "R$ 250.000"
+  },
+  {
+    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
+    "description": {
+      "floorSize": "150 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-sala-de-jantar-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-150m2-id-2740666001/",
     "price": "R$ 250.000"
   },
   {
@@ -4062,17 +4085,6 @@
     "price": "R$ 255.000"
   },
   {
-    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
-    "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-habitacional-parque-itajai-campinas-80m2-id-2714133096/",
-    "price": "R$ 256.000"
-  },
-  {
     "address": "Loteamento Residencial Porto Seguro, Campinas",
     "description": {
       "floorSize": "45 m²",
@@ -4081,6 +4093,17 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-loteamento-residencial-porto-seguro-campinas-45m2-id-2648973161/",
+    "price": "R$ 256.000"
+  },
+  {
+    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-habitacional-parque-itajai-campinas-80m2-id-2714133096/",
     "price": "R$ 256.000"
   },
   {
@@ -4127,25 +4150,24 @@
     "price": "R$ 260.000"
   },
   {
-    "address": "Residencial Cosmos, Campinas",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": {
-      "floorSize": "50 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
+      "floorSize": "250 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-residencial-cosmos-campinas-50m2-id-2726226555/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-loteamento-residencial-novo-mundo-campinas-250m2-id-2714170213/",
     "price": "R$ 260.000"
   },
   {
-    "address": "Jardim Marisa, Campinas",
+    "address": "Vila Georgina, Campinas",
     "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
+      "floorSize": "104 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-jardim-marisa-campinas-100m2-id-2720537953/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-vila-georgina-campinas-104m2-id-2722954659/",
     "price": "R$ 260.000"
   },
   {
@@ -4167,17 +4189,6 @@
       "numberOfParkingSpaces": "2"
     },
     "price": "R$ 265.000"
-  },
-  {
-    "address": "Jardim Novo Maracanã, Campinas",
-    "description": {
-      "floorSize": "55 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-novo-maracana-campinas-55m2-id-2568673587/",
-    "price": "R$ 260.000"
   },
   {
     "address": "Parque União da Vitória, Campinas",
@@ -4224,6 +4235,39 @@
     "price": "R$ 260.000"
   },
   {
+    "address": "Jardim Santa Rosa, Campinas",
+    "description": {
+      "floorSize": "215 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "4",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-varanda-jardim-santa-rosa-campinas-215m2-id-2725782966/",
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Residencial Cosmos, Campinas",
+    "description": {
+      "floorSize": "50 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-residencial-cosmos-campinas-50m2-id-2726226555/",
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Jardim Marisa, Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-jardim-marisa-campinas-100m2-id-2720537953/",
+    "price": "R$ 260.000"
+  },
+  {
     "address": "Residencial Cosmos, Campinas",
     "description": {
       "floorSize": "45 m²",
@@ -4253,17 +4297,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-dic-v-conjunto-habitacional-chico-mendes-campinas-200m2-id-2715544452/",
-    "price": "R$ 260.000"
-  },
-  {
-    "address": "Jardim Santa Rosa, Campinas",
-    "description": {
-      "floorSize": "215 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "4",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-varanda-jardim-santa-rosa-campinas-215m2-id-2725782966/",
     "price": "R$ 260.000"
   },
   {
@@ -4428,25 +4461,14 @@
     "price": "R$ 260.000"
   },
   {
-    "address": "Jardim Monte Cristo/Parque Oziel, Campinas",
+    "address": "Jardim do Lago, Campinas",
     "description": {
-      "floorSize": "250 m²",
-      "numberOfRooms": "4",
+      "floorSize": "128 m²",
+      "numberOfRooms": "2",
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-4-quartos-com-cozinha-jardim-monte-cristo-parque-oziel-campinas-250m2-id-2682317159/",
-    "price": "R$ 260.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "110 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-110m2-id-2711857497/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-do-lago-campinas-128m2-id-2547784551/",
     "price": "R$ 260.000"
   },
   {
@@ -4481,14 +4503,25 @@
     "price": "R$ 260.000"
   },
   {
-    "address": "Jardim Monte Cristo/Parque Oziel, Campinas",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": {
-      "floorSize": "250 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-4-quartos-com-cozinha-jardim-monte-cristo-parque-oziel-campinas-250m2-id-2682317159/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-70m2-id-2711856709/",
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Vila Aeroporto I, Campinas",
+    "description": {
+      "floorSize": "90 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "5"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-aeroporto-i-campinas-90m2-id-2532180220/",
     "price": "R$ 260.000"
   },
   {
@@ -4500,6 +4533,39 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-110m2-id-2711857497/",
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Jardim Profilurb, Campinas",
+    "description": {
+      "floorSize": "93 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-profilurb-campinas-93m2-id-2735032440/",
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Jardim Florence, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-florence-campinas-120m2-id-2648777831/",
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Núcleo Residencial Nossa Senhora Aparecida, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "4"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-quintal-nucleo-residencial-nossa-senhora-aparecida-campinas-80m2-id-2714128364/",
     "price": "R$ 260.000"
   },
   {
@@ -4520,62 +4586,7 @@
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "3"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-profilurb-campinas-93m2-id-2735032440/",
-    "price": "R$ 260.000"
-  },
-  {
-    "address": "Núcleo Residencial Nossa Senhora Aparecida, Campinas",
-    "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "4"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-quintal-nucleo-residencial-nossa-senhora-aparecida-campinas-80m2-id-2714128364/",
-    "price": "R$ 260.000"
-  },
-  {
-    "address": "Jardim Florence, Campinas",
-    "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-florence-campinas-120m2-id-2648777831/",
-    "price": "R$ 260.000"
-  },
-  {
-    "address": "Jardim Profilurb, Campinas",
-    "description": {
-      "floorSize": "93 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "3"
-    },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-profilurb-campinas-93m2-id-2744476810/",
-    "price": "R$ 260.000"
-  },
-  {
-    "address": "Residencial Cosmos, Campinas",
-    "description": {
-      "floorSize": "42 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-residencial-cosmos-campinas-42m2-id-2714887180/",
-    "price": "R$ 260.000"
-  },
-  {
-    "address": "Residencial Cosmos, Campinas",
-    "description": {
-      "floorSize": "42 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-residencial-cosmos-campinas-42m2-id-2509573199/",
     "price": "R$ 260.000"
   },
   {
@@ -4589,14 +4600,25 @@
     "price": "R$ 266.000"
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "address": "Residencial Cosmos, Campinas",
     "description": {
-      "floorSize": "125 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
+      "floorSize": "42 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-residencial-cosmos-campinas-42m2-id-2509573199/",
+    "price": "R$ 260.000"
+  },
+  {
+    "address": "Residencial Cosmos, Campinas",
+    "description": {
+      "floorSize": "42 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-churrasqueira-loteamento-residencial-novo-mundo-campinas-125m2-id-2502006223/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-residencial-cosmos-campinas-42m2-id-2714887180/",
     "price": "R$ 260.000"
   },
   {
@@ -4653,6 +4675,16 @@
     "price": "R$ 264.000"
   },
   {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "150 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "3"
+    },
+    "price": "R$ 265.000"
+  },
+  {
     "address": "Vila Teixeira, Campinas",
     "description": {
       "floorSize": "77 m²",
@@ -4685,38 +4717,6 @@
     "price": "R$ 265.000"
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "150 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "3"
-    },
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "140 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "4",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-piscina-loteamento-residencial-novo-mundo-campinas-140m2-id-2714186917/",
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": {
-      "floorSize": "165 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-cidade-satelite-iris-campinas-165m2-id-2714163477/",
-    "price": "R$ 265.000"
-  },
-  {
     "address": "Loteamento Residencial Porto Seguro, Campinas",
     "description": {
       "floorSize": "41 m²",
@@ -4738,6 +4738,17 @@
     "price": "R$ 265.000"
   },
   {
+    "address": "Loteamento Residencial Porto Seguro, Campinas",
+    "description": {
+      "floorSize": "126 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-loteamento-residencial-porto-seguro-campinas-126m2-id-2738560218/",
+    "price": "R$ 265.000"
+  },
+  {
     "address": "Vila Lídia, Campinas",
     "description": {
       "floorSize": "47 m²",
@@ -4748,14 +4759,25 @@
     "price": "R$ 265.000"
   },
   {
-    "address": "Loteamento Residencial Porto Seguro, Campinas",
+    "address": "Cidade Satélite Íris, Campinas",
     "description": {
-      "floorSize": "126 m²",
+      "floorSize": "165 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
+      "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-loteamento-residencial-porto-seguro-campinas-126m2-id-2738560218/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-cidade-satelite-iris-campinas-165m2-id-2714163477/",
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "140 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "4",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-piscina-loteamento-residencial-novo-mundo-campinas-140m2-id-2714186917/",
     "price": "R$ 265.000"
   },
   {
@@ -4792,35 +4814,25 @@
     "price": "R$ 265.000"
   },
   {
-    "address": "Parque Universitário de Viracopos, Campinas",
+    "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": {
-      "floorSize": "100 m²",
+      "floorSize": "149 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "1"
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "4"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-universitario-de-viracopos-campinas-100m2-id-2653396645/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-vida-nova-campinas-149m2-id-2714133868/",
     "price": "R$ 265.000"
   },
   {
-    "address": "Cidade Satélite Íris, Campinas",
+    "address": "Jardim Melina I, Campinas",
     "description": {
-      "floorSize": "65 m²",
+      "floorSize": "90 m²",
       "numberOfRooms": "2",
       "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1 - 2"
+      "numberOfParkingSpaces": "2"
     },
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-loteamento-residencial-novo-mundo-campinas-70m2-id-2714131380/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-melina-i-campinas-90m2-id-2542546993/",
     "price": "R$ 265.000"
   },
   {
@@ -4831,39 +4843,6 @@
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "1 - 2"
     },
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Residencial São José, Campinas",
-    "description": {
-      "floorSize": "146 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-residencial-sao-jose-campinas-146m2-id-2714133863/",
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Parque Residencial Shalon, Campinas",
-    "description": {
-      "floorSize": "160 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-residencial-shalon-campinas-160m2-id-2725785194/",
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": {
-      "floorSize": "60 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-cidade-satelite-iris-campinas-60m2-id-2741408358/",
     "price": "R$ 265.000"
   },
   {
@@ -4878,46 +4857,14 @@
     "price": "R$ 265.000"
   },
   {
-    "address": "Parque Fazendinha, Campinas",
+    "address": "Parque Universitário de Viracopos, Campinas",
     "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "8"
+      "floorSize": "100 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-parque-fazendinha-campinas-120m2-id-2725786757/",
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": {
-      "floorSize": "720 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-cidade-satelite-iris-campinas-720m2-id-2612638189/",
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Residencial São Luís, Campinas",
-    "description": {
-      "floorSize": "133 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-residencial-sao-luis-campinas-133m2-id-2655567060/",
-    "price": "R$ 265.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "125 m²",
-      "numberOfRooms": "4",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-churrasqueira-loteamento-residencial-novo-mundo-campinas-125m2-id-2551551366/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-universitario-de-viracopos-campinas-100m2-id-2653396645/",
     "price": "R$ 265.000"
   },
   {
@@ -4932,14 +4879,14 @@
     "price": "R$ 265.000"
   },
   {
-    "address": "Jardim Melina I, Campinas",
+    "address": "Cidade Satélite Íris, Campinas",
     "description": {
-      "floorSize": "90 m²",
+      "floorSize": "60 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
+      "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-melina-i-campinas-90m2-id-2542546993/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-cidade-satelite-iris-campinas-60m2-id-2741408358/",
     "price": "R$ 265.000"
   },
   {
@@ -4964,6 +4911,39 @@
     "price": "R$ 265.000"
   },
   {
+    "address": "Parque Fazendinha, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "8"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-parque-fazendinha-campinas-120m2-id-2725786757/",
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "125 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-churrasqueira-loteamento-residencial-novo-mundo-campinas-125m2-id-2551551366/",
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Residencial São Luís, Campinas",
+    "description": {
+      "floorSize": "133 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-residencial-sao-luis-campinas-133m2-id-2655567060/",
+    "price": "R$ 265.000"
+  },
+  {
     "address": "Jardim Shangai, Campinas",
     "description": {
       "floorSize": "75 m²",
@@ -4972,6 +4952,49 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-shangai-campinas-75m2-id-2661710754/",
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": {
+      "floorSize": "720 m²",
+      "numberOfRooms": "4",
+      "numberOfBathroomsTotal": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-cidade-satelite-iris-campinas-720m2-id-2612638189/",
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Parque Residencial Shalon, Campinas",
+    "description": {
+      "floorSize": "160 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-residencial-shalon-campinas-160m2-id-2725785194/",
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-loteamento-residencial-novo-mundo-campinas-70m2-id-2714131380/",
+    "price": "R$ 265.000"
+  },
+  {
+    "address": "Residencial São José, Campinas",
+    "description": {
+      "floorSize": "146 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-residencial-sao-jose-campinas-146m2-id-2714133863/",
     "price": "R$ 265.000"
   },
   {
@@ -5094,6 +5117,17 @@
     "price": "R$ 269.000"
   },
   {
+    "address": "Residencial Cosmos, Campinas",
+    "description": {
+      "floorSize": "43 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-residencial-cosmos-campinas-43m2-id-2696792017/",
+    "price": "R$ 269.000"
+  },
+  {
     "address": "Vila Padre Manoel de Nóbrega, Campinas",
     "description": {
       "floorSize": "200 m²",
@@ -5112,7 +5146,7 @@
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-dic-vi-conjunto-habitacional-santo-dias-silva-campinas-150m2-id-2744480128/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-dic-vi-conjunto-habitacional-santo-dias-silva-campinas-150m2-id-2735033315/",
     "price": "R$ 269.000"
   },
   {
@@ -5123,18 +5157,7 @@
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-dic-vi-conjunto-habitacional-santo-dias-silva-campinas-150m2-id-2735033315/",
-    "price": "R$ 269.000"
-  },
-  {
-    "address": "Residencial Cosmos, Campinas",
-    "description": {
-      "floorSize": "43 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-residencial-cosmos-campinas-43m2-id-2696792017/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-dic-vi-conjunto-habitacional-santo-dias-silva-campinas-150m2-id-2744480128/",
     "price": "R$ 269.000"
   },
   {
@@ -5181,6 +5204,81 @@
     "price": "R$ 270.000"
   },
   {
+    "address": "Parque Eldorado, Campinas",
+    "description": {
+      "floorSize": "70 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Conjunto Habitacional Vida Nova, Campinas",
+    "description": {
+      "floorSize": "84 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-habitacional-vida-nova-campinas-84m2-id-2512168677/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Jardim San Diego, Campinas",
+    "description": {
+      "floorSize": "47 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Vila Castelo Branco, Campinas",
+    "description": {
+      "floorSize": "103 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-castelo-branco-campinas-103m2-id-2693111097/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Rosália, Campinas",
+    "description": {
+      "floorSize": "180 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "3",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-rosalia-campinas-180m2-id-2611609987/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Conjunto Habitacional Padre Anchieta, Campinas",
+    "description": {
+      "floorSize": "137 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-padre-anchieta-campinas-137m2-id-2741613314/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Vila Trinta e Um de Março, Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-trinta-e-um-de-marco-campinas-100m2-id-2714890463/",
+    "price": "R$ 270.000"
+  },
+  {
     "address": "Jardim do Lago Continuação, Campinas",
     "description": {
       "floorSize": "150 m²",
@@ -5189,17 +5287,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-do-lago-continuacao-campinas-150m2-id-2700783391/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Recanto do Sol II, Campinas",
-    "description": {
-      "floorSize": "117 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-recanto-do-sol-ii-campinas-117m2-id-83520699/",
     "price": "R$ 270.000"
   },
   {
@@ -5245,24 +5332,14 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Jardim San Diego, Campinas",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": {
-      "floorSize": "47 m²",
+      "floorSize": "6800 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "3"
     },
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Vila Castelo Branco, Campinas",
-    "description": {
-      "floorSize": "103 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-castelo-branco-campinas-103m2-id-2693111097/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-6800m2-id-2568695418/",
     "price": "R$ 270.000"
   },
   {
@@ -5277,35 +5354,14 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Rosália, Campinas",
+    "address": "Residencial Nova Bandeirante, Campinas",
     "description": {
-      "floorSize": "180 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "3",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-rosalia-campinas-180m2-id-2611609987/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Parque Eldorado, Campinas",
-    "description": {
-      "floorSize": "70 m²",
-      "numberOfRooms": "2",
+      "floorSize": "60 m²",
+      "numberOfRooms": "1",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "price": "R$ 290.000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": {
-      "floorSize": "125 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-loteamento-residencial-novo-mundo-campinas-125m2-id-2710385809/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-residencial-nova-bandeirante-campinas-60m2-id-2711855251/",
     "price": "R$ 270.000"
   },
   {
@@ -5320,46 +5376,14 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
+    "address": "Recanto do Sol II, Campinas",
     "description": {
-      "floorSize": "90 m²",
+      "floorSize": "117 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-piscina-dic-v-conjunto-habitacional-chico-mendes-campinas-90m2-id-2714164985/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Conjunto Habitacional Vida Nova, Campinas",
-    "description": {
-      "floorSize": "84 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-habitacional-vida-nova-campinas-84m2-id-2512168677/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
-    "description": {
-      "floorSize": "100 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2 - 3"
-    },
-    "price": "R$ 280.000"
-  },
-  {
-    "address": "Residencial Nova Bandeirante, Campinas",
-    "description": {
-      "floorSize": "60 m²",
-      "numberOfRooms": "1",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-residencial-nova-bandeirante-campinas-60m2-id-2711855251/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-recanto-do-sol-ii-campinas-117m2-id-83520699/",
     "price": "R$ 270.000"
   },
   {
@@ -5385,14 +5409,57 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Parque Residencial Vila União, Campinas",
+    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
     "description": {
-      "floorSize": "74 m²",
-      "numberOfRooms": "1",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "6"
+      "floorSize": "90 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "3"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-parque-residencial-vila-uniao-campinas-74m2-id-2743629023/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-piscina-dic-v-conjunto-habitacional-chico-mendes-campinas-90m2-id-2714164985/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": {
+      "floorSize": "125 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "1"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-loteamento-residencial-novo-mundo-campinas-125m2-id-2710385809/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
+    "description": {
+      "floorSize": "100 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2 - 3"
+    },
+    "price": "R$ 280.000"
+  },
+  {
+    "address": "Jardim Shangai, Campinas",
+    "description": {
+      "floorSize": "101 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-jardim-shangai-campinas-101m2-id-2736966371/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Loteamento Vila Esperança, Campinas",
+    "description": {
+      "floorSize": "80 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-loteamento-vila-esperanca-campinas-80m2-id-2714887377/",
     "price": "R$ 270.000"
   },
   {
@@ -5418,6 +5485,17 @@
     "price": "R$ 270.000"
   },
   {
+    "address": "Parque Residencial Vila União, Campinas",
+    "description": {
+      "floorSize": "74 m²",
+      "numberOfRooms": "1",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "6"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-parque-residencial-vila-uniao-campinas-74m2-id-2743629023/",
+    "price": "R$ 270.000"
+  },
+  {
     "address": "Parque das Praças, Campinas",
     "description": {
       "floorSize": "126 m²",
@@ -5426,17 +5504,6 @@
       "numberOfParkingSpaces": "2"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-parque-das-pracas-campinas-126m2-id-2721791345/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Loteamento Vila Esperança, Campinas",
-    "description": {
-      "floorSize": "80 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-loteamento-vila-esperanca-campinas-80m2-id-2714887377/",
     "price": "R$ 270.000"
   },
   {
@@ -5451,14 +5518,36 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Jardim Shangai, Campinas",
+    "address": "Vila Padre Manoel de Nóbrega, Campinas",
     "description": {
-      "floorSize": "101 m²",
+      "floorSize": "100 m²",
       "numberOfRooms": "3",
       "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-jardim-shangai-campinas-101m2-id-2736966371/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-padre-manoel-de-nobrega-campinas-100m2-id-2743105450/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Parque das Praças, Campinas",
+    "description": {
+      "floorSize": "126 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-das-pracas-campinas-126m2-id-2724123944/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": {
+      "floorSize": "60 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-residencial-parque-sao-bento-campinas-60m2-id-2727240750/",
     "price": "R$ 270.000"
   },
   {
@@ -5473,14 +5562,58 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Conjunto Habitacional Vila Réggio, Campinas",
+    "address": "Jardim Ouro Preto, Campinas",
     "description": {
-      "floorSize": "133 m²",
+      "floorSize": "115 m²",
       "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "3"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-jardim-ouro-preto-campinas-115m2-id-2532026575/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Vila Industrial, Campinas",
+    "description": {
+      "floorSize": "120 m²",
+      "numberOfRooms": "3",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-industrial-campinas-120m2-id-2732861813/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Jardim Marisa, Campinas",
+    "description": {
+      "floorSize": "130 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-marisa-campinas-130m2-id-2725833348/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Parque Residencial Vila União, Campinas",
+    "description": {
+      "floorSize": "145 m²",
+      "numberOfRooms": "4",
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-deposito-privativo-conjunto-habitacional-vila-reggio-campinas-133m2-id-2730211468/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-cozinha-parque-residencial-vila-uniao-campinas-145m2-id-2728917516/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Parque Eldorado, Campinas",
+    "description": {
+      "floorSize": "47 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "1",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-parque-eldorado-campinas-47m2-id-2564558424/",
     "price": "R$ 270.000"
   },
   {
@@ -5505,91 +5638,14 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Parque Eldorado, Campinas",
+    "address": "Conjunto Habitacional Vila Réggio, Campinas",
     "description": {
-      "floorSize": "47 m²",
+      "floorSize": "133 m²",
       "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-parque-eldorado-campinas-47m2-id-2564558424/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Parque Residencial Vila União, Campinas",
-    "description": {
-      "floorSize": "145 m²",
-      "numberOfRooms": "4",
       "numberOfBathroomsTotal": "2",
       "numberOfParkingSpaces": "1"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-cozinha-parque-residencial-vila-uniao-campinas-145m2-id-2728917516/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Vila Industrial, Campinas",
-    "description": {
-      "floorSize": "120 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-industrial-campinas-120m2-id-2732861813/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": {
-      "floorSize": "60 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-residencial-parque-sao-bento-campinas-60m2-id-2727240750/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Vila Padre Manoel de Nóbrega, Campinas",
-    "description": {
-      "floorSize": "200 m²",
-      "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-padre-manoel-de-nobrega-campinas-200m2-id-2640800682/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Jardim Marisa, Campinas",
-    "description": {
-      "floorSize": "130 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-marisa-campinas-130m2-id-2725833348/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Jardim Ouro Preto, Campinas",
-    "description": {
-      "floorSize": "115 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "3"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-jardim-ouro-preto-campinas-115m2-id-2532026575/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Parque das Praças, Campinas",
-    "description": {
-      "floorSize": "126 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-das-pracas-campinas-126m2-id-2724123944/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-deposito-privativo-conjunto-habitacional-vila-reggio-campinas-133m2-id-2730211468/",
     "price": "R$ 270.000"
   },
   {
@@ -5604,47 +5660,14 @@
     "price": "R$ 270.000"
   },
   {
-    "address": "Jardim Nilópolis, Campinas",
+    "address": "Vila Padre Manoel de Nóbrega, Campinas",
     "description": {
-      "floorSize": "141 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "2",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-infraestrutura-internet-jardim-nilopolis-campinas-141m2-id-2724180849/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Vila Castelo Branco, Campinas",
-    "description": {
-      "floorSize": "88 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "2"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-castelo-branco-campinas-88m2-id-2713216693/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Jardim Melina I, Campinas",
-    "description": {
-      "floorSize": "197 m²",
+      "floorSize": "200 m²",
       "numberOfRooms": "3",
-      "numberOfBathroomsTotal": "2",
+      "numberOfBathroomsTotal": "1",
       "numberOfParkingSpaces": "2"
     },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-area-de-servico-jardim-melina-i-campinas-197m2-id-2670795995/",
-    "price": "R$ 270.000"
-  },
-  {
-    "address": "Jardim San Diego, Campinas",
-    "description": {
-      "floorSize": "48 m²",
-      "numberOfRooms": "2",
-      "numberOfBathroomsTotal": "1",
-      "numberOfParkingSpaces": "1"
-    },
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-infraestrutura-internet-jardim-san-diego-campinas-48m2-id-2680921596/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-padre-manoel-de-nobrega-campinas-200m2-id-2640800682/",
     "price": "R$ 270.000"
   },
   {
@@ -5656,6 +5679,17 @@
       "numberOfParkingSpaces": "1"
     },
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-entrada-lateral-residencial-fazenda-lagoa-campinas-59m2-id-2647287795/",
+    "price": "R$ 270.000"
+  },
+  {
+    "address": "Jardim Nilópolis, Campinas",
+    "description": {
+      "floorSize": "141 m²",
+      "numberOfRooms": "2",
+      "numberOfBathroomsTotal": "2",
+      "numberOfParkingSpaces": "2"
+    },
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-infraestrutura-internet-jardim-nilopolis-campinas-141m2-id-2724180849/",
     "price": "R$ 270.000"
   }
 ]
