@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { DescriptionFields, Property } from "../../services/dataService";
 
 export interface PropertyCardProps {
@@ -29,11 +30,13 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
             className="carousel-item relative w-full"
             key={index}
           >
-            <img
+            <LazyLoadImage
               src={image}
-              className="w-full"
               alt={`Imagem da propriedade ${index + 1}`}
+              className="w-full"
+              effect="blur"
             />
+
             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
               <a
                 href={`#slide${index === 0 ? images.length - 1 : index - 1}`}
