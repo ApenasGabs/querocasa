@@ -17,11 +17,10 @@ export interface PropertyDescription {
 export interface Property {
   address: string;
   description: PropertyDescription[];
+  images: string[];
   link: string;
   price: string;
 }
-
-
 
 export interface Description {
   floorSize: string;
