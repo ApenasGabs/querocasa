@@ -1,19 +1,27 @@
 import axios from "axios";
 
-export interface olxDataPops {
-  address: string;
-  description: string;
-  link: string;
-  price: string;
-  publishDate: string;
+export enum DescriptionFields {
+  FloorSize = "floorSize",
+  NumberOfRooms = "numberOfRooms",
+  NumberOfBathroomsTotal = "numberOfBathroomsTotal",
+  NumberOfParkingSpaces = "numberOfParkingSpaces",
 }
 
-export interface zapDataPops {
-  address: string;
-  description: Description;
-  price: string;
-  link?: string;
+export interface PropertyDescription {
+  [DescriptionFields.FloorSize]?: string;
+  [DescriptionFields.NumberOfRooms]?: string;
+  [DescriptionFields.NumberOfBathroomsTotal]?: string;
+  [DescriptionFields.NumberOfParkingSpaces]?: string;
 }
+
+export interface Property {
+  address: string;
+  description: PropertyDescription[];
+  link: string;
+  price: string;
+}
+
+
 
 export interface Description {
   floorSize: string;
@@ -22,18 +30,18 @@ export interface Description {
   numberOfParkingSpaces?: string;
 }
 
-export interface dataPops {
-  olxResults: olxDataPops[];
-  zapResults: zapDataPops[];
+export interface DataPops {
+  olxResults: Property[];
+  zapResults: Property[];
 }
-export const emptyData: dataPops = {
+export const emptyData: DataPops = {
   olxResults: [],
   zapResults: [],
 };
 
 export const fetchDataFiles = async () => {
   try {
-    const response = await axios.get<dataPops>("/api/results");
+    const response = await axios.get<DataPops>("/api/results");
     console.log("response: ", response);
     if (response.status !== 200) {
       throw new Error("Failed to fetch data");

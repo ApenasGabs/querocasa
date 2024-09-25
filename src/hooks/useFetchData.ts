@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { dataPops, emptyData, fetchDataFiles } from "../services/dataService";
+import { DataPops, emptyData, fetchDataFiles } from "../services/dataService";
 
 export const useFetchData = () => {
-  const [data, setData] = useState<dataPops>(emptyData);
+  const [data, setData] = useState<DataPops>(emptyData);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
