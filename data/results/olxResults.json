@@ -892,20 +892,6 @@
     "publishDate": "2024-08-19 12:31:00"
   },
   {
-    "address": "Campinas, Conjunto Mauro Marcondes",
-    "description": [
-      {
-        "floorSize": "126"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-res-rosario-1324094610",
-    "price": "R$ 135.000",
-    "publishDate": "2024-07-26 23:47:00"
-  },
-  {
     "address": "Campinas, Jardim Novo Campos Elíseos",
     "description": [
       {
@@ -2207,22 +2193,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-ou-permuta-por-maior-valor-1339951188",
     "price": "R$ 270.000",
     "publishDate": "2024-09-22 21:35:00"
-  },
-  {
-    "address": "Campinas, Jardim Marisa",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "170"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-a-venda-jardim-marisa-1323914052",
-    "price": "R$ 270.000",
-    "publishDate": "2024-07-26 07:30:00"
   }
 ]
