@@ -22,7 +22,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
     DescriptionFields.NumberOfParkingSpaces
   );
   return (
-    <div className="card w-full bg-base-100 shadow-xl">
+    <div className="card w-96 bg-base-100 shadow-xl">
       <div className="carousel w-full">
         {images.map((image, index) => (
           <div
@@ -30,12 +30,14 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
             className="carousel-item relative w-full"
             key={index}
           >
-            <LazyLoadImage
-              src={image}
-              alt={`Imagem da propriedade ${index + 1}`}
-              className="w-full"
-              effect="blur"
-            />
+            <figure>
+              <LazyLoadImage
+                src={image}
+                alt={`Imagem da propriedade ${index + 1}`}
+                // className="w-full"
+                // effect="blur"
+              />
+            </figure>
 
             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
               <a
