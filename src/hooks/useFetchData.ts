@@ -1,27 +1,10 @@
-import { useEffect, useState } from "react";
-import { DataPops, emptyData, fetchDataFiles } from "../services/dataService";
+import { useContext } from "react";
+import { DataContext, DataContextProps } from "../context/DataContext";
 
-export const useFetchData = () => {
-  const [data, setData] = useState<DataPops>(emptyData);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        const fetchedData = await fetchDataFiles();
-        console.log("fetchedData: ", fetchedData);
-        setData(fetchedData);
-      } catch (err: unknown) {
-        console.error("err: ", err);
-        setError("Failed to load data");
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadData();
-  }, []);
-
-  return { data, loading, error };
+export const useFetchData = (): DataContextProps => {
+  const context = useContext(DataContext);
+  if (!context) {
+    throw new Error("useUserData must be used within a UserDataProvider");
+  }
+  return context;
 };

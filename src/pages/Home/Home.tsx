@@ -3,12 +3,12 @@ import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
 import PropertyCard from "../../components/PropertyCard/PropertyCard";
 import { useFetchData } from "../../hooks/useFetchData";
-import { DataPops } from "../../services/dataService";
+import { Property } from "../../services/dataService";
 
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
-  const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
+  const [houseList, setHouseList] = useState<Property[]>([]);
   const { data, loading, error } = useFetchData();
   console.log("error: ", error);
 
