@@ -1,5 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import defaultImage from "../../assets/mcmv.png";
 import { DescriptionFields, Property } from "../../services/dataService";
 
 export interface PropertyCardProps {
@@ -8,7 +9,6 @@ export interface PropertyCardProps {
 
 const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
   const { address, images, description, link, price } = property;
-  console.log("property: ", property);
 
   const getDescriptionValue = (field: DescriptionFields) => {
     return Array.isArray(description) && description.length > 0
@@ -27,7 +27,6 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
 
   const validImages = Array.isArray(images) && images.length > 0 ? images : [];
 
-  console.log("validImages: ", validImages);
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure>
@@ -66,7 +65,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
             ))
           ) : (
             <LazyLoadImage
-              src={"/src/assets/mcmv.png"}
+              src={defaultImage}
               alt={`Imagem da propriedade ${link}`}
             />
           )}
@@ -94,14 +93,20 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
           {address || "Endereço não disponível"}
         </p>
         <div className="card-actions justify-end">
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-primary"
-          >
-            Ver Detalhes
-          </a>
+          {link ? (
+            <a
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary"
+            >
+              Ver Detalhes
+            </a>
+          ) : (
+            <a href="#" className="btn btn-primary disabled">
+              Detalhes não disponíveis
+            </a>
+          )}
         </div>
       </div>
     </div>
