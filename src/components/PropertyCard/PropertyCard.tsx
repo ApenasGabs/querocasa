@@ -8,11 +8,12 @@ export interface PropertyCardProps {
 
 const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
   const { address, images, description, link, price } = property;
+  console.log("property: ", property);
 
   const getDescriptionValue = (field: DescriptionFields) => {
     return Array.isArray(description) && description.length > 0
-      ? description.find((item) => item[field])?.[field] || "N/A"
-      : "N/A";
+      ? description.find((item) => item[field])?.[field]
+      : undefined;
   };
 
   const floorSize = getDescriptionValue(DescriptionFields.FloorSize);
@@ -26,59 +27,70 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
 
   const validImages = Array.isArray(images) && images.length > 0 ? images : [];
 
+  console.log("validImages: ", validImages);
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
-      <div className="carousel w-full">
-        {validImages.length > 0 ? (
-          validImages.map((image, index) => (
-            <div
-              id={`slide${index}`}
-              className="carousel-item relative w-full"
-              key={index}
-            >
-              <figure>
+      <figure>
+        <div className="carousel w-full">
+          {validImages.length > 0 ? (
+            validImages.map((image, index) => (
+              <div
+                id={`slide${index}`}
+                className="carousel-item relative w-full"
+                key={index}
+              >
                 <LazyLoadImage
                   src={image}
                   alt={`Imagem da propriedade ${index + 1}`}
+                  className="w-full h-48 object-cover"
+                  loading="lazy"
                 />
-              </figure>
 
-              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                <a
-                  href={`#slide${
-                    index === 0 ? validImages.length - 1 : index - 1
-                  }`}
-                  className="btn btn-circle"
-                >
-                  ❮
-                </a>
-                <a
-                  href={`#slide${(index + 1) % validImages.length}`}
-                  className="btn btn-circle"
-                >
-                  ❯
-                </a>
+                <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <a
+                    href={`#slide${
+                      index === 0 ? validImages.length - 1 : index - 1
+                    }`}
+                    className="btn btn-circle"
+                  >
+                    ❮
+                  </a>
+                  <a
+                    href={`#slide${(index + 1) % validImages.length}`}
+                    className="btn btn-circle"
+                  >
+                    ❯
+                  </a>
+                </div>
               </div>
-            </div>
-          ))
-        ) : (
-          <figure>
+            ))
+          ) : (
             <LazyLoadImage
-              src={"https://pacaembu.com/svg/ic-mcmv.svg"}
+              src={"/src/assets/mcmv.png"}
               alt={`Imagem da propriedade ${link}`}
             />
-          </figure>
-        )}
-      </div>
+          )}
+        </div>
+      </figure>
 
       <div className="card-body">
         <h2 className="card-title">{price || "Preço não disponível"}</h2>
         <p className="text-sm">
-          {floorSize} m² • {numberOfRooms} quartos • {numberOfBathrooms}{" "}
-          banheiros • {numberOfParkingSpaces} vagas
+          {floorSize && `${floorSize} m²`}
+          {numberOfRooms &&
+            ` • ${numberOfRooms} ${
+              parseInt(numberOfRooms) > 1 ? "quartos" : "quarto"
+            }`}{" "}
+          {numberOfBathrooms &&
+            ` • ${numberOfBathrooms} ${
+              parseInt(numberOfBathrooms) > 1 ? "banheiros" : "banheiro"
+            }`}
+          {numberOfParkingSpaces &&
+            ` • ${numberOfParkingSpaces} ${
+              parseInt(numberOfParkingSpaces) > 1 ? "vagas" : "vaga"
+            }`}{" "}
         </p>
         <p className="text-sm text-gray-500">
-          {" "}
           {address || "Endereço não disponível"}
         </p>
         <div className="card-actions justify-end">
