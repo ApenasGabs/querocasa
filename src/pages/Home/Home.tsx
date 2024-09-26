@@ -1,3 +1,4 @@
+// src/pages/Home.tsx
 import { useEffect, useRef, useState } from "react";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
@@ -13,7 +14,7 @@ const Home = () => {
   console.log("error: ", error);
 
   useEffect(() => {
-    if (!loading) {
+    if (!loading && data.olxResults && data.zapResults) {
       const combinedList = [...data.olxResults, ...data.zapResults];
 
       const parsePrice = (priceString: string) => {
@@ -43,9 +44,11 @@ const Home = () => {
         className="flex flex-wrap justify-between gap-2 p-5"
         ref={scrollContainerRef}
       >
-        {houseList.map((property, index) => (
-          <PropertyCard key={`house-${index}`} property={property} />
-        ))}
+        {houseList.length > 0
+          ? houseList.map((property, index) => (
+              <PropertyCard key={`house-${index}`} property={property} />
+            ))
+          : !loading && <p>Nenhuma casa encontrada.</p>}
       </div>
     </div>
   );

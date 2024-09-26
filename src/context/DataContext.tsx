@@ -30,7 +30,7 @@ export const DataProvider: React.FC<DataProviderProps> = ({ children }) => {
       const fetchedData = await fetchDataFiles();
       setData(fetchedData);
     } catch (err) {
-      setError(`Failed to load data:${err}`);
+      setError(`Failed to load data: ${err}`);
     } finally {
       setLoading(false);
     }

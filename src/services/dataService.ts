@@ -38,15 +38,13 @@ export const emptyData: DataPops = {
   zapResults: [],
 };
 
-export const fetchDataFiles = async () => {
+export const fetchDataFiles = async (): Promise<DataPops> => {
   try {
     const response = await axios.get<DataPops>("/api/results");
-    console.log("response: ", response);
     if (response.status !== 200) {
       throw new Error("Failed to fetch data");
     }
-    const data = response.data;
-    return data;
+    return response.data;
   } catch (error) {
     console.error("Error fetching data:", error);
     return emptyData;
