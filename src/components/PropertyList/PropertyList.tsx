@@ -20,7 +20,7 @@ const PropertyList: React.FC<PropertyListProps> = ({ properties }) => {
   }, []);
 
   const columnWidth = 300;
-  const rowHeight = 450;
+  const rowHeight = 500;
   const columnCount = Math.floor(windowWidth / columnWidth);
 
   const Cell = ({ columnIndex, rowIndex, style }: GridChildComponentProps) => {
