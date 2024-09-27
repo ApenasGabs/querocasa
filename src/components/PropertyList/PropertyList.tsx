@@ -31,10 +31,9 @@ const PropertyList: React.FC<PropertyListProps> = ({ properties }) => {
         style={{
           ...style,
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "space-around",
           flexWrap: "wrap",
-          gap: ".5rem",
-          padding: "1.5rem",
+          padding: "1rem",
         }}
       >
         <PropertyCard property={properties[index]} />

@@ -55,7 +55,7 @@ const Navbar = ({ links = [] }: NavbarProps) => {
           ))}
         </ul>
       </div>
-      <div className="navbar-end lg:hidden">
+      <div className="navbar-end ">
         <ThemeSelector />
       </div>
     </div>
