@@ -1,40 +1,58 @@
-import React from "react";
-import { FixedSizeList as List } from "react-window";
+import React, { useEffect, useState } from "react";
+import { FixedSizeGrid as Grid, GridChildComponentProps } from "react-window";
 import PropertyCard, { PropertyCardProps } from "../PropertyCard/PropertyCard";
 
 interface PropertyListProps {
   properties: PropertyCardProps["property"][];
 }
-interface RowProps {
-  index: number;
-  style: React.CSSProperties;
-}
+
 const PropertyList: React.FC<PropertyListProps> = ({ properties }) => {
-  const Row = ({ index, style }: RowProps) => (
-    <div
-      style={{
-        ...style,
-        display: "flex",
-        justifyContent: "space-between",
-        flexWrap: "wrap",
-        gap: ".5rem",
-        padding: "1.5rem",
-      }}
-      className="flex flex-wrap justify-between gap-2 p-5"
-    >
-      <PropertyCard property={properties[index]} />
-    </div>
-  );
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+      setWindowHeight(window.innerHeight);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const columnWidth = 300;
+  const rowHeight = 450;
+  const columnCount = Math.floor(windowWidth / columnWidth);
+
+  const Cell = ({ columnIndex, rowIndex, style }: GridChildComponentProps) => {
+    const index = rowIndex * columnCount + columnIndex;
+    if (index >= properties.length) return null;
+    return (
+      <div
+        style={{
+          ...style,
+          display: "flex",
+          justifyContent: "space-between",
+          flexWrap: "wrap",
+          gap: ".5rem",
+          padding: "1.5rem",
+        }}
+      >
+        <PropertyCard property={properties[index]} />
+      </div>
+    );
+  };
 
   return (
-    <List
-      height={window.innerHeight}
-      itemCount={properties.length}
-      itemSize={450}
-      width={"100%"}
+    <Grid
+      columnCount={columnCount}
+      columnWidth={columnWidth}
+      height={windowHeight}
+      rowCount={Math.ceil(properties.length / columnCount)}
+      rowHeight={rowHeight}
+      width={windowWidth}
     >
-      {Row}
-    </List>
+      {Cell}
+    </Grid>
   );
 };
 

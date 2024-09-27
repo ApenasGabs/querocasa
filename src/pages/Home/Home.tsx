@@ -1,4 +1,3 @@
-// src/pages/Home.tsx
 import { useEffect, useRef, useState } from "react";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
@@ -40,11 +39,12 @@ const Home = () => {
         onClose={() => setIsModalOpen((prev) => !prev)}
       />
 
-      <div
-        className="flex flex-wrap justify-between gap-2 p-5"
-        ref={scrollContainerRef}
-      >
-        {houseList.length > 0 && <PropertyList properties={houseList} />}
+      <div className="p-5" ref={scrollContainerRef}>
+        {houseList.length > 0 ? (
+          <PropertyList properties={houseList} />
+        ) : (
+          !loading && <p>Nenhuma casa encontrada.</p>
+        )}
       </div>
     </div>
   );
