@@ -10,7 +10,6 @@ const defaultLinks = [
     Guia de TI
     <span className="badge badge-sm badge-warning">NEW</span>
   </a>,
-  <ThemeSelector />,
 ];
 
 interface NavbarProps {
@@ -57,6 +56,7 @@ const Navbar = ({ links = [] }: NavbarProps) => {
         </ul>
       </div>
       <div className="navbar-end lg:hidden">
+        <ThemeSelector />
       </div>
     </div>
   );
