@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
-import PropertyCard from "../../components/PropertyCard/PropertyCard";
+import PropertyList from "../../components/PropertyList/PropertyList";
 import { useFetchData } from "../../hooks/useFetchData";
 import { Property } from "../../services/dataService";
 
@@ -44,11 +44,7 @@ const Home = () => {
         className="flex flex-wrap justify-between gap-2 p-5"
         ref={scrollContainerRef}
       >
-        {houseList.length > 0
-          ? houseList.map((property, index) => (
-              <PropertyCard key={`house-${index}`} property={property} />
-            ))
-          : !loading && <p>Nenhuma casa encontrada.</p>}
+        {houseList.length > 0 && <PropertyList properties={houseList} />}
       </div>
     </div>
   );
