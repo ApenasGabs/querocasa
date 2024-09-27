@@ -1,13 +1,17 @@
+import { useEffect } from "react";
+
 const ThemeSelector = () => {
   const setTheme = (theme: string) => {
     document.documentElement.className = theme;
     localStorage.setItem("theme", theme);
   };
 
-  const theme = localStorage.getItem("theme");
-  if (theme) {
-    setTheme(theme);
-  }
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
+  }, []);
 
   const ThemeList = [
     "light",
