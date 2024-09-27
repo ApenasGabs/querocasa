@@ -1,3 +1,5 @@
+import ThemeSelector from "../ThemeSelector/ThemeSelector";
+
 const defaultLinks = [
   <p className="text-xl">Outros links: </p>,
   <a
@@ -8,6 +10,7 @@ const defaultLinks = [
     Guia de TI
     <span className="badge badge-sm badge-warning">NEW</span>
   </a>,
+  <ThemeSelector />,
 ];
 
 interface NavbarProps {
@@ -39,21 +42,22 @@ const Navbar = ({ links = [] }: NavbarProps) => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            {navbarLinks.map((navbarLink) => (
-              <li>{navbarLink}</li>
+            {navbarLinks.map((navbarLink, index) => (
+              <li key={index}>{navbarLink}</li>
             ))}
           </ul>
         </div>
-        {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
+        <a className="text-xl">Quero 🏡</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          {navbarLinks.map((navbarLink) => (
-            <li>{navbarLink}</li>
+          {navbarLinks.map((navbarLink, index) => (
+            <li key={index}>{navbarLink}</li>
           ))}
         </ul>
       </div>
-      <div className="navbar-end" />
+      <div className="navbar-end lg:hidden">
+      </div>
     </div>
   );
 };
