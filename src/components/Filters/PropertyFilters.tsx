@@ -5,7 +5,7 @@ interface PropertyFiltersProps {
   onFilterChange: (filters: Filters) => void;
 }
 
-interface Filters {
+export interface Filters {
   priceRange: { min: number; max: number };
   floorSize: number;
   numberOfRooms: number;

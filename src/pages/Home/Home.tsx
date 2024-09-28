@@ -1,19 +1,23 @@
+// pages/Home.tsx
 import { useEffect, useRef, useState } from "react";
+import PropertyFilters, { Filters } from "../../components/Filters/PropertyFilters";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
-import PropertyList from "../../components/PropertyList/PropertyList";
+import PropertyCard from "../../components/PropertyCard/PropertyCard";
 import { useFetchData } from "../../hooks/useFetchData";
-import { Property } from "../../services/dataService";
+import { DataPops } from "../../services/dataService";
 
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
-  const [houseList, setHouseList] = useState<Property[]>([]);
+  const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
+  const [filteredHouseList, setFilteredHouseList] = useState(houseList);
+
   const { data, loading, error } = useFetchData();
   console.log("error: ", error);
 
   useEffect(() => {
-    if (!loading && data.olxResults && data.zapResults) {
+    if (!loading) {
       const combinedList = [...data.olxResults, ...data.zapResults];
 
       const parsePrice = (priceString: string) => {
@@ -29,7 +33,42 @@ const Home = () => {
     }
   }, [data, loading]);
 
-  const size = loading ? 0 : houseList.length;
+  const handleFilterChange = (filters: Filters) => {
+    const filteredList = houseList.filter((house) => {
+      const price = parseInt(house.price.replace(/[^\d]+/g, ""), 10);
+      const floor = parseInt(
+        house.description.find((d) => d.floorSize)?.floorSize || "0",
+        10
+      );
+      const rooms = parseInt(
+        house.description.find((d) => d.numberOfRooms)?.numberOfRooms || "0",
+        10
+      );
+      const bathrooms = parseInt(
+        house.description.find((d) => d.numberOfBathroomsTotal)
+          ?.numberOfBathroomsTotal || "0",
+        10
+      );
+      const parking = parseInt(
+        house.description.find((d) => d.numberOfParkingSpaces)
+          ?.numberOfParkingSpaces || "0",
+        10
+      );
+
+      return (
+        price >= filters.priceRange.min &&
+        price <= filters.priceRange.max &&
+        floor >= filters.floorSize &&
+        rooms >= filters.numberOfRooms &&
+        bathrooms >= filters.numberOfBathrooms &&
+        parking >= filters.numberOfParkingSpaces &&
+        house.address.toLowerCase().includes(filters.addressQuery.toLowerCase())
+      );
+    });
+    setFilteredHouseList(filteredList);
+  };
+
+  const size = loading ? 0 : filteredHouseList.length;
 
   return (
     <div className="w-full">
@@ -39,12 +78,18 @@ const Home = () => {
         onClose={() => setIsModalOpen((prev) => !prev)}
       />
 
-      <div className="p-5" ref={scrollContainerRef}>
-        {houseList.length > 0 ? (
-          <PropertyList properties={houseList} />
-        ) : (
-          !loading && <p>Nenhuma casa encontrada.</p>
-        )}
+      <div className="flex flex-col lg:flex-row">
+        {/* Filtros */}
+        <PropertyFilters onFilterChange={handleFilterChange} />
+
+        <div
+          className="flex flex-wrap justify-between gap-2 p-5 lg:w-2/3"
+          ref={scrollContainerRef}
+        >
+          {filteredHouseList.map((property, index) => (
+            <PropertyCard key={`house-${index}`} property={property} />
+          ))}
+        </div>
       </div>
     </div>
   );
