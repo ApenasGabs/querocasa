@@ -11,6 +11,7 @@
     "api": "node api/server.js"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "axios": "^1.7.7",
     "express": "^4.21.0",
     "react": "^18.3.1",
@@ -19,7 +20,6 @@
     "react-window": "^1.8.10"
   },
   "devDependencies": {
-    "cors": "^2.8.5",
     "@eslint/js": "^9.9.0",
     "@types/babel__generator": "^7.6.8",
     "@types/babel__template": "^7.4.4",
@@ -32,6 +32,7 @@
     "@types/react-window": "^1.8.8",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
+    "cors": "^2.8.5",
     "daisyui": "^4.12.10",
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
