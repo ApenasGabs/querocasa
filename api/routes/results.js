@@ -28,7 +28,7 @@ router.get("/results", async (req, res) => {
     res.status(200).json(formattedResults);
   } catch (error) {
     console.error("Error reading JSON files:", error);
-    res.status(500).json({ message: "Error reading JSON files" });
+    res.status(500).json({ message: `Error reading JSON files ${error}` });
   }
 });
 
