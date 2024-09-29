@@ -50,7 +50,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
   };
 
   return (
-    <div className="w-full lg:w-1/3 p-4 bg-white rounded shadow-md lg:sticky lg:top-16">
+    <div className="w-full lg:w-1/3 max-w-72 p-4 rounded shadow-md lg:sticky lg:top-16">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
         <div>
           <label>Faixa de Preço:</label>
@@ -58,7 +58,9 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
             <input
               type="number"
               placeholder="Min"
+              className="input input-bordered input-primary w-full max-w-xs"
               name="min"
+              disabled
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 handleInputChange(e, "priceRange")
               }
@@ -66,7 +68,9 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
             <input
               type="number"
               placeholder="Max"
+              className="input input-bordered input-primary w-full max-w-xs"
               name="max"
+              disabled
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 handleInputChange(e, "priceRange")
               }
@@ -77,8 +81,10 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
         <div>
           <label>Tamanho do Imóvel (m²):</label>
           <input
+            className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Tamanho"
+            disabled
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "floorSize")
             }
@@ -88,8 +94,10 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
         <div>
           <label>Quartos:</label>
           <input
+            className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Quartos"
+            disabled
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "numberOfRooms")
             }
@@ -99,8 +107,10 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
         <div>
           <label>Banheiros:</label>
           <input
+            className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Banheiros"
+            disabled
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "numberOfBathrooms")
             }
@@ -110,8 +120,10 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
         <div>
           <label>Vagas de Garagem:</label>
           <input
+            className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Vagas"
+            disabled
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "numberOfParkingSpaces")
             }
@@ -121,7 +133,9 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
         <div>
           <label>Endereço:</label>
           <input
+            className="input input-bordered input-primary w-full max-w-xs"
             type="text"
+            disabled
             placeholder="Pesquisar por endereço"
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "addressQuery")
