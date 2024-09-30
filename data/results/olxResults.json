@@ -215,6 +215,26 @@
     "publishDate": "2024-08-23 13:52:00"
   },
   {
+    "address": "Campinas, Vila Pompéia",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/55/552495443519977.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1340929774",
+    "price": "R$ 600",
+    "publishDate": "2024-09-26 11:04:00"
+  },
+  {
     "address": "Campinas, Jardim Nova Europa",
     "description": [
       {
@@ -393,61 +413,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-quartos-com-suite-oportunidade-sai-do-aluguel-negociavel-e-financiavel-1338808467",
     "price": "R$ 20.000",
     "publishDate": "2024-09-18 21:56:00"
-  },
-  {
-    "address": "Campinas, Parque Taquaral",
-    "description": [
-      {
-        "floorSize": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/42/423445551196166.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/sepultura-1329274829",
-    "price": "R$ 35.000",
-    "publishDate": "2024-08-15 16:27:00"
-  },
-  {
-    "address": "Campinas, Parque Dom Pedro II",
-    "description": [
-      {
-        "floorSize": "60"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/93/935450916493295.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-jardim-sao-pedro-de-viracopos-1330328334",
-    "price": "R$ 38.000",
-    "publishDate": "2024-08-19 14:50:00"
-  },
-  {
-    "address": "Campinas, Cidade Satélite Íris",
-    "description": [
-      {
-        "floorSize": "60"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/64/640484328339752.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-de-tres-comodos-grandes-1336202745",
-    "price": "R$ 40.000",
-    "publishDate": "2024-09-09 18:29:00"
-  },
-  {
-    "address": "Campinas, Jardim Paranapanema",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/22/228493196218268.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-1328790218",
-    "price": "R$ 40.000",
-    "publishDate": "2024-08-13 20:40:00"
   }
 ]
