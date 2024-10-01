@@ -1,6 +1,7 @@
-// pages/Home.tsx
 import { useEffect, useRef, useState } from "react";
-import PropertyFilters, { Filters } from "../../components/Filters/PropertyFilters";
+import PropertyFilters, {
+  Filters,
+} from "../../components/Filters/PropertyFilters";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
 import PropertyCard from "../../components/PropertyCard/PropertyCard";
@@ -12,28 +13,38 @@ const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
   const [filteredHouseList, setFilteredHouseList] = useState(houseList);
+  const [hasData, setHasData] = useState(true); // Controle para dados vazios
 
   const { data, loading, error } = useFetchData();
+  console.log("data: ", data);
   console.log("error: ", error);
 
   useEffect(() => {
     if (!loading) {
-      const combinedList = [...data.olxResults, ...data.zapResults];
+      if ((data && data.olxResults.length > 0) || data.zapResults.length > 0) {
+        const { olxResults, zapResults } = data;
+        console.log("data: ", data);
+        const combinedList = [...(olxResults || []), ...(zapResults || [])];
 
-      const parsePrice = (priceString: string) => {
-        const price = priceString.replace(/[^\d]+/g, "");
-        return parseInt(price, 10) || 0;
-      };
+        const parsePrice = (priceString: string) => {
+          const price = priceString.replace(/[^\d]+/g, "");
+          return parseInt(price, 10) || 0;
+        };
 
-      const sortedList = combinedList.sort((a, b) => {
-        return parsePrice(a.price) - parsePrice(b.price);
-      });
+        const sortedList = combinedList.sort((a, b) => {
+          return parsePrice(a.price) - parsePrice(b.price);
+        });
 
-      setHouseList(sortedList);
+        setHouseList(sortedList);
+        setFilteredHouseList(sortedList);
+      } else {
+        setHasData(false);
+      }
     }
   }, [data, loading]);
 
   const handleFilterChange = (filters: Filters) => {
+    if (houseList.length === 0) return;
     const filteredList = houseList.filter((house) => {
       const price = parseInt(house.price.replace(/[^\d]+/g, ""), 10);
       const floor = parseInt(
@@ -86,9 +97,15 @@ const Home = () => {
           className="flex flex-wrap justify-between gap-2 p-5 lg:w-2/3"
           ref={scrollContainerRef}
         >
-          {filteredHouseList.map((property, index) => (
-            <PropertyCard key={`house-${index}`} property={property} />
-          ))}
+          {loading && <p>Carregando...</p>}
+
+          {!loading && hasData && filteredHouseList.length === 0 && (
+            <p>Nenhum resultado encontrado com os filtros aplicados.</p>
+          )}
+          {!loading &&
+            filteredHouseList.map((property, index) => (
+              <PropertyCard key={`house-${index}`} property={property} />
+            ))}
         </div>
       </div>
     </div>
