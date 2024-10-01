@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import defaultImage from "../../assets/mcmv.png";
 import { DescriptionFields, Property } from "../../services/dataService";
@@ -7,7 +7,7 @@ export interface PropertyCardProps {
   property: Property;
 }
 
-const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
+const PropertyCard: React.FC<PropertyCardProps> = memo(({ property }) => {
   const { address, images, description, link, price } = property;
 
   const getDescriptionValue = (field: DescriptionFields) => {
@@ -111,6 +111,5 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
       </div>
     </div>
   );
-};
-
+});
 export default PropertyCard;
