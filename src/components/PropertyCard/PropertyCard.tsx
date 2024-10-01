@@ -39,9 +39,10 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(({ property }) => {
                 key={index}
               >
                 <LazyLoadImage
-                  src={image}
+                  src={image || defaultImage}
                   alt={`Imagem da propriedade ${index + 1}`}
                   className="w-full h-48 object-cover"
+                  onError={(e) => (e.currentTarget.src = defaultImage)}
                   loading="lazy"
                 />
 
