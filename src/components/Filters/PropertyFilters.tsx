@@ -1,5 +1,4 @@
-// components/Filters/PropertyFilters.tsx
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useReducer } from "react";
 
 interface PropertyFiltersProps {
   onFilterChange: (filters: Filters) => void;
@@ -15,18 +14,62 @@ export interface Filters {
 }
 
 const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
-  const [filters, setFilters] = useState<Filters>({
+  const initialFilters = {
     priceRange: { min: 0, max: 1000000 },
     floorSize: 0,
     numberOfRooms: 0,
     numberOfBathrooms: 0,
     numberOfParkingSpaces: 0,
     addressQuery: "",
-  });
+  };
+  interface SetPriceRangeAction {
+    type: "SET_PRICE_RANGE";
+    payload: {
+      name: "min" | "max";
+      value: number;
+    };
+  }
 
-  useEffect(() => {
-    onFilterChange(filters);
-  }, [filters, onFilterChange]);
+  interface SetFilterAction {
+    type: "SET_FILTER";
+    payload: {
+      name: keyof Filters;
+      value: number | string;
+    };
+  }
+
+  interface ResetFiltersAction {
+    type: "RESET_FILTERS";
+  }
+
+  type FilterAction =
+    | SetPriceRangeAction
+    | SetFilterAction
+    | ResetFiltersAction;
+
+  function filterReducer(state: Filters, action: FilterAction): Filters {
+    switch (action.type) {
+      case "SET_PRICE_RANGE":
+        return {
+          ...state,
+          priceRange: {
+            ...state.priceRange,
+            [action.payload.name]: action.payload.value,
+          },
+        };
+      case "SET_FILTER":
+        return {
+          ...state,
+          [action.payload.name]: action.payload.value,
+        };
+      case "RESET_FILTERS":
+        return initialFilters;
+      default:
+        return state;
+    }
+  }
+
+  const [filters, dispatch] = useReducer(filterReducer, initialFilters);
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement>,
@@ -34,19 +77,30 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
   ) => {
     const value = e.target.value;
     if (key === "priceRange") {
-      setFilters((prev: Filters) => ({
-        ...prev,
-        priceRange: {
-          ...prev.priceRange,
-          [e.target.name]: parseInt(value, 10) || 0,
+      dispatch({
+        type: "SET_PRICE_RANGE",
+        payload: {
+          name: e.target.name as "min" | "max",
+          value: parseInt(value, 10) || 0,
         },
-      }));
+      });
     } else {
-      setFilters((prev: Filters) => ({
-        ...prev,
-        [key]: key === "addressQuery" ? value : parseInt(value, 10) || 0,
-      }));
+      dispatch({
+        type: "SET_FILTER",
+        payload: {
+          name: key,
+          value: key === "addressQuery" ? value : parseInt(value, 10) || 0,
+        },
+      });
     }
+  };
+
+  const handleApplyFilters = () => {
+    onFilterChange(filters);
+  };
+
+  const handleResetFilters = () => {
+    dispatch({ type: "RESET_FILTERS" });
   };
 
   return (
@@ -60,17 +114,18 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
               placeholder="Min"
               className="input input-bordered input-primary w-full max-w-xs"
               name="min"
-              disabled
+              value={filters.priceRange.min}
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 handleInputChange(e, "priceRange")
               }
             />
+
             <input
               type="number"
               placeholder="Max"
               className="input input-bordered input-primary w-full max-w-xs"
               name="max"
-              disabled
+              value={filters.priceRange.max}
               onChange={(e: ChangeEvent<HTMLInputElement>) =>
                 handleInputChange(e, "priceRange")
               }
@@ -84,7 +139,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
             className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Tamanho"
-            disabled
+            value={filters.floorSize}
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "floorSize")
             }
@@ -97,7 +152,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
             className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Quartos"
-            disabled
+            value={filters.numberOfRooms}
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "numberOfRooms")
             }
@@ -110,7 +165,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
             className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Banheiros"
-            disabled
+            value={filters.numberOfBathrooms}
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "numberOfBathrooms")
             }
@@ -123,7 +178,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
             className="input input-bordered input-primary w-full max-w-xs"
             type="number"
             placeholder="Vagas"
-            disabled
+            value={filters.numberOfParkingSpaces}
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "numberOfParkingSpaces")
             }
@@ -135,13 +190,28 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
           <input
             className="input input-bordered input-primary w-full max-w-xs"
             type="text"
-            disabled
             placeholder="Pesquisar por endereço"
+            value={filters.addressQuery}
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               handleInputChange(e, "addressQuery")
             }
           />
         </div>
+      </div>
+
+      <div className="mt-4 flex justify-between">
+        <button
+          className="btn btn-primary  btn-sm"
+          onClick={handleApplyFilters}
+        >
+          Aplicar Filtros
+        </button>
+        <button
+          className="btn btn-outline  btn-sm"
+          onClick={handleResetFilters}
+        >
+          Resetar Filtros
+        </button>
       </div>
     </div>
   );
