@@ -93,7 +93,12 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
         </figure>
 
         <div className="card-body">
-          <h2 className="card-title">{price || "Preço não disponível"}</h2>
+          <h2 className="card-title">
+            {parseInt(price).toLocaleString("pt-BR", {
+              style: "currency",
+              currency: "BRL",
+            }) || "Preço não disponível"}
+          </h2>
           <p className="text-sm">{renderDescription()}</p>
           <p className="text-sm text-gray-500">
             {address || "Endereço não disponível"}

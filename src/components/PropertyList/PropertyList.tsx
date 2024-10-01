@@ -12,7 +12,7 @@ const PropertyList: React.FC<PropertyListProps> = ({ properties }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setWindowWidth(window.innerWidth);
+      setWindowWidth(window.innerWidth - 800);
       setWindowHeight(window.innerHeight);
     };
     window.addEventListener("resize", handleResize);
