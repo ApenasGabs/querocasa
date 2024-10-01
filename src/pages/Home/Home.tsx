@@ -4,7 +4,7 @@ import PropertyFilters, {
 } from "../../components/Filters/PropertyFilters";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
-import PropertyCard from "../../components/PropertyCard/PropertyCard";
+import PropertyList from "../../components/PropertyList/PropertyList";
 import { useFetchData } from "../../hooks/useFetchData";
 import { DataPops } from "../../services/dataService";
 
@@ -13,11 +13,10 @@ const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
   const [filteredHouseList, setFilteredHouseList] = useState(houseList);
-  const [hasData, setHasData] = useState(true); // Controle para dados vazios
+  const [hasData, setHasData] = useState(true);
 
   const { data, loading, error } = useFetchData();
-  console.log("data: ", data);
-  console.log("error: ", error);
+  console.error("error: ", error);
 
   useEffect(() => {
     if (!loading) {
@@ -80,9 +79,16 @@ const Home = () => {
   };
 
   const size = loading ? 0 : filteredHouseList.length;
-
+  const Skeleton = Array.from({ length: 3 }).map((_, index) => (
+    <div className="flex w-96 flex-col gap-4" key={index}>
+      <div className="skeleton h-48 w-full" />
+      <div className="skeleton h-24 w-full" />
+      <div className="skeleton h-16 w-full mt-6" />
+      <div className="skeleton h-14 w-1/2 self-end mt-14 btn" />
+    </div>
+  ));
   return (
-    <div className="w-full">
+    <div>
       <Navbar links={[<p>{size} casas encontradas</p>]} />
       <Modal
         isModalOpen={isModalOpen}
@@ -90,7 +96,6 @@ const Home = () => {
       />
 
       <div className="flex flex-col lg:flex-row">
-        {/* Filtros */}
         <PropertyFilters onFilterChange={handleFilterChange} />
 
         <div
@@ -102,10 +107,11 @@ const Home = () => {
           {!loading && hasData && filteredHouseList.length === 0 && (
             <p>Nenhum resultado encontrado com os filtros aplicados.</p>
           )}
-          {!loading &&
-            filteredHouseList.map((property, index) => (
-              <PropertyCard key={`house-${index}`} property={property} />
-            ))}
+          {!loading ? (
+            <PropertyList properties={filteredHouseList} />
+          ) : (
+            <>{Skeleton}</>
+          )}
         </div>
       </div>
     </div>
