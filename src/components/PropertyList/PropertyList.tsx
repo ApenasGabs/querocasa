@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { FixedSizeGrid as Grid, GridChildComponentProps } from "react-window";
 import PropertyCard, { PropertyCardProps } from "../PropertyCard/PropertyCard";
 
@@ -21,11 +21,15 @@ const PropertyList: React.FC<PropertyListProps> = ({ properties }) => {
 
   const columnWidth = 300;
   const rowHeight = 500;
-  const columnCount = Math.floor(windowWidth / columnWidth);
+  const columnCount = useMemo(
+    () => Math.floor(windowWidth / columnWidth),
+    [windowWidth]
+  );
 
   const Cell = ({ columnIndex, rowIndex, style }: GridChildComponentProps) => {
     const index = rowIndex * columnCount + columnIndex;
     if (index >= properties.length) return null;
+
     return (
       <div
         style={{
@@ -36,7 +40,7 @@ const PropertyList: React.FC<PropertyListProps> = ({ properties }) => {
           padding: "1rem",
         }}
       >
-        <PropertyCard property={properties[index]} />
+        <PropertyCard property={properties[index]} index={index} />
       </div>
     );
   };
