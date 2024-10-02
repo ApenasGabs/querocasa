@@ -98,6 +98,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
 
   const handleApplyFilters = () => {
     onFilterChange(filters);
+    document.getElementById("filter-drawer")?.click();
   };
 
   const handleResetFilters = () => {
@@ -116,7 +117,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
           </div>
           <div className="drawer-side z-[1]">
             <label htmlFor="filter-drawer" className="drawer-overlay"></label>
-            <div className="p-4 bg-neutral">
+            <div className="p-4 bg-base-300">
               <FilterForm
                 filters={filters}
                 handleInputChange={handleInputChange}
