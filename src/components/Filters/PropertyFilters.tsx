@@ -22,6 +22,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
     numberOfParkingSpaces: 0,
     addressQuery: "",
   };
+
   interface SetPriceRangeAction {
     type: "SET_PRICE_RANGE";
     payload: {
@@ -97,6 +98,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
 
   const handleApplyFilters = () => {
     onFilterChange(filters);
+    document.getElementById("filter-drawer")?.click();
   };
 
   const handleResetFilters = () => {
@@ -104,117 +106,159 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
   };
 
   return (
-    <div className="w-full lg:w-1/3 max-w-72 p-4 rounded shadow-md lg:sticky lg:top-16">
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
-        <div>
-          <label>Faixa de Preço:</label>
-          <div className="flex space-x-2">
-            <input
-              type="number"
-              placeholder="Min"
-              className="input input-bordered input-primary w-full max-w-xs"
-              name="min"
-              value={filters.priceRange.min}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                handleInputChange(e, "priceRange")
-              }
-            />
-
-            <input
-              type="number"
-              placeholder="Max"
-              className="input input-bordered input-primary w-full max-w-xs"
-              name="max"
-              value={filters.priceRange.max}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                handleInputChange(e, "priceRange")
-              }
-            />
+    <>
+      <div className="lg:hidden">
+        <div className="drawer drawer-end">
+          <input id="filter-drawer" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content">
+            <label htmlFor="filter-drawer" className="btn btn-primary btn-sm">
+              Filtros
+            </label>
+          </div>
+          <div className="drawer-side z-[1]">
+            <label htmlFor="filter-drawer" className="drawer-overlay"></label>
+            <div className="p-4 bg-base-300">
+              <FilterForm
+                filters={filters}
+                handleInputChange={handleInputChange}
+                handleApplyFilters={handleApplyFilters}
+                handleResetFilters={handleResetFilters}
+              />
+            </div>
           </div>
         </div>
+      </div>
 
-        <div>
-          <label>Tamanho do Imóvel (m²):</label>
-          <input
-            className="input input-bordered input-primary w-full max-w-xs"
-            type="number"
-            placeholder="Tamanho"
-            value={filters.floorSize}
-            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              handleInputChange(e, "floorSize")
-            }
-          />
-        </div>
-
-        <div>
-          <label>Quartos:</label>
-          <input
-            className="input input-bordered input-primary w-full max-w-xs"
-            type="number"
-            placeholder="Quartos"
-            value={filters.numberOfRooms}
-            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              handleInputChange(e, "numberOfRooms")
-            }
-          />
-        </div>
-
-        <div>
-          <label>Banheiros:</label>
-          <input
-            className="input input-bordered input-primary w-full max-w-xs"
-            type="number"
-            placeholder="Banheiros"
-            value={filters.numberOfBathrooms}
-            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              handleInputChange(e, "numberOfBathrooms")
-            }
-          />
-        </div>
-
-        <div>
-          <label>Vagas de Garagem:</label>
-          <input
-            className="input input-bordered input-primary w-full max-w-xs"
-            type="number"
-            placeholder="Vagas"
-            value={filters.numberOfParkingSpaces}
-            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              handleInputChange(e, "numberOfParkingSpaces")
-            }
-          />
-        </div>
-
-        <div>
-          <label>Endereço:</label>
-          <input
-            className="input input-bordered input-primary w-full max-w-xs"
-            type="text"
-            placeholder="Pesquisar por endereço"
-            value={filters.addressQuery}
-            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              handleInputChange(e, "addressQuery")
-            }
+      <div className="hidden lg:block">
+        <div className="w-full max-w-72 p-4 rounded shadow-md sticky top-16">
+          <FilterForm
+            filters={filters}
+            handleInputChange={handleInputChange}
+            handleApplyFilters={handleApplyFilters}
+            handleResetFilters={handleResetFilters}
           />
         </div>
       </div>
-
-      <div className="mt-4 flex justify-between">
-        <button
-          className="btn btn-primary  btn-sm"
-          onClick={handleApplyFilters}
-        >
-          Aplicar Filtros
-        </button>
-        <button
-          className="btn btn-outline  btn-sm"
-          onClick={handleResetFilters}
-        >
-          Resetar Filtros
-        </button>
-      </div>
-    </div>
+    </>
   );
 };
+
+const FilterForm = ({
+  filters,
+  handleInputChange,
+  handleApplyFilters,
+  handleResetFilters,
+}: {
+  filters: Filters;
+  handleInputChange: (
+    e: React.ChangeEvent<HTMLInputElement>,
+    key: keyof Filters
+  ) => void;
+  handleApplyFilters: () => void;
+  handleResetFilters: () => void;
+}) => (
+  <div>
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
+      <div>
+        <label>Faixa de Preço:</label>
+        <div className="flex space-x-2">
+          <input
+            type="number"
+            placeholder="Min"
+            className="input input-bordered input-primary w-full max-w-xs"
+            name="min"
+            value={filters.priceRange.min}
+            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+              handleInputChange(e, "priceRange")
+            }
+          />
+          <input
+            type="number"
+            placeholder="Max"
+            className="input input-bordered input-primary w-full max-w-xs"
+            name="max"
+            value={filters.priceRange.max}
+            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+              handleInputChange(e, "priceRange")
+            }
+          />
+        </div>
+      </div>
+      <div>
+        <label>Tamanho do Imóvel (m²):</label>
+        <input
+          className="input input-bordered input-primary w-full max-w-xs"
+          type="number"
+          placeholder="Tamanho"
+          value={filters.floorSize}
+          onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            handleInputChange(e, "floorSize")
+          }
+        />
+      </div>
+
+      <div>
+        <label>Quartos:</label>
+        <input
+          className="input input-bordered input-primary w-full max-w-xs"
+          type="number"
+          placeholder="Quartos"
+          value={filters.numberOfRooms}
+          onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            handleInputChange(e, "numberOfRooms")
+          }
+        />
+      </div>
+
+      <div>
+        <label>Banheiros:</label>
+        <input
+          className="input input-bordered input-primary w-full max-w-xs"
+          type="number"
+          placeholder="Banheiros"
+          value={filters.numberOfBathrooms}
+          onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            handleInputChange(e, "numberOfBathrooms")
+          }
+        />
+      </div>
+
+      <div>
+        <label>Vagas de Garagem:</label>
+        <input
+          className="input input-bordered input-primary w-full max-w-xs"
+          type="number"
+          placeholder="Vagas"
+          value={filters.numberOfParkingSpaces}
+          onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            handleInputChange(e, "numberOfParkingSpaces")
+          }
+        />
+      </div>
+
+      <div>
+        <label>Endereço:</label>
+        <input
+          className="input input-bordered input-primary w-full max-w-xs"
+          type="text"
+          placeholder="Pesquisar por endereço"
+          value={filters.addressQuery}
+          onChange={(e: ChangeEvent<HTMLInputElement>) =>
+            handleInputChange(e, "addressQuery")
+          }
+        />
+      </div>
+    </div>
+
+    <div className="mt-4 flex justify-between">
+      <button className="btn btn-primary btn-sm" onClick={handleApplyFilters}>
+        Aplicar Filtros
+      </button>
+      <button className="btn btn-outline btn-sm" onClick={handleResetFilters}>
+        Resetar Filtros
+      </button>
+    </div>
+  </div>
+);
 
 export default PropertyFilters;
