@@ -23,12 +23,17 @@ const getCoordinates = async (neighborhood) => {
 const updateCoordinates = async () => {
   try {
     const dataDir = join(process.cwd(), "data", "results");
-    const coordinatesFilePath = join(
-      process.cwd(),
-      "data",
-      "coordinates",
-      "coordinates.json"
-    );
+    const coordinatesDir = join(process.cwd(), "data", "coordinates");
+    const coordinatesFilePath = join(coordinatesDir, "coordinates.json");
+
+    if (!(await fs.stat(coordinatesDir).catch(() => false))) {
+      await fs.mkdir(coordinatesDir, { recursive: true });
+      console.log(`Directory ${coordinatesDir} created.`);
+    }
+
+    if (!(await fs.stat(dataDir).catch(() => false))) {
+      throw new Error(`Directory ${dataDir} does not exist.`);
+    }
 
     const dataFiles = await fs.readdir(dataDir);
     const jsonFiles = dataFiles.filter((file) => file.endsWith(".json"));
