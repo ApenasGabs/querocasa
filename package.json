@@ -14,9 +14,11 @@
     "@vercel/speed-insights": "^1.0.12",
     "axios": "^1.7.7",
     "express": "^4.21.0",
+    "leaflet": "^1.9.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-lazy-load-image-component": "^1.6.2",
+    "react-leaflet": "^4.2.1",
     "react-window": "^1.8.10"
   },
   "devDependencies": {
@@ -24,6 +26,7 @@
     "@types/babel__generator": "^7.6.8",
     "@types/babel__template": "^7.4.4",
     "@types/babel__traverse": "^7.20.6",
+    "@types/leaflet": "^1.9.12",
     "@types/node": "^22.5.5",
     "@types/prop-types": "^15.7.12",
     "@types/react": "^18.3.10",

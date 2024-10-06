@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import PropertyFilters, {
   Filters,
 } from "../../components/Filters/PropertyFilters";
+import Map from "../../components/Map/Map";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
 import PropertyList from "../../components/PropertyList/PropertyList";
@@ -97,22 +98,27 @@ const Home = () => {
 
       <div className="flex flex-col lg:flex-row">
         <PropertyFilters onFilterChange={handleFilterChange} />
-
         <div
           className="flex flex-wrap justify-between gap-2 p-5 lg:w-2/3"
           ref={scrollContainerRef}
         >
           {loading && <p>Carregando...</p>}
-
           {!loading && hasData && filteredHouseList.length === 0 && (
             <p>Nenhum resultado encontrado com os filtros aplicados.</p>
           )}
           {!loading ? (
-            <PropertyList properties={filteredHouseList} />
+            <div className="flex ">
+              <PropertyList properties={filteredHouseList} />
+            </div>
           ) : (
             <>{Skeleton}</>
           )}
         </div>
+        {!loading && (
+          <div className="flex w-2/3 lg:w-1/3 pr-4">
+            <Map properties={filteredHouseList} />
+          </div>
+        )}
       </div>
     </div>
   );
