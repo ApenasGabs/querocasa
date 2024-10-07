@@ -3,28 +3,46 @@ import { promises as fs } from "fs";
 import { join, parse } from "path";
 
 const getCoordinates = async (neighborhood) => {
-  try {
-    const response = await axios.get(
-      "https://nominatim.openstreetmap.org/search",
-      {
-        params: {
-          format: "json",
-          q: `${neighborhood}, Campinas`,
-        },
-        headers: {
-          "User-Agent": "Querocasa/1.0 (https://querocasa.apenasgabs.dev/)",
-        },
+  let retries = 5;
+  let delay = 2500;
+
+  while (retries > 0) {
+    try {
+      const response = await axios.get(
+        "https://nominatim.openstreetmap.org/search",
+        {
+          params: {
+            format: "json",
+            q: `${neighborhood}, Campinas`,
+          },
+          headers: {
+            "User-Agent": "Querocasa/1.0 (https://querocasa.apenasgabs.dev/)",
+          },
+        }
+      );
+      const data = response.data;
+      if (data && data.length > 0) {
+        return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
       }
-    );
-    const data = await response.data;
-    if (data && data.length > 0) {
-      return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
+      return null;
+    } catch (error) {
+      console.error(`Error fetching coordinates for ${neighborhood}:`, error);
+
+      if (error.response && error.response.status === 403) {
+        console.warn("Blocked by Nominatim. Increasing wait time...");
+        await new Promise((resolve) => setTimeout(resolve, delay));
+        delay *= 2;
+        retries -= 1;
+      } else {
+        return null;
+      }
     }
-    return null;
-  } catch (error) {
-    console.error(`Error fetching coordinates for ${neighborhood}:`, error);
-    return null;
   }
+
+  console.error(
+    `Failed to fetch coordinates for ${neighborhood} after multiple attempts.`
+  );
+  return null;
 };
 
 const updateCoordinates = async () => {
