@@ -42,11 +42,11 @@
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7565954832b1817b757157eb0673bc51/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/cd2e739549f21e617372b01751fd11fe/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/623361a613cf06bd0b104e5ad60ca233/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8cf43c998efc543b1aa6679e7f8f08f9/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/817a79295d3f5de6c6b8d7ee5c66d159/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/22c66b2b2fcf058c925f1d7885a8bbc1/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/9cdf29f82cd40647d730f28cae5a184e/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6de2ffe7f6c57df68ed81212c4927f62/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/eb5949499fe6863a8d498b14131dc01c/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7f719292007df8b7a1e65b50b05ea249/casa-com-2-quartos-a-venda-64m-no-conjunto-habitacional-parque-itajai-campinas.webp"
     ],
     "price": "295000"
   },
@@ -405,32 +405,6 @@
     "price": "120000"
   },
   {
-    "address": "Jardim Itaguaçu I, Campinas",
-    "description": [
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfRooms": "1"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "1"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/5dd047eaa292be0016251252ecddb266/casa-com-1-quarto-a-venda-200m-no-jardim-itaguacu-i-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/10439574fa254c2bc2917674cab04b48/casa-com-1-quarto-a-venda-200m-no-jardim-itaguacu-i-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f4955bccf524d90d9db0a75039bf41fa/casa-com-1-quarto-a-venda-200m-no-jardim-itaguacu-i-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/eb1f5a145508104c4021955023573f88/casa-com-1-quarto-a-venda-200m-no-jardim-itaguacu-i-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8084e449c14332c82d72ce7a1d68e4f6/casa-com-1-quarto-a-venda-200m-no-jardim-itaguacu-i-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-jardim-itaguacu-i-campinas-200m2-id-2722403540/",
-    "price": "120000"
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": [
       {
@@ -457,29 +431,6 @@
     "price": "120000"
   },
   {
-    "address": "Jardim Ouro Preto, Campinas",
-    "description": [
-      {
-        "floorSize": "60"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/06bc904e6f7d8eb8055a3464efea5efe/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6fbc76cfb99722cdba1a8cb71be0020b/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ec7d6fd67c2f4568c519e571d90dbfc5/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/41dd036d6f00ee08ca0d8cc5db69d5b7/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3b6bfc325b41a7d591eb3dfc7d408ed5/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-ouro-preto-campinas-60m2-id-2539086583/",
-    "price": "130000"
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": [
       {
@@ -500,6 +451,29 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e74922be6a931deb26c69f21fd4cf23a/casa-com-2-quartos-a-venda-50m-no-conjunto-habitacional-vida-nova-campinas.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-conjunto-habitacional-vida-nova-campinas-50m2-id-2571359988/",
+    "price": "130000"
+  },
+  {
+    "address": "Jardim Ouro Preto, Campinas",
+    "description": [
+      {
+        "floorSize": "60"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/06bc904e6f7d8eb8055a3464efea5efe/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6fbc76cfb99722cdba1a8cb71be0020b/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ec7d6fd67c2f4568c519e571d90dbfc5/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/41dd036d6f00ee08ca0d8cc5db69d5b7/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3b6bfc325b41a7d591eb3dfc7d408ed5/casa-com-2-quartos-a-venda-60m-no-jardim-ouro-preto-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-ouro-preto-campinas-60m2-id-2539086583/",
     "price": "130000"
   },
   {
@@ -604,6 +578,32 @@
     "price": "140000"
   },
   {
+    "address": "Jardim Santo Antonio, Campinas",
+    "description": [
+      {
+        "floorSize": "280"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "3"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e1e5c2b7979d6cb35fcc6a6ef044c32f/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/0924895004f9fdad5c42a6a7dcea5ee7/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/169aed6a3fd4638c9193ea16742024eb/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4cc53fbaa8568265fcc6966b118e3186/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/49f55eb99589f52a1aca8ba88fbf5200/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-santo-antonio-campinas-280m2-id-2647916105/",
+    "price": "140000"
+  },
+  {
     "address": "Jardim Campos Elíseos, Campinas",
     "description": [
       {
@@ -653,32 +653,6 @@
     "price": "140000"
   },
   {
-    "address": "Jardim Santo Antonio, Campinas",
-    "description": [
-      {
-        "floorSize": "280"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "3"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e1e5c2b7979d6cb35fcc6a6ef044c32f/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/0924895004f9fdad5c42a6a7dcea5ee7/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/169aed6a3fd4638c9193ea16742024eb/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4cc53fbaa8568265fcc6966b118e3186/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/49f55eb99589f52a1aca8ba88fbf5200/casa-com-2-quartos-a-venda-280m-no-jardim-santo-antonio-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-santo-antonio-campinas-280m2-id-2647916105/",
-    "price": "140000"
-  },
-  {
     "address": "Jardim Yeda, Campinas",
     "description": [
       {
@@ -702,32 +676,6 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/d4008cd897e89025e916d17b0cbac4ea/casa-com-2-quartos-a-venda-100m-no-jardim-yeda-campinas.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-yeda-campinas-100m2-id-2746313375/",
-    "price": "145000"
-  },
-  {
-    "address": "Dic IV (Conjunto Habitacional Lech Walesa), Campinas",
-    "description": [
-      {
-        "floorSize": "153"
-      },
-      {
-        "numberOfRooms": "1"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      },
-      {
-        "null": "2"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/45aa3a50f01a11359f6a2b8dce4a2bef/casa-com-1-quarto-a-venda-153m-no-dic-iv-conjunto-habitacional-lech-walesa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/16078cdd71b941de56966a7cbe89431b/casa-com-1-quarto-a-venda-153m-no-dic-iv-conjunto-habitacional-lech-walesa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/32d692598b38f4d5420dcd3c44e3357c/casa-com-1-quarto-a-venda-153m-no-dic-iv-conjunto-habitacional-lech-walesa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6c4b2d9c12d9fa68f282ba4a5b099db3/casa-com-1-quarto-a-venda-153m-no-dic-iv-conjunto-habitacional-lech-walesa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c40b397b28983e446e2d01879ce00057/casa-com-1-quarto-a-venda-153m-no-dic-iv-conjunto-habitacional-lech-walesa-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-dic-iv-conjunto-habitacional-lech-walesa-campinas-153m2-id-2745715793/",
     "price": "145000"
   },
   {
@@ -1188,6 +1136,57 @@
     "price": "160000"
   },
   {
+    "address": "Jardim Santo Antonio, Campinas",
+    "description": [
+      {
+        "floorSize": "125"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "1"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ccd7bd09a313a97d2f1eb491f38cb014/casa-com-2-quartos-a-venda-125m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/5374735dd1745f49027c9cce6dc8d8db/casa-com-2-quartos-a-venda-125m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/bcb022f61e0d32f3864358e057e05c49/casa-com-2-quartos-a-venda-125m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ff7e2482539ac8de63322b362f57fab5/casa-com-2-quartos-a-venda-125m-no-jardim-santo-antonio-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4c2dd916c43be4ebb915c7a3099b3867/casa-com-2-quartos-a-venda-125m-no-jardim-santo-antonio-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-santo-antonio-campinas-125m2-id-2597835559/",
+    "price": "160000"
+  },
+  {
+    "address": "Santa Clara, Campinas",
+    "description": [
+      {
+        "floorSize": "80"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "2"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6b0d516ea84d5f050d09c86793338f16/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/051af29165b53a0b4b6ff4b5866698ef/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8534498958079daacd734f049f13dced/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/9991cef659b8d33295380537b69ffcdd/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f719f59e82e0384e8cc34a5858bade1e/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp"
+    ],
+    "price": "160000"
+  },
+  {
     "address": "Cidade Satélite Íris, Campinas",
     "description": [
       {
@@ -1211,6 +1210,32 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6d2aa8bf4bd989a5d2d509ffe8903f4c/casa-com-3-quartos-a-venda-108m-no-cidade-satelite-iris-campinas.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-cidade-satelite-iris-campinas-108m2-id-2648776591/",
+    "price": "160000"
+  },
+  {
+    "address": "Vila San Martin, Campinas",
+    "description": [
+      {
+        "floorSize": "100"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "3"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c3d089b2f65c2076fb4a3e50a57d78aa/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e7972b6bd6ed1db46e017cc809f2cb3c/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e455443aee57769fc490fe01da484d55/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/b5503e9b940365356678f1691069d12b/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/196996f29554304a0bf7fbe5bea85da4/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-san-martin-campinas-100m2-id-2583971572/",
     "price": "160000"
   },
   {
@@ -1240,32 +1265,6 @@
     "price": "160000"
   },
   {
-    "address": "Jardim Ouro Preto, Campinas",
-    "description": [
-      {
-        "floorSize": "85"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "10"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7a898ebd01075b9e2d237d24f703dc1e/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/76bd81709cdd031bdc3d757e8aaa72ab/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/152c4dc4533ddd93a5a023c96fd36662/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/268af17c7f862330537e69a90581f3e1/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/b97453ae7abffc915d80086d420c3dec/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-ouro-preto-campinas-85m2-id-2451820012/",
-    "price": "160000"
-  },
-  {
     "address": "Núcleo Residencial Vila Vitória, Campinas",
     "description": [
       {
@@ -1289,10 +1288,10 @@
     "price": "160000"
   },
   {
-    "address": "Santa Clara, Campinas",
+    "address": "Jardim Ouro Preto, Campinas",
     "description": [
       {
-        "floorSize": "80"
+        "floorSize": "85"
       },
       {
         "numberOfRooms": "2"
@@ -1301,42 +1300,17 @@
         "numberOfBathroomsTotal": "1"
       },
       {
-        "null": "2"
+        "null": "10"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6b0d516ea84d5f050d09c86793338f16/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/051af29165b53a0b4b6ff4b5866698ef/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8534498958079daacd734f049f13dced/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/9991cef659b8d33295380537b69ffcdd/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f719f59e82e0384e8cc34a5858bade1e/casa-com-2-quartos-a-venda-80m-no-santa-clara-campinas.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7a898ebd01075b9e2d237d24f703dc1e/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/76bd81709cdd031bdc3d757e8aaa72ab/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/152c4dc4533ddd93a5a023c96fd36662/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/268af17c7f862330537e69a90581f3e1/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/b97453ae7abffc915d80086d420c3dec/casa-com-2-quartos-a-venda-85m-no-jardim-ouro-preto-campinas.webp"
     ],
-    "price": "160000"
-  },
-  {
-    "address": "Vila San Martin, Campinas",
-    "description": [
-      {
-        "floorSize": "100"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "3"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c3d089b2f65c2076fb4a3e50a57d78aa/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e7972b6bd6ed1db46e017cc809f2cb3c/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e455443aee57769fc490fe01da484d55/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/b5503e9b940365356678f1691069d12b/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/196996f29554304a0bf7fbe5bea85da4/casa-com-2-quartos-a-venda-100m-no-vila-san-martin-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-san-martin-campinas-100m2-id-2583971572/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-ouro-preto-campinas-85m2-id-2451820012/",
     "price": "160000"
   },
   {
@@ -1485,32 +1459,6 @@
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-palmeiras-ii-campinas-65m2-id-2741858566/",
     "price": "165000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "floorSize": "80"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "2"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/118f081236c05997623aacd7c93694b4/casa-com-2-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a59776b0932b8b9a73f1e520aa6d0f5d/casa-com-2-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4669986e4a489f55abead1cae82a3d78/casa-com-2-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e2665bce899a760ca520bd946f6ea3d3/casa-com-2-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f822f716b8ebd9a0a519963efa19bf49/casa-com-2-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-armario-de-cozinha-loteamento-residencial-novo-mundo-campinas-80m2-id-2533039649/",
-    "price": "168000"
   },
   {
     "address": "Jardim São Jorge, Campinas",
@@ -2028,84 +1976,6 @@
     "price": "180000"
   },
   {
-    "address": "Vila Chico Amaral, Campinas",
-    "description": [
-      {
-        "floorSize": "50"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      },
-      {
-        "null": "1"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4d8fb6558a52a5f93b745de71de36b2d/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8b83ef29f27c645294ad33d18c349943/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/fb7abbdb1d539bfe5b793b91e2ded8b4/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/fa3c13f6761f447d17f269a4b01dfc97/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/0dde6439e215d656549dabc03600f78a/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-chico-amaral-campinas-50m2-id-2611604372/",
-    "price": "180000"
-  },
-  {
-    "address": "Núcleo Habitacional Boa Vista (Nova Aparecida), Campinas",
-    "description": [
-      {
-        "floorSize": "100"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "1"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/cef0352879af8d193b45a1c6704c7767/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/19131f79d879d50201ba4d9a0c45c266/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ee718af0bb365f03dd0d419c3b8edd92/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7ea0984b2cdd00fbfe57390c5f381b58/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8df694b2658da98ded84b2c512679d80/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-habitacional-boa-vista-nova-aparecida-campinas-100m2-id-2639404636/",
-    "price": "180000"
-  },
-  {
-    "address": "Campo Grande, Campinas",
-    "description": [
-      {
-        "floorSize": "260"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      },
-      {
-        "null": "2"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/43d46f8aca2b7c3666a6f06676facc75/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3e0f2a61b98792444712a2dfa810bc25/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/498404f823137ca22156eb7aa6679117/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4e0688c74bc56821b72da4bb75a32187/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/71c5aca8f53356a50ddc62a7f8fd0a80/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-campo-grande-campinas-260m2-id-2742611454/",
-    "price": "180000"
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": [
       {
@@ -2155,6 +2025,110 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/06889cc6f3b4683c1ff35c7e5fe6612d/casa-com-2-quartos-a-venda-167m-no-jardim-sao-domingos-campinas.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-sao-domingos-campinas-167m2-id-2476875286/",
+    "price": "180000"
+  },
+  {
+    "address": "Campo Grande, Campinas",
+    "description": [
+      {
+        "floorSize": "260"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      },
+      {
+        "null": "2"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/43d46f8aca2b7c3666a6f06676facc75/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3e0f2a61b98792444712a2dfa810bc25/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/498404f823137ca22156eb7aa6679117/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4e0688c74bc56821b72da4bb75a32187/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/71c5aca8f53356a50ddc62a7f8fd0a80/casa-com-2-quartos-a-venda-260m-no-campo-grande-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-campo-grande-campinas-260m2-id-2742611454/",
+    "price": "180000"
+  },
+  {
+    "address": "Conjunto Habitacional Vida Nova, Campinas",
+    "description": [
+      {
+        "floorSize": "75"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "2"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/5c716e013520328f7c0b9090032eed54/casa-com-2-quartos-a-venda-75m-no-conjunto-habitacional-vida-nova-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f79daf06f88743b2890b40e436b46654/casa-com-2-quartos-a-venda-75m-no-conjunto-habitacional-vida-nova-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7d32b82ece703ad3365713c89cf495d7/casa-com-2-quartos-a-venda-75m-no-conjunto-habitacional-vida-nova-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/934efa986529789df381d94dd84f6ce3/casa-com-2-quartos-a-venda-75m-no-conjunto-habitacional-vida-nova-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/84f31d9a049736ce49810ee071410561/casa-com-2-quartos-a-venda-75m-no-conjunto-habitacional-vida-nova-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-vida-nova-campinas-75m2-id-2542405099/",
+    "price": "180000"
+  },
+  {
+    "address": "Núcleo Habitacional Boa Vista (Nova Aparecida), Campinas",
+    "description": [
+      {
+        "floorSize": "100"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "1"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/cef0352879af8d193b45a1c6704c7767/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/19131f79d879d50201ba4d9a0c45c266/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ee718af0bb365f03dd0d419c3b8edd92/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7ea0984b2cdd00fbfe57390c5f381b58/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8df694b2658da98ded84b2c512679d80/casa-com-2-quartos-a-venda-100m-no-nucleo-habitacional-boa-vista-nova-aparecida-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-habitacional-boa-vista-nova-aparecida-campinas-100m2-id-2639404636/",
+    "price": "180000"
+  },
+  {
+    "address": "Vila Chico Amaral, Campinas",
+    "description": [
+      {
+        "floorSize": "50"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      },
+      {
+        "null": "1"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4d8fb6558a52a5f93b745de71de36b2d/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8b83ef29f27c645294ad33d18c349943/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/fb7abbdb1d539bfe5b793b91e2ded8b4/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/fa3c13f6761f447d17f269a4b01dfc97/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/0dde6439e215d656549dabc03600f78a/casa-com-2-quartos-a-venda-50m-no-vila-chico-amaral-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-chico-amaral-campinas-50m2-id-2611604372/",
     "price": "180000"
   },
   {
@@ -2299,29 +2273,29 @@
     "price": "188000"
   },
   {
-    "address": "Distrito Industrial, Campinas",
+    "address": "Jardim Lisa, Campinas",
     "description": [
       {
-        "floorSize": "128"
+        "floorSize": "60"
       },
       {
-        "numberOfRooms": "2"
+        "numberOfRooms": "3"
       },
       {
-        "numberOfBathroomsTotal": "1"
+        "numberOfBathroomsTotal": "2"
       },
       {
-        "null": "1"
+        "null": "2"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/78f7f08d554e138e63b35c13c117be0c/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3fe6c41aa8d385b44e4eb1b248e7719b/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c8dc7d976f760e2e27cc71d486f3ed5e/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e2722f65f49c84630d8232e42a825e35/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6ee9d12b6b304d8034c4bbe85442752c/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/2b7c9f1fb572e4c9369f16cc6b86cd8e/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4c262f557d4c2618aee63e909acaf148/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/48d4715d0671d68d28d1c6f9f5448d6f/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/2196f22f5cea68d3629426a5420276db/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3a1ee6db2c0611a5c8c84d318684f01d/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-distrito-industrial-campinas-128m2-id-2534986439/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-lisa-campinas-60m2-id-2742610074/",
     "price": "190000"
   },
   {
@@ -2351,29 +2325,29 @@
     "price": "190000"
   },
   {
-    "address": "Jardim Lisa, Campinas",
+    "address": "Distrito Industrial, Campinas",
     "description": [
       {
-        "floorSize": "60"
+        "floorSize": "128"
       },
       {
-        "numberOfRooms": "3"
+        "numberOfRooms": "2"
       },
       {
-        "numberOfBathroomsTotal": "2"
+        "numberOfBathroomsTotal": "1"
       },
       {
-        "null": "2"
+        "null": "1"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/2b7c9f1fb572e4c9369f16cc6b86cd8e/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/4c262f557d4c2618aee63e909acaf148/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/48d4715d0671d68d28d1c6f9f5448d6f/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/2196f22f5cea68d3629426a5420276db/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3a1ee6db2c0611a5c8c84d318684f01d/casa-com-3-quartos-a-venda-60m-no-jardim-lisa-campinas.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/78f7f08d554e138e63b35c13c117be0c/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3fe6c41aa8d385b44e4eb1b248e7719b/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c8dc7d976f760e2e27cc71d486f3ed5e/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e2722f65f49c84630d8232e42a825e35/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6ee9d12b6b304d8034c4bbe85442752c/casa-com-2-quartos-a-venda-128m-no-distrito-industrial-campinas.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-lisa-campinas-60m2-id-2742610074/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-distrito-industrial-campinas-128m2-id-2534986439/",
     "price": "190000"
   },
   {
@@ -2428,104 +2402,29 @@
     "price": "190000"
   },
   {
-    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
+    "address": "Vila Lunardi, Campinas",
     "description": [
       {
-        "floorSize": "180"
-      },
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "1"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ff05d99e8f852063211ab4bef04241a2/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6f72b0233be872ec46283e02c9f12893/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/499c96c61ec28d5cd95998384b919965/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/917619e0368284379034a9b7c3b87663/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e1d530684c7e8ea0b37c366ed5be3141/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-180m2-id-2682749372/",
-    "price": "190000"
-  },
-  {
-    "address": "Parque Cidade Campinas, Campinas",
-    "description": [
-      {
-        "floorSize": "125"
+        "floorSize": "80"
       },
       {
         "numberOfRooms": "2"
       },
       {
         "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "1"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/2a044b48d59d0908c5994dcddb0af41e/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a8b6edfcf0f11eff826d2b4e45191c59/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7aba7ff99b4fea05676199e8b09b789a/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8dcb8eefc294bf7aac4552da7299153a/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/d6418c7db91510aad4eba48e0d2d4342/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-parque-cidade-campinas-campinas-125m2-id-2746390800/",
-    "price": "190000"
-  },
-  {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": [
-      {
-        "floorSize": "150"
-      },
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
       },
       {
         "null": "2"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e786b76c90149eed443aa64990340ed2/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c998ab221abe8af22081a030bb159189/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/757a67f5e467c1491378f429a4b3044d/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a7b569e3da44d99e15bc5fa4ed6477d1/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/02334905ebd9c614ba7fab230678281e/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/410372868d7514d61ca034f79527f58c/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/9d25b61162e7146d987aef9e731b0aa9/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/73346c0c6f014c9b21eed410e66fcc32/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f339b9b78e6282f6d0de852278c48058/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/5915175fb72f3507ef8f7e1d14ec470e/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-150m2-id-2714163227/",
-    "price": "190000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "floorSize": "45"
-      },
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ab6a369e11d1b6d545282fce93f2daf3/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3471094e1751664b511a4cb1995776ff/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a63e85ad426bc2097e8a8079e26d3a25/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/0e7121d6e8c05a80fe14808580107d4f/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/be3f0cd5ad8972d24e9c6522b6f447df/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-45m2-id-2711856605/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-lunardi-campinas-80m2-id-2701427506/",
     "price": "190000"
   },
   {
@@ -2555,10 +2454,85 @@
     "price": "190000"
   },
   {
-    "address": "Vila Lunardi, Campinas",
+    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
     "description": [
       {
-        "floorSize": "80"
+        "floorSize": "180"
+      },
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "1"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ff05d99e8f852063211ab4bef04241a2/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/6f72b0233be872ec46283e02c9f12893/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/499c96c61ec28d5cd95998384b919965/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/917619e0368284379034a9b7c3b87663/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e1d530684c7e8ea0b37c366ed5be3141/casa-com-3-quartos-a-venda-180m-no-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-180m2-id-2682749372/",
+    "price": "190000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": [
+      {
+        "floorSize": "45"
+      },
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/ab6a369e11d1b6d545282fce93f2daf3/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/3471094e1751664b511a4cb1995776ff/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a63e85ad426bc2097e8a8079e26d3a25/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/0e7121d6e8c05a80fe14808580107d4f/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/be3f0cd5ad8972d24e9c6522b6f447df/casa-com-2-quartos-a-venda-45m-no-loteamento-residencial-novo-mundo-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-45m2-id-2711856605/",
+    "price": "190000"
+  },
+  {
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "floorSize": "150"
+      },
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      },
+      {
+        "null": "2"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e786b76c90149eed443aa64990340ed2/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c998ab221abe8af22081a030bb159189/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/757a67f5e467c1491378f429a4b3044d/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a7b569e3da44d99e15bc5fa4ed6477d1/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/02334905ebd9c614ba7fab230678281e/sobrado-com-3-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-150m2-id-2714163227/",
+    "price": "190000"
+  },
+  {
+    "address": "Parque Cidade Campinas, Campinas",
+    "description": [
+      {
+        "floorSize": "125"
       },
       {
         "numberOfRooms": "2"
@@ -2567,43 +2541,18 @@
         "numberOfBathroomsTotal": "1"
       },
       {
-        "null": "2"
+        "null": "1"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/410372868d7514d61ca034f79527f58c/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/9d25b61162e7146d987aef9e731b0aa9/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/73346c0c6f014c9b21eed410e66fcc32/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f339b9b78e6282f6d0de852278c48058/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/5915175fb72f3507ef8f7e1d14ec470e/casa-com-2-quartos-a-venda-80m-no-vila-lunardi-campinas.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/2a044b48d59d0908c5994dcddb0af41e/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a8b6edfcf0f11eff826d2b4e45191c59/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/7aba7ff99b4fea05676199e8b09b789a/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8dcb8eefc294bf7aac4552da7299153a/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/d6418c7db91510aad4eba48e0d2d4342/casa-com-2-quartos-a-venda-125m-no-parque-cidade-campinas-campinas.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-lunardi-campinas-80m2-id-2701427506/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-parque-cidade-campinas-campinas-125m2-id-2746390800/",
     "price": "190000"
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "floorSize": "69"
-      },
-      {
-        "numberOfRooms": "1"
-      },
-      {
-        "numberOfBathroomsTotal": "1"
-      },
-      {
-        "null": "2"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/c66d393381278ed46ccbbf110f291e21/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/49bdd4d4febfb6cb5af7bc905f83b32a/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8c3233489108b502b9b641005fef1d7c/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/f14f3d491b15207a92501f634daccbde/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/e9cc4d63fb12a8ef793946bc74ec165c/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp"
-    ],
-    "price": "191000"
   },
   {
     "address": "Jardim das Bandeiras, Campinas",
@@ -2629,6 +2578,31 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/a7716c0bbe67c7a8f2703fbfb0b7341c/sobrado-com-2-quartos-a-venda-110m-no-jardim-das-bandeiras-campinas.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-2-quartos-com-cozinha-jardim-das-bandeiras-campinas-110m2-id-2727789036/",
+    "price": "191000"
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": [
+      {
+        "floorSize": "69"
+      },
+      {
+        "numberOfRooms": "1"
+      },
+      {
+        "numberOfBathroomsTotal": "1"
+      },
+      {
+        "null": "2"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/abb4f2f53206a74dcd00237d21eeb85b/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/9c0bae949c7799c30c17e4758c892fe4/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/8917e1ff8f3f3c734212e5af6439ee35/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/36f319ec4cacb75ce3632857f42898e4/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/named.images.sp/76e3fd71b7bc3be4660e3f1051cc48e4/casa-com-1-quarto-a-venda-69m-no-loteamento-residencial-novo-mundo-campinas.webp"
+    ],
     "price": "191000"
   }
 ]
