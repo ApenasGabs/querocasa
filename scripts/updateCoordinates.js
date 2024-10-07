@@ -5,9 +5,16 @@ import { join, parse } from "path";
 const getCoordinates = async (neighborhood) => {
   try {
     const response = await axios.get(
-      `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(
-        neighborhood + ", Campinas"
-      )}`
+      "https://nominatim.openstreetmap.org/search",
+      {
+        params: {
+          format: "json",
+          q: `${neighborhood}, Campinas`,
+        },
+        headers: {
+          "User-Agent": "Querocasa/1.0 (https://querocasa.apenasgabs.dev/)",
+        },
+      }
     );
     const data = await response.data;
     if (data && data.length > 0) {
