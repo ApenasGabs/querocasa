@@ -20,6 +20,11 @@ export interface Property {
   images: string[];
   link: string;
   price: string;
+  coords: Coords;
+}
+export interface Coords {
+  lat?: number;
+  lon?: number;
 }
 
 export interface Description {

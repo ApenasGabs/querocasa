@@ -2,6 +2,7 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import React, { useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+// import { icon } from 'leaflet';
 
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import markerIconShadowPng from "leaflet/dist/images/marker-shadow.png";
@@ -46,7 +47,49 @@ const Map: React.FC<MapProps> = ({ properties }) => {
           <Popup>Centro</Popup>
         </Marker>
       )}
+      {properties.map((property, index) => (
+        <MarkerWithPopup key={index} property={property} />
+      ))}
     </MapContainer>
+  );
+};
+
+interface MarkerWithPopupProps {
+  property: Property;
+}
+
+const MarkerWithPopup: React.FC<MarkerWithPopupProps> = ({ property }) => {
+  const { lat, lon } = property.coords;
+  return (
+    lat &&
+    lon && (
+      <Marker position={[lat, lon]} icon={defaultIcon}>
+        <Popup>
+          <div>
+            <p>Endereço: {property.address}</p>
+            <p>Preço: {property.price}</p>
+            <p>
+              Tamanho:{" "}
+              {property.description.find((d) => d.floorSize)?.floorSize} m²
+            </p>
+            <p>
+              Quartos:{" "}
+              {property.description.find((d) => d.numberOfRooms)?.numberOfRooms}
+            </p>
+            <p>
+              Banheiros:{" "}
+              {
+                property.description.find((d) => d.numberOfBathroomsTotal)
+                  ?.numberOfBathroomsTotal
+              }
+            </p>
+            <a href={property.link} target="_blank" rel="noopener noreferrer">
+              Ver mais
+            </a>
+          </div>
+        </Popup>
+      </Marker>
+    )
   );
 };
 
