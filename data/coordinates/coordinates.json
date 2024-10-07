@@ -1,1 +1,126 @@
-{}
+{
+  "Parque Eldorado": {
+    "lat": -23.1678182,
+    "lon": -46.906254
+  },
+  "Cidade Satélite Íris": {
+    "lat": -22.9427307,
+    "lon": -47.1416499
+  },
+  "Vila Regina": {
+    "lat": -22.050304,
+    "lon": -46.9739075
+  },
+  "Vila San Martin": {
+    "lat": -22.8402906,
+    "lon": -47.1554487
+  },
+  "Jardim São Judas Tadeu": {
+    "lat": -23.1876769,
+    "lon": -46.8523369
+  },
+  "Residencial Campo Florido": {
+    "lat": -22.832523549999998,
+    "lon": -47.15139825374783
+  },
+  "Loteamento Residencial Novo Mundo": {
+    "lat": -20.2499754,
+    "lon": -50.5556623
+  },
+  "Jardim Itaguaçu I": {
+    "lat": -23.0393191,
+    "lon": -47.12085969847532
+  },
+  "Jardim Santo Antonio": {
+    "lat": -22.3491683,
+    "lon": -46.9451016
+  },
+  "Jardim Campos Elíseos": {
+    "lat": -23.1872681,
+    "lon": -46.9030973
+  },
+  "Jardim Yeda": {
+    "lat": -22.9490021,
+    "lon": -47.1126741
+  },
+  "Vila Rica": {
+    "lat": -22.7107885,
+    "lon": -46.7642427
+  },
+  "Núcleo Residencial Vila Vitória": {
+    "lat": -22.978375,
+    "lon": -47.16965686111111
+  },
+  "Jardim Planalto de Viracopos": {
+    "lat": -22.99122155,
+    "lon": -47.14269620043826
+  },
+  "Jardim Esplanada": {
+    "lat": -22.987168,
+    "lon": -47.1547568
+  },
+  "Santa Clara": {
+    "lat": -10.1934964,
+    "lon": -48.9000447
+  },
+  "Jardim Irmãos Sigrist": {
+    "lat": -23.00426025,
+    "lon": -47.10511879606443
+  },
+  "Jardim Amazonas": {
+    "lat": -23.0857062,
+    "lon": -46.9861488
+  },
+  "Jardim São Domingos": {
+    "lat": -21.4593487,
+    "lon": -47.0085588
+  },
+  "Jardim Capivari": {
+    "lat": -22.9561835,
+    "lon": -47.10866172838848
+  },
+  "São Charbel": {
+    "lat": -22.89036325,
+    "lon": -47.03414495415895
+  },
+  "Jardim São Jorge": {
+    "lat": -22.8591734,
+    "lon": -47.1988796
+  },
+  "Parque Santa Bárbara": {
+    "lat": -22.4454992,
+    "lon": -46.8362907
+  },
+  "Residencial São José": {
+    "lat": -27.5990882,
+    "lon": -48.61344571700498
+  },
+  "Vila Industrial": {
+    "lat": -22.6830835,
+    "lon": -47.6689696
+  },
+  "Jardim Mirassol": {
+    "lat": -22.8416978,
+    "lon": -47.1387166
+  },
+  "Campo Grande": {
+    "lat": -22.9360851,
+    "lon": -47.1601215
+  },
+  "Distrito Industrial": {
+    "lat": -22.4542953,
+    "lon": -46.9646587
+  },
+  "Vila Lunardi": {
+    "lat": -22.8819519,
+    "lon": -47.14947800526805
+  },
+  "Parque Cidade  Campinas": {
+    "lat": -22.834966350000002,
+    "lon": -47.150270806170965
+  },
+  "Jardim das Bandeiras": {
+    "lat": -23.1557867,
+    "lon": -46.8710082
+  }
+}
