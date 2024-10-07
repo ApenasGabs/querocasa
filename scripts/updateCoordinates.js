@@ -2,6 +2,12 @@ import axios from "axios";
 import { promises as fs } from "fs";
 import { join, parse } from "path";
 
+/**
+ * Fetches coordinates for a given neighborhood using the Nominatim API.
+ *
+ * @param {string} neighborhood - The name of the neighborhood to fetch coordinates for.
+ * @returns {Promise<{ lat: number, lon: number } | null>} The coordinates of the neighborhood, or null if not found.
+ */
 const getCoordinates = async (neighborhood) => {
   let retries = 5;
   let delay = 2500;
@@ -21,6 +27,8 @@ const getCoordinates = async (neighborhood) => {
         }
       );
       const data = response.data;
+      console.log(`response`, response);
+      console.log(`${neighborhood}: `, data);
       if (data && data.length > 0) {
         return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
       }
@@ -31,10 +39,10 @@ const getCoordinates = async (neighborhood) => {
       if (error.response && error.response.status === 403) {
         console.warn("Blocked by Nominatim. Increasing wait time...");
         await new Promise((resolve) => setTimeout(resolve, delay));
-        delay *= 2;
+        delay *= 2; // Dobrar o tempo de espera em caso de bloqueio
         retries -= 1;
       } else {
-        return null;
+        return null; // Retornar null em caso de outros erros
       }
     }
   }
@@ -45,12 +53,19 @@ const getCoordinates = async (neighborhood) => {
   return null;
 };
 
+/**
+ * Updates the coordinates for neighborhoods in property data files.
+ *
+ * Reads property data from JSON files, fetches missing coordinates,
+ * and updates both property data and the coordinates file.
+ */
 const updateCoordinates = async () => {
   try {
     const dataDir = join(process.cwd(), "data", "results");
     const coordinatesDir = join(process.cwd(), "data", "coordinates");
     const coordinatesFilePath = join(coordinatesDir, "coordinates.json");
 
+    // Criação do diretório de coordenadas se não existir
     if (!(await fs.stat(coordinatesDir).catch(() => false))) {
       await fs.mkdir(coordinatesDir, { recursive: true });
       console.log(`Directory ${coordinatesDir} created.`);
@@ -63,6 +78,7 @@ const updateCoordinates = async () => {
     const dataFiles = await fs.readdir(dataDir);
     const jsonFiles = dataFiles.filter((file) => file.endsWith(".json"));
 
+    // Carregar as coordenadas existentes
     let coordinates = {};
     try {
       const coordinatesContent = await fs.readFile(
@@ -74,6 +90,7 @@ const updateCoordinates = async () => {
       console.log("Coordinates file not found, creating a new one.");
     }
 
+    // Processar os arquivos JSON
     const results = await Promise.all(
       jsonFiles.map(async (file) => {
         const filePath = join(dataDir, file);
@@ -87,6 +104,7 @@ const updateCoordinates = async () => {
       return { ...acc, ...curr };
     }, {});
 
+    // Coletar bairros únicos das propriedades
     const neighborhoods = new Set();
     formattedResults.olxResults.forEach((property) => {
       const neighborhood = property.address
@@ -105,16 +123,24 @@ const updateCoordinates = async () => {
     });
 
     const neighborhoodsArray = Array.from(neighborhoods);
+
+    // Buscar coordenadas apenas para bairros que não possuem coordenadas
     for (const neighborhood of neighborhoodsArray) {
       if (!coordinates[neighborhood]) {
         const coords = await getCoordinates(neighborhood);
         if (coords) {
           coordinates[neighborhood] = coords;
         }
-        await new Promise((resolve) => setTimeout(resolve, 2500));
+        await new Promise((resolve) => setTimeout(resolve, 2500)); // Esperar entre as requisições
       }
     }
 
+    /**
+     * Adds coordinates to property objects.
+     *
+     * @param {Array<Object>} properties - An array of property objects.
+     * @returns {Array<Object>} The properties with added coordinates.
+     */
     const addCoordinatesToProperties = (properties) => {
       properties.forEach((property) => {
         const neighborhood = property.address
@@ -122,10 +148,12 @@ const updateCoordinates = async () => {
           .replace(",", "")
           .trim();
         const coords = coordinates[neighborhood];
-        if (coords) {
-          property.latitude = coords.lat;
-          property.longitude = coords.lon;
-        }
+        property.coords = coords
+          ? {
+              lat: coords.lat,
+              lon: coords.lon,
+            }
+          : {};
       });
       return properties;
     };
@@ -137,6 +165,7 @@ const updateCoordinates = async () => {
       formattedResults.zapResults
     );
 
+    // Salvar os resultados atualizados
     for (const file in formattedResults) {
       const filePath = join(dataDir, `${file}.json`);
       await fs.writeFile(
@@ -145,6 +174,7 @@ const updateCoordinates = async () => {
       );
     }
 
+    // Salvar o arquivo de coordenadas atualizado
     await fs.writeFile(
       coordinatesFilePath,
       JSON.stringify(coordinates, null, 2)
