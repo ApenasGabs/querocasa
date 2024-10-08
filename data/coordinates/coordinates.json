@@ -1586,5 +1586,41 @@
   "Jardim Aires da Costa": {
     "lat": -22.90784,
     "lon": -47.10294
+  },
+  "Loteamento Residencial Rosário": {
+    "lat": -22.93926,
+    "lon": -47.12466
+  },
+  "Jardim São João": {
+    "lat": -22.3440227,
+    "lon": -47.3748601
+  },
+  "Jardim São Francisco": {
+    "lat": -22.8834964,
+    "lon": -46.9719855
+  },
+  "Loteamento Residencial Parque dos Cantos": {
+    "lat": -22.95084,
+    "lon": -47.17366
+  },
+  "Vila Tofanello": {
+    "lat": -22.87704,
+    "lon": -47.03845
+  },
+  "Parque das Universidades": {
+    "lat": -22.8380939,
+    "lon": -47.0532253
+  },
+  "Jardim Brasil": {
+    "lat": -22.1906339,
+    "lon": -46.7797241
+  },
+  "Residencial Parque Rio das Pedras": {
+    "lat": -22.79892,
+    "lon": -47.08118
+  },
+  "Jardim Presidente Wenceslau": {
+    "lat": -22.88829,
+    "lon": -47.03559
   }
 }
