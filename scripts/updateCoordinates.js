@@ -31,8 +31,15 @@ const getCoordinates = async (neighborhood) => {
       console.log(`${neighborhood}: `, data);
       if (data && data.length > 0) {
         return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
+      } else {
+        // Chama hereapi se o Nominatim não encontrar o bairro
+        console.log(
+          `Nominatim não encontrou o bairro ${neighborhood}, ativando fallback hereapi...`
+        );
+        const data = await getCoordinatesFromHereMaps(neighborhood);
+        console.log("data: ", data);
+        return data;
       }
-      return null;
     } catch (error) {
       console.error(`Error fetching coordinates for ${neighborhood}:`, error);
 
@@ -51,6 +58,43 @@ const getCoordinates = async (neighborhood) => {
     `Failed to fetch coordinates for ${neighborhood} after multiple attempts.`
   );
   return null;
+};
+
+/**
+ * Fetches coordinates from Here Maps  API as a fallback.
+ *
+ * @param {string} neighborhood - The name of the neighborhood.
+ * @returns {Promise<{ lat: number, lon: number } | null>} The coordinates from Here Maps or null if not found.
+ */
+const getCoordinatesFromHereMaps = async (neighborhood) => {
+  const apiKey = process.argv[2];
+  try {
+    const response = await axios.get(
+      "https://geocode.search.hereapi.com/v1/geocode",
+      {
+        params: {
+          q: `${neighborhood}, Campinas, Brazil`,
+          apiKey: apiKey,
+        },
+      }
+    );
+
+    const data = response.data.items;
+    console.log("data: ", data);
+    if (data && data.length > 0) {
+      const location = data[0].position;
+      return { lat: location.lat, lon: location.lng };
+    } else {
+      console.error(`Geocoding failed for ${neighborhood}:`, data);
+      return null;
+    }
+  } catch (error) {
+    console.error(
+      `Error fetching coordinates from Here Maps for ${neighborhood}:`,
+      error
+    );
+    return null;
+  }
 };
 
 /**
