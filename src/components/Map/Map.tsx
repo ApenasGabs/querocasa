@@ -1,11 +1,9 @@
 import L from "leaflet";
-import "leaflet/dist/leaflet.css";
-import React, { useEffect, useState } from "react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-// import { icon } from 'leaflet';
-
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import markerIconShadowPng from "leaflet/dist/images/marker-shadow.png";
+import "leaflet/dist/leaflet.css";
+import React, { useEffect, useState } from "react";
+import { Circle, MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { Property } from "../../services/dataService";
 
 const defaultIcon = new L.Icon({
@@ -22,15 +20,29 @@ interface MapProps {
 }
 
 const Map: React.FC<MapProps> = ({ properties }) => {
-  console.log("properties: ", properties);
   const [position, setPosition] = useState<[number, number] | null>(null);
+  const [groupedProperties, setGroupedProperties] = useState<{
+    [key: string]: Property[];
+  }>({});
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
-      console.log("position: ", position);
       setPosition([position.coords.latitude, position.coords.longitude]);
     });
   }, []);
+
+  useEffect(() => {
+    const grouped = properties.reduce((acc, property) => {
+      const key = `${property.coords.lat}-${property.coords.lon}`;
+      if (!acc[key]) {
+        acc[key] = [];
+      }
+      acc[key].push(property);
+      return acc;
+    }, {} as { [key: string]: Property[] });
+
+    setGroupedProperties(grouped);
+  }, [properties]);
 
   return (
     <MapContainer
@@ -44,52 +56,118 @@ const Map: React.FC<MapProps> = ({ properties }) => {
       />
       {position && (
         <Marker position={position} icon={defaultIcon}>
-          <Popup>Centro</Popup>
+          <Popup>Você está aqui</Popup>
         </Marker>
       )}
-      {properties.map((property, index) => (
-        <MarkerWithPopup key={index} property={property} />
-      ))}
+      {Object.entries(groupedProperties).map(([key, properties], index) => {
+        console.log("key: ", key);
+        const { lat, lon } = properties[0].coords;
+        const neighborhood = properties[0].address;
+        return (
+          lat &&
+          lon && (
+            <div key={index}>
+              <Circle
+                center={[lat, lon]}
+                radius={500}
+                color="blue"
+                fillColor="blue"
+                fillOpacity={0.2}
+              >
+                <Popup>
+                  <div>
+                    <p>Bairro: {neighborhood}</p>
+                    <p>Quantidade de casas: {properties.length}</p>
+                    {properties.map((property, i) => (
+                      <div key={i}>
+                        <p>Endereço: {property.address}</p>
+                        <p>Preço: {property.price}</p>
+                        <p>
+                          Tamanho:{" "}
+                          {
+                            property.description.find((d) => d.floorSize)
+                              ?.floorSize
+                          }{" "}
+                          m²
+                        </p>
+                        <p>
+                          Quartos:{" "}
+                          {
+                            property.description.find((d) => d.numberOfRooms)
+                              ?.numberOfRooms
+                          }
+                        </p>
+                        <p>
+                          Banheiros:{" "}
+                          {
+                            property.description.find(
+                              (d) => d.numberOfBathroomsTotal
+                            )?.numberOfBathroomsTotal
+                          }
+                        </p>
+                        <a
+                          href={property.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Ver mais
+                        </a>
+                        <hr />
+                      </div>
+                    ))}
+                  </div>
+                </Popup>
+              </Circle>
+              <Marker position={[lat, lon]} icon={defaultIcon}>
+                <Popup>
+                  <div>
+                    <p>Bairro: {neighborhood}</p>
+                    <p>Quantidade de casas: {properties.length}</p>
+                    {properties.map((property, i) => (
+                      <div key={i}>
+                        <p>Endereço: {property.address}</p>
+                        <p>Preço: {property.price}</p>
+                        <p>
+                          Tamanho:{" "}
+                          {
+                            property.description.find((d) => d.floorSize)
+                              ?.floorSize
+                          }{" "}
+                          m²
+                        </p>
+                        <p>
+                          Quartos:{" "}
+                          {
+                            property.description.find((d) => d.numberOfRooms)
+                              ?.numberOfRooms
+                          }
+                        </p>
+                        <p>
+                          Banheiros:{" "}
+                          {
+                            property.description.find(
+                              (d) => d.numberOfBathroomsTotal
+                            )?.numberOfBathroomsTotal
+                          }
+                        </p>
+                        <a
+                          href={property.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Ver mais
+                        </a>
+                        <hr />
+                      </div>
+                    ))}
+                  </div>
+                </Popup>
+              </Marker>
+            </div>
+          )
+        );
+      })}
     </MapContainer>
-  );
-};
-
-interface MarkerWithPopupProps {
-  property: Property;
-}
-
-const MarkerWithPopup: React.FC<MarkerWithPopupProps> = ({ property }) => {
-  const { lat, lon } = property.coords;
-  return (
-    lat &&
-    lon && (
-      <Marker position={[lat, lon]} icon={defaultIcon}>
-        <Popup>
-          <div>
-            <p>Endereço: {property.address}</p>
-            <p>Preço: {property.price}</p>
-            <p>
-              Tamanho:{" "}
-              {property.description.find((d) => d.floorSize)?.floorSize} m²
-            </p>
-            <p>
-              Quartos:{" "}
-              {property.description.find((d) => d.numberOfRooms)?.numberOfRooms}
-            </p>
-            <p>
-              Banheiros:{" "}
-              {
-                property.description.find((d) => d.numberOfBathroomsTotal)
-                  ?.numberOfBathroomsTotal
-              }
-            </p>
-            <a href={property.link} target="_blank" rel="noopener noreferrer">
-              Ver mais
-            </a>
-          </div>
-        </Popup>
-      </Marker>
-    )
   );
 };
 
