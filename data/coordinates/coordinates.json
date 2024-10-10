@@ -1622,5 +1622,25 @@
   "Jardim Presidente Wenceslau": {
     "lat": -22.88829,
     "lon": -47.03559
+  },
+  "Vila Andrade Neves": {
+    "lat": -22.9014545,
+    "lon": -47.071070621053195
+  },
+  "Parque Jatibaia (Sousas)": {
+    "lat": -22.87061,
+    "lon": -46.96615
+  },
+  "Residencial Terra Nova": {
+    "lat": -22.92459,
+    "lon": -47.11719
+  },
+  "Reserva Riviera": {
+    "lat": -22.91222,
+    "lon": -47.05298
+  },
+  "Fazenda São Quirino": {
+    "lat": -22.9172047,
+    "lon": -46.8458345
   }
 }
