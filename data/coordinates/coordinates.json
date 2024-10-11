@@ -1642,5 +1642,13 @@
   "Fazenda São Quirino": {
     "lat": -22.9172047,
     "lon": -46.8458345
+  },
+  "Parque Aeroporto": {
+    "lat": -22.34007,
+    "lon": -41.75489
+  },
+  "Res Cosmos": {
+    "lat": -22.94769,
+    "lon": -47.15952
   }
 }
