@@ -1650,5 +1650,13 @@
   "Res Cosmos": {
     "lat": -22.94769,
     "lon": -47.15952
+  },
+  "Jardim Columbia": {
+    "lat": -23.03342,
+    "lon": -47.12494
+  },
+  "Vila Ferreira Jorge": {
+    "lat": -22.94247,
+    "lon": -47.04217
   }
 }
