@@ -1674,5 +1674,17 @@
   "Novo Taquaral": {
     "lat": -22.8892857,
     "lon": -47.0448929
+  },
+  "Jardim Itaguaçu II": {
+    "lat": -23.0393191,
+    "lon": -47.12085969847532
+  },
+  "Lt Res Jaguari": {
+    "lat": -22.95439,
+    "lon": -47.17879
+  },
+  "Residencial Aruanã": {
+    "lat": -22.98267,
+    "lon": -47.11422
   }
 }
