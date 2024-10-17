@@ -1,4 +1,5 @@
 import { ChangeEvent, useReducer } from "react";
+import TagFilter from "../TagFilter/TagFilter";
 
 interface PropertyFiltersProps {
   onFilterChange: (filters: Filters) => void;
@@ -11,16 +12,18 @@ export interface Filters {
   numberOfBathrooms: number;
   numberOfParkingSpaces: number;
   addressQuery: string;
+  distances: string[];
 }
 
 const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
-  const initialFilters = {
+  const initialFilters: Filters = {
     priceRange: { min: 0, max: 1000000 },
     floorSize: 0,
     numberOfRooms: 0,
     numberOfBathrooms: 0,
     numberOfParkingSpaces: 0,
     addressQuery: "",
+    distances: [],
   };
 
   interface SetPriceRangeAction {
@@ -35,7 +38,7 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
     type: "SET_FILTER";
     payload: {
       name: keyof Filters;
-      value: number | string;
+      value: number | string | string[];
     };
   }
 
@@ -123,6 +126,12 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
                 handleInputChange={handleInputChange}
                 handleApplyFilters={handleApplyFilters}
                 handleResetFilters={handleResetFilters}
+                setActiveTags={(tags: string[]) =>
+                  dispatch({
+                    type: "SET_FILTER",
+                    payload: { name: "distances", value: tags },
+                  })
+                }
               />
             </div>
           </div>
@@ -136,6 +145,12 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
             handleInputChange={handleInputChange}
             handleApplyFilters={handleApplyFilters}
             handleResetFilters={handleResetFilters}
+            setActiveTags={(tags: string[]) =>
+              dispatch({
+                type: "SET_FILTER",
+                payload: { name: "distances", value: tags },
+              })
+            }
           />
         </div>
       </div>
@@ -148,6 +163,7 @@ const FilterForm = ({
   handleInputChange,
   handleApplyFilters,
   handleResetFilters,
+  setActiveTags,
 }: {
   filters: Filters;
   handleInputChange: (
@@ -156,6 +172,7 @@ const FilterForm = ({
   ) => void;
   handleApplyFilters: () => void;
   handleResetFilters: () => void;
+  setActiveTags: (tags: string[]) => void;
 }) => (
   <div>
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
@@ -246,6 +263,14 @@ const FilterForm = ({
           onChange={(e: ChangeEvent<HTMLInputElement>) =>
             handleInputChange(e, "addressQuery")
           }
+        />
+      </div>
+
+      <div>
+        <label>Distâncias (km):</label>
+        <TagFilter
+          activeTags={filters.distances}
+          setActiveTags={setActiveTags}
         />
       </div>
     </div>

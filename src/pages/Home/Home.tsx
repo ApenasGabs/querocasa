@@ -6,8 +6,10 @@ import Map from "../../components/Map/Map";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
 import PropertyList from "../../components/PropertyList/PropertyList";
+import TagFilter from "../../components/TagFilter/TagFilter"; // Import the tag filter
 import { useFetchData } from "../../hooks/useFetchData";
 import { DataPops } from "../../services/dataService";
+import { calculateDistance } from "../../utils/calculateDistance";
 
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -15,6 +17,13 @@ const Home = () => {
   const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
   const [filteredHouseList, setFilteredHouseList] = useState(houseList);
   const [hasData, setHasData] = useState(true);
+  const [selectedDistances, setSelectedDistances] = useState<string[]>([
+    "4",
+    "5",
+    "8",
+    "10",
+    "12",
+  ]);
 
   const { data, loading, error } = useFetchData();
   console.error("error: ", error);
@@ -43,6 +52,10 @@ const Home = () => {
     }
   }, [data, loading]);
 
+  const centralRegion = [-22.9103015, -47.0595007];
+
+
+
   const handleFilterChange = (filters: Filters) => {
     if (houseList.length === 0) return;
     const filteredList = houseList.filter((house) => {
@@ -66,6 +79,17 @@ const Home = () => {
         10
       );
 
+      const distance = calculateDistance(
+        centralRegion[0],
+        centralRegion[1],
+        house.coords.lat!,
+        house.coords.lon!
+      );
+
+      const isWithinSelectedDistance =
+        selectedDistances.length === 0 ||
+        selectedDistances.some((d) => distance <= parseInt(d, 10));
+
       return (
         price >= filters.priceRange.min &&
         price <= filters.priceRange.max &&
@@ -73,7 +97,10 @@ const Home = () => {
         rooms >= filters.numberOfRooms &&
         bathrooms >= filters.numberOfBathrooms &&
         parking >= filters.numberOfParkingSpaces &&
-        house.address.toLowerCase().includes(filters.addressQuery.toLowerCase())
+        house.address
+          .toLowerCase()
+          .includes(filters.addressQuery.toLowerCase()) &&
+        isWithinSelectedDistance
       );
     });
     setFilteredHouseList(filteredList);
@@ -88,6 +115,7 @@ const Home = () => {
       <div className="skeleton h-14 w-1/2 self-end mt-14 btn" />
     </div>
   ));
+
   return (
     <div>
       <Navbar links={[<p>{size} casas encontradas</p>]} />
@@ -98,6 +126,13 @@ const Home = () => {
 
       <div className="flex flex-col lg:flex-row">
         <PropertyFilters onFilterChange={handleFilterChange} />
+
+        {/* Tag filter for distances */}
+        <TagFilter
+          activeTags={selectedDistances}
+          setActiveTags={setSelectedDistances}
+        />
+
         <div
           className="flex flex-wrap justify-between gap-2 p-5 lg:w-2/3"
           ref={scrollContainerRef}
@@ -107,7 +142,7 @@ const Home = () => {
             <p>Nenhum resultado encontrado com os filtros aplicados.</p>
           )}
           {!loading ? (
-            <div className="flex ">
+            <div className="flex">
               <PropertyList properties={filteredHouseList} />
             </div>
           ) : (
@@ -116,7 +151,10 @@ const Home = () => {
         </div>
         {!loading && (
           <div className="flex w-2/3 lg:w-1/3 pr-4">
-            <Map properties={filteredHouseList} />
+            <Map
+              properties={filteredHouseList}
+              distances={selectedDistances.map(Number)}
+            />
           </div>
         )}
       </div>
