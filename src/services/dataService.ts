@@ -45,7 +45,9 @@ export const emptyData: DataPops = {
 
 export const fetchDataFiles = async (): Promise<DataPops> => {
   try {
-    const response = await axios.get<DataPops>("/api/results");
+    const response = await axios.get<DataPops>(
+      "http://localhost:3000/api/results"
+    );
     if (response.status !== 200) {
       throw new Error("Failed to fetch data");
     }
