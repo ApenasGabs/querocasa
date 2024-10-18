@@ -1686,5 +1686,13 @@
   "Residencial Aruanã": {
     "lat": -22.98267,
     "lon": -47.11422
+  },
+  "Nova Aparecida": {
+    "lat": -22.848388149999998,
+    "lon": -47.1443229856872
+  },
+  "Cidade Universitária": {
+    "lat": -22.8048472,
+    "lon": -47.0697047
   }
 }
