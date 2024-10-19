@@ -8,6 +8,33 @@ export interface PropertyCardProps {
   index: number;
 }
 
+/**
+ * Component representing a card that displays property details.
+ *
+ * @component
+ * @param {PropertyCardProps} props - The properties for the PropertyCard component.
+ * @param {Object} props.property - The property details.
+ * @param {string} props.property.address - The address of the property.
+ * @param {Array<string>} props.property.images - The images of the property.
+ * @param {Array<Object>} props.property.description - The description fields of the property.
+ * @param {string} props.property.link - The link to the property details.
+ * @param {string} props.property.price - The price of the property.
+ * @param {number} props.index - The index of the property card.
+ *
+ * @returns {JSX.Element} The rendered PropertyCard component.
+ *
+ * @example
+ * <PropertyCard
+ *   property={{
+ *     address: "123 Main St",
+ *     images: ["image1.jpg", "image2.jpg"],
+ *     description: [{ FloorSize: "100" }, { NumberOfRooms: "3" }],
+ *     link: "http://example.com",
+ *     price: "1000000"
+ *   }}
+ *   index={0}
+ * />
+ */
 const PropertyCard: React.FC<PropertyCardProps> = memo(
   ({ property, index }) => {
     const { address, images, description, link, price } = property;
@@ -47,6 +74,7 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
         .filter(Boolean)
         .join(" • ");
     };
+
     const renderCarousel = () => {
       return validImages.map((image, imgIndex) => {
         const uniqImgID = `slide-${index}-${imgIndex}`;
