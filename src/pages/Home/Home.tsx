@@ -6,7 +6,7 @@ import Map from "../../components/Map/Map";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
 import PropertyList from "../../components/PropertyList/PropertyList";
-import TagFilter from "../../components/TagFilter/TagFilter"; // Import the tag filter
+import TagFilter from "../../components/TagFilter/TagFilter";
 import { useFetchData } from "../../hooks/useFetchData";
 import { DataPops } from "../../services/dataService";
 import { calculateDistance } from "../../utils/calculateDistance";
@@ -18,7 +18,9 @@ const Home = () => {
   const [filteredHouseList, setFilteredHouseList] = useState(houseList);
   const [hasData, setHasData] = useState(true);
   const [selectedDistances, setSelectedDistances] = useState<string[]>([
-    "4",
+    "1",
+    "2",
+    "3",
     "5",
     "8",
     "10",
@@ -53,8 +55,6 @@ const Home = () => {
   }, [data, loading]);
 
   const centralRegion = [-22.9103015, -47.0595007];
-
-
 
   const handleFilterChange = (filters: Filters) => {
     if (houseList.length === 0) return;
