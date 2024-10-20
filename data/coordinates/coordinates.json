@@ -1698,5 +1698,17 @@
   "Loteamento Caminhos de São Conrado (Sousas)": {
     "lat": -22.86074,
     "lon": -46.97399
+  },
+  "Parque dos Resedás": {
+    "lat": -23.158418150000003,
+    "lon": -47.09244741613341
+  },
+  "Jardim Puccamp": {
+    "lat": -22.9281,
+    "lon": -47.12143
+  },
+  "Nova Campinas": {
+    "lat": -22.9042766,
+    "lon": -47.0405108
   }
 }
