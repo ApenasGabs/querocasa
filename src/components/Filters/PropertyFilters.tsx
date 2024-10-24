@@ -1,19 +1,10 @@
 import { ChangeEvent, useReducer } from "react";
 import TagFilter from "../TagFilter/TagFilter";
-
-interface PropertyFiltersProps {
-  onFilterChange: (filters: Filters) => void;
-}
-
-export interface Filters {
-  priceRange: { min: number; max: number };
-  floorSize: number;
-  numberOfRooms: number;
-  numberOfBathrooms: number;
-  numberOfParkingSpaces: number;
-  addressQuery: string;
-  distances: string[];
-}
+import {
+  FilterAction,
+  Filters,
+  PropertyFiltersProps,
+} from "./PropertyFilters.types";
 
 const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
   const initialFilters: Filters = {
@@ -25,31 +16,6 @@ const PropertyFilters = ({ onFilterChange }: PropertyFiltersProps) => {
     addressQuery: "",
     distances: [],
   };
-
-  interface SetPriceRangeAction {
-    type: "SET_PRICE_RANGE";
-    payload: {
-      name: "min" | "max";
-      value: number;
-    };
-  }
-
-  interface SetFilterAction {
-    type: "SET_FILTER";
-    payload: {
-      name: keyof Filters;
-      value: number | string | string[];
-    };
-  }
-
-  interface ResetFiltersAction {
-    type: "RESET_FILTERS";
-  }
-
-  type FilterAction =
-    | SetPriceRangeAction
-    | SetFilterAction
-    | ResetFiltersAction;
 
   function filterReducer(state: Filters, action: FilterAction): Filters {
     switch (action.type) {
