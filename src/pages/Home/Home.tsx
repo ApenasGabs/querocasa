@@ -120,6 +120,8 @@ const Home = () => {
   return (
     <div>
       <Navbar links={[<p>{size} casas encontradas</p>]} />
+      <PropertyNavbarFilters onFilterChange={handleFilterChange} />
+
       <Modal
         isModalOpen={isModalOpen}
         onClose={() => setIsModalOpen((prev) => !prev)}
@@ -127,7 +129,6 @@ const Home = () => {
 
       <div className="flex flex-col lg:flex-row">
         <PropertyFilters onFilterChange={handleFilterChange} />
-        <PropertyNavbarFilters onFilterChange={handleFilterChange} />
 
         <TagFilter
           activeTags={selectedDistances}
