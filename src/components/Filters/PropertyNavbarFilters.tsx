@@ -1,4 +1,5 @@
 import { ChangeEvent, useReducer } from "react";
+import Card from "../Card/Card";
 import TagFilter from "../TagFilter/TagFilter";
 import { FilterAction, Filters } from "./PropertyFilters.types";
 
@@ -75,7 +76,134 @@ const PropertyNavbarFilters = ({
   const handleResetFilters = () => {
     dispatch({ type: "RESET_FILTERS" });
   };
+  type FilterPropName = keyof Filters;
 
+  interface filterListProps {
+    label: string;
+    type: "number" | "text" | "range";
+    propName: FilterPropName;
+    placeholder: string | string[];
+  }
+  const filterObjects: filterListProps[] = [
+    {
+      label: "Faixa de Preço",
+      type: "range",
+      propName: "priceRange",
+      placeholder: ["Min", "Max"],
+    },
+    {
+      label: "Tamanho do Imóvel (m²)",
+      type: "number",
+      propName: "floorSize",
+      placeholder: "Tamanho",
+    },
+    {
+      label: "Quartos",
+      type: "number",
+      propName: "numberOfRooms",
+      placeholder: "Quartos",
+    },
+    {
+      label: "Banheiros",
+      type: "number",
+      propName: "numberOfBathrooms",
+      placeholder: "Banheiros",
+    },
+    {
+      label: "Vagas de Garagem",
+      type: "number",
+      propName: "numberOfParkingSpaces",
+      placeholder: "Vagas",
+    },
+    {
+      label: "Endereço",
+      type: "text",
+      propName: "addressQuery",
+      placeholder: "Pesquisar por endereço",
+    },
+  ];
+
+  const CardFilterList = filterObjects.map((filter) => {
+    if (filter.type === "range") {
+      return (
+        <details className="dropdown">
+          <summary className="btn m-1">{filter.label}</summary>
+          <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+            <Card key={filter.propName}>
+              <label>{filter.label}:</label>
+              <div className="flex space-x-2">
+                <input
+                  type="number"
+                  placeholder={filter.placeholder[0]}
+                  className="input input-bordered input-primary w-full max-w-xs"
+                  name="min"
+                  value={
+                    filter.propName === "priceRange"
+                      ? (
+                          filters[filter.propName] as {
+                            min: number;
+                            max: number;
+                          }
+                        ).min
+                      : undefined
+                  }
+                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                    handleInputChange(e, filter.propName)
+                  }
+                />
+                <input
+                  value={
+                    filter.propName === "priceRange"
+                      ? (
+                          filters[filter.propName] as {
+                            min: number;
+                            max: number;
+                          }
+                        ).max
+                      : undefined
+                  }
+                  placeholder={filter.placeholder[1]}
+                  className="input input-bordered input-primary w-full max-w-xs"
+                  name="max"
+                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                    handleInputChange(e, filter.propName)
+                  }
+                />
+              </div>
+            </Card>
+          </div>
+        </details>
+      );
+    } else {
+      return (
+        <details className="dropdown">
+          <summary className="btn m-1">{filter.label}</summary>
+          <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+            <Card key={filter.propName}>
+              <label>{filter.label}:</label>
+              <input
+                className="input input-bordered input-primary w-full max-w-xs"
+                type={filter.type}
+                placeholder={
+                  typeof filter.placeholder === "string"
+                    ? filter.placeholder
+                    : ""
+                }
+                value={
+                  filter.propName === "priceRange"
+                    ? undefined
+                    : filters[filter.propName]
+                }
+                onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                  handleInputChange(e, filter.propName)
+                }
+              />
+            </Card>
+          </div>
+        </details>
+      );
+    }
+  });
   const oldFilters = (
     <>
       <div className="lg:hidden">
@@ -124,27 +252,7 @@ const PropertyNavbarFilters = ({
       </div>
     </>
   );
-  const newFilters = (
-    <>
-      <details className="dropdown">
-        <summary className="btn m-1">open or close</summary>
-        <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-          <FilterForm
-            filters={filters}
-            handleInputChange={handleInputChange}
-            handleApplyFilters={handleApplyFilters}
-            handleResetFilters={handleResetFilters}
-            setActiveTags={(tags: string[]) =>
-              dispatch({
-                type: "SET_FILTER",
-                payload: { name: "distances", value: tags },
-              })
-            }
-          />
-        </div>
-      </details>
-    </>
-  );
+  const newFilters = CardFilterList;
   return newFilters || oldFilters;
 };
 const FilterForm = ({
@@ -190,6 +298,7 @@ const FilterForm = ({
           />
         </div>
       </div>
+
       <div>
         <label>Tamanho do Imóvel (m²):</label>
         <input

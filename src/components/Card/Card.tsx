@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
 
 interface CardProps {
-  content?: ReactNode;
+  children?: ReactNode;
   onClose?: () => void;
 }
-const Card = ({ content, onClose }: CardProps) => {
+const Card = ({ children, onClose }: CardProps) => {
   return (
     <div className="card bg-base-100 w-96 shadow-xl">
       <div className="card-body">
@@ -28,7 +28,7 @@ const Card = ({ content, onClose }: CardProps) => {
             </button>
           </div>
         )}
-        {content}
+        {children}
       </div>
     </div>
   );
