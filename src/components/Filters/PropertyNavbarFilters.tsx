@@ -1,11 +1,50 @@
 import { ChangeEvent, useReducer } from "react";
 import Card from "../Card/Card";
-import TagFilter from "../TagFilter/TagFilter";
+import Navbar from "../Navbar/Navbar";
 import { FilterAction, Filters } from "./PropertyFilters.types";
+import {
+  filterListProps,
+  PropertyNavbarFiltersProps,
+} from "./PropertyNavbarFilters.types";
 
-interface PropertyNavbarFiltersProps {
-  onFilterChange: (filters: Filters) => void;
-}
+const filterObjects: filterListProps[] = [
+  {
+    label: "Faixa de Preço",
+    type: "range",
+    propName: "priceRange",
+    placeholder: ["Min", "Max"],
+  },
+  {
+    label: "Tamanho do Imóvel (m²)",
+    type: "number",
+    propName: "floorSize",
+    placeholder: "Tamanho",
+  },
+  {
+    label: "Quartos",
+    type: "number",
+    propName: "numberOfRooms",
+    placeholder: "Quartos",
+  },
+  {
+    label: "Banheiros",
+    type: "number",
+    propName: "numberOfBathrooms",
+    placeholder: "Banheiros",
+  },
+  {
+    label: "Vagas de Garagem",
+    type: "number",
+    propName: "numberOfParkingSpaces",
+    placeholder: "Vagas",
+  },
+  {
+    label: "Endereço",
+    type: "text",
+    propName: "addressQuery",
+    placeholder: "Pesquisar por endereço",
+  },
+];
 
 const PropertyNavbarFilters = ({
   onFilterChange,
@@ -76,55 +115,9 @@ const PropertyNavbarFilters = ({
   const handleResetFilters = () => {
     dispatch({ type: "RESET_FILTERS" });
   };
-  type FilterPropName = keyof Filters;
-
-  interface filterListProps {
-    label: string;
-    type: "number" | "text" | "range";
-    propName: FilterPropName;
-    placeholder: string | string[];
-  }
-  const filterObjects: filterListProps[] = [
-    {
-      label: "Faixa de Preço",
-      type: "range",
-      propName: "priceRange",
-      placeholder: ["Min", "Max"],
-    },
-    {
-      label: "Tamanho do Imóvel (m²)",
-      type: "number",
-      propName: "floorSize",
-      placeholder: "Tamanho",
-    },
-    {
-      label: "Quartos",
-      type: "number",
-      propName: "numberOfRooms",
-      placeholder: "Quartos",
-    },
-    {
-      label: "Banheiros",
-      type: "number",
-      propName: "numberOfBathrooms",
-      placeholder: "Banheiros",
-    },
-    {
-      label: "Vagas de Garagem",
-      type: "number",
-      propName: "numberOfParkingSpaces",
-      placeholder: "Vagas",
-    },
-    {
-      label: "Endereço",
-      type: "text",
-      propName: "addressQuery",
-      placeholder: "Pesquisar por endereço",
-    },
-  ];
 
   const CardFilterList = filterObjects.map((filter) => {
-    if (filter.type === "range") {
+    if (filter.propName === "priceRange") {
       return (
         <details className="dropdown">
           <summary className="btn m-1">{filter.label}</summary>
@@ -138,14 +131,12 @@ const PropertyNavbarFilters = ({
                   className="input input-bordered input-primary w-full max-w-xs"
                   name="min"
                   value={
-                    filter.propName === "priceRange"
-                      ? (
-                          filters[filter.propName] as {
-                            min: number;
-                            max: number;
-                          }
-                        ).min
-                      : undefined
+                    (
+                      filters[filter.propName] as {
+                        min: number;
+                        max: number;
+                      }
+                    ).min
                   }
                   onChange={(e: ChangeEvent<HTMLInputElement>) =>
                     handleInputChange(e, filter.propName)
@@ -153,14 +144,12 @@ const PropertyNavbarFilters = ({
                 />
                 <input
                   value={
-                    filter.propName === "priceRange"
-                      ? (
-                          filters[filter.propName] as {
-                            min: number;
-                            max: number;
-                          }
-                        ).max
-                      : undefined
+                    (
+                      filters[filter.propName] as {
+                        min: number;
+                        max: number;
+                      }
+                    ).max
                   }
                   placeholder={filter.placeholder[1]}
                   className="input input-bordered input-primary w-full max-w-xs"
@@ -169,6 +158,20 @@ const PropertyNavbarFilters = ({
                     handleInputChange(e, filter.propName)
                   }
                 />
+              </div>
+              <div className="mt-4 flex justify-between">
+                <button
+                  className="btn btn-primary btn-sm"
+                  onClick={handleApplyFilters}
+                >
+                  Aplicar Filtros
+                </button>
+                <button
+                  className="btn btn-outline btn-sm"
+                  onClick={handleResetFilters}
+                >
+                  Resetar Filtros
+                </button>
               </div>
             </Card>
           </div>
@@ -189,199 +192,33 @@ const PropertyNavbarFilters = ({
                     ? filter.placeholder
                     : ""
                 }
-                value={
-                  filter.propName === "priceRange"
-                    ? undefined
-                    : filters[filter.propName]
-                }
+                value={filters[filter.propName]}
                 onChange={(e: ChangeEvent<HTMLInputElement>) =>
                   handleInputChange(e, filter.propName)
                 }
               />
+              <div className="mt-4 flex justify-between">
+                <button
+                  className="btn btn-primary btn-sm"
+                  onClick={handleApplyFilters}
+                >
+                  Aplicar Filtros
+                </button>
+                <button
+                  className="btn btn-outline btn-sm"
+                  onClick={handleResetFilters}
+                >
+                  Resetar Filtros
+                </button>
+              </div>
             </Card>
           </div>
         </details>
       );
     }
   });
-  const oldFilters = (
-    <>
-      <div className="lg:hidden">
-        <div className="drawer drawer-end">
-          <input id="filter-drawer" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content">
-            <label htmlFor="filter-drawer" className="btn btn-primary btn-sm">
-              Filtros
-            </label>
-          </div>
-          <div className="drawer-side z-[1]">
-            <label htmlFor="filter-drawer" className="drawer-overlay"></label>
-            <div className="p-4 bg-base-300">
-              <FilterForm
-                filters={filters}
-                handleInputChange={handleInputChange}
-                handleApplyFilters={handleApplyFilters}
-                handleResetFilters={handleResetFilters}
-                setActiveTags={(tags: string[]) =>
-                  dispatch({
-                    type: "SET_FILTER",
-                    payload: { name: "distances", value: tags },
-                  })
-                }
-              />
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="hidden lg:block">
-        <div className="w-full max-w-72 p-4 rounded shadow-md sticky top-16">
-          <FilterForm
-            filters={filters}
-            handleInputChange={handleInputChange}
-            handleApplyFilters={handleApplyFilters}
-            handleResetFilters={handleResetFilters}
-            setActiveTags={(tags: string[]) =>
-              dispatch({
-                type: "SET_FILTER",
-                payload: { name: "distances", value: tags },
-              })
-            }
-          />
-        </div>
-      </div>
-    </>
-  );
-  const newFilters = CardFilterList;
-  return newFilters || oldFilters;
+  return <Navbar links={CardFilterList} />;
 };
-const FilterForm = ({
-  filters,
-  handleInputChange,
-  handleApplyFilters,
-  handleResetFilters,
-  setActiveTags,
-}: {
-  filters: Filters;
-  handleInputChange: (
-    e: React.ChangeEvent<HTMLInputElement>,
-    key: keyof Filters
-  ) => void;
-  handleApplyFilters: () => void;
-  handleResetFilters: () => void;
-  setActiveTags: (tags: string[]) => void;
-}) => (
-  <div>
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1">
-      <div>
-        <label>Faixa de Preço:</label>
-        <div className="flex space-x-2">
-          <input
-            type="number"
-            placeholder="Min"
-            className="input input-bordered input-primary w-full max-w-xs"
-            name="min"
-            value={filters.priceRange.min}
-            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              handleInputChange(e, "priceRange")
-            }
-          />
-          <input
-            type="number"
-            placeholder="Max"
-            className="input input-bordered input-primary w-full max-w-xs"
-            name="max"
-            value={filters.priceRange.max}
-            onChange={(e: ChangeEvent<HTMLInputElement>) =>
-              handleInputChange(e, "priceRange")
-            }
-          />
-        </div>
-      </div>
-
-      <div>
-        <label>Tamanho do Imóvel (m²):</label>
-        <input
-          className="input input-bordered input-primary w-full max-w-xs"
-          type="number"
-          placeholder="Tamanho"
-          value={filters.floorSize}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            handleInputChange(e, "floorSize")
-          }
-        />
-      </div>
-
-      <div>
-        <label>Quartos:</label>
-        <input
-          className="input input-bordered input-primary w-full max-w-xs"
-          type="number"
-          placeholder="Quartos"
-          value={filters.numberOfRooms}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            handleInputChange(e, "numberOfRooms")
-          }
-        />
-      </div>
-
-      <div>
-        <label>Banheiros:</label>
-        <input
-          className="input input-bordered input-primary w-full max-w-xs"
-          type="number"
-          placeholder="Banheiros"
-          value={filters.numberOfBathrooms}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            handleInputChange(e, "numberOfBathrooms")
-          }
-        />
-      </div>
-
-      <div>
-        <label>Vagas de Garagem:</label>
-        <input
-          className="input input-bordered input-primary w-full max-w-xs"
-          type="number"
-          placeholder="Vagas"
-          value={filters.numberOfParkingSpaces}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            handleInputChange(e, "numberOfParkingSpaces")
-          }
-        />
-      </div>
-
-      <div>
-        <label>Endereço:</label>
-        <input
-          className="input input-bordered input-primary w-full max-w-xs"
-          type="text"
-          placeholder="Pesquisar por endereço"
-          value={filters.addressQuery}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            handleInputChange(e, "addressQuery")
-          }
-        />
-      </div>
-
-      <div>
-        <label>Distâncias (km):</label>
-        <TagFilter
-          activeTags={filters.distances}
-          setActiveTags={setActiveTags}
-        />
-      </div>
-    </div>
-
-    <div className="mt-4 flex justify-between">
-      <button className="btn btn-primary btn-sm" onClick={handleApplyFilters}>
-        Aplicar Filtros
-      </button>
-      <button className="btn btn-outline btn-sm" onClick={handleResetFilters}>
-        Resetar Filtros
-      </button>
-    </div>
-  </div>
-);
 
 export default PropertyNavbarFilters;
