@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import PropertyFilters, {
-  Filters,
-} from "../../components/Filters/PropertyFilters";
+
+import PropertyFilters from "../../components/Filters/PropertyFilters";
+import { Filters } from "../../components/Filters/PropertyFilters.types";
+import PropertyNavbarFilters from "../../components/Filters/PropertyNavbarFilters";
 import Map from "../../components/Map/Map";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
@@ -126,8 +127,8 @@ const Home = () => {
 
       <div className="flex flex-col lg:flex-row">
         <PropertyFilters onFilterChange={handleFilterChange} />
+        <PropertyNavbarFilters onFilterChange={handleFilterChange} />
 
-        {/* Tag filter for distances */}
         <TagFilter
           activeTags={selectedDistances}
           setActiveTags={setSelectedDistances}
