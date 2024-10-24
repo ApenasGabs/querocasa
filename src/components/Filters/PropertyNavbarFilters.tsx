@@ -1,6 +1,6 @@
 import { ChangeEvent, useReducer } from "react";
 import TagFilter from "../TagFilter/TagFilter";
-import { Filters, FilterAction } from "./PropertyFilters.types";
+import { FilterAction, Filters } from "./PropertyFilters.types";
 
 interface PropertyNavbarFiltersProps {
   onFilterChange: (filters: Filters) => void;
@@ -76,7 +76,7 @@ const PropertyNavbarFilters = ({
     dispatch({ type: "RESET_FILTERS" });
   };
 
-  return (
+  const oldFilters = (
     <>
       <div className="lg:hidden">
         <div className="drawer drawer-end">
@@ -124,8 +124,29 @@ const PropertyNavbarFilters = ({
       </div>
     </>
   );
+  const newFilters = (
+    <>
+      <details className="dropdown">
+        <summary className="btn m-1">open or close</summary>
+        <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+          <FilterForm
+            filters={filters}
+            handleInputChange={handleInputChange}
+            handleApplyFilters={handleApplyFilters}
+            handleResetFilters={handleResetFilters}
+            setActiveTags={(tags: string[]) =>
+              dispatch({
+                type: "SET_FILTER",
+                payload: { name: "distances", value: tags },
+              })
+            }
+          />
+        </div>
+      </details>
+    </>
+  );
+  return newFilters || oldFilters;
 };
-
 const FilterForm = ({
   filters,
   handleInputChange,
