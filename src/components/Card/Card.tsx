@@ -1,43 +1,34 @@
+import { ReactNode } from "react";
+
 interface CardProps {
-  buttonContent?: string;
-  description?: string;
-  img?: string;
-  link?: string;
-  title?: string;
-  price?: string;
-  publishDate?: string;
+  content?: ReactNode;
+  onClose?: () => void;
 }
-const Card = ({
-  buttonContent = "Quero 🏡",
-  description = "Loren ipslun?",
-  price = "R$ 0,00",
-  img = "https://pacaembu.com/svg/ic-mcmv.svg",
-  title = "Loren",
-  link = "",
-  publishDate = new Date().toLocaleDateString(),
-}: CardProps) => {
+const Card = ({ content, onClose }: CardProps) => {
   return (
-    <div className="card bg-base-100 image-full w-full shadow-xl">
-      <figure>
-        <img src={img} className="logo react" alt="i" />
-      </figure>
+    <div className="card bg-base-100 w-96 shadow-xl">
       <div className="card-body">
-        <h2 className="card-title"> {title}</h2>
-        <p> {description}</p>
-        <div className="card-actions justify-between">
-          <div>
-            <p>{price}</p>
-            <p className="text-xs"> {publishDate}</p>
+        {onClose && (
+          <div className="card-actions justify-end">
+            <button className="btn btn-square btn-sm">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
           </div>
-          <a
-            href={link}
-            className="btn btn-primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {buttonContent}
-          </a>
-        </div>
+        )}
+        {content}
       </div>
     </div>
   );
