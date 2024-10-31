@@ -1714,5 +1714,9 @@
   "Conjunto Habitacional  H Campinas": {
     "lat": -22.8748864,
     "lon": -47.14263802558679
+  },
+  "Conjunto Residencial Souza Queiroz": {
+    "lat": -22.94955,
+    "lon": -47.10057
   }
 }
