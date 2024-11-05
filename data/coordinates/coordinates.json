@@ -1726,5 +1726,9 @@
   "Terras do Friburgo": {
     "lat": -22.88499,
     "lon": -47.03958
+  },
+  "Jardim Novo Botafogo": {
+    "lat": -22.89635,
+    "lon": -47.07179
   }
 }
