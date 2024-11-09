@@ -1730,5 +1730,13 @@
   "Jardim Novo Botafogo": {
     "lat": -22.89635,
     "lon": -47.07179
+  },
+  "Chácara Santa Letícia": {
+    "lat": -22.96521,
+    "lon": -47.12655
+  },
+  "Jardim Ipiranga": {
+    "lat": -22.7534339,
+    "lon": -47.3599067
   }
 }
