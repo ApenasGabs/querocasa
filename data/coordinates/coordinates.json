@@ -1742,5 +1742,13 @@
   "Jardim Rosana (Sousas)": {
     "lat": -22.95248,
     "lon": -47.09574
+  },
+  "Recreio Tsuriba": {
+    "lat": -22.74749,
+    "lon": -47.01583
+  },
+  "Parque Social": {
+    "lat": -22.9402,
+    "lon": -47.08331
   }
 }
