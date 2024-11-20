@@ -218,7 +218,7 @@ const PropertyNavbarFilters = ({
     }
   });
 
-  return <Navbar links={CardFilterList} />;
+  return <Navbar removeHomeButton links={CardFilterList} />;
 };
 
 export default PropertyNavbarFilters;

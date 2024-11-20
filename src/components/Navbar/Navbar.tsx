@@ -1,5 +1,3 @@
-import ThemeSelector from "../ThemeSelector/ThemeSelector";
-
 const defaultLinks = [
   <p className="text-xl">Outros links: </p>,
   <a
@@ -14,9 +12,15 @@ const defaultLinks = [
 
 interface NavbarProps {
   links?: JSX.Element[];
+  removeHomeButton?: boolean;
+  navbarEndButton?: JSX.Element;
 }
-const Navbar = ({ links = [] }: NavbarProps) => {
-  const navbarLinks = links?.length ? links.concat(defaultLinks) : defaultLinks;
+const Navbar = ({
+  links = [],
+  removeHomeButton,
+  navbarEndButton,
+}: NavbarProps) => {
+  const navbarLinks = links?.length ? links : defaultLinks;
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -46,7 +50,7 @@ const Navbar = ({ links = [] }: NavbarProps) => {
             ))}
           </ul>
         </div>
-        <a className="text-xl">Quero 🏡</a>
+        {!removeHomeButton && <a className="text-xl">Quero 🏡</a>}
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -55,9 +59,7 @@ const Navbar = ({ links = [] }: NavbarProps) => {
           ))}
         </ul>
       </div>
-      <div className="navbar-end ">
-        <ThemeSelector />
-      </div>
+      <div className="navbar-end ">{navbarEndButton}</div>
     </div>
   );
 };
