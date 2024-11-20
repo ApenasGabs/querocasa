@@ -8,6 +8,7 @@ import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
 import PropertyList from "../../components/PropertyList/PropertyList";
 import TagFilter from "../../components/TagFilter/TagFilter";
+import ThemeSelector from "../../components/ThemeSelector/ThemeSelector";
 import { useFetchData } from "../../hooks/useFetchData";
 import { DataPops } from "../../services/dataService";
 import { calculateDistance } from "../../utils/calculateDistance";
@@ -106,8 +107,20 @@ const Home = () => {
     });
     setFilteredHouseList(filteredList);
   };
-
   const size = loading ? 0 : filteredHouseList.length;
+
+  const defaultLinks = [
+    <p>{size} casas encontradas</p>,
+    <p className="text-xl">Outros links: </p>,
+    <a
+      className="btn btn-ghost text-xl"
+      target="_blank"
+      href="https://guia.apenasgabs.dev"
+    >
+      Guia de TI
+      <span className="badge badge-sm badge-warning">NEW</span>
+    </a>,
+  ];
   const Skeleton = Array.from({ length: 3 }).map((_, index) => (
     <div className="flex w-96 flex-col gap-4" key={index}>
       <div className="skeleton h-48 w-full" />
@@ -119,7 +132,7 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar links={[<p>{size} casas encontradas</p>]} />
+      <Navbar navbarEndButton={<ThemeSelector />} links={defaultLinks} />
       <PropertyNavbarFilters onFilterChange={handleFilterChange} />
 
       <Modal
