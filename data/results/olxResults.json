@@ -42,27 +42,30 @@
     }
   },
   {
-    "address": "Campinas, Loteamento Residencial Novo Mundo",
+    "address": "Campinas, Jardim San Diego",
     "description": [
       {
         "numberOfRooms": "3"
       },
       {
-        "floorSize": "125"
+        "floorSize": "92"
+      },
+      {
+        "numberOfParkingSpaces": "2"
       },
       {
         "numberOfBathroomsTotal": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/59/590480576229263.jpg"
+      "https://img.olx.com.br/thumbs500x360/15/154484936464255.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-esta-casa-1345173322",
-    "price": "150",
-    "publishDate": "2024-10-12 00:10:00",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/linda-casa-jd-san-diego-1347802804",
+    "price": "460000",
+    "publishDate": "2024-11-17 22:09:00",
     "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623
+      "lat": -22.9858823,
+      "lon": -47.1002923
     }
   },
   {
@@ -111,6 +114,25 @@
     "coords": {
       "lat": -10.1934964,
       "lon": -48.9000447
+    }
+  },
+  {
+    "address": "Campinas, Jardim Itatinga",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/tenho-duas-casas-para-vender-no-jardim-itatinga-com-o-maria-rosa-1355879266",
+    "price": "200",
+    "publishDate": "2024-11-19 16:51:00",
+    "coords": {
+      "lat": -22.98346,
+      "lon": -47.10646
     }
   },
   {
@@ -1052,54 +1074,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim do Lago Continuação",
-    "description": [
-      {
-        "floorSize": "1800000"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/74/746447570754499.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-1343143805",
-    "price": "110000",
-    "publishDate": "2024-10-04 15:55:00",
-    "coords": {
-      "lat": -22.93726,
-      "lon": -47.07066
-    }
-  },
-  {
-    "address": "Campinas, Jardim San Diego",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "92"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/15/154484936464255.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/linda-casa-jd-san-diego-1347802804",
-    "price": "460000",
-    "publishDate": "2024-11-17 22:09:00",
-    "coords": {
-      "lat": -22.9858823,
-      "lon": -47.1002923
-    }
-  },
-  {
     "address": "Campinas, Parque Aeroporto",
     "description": [
       {
@@ -1719,6 +1693,30 @@
     }
   },
   {
+    "address": "Campinas, Loteamento Residencial Novo Mundo",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "125"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/49/499473823482069.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-casa-em-campinas-1355827939",
+    "price": "195000",
+    "publishDate": "2024-11-19 16:36:00",
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623
+    }
+  },
+  {
     "address": "Campinas, Vila Aeroporto",
     "description": [
       {
@@ -2186,6 +2184,30 @@
     }
   },
   {
+    "address": "Campinas, Jardim Lisa",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "72"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/80/803460575642481.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-casa-no-jardim-lisa-1342612359",
+    "price": "235000",
+    "publishDate": "2024-10-02 19:43:00",
+    "coords": {
+      "lat": -22.95529,
+      "lon": -47.18347
+    }
+  },
+  {
     "address": "Campinas, Conjunto Residencial Parque São Bento",
     "description": [
       {
@@ -2261,6 +2283,27 @@
     "coords": {
       "lat": -22.8974247,
       "lon": -47.1960086
+    }
+  },
+  {
+    "address": "Campinas, Jardim Florence",
+    "description": [
+      {
+        "floorSize": "78"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/87/879465450909923.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-florence-2-1349976713",
+    "price": "240000",
+    "publishDate": "2024-10-29 15:24:00",
+    "coords": {
+      "lat": -22.945514000000003,
+      "lon": -47.165998475725374
     }
   },
   {
@@ -2701,27 +2744,6 @@
     "coords": {
       "lat": -22.9754633,
       "lon": -47.1272723
-    }
-  },
-  {
-    "address": "Campinas, Jardim Florence",
-    "description": [
-      {
-        "floorSize": "78"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/87/879465450909923.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-florence-2-1349976713",
-    "price": "260000",
-    "publishDate": "2024-10-29 15:24:00",
-    "coords": {
-      "lat": -22.945514000000003,
-      "lon": -47.165998475725374
     }
   },
   {
@@ -3470,6 +3492,27 @@
     }
   },
   {
+    "address": "Campinas, Parque Universitário de Viracopos",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/42/427463328183269.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-2-dormitorios-a-venda-em-parque-universitario-campinas-1342069302",
+    "price": "305000",
+    "publishDate": "2024-09-30 23:19:00",
+    "coords": {
+      "lat": -22.9689952,
+      "lon": -47.1498288
+    }
+  },
+  {
     "address": "Campinas, Loteamento Residencial Porto Seguro",
     "description": [
       {
@@ -3757,27 +3800,6 @@
     "coords": {
       "lat": -22.8598285,
       "lon": -47.03760583153676
-    }
-  },
-  {
-    "address": "Campinas, Parque Universitário de Viracopos",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/42/427463328183269.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-2-dormitorios-a-venda-em-parque-universitario-campinas-1342069302",
-    "price": "330000",
-    "publishDate": "2024-09-30 23:19:00",
-    "coords": {
-      "lat": -22.9689952,
-      "lon": -47.1498288
     }
   },
   {
@@ -4193,33 +4215,6 @@
     "coords": {
       "lat": -22.97545,
       "lon": -47.12655
-    }
-  },
-  {
-    "address": "Campinas, Jardim Aurélia",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "195"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/74/741436690581636.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-troco-por-veiculo-ou-terreno-em-campinas-1347367070",
-    "price": "350000",
-    "publishDate": "2024-10-19 22:20:00",
-    "coords": {
-      "lat": -23.2190113,
-      "lon": -46.8549621
     }
   },
   {
@@ -4721,33 +4716,6 @@
     }
   },
   {
-    "address": "Campinas, Residencial Cittá di Salerno",
-    "description": [
-      {
-        "numberOfRooms": "4"
-      },
-      {
-        "floorSize": "1"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/91/917468562715695.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/2-casas-germinadas-1339171078",
-    "price": "399000",
-    "publishDate": "2024-09-20 01:41:00",
-    "coords": {
-      "lat": -22.98502,
-      "lon": -47.15355
-    }
-  },
-  {
     "address": "Campinas, Jardim Campos Elíseos",
     "description": [
       {
@@ -5244,6 +5212,33 @@
     "coords": {
       "lat": -22.7409093,
       "lon": -47.3676291
+    }
+  },
+  {
+    "address": "Campinas, Jardim Aurélia",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "195"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/74/741436690581636.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-troco-por-veiculo-ou-terreno-em-campinas-1347367070",
+    "price": "450000",
+    "publishDate": "2024-10-19 22:20:00",
+    "coords": {
+      "lat": -23.2190113,
+      "lon": -46.8549621
     }
   },
   {
