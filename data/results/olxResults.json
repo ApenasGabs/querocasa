@@ -11,7 +11,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-rua-lampiao-no-dic-v-com-60m-construidos-30-mil-de-divida-1344840649",
     "price": "125000",
-    "publishDate": "2024-11-17 00:25:00",
+    "publishDate": "2024-11-20 00:25:00",
     "coords": {
       "lat": -22.97545,
       "lon": -47.12655
@@ -39,33 +39,6 @@
     "coords": {
       "lat": -22.555,
       "lon": -47.9025737
-    }
-  },
-  {
-    "address": "Campinas, Jardim San Diego",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "92"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/15/154484936464255.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/linda-casa-jd-san-diego-1347802804",
-    "price": "460000",
-    "publishDate": "2024-11-17 22:09:00",
-    "coords": {
-      "lat": -22.9858823,
-      "lon": -47.1002923
     }
   },
   {
@@ -114,25 +87,6 @@
     "coords": {
       "lat": -10.1934964,
       "lon": -48.9000447
-    }
-  },
-  {
-    "address": "Campinas, Jardim Itatinga",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/tenho-duas-casas-para-vender-no-jardim-itatinga-com-o-maria-rosa-1355879266",
-    "price": "200",
-    "publishDate": "2024-11-19 16:51:00",
-    "coords": {
-      "lat": -22.98346,
-      "lon": -47.10646
     }
   },
   {
@@ -895,27 +849,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim Alto do Ipaussurama",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/46/461430328388886.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-area-verde-1339452941",
-    "price": "90000",
-    "publishDate": "2024-09-20 23:54:00",
-    "coords": {
-      "lat": -22.9281,
-      "lon": -47.12143
-    }
-  },
-  {
     "address": "Campinas, Residencial Cittá di Salerno",
     "description": [
       {
@@ -964,6 +897,27 @@
     }
   },
   {
+    "address": "Campinas, Parque Cidade Campinas",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/76/764408586758363.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-para-reforma-1356194161",
+    "price": "100000",
+    "publishDate": "2024-11-20 19:22:00",
+    "coords": {
+      "lat": -22.834966350000002,
+      "lon": -47.150270806170965
+    }
+  },
+  {
     "address": "Campinas, Res Cosmos",
     "description": [],
     "images": [
@@ -975,6 +929,27 @@
     "coords": {
       "lat": -22.94769,
       "lon": -47.15952
+    }
+  },
+  {
+    "address": "Campinas, Vila Aeroporto",
+    "description": [
+      {
+        "floorSize": "350"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/17/178412588872368.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-regiao-ouro-verde-vila-aeroporto-dics-1352013164",
+    "price": "100000",
+    "publishDate": "2024-11-05 19:40:00",
+    "coords": {
+      "lat": -22.9754633,
+      "lon": -47.1272723
     }
   },
   {
@@ -1074,6 +1049,27 @@
     }
   },
   {
+    "address": "Campinas, Jardim do Lago Continuação",
+    "description": [
+      {
+        "floorSize": "1800000"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/74/746447570754499.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-1343143805",
+    "price": "110000",
+    "publishDate": "2024-10-04 15:55:00",
+    "coords": {
+      "lat": -22.93726,
+      "lon": -47.07066
+    }
+  },
+  {
     "address": "Campinas, Parque Aeroporto",
     "description": [
       {
@@ -1164,7 +1160,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-rua-lampiao-no-dic-v-com-60m-construidos-30-mil-de-divida-1344840649",
     "price": "125000",
-    "publishDate": "2024-11-17 00:25:00",
+    "publishDate": "2024-11-20 00:25:00",
     "coords": {
       "lat": -22.97545,
       "lon": -47.12655
@@ -1714,6 +1710,30 @@
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623
+    }
+  },
+  {
+    "address": "Campinas, Jardim Aeronave de Viracopos",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "88"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/44/444485229282864.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-andradina-sp-interior-de-sao-paulo-1356009431",
+    "price": "200000",
+    "publishDate": "2024-11-20 00:31:00",
+    "coords": {
+      "lat": -22.98779,
+      "lon": -47.1389
     }
   },
   {
@@ -2726,27 +2746,6 @@
     }
   },
   {
-    "address": "Campinas, Vila Aeroporto",
-    "description": [
-      {
-        "floorSize": "350"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/17/178412588872368.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-regiao-ouro-verde-vila-aeroporto-dics-1352013164",
-    "price": "260000",
-    "publishDate": "2024-11-05 19:40:00",
-    "coords": {
-      "lat": -22.9754633,
-      "lon": -47.1272723
-    }
-  },
-  {
     "address": "Campinas, Jardim Itaguaçu I",
     "description": [
       {
@@ -3006,6 +3005,33 @@
     "coords": {
       "lat": -22.87766,
       "lon": -47.1425
+    }
+  },
+  {
+    "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
+    "description": [
+      {
+        "numberOfRooms": "5"
+      },
+      {
+        "floorSize": "170"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/46/468449221356383.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sobrado-1356279468",
+    "price": "280000",
+    "publishDate": "2024-11-21 04:27:00",
+    "coords": {
+      "lat": -22.9421762,
+      "lon": -47.07785804254273
     }
   },
   {
@@ -3444,27 +3470,6 @@
     }
   },
   {
-    "address": "Campinas, Barão Geraldo",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "260"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/71/718432789651814.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-com-2-casa-e-1-kitnet-em-barao-geraldo-1323727939",
-    "price": "300000",
-    "publishDate": "2024-09-20 14:40:00",
-    "coords": {
-      "lat": -22.80998855,
-      "lon": -47.0839428207261
-    }
-  },
-  {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
     "description": [
       {
@@ -3485,7 +3490,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-1331932519",
     "price": "300000",
-    "publishDate": "2024-11-17 19:08:00",
+    "publishDate": "2024-11-20 19:09:00",
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623
@@ -3653,6 +3658,27 @@
     "coords": {
       "lat": -22.9421762,
       "lon": -47.07785804254273
+    }
+  },
+  {
+    "address": "Campinas, Vila Mimosa",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/27/270456344806547.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-sobrado-1-ano-de-construcao-parte-de-cima-embaixo-so-acabamento-1354869882",
+    "price": "320000",
+    "publishDate": "2024-11-15 11:28:00",
+    "coords": {
+      "lat": -22.93737,
+      "lon": -47.09106
     }
   },
   {
@@ -4170,27 +4196,6 @@
     }
   },
   {
-    "address": "Campinas, Vila Mimosa",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/27/270456344806547.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-sobrado-1354869882",
-    "price": "350000",
-    "publishDate": "2024-11-15 11:28:00",
-    "coords": {
-      "lat": -22.93737,
-      "lon": -47.09106
-    }
-  },
-  {
     "address": "Campinas, Dic VI (Conjunto Habitacional Santo Dias Silva)",
     "description": [
       {
@@ -4233,6 +4238,27 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/mini-chacara-500m-1340418565",
     "price": "350000",
     "publishDate": "2024-09-24 16:14:00",
+    "coords": {
+      "lat": -22.7452845,
+      "lon": -47.8171671
+    }
+  },
+  {
+    "address": "Campinas, Fazenda Pau D'Alho",
+    "description": [
+      {
+        "floorSize": "500"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/70/700475343857929.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-piscina-em-condominio-fechado-1356275911",
+    "price": "355000",
+    "publishDate": "2024-11-21 03:34:00",
     "coords": {
       "lat": -22.7452845,
       "lon": -47.8171671
