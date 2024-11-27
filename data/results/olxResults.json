@@ -30,7 +30,7 @@
         "numberOfRooms": "2"
       },
       {
-        "floorSize": "250"
+        "floorSize": "100"
       },
       {
         "numberOfParkingSpaces": "3"
@@ -312,30 +312,6 @@
     }
   },
   {
-    "address": "Campinas, Vila Pompéia",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/55/552495443519977.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1340929774",
-    "price": "600",
-    "publishDate": "2024-09-26 11:04:00",
-    "coords": {
-      "lat": -22.9292826,
-      "lon": -47.0872963
-    }
-  },
-  {
     "address": "Campinas, Loteamento Alphaville Campinas",
     "description": [
       {
@@ -360,6 +336,33 @@
     "coords": {
       "lat": -22.82164,
       "lon": -47.0266
+    }
+  },
+  {
+    "address": "Campinas, Parque Via Norte",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "136"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/14/146440226594146.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-1357798528",
+    "price": "6600",
+    "publishDate": "2024-11-27 01:48:00",
+    "coords": {
+      "lat": -22.88487765,
+      "lon": -47.11751493802094
     }
   },
   {
@@ -1073,27 +1076,6 @@
     }
   },
   {
-    "address": "Campinas, Conjunto Habitacional Parque da Floresta",
-    "description": [
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/16/161425440686423.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-com-1-quarto-e-banheiro-1340944762",
-    "price": "120000",
-    "publishDate": "2024-09-26 12:10:00",
-    "coords": {
-      "lat": -18.83529,
-      "lon": -41.9005
-    }
-  },
-  {
     "address": "Campinas, Dic V (Conjunto Habitacional Chico Mendes)",
     "description": [
       {
@@ -1528,6 +1510,54 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-1345675744",
     "price": "170000",
     "publishDate": "2024-10-14 16:32:00",
+    "coords": {
+      "lat": -22.97514,
+      "lon": -47.18103
+    }
+  },
+  {
+    "address": "Campinas, Loteamento Residencial Novo Mundo",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "135"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/35/351433823361503.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-garagem-em-bairro-tranquilo-1357734723",
+    "price": "180000",
+    "publishDate": "2024-11-26 21:08:00",
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623
+    }
+  },
+  {
+    "address": "Campinas, Conjunto Habitacional Vida Nova",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "127"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/72/723460343989293.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-vida-nova-1-1357683013",
+    "price": "180000",
+    "publishDate": "2024-11-26 18:02:00",
     "coords": {
       "lat": -22.97514,
       "lon": -47.18103
@@ -3294,7 +3324,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-1331932519",
     "price": "300000",
-    "publishDate": "2024-11-23 19:09:00",
+    "publishDate": "2024-11-26 19:08:00",
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623
@@ -4237,6 +4267,30 @@
     }
   },
   {
+    "address": "Campinas, Conjunto Habitacional Padre Anchieta",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "120"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/50/504458345501017.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-dormitorios-120m-terreno-200m-1357676296",
+    "price": "375000",
+    "publishDate": "2024-11-26 17:43:00",
+    "coords": {
+      "lat": -22.85864,
+      "lon": -47.15535
+    }
+  },
+  {
     "address": "Campinas, Jardim Profilurb",
     "description": [
       {
@@ -4594,7 +4648,7 @@
         "numberOfRooms": "2"
       },
       {
-        "floorSize": "250"
+        "floorSize": "100"
       },
       {
         "numberOfParkingSpaces": "3"
@@ -4657,6 +4711,30 @@
     "coords": {
       "lat": -22.847982199999997,
       "lon": -47.035289333486546
+    }
+  },
+  {
+    "address": "Campinas, Jardim das Bandeiras",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/77/770406826869292.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-de-10x25m-com-duas-casas-1357755910",
+    "price": "400000",
+    "publishDate": "2024-11-26 22:27:00",
+    "coords": {
+      "lat": -23.1557867,
+      "lon": -46.8710082
     }
   },
   {
@@ -4958,6 +5036,33 @@
     "coords": {
       "lat": -22.9442298,
       "lon": -47.1083519
+    }
+  },
+  {
+    "address": "Campinas, Cidade Universitária",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "170"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/24/243486465689977.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-em-barao-geraldo-oportunidade-investidor-1357856868",
+    "price": "440000",
+    "publishDate": "2024-11-27 02:44:00",
+    "coords": {
+      "lat": -22.8048472,
+      "lon": -47.0697047
     }
   },
   {
