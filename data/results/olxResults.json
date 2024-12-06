@@ -669,6 +669,24 @@
     }
   },
   {
+    "address": "Campinas, Jardim Bassoli",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/44/449450471193842.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-apartamento-1360314820",
+    "price": "80000",
+    "publishDate": "2024-12-05 21:06:00",
+    "coords": {
+      "lat": -22.96731,
+      "lon": -47.20187
+    }
+  },
+  {
     "address": "Campinas, Jardim São Judas Tadeu",
     "description": [
       {
@@ -1025,21 +1043,48 @@
     }
   },
   {
-    "address": "Campinas, Cidade Satélite Íris",
+    "address": "Campinas, Conjunto Habitacional Parque Itajaí",
     "description": [
       {
         "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "100"
+      },
+      {
+        "numberOfParkingSpaces": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/89/891468214225860.jpg"
+      "https://img.olx.com.br/thumbs500x360/90/902486231946837.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/otima-casa-venda-1345249506",
-    "price": "125000",
-    "publishDate": "2024-10-12 10:15:00",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-1360338317",
+    "price": "130000",
+    "publishDate": "2024-12-05 22:52:00",
     "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499
+      "lat": -22.95802,
+      "lon": -47.19147
+    }
+  },
+  {
+    "address": "Campinas, Vila Palmeiras I",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/71/711463228050531.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1351564690",
+    "price": "130000",
+    "publishDate": "2024-11-04 14:03:00",
+    "coords": {
+      "lat": -23.03097,
+      "lon": -47.10478
     }
   },
   {
@@ -1088,6 +1133,22 @@
     "coords": {
       "lat": -22.888889,
       "lon": -47.081944
+    }
+  },
+  {
+    "address": "Campinas, Chácaras Campos Elíseos",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1360239811",
+    "price": "140000",
+    "publishDate": "2024-12-05 15:55:00",
+    "coords": {
+      "lat": -22.93988,
+      "lon": -47.10412
     }
   },
   {
@@ -1451,7 +1512,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-sobrado-com-4-quartos-excelente-oportunidade-1347903206",
     "price": "170000",
-    "publishDate": "2024-12-02 13:28:00",
+    "publishDate": "2024-12-05 13:28:00",
     "coords": {
       "lat": -22.3609606,
       "lon": -46.9483048
@@ -1527,6 +1588,33 @@
     "coords": {
       "lat": -22.95529,
       "lon": -47.18347
+    }
+  },
+  {
+    "address": "Campinas, Cidade Satélite Íris",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "600"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/29/292452359003070.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/pra-venda-ou-rolo-1360340914",
+    "price": "180000",
+    "publishDate": "2024-12-05 23:00:00",
+    "coords": {
+      "lat": -22.9427307,
+      "lon": -47.1416499
     }
   },
   {
@@ -1828,28 +1916,6 @@
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623
-    }
-  },
-  {
-    "address": "Campinas, Núcleo Residencial Vila Vitória",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1343359102",
-    "price": "210000",
-    "publishDate": "2024-10-05 12:30:00",
-    "coords": {
-      "lat": -22.978375,
-      "lon": -47.16965686111111
     }
   },
   {
@@ -2545,27 +2611,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim do Vovô",
-    "description": [
-      {
-        "floorSize": "72"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/32/329480215145833.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/idicula-terreno-1343327986",
-    "price": "250000",
-    "publishDate": "2024-10-05 08:44:00",
-    "coords": {
-      "lat": -22.90352,
-      "lon": -47.10594
-    }
-  },
-  {
     "address": "Campinas, Swiss Park",
     "description": [
       {
@@ -3127,6 +3172,33 @@
     }
   },
   {
+    "address": "Campinas, Loteamento Residencial Novo Mundo",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "125"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/62/623422315880823.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-1331932519",
+    "price": "300000",
+    "publishDate": "2024-12-05 19:09:00",
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623
+    }
+  },
+  {
     "address": "Campinas, Jardim Nova América",
     "description": [
       {
@@ -3151,33 +3223,6 @@
     "coords": {
       "lat": -23.0895463,
       "lon": -46.9344342
-    }
-  },
-  {
-    "address": "Campinas, Loteamento Residencial Novo Mundo",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "125"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/62/623422315880823.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-1331932519",
-    "price": "300000",
-    "publishDate": "2024-12-02 19:09:00",
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623
     }
   },
   {
@@ -3593,7 +3638,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1358711024",
     "price": "350000",
-    "publishDate": "2024-12-02 23:14:00",
+    "publishDate": "2024-12-05 23:15:00",
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499
@@ -3684,7 +3729,9 @@
         "numberOfParkingSpaces": "2"
       }
     ],
-    "images": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/24/244434116113786.jpg"
+    ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1355687745",
     "price": "350000",
     "publishDate": "2024-11-18 22:51:00",
@@ -4666,6 +4713,33 @@
     }
   },
   {
+    "address": "Campinas, Jardim Novo Campos Elíseos",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "167"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/97/974483477123861.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-jardim-novo-campos-eliseos-1351469035",
+    "price": "410000",
+    "publishDate": "2024-12-06 03:41:00",
+    "coords": {
+      "lat": -22.9442298,
+      "lon": -47.1083519
+    }
+  },
+  {
     "address": "Campinas, Jardim Eulina",
     "description": [
       {
@@ -4690,31 +4764,6 @@
     "coords": {
       "lat": -22.8916592,
       "lon": -47.100781730448645
-    }
-  },
-  {
-    "address": "Campinas, Jardim Novo Campos Elíseos",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "167"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-jardim-novo-campos-eliseos-1351469035",
-    "price": "410000",
-    "publishDate": "2024-11-04 02:48:00",
-    "coords": {
-      "lat": -22.9442298,
-      "lon": -47.1083519
     }
   },
   {
