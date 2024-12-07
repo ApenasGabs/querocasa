@@ -1,29 +1,5 @@
 [
   {
-    "address": "Campinas, Jardim São Pedro",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "80"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/30/307440141011081.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-condominio-village-jd-sao-pedro-campinas-1287554319",
-    "price": "380000",
-    "publishDate": "2024-12-03 14:54:00",
-    "coords": {
-      "lat": -22.555,
-      "lon": -47.9025737
-    }
-  },
-  {
     "address": "Campinas, Vila Costa e Silva",
     "description": [
       {
@@ -330,6 +306,20 @@
     }
   },
   {
+    "address": "Campinas, Parque Jambeiro",
+    "description": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/45/459473711391540.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-pra-alugar-proximo-park-prado-1360517181",
+    "price": "900",
+    "publishDate": "2024-12-06 14:29:00",
+    "coords": {
+      "lat": -22.9617287,
+      "lon": -47.0504887
+    }
+  },
+  {
     "address": "Campinas, Jardim Novo Campos Elíseos",
     "description": [
       {
@@ -629,6 +619,24 @@
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499
+    }
+  },
+  {
+    "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
+    "description": [
+      {
+        "floorSize": "100"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/51/519440231908696.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1360596290",
+    "price": "80000",
+    "publishDate": "2024-12-06 19:48:00",
+    "coords": {
+      "lat": -22.9421762,
+      "lon": -47.07785804254273
     }
   },
   {
@@ -1019,27 +1027,39 @@
     }
   },
   {
-    "address": "Campinas, Lt Res Jaguari",
+    "address": "Campinas, Cidade Satélite Íris",
     "description": [
       {
         "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "150"
-      },
-      {
-        "numberOfParkingSpaces": "3"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/61/618482210355811.jpg"
+      "https://img.olx.com.br/thumbs500x360/89/891468214225860.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-leia-a-descricao-1346158868",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/otima-casa-venda-1345249506",
     "price": "125000",
-    "publishDate": "2024-10-16 00:56:00",
+    "publishDate": "2024-10-12 10:15:00",
     "coords": {
-      "lat": -22.95439,
-      "lon": -47.17879
+      "lat": -22.9427307,
+      "lon": -47.1416499
+    }
+  },
+  {
+    "address": "Campinas, Jardim Uruguai",
+    "description": [
+      {
+        "floorSize": "175"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/57/576479337130455.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/lindo-terreno-aceita-troca-1347699180",
+    "price": "125000",
+    "publishDate": "2024-10-21 15:57:00",
+    "coords": {
+      "lat": -22.95753,
+      "lon": -47.13655
     }
   },
   {
@@ -3274,6 +3294,31 @@
     }
   },
   {
+    "address": "Campinas, São Bernardo",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "189"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sao-bernardo-campinas-otimo-preco-r-320-mil-zoneamento-misto-1360589267",
+    "price": "320000",
+    "publishDate": "2024-12-06 19:06:00",
+    "coords": {
+      "lat": -22.9375174,
+      "lon": -47.0550361
+    }
+  },
+  {
     "address": "Campinas, Parque Universitário de Viracopos",
     "description": [
       {
@@ -3645,27 +3690,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim Paulicéia",
-    "description": [
-      {
-        "floorSize": "250"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/21/217441103174203.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-ponto-para-montar-comercio-aceito-carro-como-parte-do-pagamento-1358587895",
-    "price": "350000",
-    "publishDate": "2024-11-29 15:23:00",
-    "coords": {
-      "lat": -22.9214274,
-      "lon": -47.1043182
-    }
-  },
-  {
     "address": "Campinas, Jardim Santa Rosa",
     "description": [
       {
@@ -4008,6 +4032,27 @@
     "coords": {
       "lat": -22.88487765,
       "lon": -47.11751493802094
+    }
+  },
+  {
+    "address": "Campinas, Jardim Paulicéia",
+    "description": [
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/21/217441103174203.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-ponto-para-montar-comercio-aceito-carro-como-parte-do-pagamento-1358587895",
+    "price": "370000",
+    "publishDate": "2024-11-29 15:23:00",
+    "coords": {
+      "lat": -22.9214274,
+      "lon": -47.1043182
     }
   },
   {
@@ -4388,7 +4433,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/chacara-pequena-espaco-festa-em-campinas-1353776537",
     "price": "385000",
-    "publishDate": "2024-11-17 21:22:00",
+    "publishDate": "2024-12-06 19:15:00",
     "coords": {
       "lat": -22.9360851,
       "lon": -47.1601215
@@ -5076,33 +5121,6 @@
     "coords": {
       "lat": -23.2190113,
       "lon": -46.8549621
-    }
-  },
-  {
-    "address": "Campinas, Jardim do Lago Continuação",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "160"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/27/276494576737088.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/alugo-ou-vendo-galpao-perto-da-rodovia-lix-da-cunha-e-rodovia-anhanguera-1343529887",
-    "price": "450000",
-    "publishDate": "2024-10-06 03:08:00",
-    "coords": {
-      "lat": -22.93726,
-      "lon": -47.07066
     }
   },
   {
