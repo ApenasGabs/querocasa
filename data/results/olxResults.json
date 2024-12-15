@@ -20,7 +20,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-condominio-fechado-doraville-amoreiras-1339868034",
     "price": "310000",
-    "publishDate": "2024-12-11 19:57:00",
+    "publishDate": "2024-12-14 19:57:00",
     "coords": {
       "lat": -22.96844,
       "lon": -47.11624
@@ -44,7 +44,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-linda-casa-de-2-quartos-em-excelente-localizacao-no-jd-campos-eliseos-1360946784",
     "price": "310000",
-    "publishDate": "2024-12-11 12:51:00",
+    "publishDate": "2024-12-14 12:50:00",
     "coords": {
       "lat": -23.1872681,
       "lon": -46.9030973
@@ -82,7 +82,7 @@
       "https://img.olx.com.br/thumbs500x360/19/195461115946415.jpg"
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/saia-do-aluguel-casinha-boa-20-minutos-do-centro-1359082146",
-    "price": "180",
+    "price": "159",
     "publishDate": "2024-12-01 17:58:00",
     "coords": {
       "lat": -23.17304,
@@ -964,6 +964,30 @@
     }
   },
   {
+    "address": "Campinas, Conjunto Habitacional Parque Itajaí",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "100"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/90/902486231946837.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-1360338317",
+    "price": "125000",
+    "publishDate": "2024-12-05 22:52:00",
+    "coords": {
+      "lat": -22.95802,
+      "lon": -47.19147
+    }
+  },
+  {
     "address": "Campinas, Dic V (Conjunto Habitacional Chico Mendes)",
     "description": [
       {
@@ -1003,30 +1027,6 @@
     "coords": {
       "lat": -22.95439,
       "lon": -47.17879
-    }
-  },
-  {
-    "address": "Campinas, Conjunto Habitacional Parque Itajaí",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "100"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/90/902486231946837.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-1360338317",
-    "price": "130000",
-    "publishDate": "2024-12-05 22:52:00",
-    "coords": {
-      "lat": -22.95802,
-      "lon": -47.19147
     }
   },
   {
@@ -1157,6 +1157,30 @@
     "coords": {
       "lat": -22.8819519,
       "lon": -47.14947800526805
+    }
+  },
+  {
+    "address": "Campinas, Jardim Andorinhas",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "500"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/18/183465239829588.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-jd-andorinha-1362555038",
+    "price": "150000",
+    "publishDate": "2024-12-14 12:57:00",
+    "coords": {
+      "lat": -22.918382,
+      "lon": -47.014076402968456
     }
   },
   {
@@ -1422,24 +1446,6 @@
     }
   },
   {
-    "address": "Campinas, Conjunto Habitacional Vida Nova",
-    "description": [
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/16/164496219058040.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-1345675744",
-    "price": "170000",
-    "publishDate": "2024-10-14 16:32:00",
-    "coords": {
-      "lat": -22.97514,
-      "lon": -47.18103
-    }
-  },
-  {
     "address": "Campinas, Jardim Centenário",
     "description": [
       {
@@ -1458,6 +1464,30 @@
     "coords": {
       "lat": -22.3609606,
       "lon": -46.9483048
+    }
+  },
+  {
+    "address": "Campinas, Jardim Fernanda",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/62/628430834671926.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-jd-fernanda-1362642029",
+    "price": "180000",
+    "publishDate": "2024-12-14 20:13:00",
+    "coords": {
+      "lat": -23.042223,
+      "lon": -47.129119975992246
     }
   },
   {
@@ -2213,27 +2243,30 @@
     }
   },
   {
-    "address": "Campinas, Jardim Santa Mônica",
+    "address": "Campinas, Jardim Tamoio",
     "description": [
       {
-        "numberOfRooms": "2"
+        "numberOfRooms": "4"
       },
       {
-        "floorSize": "161"
+        "floorSize": "250"
       },
       {
-        "numberOfParkingSpaces": "2"
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/67/679455940434498.jpg"
+      "https://img.olx.com.br/thumbs500x360/59/593405589159242.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-pra-venda-1354201296",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-4-dormitorios-jardim-tamoio-1351939617",
     "price": "250000",
-    "publishDate": "2024-11-13 10:48:00",
+    "publishDate": "2024-11-05 15:54:00",
     "coords": {
-      "lat": -22.8504125,
-      "lon": -47.1105043
+      "lat": -23.1898173,
+      "lon": -46.849775
     }
   },
   {
@@ -3202,7 +3235,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-condominio-fechado-doraville-amoreiras-1339868034",
     "price": "310000",
-    "publishDate": "2024-12-11 19:57:00",
+    "publishDate": "2024-12-14 19:57:00",
     "coords": {
       "lat": -22.96844,
       "lon": -47.11624
@@ -3226,7 +3259,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-linda-casa-de-2-quartos-em-excelente-localizacao-no-jd-campos-eliseos-1360946784",
     "price": "310000",
-    "publishDate": "2024-12-11 12:51:00",
+    "publishDate": "2024-12-14 12:50:00",
     "coords": {
       "lat": -23.1872681,
       "lon": -46.9030973
@@ -4478,6 +4511,30 @@
     }
   },
   {
+    "address": "Campinas, Vila Modesto Fernandes",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "65"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/96/963412710015390.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/cond-bairro-alto-barao-geraldo-campinas-1360906397",
+    "price": "399000",
+    "publishDate": "2024-12-08 01:34:00",
+    "coords": {
+      "lat": -22.82985,
+      "lon": -47.0822
+    }
+  },
+  {
     "address": "Campinas, Vila Costa e Silva",
     "description": [
       {
@@ -4595,30 +4652,6 @@
     "coords": {
       "lat": -22.92991025,
       "lon": -47.0319489484375
-    }
-  },
-  {
-    "address": "Campinas, Vila Modesto Fernandes",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "65"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/96/963412710015390.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/cond-bairro-alto-barao-geraldo-campinas-1360906397",
-    "price": "400000",
-    "publishDate": "2024-12-08 01:34:00",
-    "coords": {
-      "lat": -22.82985,
-      "lon": -47.0822
     }
   },
   {
