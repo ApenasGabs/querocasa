@@ -20,7 +20,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-campinas-vendo-ou-troco-e-negocio-1350076244",
     "price": "97000",
-    "publishDate": "2024-12-21 23:17:00",
+    "publishDate": "2024-12-24 23:17:00",
     "coords": {
       "lat": -10.1934964,
       "lon": -48.9000447
@@ -1088,7 +1088,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-excelente-2-dorm-aceita-financiamento-nova-mercedes-campinas-sp-1349571551",
     "price": "460000",
-    "publishDate": "2024-12-21 16:03:00",
+    "publishDate": "2024-12-24 16:04:00",
     "coords": {
       "lat": -22.977525,
       "lon": -47.1022475
@@ -1273,6 +1273,27 @@
     "coords": {
       "lat": -23.037882,
       "lon": -47.112788
+    }
+  },
+  {
+    "address": "Campinas, Residencial Cittá di Salerno",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/71/717405596180877.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-escritura-1365131801",
+    "price": "160000",
+    "publishDate": "2024-12-24 13:26:00",
+    "coords": {
+      "lat": -22.98502,
+      "lon": -47.15355
     }
   },
   {
@@ -2249,27 +2270,27 @@
     }
   },
   {
-    "address": "Campinas, Vila Aeroporto",
+    "address": "Campinas, Jardim Nova Morada",
     "description": [
       {
-        "numberOfRooms": "2"
+        "numberOfRooms": "3"
       },
       {
-        "floorSize": "380"
+        "floorSize": "123"
       },
       {
-        "numberOfBathroomsTotal": "2"
+        "numberOfParkingSpaces": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/40/407491222466923.jpg"
+      "https://img.olx.com.br/thumbs500x360/66/666499468374288.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/imovel-a-venda-vila-aeroporto-regiao-ouro-verde-1358595271",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-ou-troca-jardim-londres-1357379583",
     "price": "250000",
-    "publishDate": "2024-11-29 15:51:00",
+    "publishDate": "2024-11-25 18:23:00",
     "coords": {
-      "lat": -22.9754633,
-      "lon": -47.1272723
+      "lat": -22.92513,
+      "lon": -47.10939
     }
   },
   {
@@ -2297,6 +2318,30 @@
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499
+    }
+  },
+  {
+    "address": "Campinas, Vila Proost de Souza",
+    "description": [
+      {
+        "numberOfRooms": "5"
+      },
+      {
+        "floorSize": "210"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/24/248464655856786.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vende-se-jardim-sao-vicente-1314121280",
+    "price": "260000",
+    "publishDate": "2024-12-16 12:49:00",
+    "coords": {
+      "lat": -22.90405,
+      "lon": -47.09374
     }
   },
   {
@@ -3391,30 +3436,6 @@
     }
   },
   {
-    "address": "Campinas, Parque Santa Bárbara",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/98/980407576750792.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/black-friday--casa-para-vender-1348697733",
-    "price": "345000",
-    "publishDate": "2024-10-24 15:53:00",
-    "coords": {
-      "lat": -22.4454992,
-      "lon": -46.8362907
-    }
-  },
-  {
     "address": "Campinas, Ponte Preta",
     "description": [
       {
@@ -3750,7 +3771,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-por-terreno-em-condominio-fechado-1362059789",
     "price": "360000",
-    "publishDate": "2024-12-21 15:16:00",
+    "publishDate": "2024-12-24 15:16:00",
     "coords": {
       "lat": -21.4593487,
       "lon": -47.0085588
@@ -4104,7 +4125,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/chacara-pequena-espaco-festa-em-campinas-1353776537",
     "price": "385000",
-    "publishDate": "2024-12-21 19:15:00",
+    "publishDate": "2024-12-24 19:15:00",
     "coords": {
       "lat": -22.9360851,
       "lon": -47.1601215
@@ -4743,7 +4764,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-excelente-2-dorm-aceita-financiamento-nova-mercedes-campinas-sp-1349571551",
     "price": "460000",
-    "publishDate": "2024-12-21 16:03:00",
+    "publishDate": "2024-12-24 16:04:00",
     "coords": {
       "lat": -22.977525,
       "lon": -47.1022475
