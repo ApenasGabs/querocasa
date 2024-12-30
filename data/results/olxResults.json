@@ -44,7 +44,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-linda-casa-de-2-quartos-em-excelente-localizacao-no-jd-campos-eliseos-1360946784",
     "price": "310000",
-    "publishDate": "2024-12-26 12:51:00",
+    "publishDate": "2024-12-29 12:51:00",
     "coords": {
       "lat": -23.1872681,
       "lon": -46.9030973
@@ -459,24 +459,6 @@
     }
   },
   {
-    "address": "Campinas, Núcleo Residencial Três Estrelas",
-    "description": [
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/24/242483211533200.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-construcao-com-terreno-amplo-1349956310",
-    "price": "43000",
-    "publishDate": "2024-10-29 14:13:00",
-    "coords": {
-      "lat": -22.95483,
-      "lon": -47.168476950461084
-    }
-  },
-  {
     "address": "Campinas, Parque Universal",
     "description": [
       {
@@ -658,7 +640,7 @@
     "images": [
       "https://img.olx.com.br/thumbs500x360/19/195461115946415.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-proximo-de-tudo-1359082146",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-1359082146",
     "price": "76000",
     "publishDate": "2024-12-01 17:58:00",
     "coords": {
@@ -1068,6 +1050,27 @@
     "coords": {
       "lat": -22.8819519,
       "lon": -47.14947800526805
+    }
+  },
+  {
+    "address": "Campinas, Loteamento Residencial Novo Mundo",
+    "description": [
+      {
+        "floorSize": "125"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/80/802480116182438.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-no-residencial-novo-mundo-1366055925",
+    "price": "149000",
+    "publishDate": "2024-12-29 16:03:00",
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623
     }
   },
   {
@@ -1753,6 +1756,30 @@
     }
   },
   {
+    "address": "Campinas, Jardim Novo Campos Elíseos",
+    "description": [
+      {
+        "numberOfRooms": "4"
+      },
+      {
+        "floorSize": "140"
+      },
+      {
+        "numberOfBathroomsTotal": "4"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/52/523483476560048.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sobrado-localizado-no-jardim-novo-campos-eliseos-cep13060-123-campinas-sp-1366049968",
+    "price": "210000",
+    "publishDate": "2024-12-29 15:28:00",
+    "coords": {
+      "lat": -22.9442298,
+      "lon": -47.1083519
+    }
+  },
+  {
     "address": "Campinas, Residencial São Luís",
     "description": [
       {
@@ -2033,27 +2060,6 @@
     "coords": {
       "lat": -22.9490021,
       "lon": -47.1126741
-    }
-  },
-  {
-    "address": "Campinas, Jardim Florence",
-    "description": [
-      {
-        "floorSize": "78"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/87/879465450909923.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-florence-2-1349976713",
-    "price": "230000",
-    "publishDate": "2024-10-29 15:24:00",
-    "coords": {
-      "lat": -22.945514000000003,
-      "lon": -47.165998475725374
     }
   },
   {
@@ -2704,7 +2710,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-vila-palmeiras-1363567526",
     "price": "280000",
-    "publishDate": "2024-12-27 00:45:00",
+    "publishDate": "2024-12-30 00:46:00",
     "coords": {
       "lat": -23.03097,
       "lon": -47.10478
@@ -2762,6 +2768,30 @@
     "coords": {
       "lat": -22.9660936,
       "lon": -46.9135595
+    }
+  },
+  {
+    "address": "Campinas, Dic V (Conjunto Habitacional Chico Mendes)",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/58/587402954600541.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-dic-v-1366056856",
+    "price": "285000",
+    "publishDate": "2024-12-29 16:11:00",
+    "coords": {
+      "lat": -22.97545,
+      "lon": -47.12655
     }
   },
   {
@@ -2927,6 +2957,30 @@
     "coords": {
       "lat": -22.90648,
       "lon": -47.08852
+    }
+  },
+  {
+    "address": "Campinas, Jardim Primavera",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "120"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/36/369410236692663.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-novo-campos-elisios-campinas-1366044082",
+    "price": "300000",
+    "publishDate": "2024-12-29 14:48:00",
+    "coords": {
+      "lat": -22.0518986,
+      "lon": -46.9830637
     }
   },
   {
@@ -3202,7 +3256,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-linda-casa-de-2-quartos-em-excelente-localizacao-no-jd-campos-eliseos-1360946784",
     "price": "310000",
-    "publishDate": "2024-12-26 12:51:00",
+    "publishDate": "2024-12-29 12:51:00",
     "coords": {
       "lat": -23.1872681,
       "lon": -46.9030973
@@ -4569,6 +4623,30 @@
     }
   },
   {
+    "address": "Campinas, Vila Alberto Simões",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/14/142449239504436.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/2-casas-grandes-terreno-de-400-metros-1366111314",
+    "price": "399000",
+    "publishDate": "2024-12-29 22:34:00",
+    "coords": {
+      "lat": -22.93229,
+      "lon": -47.02916
+    }
+  },
+  {
     "address": "Campinas, Vila Modesto Fernandes",
     "description": [
       {
@@ -4689,30 +4767,6 @@
     "coords": {
       "lat": -23.1872681,
       "lon": -46.9030973
-    }
-  },
-  {
-    "address": "Campinas, Jardim Carlos Lourenço",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "162"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/79/794440337708298.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-3-dormitorios-valor-para-venda-particular-1350040897",
-    "price": "400000",
-    "publishDate": "2024-10-29 19:08:00",
-    "coords": {
-      "lat": -22.92991025,
-      "lon": -47.0319489484375
     }
   },
   {
