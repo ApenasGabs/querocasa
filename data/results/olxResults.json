@@ -17,7 +17,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-linda-casa-de-2-quartos-em-excelente-localizacao-no-jd-campos-eliseos-1360946784",
     "price": "310000",
-    "publishDate": "2025-12-29 12:51:00",
+    "publishDate": "2025-01-01 12:50:00",
     "coords": {
       "lat": -23.1872681,
       "lon": -46.9030973
@@ -815,6 +815,24 @@
     }
   },
   {
+    "address": "Campinas, Jardim Andorinhas",
+    "description": [
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/62/624518843039739.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-area-da-prefeitura-jd-andorinhas-1366578421",
+    "price": "100000",
+    "publishDate": "2025-01-01 16:08:00",
+    "coords": {
+      "lat": -22.918382,
+      "lon": -47.014076402968456
+    }
+  },
+  {
     "address": "Campinas, Parque Cidade Campinas",
     "description": [
       {
@@ -1053,27 +1071,6 @@
     }
   },
   {
-    "address": "Campinas, Residencial Sírius",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "60"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/38/381435350263808.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1365361843",
-    "price": "150000",
-    "publishDate": "2025-12-26 13:44:00",
-    "coords": {
-      "lat": -22.9524528,
-      "lon": -47.1632442
-    }
-  },
-  {
     "address": "Campinas, Jardim Nova Mercedes",
     "description": [
       {
@@ -1098,6 +1095,30 @@
     "coords": {
       "lat": -22.977525,
       "lon": -47.1022475
+    }
+  },
+  {
+    "address": "Campinas, Jardim Andorinhas",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "500"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/18/183465239829588.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-jd-andorinha-1362555038",
+    "price": "150000",
+    "publishDate": "2025-12-14 12:57:00",
+    "coords": {
+      "lat": -22.918382,
+      "lon": -47.014076402968456
     }
   },
   {
@@ -2228,27 +2249,27 @@
     }
   },
   {
-    "address": "Campinas, Jardim Marisa",
+    "address": "Campinas, Parque Valença II",
     "description": [
       {
         "numberOfRooms": "2"
       },
       {
-        "floorSize": "170"
+        "floorSize": "250"
       },
       {
-        "numberOfBathroomsTotal": "2"
+        "numberOfParkingSpaces": "4"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/72/725482230660096.jpg"
+      "https://img.olx.com.br/thumbs500x360/53/530565609703566.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-a-venda-1359489420",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-ou-troco-vila-industrial-jardim-garcia-londres-jardim-aurelia-1366578934",
     "price": "250000",
-    "publishDate": "2025-12-03 08:03:00",
+    "publishDate": "2025-01-01 16:16:00",
     "coords": {
-      "lat": -23.037882,
-      "lon": -47.112788
+      "lat": -22.9400324,
+      "lon": -47.189316891511126
     }
   },
   {
@@ -2273,6 +2294,30 @@
     "coords": {
       "lat": -22.9754633,
       "lon": -47.1272723
+    }
+  },
+  {
+    "address": "Campinas, Jardim Nova Morada",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "123"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/66/666499468374288.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-ou-troca-jardim-londres-1357379583",
+    "price": "250000",
+    "publishDate": "2025-11-25 18:23:00",
+    "coords": {
+      "lat": -22.92513,
+      "lon": -47.10939
     }
   },
   {
@@ -2519,33 +2564,6 @@
     }
   },
   {
-    "address": "Campinas, Loteamento Residencial Novo Mundo",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "150"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/81/813453221208849.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-garagem-e-quintal-e-area-de-lazerr-1350847543",
-    "price": "280000",
-    "publishDate": "2025-11-01 13:38:00",
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623
-    }
-  },
-  {
     "address": "Campinas, Vila Marieta",
     "description": [
       {
@@ -2590,7 +2608,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-vila-palmeiras-1363567526",
     "price": "280000",
-    "publishDate": "2025-12-30 00:46:00",
+    "publishDate": "2025-01-02 00:45:00",
     "coords": {
       "lat": -23.03097,
       "lon": -47.10478
@@ -3154,7 +3172,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-linda-casa-de-2-quartos-em-excelente-localizacao-no-jd-campos-eliseos-1360946784",
     "price": "310000",
-    "publishDate": "2025-12-29 12:51:00",
+    "publishDate": "2025-01-01 12:50:00",
     "coords": {
       "lat": -23.1872681,
       "lon": -46.9030973
@@ -3453,6 +3471,33 @@
     }
   },
   {
+    "address": "Campinas, Conjunto Habitacional Vila Réggio",
+    "description": [
+      {
+        "numberOfRooms": "5"
+      },
+      {
+        "floorSize": "130"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/33/332570843847416.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/duas-casas-uma-embaixo-e-outra-em-cima-1366619370",
+    "price": "330000",
+    "publishDate": "2025-01-01 22:29:00",
+    "coords": {
+      "lat": -22.87392,
+      "lon": -47.1418
+    }
+  },
+  {
     "address": "Campinas, Jardim Florence",
     "description": [
       {
@@ -3666,33 +3711,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vila-uniao-1363576123",
     "price": "348000",
     "publishDate": "2025-12-18 01:08:00",
-    "coords": {
-      "lat": 40.31489,
-      "lon": -3.7834
-    }
-  },
-  {
-    "address": "Campinas, Parque Residencial Vila União",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "250"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/23/237454948113787.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-vila-uniao-1351051309",
-    "price": "349000",
-    "publishDate": "2025-11-02 01:39:00",
     "coords": {
       "lat": 40.31489,
       "lon": -3.7834
@@ -4515,33 +4533,6 @@
     }
   },
   {
-    "address": "Campinas, Conjunto Habitacional Vila Réggio",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "133"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/25/251441468467831.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-dorm-a-venda-no-conjunto-habitacional-vila-reggio-1350807711",
-    "price": "399000",
-    "publishDate": "2025-11-01 11:39:00",
-    "coords": {
-      "lat": -22.87392,
-      "lon": -47.1418
-    }
-  },
-  {
     "address": "Campinas, Vila Alberto Simões",
     "description": [
       {
@@ -4917,33 +4908,6 @@
     "coords": {
       "lat": -22.947889449999998,
       "lon": -47.16255568604536
-    }
-  },
-  {
-    "address": "Campinas, Jardim Novo Campos Elíseos",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "85"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/43/430432890863849.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-condominio-1316427945",
-    "price": "430000",
-    "publishDate": "2025-12-07 14:38:00",
-    "coords": {
-      "lat": -22.9442298,
-      "lon": -47.1083519
     }
   },
   {
