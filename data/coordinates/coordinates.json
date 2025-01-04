@@ -1798,5 +1798,13 @@
   "Núcleo Residencial Getúlio Vargas": {
     "lat": -27.88663,
     "lon": -52.2289
+  },
+  "Chácaras Recanto da Colina Verde": {
+    "lat": -22.92752,
+    "lon": -47.18196
+  },
+  "Jardim Belo Horizonte": {
+    "lat": -23.0808855,
+    "lon": -46.9849139
   }
 }
