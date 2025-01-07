@@ -668,42 +668,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim Shangai",
-    "description": [
-      {
-        "floorSize": "87"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/16/163404719331870.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-1365629079",
-    "price": "89000",
-    "publishDate": "2025-12-27 16:21:00",
-    "coords": {
-      "lat": -23.17304,
-      "lon": -46.9133472
-    }
-  },
-  {
-    "address": "Campinas, Jardim Shangai",
-    "description": [
-      {
-        "floorSize": "87"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/62/624568488978320.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-jd-shangai-1359082146",
-    "price": "89000",
-    "publishDate": "2025-12-01 17:58:00",
-    "coords": {
-      "lat": -23.17304,
-      "lon": -46.9133472
-    }
-  },
-  {
     "address": "Campinas, Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu)",
     "description": [
       {
@@ -731,27 +695,6 @@
     }
   },
   {
-    "address": "Campinas, Nova Aparecida",
-    "description": [
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/83/837426461572059.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-rosalia-4-1352262780",
-    "price": "90000",
-    "publishDate": "2025-11-06 13:55:00",
-    "coords": {
-      "lat": -22.848388149999998,
-      "lon": -47.1443229856872
-    }
-  },
-  {
     "address": "Campinas, Residencial Cittá di Salerno",
     "description": [
       {
@@ -776,6 +719,42 @@
     "coords": {
       "lat": -22.98502,
       "lon": -47.15355
+    }
+  },
+  {
+    "address": "Campinas, Jardim Shangai",
+    "description": [
+      {
+        "floorSize": "87"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/16/163404719331870.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-1365629079",
+    "price": "94000",
+    "publishDate": "2025-12-27 16:21:00",
+    "coords": {
+      "lat": -23.17304,
+      "lon": -46.9133472
+    }
+  },
+  {
+    "address": "Campinas, Jardim Shangai",
+    "description": [
+      {
+        "floorSize": "87"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/62/624568488978320.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-jd-shangai-1359082146",
+    "price": "94000",
+    "publishDate": "2025-12-01 17:58:00",
+    "coords": {
+      "lat": -23.17304,
+      "lon": -46.9133472
     }
   },
   {
@@ -1074,24 +1053,27 @@
     }
   },
   {
-    "address": "Campinas, Residencial Sírius",
+    "address": "Campinas, Jardim Florence",
     "description": [
       {
-        "numberOfRooms": "3"
+        "numberOfRooms": "2"
       },
       {
-        "floorSize": "70"
+        "floorSize": "50"
+      },
+      {
+        "numberOfParkingSpaces": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/62/622489461420305.jpg"
+      "https://img.olx.com.br/thumbs500x360/97/970477227772687.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1357127328",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-2-quarto-sala-cozinha-garagem-1358817978",
     "price": "150000",
-    "publishDate": "2025-11-24 15:05:00",
+    "publishDate": "2025-11-30 13:09:00",
     "coords": {
-      "lat": -22.9524528,
-      "lon": -47.1632442
+      "lat": -22.945514000000003,
+      "lon": -47.165998475725374
     }
   },
   {
@@ -1200,6 +1182,33 @@
     "coords": {
       "lat": -22.99122155,
       "lon": -47.14269620043826
+    }
+  },
+  {
+    "address": "Campinas, Residencial Cosmos",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "150"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/48/484546244603101.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-esta-casa-1367748501",
+    "price": "160000",
+    "publishDate": "2025-01-06 18:54:00",
+    "coords": {
+      "lat": -22.947889449999998,
+      "lon": -47.16255568604536
     }
   },
   {
@@ -1329,6 +1338,33 @@
     "coords": {
       "lat": -23.1876769,
       "lon": -46.8523369
+    }
+  },
+  {
+    "address": "Campinas, Jardim Ouro Preto",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "162"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/75/756584726308198.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1367756375",
+    "price": "180000",
+    "publishDate": "2025-01-06 19:21:00",
+    "coords": {
+      "lat": -22.9587,
+      "lon": -47.1337
     }
   },
   {
@@ -1635,6 +1671,30 @@
     }
   },
   {
+    "address": "Campinas, Conjunto Habitacional Parque Itajaí",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/40/406535241685316.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-parque-itajai-1367856083",
+    "price": "200000",
+    "publishDate": "2025-01-06 23:58:00",
+    "coords": {
+      "lat": -22.95802,
+      "lon": -47.19147
+    }
+  },
+  {
     "address": "Campinas, Jardim Santo Antonio",
     "description": [
       {
@@ -1785,33 +1845,6 @@
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623
-    }
-  },
-  {
-    "address": "Campinas, Residencial São Luís",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "54"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/87/872489829755550.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-em-campinas-sp-1352361294",
-    "price": "210000",
-    "publishDate": "2025-11-06 21:16:00",
-    "coords": {
-      "lat": -22.8974247,
-      "lon": -47.1960086
     }
   },
   {
@@ -2165,6 +2198,30 @@
     "coords": {
       "lat": -22.8724369,
       "lon": -47.14252466516425
+    }
+  },
+  {
+    "address": "Campinas, Cidade Satélite Íris",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/75/755574363043904.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-permuta-pref-campinas-pego-carro-moto-no-negocio-1367694268",
+    "price": "250000",
+    "publishDate": "2025-01-06 15:49:00",
+    "coords": {
+      "lat": -22.9427307,
+      "lon": -47.1416499
     }
   },
   {
@@ -2876,6 +2933,33 @@
     }
   },
   {
+    "address": "Campinas, Parque Valença II",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/28/286584004694137.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1367659150",
+    "price": "300000",
+    "publishDate": "2025-01-06 14:03:00",
+    "coords": {
+      "lat": -22.9400324,
+      "lon": -47.189316891511126
+    }
+  },
+  {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
     "description": [
       {
@@ -3047,30 +3131,6 @@
     "coords": {
       "lat": 40.31489,
       "lon": -3.7834
-    }
-  },
-  {
-    "address": "Campinas, Loteamento Residencial Porto Seguro",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/11/112497824214422.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1352222648",
-    "price": "300000",
-    "publishDate": "2025-11-06 11:43:00",
-    "coords": {
-      "lat": -23.18576,
-      "lon": -47.27957
     }
   },
   {
@@ -3663,6 +3723,33 @@
     }
   },
   {
+    "address": "Campinas, Parque Via Norte",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "466"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      },
+      {
+        "numberOfBathroomsTotal": "4"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/76/765512600914518.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/2-casas-salao-250m-const-466m-terreno-so-340-1367782367",
+    "price": "340000",
+    "publishDate": "2025-01-06 20:19:00",
+    "coords": {
+      "lat": -22.88487765,
+      "lon": -47.11751493802094
+    }
+  },
+  {
     "address": "Campinas, Conjunto Habitacional Vila Réggio",
     "description": [
       {
@@ -4215,33 +4302,6 @@
     "coords": {
       "lat": -22.87061,
       "lon": -46.96615
-    }
-  },
-  {
-    "address": "Campinas, Cidade Jardim",
-    "description": [
-      {
-        "numberOfRooms": "4"
-      },
-      {
-        "floorSize": "260"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/23/233487582221309.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-na-cidade-jardim-abaixo-do-valor-se-for-a-vista-1352256335",
-    "price": "370000",
-    "publishDate": "2025-11-06 13:25:00",
-    "coords": {
-      "lat": -22.7185124,
-      "lon": -47.6426022
     }
   },
   {
@@ -4818,6 +4878,33 @@
     }
   },
   {
+    "address": "Campinas, Jardim Alvorada",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "257"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/16/166532368088114.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-03-quartos-01-suite-1367653541",
+    "price": "420000",
+    "publishDate": "2025-01-06 13:50:00",
+    "coords": {
+      "lat": -22.8040126,
+      "lon": -47.3100136
+    }
+  },
+  {
     "address": "Campinas, Jardim Londres",
     "description": [
       {
@@ -5205,6 +5292,30 @@
     }
   },
   {
+    "address": "Campinas, Jardim Rossin",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "250000"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/37/370508724432621.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-estes-sobrado-com-tres-dormitorios-sala-cozinha-banheiro-area-de-servico-independe-1367751854",
+    "price": "450000",
+    "publishDate": "2025-01-06 19:06:00",
+    "coords": {
+      "lat": -22.92904,
+      "lon": -47.1615
+    }
+  },
+  {
     "address": "Campinas, Jardim Londres",
     "description": [
       {
@@ -5574,30 +5685,6 @@
     "coords": {
       "lat": -22.93018,
       "lon": -47.02051
-    }
-  },
-  {
-    "address": "Campinas, São Bernardo",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "388"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/69/691589123683524.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-terreno-de-388-50m-para-reforma-ou-transformacao-em-jd-chapadao-1367020155",
-    "price": "499990",
-    "publishDate": "2025-01-03 15:53:00",
-    "coords": {
-      "lat": -22.9375174,
-      "lon": -47.0550361
     }
   },
   {
