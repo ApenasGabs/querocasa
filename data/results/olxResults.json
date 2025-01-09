@@ -68,7 +68,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-excelente-2-dorm-aceita-financiamento-nova-mercedes-campinas-sp-1349571551",
     "price": "460000",
-    "publishDate": "2025-01-05 16:03:00",
+    "publishDate": "2025-01-08 16:04:00",
     "coords": {
       "lat": -22.977525,
       "lon": -47.1022475
@@ -731,6 +731,42 @@
     }
   },
   {
+    "address": "Campinas, Jardim Shangai",
+    "description": [
+      {
+        "floorSize": "87"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/16/163404719331870.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-1365629079",
+    "price": "87000",
+    "publishDate": "2025-12-27 16:21:00",
+    "coords": {
+      "lat": -23.17304,
+      "lon": -46.9133472
+    }
+  },
+  {
+    "address": "Campinas, Jardim Shangai",
+    "description": [
+      {
+        "floorSize": "87"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/62/624568488978320.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-jd-shangai-1359082146",
+    "price": "87000",
+    "publishDate": "2025-12-01 17:58:00",
+    "coords": {
+      "lat": -23.17304,
+      "lon": -46.9133472
+    }
+  },
+  {
     "address": "Campinas, Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu)",
     "description": [
       {
@@ -755,42 +791,6 @@
     "coords": {
       "lat": -22.97545,
       "lon": -47.12655
-    }
-  },
-  {
-    "address": "Campinas, Jardim Shangai",
-    "description": [
-      {
-        "floorSize": "87"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/16/163404719331870.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-1365629079",
-    "price": "94000",
-    "publishDate": "2025-12-27 16:21:00",
-    "coords": {
-      "lat": -23.17304,
-      "lon": -46.9133472
-    }
-  },
-  {
-    "address": "Campinas, Jardim Shangai",
-    "description": [
-      {
-        "floorSize": "87"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/62/624568488978320.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-jd-shangai-1359082146",
-    "price": "94000",
-    "publishDate": "2025-12-01 17:58:00",
-    "coords": {
-      "lat": -23.17304,
-      "lon": -46.9133472
     }
   },
   {
@@ -953,33 +953,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim das Bandeiras",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/82/827539484764878.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-clube-santa-clara-do-lago-1367957618",
-    "price": "135000",
-    "publishDate": "2025-01-07 12:33:00",
-    "coords": {
-      "lat": -23.1557867,
-      "lon": -46.8710082
-    }
-  },
-  {
     "address": "Campinas, Chácaras Campos Elíseos",
     "description": [
       {
@@ -1065,27 +1038,30 @@
     }
   },
   {
-    "address": "Campinas, Jardim Florence",
+    "address": "Campinas, Chácara Formosa",
     "description": [
       {
         "numberOfRooms": "2"
       },
       {
-        "floorSize": "50"
+        "floorSize": "200"
       },
       {
         "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/97/970477227772687.jpg"
+      "https://img.olx.com.br/thumbs500x360/95/955539723042285.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-2-quarto-sala-cozinha-garagem-1358817978",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jardim-paraiso-de-viracopos-campinas-sp-1366698026",
     "price": "150000",
-    "publishDate": "2025-11-30 13:09:00",
+    "publishDate": "2025-01-02 13:47:00",
     "coords": {
-      "lat": -22.945514000000003,
-      "lon": -47.165998475725374
+      "lat": -22.96382,
+      "lon": -47.12466
     }
   },
   {
@@ -1464,30 +1440,6 @@
     "coords": {
       "lat": -22.8974247,
       "lon": -47.1960086
-    }
-  },
-  {
-    "address": "Campinas, Jardim Fernanda",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "250"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/62/628430834671926.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-jd-fernanda-1362642029",
-    "price": "180000",
-    "publishDate": "2025-12-14 20:13:00",
-    "coords": {
-      "lat": -23.042223,
-      "lon": -47.129119975992246
     }
   },
   {
@@ -2576,27 +2528,6 @@
     }
   },
   {
-    "address": "Campinas, Vila Marieta",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "120"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/79/797433588331314.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jardim-nova-europa-hortolandia-1352978723",
-    "price": "280000",
-    "publishDate": "2025-11-08 17:31:00",
-    "coords": {
-      "lat": -22.92609,
-      "lon": -47.05258
-    }
-  },
-  {
     "address": "Campinas, Loteamento Vila Esperança",
     "description": [
       {
@@ -3239,6 +3170,33 @@
     }
   },
   {
+    "address": "Campinas, Vila Padre Manoel de Nóbrega",
+    "description": [
+      {
+        "numberOfRooms": "4"
+      },
+      {
+        "floorSize": "180"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/86/864580727623474.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vila-padre-manoel-da-nobrega-1368369060",
+    "price": "320000",
+    "publishDate": "2025-01-08 18:27:00",
+    "coords": {
+      "lat": -22.91084,
+      "lon": -47.11593
+    }
+  },
+  {
     "address": "Campinas, São Bernardo",
     "description": [
       {
@@ -3458,7 +3416,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-pra-vender-logo--1366283400",
     "price": "330000",
-    "publishDate": "2025-01-05 19:38:00",
+    "publishDate": "2025-01-08 19:37:00",
     "coords": {
       "lat": -22.9729548,
       "lon": -47.1472696
@@ -4548,30 +4506,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim Londres",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "330"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/16/160410228233252.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/excelente-casa-no-jd-londres-1352933953",
-    "price": "420000",
-    "publishDate": "2025-11-08 15:13:00",
-    "coords": {
-      "lat": -22.923099,
-      "lon": -47.11102077757158
-    }
-  },
-  {
     "address": "Campinas, Terras do Friburgo",
     "description": [
       {
@@ -4907,7 +4841,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-excelente-2-dorm-aceita-financiamento-nova-mercedes-campinas-sp-1349571551",
     "price": "460000",
-    "publishDate": "2025-01-05 16:03:00",
+    "publishDate": "2025-01-08 16:04:00",
     "coords": {
       "lat": -22.977525,
       "lon": -47.1022475

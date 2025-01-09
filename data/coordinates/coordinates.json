@@ -1806,5 +1806,13 @@
   "Jardim Belo Horizonte": {
     "lat": -23.0808855,
     "lon": -46.9849139
+  },
+  "Jardim Independência": {
+    "lat": -23.154216771578778,
+    "lon": -47.05265162186421
+  },
+  "Jardim das Paineiras": {
+    "lat": -22.8957588,
+    "lon": -47.0309293
   }
 }
