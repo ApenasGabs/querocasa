@@ -1814,5 +1814,17 @@
   "Jardim das Paineiras": {
     "lat": -22.8957588,
     "lon": -47.0309293
+  },
+  "Tijuco das Telhas": {
+    "lat": -22.90904,
+    "lon": -47.06454
+  },
+  "Parque Xangrilá": {
+    "lat": -22.8002206,
+    "lon": -47.0219476
+  },
+  "Loteamento Parque dos Alecrins": {
+    "lat": -22.86123,
+    "lon": -47.043
   }
 }
