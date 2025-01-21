@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import PropertyNavbarFilters from "../../components/Filters/PropertyNavbarFilters";
 import Map from "../../components/Map/Map";
@@ -13,6 +13,7 @@ import { DataPops } from "../../services/dataService";
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
+  const [showMap, setShowMap] = useState(false);
   const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
   const [hasData, setHasData] = useState(true);
   const selectedDistances = ["1", "2", "3", "5", "8", "10", "12"];
@@ -61,6 +62,7 @@ const Home = () => {
       <span className="badge badge-sm badge-warning">NEW</span>
     </a>,
   ];
+
   const Skeleton = Array.from({ length: 3 }).map((_, index) => (
     <div className="flex w-96 flex-col gap-4" key={index}>
       <div className="skeleton h-48 w-full" />
@@ -70,10 +72,30 @@ const Home = () => {
     </div>
   ));
 
+  const HouseListRendered = useMemo(() => {
+    if (!loading) {
+      return (
+        <div className="flex">
+          <PropertyList properties={filteredHouseList} />
+        </div>
+      );
+    }
+    return <>{Skeleton}</>;
+  }, [loading, filteredHouseList]);
   return (
     <div>
       <Navbar navbarEndButton={<ThemeSelector />} links={defaultLinks} />
-      <PropertyNavbarFilters onFilterChange={handleFilterChange} />
+      <PropertyNavbarFilters
+        navbarEndButton={
+          <button
+            onClick={() => setShowMap((prev) => !prev)}
+            className="btn btn-sm btn-ghost text-xl"
+          >
+            Mapa
+          </button>
+        }
+        onFilterChange={handleFilterChange}
+      />
       <Modal
         isModalOpen={isModalOpen}
         onClose={() => setIsModalOpen((prev) => !prev)}
@@ -94,15 +116,9 @@ const Home = () => {
           {!loading && hasData && filteredHouseList.length === 0 && (
             <p>Nenhum resultado encontrado com os filtros aplicados.</p>
           )}
-          {!loading ? (
-            <div className="flex">
-              <PropertyList properties={filteredHouseList} />
-            </div>
-          ) : (
-            <>{Skeleton}</>
-          )}
+          {HouseListRendered}
         </div>
-        {!loading && (
+        {!loading && showMap && (
           <div className="flex w-2/3 lg:w-1/3 pr-4">
             <Map
               properties={filteredHouseList}
