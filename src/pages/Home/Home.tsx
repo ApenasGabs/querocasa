@@ -1,33 +1,21 @@
 import { useEffect, useRef, useState } from "react";
 
-import PropertyFilters from "../../components/Filters/PropertyFilters";
-import { Filters } from "../../components/Filters/PropertyFilters.types";
 import PropertyNavbarFilters from "../../components/Filters/PropertyNavbarFilters";
 import Map from "../../components/Map/Map";
 import Modal from "../../components/Modal/Modal";
 import Navbar from "../../components/Navbar/Navbar";
 import PropertyList from "../../components/PropertyList/PropertyList";
-import TagFilter from "../../components/TagFilter/TagFilter";
 import ThemeSelector from "../../components/ThemeSelector/ThemeSelector";
 import { useFetchData } from "../../hooks/useFetchData";
+import useFilteredHouses from "../../hooks/useFilteredHouses";
 import { DataPops } from "../../services/dataService";
-import { calculateDistance } from "../../utils/calculateDistance";
 
 const Home = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
-  const [filteredHouseList, setFilteredHouseList] = useState(houseList);
   const [hasData, setHasData] = useState(true);
-  const [selectedDistances, setSelectedDistances] = useState<string[]>([
-    "1",
-    "2",
-    "3",
-    "5",
-    "8",
-    "10",
-    "12",
-  ]);
+  const selectedDistances = ["1", "2", "3", "5", "8", "10", "12"];
 
   const { data, loading, error } = useFetchData();
   console.error("error: ", error);
@@ -49,64 +37,16 @@ const Home = () => {
         });
 
         setHouseList(sortedList);
-        setFilteredHouseList(sortedList);
       } else {
         setHasData(false);
       }
     }
   }, [data, loading]);
 
-  const centralRegion = [-22.9103015, -47.0595007];
-
-  const handleFilterChange = (filters: Filters) => {
-    if (houseList.length === 0) return;
-    const filteredList = houseList.filter((house) => {
-      const price = parseInt(house.price.replace(/[^\d]+/g, ""), 10);
-      const floor = parseInt(
-        house.description.find((d) => d.floorSize)?.floorSize || "0",
-        10
-      );
-      const rooms = parseInt(
-        house.description.find((d) => d.numberOfRooms)?.numberOfRooms || "0",
-        10
-      );
-      const bathrooms = parseInt(
-        house.description.find((d) => d.numberOfBathroomsTotal)
-          ?.numberOfBathroomsTotal || "0",
-        10
-      );
-      const parking = parseInt(
-        house.description.find((d) => d.numberOfParkingSpaces)
-          ?.numberOfParkingSpaces || "0",
-        10
-      );
-
-      const distance = calculateDistance(
-        centralRegion[0],
-        centralRegion[1],
-        house.coords.lat!,
-        house.coords.lon!
-      );
-
-      const isWithinSelectedDistance =
-        selectedDistances.length === 0 ||
-        selectedDistances.some((d) => distance <= parseInt(d, 10));
-
-      return (
-        price >= filters.priceRange.min &&
-        price <= filters.priceRange.max &&
-        floor >= filters.floorSize &&
-        rooms >= filters.numberOfRooms &&
-        bathrooms >= filters.numberOfBathrooms &&
-        parking >= filters.numberOfParkingSpaces &&
-        house.address
-          .toLowerCase()
-          .includes(filters.addressQuery.toLowerCase()) &&
-        isWithinSelectedDistance
-      );
-    });
-    setFilteredHouseList(filteredList);
-  };
+  const { filteredHouseList, handleFilterChange } = useFilteredHouses(
+    houseList,
+    selectedDistances
+  );
   const size = loading ? 0 : filteredHouseList.length;
 
   const defaultLinks = [
@@ -134,20 +74,18 @@ const Home = () => {
     <div>
       <Navbar navbarEndButton={<ThemeSelector />} links={defaultLinks} />
       <PropertyNavbarFilters onFilterChange={handleFilterChange} />
-
       <Modal
         isModalOpen={isModalOpen}
         onClose={() => setIsModalOpen((prev) => !prev)}
       />
-
       <div className="flex flex-col lg:flex-row">
-        <PropertyFilters onFilterChange={handleFilterChange} />
-
-        <TagFilter
+        {/* <PropertyFilters onFilterChange={handleFilterChange} /> */}
+        {/* TODO Implement the tag filter again */}
+        {/* <TagFilter
           activeTags={selectedDistances}
+          
           setActiveTags={setSelectedDistances}
-        />
-
+        /> */}
         <div
           className="flex flex-wrap justify-between gap-2 p-5 lg:w-2/3"
           ref={scrollContainerRef}
