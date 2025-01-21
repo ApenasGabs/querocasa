@@ -11,4 +11,5 @@ export interface filterListProps {
 
 export interface PropertyNavbarFiltersProps {
   onFilterChange: (filters: Filters) => void;
+  navbarEndButton?: JSX.Element;
 }

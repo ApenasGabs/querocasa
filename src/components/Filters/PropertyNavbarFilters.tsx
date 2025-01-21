@@ -48,6 +48,7 @@ const filterObjects: filterListProps[] = [
 
 const PropertyNavbarFilters = ({
   onFilterChange,
+  navbarEndButton,
 }: PropertyNavbarFiltersProps) => {
   const initialFilters: Filters = {
     priceRange: { min: 0, max: 1000000 },
@@ -218,7 +219,13 @@ const PropertyNavbarFilters = ({
     }
   });
 
-  return <Navbar removeHomeButton links={CardFilterList} />;
+  return (
+    <Navbar
+      navbarEndButton={navbarEndButton}
+      removeHomeButton
+      links={CardFilterList}
+    />
+  );
 };
 
 export default PropertyNavbarFilters;
