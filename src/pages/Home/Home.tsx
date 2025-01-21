@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 
-import PropertyFilters from "../../components/Filters/PropertyFilters";
 import PropertyNavbarFilters from "../../components/Filters/PropertyNavbarFilters";
 import Map from "../../components/Map/Map";
 import Modal from "../../components/Modal/Modal";
@@ -16,15 +15,7 @@ const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
   const [hasData, setHasData] = useState(true);
-  const [selectedDistances, setSelectedDistances] = useState<string[]>([
-    "1",
-    "2",
-    "3",
-    "5",
-    "8",
-    "10",
-    "12",
-  ]);
+  const selectedDistances = ["1", "2", "3", "5", "8", "10", "12"];
 
   const { data, loading, error } = useFetchData();
   console.error("error: ", error);
