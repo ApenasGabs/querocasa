@@ -1,21 +1,5 @@
 [
   {
-    "address": "Parque Eldorado, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/51df732b7d96ead7b0171e3e28233bb6.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b2bdb2165f52a010126a3c683ba78334.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/20f7bcb04cc367dc8afca97a5e6c6a7d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fbf7f416342d52d7473b5bb535a641f7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6f28de686ef5af169075b2e4f73b7fd7.webp"
-    ],
-    "price": "50000",
-    "coords": {
-      "lat": -23.1678182,
-      "lon": -46.906254
-    }
-  },
-  {
     "address": "Cidade Satélite Íris, Campinas",
     "description": [],
     "images": [
@@ -30,6 +14,22 @@
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499
+    }
+  },
+  {
+    "address": "Parque Eldorado, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/51df732b7d96ead7b0171e3e28233bb6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b2bdb2165f52a010126a3c683ba78334.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/20f7bcb04cc367dc8afca97a5e6c6a7d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fbf7f416342d52d7473b5bb535a641f7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6f28de686ef5af169075b2e4f73b7fd7.webp"
+    ],
+    "price": "50000",
+    "coords": {
+      "lat": -23.1678182,
+      "lon": -46.906254
     }
   },
   {
@@ -217,6 +217,23 @@
     }
   },
   {
+    "address": "Núcleo Residencial Vila Vitória, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d34ec9f58b325e8f377b1fdf1046f232.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6e5f7a99781ca56145f4378d0ab0d43c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a6066db90d447214aa681043d3e2250e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/080cf3a7062bbc79ee307f7c91c35a33.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b59b9ddd478321bd7bcfe2bb36c34db1.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-nucleo-residencial-vila-vitoria-campinas-80m2-id-2489758397/",
+    "price": "150000",
+    "coords": {
+      "lat": -22.978375,
+      "lon": -47.16965686111111
+    }
+  },
+  {
     "address": "Jardim Santa Lúcia, Campinas",
     "description": [],
     "images": [
@@ -234,23 +251,6 @@
     }
   },
   {
-    "address": "Jardim Lisa, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d19186e3df3fd20b801d6832dffa8504.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/87940e25fcabe7dc135da538032e1b45.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a18d942220be12243a1866d97000a6a7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1fef402e03e177414b76f9d67a28c9d3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/87fb94984313d94aa74e070b374ebae3.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-jardim-lisa-campinas-125m2-id-2714942238/",
-    "price": "150000",
-    "coords": {
-      "lat": -22.95529,
-      "lon": -47.18347
-    }
-  },
-  {
     "address": "Núcleo Residencial Vila Vitória, Campinas",
     "description": [],
     "images": [
@@ -261,23 +261,6 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3f2d13626ab59321e4cdd0f849b4725b.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-nucleo-residencial-vila-vitoria-campinas-118m2-id-2720290645/",
-    "price": "150000",
-    "coords": {
-      "lat": -22.978375,
-      "lon": -47.16965686111111
-    }
-  },
-  {
-    "address": "Núcleo Residencial Vila Vitória, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d34ec9f58b325e8f377b1fdf1046f232.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6e5f7a99781ca56145f4378d0ab0d43c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a6066db90d447214aa681043d3e2250e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/080cf3a7062bbc79ee307f7c91c35a33.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b59b9ddd478321bd7bcfe2bb36c34db1.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-nucleo-residencial-vila-vitoria-campinas-80m2-id-2489758397/",
     "price": "150000",
     "coords": {
       "lat": -22.978375,
@@ -317,23 +300,6 @@
     }
   },
   {
-    "address": "Jardim Roseira, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a53335996d00af9494645bab33a52699.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5aaf4837e91c14980774f837b5bcb73b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2ff7855f3a709795e554a17a30ad221a.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bf46d9773f8a67434867a03c3cec290d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5d968ef133e45d5c07ba38429802c0b1.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-roseira-campinas-137m2-id-2739739195/",
-    "price": "150000",
-    "coords": {
-      "lat": -23.3949025,
-      "lon": -46.6308139
-    }
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": [],
     "images": [
@@ -348,6 +314,23 @@
     "coords": {
       "lat": -22.97514,
       "lon": -47.18103
+    }
+  },
+  {
+    "address": "Jardim Roseira, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a53335996d00af9494645bab33a52699.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5aaf4837e91c14980774f837b5bcb73b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2ff7855f3a709795e554a17a30ad221a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bf46d9773f8a67434867a03c3cec290d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5d968ef133e45d5c07ba38429802c0b1.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-roseira-campinas-137m2-id-2739739195/",
+    "price": "150000",
+    "coords": {
+      "lat": -23.3949025,
+      "lon": -46.6308139
     }
   },
   {
@@ -436,6 +419,23 @@
     }
   },
   {
+    "address": "Vila San Martin, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/515fe58285949e78614d1185012299dd.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/db8ce97c5794597f0cddee9b03590450.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/99e08c0d3c97838888f2b75f175d153b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cc092812c2b739cd0e911340481d823e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/41c91cf14ffad8eafab5b4f7c016ba40.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-san-martin-campinas-75m2-id-2570450418/",
+    "price": "160000",
+    "coords": {
+      "lat": -22.8402906,
+      "lon": -47.1554487
+    }
+  },
+  {
     "address": "Jardim Santo Antonio, Campinas",
     "description": [],
     "images": [
@@ -456,33 +456,17 @@
     "address": "Vila San Martin, Campinas",
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/515fe58285949e78614d1185012299dd.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/db8ce97c5794597f0cddee9b03590450.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/99e08c0d3c97838888f2b75f175d153b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cc092812c2b739cd0e911340481d823e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/41c91cf14ffad8eafab5b4f7c016ba40.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c3d089b2f65c2076fb4a3e50a57d78aa.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e7972b6bd6ed1db46e017cc809f2cb3c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e455443aee57769fc490fe01da484d55.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b5503e9b940365356678f1691069d12b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/196996f29554304a0bf7fbe5bea85da4.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-san-martin-campinas-75m2-id-2570450418/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-san-martin-campinas-100m2-id-2583971572/",
     "price": "160000",
     "coords": {
       "lat": -22.8402906,
       "lon": -47.1554487
-    }
-  },
-  {
-    "address": "Santa Clara, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b0d516ea84d5f050d09c86793338f16.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/051af29165b53a0b4b6ff4b5866698ef.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8534498958079daacd734f049f13dced.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9991cef659b8d33295380537b69ffcdd.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f719f59e82e0384e8cc34a5858bade1e.webp"
-    ],
-    "price": "160000",
-    "coords": {
-      "lat": -10.1934964,
-      "lon": -48.9000447
     }
   },
   {
@@ -503,37 +487,20 @@
     }
   },
   {
-    "address": "Vila San Martin, Campinas",
+    "address": "Cidade Satélite Íris, Campinas",
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c3d089b2f65c2076fb4a3e50a57d78aa.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e7972b6bd6ed1db46e017cc809f2cb3c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e455443aee57769fc490fe01da484d55.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b5503e9b940365356678f1691069d12b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/196996f29554304a0bf7fbe5bea85da4.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/63e472d84361d4285b8e0255209fdca8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/05c7d561f87f61c47dc975865b4ca70b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a0d0b22d1ad9d025503b1276c9070bf6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1ca9a093c052e88a602bd7d51c9488fa.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6d2aa8bf4bd989a5d2d509ffe8903f4c.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-san-martin-campinas-100m2-id-2583971572/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-cidade-satelite-iris-campinas-108m2-id-2648776591/",
     "price": "160000",
     "coords": {
-      "lat": -22.8402906,
-      "lon": -47.1554487
-    }
-  },
-  {
-    "address": "Núcleo Residencial Vila Vitória, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/91b4c459a8b6c401e067544179ff33f3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3f1c7e1b260c83fab20b8a0fab185746.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/93b73ab3b214ed2f013a5dad15e4f0ef.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b677c03dae9d2cfb518b67226842cb2.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c034fe3fe362c8f63559839871966806.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-nucleo-residencial-vila-vitoria-campinas-80m2-id-2700702610/",
-    "price": "160000",
-    "coords": {
-      "lat": -22.978375,
-      "lon": -47.16965686111111
+      "lat": -22.9427307,
+      "lon": -47.1416499
     }
   },
   {
@@ -554,20 +521,20 @@
     }
   },
   {
-    "address": "Cidade Satélite Íris, Campinas",
+    "address": "Núcleo Residencial Vila Vitória, Campinas",
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/63e472d84361d4285b8e0255209fdca8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/05c7d561f87f61c47dc975865b4ca70b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a0d0b22d1ad9d025503b1276c9070bf6.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1ca9a093c052e88a602bd7d51c9488fa.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6d2aa8bf4bd989a5d2d509ffe8903f4c.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/91b4c459a8b6c401e067544179ff33f3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3f1c7e1b260c83fab20b8a0fab185746.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/93b73ab3b214ed2f013a5dad15e4f0ef.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b677c03dae9d2cfb518b67226842cb2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c034fe3fe362c8f63559839871966806.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-cidade-satelite-iris-campinas-108m2-id-2648776591/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-nucleo-residencial-vila-vitoria-campinas-80m2-id-2700702610/",
     "price": "160000",
     "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499
+      "lat": -22.978375,
+      "lon": -47.16965686111111
     }
   },
   {
@@ -775,6 +742,23 @@
     }
   },
   {
+    "address": "Santa Clara, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b4e3f099141b475203c1b46d26f21ad8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bb1cde39b2f37c0a322a69b7032e4528.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3a2c5c06e3586afc04ea7281f8f93eab.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/344886db87cb9d942bfdd7309b932630.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/86fc0612267bd86e4d9c2bfe9d551d8b.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-santa-clara-campinas-80m2-id-2646538297/",
+    "price": "175000",
+    "coords": {
+      "lat": -10.1934964,
+      "lon": -48.9000447
+    }
+  },
+  {
     "address": "Jardim Uruguai, Campinas",
     "description": [],
     "images": [
@@ -826,6 +810,23 @@
     }
   },
   {
+    "address": "Núcleo Residencial Vila Vitória, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5bbb4c39eb49dcd5e36c04b6c6f42648.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ee721396dfaafa8992e96c4fa965490c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/113da5727753361aebe19bb0c8f8fa04.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bee26a66f62e9e31d9f8b208a2219862.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/42fc275f56258d4d07bd9116666f6f83.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-lavanderia-coletiva-nucleo-residencial-vila-vitoria-campinas-70m2-id-2760178318/",
+    "price": "180000",
+    "coords": {
+      "lat": -22.978375,
+      "lon": -47.16965686111111
+    }
+  },
+  {
     "address": "Jardim Esplanada, Campinas",
     "description": [],
     "images": [
@@ -858,40 +859,6 @@
     }
   },
   {
-    "address": "Núcleo Residencial Vila Vitória, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5bbb4c39eb49dcd5e36c04b6c6f42648.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ee721396dfaafa8992e96c4fa965490c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/113da5727753361aebe19bb0c8f8fa04.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bee26a66f62e9e31d9f8b208a2219862.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/42fc275f56258d4d07bd9116666f6f83.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-lavanderia-coletiva-nucleo-residencial-vila-vitoria-campinas-70m2-id-2760178318/",
-    "price": "180000",
-    "coords": {
-      "lat": -22.978375,
-      "lon": -47.16965686111111
-    }
-  },
-  {
-    "address": "Jardim Mirassol, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c6fa4138e4d95ce15d0d15d5f39700ab.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/badbcff6f7ded2d3eae9bcf34c91b5a4.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/63964d7f682f45dd4d48f16cf18fd75a.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ddb141510b083ce45450aed4407e1aec.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a805c2c8c16a0b4f634e33370c0c77f2.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-lavanderia-coletiva-jardim-mirassol-campinas-140m2-id-2738091799/",
-    "price": "180000",
-    "coords": {
-      "lat": -22.8416978,
-      "lon": -47.1387166
-    }
-  },
-  {
     "address": "Conjunto Habitacional Parque da Floresta, Campinas",
     "description": [],
     "images": [
@@ -906,6 +873,74 @@
     "coords": {
       "lat": -18.83529,
       "lon": -41.9005
+    }
+  },
+  {
+    "address": "Jardim Mirassol, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c6fa4138e4d95ce15d0d15d5f39700ab.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/badbcff6f7ded2d3eae9bcf34c91b5a4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/63964d7f682f45dd4d48f16cf18fd75a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ddb141510b083ce45450aed4407e1aec.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a805c2c8c16a0b4f634e33370c0c77f2.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-mirassol-campinas-140m2-id-2738091799/",
+    "price": "180000",
+    "coords": {
+      "lat": -22.8416978,
+      "lon": -47.1387166
+    }
+  },
+  {
+    "address": "Núcleo Residencial Vila Vitória, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4bc2f178cf056c9871f0b75d01777c8d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a995581afdf8b78f1d1295a966b7f3e6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c4e36fba01953e2f5b269f8485b0b781.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e3138a59c71a497d0d4db9c5e74ba96.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f77f1a8382a34269e15fc85f5742c17e.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-nucleo-residencial-vila-vitoria-campinas-130m2-id-2770896013/",
+    "price": "Apartirde180000",
+    "coords": {
+      "lat": -22.978375,
+      "lon": -47.16965686111111
+    }
+  },
+  {
+    "address": "Jardim Uruguai, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/59ec64043cfaf9460b8705f78eab7744.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1d985be0a76635252f1340326cf7fbd5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cc194b255a6edf797756c1dfed92fae3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/09b3cd6f9a5872e20ca76ccd9e7ca724.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0f95ad99b2e942276c26591358438385.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-uruguai-campinas-126m2-id-2755021242/",
+    "price": "180000",
+    "coords": {
+      "lat": -22.95753,
+      "lon": -47.13655
+    }
+  },
+  {
+    "address": "Conjunto Habitacional Vida Nova, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7db22d7977a738ea73ca745cb5800635.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d488ce5cac770c27842d4e866b1d3fb1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/61bc514ae5737f74ecc0b02cc13336ac.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/83b3bebebb4347e404fa2e9710812a88.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c6da5f06ade5be805cc70509128f856.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-vida-nova-campinas-126m2-id-2736339737/",
+    "price": "180000",
+    "coords": {
+      "lat": -22.97514,
+      "lon": -47.18103
     }
   },
   {
@@ -943,57 +978,6 @@
     }
   },
   {
-    "address": "Jardim Uruguai, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/59ec64043cfaf9460b8705f78eab7744.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1d985be0a76635252f1340326cf7fbd5.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cc194b255a6edf797756c1dfed92fae3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/09b3cd6f9a5872e20ca76ccd9e7ca724.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0f95ad99b2e942276c26591358438385.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-jardim-uruguai-campinas-126m2-id-2755021242/",
-    "price": "180000",
-    "coords": {
-      "lat": -22.95753,
-      "lon": -47.13655
-    }
-  },
-  {
-    "address": "Núcleo Residencial Vila Vitória, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4bc2f178cf056c9871f0b75d01777c8d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a995581afdf8b78f1d1295a966b7f3e6.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c4e36fba01953e2f5b269f8485b0b781.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e3138a59c71a497d0d4db9c5e74ba96.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f77f1a8382a34269e15fc85f5742c17e.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-nucleo-residencial-vila-vitoria-campinas-130m2-id-2770896013/",
-    "price": "Apartirde180000",
-    "coords": {
-      "lat": -22.978375,
-      "lon": -47.16965686111111
-    }
-  },
-  {
-    "address": "Conjunto Habitacional Vida Nova, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7db22d7977a738ea73ca745cb5800635.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d488ce5cac770c27842d4e866b1d3fb1.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/61bc514ae5737f74ecc0b02cc13336ac.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/83b3bebebb4347e404fa2e9710812a88.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c6da5f06ade5be805cc70509128f856.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-vida-nova-campinas-126m2-id-2736339737/",
-    "price": "180000",
-    "coords": {
-      "lat": -22.97514,
-      "lon": -47.18103
-    }
-  },
-  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": [],
     "images": [
@@ -1024,23 +1008,6 @@
     "coords": {
       "lat": -22.98779,
       "lon": -47.1389
-    }
-  },
-  {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2ff524106c180efc54e71e0fc6b571a2.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c419dd18818025744b41a86f3b931430.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/55d721bfbfb82a994bd4787f0e839c19.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/18fc161783764d93b26eae7b9c63cc62.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9ec62221ed90764d514e5df1efc883d5.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-loteamento-residencial-novo-mundo-campinas-125m2-id-2763381930/",
-    "price": "185000",
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623
     }
   },
   {
@@ -1095,6 +1062,23 @@
     }
   },
   {
+    "address": "Distrito Industrial, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/78f7f08d554e138e63b35c13c117be0c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3fe6c41aa8d385b44e4eb1b248e7719b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c8dc7d976f760e2e27cc71d486f3ed5e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e2722f65f49c84630d8232e42a825e35.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6ee9d12b6b304d8034c4bbe85442752c.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-distrito-industrial-campinas-128m2-id-2534986439/",
+    "price": "190000",
+    "coords": {
+      "lat": -22.4542953,
+      "lon": -46.9646587
+    }
+  },
+  {
     "address": "Eldorado dos Carajás, Campinas",
     "description": [],
     "images": [
@@ -1104,7 +1088,7 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/632ec055fa10c77fe8f02df88b783285.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c0ed8fa283a1344ed6622a83894f0aa.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-eldorado-dos-carajas-campinas-184m2-id-2753791906/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-eldorado-dos-carajas-campinas-184m2-id-2753791906/",
     "price": "190000",
     "coords": {
       "lat": -22.98639,
@@ -1129,37 +1113,20 @@
     }
   },
   {
-    "address": "Distrito Industrial, Campinas",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/78f7f08d554e138e63b35c13c117be0c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3fe6c41aa8d385b44e4eb1b248e7719b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c8dc7d976f760e2e27cc71d486f3ed5e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e2722f65f49c84630d8232e42a825e35.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6ee9d12b6b304d8034c4bbe85442752c.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ab6a369e11d1b6d545282fce93f2daf3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3471094e1751664b511a4cb1995776ff.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a63e85ad426bc2097e8a8079e26d3a25.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e7121d6e8c05a80fe14808580107d4f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/be3f0cd5ad8972d24e9c6522b6f447df.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-distrito-industrial-campinas-128m2-id-2534986439/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-45m2-id-2711856605/",
     "price": "190000",
     "coords": {
-      "lat": -22.4542953,
-      "lon": -46.9646587
-    }
-  },
-  {
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e786b76c90149eed443aa64990340ed2.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c998ab221abe8af22081a030bb159189.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/757a67f5e467c1491378f429a4b3044d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7b569e3da44d99e15bc5fa4ed6477d1.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/02334905ebd9c614ba7fab230678281e.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-150m2-id-2714163227/",
-    "price": "190000",
-    "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499
+      "lat": -20.2499754,
+      "lon": -50.5556623
     }
   },
   {
@@ -1197,6 +1164,23 @@
     }
   },
   {
+    "address": "Parque Cidade Campinas, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2a044b48d59d0908c5994dcddb0af41e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a8b6edfcf0f11eff826d2b4e45191c59.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7aba7ff99b4fea05676199e8b09b789a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8dcb8eefc294bf7aac4552da7299153a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d6418c7db91510aad4eba48e0d2d4342.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-parque-cidade-campinas-campinas-125m2-id-2746390800/",
+    "price": "190000",
+    "coords": {
+      "lat": -22.834966350000002,
+      "lon": -47.150270806170965
+    }
+  },
+  {
     "address": "Vila Lunardi, Campinas",
     "description": [],
     "images": [
@@ -1214,37 +1198,20 @@
     }
   },
   {
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "address": "Cidade Satélite Íris, Campinas",
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ab6a369e11d1b6d545282fce93f2daf3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3471094e1751664b511a4cb1995776ff.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a63e85ad426bc2097e8a8079e26d3a25.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e7121d6e8c05a80fe14808580107d4f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/be3f0cd5ad8972d24e9c6522b6f447df.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e786b76c90149eed443aa64990340ed2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c998ab221abe8af22081a030bb159189.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/757a67f5e467c1491378f429a4b3044d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7b569e3da44d99e15bc5fa4ed6477d1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/02334905ebd9c614ba7fab230678281e.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-45m2-id-2711856605/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-150m2-id-2714163227/",
     "price": "190000",
     "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623
-    }
-  },
-  {
-    "address": "Parque Cidade Campinas, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2a044b48d59d0908c5994dcddb0af41e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a8b6edfcf0f11eff826d2b4e45191c59.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7aba7ff99b4fea05676199e8b09b789a.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8dcb8eefc294bf7aac4552da7299153a.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d6418c7db91510aad4eba48e0d2d4342.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-parque-cidade-campinas-campinas-125m2-id-2746390800/",
-    "price": "190000",
-    "coords": {
-      "lat": -22.834966350000002,
-      "lon": -47.150270806170965
+      "lat": -22.9427307,
+      "lon": -47.1416499
     }
   },
   {
@@ -1278,23 +1245,6 @@
     "coords": {
       "lat": -22.97514,
       "lon": -47.18103
-    }
-  },
-  {
-    "address": "Residencial São Luís, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2a51eeea90b25746e2743815f842a33b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/136336dca9405f18f56cca3e8bab4eb1.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fca98d7e0b09be28383625224ee83dba.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b9e6be21609598126b25b93f1c35cab1.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3b578df937645c53375c317675dc9dde.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-residencial-sao-luis-campinas-200m2-id-2714130658/",
-    "price": "191000",
-    "coords": {
-      "lat": -22.8974247,
-      "lon": -47.1960086
     }
   },
   {
@@ -1416,6 +1366,21 @@
     }
   },
   {
+    "address": "Parque Valença I, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c0d72a550377de22cab7e96b5acaedf9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f24a0649f791c48c2861a6cc0b3a3a7e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8dfaa7a2cdc17ba0bb840f268d149f91.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-lavanderia-coletiva-parque-valenca-i-campinas-250m2-id-2733785744/",
+    "price": "199990",
+    "coords": {
+      "lat": -22.94217,
+      "lon": -47.18673
+    }
+  },
+  {
     "address": "Conjunto Habitacional Vida Nova, Campinas",
     "description": [],
     "images": [
@@ -1433,38 +1398,6 @@
     }
   },
   {
-    "address": "Parque Valença I, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c0d72a550377de22cab7e96b5acaedf9.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f24a0649f791c48c2861a6cc0b3a3a7e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8dfaa7a2cdc17ba0bb840f268d149f91.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-lavanderia-coletiva-parque-valenca-i-campinas-250m2-id-2733785744/",
-    "price": "199990",
-    "coords": {
-      "lat": -22.94217,
-      "lon": -47.18673
-    }
-  },
-  {
-    "address": "Jardim Adhemar de Barros, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1b78645703c8d615a3a2965b0de15757.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3cf22b306ffeac9e86f6fff696ebf4ee.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e106e23100a50c7fd6dede7f938869b1.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/756f8c6bc601461c7baf90b003e6db84.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5cb52e30e5458f62df4795f2cbfc8091.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-area-de-servico-jardim-adhemar-de-barros-campinas-50m2-id-2746557095/",
-    "price": "200000",
-    "coords": {
-      "lat": -23.02522,
-      "lon": -47.12096
-    }
-  },
-  {
     "address": "Cidade Satélite Íris, Campinas",
     "description": [],
     "images": [
@@ -1479,40 +1412,6 @@
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499
-    }
-  },
-  {
-    "address": "Conjunto Habitacional Vida Nova, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b43e9ca996f85aaf8e1a7d1dc0341b3c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/77c85a1fbe79159a0f8334109860b0d8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d8cf56a4a604771745cb66df4e2ceb6f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d7a45a026d645d5e09396b6badfef872.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7b1c9933119781fe894e68a009658b51.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-area-de-servico-conjunto-habitacional-vida-nova-campinas-200m2-id-2746556196/",
-    "price": "200000",
-    "coords": {
-      "lat": -22.97514,
-      "lon": -47.18103
-    }
-  },
-  {
-    "address": "Parque Cidade Campinas, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/259e5effd382ef63cac0002e128e7871.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8cb78214ca82e0c71c5a245d57ad5344.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f226f6fcf88de0f50a80d52dcdd2a7f4.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/22ae16b718c375e364a2edde2822c55e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/13bf3d55fcf1dd79aeb2392d096b73dc.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-parque-cidade-campinas-campinas-50m2-id-2624600774/",
-    "price": "200000",
-    "coords": {
-      "lat": -22.834966350000002,
-      "lon": -47.150270806170965
     }
   },
   {
@@ -1567,6 +1466,40 @@
     }
   },
   {
+    "address": "Conjunto Habitacional Vida Nova, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b43e9ca996f85aaf8e1a7d1dc0341b3c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/77c85a1fbe79159a0f8334109860b0d8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d8cf56a4a604771745cb66df4e2ceb6f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d7a45a026d645d5e09396b6badfef872.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7b1c9933119781fe894e68a009658b51.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-area-de-servico-conjunto-habitacional-vida-nova-campinas-200m2-id-2746556196/",
+    "price": "200000",
+    "coords": {
+      "lat": -22.97514,
+      "lon": -47.18103
+    }
+  },
+  {
+    "address": "Jardim Adhemar de Barros, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1b78645703c8d615a3a2965b0de15757.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3cf22b306ffeac9e86f6fff696ebf4ee.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e106e23100a50c7fd6dede7f938869b1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/756f8c6bc601461c7baf90b003e6db84.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5cb52e30e5458f62df4795f2cbfc8091.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-area-de-servico-jardim-adhemar-de-barros-campinas-50m2-id-2746557095/",
+    "price": "200000",
+    "coords": {
+      "lat": -23.02522,
+      "lon": -47.12096
+    }
+  },
+  {
     "address": "Conjunto Habitacional Parque Itajaí, Campinas",
     "description": [],
     "images": [
@@ -1581,6 +1514,23 @@
     "coords": {
       "lat": -22.95802,
       "lon": -47.19147
+    }
+  },
+  {
+    "address": "Parque Cidade Campinas, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/259e5effd382ef63cac0002e128e7871.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8cb78214ca82e0c71c5a245d57ad5344.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f226f6fcf88de0f50a80d52dcdd2a7f4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/22ae16b718c375e364a2edde2822c55e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/13bf3d55fcf1dd79aeb2392d096b73dc.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-parque-cidade-campinas-campinas-50m2-id-2624600774/",
+    "price": "200000",
+    "coords": {
+      "lat": -22.834966350000002,
+      "lon": -47.150270806170965
     }
   },
   {
@@ -1617,6 +1567,19 @@
     }
   },
   {
+    "address": "Jardim Aliança, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/210a2f053e72336f8372022dd4c03508.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-jardim-alianca-campinas-150m2-id-2532181158/",
+    "price": "200000",
+    "coords": {
+      "lat": -22.89155,
+      "lon": -47.10636
+    }
+  },
+  {
     "address": "Vila Palmeiras II, Campinas",
     "description": [],
     "images": [
@@ -1634,20 +1597,54 @@
     }
   },
   {
-    "address": "Botafogo, Campinas",
+    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fb613c73f5de437888905e431d92719f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/19afc7653c507411614a4b9a8b570da5.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6e44f33875bf31fd3a1a20a79d062a69.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5a0cfd35ae17de3dcc25a468241e3636.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e6a306010606beb0f98f94bb3919e604.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b30558b2ca2b11dd6fac92fcb41191b7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1422854a65eb78e6ac210b650bd2f608.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/077298f368d337127f082b54a856cf1f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dc239e0ff37e2ca9e6285eb91f26d627.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/52a04f2144137fb07ee02e21522c728c.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-botafogo-campinas-110m2-id-2728742132/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-parque-da-floresta-campinas-120m2-id-2503543620/",
     "price": "200000",
     "coords": {
-      "lat": -22.900278,
-      "lon": -47.070833
+      "lat": -18.83529,
+      "lon": -41.9005
+    }
+  },
+  {
+    "address": "Jardim Fernanda, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bb9ec6327e57688a70a870fa4700b6a2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/50a53239619f0b7dd21ad643af824205.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ae7fba4e02dcb476eebc01e6f64898f8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/74cf73a09312c8782823088b451989c7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a1a3e1f977898359f0304c53f81760a7.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-fernanda-campinas-60m2-id-2489486556/",
+    "price": "200000",
+    "coords": {
+      "lat": -23.042223,
+      "lon": -47.129119975992246
+    }
+  },
+  {
+    "address": "Residencial Cosmos, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7149ce2781e4f7143d6aadc9d7651239.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/621cfe1ceafd29bcdf459e6352c7515f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f7124f10fa88a4c17c463fb5e529a5a3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7806ab47b0e5274dd50d50dda31b0ee7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/69f54bf0d89c944f6beabe7cbef09f24.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-residencial-cosmos-campinas-65m2-id-2733874117/",
+    "price": "200000",
+    "coords": {
+      "lat": -22.947889449999998,
+      "lon": -47.16255568604536
     }
   },
   {
@@ -1667,19 +1664,6 @@
     }
   },
   {
-    "address": "Jardim Aliança, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/210a2f053e72336f8372022dd4c03508.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-lavanderia-coletiva-jardim-alianca-campinas-150m2-id-2532181158/",
-    "price": "200000",
-    "coords": {
-      "lat": -22.89155,
-      "lon": -47.10636
-    }
-  },
-  {
     "address": "Conjunto Residencial Parque São Bento, Campinas",
     "description": [],
     "images": [
@@ -1694,6 +1678,23 @@
     "coords": {
       "lat": -23.9596,
       "lon": -46.39586
+    }
+  },
+  {
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/445442dca969e45b8e3e61f4a29db4f1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1c1088d867e27e51afb8faddead604f5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3699c4627579985064b3f5ab9956ac19.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a1ba781405f9ce833c1f23449351cf8d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/28b256157f263625c3c3eff76fbe51fb.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-loteamento-residencial-novo-mundo-campinas-80m2-id-2714887954/",
+    "price": "200000",
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623
     }
   },
   {
@@ -1731,37 +1732,20 @@
     }
   },
   {
-    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
+    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b30558b2ca2b11dd6fac92fcb41191b7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1422854a65eb78e6ac210b650bd2f608.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/077298f368d337127f082b54a856cf1f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dc239e0ff37e2ca9e6285eb91f26d627.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/52a04f2144137fb07ee02e21522c728c.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/13b787a89ca39f51b00c0aa632ed14f0.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e7e01b3d1069b55b496ce6ed4dcf43c4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/13f74c4285fa9988289075422a16a483.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/763aac90cf7d061fac39ab88228bdaf5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b6f6edc0e971a3b7a1b170908e596b13.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-parque-da-floresta-campinas-120m2-id-2503543620/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-quintal-dic-i-conjunto-habitacional-monsenhor-luiz-fernando-abreu-campinas-140m2-id-2726018360/",
     "price": "200000",
     "coords": {
-      "lat": -18.83529,
-      "lon": -41.9005
-    }
-  },
-  {
-    "address": "Jardim Fernanda, Campinas",
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bb9ec6327e57688a70a870fa4700b6a2.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/50a53239619f0b7dd21ad643af824205.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ae7fba4e02dcb476eebc01e6f64898f8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/74cf73a09312c8782823088b451989c7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a1a3e1f977898359f0304c53f81760a7.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-fernanda-campinas-60m2-id-2489486556/",
-    "price": "200000",
-    "coords": {
-      "lat": -23.042223,
-      "lon": -47.129119975992246
+      "lat": -22.97545,
+      "lon": -47.12655
     }
   }
 ]
