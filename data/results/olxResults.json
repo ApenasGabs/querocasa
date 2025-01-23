@@ -1,25 +1,5 @@
 [
   {
-    "address": "Campinas, Vila Costa e Silva",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "130"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/27/270429304125646.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-vila-costa-e-silva-1323318722",
-    "price": "250000",
-    "publishDate": "2025-01-20 01:00:00"
-  },
-  {
     "address": "Campinas, Loteamento Residencial Flavia",
     "description": [
       {
@@ -294,6 +274,16 @@
     "publishDate": "2025-01-16 16:54:00"
   },
   {
+    "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
+    "description": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/61/615535240860938.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/mesa-de-jantar-com-8-cadeiras-tem-algumas-marcas-de-uso-1372368827",
+    "price": "800",
+    "publishDate": "2025-01-22 18:20:00"
+  },
+  {
     "address": "Campinas, Swiss Park",
     "description": [
       {
@@ -369,6 +359,26 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-a-venda-no-parque-fazenda-parcelo-mediante-contrato-1370357178",
     "price": "32500",
     "publishDate": "2025-01-15 17:56:00"
+  },
+  {
+    "address": "Campinas, Jardim Nova Europa",
+    "description": [
+      {
+        "numberOfRooms": "5"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/48/480521362701210.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-de-repouso-em-campinas-1371908777",
+    "price": "40000",
+    "publishDate": "2025-01-21 10:29:00"
   },
   {
     "address": "Campinas, Jardim Santa Lúcia",
@@ -491,7 +501,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jd-florence-1-valor-apenas-a-vista-75-000-zap-1370663551",
     "price": "75000",
-    "publishDate": "2025-01-19 18:06:00"
+    "publishDate": "2025-01-22 18:06:00"
   },
   {
     "address": "Campinas, Jardim Itaguaçu I",
@@ -815,22 +825,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-casa-1357180085",
     "price": "140000",
     "publishDate": "2025-11-24 20:15:00"
-  },
-  {
-    "address": "Campinas, Jardim Vista Alegre",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/87/871563008749945.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-regiao-do-campo-grande-1371533347",
-    "price": "150000",
-    "publishDate": "2025-01-20 01:16:00"
   }
 ]
