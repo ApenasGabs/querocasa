@@ -43,7 +43,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
-    "publishDate": "2025-01-20 19:15:00"
+    "publishDate": "2025-01-23 19:14:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
@@ -254,26 +254,6 @@
     "publishDate": "2025-01-19 11:10:00"
   },
   {
-    "address": "Campinas, Jardim Novo Campos Elíseos",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/11/113571723991336.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-sobrado-1370642794",
-    "price": "690",
-    "publishDate": "2025-01-16 16:54:00"
-  },
-  {
     "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
     "description": [],
     "images": [
@@ -393,6 +373,16 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-para-construir-sua-casa-dos-sonhos-1370351756",
     "price": "46000",
     "publishDate": "2025-01-15 17:38:00"
+  },
+  {
+    "address": "Campinas, Jardim Nilópolis",
+    "description": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/11/113593127748049.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-area-verde-1372756060",
+    "price": "50000",
+    "publishDate": "2025-01-23 20:13:00"
   },
   {
     "address": "Campinas, Cidade Singer",
