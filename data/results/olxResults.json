@@ -20,7 +20,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-residencial-flavia-1369411165",
     "price": "260000",
-    "publishDate": "2025-01-21 15:05:00"
+    "publishDate": "2025-01-24 15:05:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -58,6 +58,23 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1369763356",
     "price": "180",
     "publishDate": "2025-01-13 21:03:00"
+  },
+  {
+    "address": "Campinas, Jardim Roseira",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/91/914542368807341.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vende-se-1372998980",
+    "price": "230",
+    "publishDate": "2025-01-24 18:35:00"
   },
   {
     "address": "Campinas, Cidade Satélite Íris",
@@ -358,7 +375,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-de-repouso-em-campinas-1371908777",
     "price": "40000",
-    "publishDate": "2025-01-21 10:29:00"
+    "publishDate": "2025-01-24 10:29:00"
   },
   {
     "address": "Campinas, Jardim Santa Lúcia",
@@ -590,6 +607,23 @@
     "publishDate": "2025-12-05 21:06:00"
   },
   {
+    "address": "Campinas, Jardim Adhemar de Barros",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "22"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/66/664505240790214.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-casa-3-comodos-1372968100",
+    "price": "85000",
+    "publishDate": "2025-01-24 16:57:00"
+  },
+  {
     "address": "Campinas, Núcleo Residencial Princesa D'Oeste",
     "description": [
       {
@@ -786,34 +820,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-escritura-1365131801",
     "price": "140000",
     "publishDate": "2025-12-24 13:26:00"
-  },
-  {
-    "address": "Campinas, Chácaras Campos Elíseos",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1360239811",
-    "price": "140000",
-    "publishDate": "2025-12-05 15:55:00"
-  },
-  {
-    "address": "Campinas, Jardim Nova América",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/80/805446347716876.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-casa-1357180085",
-    "price": "140000",
-    "publishDate": "2025-11-24 20:15:00"
   }
 ]
