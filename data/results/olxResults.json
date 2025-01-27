@@ -43,7 +43,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
-    "publishDate": "2025-01-23 19:14:00"
+    "publishDate": "2025-01-26 19:14:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
@@ -447,26 +447,6 @@
     "publishDate": "2025-12-04 16:15:00"
   },
   {
-    "address": "Campinas, Recanto do Sol II",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "60"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/57/576440597383272.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1361476309",
-    "price": "63000",
-    "publishDate": "2025-12-10 19:54:00"
-  },
-  {
     "address": "Campinas, Vila Proost de Souza",
     "description": [
       {
@@ -820,5 +800,17 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-escritura-1365131801",
     "price": "140000",
     "publishDate": "2025-12-24 13:26:00"
+  },
+  {
+    "address": "Campinas, Chácaras Campos Elíseos",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1360239811",
+    "price": "140000",
+    "publishDate": "2025-12-05 15:55:00"
   }
 ]
