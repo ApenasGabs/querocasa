@@ -20,7 +20,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-residencial-flavia-1369411165",
     "price": "260000",
-    "publishDate": "2025-01-24 15:05:00"
+    "publishDate": "2025-01-27 15:05:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -138,26 +138,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-excelente-localizacao-1371213393",
     "price": "270",
     "publishDate": "2025-01-18 14:04:00"
-  },
-  {
-    "address": "Campinas, Cidade Satélite Íris",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "435"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/36/364456758989581.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-cidade-satelite-iris-1-com-3-quartos-1295293599",
-    "price": "290",
-    "publishDate": "2025-11-28 00:35:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -281,6 +261,29 @@
     "publishDate": "2025-01-22 18:20:00"
   },
   {
+    "address": "Campinas, Santa Clara",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/93/933576720250254.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-club-santa-clara-campinas-1373655337",
+    "price": "1500",
+    "publishDate": "2025-01-27 15:04:00"
+  },
+  {
     "address": "Campinas, Swiss Park",
     "description": [
       {
@@ -324,26 +327,6 @@
     "publishDate": "2025-01-21 20:57:00"
   },
   {
-    "address": "Campinas, Vila Eliza",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/99/991492707252213.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/feirao-da-casa-propria-1358073979",
-    "price": "25000",
-    "publishDate": "2025-11-27 21:44:00"
-  },
-  {
     "address": "Campinas, Residencial Parque da Fazenda",
     "description": [
       {
@@ -375,7 +358,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-de-repouso-em-campinas-1371908777",
     "price": "40000",
-    "publishDate": "2025-01-24 10:29:00"
+    "publishDate": "2025-01-27 10:29:00"
   },
   {
     "address": "Campinas, Jardim Santa Lúcia",
@@ -812,5 +795,25 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1360239811",
     "price": "140000",
     "publishDate": "2025-12-05 15:55:00"
+  },
+  {
+    "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "200"
+      },
+      {
+        "numberOfBathroomsTotal": "4"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/74/746558485725258.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-venda-ou-troca-em-algo-que-me-enteressar-1372892044",
+    "price": "150000",
+    "publishDate": "2025-01-24 12:45:00"
   }
 ]
