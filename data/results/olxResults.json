@@ -140,6 +140,29 @@
     "publishDate": "2025-01-18 14:04:00"
   },
   {
+    "address": "Campinas",
+    "description": [
+      {
+        "numberOfRooms": "5"
+      },
+      {
+        "floorSize": "160"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/59/596513720765691.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-a-venda-1373966680",
+    "price": "290",
+    "publishDate": "2025-01-28 15:39:00"
+  },
+  {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
     "description": [
       {
@@ -185,6 +208,29 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-com-salao-comercial-em-campinas-jardim-florence-1-1362028556",
     "price": "410",
     "publishDate": "2025-12-12 12:09:00"
+  },
+  {
+    "address": "Campinas, Jardim Eulina",
+    "description": [
+      {
+        "numberOfRooms": "4"
+      },
+      {
+        "floorSize": "167"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/45/458589728731982.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-4-quartos-mais-edicula-jardim-eulina-1374001381",
+    "price": "550",
+    "publishDate": "2025-01-28 17:34:00"
   },
   {
     "address": "Campinas, Vila Lemos",
@@ -259,6 +305,20 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/mesa-de-jantar-com-8-cadeiras-tem-algumas-marcas-de-uso-1372368827",
     "price": "800",
     "publishDate": "2025-01-22 18:20:00"
+  },
+  {
+    "address": "Campinas, Jardim Chapadão",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/45/453561129208563.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-com-2-quartos-em-condominio-fechado-1374031008",
+    "price": "1209",
+    "publishDate": "2025-01-28 19:32:00"
   },
   {
     "address": "Campinas, Santa Clara",
@@ -397,6 +457,20 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-por-carro-1368019155",
     "price": "50000",
     "publishDate": "2025-01-07 16:07:00"
+  },
+  {
+    "address": "Campinas, Jardim Alvorada",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/55/559545601439588.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-campos-eliseos-1374130202",
+    "price": "55000",
+    "publishDate": "2025-01-29 00:27:00"
   },
   {
     "address": "Campinas, Parque Valença II",
@@ -570,23 +644,6 @@
     "publishDate": "2025-12-05 21:06:00"
   },
   {
-    "address": "Campinas, Jardim Adhemar de Barros",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "22"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/66/664505240790214.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-casa-3-comodos-1372968100",
-    "price": "85000",
-    "publishDate": "2025-01-24 16:57:00"
-  },
-  {
     "address": "Campinas, Núcleo Residencial Princesa D'Oeste",
     "description": [
       {
@@ -626,6 +683,20 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-satelite-ires-1area-verde-mais-de-30-anos-1371790716",
     "price": "90000",
     "publishDate": "2025-01-20 23:07:00"
+  },
+  {
+    "address": "Campinas, Núcleo Residencial Princesa D'Oeste",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/38/386527364052765.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-de-adquirir-seu-imovel-1373930088",
+    "price": "90000",
+    "publishDate": "2025-01-28 13:32:00"
   },
   {
     "address": "Campinas, Cidade Satélite Íris",
@@ -685,6 +756,23 @@
     "publishDate": "2025-01-15 22:27:00"
   },
   {
+    "address": "Campinas, Jardim Adhemar de Barros",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "22"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/48/481528481165474.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-comodos-1373940297",
+    "price": "100000",
+    "publishDate": "2025-01-28 14:10:00"
+  },
+  {
     "address": "Campinas, Terras do Friburgo",
     "description": [
       {
@@ -734,86 +822,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-salas-no-quintal-1371614930",
     "price": "100000",
     "publishDate": "2025-01-20 14:26:00"
-  },
-  {
-    "address": "Campinas, Jardim Florence",
-    "description": [
-      {
-        "floorSize": "90"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1364789810",
-    "price": "110000",
-    "publishDate": "2025-12-22 19:31:00"
-  },
-  {
-    "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/53/532562361227560.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-pra-vender-terreno-8-40x20-monte-cristo-br-1369657189",
-    "price": "130000",
-    "publishDate": "2025-01-13 15:39:00"
-  },
-  {
-    "address": "Campinas, Residencial Cittá di Salerno",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/71/717405596180877.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-escritura-1365131801",
-    "price": "140000",
-    "publishDate": "2025-12-24 13:26:00"
-  },
-  {
-    "address": "Campinas, Chácaras Campos Elíseos",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1360239811",
-    "price": "140000",
-    "publishDate": "2025-12-05 15:55:00"
-  },
-  {
-    "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfBathroomsTotal": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/74/746558485725258.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-venda-ou-troca-em-algo-que-me-enteressar-1372892044",
-    "price": "150000",
-    "publishDate": "2025-01-24 12:45:00"
   }
 ]
