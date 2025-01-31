@@ -20,7 +20,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-residencial-flavia-1369411165",
     "price": "260000",
-    "publishDate": "2025-01-27 15:05:00"
+    "publishDate": "2025-01-30 15:04:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -43,7 +43,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
-    "publishDate": "2025-01-26 19:14:00"
+    "publishDate": "2025-01-29 19:14:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
@@ -158,8 +158,8 @@
     "images": [
       "https://img.olx.com.br/thumbs500x360/59/596513720765691.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-a-venda-1373966680",
-    "price": "290",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-a-venda-itu-sp-1373966680",
+    "price": "280",
     "publishDate": "2025-01-28 15:39:00"
   },
   {
@@ -401,6 +401,16 @@
     "publishDate": "2025-01-15 17:56:00"
   },
   {
+    "address": "Campinas, Jardim Yeda",
+    "description": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/13/138533122966592.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/fiat-punto-attractive-1-4-flex-2012-1374660002",
+    "price": "32999",
+    "publishDate": "2025-01-30 18:34:00"
+  },
+  {
     "address": "Campinas, Jardim Nova Europa",
     "description": [
       {
@@ -534,6 +544,20 @@
     "publishDate": "2025-01-10 12:33:00"
   },
   {
+    "address": "Campinas, Cidade Satélite Íris",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/37/376566247221190.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-na-regiao-do-satelite-iris-1-proximo-a-pirreli-1374225797",
+    "price": "75000",
+    "publishDate": "2025-01-29 11:53:00"
+  },
+  {
     "address": "Campinas, Jardim Florence",
     "description": [
       {
@@ -642,6 +666,26 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-apartamento-1360314820",
     "price": "80000",
     "publishDate": "2025-12-05 21:06:00"
+  },
+  {
+    "address": "Campinas, Jardim São Judas Tadeu",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "180"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/40/406579849038726.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-sao-judas-tadeus-em-campinas-com-2-quartos-1374397600",
+    "price": "85000",
+    "publishDate": "2025-01-29 21:36:00"
   },
   {
     "address": "Campinas, Núcleo Residencial Princesa D'Oeste",
@@ -756,71 +800,17 @@
     "publishDate": "2025-01-15 22:27:00"
   },
   {
-    "address": "Campinas, Jardim Adhemar de Barros",
+    "address": "Campinas, Santa Clara",
     "description": [
       {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "22"
+        "floorSize": "200"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/48/481528481165474.jpg"
+      "https://img.olx.com.br/thumbs500x360/15/150505609261912.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-comodos-1373940297",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-tres-comodos-no-clube-santa-clara-do-lago-1374283327",
     "price": "100000",
-    "publishDate": "2025-01-28 14:10:00"
-  },
-  {
-    "address": "Campinas, Terras do Friburgo",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "126"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/98/988529124826822.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/linda-casa-recem-construida-em-bairro-novo-em-campinas-1369542062",
-    "price": "100000",
-    "publishDate": "2025-01-13 02:41:00"
-  },
-  {
-    "address": "Campinas, Jardim Andorinhas",
-    "description": [
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/62/624518843039739.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-area-da-prefeitura-jd-andorinhas-casa-unica-no-quintal-1366578421",
-    "price": "100000",
-    "publishDate": "2025-01-01 16:08:00"
-  },
-  {
-    "address": "Campinas, Vila Aero Aeroporto",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/82/824516120475846.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-salas-no-quintal-1371614930",
-    "price": "100000",
-    "publishDate": "2025-01-20 14:26:00"
+    "publishDate": "2025-01-29 15:16:00"
   }
 ]
