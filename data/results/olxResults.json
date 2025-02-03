@@ -34,7 +34,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-residencial-flavia-1369411165",
     "price": "260000",
-    "publishDate": "2025-01-30 15:04:00"
+    "publishDate": "2025-02-02 15:05:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -175,6 +175,26 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1374854502",
     "price": "300",
     "publishDate": "2025-01-31 13:44:00"
+  },
+  {
+    "address": "Campinas, Vila Costa e Silva",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "130"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/15/153571136837106.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vila-costa-e-silva-1375424130",
+    "price": "340",
+    "publishDate": "2025-02-02 20:19:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -551,6 +571,20 @@
     "publishDate": "2025-12-09 00:41:00"
   },
   {
+    "address": "Campinas, Conjunto Habitacional Parque Itajaí",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/96/969508375404473.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-70-mil-1375490691",
+    "price": "70000",
+    "publishDate": "2025-02-03 01:56:00"
+  },
+  {
     "address": "Campinas, Jardim Lisa",
     "description": [],
     "images": [
@@ -573,20 +607,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-na-regiao-do-satelite-iris-1-proximo-a-pirreli-1374225797",
     "price": "75000",
     "publishDate": "2025-01-29 11:53:00"
-  },
-  {
-    "address": "Campinas, Jardim Florence",
-    "description": [
-      {
-        "floorSize": "73"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/17/172558127802367.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jd-florence-1-valor-apenas-a-vista-75-000-zap-1370663551",
-    "price": "75000",
-    "publishDate": "2025-01-22 18:06:00"
   },
   {
     "address": "Campinas, Jardim Itaguaçu I",
@@ -801,25 +821,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-casas-no-terreno-1370451282",
     "price": "100000",
     "publishDate": "2025-01-15 22:27:00"
-  },
-  {
-    "address": "Campinas, Terras do Friburgo",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "126"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/98/988529124826822.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/linda-casa-recem-construida-em-bairro-novo-em-campinas-1369542062",
-    "price": "100000",
-    "publishDate": "2025-01-13 02:41:00"
   }
 ]
