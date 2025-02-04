@@ -11,7 +11,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-localizada-em-ms-630m-1374884072",
     "price": "230000",
-    "publishDate": "2025-01-31 15:23:00"
+    "publishDate": "2025-02-03 15:23:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Flavia",
@@ -534,23 +534,6 @@
     "publishDate": "2025-01-18 00:05:00"
   },
   {
-    "address": "Campinas, Parque Universal",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/82/827427832860735.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-para-venda-com-entrada-financio-o-resto-1359968663",
-    "price": "60000",
-    "publishDate": "2025-12-04 16:15:00"
-  },
-  {
     "address": "Campinas, Vila Proost de Souza",
     "description": [
       {
@@ -821,5 +804,19 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-casas-no-terreno-1370451282",
     "price": "100000",
     "publishDate": "2025-01-15 22:27:00"
+  },
+  {
+    "address": "Campinas, Santa Clara",
+    "description": [
+      {
+        "floorSize": "200"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/19/196555618720641.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-tres-comodos-no-clube-santa-clara-do-lago-1374283327",
+    "price": "100000",
+    "publishDate": "2025-01-29 15:16:00"
   }
 ]
