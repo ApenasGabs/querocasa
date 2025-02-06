@@ -34,7 +34,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-residencial-flavia-1369411165",
     "price": "260000",
-    "publishDate": "2025-02-02 15:05:00"
+    "publishDate": "2025-02-05 15:05:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -503,20 +503,6 @@
     "publishDate": "2025-01-29 00:27:00"
   },
   {
-    "address": "Campinas, Parque Valença II",
-    "description": [
-      {
-        "floorSize": "8"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/88/887522488186049.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-rua-tranquila-1371115625",
-    "price": "60000",
-    "publishDate": "2025-01-18 00:05:00"
-  },
-  {
     "address": "Campinas, Vila Proost de Souza",
     "description": [
       {
@@ -627,20 +613,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1365737864",
     "price": "80000",
     "publishDate": "2025-12-28 01:22:00"
-  },
-  {
-    "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
-    "description": [
-      {
-        "floorSize": "100"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/51/519440231908696.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1360596290",
-    "price": "80000",
-    "publishDate": "2025-12-06 19:48:00"
   },
   {
     "address": "Campinas, Jardim São Judas Tadeu",
@@ -782,7 +754,7 @@
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/19/196555618720641.jpg"
+      "https://img.olx.com.br/thumbs500x360/93/939594136964647.jpg"
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-tres-comodos-no-clube-santa-clara-do-lago-1374283327",
     "price": "100000",
@@ -821,5 +793,34 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-area-da-prefeitura-jd-andorinhas-casa-unica-no-quintal-1366578421",
     "price": "100000",
     "publishDate": "2025-01-01 16:08:00"
+  },
+  {
+    "address": "Campinas, Vila Aero Aeroporto",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/82/824516120475846.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-salas-no-quintal-1371614930",
+    "price": "100000",
+    "publishDate": "2025-01-20 14:26:00"
+  },
+  {
+    "address": "Campinas, Jardim Florence",
+    "description": [
+      {
+        "floorSize": "90"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1364789810",
+    "price": "110000",
+    "publishDate": "2025-12-22 19:31:00"
   }
 ]
