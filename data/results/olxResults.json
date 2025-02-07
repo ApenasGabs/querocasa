@@ -11,7 +11,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-localizada-em-ms-630m-1374884072",
     "price": "230000",
-    "publishDate": "2025-02-03 15:23:00"
+    "publishDate": "2025-02-06 15:23:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Flavia",
@@ -109,29 +109,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casas-populares-bairro-planejado-whatsapp-1369035569",
     "price": "264",
     "publishDate": "2025-01-16 20:27:00"
-  },
-  {
-    "address": "Campinas, Jardim Leonor",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "456"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/41/416560368889799.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-excelente-localizacao-1371213393",
-    "price": "270",
-    "publishDate": "2025-01-18 14:04:00"
   },
   {
     "address": "Campinas",
@@ -359,29 +336,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-club-santa-clara-campinas-1373655337",
     "price": "1500",
     "publishDate": "2025-01-27 15:04:00"
-  },
-  {
-    "address": "Campinas, Swiss Park",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "300"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      },
-      {
-        "numberOfBathroomsTotal": "5"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/53/536584369580462.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/aluguel-ou-venda-casa-sobrado-swiss-park-basel-1371152855",
-    "price": "8500",
-    "publishDate": "2025-01-18 04:15:00"
   },
   {
     "address": "Campinas, Cidade Singer",
@@ -822,5 +776,42 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1364789810",
     "price": "110000",
     "publishDate": "2025-12-22 19:31:00"
+  },
+  {
+    "address": "Campinas, Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu)",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "83"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/50/501594496451130.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-direto-com-o-proprietario-1375374905",
+    "price": "120000",
+    "publishDate": "2025-02-02 17:29:00"
+  },
+  {
+    "address": "Campinas, Parque Aeroporto",
+    "description": [
+      {
+        "floorSize": "140"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/92/925574731231498.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-aprox-140-mts-com-casa-2-comodos-1375210516",
+    "price": "120000",
+    "publishDate": "2025-02-01 18:59:00"
   }
 ]
