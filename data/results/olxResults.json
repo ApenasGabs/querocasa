@@ -57,7 +57,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
-    "publishDate": "2025-02-04 19:14:00"
+    "publishDate": "2025-02-07 19:14:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
@@ -457,26 +457,6 @@
     "publishDate": "2025-01-29 00:27:00"
   },
   {
-    "address": "Campinas, Vila Proost de Souza",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "85"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/31/317484715624043.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-de-madeira-muito-boa-so-a-casa-sem-terreno-1361072404",
-    "price": "65000",
-    "publishDate": "2025-12-09 00:41:00"
-  },
-  {
     "address": "Campinas, Conjunto Habitacional Parque Itajaí",
     "description": [
       {
@@ -813,5 +793,23 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-aprox-140-mts-com-casa-2-comodos-1375210516",
     "price": "120000",
     "publishDate": "2025-02-01 18:59:00"
+  },
+  {
+    "address": "Campinas, Parque Cidade Campinas",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "107"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-uma-casa-1376038964",
+    "price": "130000",
+    "publishDate": "2025-02-04 23:15:00"
   }
 ]
