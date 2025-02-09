@@ -34,7 +34,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-residencial-flavia-1369411165",
     "price": "260000",
-    "publishDate": "2025-02-05 15:05:00"
+    "publishDate": "2025-02-08 15:04:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -72,6 +72,16 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1369763356",
     "price": "180",
     "publishDate": "2025-01-13 21:03:00"
+  },
+  {
+    "address": "Campinas, Residencial Vila Park",
+    "description": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/43/436518733520432.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/pia-de-lavanderia-1377082316",
+    "price": "200",
+    "publishDate": "2025-02-08 14:35:00"
   },
   {
     "address": "Campinas, Jardim Roseira",
@@ -681,20 +691,6 @@
     "publishDate": "2025-01-15 22:27:00"
   },
   {
-    "address": "Campinas, Santa Clara",
-    "description": [
-      {
-        "floorSize": "200"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/93/939594136964647.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-tres-comodos-no-clube-santa-clara-do-lago-1374283327",
-    "price": "100000",
-    "publishDate": "2025-01-29 15:16:00"
-  },
-  {
     "address": "Campinas, Terras do Friburgo",
     "description": [
       {
@@ -778,6 +774,20 @@
     "publishDate": "2025-02-02 17:29:00"
   },
   {
+    "address": "Campinas, Santa Clara",
+    "description": [
+      {
+        "floorSize": "200"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/93/939594136964647.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-tres-comodos-no-clube-santa-clara-do-lago-1374283327",
+    "price": "120000",
+    "publishDate": "2025-01-29 15:16:00"
+  },
+  {
     "address": "Campinas, Parque Aeroporto",
     "description": [
       {
@@ -793,23 +803,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-aprox-140-mts-com-casa-2-comodos-1375210516",
     "price": "120000",
     "publishDate": "2025-02-01 18:59:00"
-  },
-  {
-    "address": "Campinas, Parque Cidade Campinas",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "107"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-uma-casa-1376038964",
-    "price": "130000",
-    "publishDate": "2025-02-04 23:15:00"
   }
 ]
