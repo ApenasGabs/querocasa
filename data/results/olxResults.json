@@ -3,6 +3,9 @@
     "address": "Campinas, Parque Dom Pedro II",
     "description": [
       {
+        "numberOfRooms": "2"
+      },
+      {
         "numberOfParkingSpaces": "5"
       }
     ],
@@ -11,7 +14,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-localizada-em-ms-630m-1374884072",
     "price": "230000",
-    "publishDate": "2025-02-06 15:23:00"
+    "publishDate": "2025-02-09 15:23:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Flavia",
