@@ -60,7 +60,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
-    "publishDate": "2025-02-07 19:14:00"
+    "publishDate": "2025-02-10 19:14:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
@@ -494,20 +494,6 @@
     "publishDate": "2025-01-10 12:33:00"
   },
   {
-    "address": "Campinas, Cidade Satélite Íris",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/37/376566247221190.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-na-regiao-do-satelite-iris-1-proximo-a-pirreli-1374225797",
-    "price": "75000",
-    "publishDate": "2025-01-29 11:53:00"
-  },
-  {
     "address": "Campinas, Jardim Itaguaçu I",
     "description": [
       {
@@ -752,7 +738,7 @@
       }
     ],
     "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1364789810",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-area-verde-1364789810",
     "price": "110000",
     "publishDate": "2025-12-22 19:31:00"
   },
@@ -806,5 +792,23 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-aprox-140-mts-com-casa-2-comodos-1375210516",
     "price": "120000",
     "publishDate": "2025-02-01 18:59:00"
+  },
+  {
+    "address": "Campinas, Parque Cidade Campinas",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "107"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-uma-casa-1376038964",
+    "price": "130000",
+    "publishDate": "2025-02-04 23:15:00"
   }
 ]
