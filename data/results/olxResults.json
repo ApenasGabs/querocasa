@@ -17,29 +17,6 @@
     "publishDate": "2025-02-09 15:23:00"
   },
   {
-    "address": "Campinas, Loteamento Residencial Flavia",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "125"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/97/978531242361323.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-residencial-flavia-1369411165",
-    "price": "260000",
-    "publishDate": "2025-02-08 15:04:00"
-  },
-  {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
     "description": [
       {
@@ -61,6 +38,26 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
     "publishDate": "2025-02-10 19:14:00"
+  },
+  {
+    "address": "Campinas, Loteamento Residencial Campina Verde",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "126"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/54/541431239759442.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
+    "price": "369900",
+    "publishDate": "2025-02-11 17:54:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
@@ -124,29 +121,6 @@
     "publishDate": "2025-01-16 20:27:00"
   },
   {
-    "address": "Campinas",
-    "description": [
-      {
-        "numberOfRooms": "5"
-      },
-      {
-        "floorSize": "160"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/59/596513720765691.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-a-venda-itu-sp-1373966680",
-    "price": "280",
-    "publishDate": "2025-01-28 15:39:00"
-  },
-  {
     "address": "Campinas, Jardim Campina Grande",
     "description": [
       {
@@ -195,26 +169,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/rack-em-madeira-macica-em-bom-estado-de-conservacao-1371194774",
     "price": "400",
     "publishDate": "2025-01-18 12:47:00"
-  },
-  {
-    "address": "Campinas, Jardim Florence",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "250"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/41/419427232595824.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-com-salao-comercial-em-campinas-jardim-florence-1-1362028556",
-    "price": "410",
-    "publishDate": "2025-12-12 12:09:00"
   },
   {
     "address": "Campinas, Jardim Eulina",
@@ -388,6 +342,23 @@
     "publishDate": "2025-01-21 20:57:00"
   },
   {
+    "address": "Campinas, Jardim Santa Mônica",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/45/454540722760238.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/villa-vic-sardenha-apartamentos-em-indaiatuba-1373173669",
+    "price": "28000",
+    "publishDate": "2025-01-25 09:58:00"
+  },
+  {
     "address": "Campinas, Residencial Parque da Fazenda",
     "description": [
       {
@@ -508,20 +479,6 @@
     "publishDate": "2025-12-23 12:28:00"
   },
   {
-    "address": "Campinas, Jardim Shangai",
-    "description": [
-      {
-        "floorSize": "87"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/21/217533607416969.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-propria-1365629079",
-    "price": "76000",
-    "publishDate": "2025-12-27 16:21:00"
-  },
-  {
     "address": "Campinas, Dic IV (Conjunto Habitacional Lech Walesa)",
     "description": [
       {
@@ -597,6 +554,20 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-de-2-quartos-sao-judas-tadeu-campinas-1368128807",
     "price": "85000",
     "publishDate": "2025-01-07 22:09:00"
+  },
+  {
+    "address": "Campinas, Jardim Shangai",
+    "description": [
+      {
+        "floorSize": "87"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/21/217533607416969.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-propria-1365629079",
+    "price": "88000",
+    "publishDate": "2025-12-27 16:21:00"
   },
   {
     "address": "Campinas, Cidade Satélite Íris",
@@ -810,5 +781,25 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-uma-casa-1376038964",
     "price": "130000",
     "publishDate": "2025-02-04 23:15:00"
+  },
+  {
+    "address": "Campinas, Jardim São Judas Tadeu",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "150"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/98/989529490164235.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terreno-5-por-30-1375381237",
+    "price": "130000",
+    "publishDate": "2025-02-02 18:05:00"
   }
 ]
