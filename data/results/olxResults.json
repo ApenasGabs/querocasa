@@ -14,7 +14,30 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-localizada-em-ms-630m-1374884072",
     "price": "230000",
-    "publishDate": "2025-02-09 15:23:00"
+    "publishDate": "2025-02-12 15:23:00"
+  },
+  {
+    "address": "Campinas, Jardim Nova Esperança",
+    "description": [
+      {
+        "numberOfRooms": "4"
+      },
+      {
+        "floorSize": "140"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/22/227315299191297.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-aceito-carro-apartamento-ou-terreno-1197685778",
+    "price": "280000",
+    "publishDate": "2025-02-10 13:33:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -58,20 +81,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
     "price": "369900",
     "publishDate": "2025-02-11 17:54:00"
-  },
-  {
-    "address": "Campinas, Loteamento Residencial Novo Mundo",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/66/665553249398221.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1369763356",
-    "price": "180",
-    "publishDate": "2025-01-13 21:03:00"
   },
   {
     "address": "Campinas, Residencial Vila Park",
@@ -427,6 +436,20 @@
     "publishDate": "2025-01-23 20:13:00"
   },
   {
+    "address": "Campinas, Jardim Fernanda - Continuação",
+    "description": [
+      {
+        "floorSize": "127"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/17/178539259559604.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-ja-com-construcao-1378077203",
+    "price": "50000",
+    "publishDate": "2025-02-12 15:08:00"
+  },
+  {
     "address": "Campinas, Jardim Alvorada",
     "description": [
       {
@@ -765,41 +788,23 @@
     "publishDate": "2025-02-01 18:59:00"
   },
   {
-    "address": "Campinas, Parque Cidade Campinas",
+    "address": "Campinas, Rosália",
     "description": [
       {
         "numberOfRooms": "2"
       },
       {
-        "floorSize": "107"
+        "floorSize": "150"
       },
       {
         "numberOfParkingSpaces": "3"
       }
     ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-uma-casa-1376038964",
-    "price": "130000",
-    "publishDate": "2025-02-04 23:15:00"
-  },
-  {
-    "address": "Campinas, Jardim São Judas Tadeu",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "150"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/98/989529490164235.jpg"
+      "https://img.olx.com.br/thumbs500x360/71/712535497663435.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terreno-5-por-30-1375381237",
-    "price": "130000",
-    "publishDate": "2025-02-02 18:05:00"
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-construcao-oportunidade-unica-leia-a-descricao-1378034580",
+    "price": "123900",
+    "publishDate": "2025-02-12 12:59:00"
   }
 ]
