@@ -1,5 +1,28 @@
 [
   {
+    "address": "Campinas, Conjunto Habitacional Vida Nova",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "130"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/72/726540134078896.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-quartos-2-banheiros-com-garagem-regiao-do-ouro-verde-1378461867",
+    "price": "179900",
+    "publishDate": "2025-02-13 12:47:00"
+  },
+  {
     "address": "Campinas, Parque Dom Pedro II",
     "description": [
       {
@@ -37,7 +60,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-aceito-carro-apartamento-ou-terreno-1197685778",
     "price": "280000",
-    "publishDate": "2025-02-10 13:33:00"
+    "publishDate": "2025-02-13 13:33:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
@@ -60,27 +83,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
-    "publishDate": "2025-02-10 19:14:00"
-  },
-  {
-    "address": "Campinas, Loteamento Residencial Campina Verde",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "126"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/54/541431239759442.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
-    "price": "369900",
-    "publishDate": "2025-02-11 17:54:00"
+    "publishDate": "2025-02-13 19:14:00"
   },
   {
     "address": "Campinas, Residencial Vila Park",
