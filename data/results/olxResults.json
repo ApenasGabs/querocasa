@@ -40,29 +40,6 @@
     "publishDate": "2025-02-12 15:23:00"
   },
   {
-    "address": "Campinas, Jardim Nova Esperança",
-    "description": [
-      {
-        "numberOfRooms": "4"
-      },
-      {
-        "floorSize": "140"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/22/227315299191297.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-aceito-carro-apartamento-ou-terreno-1197685778",
-    "price": "280000",
-    "publishDate": "2025-02-13 13:33:00"
-  },
-  {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
     "description": [
       {
@@ -84,6 +61,23 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
     "publishDate": "2025-02-13 19:14:00"
+  },
+  {
+    "address": "Campinas, Núcleo Residencial Cristo Redentor",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/78/782592613465783.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-santa-lucia-165-mil-venda-ou-troca-em-apartamento-1378929895",
+    "price": "165",
+    "publishDate": "2025-02-14 19:59:00"
   },
   {
     "address": "Campinas, Residencial Vila Park",
@@ -467,6 +461,20 @@
     "publishDate": "2025-01-29 00:27:00"
   },
   {
+    "address": "Campinas, Cidade Satélite Íris",
+    "description": [
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/77/773596135238920.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1378792373",
+    "price": "70000",
+    "publishDate": "2025-02-14 12:29:00"
+  },
+  {
     "address": "Campinas, Conjunto Habitacional Parque Itajaí",
     "description": [
       {
@@ -479,16 +487,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-70-mil-1375490691",
     "price": "70000",
     "publishDate": "2025-02-03 01:56:00"
-  },
-  {
-    "address": "Campinas, Jardim Lisa",
-    "description": [],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/39/394568489286572.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-no-jd-lisa-2-1368911859",
-    "price": "70000",
-    "publishDate": "2025-01-10 12:33:00"
   },
   {
     "address": "Campinas, Jardim Itaguaçu I",
@@ -594,6 +592,23 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-casa-propria-1365629079",
     "price": "88000",
     "publishDate": "2025-12-27 16:21:00"
+  },
+  {
+    "address": "Campinas, Jardim Novo Campos Elíseos",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "200"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/53/536548257138254.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-simples-1378834571",
+    "price": "90000",
+    "publishDate": "2025-02-14 14:16:00"
   },
   {
     "address": "Campinas, Cidade Satélite Íris",
@@ -789,25 +804,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-aprox-140-mts-com-casa-2-comodos-1375210516",
     "price": "120000",
     "publishDate": "2025-02-01 18:59:00"
-  },
-  {
-    "address": "Campinas, Rosália",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "150"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/71/712535497663435.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-construcao-oportunidade-unica-leia-a-descricao-1378034580",
-    "price": "123900",
-    "publishDate": "2025-02-12 12:59:00"
   }
 ]
