@@ -23,23 +23,6 @@
     "publishDate": "2025-02-13 12:47:00"
   },
   {
-    "address": "Campinas, Parque Dom Pedro II",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/81/812558728976467.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-localizada-em-ms-630m-1374884072",
-    "price": "230000",
-    "publishDate": "2025-02-12 15:23:00"
-  },
-  {
     "address": "Campinas, Conjunto Habitacional Padre Anchieta",
     "description": [
       {
@@ -61,6 +44,26 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-vl-pe-anchieta-1371689078",
     "price": "287000",
     "publishDate": "2025-02-13 19:14:00"
+  },
+  {
+    "address": "Campinas, Loteamento Residencial Campina Verde",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "126"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/54/541431239759442.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
+    "price": "369900",
+    "publishDate": "2025-02-14 17:54:00"
   },
   {
     "address": "Campinas, Núcleo Residencial Cristo Redentor",
@@ -461,6 +464,23 @@
     "publishDate": "2025-01-29 00:27:00"
   },
   {
+    "address": "Campinas, Jardim Santa Rosa",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "100"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/48/487544610914306.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-construcao-com-otimo-acabamento-1379153633",
+    "price": "60000",
+    "publishDate": "2025-02-15 18:32:00"
+  },
+  {
     "address": "Campinas, Cidade Satélite Íris",
     "description": [
       {
@@ -468,7 +488,7 @@
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/77/773596135238920.jpg"
+      "https://img.olx.com.br/thumbs500x360/74/743533371714850.jpg"
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1378792373",
     "price": "70000",
@@ -787,22 +807,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-tres-comodos-no-clube-santa-clara-do-lago-1374283327",
     "price": "120000",
     "publishDate": "2025-01-29 15:16:00"
-  },
-  {
-    "address": "Campinas, Parque Aeroporto",
-    "description": [
-      {
-        "floorSize": "140"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/92/925574731231498.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-aprox-140-mts-com-casa-2-comodos-1375210516",
-    "price": "120000",
-    "publishDate": "2025-02-01 18:59:00"
   }
 ]
