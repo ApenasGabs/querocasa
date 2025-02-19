@@ -8,7 +8,7 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/14e041a064906ffeff113d6fa86e3395.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1243158916f4b67c1fc5caa473d254cf.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-cidade-satelite-iris-campinas-68m2-id-2734636746/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-68m2-id-2734636746/",
     "price": "50000"
   },
   {
@@ -67,7 +67,7 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4a23d1a5831b3dc393de050f2a05055b.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4a3bba633fa2ca4bbdd9698d3ae44ee4.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-nogueira-campinas-275m2-id-2778152619/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-varanda-gourmet-vila-nogueira-campinas-275m2-id-2778152619/",
     "price": "90000"
   },
   {
@@ -151,18 +151,8 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9e28fead501386f81a033f02e1a28a75.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4b6077fad4bd91457424ea03525b4cbc.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-area-de-servico-jardim-capivari-campinas-100m2-id-2779964627/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-jardim-capivari-campinas-100m2-id-2779964627/",
     "price": "110000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6c915bec8c5138f2fda74ef9b0a58c04.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/25faa49f68f859c5fb14ab7bc6d35296.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/daad07d2ad6e04cbfc22cb2137894596.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-baronesa-campinas-154m2-id-2734328624/",
-    "price": "115000"
   },
   {
     "description": [],
@@ -174,6 +164,16 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c52c2a190a76844f91cce1cf47246740.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-nucleo-residencial-princesa-d-oeste-campinas-90m2-id-2779965219/",
+    "price": "115000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6c915bec8c5138f2fda74ef9b0a58c04.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/25faa49f68f859c5fb14ab7bc6d35296.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/daad07d2ad6e04cbfc22cb2137894596.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-baronesa-campinas-154m2-id-2734328624/",
     "price": "115000"
   },
   {
@@ -263,18 +263,6 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e1e5c2b7979d6cb35fcc6a6ef044c32f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0924895004f9fdad5c42a6a7dcea5ee7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/169aed6a3fd4638c9193ea16742024eb.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4cc53fbaa8568265fcc6966b118e3186.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/49f55eb99589f52a1aca8ba88fbf5200.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-santo-antonio-campinas-280m2-id-2647916105/",
-    "price": "140000"
-  },
-  {
-    "description": [],
-    "images": [
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/770c423e1e461871e24a7dff7a350bd3.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cf9e9e614602d881439a05da0674980c.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dd7bc58ca5645009d514c866b5c477c4.webp",
@@ -287,13 +275,25 @@
   {
     "description": [],
     "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e1e5c2b7979d6cb35fcc6a6ef044c32f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0924895004f9fdad5c42a6a7dcea5ee7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/169aed6a3fd4638c9193ea16742024eb.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4cc53fbaa8568265fcc6966b118e3186.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/49f55eb99589f52a1aca8ba88fbf5200.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-santo-antonio-campinas-280m2-id-2647916105/",
+    "price": "140000"
+  },
+  {
+    "description": [],
+    "images": [
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/becd1cf9e23e411eca5b20070379c08c.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/096b6e26c64ecc18a011ead00f6f05e4.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/491ace5440b957ca6c88deb4e3106139.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c897e282102191bdcdfcae31d12fea3e.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d4008cd897e89025e916d17b0cbac4ea.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-yeda-campinas-100m2-id-2779963751/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-jardim-yeda-campinas-100m2-id-2779963751/",
     "price": "145000"
   },
   {
@@ -303,6 +303,41 @@
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-habitacional-boa-vista-nova-aparecida-campinas-67m2-id-2769189789/",
     "price": "149625"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/39fb93b81bcafb05f3dbf1bfb31ae6af.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d2b26d38b63fad46fe0a4ca464ce23a1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4fadf5cf6f141d4d41cf586356f52d3b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e2a596349d6cfda41224e33f92219eb9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7697a6d71835d60a5c508547f07e96b.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-80m2-id-2779964628/",
+    "price": "150000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a2d6c983f601f8468c51360262d36b4d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/73bba22b1bfb86232e3a2ba145b1abd6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2e9fe889a4f55b0732de26acee5826e3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1e49841bc796c8fa2753181e67f71284.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3292eb8452a5831fbf53de6d51afeb7d.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-santa-lucia-campinas-100m2-id-2770963317/",
+    "price": "150000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a30b263d39867ac4a934a13a5e86d962.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6e80439726a5acfd7189670a765980f8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9f601c3c8cb0713864009e4e6f43d8c7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/33e1c4e7ab87170e08c2cfc71983d57f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b92398ddbc3bff36894d3d28cf924fde.webp"
+    ],
+    "price": "150000"
   },
   {
     "description": [],
@@ -330,30 +365,6 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a2d6c983f601f8468c51360262d36b4d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/73bba22b1bfb86232e3a2ba145b1abd6.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2e9fe889a4f55b0732de26acee5826e3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1e49841bc796c8fa2753181e67f71284.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3292eb8452a5831fbf53de6d51afeb7d.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-santa-lucia-campinas-100m2-id-2770963317/",
-    "price": "150000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/39fb93b81bcafb05f3dbf1bfb31ae6af.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d2b26d38b63fad46fe0a4ca464ce23a1.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4fadf5cf6f141d4d41cf586356f52d3b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e2a596349d6cfda41224e33f92219eb9.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7697a6d71835d60a5c508547f07e96b.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-80m2-id-2779964628/",
-    "price": "150000"
-  },
-  {
-    "description": [],
-    "images": [
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8a34fe02ceca3369bb88b7d5aa5e0aee.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6c5ed1247bf688eabda48fac11990d84.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/772fc9bc310ff939cde34c4d25ab26ec.webp",
@@ -361,17 +372,6 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7d2f44f7380d05886dbd2ea5eb4ea255.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-80m2-id-2779965019/",
-    "price": "150000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a30b263d39867ac4a934a13a5e86d962.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6e80439726a5acfd7189670a765980f8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9f601c3c8cb0713864009e4e6f43d8c7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/33e1c4e7ab87170e08c2cfc71983d57f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b92398ddbc3bff36894d3d28cf924fde.webp"
-    ],
     "price": "150000"
   },
   {
@@ -437,12 +437,13 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b0d516ea84d5f050d09c86793338f16.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/051af29165b53a0b4b6ff4b5866698ef.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8534498958079daacd734f049f13dced.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9991cef659b8d33295380537b69ffcdd.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f719f59e82e0384e8cc34a5858bade1e.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ccd7bd09a313a97d2f1eb491f38cb014.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5374735dd1745f49027c9cce6dc8d8db.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bcb022f61e0d32f3864358e057e05c49.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ff7e2482539ac8de63322b362f57fab5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4c2dd916c43be4ebb915c7a3099b3867.webp"
     ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-santo-antonio-campinas-125m2-id-2597835559/",
     "price": "160000"
   },
   {
@@ -460,37 +461,36 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ccd7bd09a313a97d2f1eb491f38cb014.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5374735dd1745f49027c9cce6dc8d8db.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bcb022f61e0d32f3864358e057e05c49.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ff7e2482539ac8de63322b362f57fab5.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4c2dd916c43be4ebb915c7a3099b3867.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b0d516ea84d5f050d09c86793338f16.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/051af29165b53a0b4b6ff4b5866698ef.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8534498958079daacd734f049f13dced.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9991cef659b8d33295380537b69ffcdd.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f719f59e82e0384e8cc34a5858bade1e.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-santo-antonio-campinas-125m2-id-2597835559/",
     "price": "160000"
   },
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c86fa92807ba2cbd08728627e9ec99d2.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/281467a20993731e0b40aadeecab63c6.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0a9feb97ce9b1f45c1dad50e3d5bd450.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/df87d9c887232e1eb4d8268e45bf4e1e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fa7d37ea88ad59f78e6d0943c3d6c815.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/aa7bd6984805aed8c9e5b343b513d9b5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/995ca168af5a3611bdf34665a08afbb3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3f0ebcd588dac4677e817b0e1e8c1965.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/72045d1ecb7b8308d5445fa8b7ad6d60.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/97ba410cb3be324a078c2760353d04c6.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-universitario-de-viracopos-campinas-75m2-id-2774686842/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-140m2-id-2779964920/",
     "price": "160000"
   },
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4bc2f178cf056c9871f0b75d01777c8d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a995581afdf8b78f1d1295a966b7f3e6.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c4e36fba01953e2f5b269f8485b0b781.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e3138a59c71a497d0d4db9c5e74ba96.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f77f1a8382a34269e15fc85f5742c17e.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f01880709e3c213ceb789d7176355680.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8330fc9d14e567f3ba43f8543b08c53a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3f78aec5f251841113357f9a02954b08.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/26478552f150ae9fc3de7e633c21d171.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a836ad515b15365dad80b84ab4d9a17f.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-nucleo-residencial-vila-vitoria-campinas-130m2-id-2770896013/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-tv-a-cabo-jardim-sao-pedro-de-viracopos-campinas-120m2-id-2779963746/",
     "price": "160000"
   },
   {
@@ -508,13 +508,13 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d7f9278136057bece3f93d3e07b647cf.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/816632b8fc2cd3896f2fa66722bd25eb.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4f39d0384c133b50e73dd076fd833637.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/043c1be9714ed12a4adb24158dbb5967.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b65dc0fb06827967f1c728b6b07aebc6.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4bc2f178cf056c9871f0b75d01777c8d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a995581afdf8b78f1d1295a966b7f3e6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c4e36fba01953e2f5b269f8485b0b781.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e3138a59c71a497d0d4db9c5e74ba96.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f77f1a8382a34269e15fc85f5742c17e.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-irmaos-sigrist-campinas-90m2-id-2745043295/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-nucleo-residencial-vila-vitoria-campinas-130m2-id-2770896013/",
     "price": "160000"
   },
   {
@@ -532,13 +532,25 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/aa7bd6984805aed8c9e5b343b513d9b5.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/995ca168af5a3611bdf34665a08afbb3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3f0ebcd588dac4677e817b0e1e8c1965.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/72045d1ecb7b8308d5445fa8b7ad6d60.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/97ba410cb3be324a078c2760353d04c6.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d7f9278136057bece3f93d3e07b647cf.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/816632b8fc2cd3896f2fa66722bd25eb.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4f39d0384c133b50e73dd076fd833637.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/043c1be9714ed12a4adb24158dbb5967.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b65dc0fb06827967f1c728b6b07aebc6.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-140m2-id-2779964920/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-jardim-irmaos-sigrist-campinas-90m2-id-2745043295/",
+    "price": "160000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c86fa92807ba2cbd08728627e9ec99d2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/281467a20993731e0b40aadeecab63c6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0a9feb97ce9b1f45c1dad50e3d5bd450.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/df87d9c887232e1eb4d8268e45bf4e1e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fa7d37ea88ad59f78e6d0943c3d6c815.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-parque-universitario-de-viracopos-campinas-75m2-id-2774686842/",
     "price": "160000"
   },
   {
@@ -580,6 +592,30 @@
   {
     "description": [],
     "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4d8fb6558a52a5f93b745de71de36b2d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8b83ef29f27c645294ad33d18c349943.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fb7abbdb1d539bfe5b793b91e2ded8b4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fa3c13f6761f447d17f269a4b01dfc97.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0dde6439e215d656549dabc03600f78a.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-chico-amaral-campinas-50m2-id-2611604372/",
+    "price": "168000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6f0f666a640dcbcdff11e50e631ad541.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c57b32f96995daed8e27aa76cf2d62bd.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f649f5ef9f8e88cd34cbfbb26e704cd3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b172433cfbed2a97a2da0ec0a1dabb9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6edc775ab9903fdb5095e04703cba597.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-70m2-id-2581977636/",
+    "price": "170000"
+  },
+  {
+    "description": [],
+    "images": [
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8644d743061685012b9df93817a050c0.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e738c1df0ddf7c1c68a3bf7026e437be.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c157d376792627e210f75d20885dcb27.webp",
@@ -592,13 +628,25 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6f0f666a640dcbcdff11e50e631ad541.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c57b32f96995daed8e27aa76cf2d62bd.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f649f5ef9f8e88cd34cbfbb26e704cd3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b172433cfbed2a97a2da0ec0a1dabb9.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6edc775ab9903fdb5095e04703cba597.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9447ec0347782cf87517164072b1af92.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/04dd0b12623c48ad235aa64e3d1fa84c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7575505fc880ffa2fe7f45b9581c11a4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5ae52b810ac5dad62ff2d7a41f5f678a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/38ed2873ff8848073685e5910734a0f8.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-70m2-id-2581977636/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-137m2-id-2564250188/",
+    "price": "170000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/63af02d18f0e74959ee7aa44dfbd8e6e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bca9c1b36b7bdbae30b12930e928bfd7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f7a846bf2f2aafa88c52923bfaf07e07.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5ed71f5fca4e41c152471eeb587f0b77.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6892b7797af5ad703d25a1de12c0905f.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-dic-v-conjunto-habitacional-chico-mendes-campinas-178m2-id-2755023608/",
     "price": "170000"
   },
   {
@@ -628,25 +676,13 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/63af02d18f0e74959ee7aa44dfbd8e6e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bca9c1b36b7bdbae30b12930e928bfd7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f7a846bf2f2aafa88c52923bfaf07e07.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5ed71f5fca4e41c152471eeb587f0b77.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6892b7797af5ad703d25a1de12c0905f.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-dic-v-conjunto-habitacional-chico-mendes-campinas-178m2-id-2755023608/",
-    "price": "170000"
-  },
-  {
-    "description": [],
-    "images": [
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6492b2fb2acd63b8da6506dbaac037d9.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c36e3a677711e6e04d9063366fae1811.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7fb4b5c38771ae42c152921fb2ebbe62.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/83d3a92c828dbc2cad00a4eaa10e1cb8.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8685bd86fd2b3b0b5881be89145c3eef.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-loteamento-residencial-novo-mundo-campinas-75m2-id-2518390421/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-area-de-servico-loteamento-residencial-novo-mundo-campinas-75m2-id-2518390421/",
     "price": "170000"
   },
   {
@@ -684,6 +720,18 @@
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-infraestrutura-internet-residencial-sao-jose-campinas-150m2-id-2673065526/",
     "price": "178000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5bbb4c39eb49dcd5e36c04b6c6f42648.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ee721396dfaafa8992e96c4fa965490c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/113da5727753361aebe19bb0c8f8fa04.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bee26a66f62e9e31d9f8b208a2219862.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/42fc275f56258d4d07bd9116666f6f83.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-lavanderia-coletiva-nucleo-residencial-vila-vitoria-campinas-70m2-id-2760178318/",
+    "price": "180000"
   },
   {
     "description": [],
@@ -736,49 +784,37 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bc2660b651a5fc109e89562dc97dcd3d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d8739957f514257e423a15a7b71e0681.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d0fd513cfde992f0f11830193af034db.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/722f0abe8a1347d8e68931f988790a06.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/169cb91ad96a0e8f2cb23731e9c1c860.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-159m2-id-2542403264/",
-    "price": "180000"
-  },
-  {
-    "description": [],
-    "images": [
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e19c4545bfd058bdae067df5d087cd72.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d50ce9b9f533d9d64c748985d3c7f58a.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/800fc28fb2f274e64a32287537ace3a0.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/eaa78fdfc425d6651b2322d827b8ee9d.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/161fa0dc2e61916155049d78ebff8c13.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-parque-da-floresta-campinas-75m2-id-2712352017/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-parque-da-floresta-campinas-75m2-id-2712352017/",
     "price": "180000"
   },
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cef0352879af8d193b45a1c6704c7767.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/19131f79d879d50201ba4d9a0c45c266.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ee718af0bb365f03dd0d419c3b8edd92.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7ea0984b2cdd00fbfe57390c5f381b58.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8df694b2658da98ded84b2c512679d80.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c7d41b25c54788429e367f29ddfc8460.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c820ad160257fedd99596be3a9129d9c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9381e130c963c59aa24d57463a5546dd.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/edef9e25dfca727caacfe218370e68d2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7fb6b50df5092d698254be546e2dfa68.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-habitacional-boa-vista-nova-aparecida-campinas-100m2-id-2639404636/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-vila-aeroporto-campinas-120m2-id-2779964723/",
     "price": "180000"
   },
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4d8fb6558a52a5f93b745de71de36b2d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8b83ef29f27c645294ad33d18c349943.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fb7abbdb1d539bfe5b793b91e2ded8b4.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fa3c13f6761f447d17f269a4b01dfc97.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0dde6439e215d656549dabc03600f78a.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/59ec64043cfaf9460b8705f78eab7744.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1d985be0a76635252f1340326cf7fbd5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cc194b255a6edf797756c1dfed92fae3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/09b3cd6f9a5872e20ca76ccd9e7ca724.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0f95ad99b2e942276c26591358438385.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-chico-amaral-campinas-50m2-id-2611604372/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-uruguai-campinas-126m2-id-2755021242/",
     "price": "180000"
   },
   {
@@ -808,37 +844,13 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/59ec64043cfaf9460b8705f78eab7744.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1d985be0a76635252f1340326cf7fbd5.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cc194b255a6edf797756c1dfed92fae3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/09b3cd6f9a5872e20ca76ccd9e7ca724.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0f95ad99b2e942276c26591358438385.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cef0352879af8d193b45a1c6704c7767.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/19131f79d879d50201ba4d9a0c45c266.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ee718af0bb365f03dd0d419c3b8edd92.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7ea0984b2cdd00fbfe57390c5f381b58.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8df694b2658da98ded84b2c512679d80.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-jardim-uruguai-campinas-126m2-id-2755021242/",
-    "price": "180000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5c716e013520328f7c0b9090032eed54.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f79daf06f88743b2890b40e436b46654.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7d32b82ece703ad3365713c89cf495d7.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/934efa986529789df381d94dd84f6ce3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/84f31d9a049736ce49810ee071410561.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-vida-nova-campinas-75m2-id-2542405099/",
-    "price": "180000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c7d41b25c54788429e367f29ddfc8460.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c820ad160257fedd99596be3a9129d9c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9381e130c963c59aa24d57463a5546dd.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/edef9e25dfca727caacfe218370e68d2.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7fb6b50df5092d698254be546e2dfa68.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-vila-aeroporto-campinas-120m2-id-2779964723/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-habitacional-boa-vista-nova-aparecida-campinas-100m2-id-2639404636/",
     "price": "180000"
   },
   {
@@ -891,18 +903,6 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/77281dd87384a3b51d185142645bb636.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7241f0ee4cf276e08bf7b983672c81d8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/22986133fd0be0eb24e639407516e7ce.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/632ec055fa10c77fe8f02df88b783285.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c0ed8fa283a1344ed6622a83894f0aa.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-eldorado-dos-carajas-campinas-184m2-id-2753791906/",
-    "price": "190000"
-  },
-  {
-    "description": [],
-    "images": [
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/78f7f08d554e138e63b35c13c117be0c.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3fe6c41aa8d385b44e4eb1b248e7719b.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c8dc7d976f760e2e27cc71d486f3ed5e.webp",
@@ -927,61 +927,13 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/80d0f705dacfd4855ddbca7aef89eff4.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bd18c120d3d497138c81871d29f543f0.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9ba36f4d23b252c2b81164a46e990868.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/150aa92146834883e85fe41db6555a31.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0daec61842dbc196eaf31655a323ab39.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/77281dd87384a3b51d185142645bb636.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7241f0ee4cf276e08bf7b983672c81d8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/22986133fd0be0eb24e639407516e7ce.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/632ec055fa10c77fe8f02df88b783285.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c0ed8fa283a1344ed6622a83894f0aa.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-conjunto-habitacional-vida-nova-campinas-100m2-id-2736579680/",
-    "price": "190000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ab6a369e11d1b6d545282fce93f2daf3.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3471094e1751664b511a4cb1995776ff.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a63e85ad426bc2097e8a8079e26d3a25.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e7121d6e8c05a80fe14808580107d4f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/be3f0cd5ad8972d24e9c6522b6f447df.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-45m2-id-2711856605/",
-    "price": "190000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e786b76c90149eed443aa64990340ed2.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c998ab221abe8af22081a030bb159189.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/757a67f5e467c1491378f429a4b3044d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7b569e3da44d99e15bc5fa4ed6477d1.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/02334905ebd9c614ba7fab230678281e.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-150m2-id-2714163227/",
-    "price": "190000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/410372868d7514d61ca034f79527f58c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9d25b61162e7146d987aef9e731b0aa9.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/73346c0c6f014c9b21eed410e66fcc32.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f339b9b78e6282f6d0de852278c48058.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5915175fb72f3507ef8f7e1d14ec470e.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-lunardi-campinas-80m2-id-2701427506/",
-    "price": "190000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/15c7680762cf122e439eb5e36b7c2d35.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/59145119efee139c29bb3416fb65ddd9.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a2bb893afbffd13820fd6f47b17eea85.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/49a8e825bdbc3b483c0e4ccdb1382388.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dc1528a8a0b35d4642a0a1b9b3104d3d.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-residencial-vila-vitoria-campinas-180m2-id-2755023606/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-eldorado-dos-carajas-campinas-184m2-id-2753791906/",
     "price": "190000"
   },
   {
@@ -999,11 +951,71 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f7983c42b46319ec23466b37eafb8c3a.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/08256d367f0b904eee34b8cc0f918edd.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c26540bb115cfeb3727f07e063859c29.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1baf437215001e710389f651acff2b62.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a2b6c64a9366ef5a20ca961ae224c4e0.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e786b76c90149eed443aa64990340ed2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c998ab221abe8af22081a030bb159189.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/757a67f5e467c1491378f429a4b3044d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7b569e3da44d99e15bc5fa4ed6477d1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/02334905ebd9c614ba7fab230678281e.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-cozinha-cidade-satelite-iris-campinas-150m2-id-2714163227/",
+    "price": "190000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ab6a369e11d1b6d545282fce93f2daf3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3471094e1751664b511a4cb1995776ff.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a63e85ad426bc2097e8a8079e26d3a25.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0e7121d6e8c05a80fe14808580107d4f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/be3f0cd5ad8972d24e9c6522b6f447df.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-45m2-id-2711856605/",
+    "price": "190000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/15c7680762cf122e439eb5e36b7c2d35.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/59145119efee139c29bb3416fb65ddd9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a2bb893afbffd13820fd6f47b17eea85.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/49a8e825bdbc3b483c0e4ccdb1382388.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dc1528a8a0b35d4642a0a1b9b3104d3d.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-nucleo-residencial-vila-vitoria-campinas-180m2-id-2755023606/",
+    "price": "190000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/80d0f705dacfd4855ddbca7aef89eff4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bd18c120d3d497138c81871d29f543f0.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9ba36f4d23b252c2b81164a46e990868.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/150aa92146834883e85fe41db6555a31.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0daec61842dbc196eaf31655a323ab39.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-area-de-servico-conjunto-habitacional-vida-nova-campinas-100m2-id-2736579680/",
+    "price": "190000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/410372868d7514d61ca034f79527f58c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9d25b61162e7146d987aef9e731b0aa9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/73346c0c6f014c9b21eed410e66fcc32.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f339b9b78e6282f6d0de852278c48058.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5915175fb72f3507ef8f7e1d14ec470e.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-lunardi-campinas-80m2-id-2701427506/",
+    "price": "190000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2bac3c031112088fb4110795b3126d88.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ec2df67f91900c78e293dde3c074fe3b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d7f6c51866b5d8c3f821307e4c724e1c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f96e5ce33b801798f2409d32c97f6818.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9a6d351cbd56a198b59b9ddc88f988d0.webp"
     ],
     "price": "191000"
   },
@@ -1016,19 +1028,7 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7897ba959646827761764c0e51dc46e2.webp",
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/497ea060c66eb930fb36a532379f9761.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-vida-nova-campinas-147m2-id-2723043063/",
-    "price": "191000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/95e095eb43dbfc0c70c70f2cb1a8ce1b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/334df41d386c81b9e8efde9f1da6d6c6.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c47c17cd94daefb49a45ec3873630201.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e958d61e6226d3ee25de8c5d5cc53436.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0a4d7fb0087b9ffa9e1d73fc5f5c2750.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-130m2-id-2769935621/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-sala-de-jantar-conjunto-habitacional-vida-nova-campinas-147m2-id-2723043063/",
     "price": "191000"
   },
   {
@@ -1041,6 +1041,18 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3b578df937645c53375c317675dc9dde.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-residencial-sao-luis-campinas-200m2-id-2714130658/",
+    "price": "191000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/95e095eb43dbfc0c70c70f2cb1a8ce1b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/334df41d386c81b9e8efde9f1da6d6c6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c47c17cd94daefb49a45ec3873630201.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e958d61e6226d3ee25de8c5d5cc53436.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0a4d7fb0087b9ffa9e1d73fc5f5c2750.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-130m2-id-2769935621/",
     "price": "191000"
   },
   {
@@ -1105,26 +1117,12 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4f7cd1030aa928b29d1e9e6695c8320d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f432c88d46a6bf7d22f63ea008a5f78d.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/017f8cd2369ac1be7a4e2e40b56e8735.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f960843bcb2bc619f064c3b3b6de639b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5766bd15eae700192e8ee1255eea4853.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c0d72a550377de22cab7e96b5acaedf9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f24a0649f791c48c2861a6cc0b3a3a7e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8dfaa7a2cdc17ba0bb840f268d149f91.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-botafogo-campinas-40m2-id-2779067868/",
-    "price": "198420"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fb68176222b3792ddb850d6b1c1e8eed.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5c56ab7ab66d30689f0d4e14dc00aac0.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7edfde5ffddba5802545921aa8bf83b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c9e65da3014fbab03d52c53fa2f0178b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f1be8e3d32980136162db97446999aa3.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-vida-nova-campinas-100m2-id-2550966186/",
-    "price": "199000"
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-varanda-gourmet-parque-valenca-i-campinas-250m2-id-2733785744/",
+    "price": "199990"
   },
   {
     "description": [],
@@ -1141,12 +1139,25 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c0d72a550377de22cab7e96b5acaedf9.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f24a0649f791c48c2861a6cc0b3a3a7e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8dfaa7a2cdc17ba0bb840f268d149f91.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8fefe5c0bb1f8f899726e06276c1b321.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c8a21a3b6aefdbf8985d7e744363398d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b863c21dfba3b2639555996ebb90151.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a16d868b59fe67d3d90fc465b9bcea6b.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-parque-valenca-i-campinas-250m2-id-2733785744/",
-    "price": "199990"
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-ouro-preto-campinas-175m2-id-2755023319/",
+    "price": "200000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/148a47a67a9994681cf87dec66111314.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2d65312125e44aa6a7e31db395fdbb0b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/594cb8177d03b3e3f056896140a82b20.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/39c26d7639426bbdef678f10348143e8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a43e735557ab5c13515ac2919cb77765.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-nucleo-residencial-vila-vitoria-campinas-170m2-id-2774847648/",
+    "price": "200000"
   },
   {
     "description": [],
@@ -1158,42 +1169,6 @@
       "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ee45ff9ee09a5ab54164366305190ed5.webp"
     ],
     "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-habitacional-parque-itajai-campinas-60m2-id-2711855806/",
-    "price": "200000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e14e4d128e9d2c7c3d84a543d03bced8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1af5db49a90f12a096bd67a0f2ce6616.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/440237c01f4803057271010dc800015a.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/00a5280e55f6a078a6b4131967f7ebb0.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c1dcfb50c82d9e654ea7c319adf1c72.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-75m2-id-2745027313/",
-    "price": "200000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b43e9ca996f85aaf8e1a7d1dc0341b3c.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/77c85a1fbe79159a0f8334109860b0d8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d8cf56a4a604771745cb66df4e2ceb6f.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d7a45a026d645d5e09396b6badfef872.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7b1c9933119781fe894e68a009658b51.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-area-de-servico-conjunto-habitacional-vida-nova-campinas-200m2-id-2746556196/",
-    "price": "200000"
-  },
-  {
-    "description": [],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/259e5effd382ef63cac0002e128e7871.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8cb78214ca82e0c71c5a245d57ad5344.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f226f6fcf88de0f50a80d52dcdd2a7f4.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/22ae16b718c375e364a2edde2822c55e.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/13bf3d55fcf1dd79aeb2392d096b73dc.webp"
-    ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-parque-cidade-campinas-campinas-50m2-id-2624600774/",
     "price": "200000"
   },
   {
@@ -1211,13 +1186,61 @@
   {
     "description": [],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/148a47a67a9994681cf87dec66111314.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2d65312125e44aa6a7e31db395fdbb0b.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/594cb8177d03b3e3f056896140a82b20.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/39c26d7639426bbdef678f10348143e8.webp",
-      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a43e735557ab5c13515ac2919cb77765.webp"
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/259e5effd382ef63cac0002e128e7871.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8cb78214ca82e0c71c5a245d57ad5344.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f226f6fcf88de0f50a80d52dcdd2a7f4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/22ae16b718c375e364a2edde2822c55e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/13bf3d55fcf1dd79aeb2392d096b73dc.webp"
     ],
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-nucleo-residencial-vila-vitoria-campinas-170m2-id-2774847648/",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-parque-cidade-campinas-campinas-50m2-id-2624600774/",
+    "price": "200000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b43e9ca996f85aaf8e1a7d1dc0341b3c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/77c85a1fbe79159a0f8334109860b0d8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d8cf56a4a604771745cb66df4e2ceb6f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d7a45a026d645d5e09396b6badfef872.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7b1c9933119781fe894e68a009658b51.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-area-de-servico-conjunto-habitacional-vida-nova-campinas-200m2-id-2746556196/",
+    "price": "200000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e14e4d128e9d2c7c3d84a543d03bced8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1af5db49a90f12a096bd67a0f2ce6616.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/440237c01f4803057271010dc800015a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/00a5280e55f6a078a6b4131967f7ebb0.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c1dcfb50c82d9e654ea7c319adf1c72.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-75m2-id-2745027313/",
+    "price": "200000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/57db62ac1e0b177c36d11f3ec36494ad.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/995dec003c2ff3c63ed63809266605dd.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7665b79687e572b73b41b1619238dec6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/03a08243bbd7f38ad455cc1d7f5180b7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/624f5e6ab4a1afe978a806df1442f4bb.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-vila-aeroporto-iii-campinas-113m2-id-2632602467/",
+    "price": "200000"
+  },
+  {
+    "description": [],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b30558b2ca2b11dd6fac92fcb41191b7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1422854a65eb78e6ac210b650bd2f608.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/077298f368d337127f082b54a856cf1f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dc239e0ff37e2ca9e6285eb91f26d627.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/52a04f2144137fb07ee02e21522c728c.webp"
+    ],
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-conjunto-habitacional-parque-da-floresta-campinas-120m2-id-2503543620/",
     "price": "200000"
   }
 ]

@@ -206,6 +206,16 @@
     "publishDate": "2025-01-18 12:47:00"
   },
   {
+    "address": "Campinas, Cidade Satélite Íris",
+    "description": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/55/555537614954160.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/promocao-escada-de-ferro-para-acesso-500-00-1379805948",
+    "price": "500",
+    "publishDate": "2025-02-18 12:53:00"
+  },
+  {
     "address": "Campinas, Jardim Eulina",
     "description": [
       {
@@ -807,19 +817,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/linda-casa-recem-construida-em-bairro-novo-em-campinas-1369542062",
     "price": "100000",
     "publishDate": "2025-01-13 02:41:00"
-  },
-  {
-    "address": "Campinas, Jardim Andorinhas",
-    "description": [
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/62/624518843039739.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-area-da-prefeitura-jd-andorinhas-casa-unica-no-quintal-1366578421",
-    "price": "100000",
-    "publishDate": "2025-01-01 16:08:00"
   }
 ]
