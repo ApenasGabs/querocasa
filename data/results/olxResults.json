@@ -63,7 +63,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
     "price": "369900",
-    "publishDate": "2025-02-17 17:54:00"
+    "publishDate": "2025-02-20 17:54:00"
   },
   {
     "address": "Campinas, Parque Ipiranga",
@@ -234,23 +234,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-4-quartos-mais-edicula-jardim-eulina-1374001381",
     "price": "550",
     "publishDate": "2025-01-28 17:34:00"
-  },
-  {
-    "address": "Campinas, Vila Lemos",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/99/996435719546107.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-garagem-em-otima-localizacao-1364526978",
-    "price": "550",
-    "publishDate": "2025-12-21 11:03:00"
   },
   {
     "address": "Campinas, Vila Industrial",
@@ -811,5 +794,17 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-salas-no-quintal-1371614930",
     "price": "100000",
     "publishDate": "2025-01-20 14:26:00"
+  },
+  {
+    "address": "Campinas, Jardim Florence",
+    "description": [
+      {
+        "floorSize": "90"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-area-verde-1364789810",
+    "price": "110000",
+    "publishDate": "2025-12-22 19:31:00"
   }
 ]
