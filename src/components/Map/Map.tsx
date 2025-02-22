@@ -89,11 +89,16 @@ const Map: React.FC<MapProps> = ({
 
   useEffect(() => {
     const grouped = properties.reduce((acc, property) => {
-      const key = `${property.coords.lat}-${property.coords.lon}`;
-      if (!acc[key]) {
-        acc[key] = [];
+      if (
+        property.coords?.lat !== undefined &&
+        property.coords?.lon !== undefined
+      ) {
+        const key = `${property.coords.lat}-${property.coords.lon}`;
+        if (!acc[key]) {
+          acc[key] = [];
+        }
+        acc[key].push(property);
       }
-      acc[key].push(property);
       return acc;
     }, {} as { [key: string]: Property[] });
 
