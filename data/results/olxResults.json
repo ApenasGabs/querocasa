@@ -86,7 +86,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-condominio-parque-ipiranga-1373296995",
     "price": "484000",
-    "publishDate": "2025-02-18 20:20:00"
+    "publishDate": "2025-02-21 20:20:00"
   },
   {
     "address": "Campinas, Núcleo Residencial Cristo Redentor",
@@ -104,6 +104,26 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-santa-lucia-165-mil-venda-ou-troca-em-apartamento-1378929895",
     "price": "165",
     "publishDate": "2025-02-14 19:59:00"
+  },
+  {
+    "address": "Campinas, Santa Clara",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "200"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/46/465584133738452.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-2-quartos-2-banheiro-aceito-troca-em-outra-casa-1380874735",
+    "price": "190",
+    "publishDate": "2025-02-21 22:14:00"
   },
   {
     "address": "Campinas, Residencial Vila Park",
@@ -610,6 +630,20 @@
     "publishDate": "2025-12-27 16:21:00"
   },
   {
+    "address": "Campinas, Jardim Shangai",
+    "description": [
+      {
+        "floorSize": "67"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/45/458509610828413.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-1380894025",
+    "price": "90000",
+    "publishDate": "2025-02-22 00:13:00"
+  },
+  {
     "address": "Campinas, Jardim Novo Campos Elíseos",
     "description": [
       {
@@ -777,34 +811,5 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-area-da-prefeitura-jd-andorinhas-casa-unica-no-quintal-1366578421",
     "price": "100000",
     "publishDate": "2025-01-01 16:08:00"
-  },
-  {
-    "address": "Campinas, Vila Aero Aeroporto",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/82/824516120475846.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-salas-no-quintal-1371614930",
-    "price": "100000",
-    "publishDate": "2025-01-20 14:26:00"
-  },
-  {
-    "address": "Campinas, Jardim Florence",
-    "description": [
-      {
-        "floorSize": "90"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-area-verde-1364789810",
-    "price": "110000",
-    "publishDate": "2025-12-22 19:31:00"
   }
 ]
