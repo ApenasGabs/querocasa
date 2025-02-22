@@ -79,7 +79,7 @@ const Map: React.FC<MapProps> = ({
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
-        setPosition([position.coords.latitude, position.coords.longitude]);
+        setPosition([position.coords?.latitude, position.coords?.longitude]);
       },
       () => {
         setPosition(defaultCenter);
@@ -93,7 +93,7 @@ const Map: React.FC<MapProps> = ({
         property.coords?.lat !== undefined &&
         property.coords?.lon !== undefined
       ) {
-        const key = `${property.coords.lat}-${property.coords.lon}`;
+        const key = `${property.coords?.lat}-${property.coords?.lon}`;
         if (!acc[key]) {
           acc[key] = [];
         }

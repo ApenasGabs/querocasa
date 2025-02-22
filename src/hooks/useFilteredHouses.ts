@@ -1,11 +1,14 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Filters } from "../components/Filters/PropertyFilters.types";
-import { calculateDistance } from "../utils/calculateDistance";
 import { DataPops } from "../services/dataService";
+import { calculateDistance } from "../utils/calculateDistance";
 
 const centralRegion = [-22.9103015, -47.0595007];
 
-const useFilteredHouses = (houseList: DataPops["olxResults"], selectedDistances: string[]) => {
+const useFilteredHouses = (
+  houseList: DataPops["olxResults"],
+  selectedDistances: string[]
+) => {
   const [filteredHouseList, setFilteredHouseList] = useState(houseList);
 
   const handleFilterChange = (filters: Filters) => {
@@ -34,8 +37,8 @@ const useFilteredHouses = (houseList: DataPops["olxResults"], selectedDistances:
       const distance = calculateDistance(
         centralRegion[0],
         centralRegion[1],
-        house.coords.lat!,
-        house.coords.lon!
+        house.coords?.lat!,
+        house.coords?.lon!
       );
 
       const isWithinSelectedDistance =
