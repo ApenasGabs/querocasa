@@ -52,9 +52,10 @@ const useFilteredHouses = (
         rooms >= filters.numberOfRooms &&
         bathrooms >= filters.numberOfBathrooms &&
         parking >= filters.numberOfParkingSpaces &&
+        house?.address &&
         house.address
           .toLowerCase()
-          .includes(filters.addressQuery.toLowerCase()) &&
+          .includes(filters?.addressQuery?.toLowerCase()) &&
         isWithinSelectedDistance
       );
     });

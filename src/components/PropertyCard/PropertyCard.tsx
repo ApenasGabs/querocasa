@@ -115,7 +115,7 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
     };
 
     return (
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-80 bg-base-100 shadow-xl">
         <figure>
           <div className="carousel w-full">{renderCarousel()}</div>
         </figure>

@@ -93,7 +93,7 @@ const PropertyList: React.FC<PropertyListProps> = ({
   return (
     <div className="flex flex-wrap justify-start gap-4">
       {visibleProperties.map((property, index) => (
-        <div key={index} className="w-64 h-auto p-2">
+        <div key={index} className="  h-auto p-2">
           <PropertyCard property={property} index={index} />
         </div>
       ))}
