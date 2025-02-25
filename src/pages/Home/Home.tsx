@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import PropertyNavbarFilters from "../../components/Filters/PropertyNavbarFilters";
 import Map from "../../components/Map/Map";
@@ -11,7 +11,7 @@ import useFilteredHouses from "../../hooks/useFilteredHouses";
 import { DataPops } from "../../services/dataService";
 
 const Home = () => {
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  // const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [isModalOpen, setIsModalOpen] = useState(true);
   const [showMap, setShowMap] = useState(false);
   const [houseList, setHouseList] = useState<DataPops["olxResults"]>([]);
@@ -74,11 +74,7 @@ const Home = () => {
 
   const HouseListRendered = useMemo(() => {
     if (!loading) {
-      return (
-        <div className="flex">
-          <PropertyList properties={filteredHouseList} />
-        </div>
-      );
+      return <PropertyList properties={filteredHouseList} />;
     }
     return <>{Skeleton}</>;
   }, [loading, filteredHouseList]);
@@ -109,8 +105,9 @@ const Home = () => {
           setActiveTags={setSelectedDistances}
         /> */}
         <div
-          className="flex flex-wrap justify-between gap-2 p-5 lg:w-2/3"
-          ref={scrollContainerRef}
+          className={`flex flex-wrap justify-between gap-2 p-5 ${
+            showMap ? "lg:w-2/3" : "lg:w-full"
+          }`} // ref={scrollContainerRef}
         >
           {loading && <p>Carregando...</p>}
           {!loading && hasData && filteredHouseList.length === 0 && (
