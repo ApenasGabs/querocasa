@@ -109,7 +109,7 @@ const Map: React.FC<MapProps> = ({
     <MapContainer
       center={position || defaultCenter}
       zoom={13}
-      style={{ height: "100vh", width: "100%" }}
+      style={{ height: "84vh", width: "100%", overflow: "hidden" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

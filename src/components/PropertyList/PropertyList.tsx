@@ -91,7 +91,7 @@ const PropertyList: React.FC<PropertyListProps> = ({
   }, [loadMoreItems]);
 
   return (
-    <div className="h-[calc(100vh-8rem)] overflow-y-auto flex flex-wrap justify-start gap-4">
+    <div className="h-[calc(90vh-8rem)] overflow-y-auto flex flex-wrap justify-center mx-auto gap-4">
       {visibleProperties.map((property, index) => (
         <div key={index} className="h-auto p-2">
           <PropertyCard property={property} index={index} />
