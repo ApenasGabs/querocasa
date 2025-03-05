@@ -43,7 +43,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
     "price": "329990",
-    "publishDate": "2025-03-01 17:54:00"
+    "publishDate": "2025-03-04 17:54:00"
   },
   {
     "address": "Campinas, Vila Costa e Silva",
@@ -66,24 +66,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-rua-dos-guainumbis-costa-e-silva-1360864549",
     "price": "490000",
-    "publishDate": "2025-03-02 00:24:00"
-  },
-  {
-    "address": "Campinas, Núcleo Residencial Cristo Redentor",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/78/782592613465783.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-santa-lucia-165-mil-venda-ou-troca-em-apartamento-1378929895",
-    "price": "165",
-    "publishDate": "2025-02-14 19:59:00"
+    "publishDate": "2025-03-04 22:39:00"
   },
   {
     "address": "Campinas, Santa Clara",
@@ -413,7 +396,7 @@
     "publishDate": "2025-01-27 10:29:00"
   },
   {
-    "address": "Campinas, Vila Campos Sales",
+    "address": "Campinas, Jardim Paranapanema",
     "description": [
       {
         "numberOfRooms": "2"
@@ -541,7 +524,7 @@
     "publishDate": "2025-02-14 12:29:00"
   },
   {
-    "address": "Campinas, Conjunto Habitacional Parque Itajaí",
+    "address": "Campinas, Jardim do Lago Continuação",
     "description": [
       {
         "numberOfRooms": "2"
@@ -614,6 +597,23 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-dos-seus-sonhos-1369107922",
     "price": "85000",
     "publishDate": "2025-01-11 00:27:00"
+  },
+  {
+    "address": "Campinas, Jardim Campituba",
+    "description": [
+      {
+        "floorSize": "45"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/76/768533268525884.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-campituba-1383711627",
+    "price": "90000",
+    "publishDate": "2025-03-04 21:43:00"
   },
   {
     "address": "Campinas, Cidade Satélite Íris",
@@ -776,20 +776,6 @@
     "publishDate": "2025-01-13 02:41:00"
   },
   {
-    "address": "Campinas, Jardim Andorinhas",
-    "description": [
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/62/624518843039739.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-area-da-prefeitura-jd-andorinhas-casa-unica-no-quintal-1366578421",
-    "price": "100000",
-    "publishDate": "2025-01-01 16:08:00"
-  },
-  {
     "address": "Campinas, Vila Aero Aeroporto",
     "description": [
       {
@@ -807,24 +793,24 @@
     "publishDate": "2025-01-20 14:26:00"
   },
   {
-    "address": "Campinas, Rosália",
+    "address": "Campinas, Parque Universitário de Viracopos",
     "description": [
       {
-        "numberOfRooms": "2"
+        "numberOfRooms": "4"
       },
       {
-        "floorSize": "150"
+        "floorSize": "1"
       },
       {
-        "numberOfParkingSpaces": "3"
+        "numberOfBathroomsTotal": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/71/712535497663435.jpg"
+      "https://img.olx.com.br/thumbs500x360/74/742573139803118.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-construcao-oportunidade-unica-leia-a-descricao-1378034580",
-    "price": "123900",
-    "publishDate": "2025-02-12 12:59:00"
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-duas-casas-110-mil-1381292023",
+    "price": "110000",
+    "publishDate": "2025-02-23 21:08:00"
   },
   {
     "address": "Campinas, Parque Universitário de Viracopos",
@@ -1087,29 +1073,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1367756375",
     "price": "150000",
     "publishDate": "2025-01-06 19:21:00"
-  },
-  {
-    "address": "Campinas, Chácara Formosa",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/95/955539723042285.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jardim-paraiso-de-viracopos-campinas-sp-1366698026",
-    "price": "150000",
-    "publishDate": "2025-01-02 13:47:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
@@ -1915,6 +1878,23 @@
     "publishDate": "2025-12-29 15:28:00"
   },
   {
+    "address": "Campinas, Santa Clara",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/18/181598263936963.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-sobrado-clube-santa-clara-1383725010",
+    "price": "220000",
+    "publishDate": "2025-03-04 23:18:00"
+  },
+  {
     "address": "Campinas, Loteamento Residencial Novo Mundo",
     "description": [
       {
@@ -2085,21 +2065,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-pq-itajai-3-campinas-1373498543",
     "price": "240000",
     "publishDate": "2025-01-26 21:39:00"
-  },
-  {
-    "address": "Campinas, Loteamento Residencial Porto Seguro",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1366823683",
-    "price": "240000",
-    "publishDate": "2025-01-02 20:30:00"
   },
   {
     "address": "Campinas, Jardim Novo Campos Elíseos",
@@ -2320,26 +2285,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sobrado-com-3-quartos-em-otima-localizacao-1370279626",
     "price": "250000",
     "publishDate": "2025-01-15 13:47:00"
-  },
-  {
-    "address": "Campinas, Parque Valença II",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "250"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/53/530565609703566.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-casa-frente-fundo-1366578934",
-    "price": "250000",
-    "publishDate": "2025-01-01 16:16:00"
   },
   {
     "address": "Campinas, Jardim Liliza",
@@ -2590,29 +2535,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1370477840",
     "price": "270000",
     "publishDate": "2025-01-15 23:53:00"
-  },
-  {
-    "address": "Campinas, Jardim Campo Belo",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "300"
-      },
-      {
-        "numberOfParkingSpaces": "5"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/70/701599724959996.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-2-quartos-com-garagem-para-5-carros-1366903814",
-    "price": "270000",
-    "publishDate": "2025-01-03 01:09:00"
   },
   {
     "address": "Campinas, Jardim São Marcos",
@@ -3544,7 +3466,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
     "price": "329990",
-    "publishDate": "2025-03-01 17:54:00"
+    "publishDate": "2025-03-04 17:54:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Vila Réggio",
@@ -4135,6 +4057,29 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-mirassol-campinas-sp-1367509070",
     "price": "360000",
     "publishDate": "2025-01-05 20:04:00"
+  },
+  {
+    "address": "Campinas, Ponte Preta",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "226"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/28/287596744822979.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-com-imovel-para-reformar-1383601905",
+    "price": "366000",
+    "publishDate": "2025-03-04 12:37:00"
   },
   {
     "address": "Campinas, Jardim Guarani",
@@ -4821,6 +4766,29 @@
     "publishDate": "2025-02-12 14:18:00"
   },
   {
+    "address": "Campinas, Jardim Santa Lúcia",
+    "description": [
+      {
+        "numberOfRooms": "4"
+      },
+      {
+        "floorSize": "274"
+      },
+      {
+        "numberOfParkingSpaces": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/33/331583746341074.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-quintal-e-area-coberta-1383742674",
+    "price": "420000",
+    "publishDate": "2025-03-05 00:37:00"
+  },
+  {
     "address": "Campinas, Vila Paraíso",
     "description": [
       {
@@ -5466,7 +5434,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-rua-dos-guainumbis-costa-e-silva-1360864549",
     "price": "490000",
-    "publishDate": "2025-03-02 00:24:00"
+    "publishDate": "2025-03-04 22:39:00"
   },
   {
     "address": "Campinas, Parque Cidade Campinas",
