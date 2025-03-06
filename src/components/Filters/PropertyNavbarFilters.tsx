@@ -110,11 +110,13 @@ const PropertyNavbarFilters = ({
 
   const handleApplyFilters = () => {
     onFilterChange(filters);
-    document.getElementById("filter-drawer")?.click();
+    const filterDrawer = document.getElementById("filter-drawer");
+    if (filterDrawer) filterDrawer.click();
   };
 
   const handleResetFilters = () => {
     dispatch({ type: "RESET_FILTERS" });
+    onFilterChange(initialFilters);
   };
 
   const CardFilterList = filterObjects.map((filter) => {
