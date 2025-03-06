@@ -21,6 +21,7 @@ export type SelectSearchProps = {
   loading?: boolean;
   register?: UseFormRegisterReturn<string>;
   errors?: FieldErrors<FieldValues>;
+  onChange?: (value: string) => void;
 };
 
 export const SelectSearch: React.FC<SelectSearchProps> = ({
@@ -36,10 +37,12 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
     loading,
     register,
     errors,
+    onChange,
   } = props;
 
   const divRef = useRef<HTMLDivElement>(null);
   const inputShowRef = useRef<HTMLInputElement>(null);
+  const [isFocused, setIsFocused] = useState(false);
 
   const [required] = useState<boolean>(register?.required || false);
 
@@ -49,6 +52,12 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
     if (inputShowRef.current) inputShowRef.current!.value = option.label;
     removeFocusDiv();
     register?.onChange({ target: { name, value: option.value } });
+
+    onChange && onChange(option.value);
+
+    inputShowRef.current?.blur();
+
+    setIsFocused(false);
   }
 
   function handleBlur(e: any) {
@@ -60,12 +69,20 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
     if (inputShowRef.current) {
       inputShowRef.current.value = "";
       register?.onChange({ target: { name, value: "" } });
+      onChange && onChange("");
     }
+
+    setTimeout(() => {
+      setIsFocused(false);
+    }, 200);
   }
 
   function handleOnChange(e: any) {
-    const value = e.target.value;
-    inputChange && inputChange(value);
+    inputChange && inputChange(e);
+  }
+
+  function handleFocus() {
+    setIsFocused(true);
   }
 
   function removeFocusDiv() {
@@ -88,6 +105,7 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
             placeholder={placeholder}
             onChange={handleOnChange}
             onBlur={handleBlur}
+            onFocus={handleFocus}
             required={required}
           />
           <select className="hidden" {...register}>
@@ -101,7 +119,7 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
         </label>
         <ul
           tabIndex={0}
-          className="dropdown-content dropdown-open z-10 menu p-2 shadow bg-base-100 rounded-box w-full"
+          className="dropdown-content z-10 menu p-2 shadow bg-base-100 rounded-box w-full"
         >
           {loading && (
             <span className="loading loading-spinner loading-md text-primary mx-auto py-4"></span>
@@ -109,13 +127,14 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
 
           {!loading &&
             options &&
-            options?.map((option, index) => (
+            options.length > 0 &&
+            options.map((option, index) => (
               <li key={index} onClick={() => handleSelectItem(option)}>
                 <a>{option.label}</a>
               </li>
             ))}
 
-          {!loading && !options?.length && (
+          {!loading && isFocused && options?.length === 0 && (
             <li className="text-center text-sm py-6">{contentText}</li>
           )}
         </ul>

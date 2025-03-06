@@ -27,8 +27,11 @@ const FilterDropdown = ({
   const dropdownRef = useRef<HTMLDetailsElement>(null);
 
   const handleApply = () => {
-    handleApplyFilters();
     dropdownRef.current?.removeAttribute("open");
+
+    setTimeout(() => {
+      handleApplyFilters();
+    }, 150);
   };
   const handleReset = () => {
     handleResetFilters();
