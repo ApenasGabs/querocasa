@@ -1,5 +1,5 @@
 import { ChangeEvent, useReducer } from "react";
-import Card from "../Card/Card";
+import FilterDropdown from "../FilterDropdown/FilterDropdown";
 import Navbar from "../Navbar/Navbar";
 import { FilterAction, Filters } from "./PropertyFilters.types";
 import {
@@ -71,10 +71,7 @@ const PropertyNavbarFilters = ({
           },
         };
       case "SET_FILTER":
-        return {
-          ...state,
-          [action.payload.name]: action.payload.value,
-        };
+        return { ...state, [action.payload.name]: action.payload.value };
       case "RESET_FILTERS":
         return initialFilters;
       default:
@@ -85,7 +82,7 @@ const PropertyNavbarFilters = ({
   const [filters, dispatch] = useReducer(filterReducer, initialFilters);
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement>,
+    e: ChangeEvent<HTMLInputElement>,
     key: keyof Filters
   ) => {
     const value = e.target.value;
@@ -110,8 +107,7 @@ const PropertyNavbarFilters = ({
 
   const handleApplyFilters = () => {
     onFilterChange(filters);
-    const filterDrawer = document.getElementById("filter-drawer");
-    if (filterDrawer) filterDrawer.click();
+    document.getElementById("filter-drawer")?.click();
   };
 
   const handleResetFilters = () => {
@@ -119,107 +115,16 @@ const PropertyNavbarFilters = ({
     onFilterChange(initialFilters);
   };
 
-  const CardFilterList = filterObjects.map((filter) => {
-    if (filter.propName === "priceRange") {
-      return (
-        <details className="dropdown">
-          <summary className="btn m-1">{filter.label}</summary>
-          <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-            <Card key={filter.propName}>
-              <label>{filter.label}:</label>
-              <div className="flex space-x-2">
-                <input
-                  type="number"
-                  placeholder={filter.placeholder[0]}
-                  className="input input-bordered input-primary w-full max-w-xs"
-                  name="min"
-                  value={
-                    (
-                      filters[filter.propName] as {
-                        min: number;
-                        max: number;
-                      }
-                    ).min
-                  }
-                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                    handleInputChange(e, filter.propName)
-                  }
-                />
-                <input
-                  value={
-                    (
-                      filters[filter.propName] as {
-                        min: number;
-                        max: number;
-                      }
-                    ).max
-                  }
-                  placeholder={filter.placeholder[1]}
-                  className="input input-bordered input-primary w-full max-w-xs"
-                  name="max"
-                  onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                    handleInputChange(e, filter.propName)
-                  }
-                />
-              </div>
-              <div className="mt-4 flex justify-between">
-                <button
-                  className="btn btn-primary btn-sm"
-                  onClick={handleApplyFilters}
-                >
-                  Aplicar Filtros
-                </button>
-                <button
-                  className="btn btn-outline btn-sm"
-                  onClick={handleResetFilters}
-                >
-                  Resetar Filtros
-                </button>
-              </div>
-            </Card>
-          </div>
-        </details>
-      );
-    } else {
-      return (
-        <details className="dropdown">
-          <summary className="btn m-1">{filter.label}</summary>
-          <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-            <Card key={filter.propName}>
-              <label>{filter.label}:</label>
-              <input
-                className="input input-bordered input-primary w-full max-w-xs"
-                type={filter.type}
-                placeholder={
-                  typeof filter.placeholder === "string"
-                    ? filter.placeholder
-                    : ""
-                }
-                value={filters[filter.propName]}
-                onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                  handleInputChange(e, filter.propName)
-                }
-              />
-              <div className="mt-4 flex justify-between">
-                <button
-                  className="btn btn-primary btn-sm"
-                  onClick={handleApplyFilters}
-                >
-                  Aplicar Filtros
-                </button>
-                <button
-                  className="btn btn-outline btn-sm"
-                  onClick={handleResetFilters}
-                >
-                  Resetar Filtros
-                </button>
-              </div>
-            </Card>
-          </div>
-        </details>
-      );
-    }
-  });
+  const CardFilterList = filterObjects.map((filter) => (
+    <FilterDropdown
+      key={filter.propName}
+      filter={filter}
+      filters={filters}
+      handleInputChange={handleInputChange}
+      handleApplyFilters={handleApplyFilters}
+      handleResetFilters={handleResetFilters}
+    />
+  ));
 
   return (
     <Navbar
