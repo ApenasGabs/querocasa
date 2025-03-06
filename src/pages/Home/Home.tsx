@@ -19,10 +19,9 @@ const Home = () => {
   const selectedDistances = ["1", "2", "3", "5", "8", "10", "12"];
 
   const { data, loading, error } = useFetchData();
-  console.error("error: ", error);
 
   useEffect(() => {
-    if (!loading) {
+    if (!loading && !error) {
       if ((data && data.olxResults.length > 0) || data.zapResults.length > 0) {
         const { olxResults, zapResults } = data;
         console.log("data: ", data);
@@ -110,10 +109,11 @@ const Home = () => {
           }`} // ref={scrollContainerRef}
         >
           {loading && <p>Carregando...</p>}
-          {!loading && hasData && filteredHouseList.length === 0 && (
+          {!loading && hasData && filteredHouseList.length === 0 ? (
             <p>Nenhum resultado encontrado com os filtros aplicados.</p>
+          ) : (
+            HouseListRendered
           )}
-          {HouseListRendered}
         </div>
         {!loading && showMap && (
           <div className="flex w-2/3 lg:w-1/3 pr-4">
