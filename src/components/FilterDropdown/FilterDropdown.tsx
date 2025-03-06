@@ -1,4 +1,4 @@
-import { ChangeEvent } from "react";
+import { ChangeEvent, useEffect, useRef } from "react";
 import Card from "../Card/Card";
 import FilterActions from "../FilterActions/FilterActions";
 import { Filters } from "../Filters/PropertyFilters.types";
@@ -22,8 +22,35 @@ const FilterDropdown = ({
   handleApplyFilters,
   handleResetFilters,
 }: FilterDropdownProps) => {
+  const dropdownRef = useRef<HTMLDetailsElement>(null);
+
+  const handleApply = () => {
+    handleApplyFilters();
+    dropdownRef.current?.removeAttribute("open");
+  };
+  const handleReset = () => {
+    handleResetFilters();
+    dropdownRef.current?.removeAttribute("open");
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        dropdownRef.current.removeAttribute("open"); // Fecha o dropdown se clicar fora
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <details className="dropdown">
+    <details ref={dropdownRef} className="dropdown">
       <summary className="btn m-1">{filter.label}</summary>
       <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
         <Card key={filter.propName}>
@@ -38,9 +65,7 @@ const FilterDropdown = ({
                 value={
                   (filters[filter.propName] as { min: number; max: number }).min
                 }
-                onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                  handleInputChange(e, filter.propName)
-                }
+                onChange={(e) => handleInputChange(e, filter.propName)}
               />
               <input
                 type="number"
@@ -50,9 +75,7 @@ const FilterDropdown = ({
                 value={
                   (filters[filter.propName] as { min: number; max: number }).max
                 }
-                onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                  handleInputChange(e, filter.propName)
-                }
+                onChange={(e) => handleInputChange(e, filter.propName)}
               />
             </div>
           ) : (
@@ -63,15 +86,10 @@ const FilterDropdown = ({
                 typeof filter.placeholder === "string" ? filter.placeholder : ""
               }
               value={filters[filter.propName] as string | number}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                handleInputChange(e, filter.propName)
-              }
+              onChange={(e) => handleInputChange(e, filter.propName)}
             />
           )}
-          <FilterActions
-            onApply={handleApplyFilters}
-            onReset={handleResetFilters}
-          />
+          <FilterActions onApply={handleApply} onReset={handleReset} />
         </Card>
       </div>
     </details>

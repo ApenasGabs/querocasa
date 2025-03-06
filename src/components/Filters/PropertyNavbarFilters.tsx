@@ -107,7 +107,6 @@ const PropertyNavbarFilters = ({
 
   const handleApplyFilters = () => {
     onFilterChange(filters);
-    document.getElementById("filter-drawer")?.click();
   };
 
   const handleResetFilters = () => {
