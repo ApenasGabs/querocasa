@@ -90,6 +90,11 @@ const PropertyList: React.FC<PropertyListProps> = ({
     };
   }, [loadMoreItems]);
 
+  useEffect(() => {
+    setVisibleProperties(properties.slice(0, 20));
+    setLastIndex(20);
+  }, [properties]);
+
   return (
     <div className="h-[calc(90vh-8rem)] overflow-y-auto flex flex-wrap justify-center mx-auto gap-4">
       {visibleProperties.map((property, index) => (
