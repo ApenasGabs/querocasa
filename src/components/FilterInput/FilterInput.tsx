@@ -1,4 +1,5 @@
 import { ChangeEvent, useEffect, useState } from "react";
+import { fetchGeoLocations } from "../../services/dataService";
 import { FilterDropdownProps } from "../FilterDropdown/FilterDropdown";
 import { Option, SelectSearch } from "../SelectSearch/SelectSearch";
 
@@ -24,9 +25,17 @@ const FilterInput = ({
       setFilteredOptions([]);
     }
   };
-
   const handleSelectChange = (selectedValue: string) => {
     try {
+      if (!selectedValue || selectedValue.trim() === "") {
+        console.log("Valor selecionado vazio, ignorando");
+        return;
+      }
+
+      //FIXME - corrigir bug do filtro de endereço
+      // Para debug
+      console.log("Valor recebido para parse:", selectedValue);
+
       const locationData = JSON.parse(selectedValue);
 
       const mockEvent = {
@@ -37,60 +46,37 @@ const FilterInput = ({
 
       handleInputChange(mockEvent, "addressQuery");
     } catch (e) {
-      const mockEvent = {
-        target: {
-          value: selectedValue,
-        },
-      } as ChangeEvent<HTMLInputElement>;
-
-      handleInputChange(mockEvent, "addressQuery");
       console.error("Erro ao processar valor selecionado:", e);
+      console.log("Valor que causou erro:", selectedValue);
+
+      // Se falhar o parsing, use o valor bruto como fallback
+      if (selectedValue) {
+        const mockEvent = {
+          target: {
+            value: selectedValue,
+          },
+        } as ChangeEvent<HTMLInputElement>;
+
+        handleInputChange(mockEvent, "addressQuery");
+      }
     }
   };
 
   useEffect(() => {
-    const fetchLocations = async () => {
-      const cached = localStorage.getItem("geolocations");
-      const cacheTimestamp = localStorage.getItem("geolocations_timestamp");
-      const oneWeek = 7 * 24 * 60 * 60 * 1000;
-
-      if (
-        cached &&
-        cacheTimestamp &&
-        Date.now() - Number(cacheTimestamp) < oneWeek
-      ) {
-        const options = JSON.parse(cached);
-        setAddressOptions(options);
-        setIsLoading(false);
-        return;
-      }
-
+    const loadLocations = async () => {
+      setIsLoading(true);
       try {
-        const response = await fetch("http://localhost:3000/api/geolocations");
-        const data = await response.json();
-
-        const options = Object.keys(data).map((location) => ({
-          label: location,
-          value: JSON.stringify({
-            name: location,
-            lat: data[location].lat,
-            lon: data[location].lon,
-          }),
-        }));
-
+        const options = await fetchGeoLocations();
         setAddressOptions(options);
-        localStorage.setItem("geolocations", JSON.stringify(options));
-        localStorage.setItem("geolocations_timestamp", Date.now().toString());
-        setIsLoading(false);
       } catch (error) {
         console.error("Erro ao buscar localizações:", error);
+      } finally {
         setIsLoading(false);
       }
     };
 
-    fetchLocations();
+    loadLocations();
   }, []);
-
   switch (filter.propName) {
     case "priceRange":
       return (

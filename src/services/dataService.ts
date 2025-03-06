@@ -55,3 +55,58 @@ export const fetchDataFiles = async (): Promise<DataPops> => {
     return emptyData;
   }
 };
+
+export interface GeoLocation {
+  lat: number;
+  lon: number;
+}
+
+export interface GeoLocationsResponse {
+  [location: string]: GeoLocation;
+}
+
+export interface LocationOption {
+  label: string;
+  value: string;
+}
+
+export const fetchGeoLocations = async (): Promise<LocationOption[]> => {
+  const cached = localStorage.getItem("geolocations");
+  const cacheTimestamp = localStorage.getItem("geolocations_timestamp");
+  const oneWeek = 7 * 24 * 60 * 60 * 1000;
+
+  if (
+    cached &&
+    cacheTimestamp &&
+    Date.now() - Number(cacheTimestamp) < oneWeek
+  ) {
+    return JSON.parse(cached);
+  }
+
+  try {
+    const response = await axios.get<GeoLocationsResponse>("/api/geolocations");
+
+    if (response.status !== 200) {
+      throw new Error("Failed to fetch geolocations");
+    }
+
+    const data = response.data;
+
+    const options = Object.keys(data).map((location) => ({
+      label: location,
+      value: JSON.stringify({
+        name: location,
+        lat: data[location].lat,
+        lon: data[location].lon,
+      }),
+    }));
+
+    localStorage.setItem("geolocations", JSON.stringify(options));
+    localStorage.setItem("geolocations_timestamp", Date.now().toString());
+
+    return options;
+  } catch (error) {
+    console.error("Error fetching geolocations:", error);
+    return [];
+  }
+};
