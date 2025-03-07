@@ -20,7 +20,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-vista-alegre-campinas-1379329661",
     "price": "290000",
-    "publishDate": "2025-03-03 19:06:00"
+    "publishDate": "2025-03-06 19:05:00"
   },
   {
     "address": "Campinas, Loteamento Residencial Campina Verde",
@@ -112,23 +112,6 @@
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1383285968",
     "price": "220",
     "publishDate": "2025-03-02 17:02:00"
-  },
-  {
-    "address": "Campinas, Jardim Roseira",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/91/914542368807341.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vende-se-1372998980",
-    "price": "230",
-    "publishDate": "2025-01-24 18:35:00"
   },
   {
     "address": "Campinas, Parque Valença II",
@@ -807,24 +790,24 @@
     "publishDate": "2025-01-20 14:26:00"
   },
   {
-    "address": "Campinas, Rosália",
+    "address": "Campinas, Parque Universitário de Viracopos",
     "description": [
       {
-        "numberOfRooms": "2"
+        "numberOfRooms": "4"
       },
       {
-        "floorSize": "150"
+        "floorSize": "1"
       },
       {
-        "numberOfParkingSpaces": "3"
+        "numberOfBathroomsTotal": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/71/712535497663435.jpg"
+      "https://img.olx.com.br/thumbs500x360/74/742573139803118.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-construcao-oportunidade-unica-leia-a-descricao-1378034580",
-    "price": "123900",
-    "publishDate": "2025-02-12 12:59:00"
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-duas-casas-110-mil-1381292023",
+    "price": "110000",
+    "publishDate": "2025-02-23 21:08:00"
   },
   {
     "address": "Campinas, Parque Universitário de Viracopos",
@@ -1005,6 +988,21 @@
     "publishDate": "2025-01-20 01:16:00"
   },
   {
+    "address": "Campinas, Vila Padre Manoel de Nóbrega",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-nova-morada-1384277748",
+    "price": "150000",
+    "publishDate": "2025-03-06 21:36:00"
+  },
+  {
     "address": "Campinas, Recanto do Sol I",
     "description": [
       {
@@ -1103,7 +1101,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/residencia-no-residencial-novo-mundo-1377955740",
     "price": "159000",
-    "publishDate": "2025-03-03 20:57:00"
+    "publishDate": "2025-03-06 20:56:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Vida Nova",
@@ -2095,6 +2093,20 @@
     "publishDate": "2025-01-27 23:58:00"
   },
   {
+    "address": "Campinas, Centro",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/33/335585141906808.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/venda-de-casa-no-centro-de-campinas-1384071940",
+    "price": "250000",
+    "publishDate": "2025-03-06 13:07:00"
+  },
+  {
     "address": "Campinas, Residencial Colina das Nascentes",
     "description": [
       {
@@ -2748,7 +2760,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-vista-alegre-campinas-1379329661",
     "price": "290000",
-    "publishDate": "2025-03-03 19:06:00"
+    "publishDate": "2025-03-06 19:05:00"
   },
   {
     "address": "Campinas, Conjunto Habitacional Parque Itajaí",
