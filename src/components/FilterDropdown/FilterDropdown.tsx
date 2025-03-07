@@ -65,7 +65,7 @@ const FilterDropdown = ({
             filters={filters}
             handleInputChange={handleInputChange}
             handleApplyFilters={handleApplyFilters}
-            handleResetFilters={handleResetFilters}
+            handleResetFilters={handleReset}
           />
           <FilterActions onApply={handleApply} onReset={handleReset} />
         </Card>

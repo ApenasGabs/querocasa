@@ -1,10 +1,9 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useEffect, useRef, useState } from "react";
 import { fetchGeoLocations } from "../../services/dataService";
 import { FilterDropdownProps } from "../FilterDropdown/FilterDropdown";
 import { Option, SelectSearch } from "../SelectSearch/SelectSearch";
 
 const FilterInput = ({
-  //TODO - centralizar tipagens de filtros
   filter,
   filters,
   handleInputChange,
@@ -12,9 +11,15 @@ const FilterInput = ({
   const [addressOptions, setAddressOptions] = useState<Option[]>([]);
   const [filteredOptions, setFilteredOptions] = useState<Option[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [hasAddressSelection, setHasAddressSelection] = useState(false);
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const handleAddressSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
+
+    if (!value || value !== filters.addressQuery) {
+      setHasAddressSelection(false);
+    }
 
     if (value.length > 1) {
       const filtered = addressOptions.filter((option) =>
@@ -24,7 +29,16 @@ const FilterInput = ({
     } else {
       setFilteredOptions([]);
     }
+
+    const mockEvent = {
+      target: {
+        value: value,
+      },
+    } as ChangeEvent<HTMLInputElement>;
+
+    handleInputChange(mockEvent, "addressQuery");
   };
+
   const handleSelectChange = (selectedValue: string) => {
     try {
       if (!selectedValue || selectedValue.trim() === "") {
@@ -32,11 +46,10 @@ const FilterInput = ({
         return;
       }
 
-      //FIXME - corrigir bug do filtro de endereço
-      // Para debug
       console.log("Valor recebido para parse:", selectedValue);
 
       const locationData = JSON.parse(selectedValue);
+      setHasAddressSelection(true);
 
       const mockEvent = {
         target: {
@@ -63,6 +76,16 @@ const FilterInput = ({
   };
 
   useEffect(() => {
+    if (
+      filter.propName === "addressQuery" &&
+      filters.addressQuery === "" &&
+      searchInputRef.current
+    ) {
+      setHasAddressSelection(false);
+    }
+  }, [filters, filter.propName]);
+
+  useEffect(() => {
     const loadLocations = async () => {
       setIsLoading(true);
       try {
@@ -77,6 +100,7 @@ const FilterInput = ({
 
     loadLocations();
   }, []);
+
   switch (filter.propName) {
     case "priceRange":
       return (
@@ -118,6 +142,10 @@ const FilterInput = ({
           options={filteredOptions.length > 0 ? filteredOptions : []}
           loading={isLoading}
           onChange={handleSelectChange}
+          hasSelection={hasAddressSelection}
+          value={filters.addressQuery}
+          inputRef={searchInputRef}
+          onReset={() => setHasAddressSelection(false)}
         />
       );
     default:
