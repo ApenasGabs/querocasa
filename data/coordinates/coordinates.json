@@ -1830,5 +1830,33 @@
   "Vila Aero Aeroporto": {
     "lat": -22.96911,
     "lon": -47.12192
+  },
+  "Residencial Vila Park": {
+    "lat": -15.85702925,
+    "lon": -48.97244367692902
+  },
+  "Jardim Campituba": {
+    "lat": -23.036259,
+    "lon": -47.11616194952242
+  },
+  "Lt A Jequitibás": {
+    "lat": -22.88672,
+    "lon": -47.12271
+  },
+  "Village Campinas": {
+    "lat": -22.749698950000003,
+    "lon": -47.05450004596659
+  },
+  "Núcleo Residencial Cristo Redentor": {
+    "lat": -22.53513,
+    "lon": -44.16425
+  },
+  "Jardim Pita": {
+    "lat": -22.91858,
+    "lon": -47.09685
+  },
+  "Jardim  Campinas": {
+    "lat": -12.9156386,
+    "lon": -38.4624133
   }
 }
