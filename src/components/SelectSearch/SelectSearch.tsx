@@ -1,5 +1,5 @@
 import { Search } from "lucide-react";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   FieldErrors,
   FieldValues,
@@ -22,6 +22,10 @@ export type SelectSearchProps = {
   register?: UseFormRegisterReturn<string>;
   errors?: FieldErrors<FieldValues>;
   onChange?: (value: string) => void;
+  hasSelection?: boolean;
+  value?: string;
+  inputRef?: React.RefObject<HTMLInputElement>;
+  onReset?: () => void;
 };
 
 export const SelectSearch: React.FC<SelectSearchProps> = ({
@@ -38,26 +42,46 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
     register,
     errors,
     onChange,
+    hasSelection,
+    value,
+    inputRef,
+    onReset,
   } = props;
 
   const divRef = useRef<HTMLDivElement>(null);
-  const inputShowRef = useRef<HTMLInputElement>(null);
+  const defaultInputRef = useRef<HTMLInputElement>(null);
+  const actualInputRef = inputRef || defaultInputRef;
   const [isFocused, setIsFocused] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
+  const [isTyping, setIsTyping] = useState(false);
 
   const [required] = useState<boolean>(register?.required || false);
 
   const isError = errors && register && errors[register.name];
 
+  useEffect(() => {
+    if (actualInputRef.current && value !== undefined && !isTyping) {
+      if (value === "") {
+        actualInputRef.current.value = "";
+        onReset && onReset();
+      } else if (actualInputRef.current.value !== value) {
+        actualInputRef.current.value = value;
+      }
+    }
+  }, [value, actualInputRef, onReset, isTyping]);
+
   function handleSelectItem(option: Option) {
-    if (inputShowRef.current) inputShowRef.current!.value = option.label;
+    if (actualInputRef.current) actualInputRef.current.value = option.label;
     removeFocusDiv();
     register?.onChange({ target: { name, value: option.value } });
 
     onChange && onChange(option.value);
 
-    inputShowRef.current?.blur();
+    actualInputRef.current?.blur();
 
     setIsFocused(false);
+    setShowDropdown(false);
+    setIsTyping(false);
   }
 
   function handleBlur(e: any) {
@@ -66,29 +90,37 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
     if (options?.find((option) => option.label === value)) {
       return;
     }
-    if (inputShowRef.current) {
-      inputShowRef.current.value = "";
+    if (actualInputRef.current && !hasSelection) {
+      actualInputRef.current.value = "";
       register?.onChange({ target: { name, value: "" } });
       onChange && onChange("");
     }
 
     setTimeout(() => {
       setIsFocused(false);
+      setShowDropdown(false);
+      setIsTyping(false);
     }, 200);
   }
 
-  function handleOnChange(e: any) {
+  function handleOnChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setIsTyping(true);
+    setShowDropdown(true);
     inputChange && inputChange(e);
   }
 
   function handleFocus() {
     setIsFocused(true);
+    setShowDropdown(true);
   }
 
   function removeFocusDiv() {
     divRef.current?.focus();
     divRef.current?.blur();
   }
+
+  const shouldShowDropdown =
+    isFocused && showDropdown && (isTyping || !hasSelection);
 
   return (
     <>
@@ -99,7 +131,7 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
           }`}
         >
           <input
-            ref={inputShowRef}
+            ref={actualInputRef}
             type="text"
             className="grow"
             placeholder={placeholder}
@@ -117,27 +149,29 @@ export const SelectSearch: React.FC<SelectSearchProps> = ({
           </select>
           <Search size={22} className="text-base" />
         </label>
-        <ul
-          tabIndex={0}
-          className="dropdown-content z-10 menu p-2 shadow bg-base-100 rounded-box w-full"
-        >
-          {loading && (
-            <span className="loading loading-spinner loading-md text-primary mx-auto py-4"></span>
-          )}
+        {shouldShowDropdown && (
+          <ul
+            tabIndex={0}
+            className="dropdown-content z-10 menu p-2 shadow bg-base-100 rounded-box w-full"
+          >
+            {loading && (
+              <span className="loading loading-spinner loading-md text-primary mx-auto py-4"></span>
+            )}
 
-          {!loading &&
-            options &&
-            options.length > 0 &&
-            options.map((option, index) => (
-              <li key={index} onClick={() => handleSelectItem(option)}>
-                <a>{option.label}</a>
-              </li>
-            ))}
+            {!loading &&
+              options &&
+              options.length > 0 &&
+              options.map((option, index) => (
+                <li key={index} onClick={() => handleSelectItem(option)}>
+                  <a>{option.label}</a>
+                </li>
+              ))}
 
-          {!loading && isFocused && options?.length === 0 && (
-            <li className="text-center text-sm py-6">{contentText}</li>
-          )}
-        </ul>
+            {!loading && isFocused && options?.length === 0 && (
+              <li className="text-center text-sm py-6">{contentText}</li>
+            )}
+          </ul>
+        )}
       </div>
       {isError && (
         <span className="w-full text-start text-error text-sm">
