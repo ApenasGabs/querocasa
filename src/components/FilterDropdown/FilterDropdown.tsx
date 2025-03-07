@@ -122,8 +122,7 @@ const FilterDropdown = ({
 
   return (
     <details ref={dropdownRef} className="dropdown">
-      <summary
-        className={`btn m-1 ${buttonClass}`}>
+      <summary className={`btn m-1 p-4 ${buttonClass} `}>
         {filter.label}
         {filterActive && (
           <div className="badge badge-accent">{activeCount}</div>
