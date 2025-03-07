@@ -1,4 +1,5 @@
-import { ChangeEvent, useReducer } from "react";
+import { ChangeEvent, useReducer, useState } from "react";
+import FilterActions from "../FilterActions/FilterActions";
 import FilterDropdown from "../FilterDropdown/FilterDropdown";
 import Navbar from "../Navbar/Navbar";
 import { FilterAction, Filters } from "./PropertyFilters.types";
@@ -46,19 +47,22 @@ const filterObjects: filterListProps[] = [
   },
 ];
 
+const initialFilters: Filters = {
+  priceRange: { min: 0, max: 1000000 },
+  floorSize: 0,
+  numberOfRooms: 0,
+  numberOfBathrooms: 0,
+  numberOfParkingSpaces: 0,
+  addressQuery: "",
+  distances: [],
+};
+
 const PropertyNavbarFilters = ({
   onFilterChange,
   navbarEndButton,
 }: PropertyNavbarFiltersProps) => {
-  const initialFilters: Filters = {
-    priceRange: { min: 0, max: 1000000 },
-    floorSize: 0,
-    numberOfRooms: 0,
-    numberOfBathrooms: 0,
-    numberOfParkingSpaces: 0,
-    addressQuery: "",
-    distances: [],
-  };
+  const [resetCounter, setResetCounter] = useState(0);
+  const [filters, dispatch] = useReducer(filterReducer, initialFilters);
 
   function filterReducer(state: Filters, action: FilterAction): Filters {
     switch (action.type) {
@@ -78,8 +82,6 @@ const PropertyNavbarFilters = ({
         return state;
     }
   }
-
-  const [filters, dispatch] = useReducer(filterReducer, initialFilters);
 
   const handleInputChange = (
     e: ChangeEvent<HTMLInputElement>,
@@ -110,6 +112,8 @@ const PropertyNavbarFilters = ({
   };
 
   const handleResetFilters = () => {
+    setResetCounter((prev) => prev + 1);
+
     dispatch({ type: "RESET_FILTERS" });
     onFilterChange(initialFilters);
   };
@@ -122,9 +126,13 @@ const PropertyNavbarFilters = ({
       handleInputChange={handleInputChange}
       handleApplyFilters={handleApplyFilters}
       handleResetFilters={handleResetFilters}
+      resetCounter={resetCounter}
     />
   ));
 
+  CardFilterList.push(
+    <FilterActions key="filter-actions" onReset={handleResetFilters} />
+  );
   return (
     <Navbar
       navbarEndButton={navbarEndButton}

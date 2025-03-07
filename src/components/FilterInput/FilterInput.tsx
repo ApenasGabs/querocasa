@@ -7,6 +7,7 @@ const FilterInput = ({
   filter,
   filters,
   handleInputChange,
+  resetCounter = 0,
 }: FilterDropdownProps) => {
   const [addressOptions, setAddressOptions] = useState<Option[]>([]);
   const [filteredOptions, setFilteredOptions] = useState<Option[]>([]);
@@ -100,6 +101,11 @@ const FilterInput = ({
 
     loadLocations();
   }, []);
+  useEffect(() => {
+    if (resetCounter > 0 && filter.propName === "addressQuery") {
+      setHasAddressSelection(false);
+    }
+  }, [resetCounter, filter.propName]);
 
   switch (filter.propName) {
     case "priceRange":

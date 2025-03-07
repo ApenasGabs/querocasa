@@ -13,6 +13,7 @@ export interface FilterDropdownProps {
     e: ChangeEvent<HTMLInputElement>,
     key: keyof Filters
   ) => void;
+  resetCounter?: number;
   handleApplyFilters: () => void;
   handleResetFilters: () => void;
 }
@@ -23,6 +24,7 @@ const FilterDropdown = ({
   handleInputChange,
   handleApplyFilters,
   handleResetFilters,
+  resetCounter,
 }: FilterDropdownProps) => {
   const dropdownRef = useRef<HTMLDetailsElement>(null);
   const [filterApplied, setFilterApplied] = useState(false);
@@ -101,7 +103,7 @@ const FilterDropdown = ({
         dropdownRef.current &&
         !dropdownRef.current.contains(event.target as Node)
       ) {
-        dropdownRef.current.removeAttribute("open"); // Fecha o dropdown se clicar fora
+        dropdownRef.current.removeAttribute("open");
       }
     };
 
@@ -110,16 +112,24 @@ const FilterDropdown = ({
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+  useEffect(() => {
+    // Ignorar a primeira renderização
+    if (resetCounter && resetCounter > 0) {
+      setFilterApplied(false);
+      setAppliedFilterValues(null);
+    }
+  }, [resetCounter]);
 
   return (
     <details ref={dropdownRef} className="dropdown">
-      <summary className={`btn m-1 ${buttonClass}`}>
+      <summary
+        className={`btn m-1 ${buttonClass}`}>
         {filter.label}
         {filterActive && (
           <div className="badge badge-accent">{activeCount}</div>
         )}
       </summary>
-      <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+      <div className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2  shadow">
         <Card key={filter.propName}>
           <label>{filter.label}:</label>
           <FilterInput
@@ -128,6 +138,7 @@ const FilterDropdown = ({
             handleInputChange={handleInputChange}
             handleApplyFilters={handleApplyFilters}
             handleResetFilters={handleReset}
+            resetCounter={resetCounter}
           />
           <FilterActions onApply={handleApply} onReset={handleReset} />
         </Card>
