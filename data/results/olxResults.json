@@ -27,33 +27,6 @@
     }
   },
   {
-    "address": "Campinas, Loteamento Residencial Campina Verde",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "126"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/88/884597389963600.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520",
-    "price": "329990",
-    "publishDate": "2025-03-07 17:54:00",
-    "coords": {
-      "lat": -22.96432,
-      "lon": -47.16947
-    }
-  },
-  {
     "address": "Campinas, Vila Costa e Silva",
     "description": [
       {
@@ -74,7 +47,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-rua-dos-guainumbis-costa-e-silva-1360864549",
     "price": "490000",
-    "publishDate": "2025-03-07 22:39:00",
+    "publishDate": "2025-03-10 22:39:00",
     "coords": {
       "lat": -22.8567607,
       "lon": -47.0694473
@@ -508,6 +481,24 @@
     }
   },
   {
+    "address": "Campinas, Cidade Singer",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/11/118596018631772.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-pra-venda-1379590277",
+    "price": "58000",
+    "publishDate": "2025-02-17 18:23:00",
+    "coords": {
+      "lat": -22.97774,
+      "lon": -47.16871
+    }
+  },
+  {
     "address": "Campinas, Jardim Lisa",
     "description": [
       {
@@ -526,24 +517,6 @@
     "coords": {
       "lat": -22.95529,
       "lon": -47.18347
-    }
-  },
-  {
-    "address": "Campinas, Cidade Singer",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/11/118596018631772.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-pra-venda-1379590277",
-    "price": "60000",
-    "publishDate": "2025-02-17 18:23:00",
-    "coords": {
-      "lat": -22.97774,
-      "lon": -47.16871
     }
   },
   {
@@ -1011,6 +984,27 @@
     "coords": {
       "lat": -22.34007,
       "lon": -41.75489
+    }
+  },
+  {
+    "address": "Campinas, Jardim das Bandeiras",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "95"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/59/599538742088613.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-area-verde-jd-das-bandeiras-1384861175",
+    "price": "120000",
+    "publishDate": "2025-03-09 01:58:00",
+    "coords": {
+      "lat": -23.1557867,
+      "lon": -46.8710082
     }
   },
   {
@@ -2585,7 +2579,7 @@
       "https://img.olx.com.br/thumbs500x360/22/225582367084131.jpg"
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1373820751",
-    "price": "248000",
+    "price": "247000",
     "publishDate": "2025-01-27 23:58:00",
     "coords": {
       "lat": -23.02815,
@@ -4217,6 +4211,30 @@
     "coords": {
       "lat": -22.4454992,
       "lon": -46.8362907
+    }
+  },
+  {
+    "address": "Campinas, Conjunto Mauro Marcondes",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/67/677518505342531.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-otima-localizacao-1385320101",
+    "price": "350000",
+    "publishDate": "2025-03-10 22:46:00",
+    "coords": {
+      "lat": -22.97179,
+      "lon": -47.16905
     }
   },
   {
@@ -6122,7 +6140,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-rua-dos-guainumbis-costa-e-silva-1360864549",
     "price": "490000",
-    "publishDate": "2025-03-07 22:39:00",
+    "publishDate": "2025-03-10 22:39:00",
     "coords": {
       "lat": -22.8567607,
       "lon": -47.0694473
