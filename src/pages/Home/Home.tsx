@@ -21,8 +21,11 @@ const Home = () => {
   const { data, loading, error } = useFetchData();
 
   useEffect(() => {
-    if (!loading && !error) {
-      if ((data && data.olxResults.length > 0) || data.zapResults.length > 0) {
+    if (!loading && !error && data) {
+      if (
+        (data.olxResults && data.olxResults.length > 0) ||
+        (data.zapResults && data.zapResults.length > 0)
+      ) {
         const { olxResults, zapResults } = data;
         console.log("data: ", data);
         const combinedList = [...(olxResults || []), ...(zapResults || [])];
@@ -62,7 +65,7 @@ const Home = () => {
     </a>,
   ];
 
-  const Skeleton = Array.from({ length: 3 }).map((_, index) => (
+  const Skeleton = Array.from({ length: 12 }).map((_, index) => (
     <div className="flex w-96 flex-col gap-4" key={index}>
       <div className="skeleton h-48 w-full" />
       <div className="skeleton h-24 w-full" />
@@ -72,7 +75,7 @@ const Home = () => {
   ));
 
   const HouseListRendered = useMemo(() => {
-    if (!loading) {
+    if (!loading && hasData) {
       return <PropertyList properties={filteredHouseList} />;
     }
     return <>{Skeleton}</>;
@@ -114,6 +117,7 @@ const Home = () => {
           ) : (
             HouseListRendered
           )}
+          {!hasData && Skeleton}
         </div>
         {!loading && showMap && (
           <div className="flex w-2/3 lg:w-1/3 pr-4">
