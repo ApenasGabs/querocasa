@@ -66,7 +66,6 @@ const useFilteredHouses = (
         );
       });
 
-      console.log("Casas filtradas:", filteredList.length);
       setFilteredHouseList(filteredList);
     },
     [houseList, selectedDistances]
