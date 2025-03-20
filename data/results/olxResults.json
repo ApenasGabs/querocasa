@@ -14,7 +14,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-imperdivel-casa-a-venda-1386071314",
     "price": "290000",
-    "publishDate": "2025-03-16 11:45:00",
+    "publishDate": "2025-03-19 11:45:00",
     "coords": {
       "lat": -19.52606,
       "lon": -40.63814
@@ -48,33 +48,6 @@
     }
   },
   {
-    "address": "Campinas, Vila Costa e Silva",
-    "description": [
-      {
-        "numberOfRooms": "4"
-      },
-      {
-        "floorSize": "130"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/95/955407118083971.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-rua-dos-guainumbis-costa-e-silva-1360864549",
-    "price": "490000",
-    "publishDate": "2025-03-16 22:39:00",
-    "coords": {
-      "lat": -22.8567607,
-      "lon": -47.0694473
-    }
-  },
-  {
     "address": "Campinas, Jardim Itatinga",
     "description": [
       {
@@ -96,6 +69,30 @@
     "coords": {
       "lat": -22.98346,
       "lon": -47.10646
+    }
+  },
+  {
+    "address": "Campinas, Conjunto Habitacional Vida Nova",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "127"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/32/320554147063924.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-uma-casa-180-mil-1387968905",
+    "price": "180",
+    "publishDate": "2025-03-19 20:20:00",
+    "coords": {
+      "lat": -22.97514,
+      "lon": -47.18103
     }
   },
   {
@@ -439,6 +436,20 @@
     "coords": {
       "lat": -22.9490021,
       "lon": -47.1126741
+    }
+  },
+  {
+    "address": "Campinas, Residencial Sírius",
+    "description": [],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/24/248541507006559.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-area-verde-1387909647",
+    "price": "40000",
+    "publishDate": "2025-03-19 17:07:00",
+    "coords": {
+      "lat": -22.9524528,
+      "lon": -47.1632442
     }
   },
   {
@@ -967,24 +978,48 @@
     }
   },
   {
-    "address": "Campinas, Vila Aero Aeroporto",
+    "address": "Campinas, Jardim das Bandeiras",
     "description": [
       {
         "numberOfRooms": "2"
       },
       {
-        "numberOfBathroomsTotal": "2"
+        "floorSize": "95"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/82/824516120475846.jpg"
+      "https://img.olx.com.br/thumbs500x360/59/599538742088613.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-duas-salas-no-quintal-1371614930",
-    "price": "100000",
-    "publishDate": "2025-01-20 14:26:00",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-area-verde-jd-das-bandeiras-1384861175",
+    "price": "120000",
+    "publishDate": "2025-03-09 01:58:00",
     "coords": {
-      "lat": -22.96911,
-      "lon": -47.12192
+      "lat": -23.1557867,
+      "lon": -46.8710082
+    }
+  },
+  {
+    "address": "Campinas, Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu)",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "83"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/50/501594496451130.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-direto-com-o-proprietario-1375374905",
+    "price": "120000",
+    "publishDate": "2025-02-02 17:29:00",
+    "coords": {
+      "lat": -22.97545,
+      "lon": -47.12655
     }
   },
   {
@@ -1878,6 +1913,33 @@
     }
   },
   {
+    "address": "Campinas, Jardim Itaguaçu II",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/69/690538503587433.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jardim-itagucu-2-1387074198",
+    "price": "190000",
+    "publishDate": "2025-03-16 23:12:00",
+    "coords": {
+      "lat": -23.0393191,
+      "lon": -47.12085969847532
+    }
+  },
+  {
     "address": "Campinas, Jardim Santo Antonio",
     "description": [
       {
@@ -2046,33 +2108,6 @@
     "coords": {
       "lat": -23.9596,
       "lon": -46.39586
-    }
-  },
-  {
-    "address": "Campinas, Jardim Itaguaçu II",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "250"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/69/690538503587433.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jardim-itagucu-2-1387074198",
-    "price": "200000",
-    "publishDate": "2025-03-16 23:12:00",
-    "coords": {
-      "lat": -23.0393191,
-      "lon": -47.12085969847532
     }
   },
   {
@@ -2582,6 +2617,78 @@
     }
   },
   {
+    "address": "Campinas, Taquaral",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "250"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/86/862541141114986.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casas-em-limeira-sp-1388009658",
+    "price": "250000",
+    "publishDate": "2025-03-19 23:12:00",
+    "coords": {
+      "lat": -22.880833,
+      "lon": -47.051667
+    }
+  },
+  {
+    "address": "Campinas, Jardim Florence",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "250"
+      },
+      {
+        "numberOfParkingSpaces": "5"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/32/327587744449430.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-venda-1387944638",
+    "price": "250000",
+    "publishDate": "2025-03-19 19:09:00",
+    "coords": {
+      "lat": -22.945514000000003,
+      "lon": -47.165998475725374
+    }
+  },
+  {
+    "address": "Campinas, Jardim Florence",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "38"
+      },
+      {
+        "numberOfParkingSpaces": "4"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/35/354573022607225.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-para-venda-com-boa-localizacao-1387332808",
+    "price": "250000",
+    "publishDate": "2025-03-17 22:33:00",
+    "coords": {
+      "lat": -22.945514000000003,
+      "lon": -47.165998475725374
+    }
+  },
+  {
     "address": "Campinas, Jardim Monte Cristo/Parque Oziel",
     "description": [
       {
@@ -3050,30 +3157,6 @@
     }
   },
   {
-    "address": "Campinas, Vila Padre Manoel de Nóbrega",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "130"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/96/964557848349506.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vila-padre-manoel-nobrega-de-450mil-por-270mil-ac-carro-1371116398",
-    "price": "270000",
-    "publishDate": "2025-01-18 00:07:00",
-    "coords": {
-      "lat": -22.91084,
-      "lon": -47.11593
-    }
-  },
-  {
     "address": "Campinas, Jardim São Marcos",
     "description": [
       {
@@ -3409,7 +3492,7 @@
     ],
     "link": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-imperdivel-casa-a-venda-1386071314",
     "price": "290000",
-    "publishDate": "2025-03-16 11:45:00",
+    "publishDate": "2025-03-19 11:45:00",
     "coords": {
       "lat": -19.52606,
       "lon": -40.63814
@@ -3704,30 +3787,6 @@
     }
   },
   {
-    "address": "Campinas, Parque Valença I",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "250"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/51/514501481137941.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-regiao-campo-grande-250-metros-1370886273",
-    "price": "310000",
-    "publishDate": "2025-01-17 11:27:00",
-    "coords": {
-      "lat": -22.94217,
-      "lon": -47.18673
-    }
-  },
-  {
     "address": "Campinas, Jardim Santo Antonio",
     "description": [
       {
@@ -3824,33 +3883,6 @@
     "coords": {
       "lat": -22.8402906,
       "lon": -47.1554487
-    }
-  },
-  {
-    "address": "Campinas, Jardim Florence",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "38"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/34/343564504933635.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-para-venda-com-boa-localizacao-1387332808",
-    "price": "320000",
-    "publishDate": "2025-03-17 22:33:00",
-    "coords": {
-      "lat": -22.945514000000003,
-      "lon": -47.165998475725374
     }
   },
   {
@@ -3968,30 +4000,6 @@
     "coords": {
       "lat": -27.5990882,
       "lon": -48.61344571700498
-    }
-  },
-  {
-    "address": "Campinas, Residencial Campo Florido",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "60"
-      },
-      {
-        "numberOfParkingSpaces": "4"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/83/831531488622223.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-garagem-e-quintal-otima-localizacao-1374101512",
-    "price": "329000",
-    "publishDate": "2025-01-28 22:29:00",
-    "coords": {
-      "lat": -22.832523549999998,
-      "lon": -47.15139825374783
     }
   },
   {
@@ -4142,30 +4150,6 @@
     }
   },
   {
-    "address": "Campinas, Jardim Londres",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "70"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/33/330574247536989.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1370423285",
-    "price": "330000",
-    "publishDate": "2025-01-15 21:11:00",
-    "coords": {
-      "lat": -22.923099,
-      "lon": -47.11102077757158
-    }
-  },
-  {
     "address": "Campinas, Parque Dom Pedro II",
     "description": [
       {
@@ -4238,6 +4222,33 @@
     "coords": {
       "lat": -23.1876769,
       "lon": -46.8523369
+    }
+  },
+  {
+    "address": "Campinas, Jardim Mirassol",
+    "description": [
+      {
+        "numberOfRooms": "2"
+      },
+      {
+        "floorSize": "140"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/60/607552867367199.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jardim-mirassol-1387814968",
+    "price": "350000",
+    "publishDate": "2025-03-19 12:29:00",
+    "coords": {
+      "lat": -22.8416978,
+      "lon": -47.1387166
     }
   },
   {
@@ -4476,6 +4487,33 @@
     "coords": {
       "lat": -22.89479,
       "lon": -47.15146
+    }
+  },
+  {
+    "address": "Campinas, Jardim Campos Elíseos",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "floorSize": "186"
+      },
+      {
+        "numberOfParkingSpaces": "2"
+      },
+      {
+        "numberOfBathroomsTotal": "3"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/40/404586386705824.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-um-sobrado-em-hortolandia-parcelo-e-aceito-carro-1387936692",
+    "price": "350000",
+    "publishDate": "2025-03-19 18:44:00",
+    "coords": {
+      "lat": -23.1872681,
+      "lon": -46.9030973
     }
   },
   {
@@ -5662,6 +5700,27 @@
     }
   },
   {
+    "address": "Campinas, Parque Residencial Vila União",
+    "description": [
+      {
+        "numberOfRooms": "3"
+      },
+      {
+        "numberOfBathroomsTotal": "2"
+      }
+    ],
+    "images": [
+      "https://img.olx.com.br/thumbs500x360/45/458552620019005.jpg"
+    ],
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-reformada-vila-uniao-1388005715",
+    "price": "430000",
+    "publishDate": "2025-03-19 22:52:00",
+    "coords": {
+      "lat": 40.31489,
+      "lon": -3.7834
+    }
+  },
+  {
     "address": "Campinas, Jardim Cristina",
     "description": [
       {
@@ -6007,30 +6066,6 @@
     }
   },
   {
-    "address": "Campinas, Bonfim",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "122"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/91/918527607666642.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-venda-no-bairro-bonfim-campinas-sp-1370344185",
-    "price": "450000",
-    "publishDate": "2025-01-15 17:13:00",
-    "coords": {
-      "lat": -22.7382426,
-      "lon": -47.1570607
-    }
-  },
-  {
     "address": "Campinas, Dic VI (Conjunto Habitacional Santo Dias Silva)",
     "description": [
       {
@@ -6109,33 +6144,6 @@
     "coords": {
       "lat": -22.947181999999998,
       "lon": -47.18103266907876
-    }
-  },
-  {
-    "address": "Campinas, Jardim Nova Mercedes",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "110"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/16/168448572623594.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-excelente-2-dorm-aceita-financiamento-nova-mercedes-campinas-sp-1349571551",
-    "price": "460000",
-    "publishDate": "2025-01-17 16:03:00",
-    "coords": {
-      "lat": -22.977525,
-      "lon": -47.1022475
     }
   },
   {
