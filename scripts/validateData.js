@@ -1,7 +1,10 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
-// Configurações
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const RESULTS_PATH = path.join(__dirname, "../../data/results");
 const PLATFORMS = ["olx", "zap"];
 
@@ -11,7 +14,6 @@ const PLATFORMS = ["olx", "zap"];
 function validateProperty(prop, platform) {
   const errors = [];
 
-  // Campos obrigatórios
   if (!prop.address || prop.address.trim() === "") {
     errors.push("Endereço ausente ou inválido");
   }
@@ -20,7 +22,6 @@ function validateProperty(prop, platform) {
     errors.push("Preço ausente ou inválido");
   }
 
-  // Validação específica por plataforma
   if (platform === "olx") {
     if (!prop.link || !prop.link.includes("olx.com.br")) {
       errors.push("Link OLX inválido");
@@ -31,7 +32,6 @@ function validateProperty(prop, platform) {
     }
   }
 
-  // Validação de imagens
   if (!prop.images || !Array.isArray(prop.images)) {
     errors.push("Lista de imagens inválida");
   } else if (prop.images.length === 0) {
@@ -54,7 +54,7 @@ function validateProperty(prop, platform) {
 /**
  * Processa os resultados de uma plataforma
  */
-function validatePlatformResults(platform) {
+async function validatePlatformResults(platform) {
   const filePath = path.join(RESULTS_PATH, `${platform}Results.json`);
 
   if (!fs.existsSync(filePath)) {
@@ -68,7 +68,7 @@ function validatePlatformResults(platform) {
   }
 
   try {
-    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    const data = JSON.parse(await fs.promises.readFile(filePath, "utf8"));
     if (!Array.isArray(data)) {
       throw new Error("Formato de dados inválido - esperado array");
     }
@@ -80,7 +80,6 @@ function validatePlatformResults(platform) {
     const validProperties = validationResults.filter((r) => r.isValid);
     const invalidProperties = validationResults.filter((r) => !r.isValid);
 
-    // Gerar relatório consolidado
     const errorReport = invalidProperties.reduce((acc, curr) => {
       curr.errors.forEach((error) => {
         acc[error] = (acc[error] || 0) + 1;
@@ -95,12 +94,11 @@ function validatePlatformResults(platform) {
     console.log("\nErros encontrados:");
     console.table(errorReport);
 
-    // Salvar relatório detalhado
     const reportPath = path.join(
       RESULTS_PATH,
       `${platform}ValidationReport.json`
     );
-    fs.writeFileSync(
+    await fs.promises.writeFile(
       reportPath,
       JSON.stringify(
         {
@@ -139,26 +137,23 @@ function validatePlatformResults(platform) {
 }
 
 // Processa todas as plataformas
-function runValidation() {
+(async () => {
   console.log("Iniciando validação dos dados...");
   let hasCriticalErrors = false;
 
-  PLATFORMS.forEach((platform) => {
-    const result = validatePlatformResults(platform);
+  for (const platform of PLATFORMS) {
+    const result = await validatePlatformResults(platform);
 
-    // Considerar erro crítico se mais de 30% dos dados forem inválidos
     if (result.total > 0 && result.invalid / result.total > 0.3) {
       console.error(`⚠️ ERRO CRÍTICO: ${platform} tem muitos dados inválidos`);
       hasCriticalErrors = true;
     }
-  });
+  }
 
   if (hasCriticalErrors) {
     console.error("\n🚨 Problemas críticos encontrados na validação!");
-    process.exit(1); // Falha no processo
+    process.exit(1);
   } else {
     console.log("\n✅ Validação concluída com sucesso");
   }
-}
-
-runValidation();
+})();
