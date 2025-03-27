@@ -1,7 +1,10 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
-// Configurações
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const EXISTING_RESULTS_PATH = path.join(
   __dirname,
   "../../querocasa/data/results"
@@ -17,7 +20,6 @@ function normalizeProperty(prop) {
     address: prop.address || "Sem endereço",
     price: prop.price || "Sem preço",
     description: prop.description || [],
-    // Outros campos relevantes para comparação
     link: prop.link || null,
     hasDuplicates: prop.hasDuplicates || false,
   };
@@ -31,11 +33,9 @@ function isSameProperty(prop1, prop2) {
     const norm1 = normalizeProperty(prop1);
     const norm2 = normalizeProperty(prop2);
 
-    // Comparação básica com fallbacks
     const basicMatch =
       norm1.address === norm2.address && norm1.price === norm2.price;
 
-    // Comparação de descrição com tratamento para campos ausentes
     const desc1 = norm1.description
       .map((d) => JSON.stringify(d))
       .sort()
@@ -74,11 +74,11 @@ function validateProperty(prop, isNew = false) {
 /**
  * Processa os resultados de uma plataforma
  */
-function processPlatformResults(platform) {
+async function processPlatformResults(platform) {
   const now = new Date().toISOString();
 
   try {
-    // Carrega dados existentes com fallback
+    // Carrega dados existentes
     const existingFile = path.join(
       EXISTING_RESULTS_PATH,
       `${platform}Results.json`
@@ -86,7 +86,8 @@ function processPlatformResults(platform) {
     let existingData = [];
     if (fs.existsSync(existingFile)) {
       try {
-        existingData = JSON.parse(fs.readFileSync(existingFile, "utf8")) || [];
+        existingData =
+          JSON.parse(await fs.promises.readFile(existingFile, "utf8")) || [];
       } catch (e) {
         console.error(
           `Erro ao ler arquivo existente de ${platform}:`,
@@ -96,12 +97,12 @@ function processPlatformResults(platform) {
       }
     }
 
-    // Carrega novos dados com tratamento de erro
+    // Carrega novos dados
     const newFile = path.join(NEW_RESULTS_PATH, `${platform}Results.json`);
     let newData = [];
     if (fs.existsSync(newFile)) {
       try {
-        newData = JSON.parse(fs.readFileSync(newFile, "utf8")) || [];
+        newData = JSON.parse(await fs.promises.readFile(newFile, "utf8")) || [];
       } catch (e) {
         console.error(`Erro ao ler novos dados de ${platform}:`, e.message);
         return;
@@ -111,7 +112,7 @@ function processPlatformResults(platform) {
       return;
     }
 
-    // Processamento dos dados
+    // Processamento
     const mergedData = [];
     const newProperties = [];
     const matchedProperties = [];
@@ -124,16 +125,14 @@ function processPlatformResults(platform) {
         );
 
         if (existingProp) {
-          // Mantém o ID existente e atualiza campos
           matchedProperties.push({
             ...existingProp,
             ...validatedNew,
-            id: existingProp.id, // Mantém ID original
+            id: existingProp.id,
             firstSeenAt: existingProp.firstSeenAt || validatedNew.firstSeenAt,
             lastSeenAt: now,
           });
         } else {
-          // Adiciona nova propriedade
           newProperties.push(validatedNew);
         }
       } catch (e) {
@@ -141,10 +140,8 @@ function processPlatformResults(platform) {
       }
     });
 
-    // Combina os dados
     mergedData.push(...matchedProperties, ...newProperties);
 
-    // Log de resultados
     console.log(`\n[${platform.toUpperCase()} Results]`);
     console.log(`Propriedades existentes: ${existingData.length}`);
     console.log(`Novas propriedades encontradas: ${newData.length}`);
@@ -152,8 +149,7 @@ function processPlatformResults(platform) {
     console.log(`Novas propriedades adicionadas: ${newProperties.length}`);
     console.log(`Total após merge: ${mergedData.length}`);
 
-    // Salva os dados mesclados
-    fs.writeFileSync(
+    await fs.promises.writeFile(
       path.join(EXISTING_RESULTS_PATH, `${platform}Results.json`),
       JSON.stringify(mergedData, null, 2)
     );
@@ -162,8 +158,11 @@ function processPlatformResults(platform) {
   }
 }
 
-// Processa todas as plataformas com tratamento de erros
-PLATFORMS.forEach((platform) => {
-  console.log(`\nIniciando processamento de ${platform.toUpperCase()}...`);
-  processPlatformResults(platform);
-});
+// Processa todas as plataformas
+(async () => {
+  console.log("\nIniciando processo de merge...");
+  for (const platform of PLATFORMS) {
+    await processPlatformResults(platform);
+  }
+  console.log("\n✅ Merge concluído com sucesso");
+})();
