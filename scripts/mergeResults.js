@@ -6,13 +6,15 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const EXISTING_RESULTS_PATH = path.join(
-  __dirname,
-  "../../querocasa/data/results"
-);
-const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
+// const EXISTING_RESULTS_PATH = path.join(
+//   __dirname,
+//   "../../querocasa/data/results"
+// );
+// const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
+// FIXME: Alterar para o caminho correto
+const EXISTING_RESULTS_PATH = path.join(__dirname, "../../data/results"); // Caminho dos dados existentes
+const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results"); // Caminho dos novos dados
 const PLATFORMS = ["olx", "zap"];
-
 /**
  * Valida e completa os dados da propriedade
  */
