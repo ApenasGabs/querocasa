@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
+// Configurações de caminho
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -13,62 +14,30 @@ const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
 const PLATFORMS = ["olx", "zap"];
 
 /**
- * Normaliza os dados da propriedade para comparação segura
- */
-function normalizeProperty(prop) {
-  return {
-    address: prop.address || "Sem endereço",
-    price: prop.price || "Sem preço",
-    description: prop.description || [],
-    link: prop.link || null,
-    hasDuplicates: prop.hasDuplicates || false,
-  };
-}
-
-/**
- * Comparação robusta entre propriedades
- */
-function isSameProperty(prop1, prop2) {
-  try {
-    const norm1 = normalizeProperty(prop1);
-    const norm2 = normalizeProperty(prop2);
-
-    const basicMatch =
-      norm1.address === norm2.address && norm1.price === norm2.price;
-
-    const desc1 = norm1.description
-      .map((d) => JSON.stringify(d))
-      .sort()
-      .join("|");
-    const desc2 = norm2.description
-      .map((d) => JSON.stringify(d))
-      .sort()
-      .join("|");
-    const descMatch = desc1 === desc2;
-
-    return basicMatch && descMatch;
-  } catch (error) {
-    console.error("Erro na comparação de propriedades:", error);
-    return false;
-  }
-}
-
-/**
  * Valida e completa os dados da propriedade
  */
-function validateProperty(prop, isNew = false) {
+function prepareProperty(prop, isNew = false) {
   const now = new Date().toISOString();
-  const defaults = {
+
+  // Se for uma propriedade existente, mantém os dados originais
+  if (!isNew) {
+    return {
+      ...prop,
+      lastSeenAt: now, // Apenas atualiza a data do último visto
+    };
+  }
+
+  // Para novas propriedades, cria um novo objeto completo
+  return {
+    ...prop,
     id: `prop_${Date.now()}_${Math.floor(Math.random() * 1000)}`,
-    scrapedAt: now,
-    firstSeenAt: isNew ? now : prop.firstSeenAt || now,
+    firstSeenAt: now,
     lastSeenAt: now,
+    scrapedAt: now,
     images: prop.images || [],
     description: prop.description || [],
     hasDuplicates: prop.hasDuplicates || false,
   };
-
-  return { ...defaults, ...prop };
 }
 
 /**
@@ -85,84 +54,91 @@ async function processPlatformResults(platform) {
     );
     let existingData = [];
     if (fs.existsSync(existingFile)) {
-      try {
-        existingData =
-          JSON.parse(await fs.promises.readFile(existingFile, "utf8")) || [];
-      } catch (e) {
-        console.error(
-          `Erro ao ler arquivo existente de ${platform}:`,
-          e.message
-        );
-        existingData = [];
-      }
+      existingData =
+        JSON.parse(await fs.promises.readFile(existingFile, "utf8")) || [];
     }
 
     // Carrega novos dados
     const newFile = path.join(NEW_RESULTS_PATH, `${platform}Results.json`);
-    let newData = [];
-    if (fs.existsSync(newFile)) {
-      try {
-        newData = JSON.parse(await fs.promises.readFile(newFile, "utf8")) || [];
-      } catch (e) {
-        console.error(`Erro ao ler novos dados de ${platform}:`, e.message);
-        return;
-      }
-    } else {
-      console.error(`Arquivo de novos dados não encontrado para ${platform}`);
-      return;
-    }
+    const newData =
+      JSON.parse(await fs.promises.readFile(newFile, "utf8")) || [];
 
-    // Processamento
-    const mergedData = [];
-    const newProperties = [];
-    const matchedProperties = [];
-
-    newData.forEach((newProp) => {
-      try {
-        const validatedNew = validateProperty(newProp, true);
-        const existingProp = existingData.find((existing) =>
-          isSameProperty(existing, validatedNew)
-        );
-
-        if (existingProp) {
-          matchedProperties.push({
-            ...existingProp,
-            ...validatedNew,
-            id: existingProp.id,
-            firstSeenAt: existingProp.firstSeenAt || validatedNew.firstSeenAt,
-            lastSeenAt: now,
-          });
-        } else {
-          newProperties.push(validatedNew);
-        }
-      } catch (e) {
-        console.error("Erro ao processar propriedade:", e.message);
+    // Cria mapa de propriedades existentes por link
+    const existingPropertiesByLink = new Map();
+    existingData.forEach((prop) => {
+      if (prop.link) {
+        existingPropertiesByLink.set(prop.link, prop);
       }
     });
 
-    mergedData.push(...matchedProperties, ...newProperties);
+    // Processa os novos dados
+    const mergedData = [];
+    const newProperties = [];
+    const updatedProperties = [];
 
+    newData.forEach((newProp) => {
+      if (!newProp.link) {
+        // Se não tem link, trata como nova propriedade
+        newProperties.push(prepareProperty(newProp, true));
+        return;
+      }
+
+      const existingProp = existingPropertiesByLink.get(newProp.link);
+
+      if (existingProp) {
+        // Mantém a propriedade existente com todos seus dados originais
+        updatedProperties.push(prepareProperty(existingProp, false));
+      } else {
+        // Adiciona como nova propriedade
+        newProperties.push(prepareProperty(newProp, true));
+      }
+    });
+
+    // Combina os dados (mantém propriedades não encontradas também)
+    const remainingProperties = existingData.filter(
+      (prop) => !newData.some((newProp) => newProp.link === prop.link)
+    );
+
+    mergedData.push(
+      ...updatedProperties,
+      ...newProperties,
+      ...remainingProperties
+    );
+
+    // Log de resultados
     console.log(`\n[${platform.toUpperCase()} Results]`);
     console.log(`Propriedades existentes: ${existingData.length}`);
     console.log(`Novas propriedades encontradas: ${newData.length}`);
-    console.log(`Propriedades correspondentes: ${matchedProperties.length}`);
+    console.log(`Propriedades atualizadas: ${updatedProperties.length}`);
     console.log(`Novas propriedades adicionadas: ${newProperties.length}`);
+    console.log(
+      `Propriedades não reencontradas: ${remainingProperties.length}`
+    );
     console.log(`Total após merge: ${mergedData.length}`);
 
+    // Salva os dados mesclados
     await fs.promises.writeFile(
       path.join(EXISTING_RESULTS_PATH, `${platform}Results.json`),
       JSON.stringify(mergedData, null, 2)
     );
   } catch (error) {
-    console.error(`Erro geral no processamento de ${platform}:`, error.message);
+    console.error(`Erro no processamento de ${platform}:`, error);
+    throw error; // Propaga o erro para o GitHub Actions
   }
 }
 
 // Processa todas as plataformas
 (async () => {
-  console.log("\nIniciando processo de merge...");
-  for (const platform of PLATFORMS) {
-    await processPlatformResults(platform);
+  try {
+    console.log("\nIniciando processo de merge baseado em links...");
+
+    for (const platform of PLATFORMS) {
+      await processPlatformResults(platform);
+    }
+
+    console.log("\n✅ Merge concluído com sucesso");
+  } catch (error) {
+    console.error("\n❌ Erro durante o merge:", error.message);
+    process.exit(1); // Falha o workflow
   }
-  console.log("\n✅ Merge concluído com sucesso");
 })();
