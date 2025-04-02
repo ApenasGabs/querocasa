@@ -21,6 +21,10 @@ export interface Property {
   link: string;
   price: string;
   coords: Coords;
+  id: string;
+  hasDuplicates?: boolean;
+  scrapedAt?: string;
+  elementId: string;
 }
 export interface Coords {
   lat?: number;

@@ -37,7 +37,14 @@ export interface PropertyCardProps {
  */
 const PropertyCard: React.FC<PropertyCardProps> = memo(
   ({ property, index }) => {
-    const { address, images, description, link, price } = property;
+    const { address, images, description, link, price, scrapedAt } = property;
+
+    const isNew = () => {
+      if (!scrapedAt) return false;
+      const today = new Date().toISOString().split("T")[0]; // Data atual no formato "YYYY-MM-DD"
+      const scrapedDate = new Date(scrapedAt).toISOString().split("T")[0];
+      return today === scrapedDate;
+    };
 
     const getDescriptionValue = (field: DescriptionFields) => {
       return description?.find((item) => item[field])?.[field] || undefined;
@@ -127,6 +134,7 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
               currency: "BRL",
             }) || "Preço não disponível"}
           </h2>
+          {isNew() && <div className="badge badge-success">New</div>}
           <p className="text-sm">{renderDescription()}</p>
           <p className="text-sm text-gray-500">
             {address || "Endereço não disponível"}
