@@ -49,21 +49,36 @@ async function processPlatformResults(platform) {
   const now = new Date().toISOString();
 
   try {
-    // Carrega dados existentes
+    // Caminhos dos arquivos
     const existingFile = path.join(
       EXISTING_RESULTS_PATH,
       `${platform}Results.json`
     );
+    const newFile = path.join(NEW_RESULTS_PATH, `${platform}Results.json`);
+
+    // Verifica se o arquivo novo existe
+    if (!fs.existsSync(newFile)) {
+      console.warn(
+        `Arquivo de novos dados não encontrado para ${platform}: ${newFile}`
+      );
+      return;
+    }
+
+    // Carrega novos dados
+    const newData =
+      JSON.parse(await fs.promises.readFile(newFile, "utf8")) || [];
+
+    // Carrega dados existentes (cria array vazio se não existir)
     let existingData = [];
     if (fs.existsSync(existingFile)) {
       existingData =
         JSON.parse(await fs.promises.readFile(existingFile, "utf8")) || [];
     }
 
-    // Carrega novos dados
-    const newFile = path.join(NEW_RESULTS_PATH, `${platform}Results.json`);
-    const newData =
-      JSON.parse(await fs.promises.readFile(newFile, "utf8")) || [];
+    // // Carrega novos dados
+    // const newFile = path.join(NEW_RESULTS_PATH, `${platform}Results.json`);
+    // const newData =
+    //   JSON.parse(await fs.promises.readFile(newFile, "utf8")) || [];
 
     // Cria mapa de propriedades existentes por link
     const existingPropertiesByLink = new Map();
