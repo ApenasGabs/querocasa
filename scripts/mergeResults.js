@@ -102,12 +102,21 @@ async function processPlatformResults(platform) {
     const mergedData = [];
     const newProperties = [];
     const updatedProperties = [];
+    let propertiesWithoutLink = 0;
 
     newData.forEach((newProp) => {
       if (!newProp.link) {
-        console.warn(
-          `Propriedade sem link encontrada: ${JSON.stringify(newProp)}`
-        );
+        propertiesWithoutLink++;
+        newProperties.push({
+          ...newProp,
+          id: generateId(),
+          firstSeenAt: now,
+          lastSeenAt: now,
+          scrapedAt: now,
+          images: newProp.images || [],
+          description: newProp.description || "",
+          hasDuplicates: newProp.hasDuplicates || false,
+        });
         return;
       }
 
@@ -144,17 +153,17 @@ async function processPlatformResults(platform) {
     // Apenas propriedades que foram reencontradas são mantidas
     mergedData.push(...updatedProperties, ...newProperties);
 
+    const removedProperties = existingData.length - updatedProperties.length;
+
     // Log de resultados
     console.log(`\n[${platform.toUpperCase()} Results]`);
     console.log(`Propriedades existentes: ${existingData.length}`);
-    console.log(`Novas propriedades encontradas: ${newData.length}`);
+    console.log(
+      `Novas propriedades encontradas: ${newData.length} (${propertiesWithoutLink} sem link)`
+    );
     console.log(`Propriedades atualizadas: ${updatedProperties.length}`);
     console.log(`Novas propriedades adicionadas: ${newProperties.length}`);
-    console.log(
-      `Propriedades removidas: ${
-        existingData.length - updatedProperties.length
-      }`
-    );
+    console.log(`Propriedades removidas: ${removedProperties}`);
     console.log(`Total após merge: ${mergedData.length}`);
 
     // Salva os dados mesclados
