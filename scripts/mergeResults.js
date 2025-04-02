@@ -114,24 +114,33 @@ async function processPlatformResults(platform) {
     console.log(`Propriedades existentes carregadas: ${existingData.length}`);
 
     const newData = await safeReadJsonFile(newFile);
+
+    console.log(`Propriedades existentes: ${existingData.length}`);
     console.log(`Novas propriedades encontradas: ${newData.length}`);
 
+    if (newData.length === 0) {
+      console.log("⚠️ Nenhum dado novo encontrado - mantendo dados existentes");
+      await fs.promises.writeFile(
+        existingFile,
+        JSON.stringify(existingData, null, 2)
+      );
+      return;
+    }
+
+    // Processamento normal do merge
     const existingPropertiesByLink = new Map();
-    existingData.forEach((prop) => {
-      if (prop.link) {
-        existingPropertiesByLink.set(prop.link, prop);
-      }
-    });
+    existingData.forEach(
+      (prop) => prop.link && existingPropertiesByLink.set(prop.link, prop)
+    );
 
     const mergedData = [];
-    const newProperties = [];
-    const updatedProperties = [];
-    let propertiesWithoutLink = 0;
+    let updatedCount = 0;
+    let newCount = 0;
 
     newData.forEach((newProp) => {
       if (!newProp.link) {
-        propertiesWithoutLink++;
-        newProperties.push({
+        newCount++;
+        mergedData.push({
           ...newProp,
           id: generateId(),
           firstSeenAt: now,
@@ -145,9 +154,9 @@ async function processPlatformResults(platform) {
       }
 
       const existingProp = existingPropertiesByLink.get(newProp.link);
-
       if (existingProp) {
-        updatedProperties.push({
+        updatedCount++;
+        mergedData.push({
           ...existingProp,
           lastSeenAt: now,
           ...Object.fromEntries(
@@ -158,7 +167,8 @@ async function processPlatformResults(platform) {
           ),
         });
       } else {
-        newProperties.push({
+        newCount++;
+        mergedData.push({
           ...newProp,
           id: generateId(),
           firstSeenAt: now,
@@ -171,31 +181,21 @@ async function processPlatformResults(platform) {
       }
     });
 
-    mergedData.push(...updatedProperties, ...newProperties);
-
-    const removedProperties = existingData.length - updatedProperties.length;
-
+    // Logs detalhados
     console.log(`\n[${platform.toUpperCase()} Results]`);
-    console.log(`Propriedades existentes: ${existingData.length}`);
-    console.log(
-      `Novas propriedades encontradas: ${newData.length} (${propertiesWithoutLink} sem link)`
-    );
-    console.log(`Propriedades atualizadas: ${updatedProperties.length}`);
-    console.log(`Novas propriedades adicionadas: ${newProperties.length}`);
-    console.log(`Propriedades removidas: ${removedProperties}`);
+    console.log(`Propriedades atualizadas: ${updatedCount}`);
+    console.log(`Novas propriedades adicionadas: ${newCount}`);
     console.log(`Total após merge: ${mergedData.length}`);
 
     await fs.promises.writeFile(
       existingFile,
       JSON.stringify(mergedData, null, 2)
     );
-    console.log(`Dados mesclados salvos em: ${existingFile}`);
   } catch (error) {
     console.error(`Erro no processamento de ${platform}:`, error);
     throw error;
   }
 }
-
 // Processa todas as plataformas
 (async () => {
   try {
