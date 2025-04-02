@@ -14,11 +14,41 @@ const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
 const PLATFORMS = ["olx", "zap"];
 
 /**
+ * Função para leitura segura de arquivos JSON
+ */
+async function safeReadJsonFile(filePath) {
+  try {
+    if (!fs.existsSync(filePath)) {
+      console.warn(`Arquivo não encontrado: ${filePath}`);
+      return [];
+    }
+
+    const fileContent = await fs.promises.readFile(filePath, "utf8");
+
+    if (!fileContent.trim()) {
+      console.warn(`Arquivo vazio: ${filePath}`);
+      return [];
+    }
+
+    const parsedData = JSON.parse(fileContent);
+
+    if (!Array.isArray(parsedData)) {
+      console.warn(`Conteúdo inválido (não é array) em: ${filePath}`);
+      return [];
+    }
+
+    return parsedData;
+  } catch (error) {
+    console.error(`Erro ao ler/parsear arquivo ${filePath}:`, error.message);
+    return [];
+  }
+}
+
+/**
  * Verifica e cria a estrutura de diretórios e arquivos necessários
  */
 async function checkAndCreateResultsDirectory() {
   try {
-    // Cria diretórios se não existirem
     if (!fs.existsSync(EXISTING_RESULTS_PATH)) {
       await fs.promises.mkdir(EXISTING_RESULTS_PATH, { recursive: true });
       console.log(`Diretório criado: ${EXISTING_RESULTS_PATH}`);
@@ -29,7 +59,6 @@ async function checkAndCreateResultsDirectory() {
       console.log(`Diretório criado: ${NEW_RESULTS_PATH}`);
     }
 
-    // Verifica e cria arquivos vazios se não existirem
     for (const platform of PLATFORMS) {
       const existingFilePath = path.join(
         EXISTING_RESULTS_PATH,
@@ -67,7 +96,7 @@ function generateId() {
 }
 
 /**
- * Processa os resultados de uma plataforma com a nova lógica de merge
+ * Processa os resultados de uma plataforma
  */
 async function processPlatformResults(platform) {
   const now = new Date().toISOString();
@@ -75,22 +104,18 @@ async function processPlatformResults(platform) {
   try {
     console.log(`\nProcessando resultados da plataforma: ${platform}`);
 
-    // Caminhos dos arquivos
     const existingFile = path.join(
       EXISTING_RESULTS_PATH,
       `${platform}Results.json`
     );
     const newFile = path.join(NEW_RESULTS_PATH, `${platform}Results.json`);
 
-    // Carrega dados existentes (array vazio se não existir ou for inválido)
     const existingData = await safeReadJsonFile(existingFile);
     console.log(`Propriedades existentes carregadas: ${existingData.length}`);
 
-    // Carrega novos dados (array vazio se não existir ou for inválido)
     const newData = await safeReadJsonFile(newFile);
     console.log(`Novas propriedades encontradas: ${newData.length}`);
 
-    // Cria mapa de propriedades existentes por link
     const existingPropertiesByLink = new Map();
     existingData.forEach((prop) => {
       if (prop.link) {
@@ -98,7 +123,6 @@ async function processPlatformResults(platform) {
       }
     });
 
-    // Processa os novos dados
     const mergedData = [];
     const newProperties = [];
     const updatedProperties = [];
@@ -123,11 +147,9 @@ async function processPlatformResults(platform) {
       const existingProp = existingPropertiesByLink.get(newProp.link);
 
       if (existingProp) {
-        // Mantém TODOS os dados originais e apenas atualiza lastSeenAt
         updatedProperties.push({
           ...existingProp,
           lastSeenAt: now,
-          // Atualiza campos que podem ter mudado (exceto os metadados)
           ...Object.fromEntries(
             Object.entries(newProp).filter(
               ([key]) =>
@@ -136,7 +158,6 @@ async function processPlatformResults(platform) {
           ),
         });
       } else {
-        // Adiciona como nova propriedade com todos os metadados
         newProperties.push({
           ...newProp,
           id: generateId(),
@@ -150,12 +171,10 @@ async function processPlatformResults(platform) {
       }
     });
 
-    // Apenas propriedades que foram reencontradas são mantidas
     mergedData.push(...updatedProperties, ...newProperties);
 
     const removedProperties = existingData.length - updatedProperties.length;
 
-    // Log de resultados
     console.log(`\n[${platform.toUpperCase()} Results]`);
     console.log(`Propriedades existentes: ${existingData.length}`);
     console.log(
@@ -166,7 +185,6 @@ async function processPlatformResults(platform) {
     console.log(`Propriedades removidas: ${removedProperties}`);
     console.log(`Total após merge: ${mergedData.length}`);
 
-    // Salva os dados mesclados
     await fs.promises.writeFile(
       existingFile,
       JSON.stringify(mergedData, null, 2)
@@ -182,8 +200,6 @@ async function processPlatformResults(platform) {
 (async () => {
   try {
     console.log("\nIniciando processo de merge baseado em links...");
-
-    // Verifica e cria estrutura de diretórios/arquivos se necessário
     await checkAndCreateResultsDirectory();
 
     for (const platform of PLATFORMS) {
@@ -193,6 +209,6 @@ async function processPlatformResults(platform) {
     console.log("\n✅ Merge concluído com sucesso");
   } catch (error) {
     console.error("\n❌ Erro durante o merge:", error.message);
-    process.exit(1); // Falha o workflow
+    process.exit(1);
   }
 })();
