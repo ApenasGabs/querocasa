@@ -1882,5 +1882,13 @@
   "Núcleo Residencial Dois de Julho": {
     "lat": -22.90904,
     "lon": -47.06454
+  },
+  "Terminal Intermodal de Cargas (TIC)": {
+    "lat": -22.84513,
+    "lon": -47.15517
+  },
+  "Vila Marta": {
+    "lat": -22.9228,
+    "lon": -47.05592
   }
 }
