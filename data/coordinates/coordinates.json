@@ -1890,5 +1890,13 @@
   "Vila Marta": {
     "lat": -22.9228,
     "lon": -47.05592
+  },
+  "Jardim Cidade Universitária": {
+    "lat": -22.7867431,
+    "lon": -47.0641038
+  },
+  "Jardim das Cerejeiras": {
+    "lat": -23.1258708,
+    "lon": -46.5834389
   }
 }
