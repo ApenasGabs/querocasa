@@ -2,6 +2,7 @@ import React, { memo } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import defaultImage from "../../assets/mcmv.png";
 import { DescriptionFields, Property } from "../../services/dataService";
+import getBrasiliaTime from "../../utils/getBrasiliaTime";
 
 export interface PropertyCardProps {
   property: Property;
@@ -41,8 +42,8 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
 
     const isNew = () => {
       if (!scrapedAt) return false;
-      const today = new Date().toISOString().split("T")[0]; // Data atual no formato "YYYY-MM-DD"
-      const scrapedDate = new Date(scrapedAt).toISOString().split("T")[0];
+      const today = new Date(getBrasiliaTime()).toLocaleDateString("pt-BR");
+      const scrapedDate = new Date(scrapedAt).toLocaleDateString("pt-BR");
       return today === scrapedDate;
     };
 
