@@ -1,12 +1,13 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import getBrasiliaTime from "./getBrasiliaTime.js";
 
 // Configurações de caminho
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const EXISTING_RESULTS_PATH = path.join(
+const OLD_RESULTS_PATH = path.join(
   __dirname,
   "../../querocasa/data/results"
 );
@@ -49,9 +50,9 @@ async function safeReadJsonFile(filePath) {
  */
 async function checkAndCreateResultsDirectory() {
   try {
-    if (!fs.existsSync(EXISTING_RESULTS_PATH)) {
-      await fs.promises.mkdir(EXISTING_RESULTS_PATH, { recursive: true });
-      console.log(`Diretório criado: ${EXISTING_RESULTS_PATH}`);
+    if (!fs.existsSync(OLD_RESULTS_PATH)) {
+      await fs.promises.mkdir(OLD_RESULTS_PATH, { recursive: true });
+      console.log(`Diretório criado: ${OLD_RESULTS_PATH}`);
     }
 
     if (!fs.existsSync(NEW_RESULTS_PATH)) {
@@ -61,7 +62,7 @@ async function checkAndCreateResultsDirectory() {
 
     for (const platform of PLATFORMS) {
       const existingFilePath = path.join(
-        EXISTING_RESULTS_PATH,
+        OLD_RESULTS_PATH,
         `${platform}Results.json`
       );
       const newFilePath = path.join(
@@ -98,39 +99,34 @@ function generateId() {
 /**
  * Processa os resultados de uma plataforma
  */
-async function processPlatformResults(platform) {
-  const now = new Date().toISOString();
+const processPlatformResults = async (platform) => {
+  const now = getBrasiliaTime();
 
   try {
-    console.log(`\nProcessando resultados da plataforma: ${platform}`);
+    console.log(`\n🔄 Processando resultados da plataforma: ${platform}`);
 
-    const existingFile = path.join(
-      EXISTING_RESULTS_PATH,
-      `${platform}Results.json`
-    );
+    const oldFile = path.join(OLD_RESULTS_PATH, `${platform}Results.json`);
     const newFile = path.join(NEW_RESULTS_PATH, `${platform}Results.json`);
 
-    const existingData = await safeReadJsonFile(existingFile);
-    console.log(`Propriedades existentes carregadas: ${existingData.length}`);
-
+    console.log(`📂 Carregando dados antigos de: ${oldFile}`);
+    const oldData = await safeReadJsonFile(oldFile);
+    console.log(`📂 Carregando novos dados de: ${newFile}`);
     const newData = await safeReadJsonFile(newFile);
-
-    console.log(`Propriedades existentes: ${existingData.length}`);
-    console.log(`Novas propriedades encontradas: ${newData.length}`);
+    console.log(`📂 Dados antigos carregados (${platform}):`, oldData);
+    console.log(`📂 Dados novos carregados (${platform}):`, newData);
+    console.log(`📊 Propriedades antigas carregadas: ${oldData.length}`);
+    console.log(`📊 Novas propriedades encontradas: ${newData.length}`);
 
     if (newData.length === 0) {
-      console.log("⚠️ Nenhum dado novo encontrado - mantendo dados existentes");
-      await fs.promises.writeFile(
-        existingFile,
-        JSON.stringify(existingData, null, 2)
-      );
+      console.log("⚠️ Nenhum dado novo encontrado - mantendo dados antigos");
+      await fs.promises.writeFile(oldFile, JSON.stringify(oldData, null, 2));
       return;
     }
 
     // Processamento normal do merge
-    const existingPropertiesByLink = new Map();
-    existingData.forEach(
-      (prop) => prop.link && existingPropertiesByLink.set(prop.link, prop)
+    const oldPropertiesByLink = new Map();
+    oldData.forEach(
+      (prop) => prop.link && oldPropertiesByLink.set(prop.link, prop)
     );
 
     const mergedData = [];
@@ -153,16 +149,15 @@ async function processPlatformResults(platform) {
         return;
       }
 
-      const existingProp = existingPropertiesByLink.get(newProp.link);
-      if (existingProp) {
+      const oldProp = oldPropertiesByLink.get(newProp.link);
+      if (oldProp) {
         updatedCount++;
         mergedData.push({
-          ...existingProp,
+          ...oldProp,
           lastSeenAt: now,
           ...Object.fromEntries(
             Object.entries(newProp).filter(
-              ([key]) =>
-                !["id", "firstSeenAt", "lastSeenAt", "scrapedAt"].includes(key)
+              ([key]) => !["id", "firstSeenAt", "scrapedAt"].includes(key)
             )
           ),
         });
@@ -183,19 +178,16 @@ async function processPlatformResults(platform) {
 
     // Logs detalhados
     console.log(`\n[${platform.toUpperCase()} Results]`);
-    console.log(`Propriedades atualizadas: ${updatedCount}`);
-    console.log(`Novas propriedades adicionadas: ${newCount}`);
-    console.log(`Total após merge: ${mergedData.length}`);
+    console.log(`✅ Propriedades atualizadas: ${updatedCount}`);
+    console.log(`✅ Novas propriedades adicionadas: ${newCount}`);
+    console.log(`📊 Total após merge: ${mergedData.length}`);
 
-    await fs.promises.writeFile(
-      existingFile,
-      JSON.stringify(mergedData, null, 2)
-    );
+    await fs.promises.writeFile(oldFile, JSON.stringify(mergedData, null, 2));
   } catch (error) {
-    console.error(`Erro no processamento de ${platform}:`, error);
+    console.error(`❌ Erro no processamento de ${platform}:`, error);
     throw error;
   }
-}
+};
 // Processa todas as plataformas
 (async () => {
   try {
