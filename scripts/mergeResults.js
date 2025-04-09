@@ -7,10 +7,7 @@ import getBrasiliaTime from "./getBrasiliaTime.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OLD_RESULTS_PATH = path.join(
-  __dirname,
-  "../../querocasa/data/results"
-);
+const OLD_RESULTS_PATH = path.join(__dirname, "../../querocasa/data/results");
 const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
 const PLATFORMS = ["olx", "zap"];
 
@@ -112,8 +109,7 @@ const processPlatformResults = async (platform) => {
     const oldData = await safeReadJsonFile(oldFile);
     console.log(`📂 Carregando novos dados de: ${newFile}`);
     const newData = await safeReadJsonFile(newFile);
-    console.log(`📂 Dados antigos carregados (${platform}):`, oldData);
-    console.log(`📂 Dados novos carregados (${platform}):`, newData);
+
     console.log(`📊 Propriedades antigas carregadas: ${oldData.length}`);
     console.log(`📊 Novas propriedades encontradas: ${newData.length}`);
 
@@ -152,15 +148,21 @@ const processPlatformResults = async (platform) => {
       const oldProp = oldPropertiesByLink.get(newProp.link);
       if (oldProp) {
         updatedCount++;
-        mergedData.push({
-          ...oldProp,
-          lastSeenAt: now,
-          ...Object.fromEntries(
-            Object.entries(newProp).filter(
-              ([key]) => !["id", "firstSeenAt", "scrapedAt"].includes(key)
-            )
-          ),
-        });
+        const updatedProp = { ...oldProp };
+
+        updatedProp.lastSeenAt = now;
+
+        if (oldProp.scrapedAt) {
+          updatedProp.scrapedAt = oldProp.scrapedAt;
+        }
+
+        for (const [key, value] of Object.entries(newProp)) {
+          if (!["id", "firstSeenAt", "scrapedAt"].includes(key)) {
+            updatedProp[key] = value;
+          }
+        }
+
+        mergedData.push(updatedProp);
       } else {
         newCount++;
         mergedData.push({
