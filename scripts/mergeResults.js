@@ -148,21 +148,17 @@ const processPlatformResults = async (platform) => {
       const oldProp = oldPropertiesByLink.get(newProp.link);
       if (oldProp) {
         updatedCount++;
-        const updatedProp = { ...oldProp };
+        const updateData = Object.fromEntries(
+          Object.entries(q1).filter(
+            ([key]) => !protectedFields.includes(key)
+          )
+        );
 
-        updatedProp.lastSeenAt = now;
-
-        if (oldProp.scrapedAt) {
-          updatedProp.scrapedAt = oldProp.scrapedAt;
-        }
-
-        for (const [key, value] of Object.entries(newProp)) {
-          if (!["id", "firstSeenAt", "scrapedAt"].includes(key)) {
-            updatedProp[key] = value;
-          }
-        }
-
-        mergedData.push(updatedProp);
+        mergedData.push({
+          ...oldProp,
+          lastSeenAt: now,
+          ...updateData,
+        });
       } else {
         newCount++;
         mergedData.push({
