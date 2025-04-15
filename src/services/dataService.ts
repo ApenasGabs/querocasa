@@ -24,6 +24,7 @@ export interface Property {
   id: string;
   hasDuplicates?: boolean;
   scrapedAt?: string;
+  lastSeenAt?: string;
   elementId: string;
 }
 export interface Coords {

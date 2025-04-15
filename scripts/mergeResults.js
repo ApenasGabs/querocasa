@@ -7,9 +7,22 @@ import getBrasiliaTime from "./getBrasiliaTime.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OLD_RESULTS_PATH = path.join(__dirname, "../../querocasa/data/results");
-const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
+const DEFAULT_OLD_RESULTS_PATH = path.join(
+  __dirname,
+  "../../querocasa/data/results"
+);
+const DEFAULT_NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
 const PLATFORMS = ["olx", "zap"];
+
+// Variáveis de configuração que podem ser injetadas para testes
+let OLD_RESULTS_PATH = DEFAULT_OLD_RESULTS_PATH;
+let NEW_RESULTS_PATH = DEFAULT_NEW_RESULTS_PATH;
+
+// Função para configurar caminhos - usada principalmente para testes
+export function configurePaths(oldPath, newPath) {
+  OLD_RESULTS_PATH = oldPath || DEFAULT_OLD_RESULTS_PATH;
+  NEW_RESULTS_PATH = newPath || DEFAULT_NEW_RESULTS_PATH;
+}
 
 /**
  * Função para leitura segura de arquivos JSON
@@ -96,9 +109,8 @@ function generateId() {
 /**
  * Processa os resultados de uma plataforma
  */
-const processPlatformResults = async (platform) => {
+export const processPlatformResults = async (platform) => {
   const now = getBrasiliaTime();
-
   try {
     console.log(`\n🔄 Processando resultados da plataforma: ${platform}`);
 
@@ -128,9 +140,31 @@ const processPlatformResults = async (platform) => {
     const mergedData = [];
     let updatedCount = 0;
     let newCount = 0;
+    let preservedCount = 0;
 
+    // Primeiro adiciona todos os itens antigos que não têm link
+    oldData.forEach((oldProp) => {
+      if (!oldProp.link) {
+        mergedData.push(oldProp);
+        preservedCount++;
+      }
+    });
+
+    // Cria um set com todos os links dos dados novos para verificação rápida
+    const newLinks = new Set(newData.map((prop) => prop.link).filter(Boolean));
+
+    // Adiciona itens antigos que não estão nos novos dados
+    oldData.forEach((oldProp) => {
+      if (oldProp.link && !newLinks.has(oldProp.link)) {
+        // Este item foi removido nos novos dados
+        // (Não adicionamos ao mergedData, efetivamente removendo-o)
+      }
+    });
+
+    // Processa os novos dados
     newData.forEach((newProp) => {
       if (!newProp.link) {
+        // Novos itens sem link são adicionados com novos IDs
         newCount++;
         mergedData.push({
           ...newProp,
@@ -147,19 +181,41 @@ const processPlatformResults = async (platform) => {
 
       const oldProp = oldPropertiesByLink.get(newProp.link);
       if (oldProp) {
+        // Item existe em ambos os conjuntos de dados
         updatedCount++;
-        const updateData = Object.fromEntries(
-          Object.entries(q1).filter(
-            ([key]) => !protectedFields.includes(key)
-          )
-        );
 
-        mergedData.push({
-          ...oldProp,
-          lastSeenAt: now,
-          ...updateData,
+        // Criamos uma cópia do objeto antigo para preservar todos os campos
+        const mergedProp = { ...oldProp };
+
+        // CAMPOS CRÍTICOS QUE DEVEM SER PRESERVADOS
+        // 1. Garantimos que o ID original seja mantido
+        mergedProp.id = oldProp.id;
+
+        // 2. Garantimos que o scrapedAt original seja mantido
+        mergedProp.scrapedAt = oldProp.scrapedAt;
+
+        // 3. firstSeenAt deve ser mantido, pois é a data da primeira vez que o item foi visto
+        mergedProp.firstSeenAt = oldProp.firstSeenAt;
+
+        // 4. Atualizamos o lastSeenAt para a data atual
+        mergedProp.lastSeenAt = now;
+
+        // Log para debug (remover em produção se necessário)
+        console.log(`Atualizando item com link: ${newProp.link}`);
+        console.log(`  → ID original preservado: ${oldProp.id}`);
+        console.log(`  → scrapedAt original preservado: ${oldProp.scrapedAt}`);
+
+        // Atualiza os outros campos com as novas informações
+        Object.keys(newProp).forEach((key) => {
+          // Lista explícita de campos que não devem ser atualizados
+          if (!["id", "firstSeenAt", "scrapedAt"].includes(key)) {
+            mergedProp[key] = newProp[key];
+          }
         });
+
+        mergedData.push(mergedProp);
       } else {
+        // Item existe apenas nos novos dados
         newCount++;
         mergedData.push({
           ...newProp,
@@ -178,6 +234,7 @@ const processPlatformResults = async (platform) => {
     console.log(`\n[${platform.toUpperCase()} Results]`);
     console.log(`✅ Propriedades atualizadas: ${updatedCount}`);
     console.log(`✅ Novas propriedades adicionadas: ${newCount}`);
+    console.log(`✅ Propriedades preservadas: ${preservedCount}`);
     console.log(`📊 Total após merge: ${mergedData.length}`);
 
     await fs.promises.writeFile(oldFile, JSON.stringify(mergedData, null, 2));
