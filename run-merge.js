@@ -1,8 +1,7 @@
 import { processPlatformResults, configurePaths } from './scripts/mergeResults.js';
 
-// Define os caminhos usados na pipeline
-const OLD_PATH = './data/results';      // Dados antigos dentro de querocasa
-const NEW_PATH = '../data/results_new'; // Dados novos (diretório separado)
+const OLD_PATH = './data/results';
+const NEW_PATH = '../data/results_new';
 
 async function runMerge() {
   try {
@@ -10,10 +9,8 @@ async function runMerge() {
     console.log(`OLD_PATH: ${OLD_PATH}`);
     console.log(`NEW_PATH: ${NEW_PATH}`);
     
-    // Configura os caminhos explicitamente
     configurePaths(OLD_PATH, NEW_PATH);
     
-    // Executa o merge para cada plataforma
     console.log('Iniciando processamento de OLX...');
     await processPlatformResults('olx');
     
