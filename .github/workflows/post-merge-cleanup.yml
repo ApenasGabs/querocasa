@@ -1,0 +1,47 @@
+name: Cleanup After Merge
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - api
+
+jobs:
+  cleanup:
+    # Executar apenas se o PR foi mesclado (não apenas fechado)
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: api # Certifique-se de estar na branch correta após o merge
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline
+
+      - name: Run cleanup script
+        run: node scripts/cleanupErrors.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git status --porcelain
+          echo "::set-output name=modified::$(if git status --porcelain | grep -q .; then echo "true"; else echo "false"; fi)"
+
+      - name: Commit changes if needed
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --local user.email "${{ secrets.GIT_USER_EMAIL }}"
+          git config --local user.name "${{ secrets.GIT_USER_NAME }}"
+          git add -A
+          git commit -m "🧹 Limpeza automática das capturas de erro pós-merge"
+          git push

@@ -238,6 +238,18 @@ export const processPlatformResults = async (platform) => {
     console.log(`📊 Total após merge: ${mergedData.length}`);
 
     await fs.promises.writeFile(oldFile, JSON.stringify(mergedData, null, 2));
+
+    if (process.env.GITHUB_ENV) {
+      const envPath = process.env.GITHUB_ENV;
+      const platformUpper = platform.toUpperCase();
+
+      fs.appendFileSync(envPath, `${platformUpper}_UPDATED=${updatedCount}\n`);
+      fs.appendFileSync(envPath, `${platformUpper}_NEW=${newCount}\n`);
+      fs.appendFileSync(
+        envPath,
+        `${platformUpper}_PRESERVED=${preservedCount}\n`
+      );
+    }
   } catch (error) {
     console.error(`❌ Erro no processamento de ${platform}:`, error);
     throw error;
