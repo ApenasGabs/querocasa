@@ -8,32 +8,72 @@ import { fileURLToPath } from "url";
  */
 async function cleanupErrorScreenshots() {
   try {
+    // Diretórios a serem verificados
     const screenshotsDir = path.join(process.cwd(), "screenshots");
+    const dataDir = path.join(process.cwd(), "data/results");
 
     console.log("🧹 Iniciando limpeza das capturas de erro...");
 
+    // Lista para armazenar todos os arquivos de imagem encontrados
+    let allImageFiles = [];
+
+    // Verificar e processar pasta screenshots
     try {
       await fs.access(screenshotsDir);
+      const files = await fs.readdir(screenshotsDir);
+      const imageFiles = files.filter(
+        (file) =>
+          file.endsWith(".png") ||
+          file.endsWith(".jpg") ||
+          file.endsWith(".jpeg")
+      );
+
+      // Adicionar caminho completo para cada imagem
+      allImageFiles.push(
+        ...imageFiles.map((file) => ({
+          path: path.join(screenshotsDir, file),
+          name: file,
+          dir: "screenshots",
+        }))
+      );
     } catch (error) {
-      console.log("📂 Pasta de screenshots não encontrada. Nada para limpar.");
-      return;
+      console.log("📂 Pasta de screenshots não encontrada.");
     }
 
-    const files = await fs.readdir(screenshotsDir);
-    const imageFiles = files.filter(
-      (file) =>
-        file.endsWith(".png") || file.endsWith(".jpg") || file.endsWith(".jpeg")
-    );
+    // Verificar e processar pasta data
+    try {
+      await fs.access(dataDir);
+      const dataFiles = await fs.readdir(dataDir);
+      const dataImageFiles = dataFiles.filter(
+        (file) =>
+          file.endsWith(".png") ||
+          file.endsWith(".jpg") ||
+          file.endsWith(".jpeg")
+      );
 
-    if (imageFiles.length === 0) {
-      console.log("✅ Nenhuma imagem de erro encontrada. Pasta já está limpa.");
+      // Adicionar caminho completo para cada imagem
+      allImageFiles.push(
+        ...dataImageFiles.map((file) => ({
+          path: path.join(dataDir, file),
+          name: file,
+          dir: "data",
+        }))
+      );
+    } catch (error) {
+      console.log("📂 Pasta de data não encontrada.");
+    }
+
+    if (allImageFiles.length === 0) {
+      console.log(
+        "✅ Nenhuma imagem de erro encontrada. Pastas já estão limpas."
+      );
       return;
     }
 
     const backupLog = {
       date: new Date().toISOString(),
-      deletedFiles: imageFiles,
-      count: imageFiles.length,
+      deletedFiles: allImageFiles.map((file) => `${file.dir}/${file.name}`),
+      count: allImageFiles.length,
     };
 
     const logDir = path.join(process.cwd(), "logs");
@@ -47,9 +87,8 @@ async function cleanupErrorScreenshots() {
     await fs.writeFile(logPath, JSON.stringify(backupLog, null, 2));
 
     let deletedCount = 0;
-    for (const file of imageFiles) {
-      const filePath = path.join(screenshotsDir, file);
-      await fs.unlink(filePath);
+    for (const file of allImageFiles) {
+      await fs.unlink(file.path);
       deletedCount++;
     }
 
