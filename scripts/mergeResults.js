@@ -7,10 +7,7 @@ import getBrasiliaTime from "./getBrasiliaTime.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OLD_RESULTS_PATH = path.join(
-  __dirname,
-  "../../querocasa/data/results"
-);
+const OLD_RESULTS_PATH = path.join(__dirname, "../../querocasa/data/results");
 const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
 const PLATFORMS = ["olx", "zap"];
 
@@ -153,9 +150,7 @@ const processPlatformResults = async (platform) => {
       if (oldProp) {
         updatedCount++;
         const updateData = Object.fromEntries(
-          Object.entries(q1).filter(
-            ([key]) => !protectedFields.includes(key)
-          )
+          Object.entries(q1).filter(([key]) => !protectedFields.includes(key))
         );
 
         mergedData.push({
@@ -185,6 +180,18 @@ const processPlatformResults = async (platform) => {
     console.log(`📊 Total após merge: ${mergedData.length}`);
 
     await fs.promises.writeFile(oldFile, JSON.stringify(mergedData, null, 2));
+
+    if (process.env.GITHUB_ENV) {
+      const envPath = process.env.GITHUB_ENV;
+      const platformUpper = platform.toUpperCase();
+
+      fs.appendFileSync(envPath, `${platformUpper}_UPDATED=${updatedCount}\n`);
+      fs.appendFileSync(envPath, `${platformUpper}_NEW=${newCount}\n`);
+      fs.appendFileSync(
+        envPath,
+        `${platformUpper}_PRESERVED=${preservedCount}\n`
+      );
+    }
   } catch (error) {
     console.error(`❌ Erro no processamento de ${platform}:`, error);
     throw error;
