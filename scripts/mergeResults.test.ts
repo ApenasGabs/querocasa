@@ -1,13 +1,21 @@
 import { PathLike } from "fs";
 import fs from "fs/promises";
-import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
+import {
+  afterEach,
+  beforeEach,
+  describe,
+  expect,
+  MockInstance,
+  test,
+  vi,
+} from "vitest";
 
 // Caminhos de teste
 const TEST_OLD_PATH = "/test-data/old";
 const TEST_NEW_PATH = "/test-data/new";
 
 describe("Teste do Merge de Resultados", () => {
-  let writeFileSpy: vi.SpyInstance;
+  let writeFileSpy: MockInstance;
   function isStringContaining(
     path: PathLike | fs.FileHandle,
     substring: string
@@ -23,7 +31,6 @@ describe("Teste do Merge de Resultados", () => {
 
     // Limpa todos os mocks anteriores
     vi.clearAllMocks();
-
     // Mock para fs.existsSync
     vi.spyOn(require("fs"), "existsSync").mockImplementation(() => true);
 
@@ -95,14 +102,15 @@ describe("Teste do Merge de Resultados", () => {
         call[0].includes(TEST_OLD_PATH) && call[0].includes("olxResults.json")
     );
 
-    // Verifica se a chamada relevante foi encontrada
     expect(relevantCall).toBeDefined();
 
-    // Verifica se os dados foram atualizados corretamente
+    if (!relevantCall) {
+      throw new Error("writeFile was not called with the expected parameters");
+    }
     const writtenData = JSON.parse(relevantCall[1]);
 
     // Verifica se o ID original foi mantido
-    expect(writtenData[0].id).toBe("prop_123_original"); // ID original mantido (não atualizado)
+    expect(writtenData[0].id).toBe("prop_123_original");
 
     // Verifica se o scrapedAt original foi mantido
     expect(writtenData[0].scrapedAt).toBe("2023-01-01T12:00:00.000Z"); // Data de scraping original (não atualizada)
@@ -185,6 +193,9 @@ describe("Teste do Merge de Resultados", () => {
     expect(relevantCall).toBeDefined();
 
     // Verifica se os dados foram processados corretamente
+    if (!relevantCall) {
+      throw new Error("writeFile was not called with the expected parameters");
+    }
     const writtenData = JSON.parse(relevantCall[1]);
 
     // Verifica se o resultado tem apenas o item atualizado e o item sem link
@@ -267,7 +278,9 @@ describe("Teste do Merge de Resultados", () => {
 
     // Verifica se a chamada relevante foi encontrada
     expect(relevantCall).toBeDefined();
-
+    if (!relevantCall) {
+      throw new Error("writeFile was not called with the expected parameters");
+    }
     // Verifica se os dados foram processados corretamente
     const writtenData = JSON.parse(relevantCall[1]);
 
@@ -363,7 +376,9 @@ describe("Teste do Merge de Resultados", () => {
 
     // Verifica se a chamada relevante foi encontrada
     expect(relevantCall).toBeDefined();
-
+    if (!relevantCall) {
+      throw new Error("writeFile was not called with the expected parameters");
+    }
     // Verifica se os dados foram atualizados corretamente
     const writtenData = JSON.parse(relevantCall[1]);
 
