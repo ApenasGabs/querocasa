@@ -129,7 +129,29 @@ const processPlatformResults = async (platform) => {
     const mergedData = [];
     let updatedCount = 0;
     let newCount = 0;
+    let preservedCount = 0;
 
+    // Primeiro adiciona todos os itens antigos que não têm link
+    oldData.forEach((oldProp) => {
+      if (!oldProp.link) {
+        mergedData.push(oldProp);
+        preservedCount++;
+      }
+    });
+
+    // Cria um set com todos os links dos dados novos para verificação rápida
+    const newLinks = new Set(newData.map((prop) => prop.link).filter(Boolean));
+
+    // Adiciona itens antigos que não estão nos novos dados (marcados como removidos)
+    oldData.forEach((oldProp) => {
+      if (oldProp.link && !newLinks.has(oldProp.link)) {
+        // Este item foi removido nos novos dados
+        oldProp.__status = "removed";
+        mergedData.push(oldProp);
+      }
+    });
+
+    // Processa os novos dados
     newData.forEach((newProp) => {
       if (!newProp.link) {
         newCount++;
@@ -142,6 +164,7 @@ const processPlatformResults = async (platform) => {
           images: newProp.images || [],
           description: newProp.description || "",
           hasDuplicates: newProp.hasDuplicates || false,
+          __status: "added",
         });
         return;
       }
@@ -149,15 +172,39 @@ const processPlatformResults = async (platform) => {
       const oldProp = oldPropertiesByLink.get(newProp.link);
       if (oldProp) {
         updatedCount++;
-        const updateData = Object.fromEntries(
-          Object.entries(q1).filter(([key]) => !protectedFields.includes(key))
-        );
 
-        mergedData.push({
-          ...oldProp,
-          lastSeenAt: now,
-          ...updateData,
+        // Criamos uma cópia do objeto antigo para preservar todos os campos
+        const mergedProp = { ...oldProp };
+
+        // CAMPOS CRÍTICOS QUE DEVEM SER PRESERVADOS
+        // 1. Garantimos que o ID original seja mantido
+        mergedProp.id = oldProp.id;
+
+        // 2. Garantimos que o scrapedAt original seja mantido
+        mergedProp.scrapedAt = oldProp.scrapedAt;
+
+        // 3. firstSeenAt deve ser mantido, pois é a data da primeira vez que o item foi visto
+        mergedProp.firstSeenAt = oldProp.firstSeenAt;
+
+        // 4. Atualizamos o lastSeenAt para a data atual
+        mergedProp.lastSeenAt = now;
+
+        // Log para debug (remover em produção se necessário)
+        console.log(`Atualizando item com link: ${newProp.link}`);
+        console.log(`  → ID original preservado: ${oldProp.id}`);
+        console.log(`  → scrapedAt original preservado: ${oldProp.scrapedAt}`);
+
+        // Atualiza os outros campos com as novas informações
+        Object.keys(newProp).forEach((key) => {
+          // Lista explícita de campos que não devem ser atualizados
+          if (!["id", "firstSeenAt", "scrapedAt"].includes(key)) {
+            mergedProp[key] = newProp[key];
+          }
         });
+
+        mergedProp.__status = "updated";
+
+        mergedData.push(mergedProp);
       } else {
         newCount++;
         mergedData.push({
@@ -169,6 +216,7 @@ const processPlatformResults = async (platform) => {
           images: newProp.images || [],
           description: newProp.description || "",
           hasDuplicates: newProp.hasDuplicates || false,
+          __status: "added",
         });
       }
     });
@@ -189,7 +237,13 @@ const processPlatformResults = async (platform) => {
       fs.appendFileSync(envPath, `${platformUpper}_NEW=${newCount}\n`);
       fs.appendFileSync(
         envPath,
-        `${platformUpper}_PRESERVED=${preservedCount}\n`
+        `${platformUpper}_REMOVED=${
+          mergedData.filter((item) => item.__status === "removed").length
+        }\n`
+      );
+      fs.appendFileSync(
+        envPath,
+        `${platformUpper}_TOTAL=${mergedData.length}\n`
       );
     }
   } catch (error) {
@@ -197,6 +251,7 @@ const processPlatformResults = async (platform) => {
     throw error;
   }
 };
+
 // Processa todas as plataformas
 (async () => {
   try {
