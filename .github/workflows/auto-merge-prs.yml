@@ -1,0 +1,146 @@
+name: Auto-Merge PRs para API
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Número específico do PR para tentar o merge (opcional)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.TARGET_REPO_PAT }}
+
+      - name: Auto-merge PRs para branch API
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.TARGET_REPO_PAT }}
+          script: |
+            const prNumber = context.payload.inputs?.pr_number;
+            const targetBranch = 'api';
+            const waitTimeMinutes = 30;
+
+            async function processPRs(prs) {
+              console.log(`Encontrados ${prs.length} PRs para processar`);
+              
+              for (const pr of prs) {
+                console.log(`\n📝 Processando PR #${pr.number}: "${pr.title}"`);
+                
+                // Verifica se o PR tem conflitos
+                if (pr.mergeable === false) {
+                  console.log(`⚠️ PR #${pr.number} tem conflitos e não pode ser mesclado automaticamente.`);
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: pr.number,
+                    body: '⚠️ **Aviso:** Este PR tem conflitos que precisam ser resolvidos antes do merge automático.'
+                  });
+                  continue;
+                }
+                
+                // Verifica o tempo de criação
+                const createdAt = new Date(pr.created_at);
+                const now = new Date();
+                const diffMinutes = (now - createdAt) / (1000 * 60);
+                
+                console.log(`PR #${pr.number} foi criado há ${Math.round(diffMinutes)} minutos`);
+                
+                if (diffMinutes < waitTimeMinutes) {
+                  console.log(`⏱️ PR #${pr.number} ainda não atingiu o tempo de espera de ${waitTimeMinutes} minutos.`);
+                  continue;
+                }
+                
+                // Verifica se todas as verificações estão passando (se houver)
+                try {
+                  const checks = await github.rest.checks.listForRef({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    ref: pr.head.sha
+                  });
+                  
+                  const failedChecks = checks.data.check_runs.filter(
+                    check => check.status === 'completed' && check.conclusion !== 'success'
+                  );
+                  
+                  if (failedChecks.length > 0) {
+                    console.log(`❌ PR #${pr.number} tem ${failedChecks.length} verificações com falha.`);
+                    continue;
+                  }
+                } catch (error) {
+                  console.log(`Não foi possível verificar as checks do PR #${pr.number}: ${error.message}`);
+                  // Continuar mesmo sem poder verificar os checks
+                }
+                
+                // Tenta fazer o merge
+                try {
+                  console.log(`✅ Tentando fazer o merge do PR #${pr.number}...`);
+                  await github.rest.pulls.merge({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    pull_number: pr.number,
+                    merge_method: 'merge'
+                  });
+                  
+                  console.log(`🎉 PR #${pr.number} foi mesclado com sucesso!`);
+                } catch (error) {
+                  console.log(`❌ Erro ao mesclar PR #${pr.number}: ${error.message}`);
+                  
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: pr.number,
+                    body: `❌ **Erro ao realizar o auto-merge:** ${error.message}`
+                  });
+                }
+              }
+            }
+
+            // Função principal
+            async function main() {
+              try {
+                if (prNumber) {
+                  // Processar apenas o PR específico se fornecido
+                  const { data: pr } = await github.rest.pulls.get({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    pull_number: parseInt(prNumber)
+                  });
+                  
+                  if (pr.base.ref === targetBranch) {
+                    await processPRs([pr]);
+                  } else {
+                    console.log(`PR #${prNumber} não tem como alvo a branch ${targetBranch}.`);
+                  }
+                } else {
+                  // Busca todos os PRs abertos para a branch target
+                  const { data: prs } = await github.rest.pulls.list({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    base: targetBranch,
+                    state: 'open',
+                    sort: 'created',
+                    direction: 'asc'
+                  });
+                  
+                  await processPRs(prs);
+                }
+                
+                console.log('✅ Verificação de auto-merge concluída!');
+              } catch (error) {
+                console.error(`❌ Erro durante o processo: ${error.message}`);
+                process.exit(1);
+              }
+            }
+
+            await main();
