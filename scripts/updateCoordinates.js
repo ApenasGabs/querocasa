@@ -178,7 +178,18 @@ const updateCoordinates = async () => {
         await new Promise((resolve) => setTimeout(resolve, 2500)); // Esperar entre as requisições
       }
     }
+    // Estatísticas
+    const totalNeighborhoods = neighborhoodsArray.length;
+    const updatedCoordinates = Object.keys(coordinates).length;
 
+    // Exporta estatísticas para GitHub Actions
+    if (process.env.GITHUB_ENV) {
+      const envVars = [
+        `TOTAL_NEIGHBORHOODS=${totalNeighborhoods}`,
+        `COORDINATES_UPDATED=${updatedCoordinates}`,
+      ];
+      await fs.appendFile(process.env.GITHUB_ENV, envVars.join("\n") + "\n");
+    }
     /**
      * Adds coordinates to property objects.
      *
