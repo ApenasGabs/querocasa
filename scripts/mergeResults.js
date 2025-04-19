@@ -153,11 +153,12 @@ export const processPlatformResults = async (platform) => {
     // Cria um set com todos os links dos dados novos para verificação rápida
     const newLinks = new Set(newData.map((prop) => prop.link).filter(Boolean));
 
-    // Adiciona itens antigos que não estão nos novos dados
+    // Adiciona itens antigos que não estão nos novos dados (marcados como removidos)
     oldData.forEach((oldProp) => {
       if (oldProp.link && !newLinks.has(oldProp.link)) {
         // Este item foi removido nos novos dados
-        // (Não adicionamos ao mergedData, efetivamente removendo-o)
+        oldProp.__status = "removed";
+        mergedData.push(oldProp);
       }
     });
 
@@ -175,6 +176,7 @@ export const processPlatformResults = async (platform) => {
           images: newProp.images || [],
           description: newProp.description || "",
           hasDuplicates: newProp.hasDuplicates || false,
+          __status: "added",
         });
         return;
       }
@@ -213,6 +215,8 @@ export const processPlatformResults = async (platform) => {
           }
         });
 
+        mergedProp.__status = "updated";
+
         mergedData.push(mergedProp);
       } else {
         // Item existe apenas nos novos dados
@@ -226,6 +230,7 @@ export const processPlatformResults = async (platform) => {
           images: newProp.images || [],
           description: newProp.description || "",
           hasDuplicates: newProp.hasDuplicates || false,
+          __status: "added",
         });
       }
     });
@@ -247,7 +252,13 @@ export const processPlatformResults = async (platform) => {
       fs.appendFileSync(envPath, `${platformUpper}_NEW=${newCount}\n`);
       fs.appendFileSync(
         envPath,
-        `${platformUpper}_PRESERVED=${preservedCount}\n`
+        `${platformUpper}_REMOVED=${
+          mergedData.filter((item) => item.__status === "removed").length
+        }\n`
+      );
+      fs.appendFileSync(
+        envPath,
+        `${platformUpper}_TOTAL=${mergedData.length}\n`
       );
     }
   } catch (error) {
@@ -255,6 +266,7 @@ export const processPlatformResults = async (platform) => {
     throw error;
   }
 };
+
 // Processa todas as plataformas
 (async () => {
   try {
