@@ -6,6 +6,7 @@ on:
       - closed
     branches:
       - api
+  workflow_dispatch:
 
 jobs:
   cleanup:
