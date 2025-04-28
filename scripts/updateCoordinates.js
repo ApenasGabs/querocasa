@@ -2,6 +2,36 @@ import axios from "axios";
 import { promises as fs } from "fs";
 import { join, parse } from "path";
 
+// Coordenadas do centro da cidade de Campinas
+const CITY_CENTER = {
+  lat: -22.9103015,
+  lon: -47.0595007,
+};
+
+/**
+ * Calcula a distância entre dois pontos geográficos usando a fórmula de Haversine.
+ *
+ * @param {number} lat1 - Latitude do primeiro ponto.
+ * @param {number} lon1 - Longitude do primeiro ponto.
+ * @param {number} lat2 - Latitude do segundo ponto.
+ * @param {number} lon2 - Longitude do segundo ponto.
+ * @returns {number} A distância em quilômetros.
+ */
+const calculateDistance = (lat1, lon1, lat2, lon2) => {
+  const R = 6371; // Raio da Terra em km
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  const distance = R * c; // Distância em km
+  return Number(distance.toFixed(2));
+};
+
 /**
  * Fetches coordinates for a given neighborhood using the Nominatim API.
  *
@@ -98,6 +128,51 @@ const getCoordinatesFromHereMaps = async (neighborhood) => {
 };
 
 /**
+ * Calcula a distância a pé entre dois pontos usando a API do Here Maps.
+ *
+ * @param {number} lat1 - Latitude do primeiro ponto.
+ * @param {number} lon1 - Longitude do primeiro ponto.
+ * @param {number} lat2 - Latitude do segundo ponto.
+ * @param {number} lon2 - Longitude do segundo ponto.
+ * @param {string} apiKey - Chave da API do Here Maps.
+ * @returns {Promise<number|null>} A distância a pé em quilômetros ou null em caso de erro.
+ */
+const calculateWalkingDistance = async (lat1, lon1, lat2, lon2, apiKey) => {
+  try {
+    const response = await axios.get("https://router.hereapi.com/v8/routes", {
+      params: {
+        transportMode: "pedestrian",
+        origin: `${lat1},${lon1}`,
+        destination: `${lat2},${lon2}`,
+        return: "summary",
+        apiKey: apiKey,
+      },
+    });
+
+    if (
+      response.data &&
+      response.data.routes &&
+      response.data.routes.length > 0 &&
+      response.data.routes[0].sections &&
+      response.data.routes[0].sections.length > 0
+    ) {
+      // A distância retornada é em metros, convertemos para quilômetros
+      const distanceInMeters =
+        response.data.routes[0].sections[0].summary.length;
+      return Number((distanceInMeters / 1000).toFixed(2));
+    }
+
+    console.warn(
+      `Não foi possível calcular a distância a pé para as coordenadas (${lat1},${lon1}) -> (${lat2},${lon2})`
+    );
+    return null;
+  } catch (error) {
+    console.error("Erro ao calcular distância a pé:", error.message);
+    return null;
+  }
+};
+
+/**
  * Updates the coordinates for neighborhoods in property data files.
  *
  * Reads property data from JSON files, fetches missing coordinates,
@@ -178,6 +253,50 @@ const updateCoordinates = async () => {
         await new Promise((resolve) => setTimeout(resolve, 2500)); // Esperar entre as requisições
       }
     }
+
+    // Adicionar distância até o centro da cidade para cada bairro
+    const apiKey = process.argv[2];
+    for (const neighborhood in coordinates) {
+      if (
+        coordinates[neighborhood] &&
+        coordinates[neighborhood].lat &&
+        coordinates[neighborhood].lon
+      ) {
+        // Calcular distância em linha reta (Haversine)
+        const directDistance = calculateDistance(
+          coordinates[neighborhood].lat,
+          coordinates[neighborhood].lon,
+          CITY_CENTER.lat,
+          CITY_CENTER.lon
+        );
+        coordinates[neighborhood].distanceToCenter = directDistance;
+
+        // Calcular distância a pé
+        try {
+          const walkingDistance = await calculateWalkingDistance(
+            coordinates[neighborhood].lat,
+            coordinates[neighborhood].lon,
+            CITY_CENTER.lat,
+            CITY_CENTER.lon,
+            apiKey
+          );
+
+          if (walkingDistance) {
+            coordinates[neighborhood].walkingDistanceToCenter = walkingDistance;
+          }
+        } catch (error) {
+          console.error(
+            `Erro ao calcular distância a pé para ${neighborhood}:`,
+            error
+          );
+          // Mantenha apenas a distância direta se a distância a pé falhar
+        }
+
+        // Aguardar um pouco entre as requisições para não sobrecarregar a API
+        await new Promise((resolve) => setTimeout(resolve, 500));
+      }
+    }
+
     // Estatísticas
     const totalNeighborhoods = neighborhoodsArray.length;
     const updatedCoordinates = Object.keys(coordinates).length;
@@ -190,6 +309,7 @@ const updateCoordinates = async () => {
       ];
       await fs.appendFile(process.env.GITHUB_ENV, envVars.join("\n") + "\n");
     }
+
     /**
      * Adds coordinates to property objects.
      *
@@ -207,6 +327,8 @@ const updateCoordinates = async () => {
           ? {
               lat: coords.lat,
               lon: coords.lon,
+              distanceToCenter: coords.distanceToCenter || null,
+              walkingDistanceToCenter: coords.walkingDistanceToCenter || null,
             }
           : {};
       });
@@ -235,9 +357,9 @@ const updateCoordinates = async () => {
       JSON.stringify(coordinates, null, 2)
     );
 
-    console.log("Coordinates updated successfully.");
+    console.log("Coordinates and distances updated successfully.");
   } catch (error) {
-    console.error("Error updating coordinates:", error);
+    console.error("Error updating coordinates and distances:", error);
   }
 };
 
