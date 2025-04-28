@@ -28,7 +28,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     },
     "__status": "removed"
   },
@@ -56,7 +58,9 @@
     "__status": "removed",
     "coords": {
       "lat": -22.91994235,
-      "lon": -47.12082604263608
+      "lon": -47.12082604263608,
+      "distanceToCenter": 6.37,
+      "walkingDistanceToCenter": 7.79
     }
   },
   {
@@ -89,7 +93,9 @@
     "__status": "removed",
     "coords": {
       "lat": -23.1876769,
-      "lon": -46.8523369
+      "lon": -46.8523369,
+      "distanceToCenter": 37.42,
+      "walkingDistanceToCenter": 41.77
     }
   },
   {
@@ -119,7 +125,9 @@
     "__status": "removed",
     "coords": {
       "lat": -22.8504125,
-      "lon": -47.1105043
+      "lon": -47.1105043,
+      "distanceToCenter": 8.46,
+      "walkingDistanceToCenter": 10.14
     }
   },
   {
@@ -143,7 +151,9 @@
     "__status": "removed",
     "coords": {
       "lat": -20.2499754,
-      "lon": -50.5556623
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
     }
   },
   {
@@ -166,7 +176,9 @@
     "publishDate": "2025-04-21 18:33:00",
     "coords": {
       "lat": -22.9360851,
-      "lon": -47.1601215
+      "lon": -47.1601215,
+      "distanceToCenter": 10.7,
+      "walkingDistanceToCenter": 12.76
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -194,7 +206,9 @@
     "publishDate": "2025-03-19 20:20:00",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -222,7 +236,9 @@
     "publishDate": "2025-02-21 22:14:00",
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -245,7 +261,9 @@
     "publishDate": "2025-03-16 20:39:00",
     "coords": {
       "lat": -22.947889449999998,
-      "lon": -47.16255568604536
+      "lon": -47.16255568604536,
+      "distanceToCenter": 11.35,
+      "walkingDistanceToCenter": 13.64
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -268,7 +286,9 @@
     "publishDate": "2025-03-02 17:02:00",
     "coords": {
       "lat": -23.9596,
-      "lon": -46.39586
+      "lon": -46.39586,
+      "distanceToCenter": 134.9,
+      "walkingDistanceToCenter": 160.01
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -291,7 +311,9 @@
     "publishDate": "2025-03-25 13:36:00",
     "coords": {
       "lat": -22.888889,
-      "lon": -47.081944
+      "lon": -47.081944,
+      "distanceToCenter": 3.31,
+      "walkingDistanceToCenter": 3.62
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -326,7 +348,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.34007,
-      "lon": -41.75489
+      "lon": -41.75489,
+      "distanceToCenter": 548.1,
+      "walkingDistanceToCenter": 185.19
     }
   },
   {
@@ -352,7 +376,9 @@
     "publishDate": "2025-03-14 19:57:00",
     "coords": {
       "lat": -22.93726,
-      "lon": -47.07066
+      "lon": -47.07066,
+      "distanceToCenter": 3.21,
+      "walkingDistanceToCenter": 3.88
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -377,7 +403,9 @@
     "publishDate": "2025-03-19 02:52:00",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -402,7 +430,9 @@
     "publishDate": "2025-04-13 21:12:00",
     "coords": {
       "lat": -22.9436706,
-      "lon": -47.0596321
+      "lon": -47.0596321,
+      "distanceToCenter": 3.71,
+      "walkingDistanceToCenter": 4.39
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -420,7 +450,9 @@
     "publishDate": "2025-03-13 18:08:00",
     "coords": {
       "lat": -22.1146923,
-      "lon": -51.4273927
+      "lon": -51.4273927,
+      "distanceToCenter": 457.29,
+      "walkingDistanceToCenter": 550.61
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -451,7 +483,9 @@
     "publishDate": "2025-03-25 15:08:00",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -469,7 +503,9 @@
     "publishDate": "2025-03-18 14:35:00",
     "coords": {
       "lat": -22.9050869,
-      "lon": -47.0600751
+      "lon": -47.0600751,
+      "distanceToCenter": 0.58,
+      "walkingDistanceToCenter": 0.72
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -489,7 +525,9 @@
     "publishDate": "2025-03-30 02:41:00",
     "coords": {
       "lat": -22.8502289,
-      "lon": -47.0364557
+      "lon": -47.0364557,
+      "distanceToCenter": 7.08,
+      "walkingDistanceToCenter": 8.1
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -520,7 +558,9 @@
     "publishDate": "2025-03-27 14:05:00",
     "coords": {
       "lat": -22.1906339,
-      "lon": -46.7797241
+      "lon": -46.7797241,
+      "distanceToCenter": 85.02,
+      "walkingDistanceToCenter": 104.03
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -538,7 +578,9 @@
     "publishDate": "2025-03-19 17:07:00",
     "coords": {
       "lat": -22.9524528,
-      "lon": -47.1632442
+      "lon": -47.1632442,
+      "distanceToCenter": 11.61,
+      "walkingDistanceToCenter": 13.58
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -560,7 +602,9 @@
     "publishDate": "2025-03-03 21:54:00",
     "coords": {
       "lat": -22.913388500000003,
-      "lon": -47.0343803511774
+      "lon": -47.0343803511774,
+      "distanceToCenter": 2.6,
+      "walkingDistanceToCenter": 3.18
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -578,7 +622,9 @@
     "publishDate": "2025-04-09 12:35:00",
     "coords": {
       "lat": -22.9587,
-      "lon": -47.1337
+      "lon": -47.1337,
+      "distanceToCenter": 9.31,
+      "walkingDistanceToCenter": 10.92
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -600,7 +646,9 @@
     "publishDate": "2025-04-03 01:59:00",
     "coords": {
       "lat": -22.97262155,
-      "lon": -47.15424446830559
+      "lon": -47.15424446830559,
+      "distanceToCenter": 11.92,
+      "walkingDistanceToCenter": 13.12
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -625,7 +673,9 @@
     "publishDate": "2025-02-24 10:14:00",
     "coords": {
       "lat": -22.95529,
-      "lon": -47.18347
+      "lon": -47.18347,
+      "distanceToCenter": 13.65,
+      "walkingDistanceToCenter": 16.67
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -643,7 +693,9 @@
     "publishDate": "2025-03-16 01:15:00",
     "coords": {
       "lat": -23.0393191,
-      "lon": -47.12085969847532
+      "lon": -47.12085969847532,
+      "distanceToCenter": 15.66,
+      "walkingDistanceToCenter": 18.13
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -665,7 +717,9 @@
     "publishDate": "2025-04-02 13:35:00",
     "coords": {
       "lat": 40.31489,
-      "lon": -3.7834
+      "lon": -3.7834,
+      "distanceToCenter": 8335.21,
+      "walkingDistanceToCenter": null
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -687,7 +741,9 @@
     "publishDate": "2025-03-16 21:10:00",
     "coords": {
       "lat": -22.97774,
-      "lon": -47.16871
+      "lon": -47.16871,
+      "distanceToCenter": 13.46,
+      "walkingDistanceToCenter": 15.29
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -712,7 +768,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -22.945514000000003,
-      "lon": -47.165998475725374
+      "lon": -47.165998475725374,
+      "distanceToCenter": 11.59,
+      "walkingDistanceToCenter": 13.79
     },
     "__status": "updated"
   },
@@ -733,7 +791,9 @@
     "publishDate": "2025-03-05 20:08:00",
     "coords": {
       "lat": -23.2109276,
-      "lon": -47.2735047
+      "lon": -47.2735047,
+      "distanceToCenter": 39.96,
+      "walkingDistanceToCenter": 46.59
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -761,7 +821,9 @@
     "publishDate": "2025-03-30 12:33:00",
     "coords": {
       "lat": -22.99122155,
-      "lon": -47.14269620043826
+      "lon": -47.14269620043826,
+      "distanceToCenter": 12.39,
+      "walkingDistanceToCenter": 14.24
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -796,7 +858,9 @@
     "__status": "added",
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     }
   },
   {
@@ -816,7 +880,9 @@
     "publishDate": "2025-04-07 16:20:00",
     "coords": {
       "lat": -22.93945,
-      "lon": -47.11971
+      "lon": -47.11971,
+      "distanceToCenter": 6.97,
+      "walkingDistanceToCenter": 8.02
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -841,7 +907,9 @@
     "publishDate": "2025-03-26 16:45:00",
     "coords": {
       "lat": -22.8840605,
-      "lon": -47.15086459185808
+      "lon": -47.15086459185808,
+      "distanceToCenter": 9.8,
+      "walkingDistanceToCenter": 14.68
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -872,7 +940,9 @@
     "publishDate": "2025-02-24 20:54:00",
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -894,7 +964,9 @@
     "publishDate": "2025-02-22 00:13:00",
     "coords": {
       "lat": -23.17304,
-      "lon": -46.9133472
+      "lon": -46.9133472,
+      "distanceToCenter": 32.82,
+      "walkingDistanceToCenter": 35.73
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -919,7 +991,9 @@
     "publishDate": "2025-04-04 05:08:00",
     "coords": {
       "lat": -22.96731,
-      "lon": -47.20187
+      "lon": -47.20187,
+      "distanceToCenter": 15.9,
+      "walkingDistanceToCenter": 19
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -944,7 +1018,9 @@
     "publishDate": "2025-03-09 19:08:00",
     "coords": {
       "lat": -22.93726,
-      "lon": -47.07066
+      "lon": -47.07066,
+      "distanceToCenter": 3.21,
+      "walkingDistanceToCenter": 3.88
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -962,7 +1038,9 @@
     "publishDate": "2025-02-28 00:21:00",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -984,7 +1062,9 @@
     "publishDate": "2025-04-09 18:23:00",
     "coords": {
       "lat": -23.02522,
-      "lon": -47.12096
+      "lon": -47.12096,
+      "distanceToCenter": 14.24,
+      "walkingDistanceToCenter": 16.38
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1002,7 +1082,9 @@
     "publishDate": "2025-03-23 20:33:00",
     "coords": {
       "lat": -22.834966350000002,
-      "lon": -47.150270806170965
+      "lon": -47.150270806170965,
+      "distanceToCenter": 12.52,
+      "walkingDistanceToCenter": 14.87
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1027,7 +1109,9 @@
     "publishDate": "2025-03-13 13:02:00",
     "coords": {
       "lat": -22.96026,
-      "lon": -47.21778
+      "lon": -47.21778,
+      "distanceToCenter": 17.13,
+      "walkingDistanceToCenter": 19.7
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1052,7 +1136,9 @@
     "publishDate": "2025-03-04 21:43:00",
     "coords": {
       "lat": -23.036259,
-      "lon": -47.11616194952242
+      "lon": -47.11616194952242,
+      "distanceToCenter": 15.16,
+      "walkingDistanceToCenter": 17.37
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1072,7 +1158,9 @@
     "publishDate": "2025-03-07 19:07:00",
     "coords": {
       "lat": -23.0393191,
-      "lon": -47.12085969847532
+      "lon": -47.12085969847532,
+      "distanceToCenter": 15.66,
+      "walkingDistanceToCenter": 18.13
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1094,7 +1182,9 @@
     "publishDate": "2025-04-04 23:13:00",
     "coords": {
       "lat": -22.918382,
-      "lon": -47.014076402968456
+      "lon": -47.014076402968456,
+      "distanceToCenter": 4.74,
+      "walkingDistanceToCenter": 5.88
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1119,7 +1209,9 @@
     "publishDate": "2025-03-27 12:05:00",
     "coords": {
       "lat": -18.83529,
-      "lon": -41.9005
+      "lon": -41.9005,
+      "distanceToCenter": 701.73,
+      "walkingDistanceToCenter": 682.28
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1137,7 +1229,9 @@
     "publishDate": "2025-03-26 22:31:00",
     "coords": {
       "lat": -22.834966350000002,
-      "lon": -47.150270806170965
+      "lon": -47.150270806170965,
+      "distanceToCenter": 12.52,
+      "walkingDistanceToCenter": 14.87
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -1168,7 +1262,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -22.90865,
-      "lon": -47.0448
+      "lon": -47.0448,
+      "distanceToCenter": 1.52,
+      "walkingDistanceToCenter": 1.88
     },
     "__status": "updated"
   },
@@ -1195,7 +1291,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     },
     "__status": "updated"
   },
@@ -1222,7 +1320,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -23.1557867,
-      "lon": -46.8710082
+      "lon": -46.8710082,
+      "distanceToCenter": 33.42,
+      "walkingDistanceToCenter": 38.47
     },
     "__status": "updated"
   },
@@ -1252,7 +1352,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -22.9689952,
-      "lon": -47.1498288
+      "lon": -47.1498288,
+      "distanceToCenter": 11.32,
+      "walkingDistanceToCenter": 12.42
     },
     "__status": "updated"
   },
@@ -1282,7 +1384,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -22.90904,
-      "lon": -47.06454
+      "lon": -47.06454,
+      "distanceToCenter": 0.53,
+      "walkingDistanceToCenter": 0.58
     },
     "__status": "updated"
   },
@@ -1309,7 +1413,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -22.947889449999998,
-      "lon": -47.16255568604536
+      "lon": -47.16255568604536,
+      "distanceToCenter": 11.35,
+      "walkingDistanceToCenter": 13.64
     },
     "__status": "updated"
   },
@@ -1339,7 +1445,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -22.9600243,
-      "lon": -47.145963988098025
+      "lon": -47.145963988098025,
+      "distanceToCenter": 10.44,
+      "walkingDistanceToCenter": 12.39
     },
     "__status": "updated"
   },
@@ -1363,7 +1471,9 @@
     "hasDuplicates": false,
     "coords": {
       "lat": -23.01006,
-      "lon": -47.14566
+      "lon": -47.14566,
+      "distanceToCenter": 14.17,
+      "walkingDistanceToCenter": 22.07
     },
     "__status": "updated"
   },
@@ -1388,7 +1498,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.01006,
-      "lon": -47.14566
+      "lon": -47.14566,
+      "distanceToCenter": 14.17,
+      "walkingDistanceToCenter": 22.07
     }
   },
   {
@@ -1415,7 +1527,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.8567607,
-      "lon": -47.0694473
+      "lon": -47.0694473,
+      "distanceToCenter": 6.04,
+      "walkingDistanceToCenter": 6.81
     }
   },
   {
@@ -1442,7 +1556,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.91084,
-      "lon": -47.11593
+      "lon": -47.11593,
+      "distanceToCenter": 5.78,
+      "walkingDistanceToCenter": 6.87
     }
   },
   {
@@ -1469,7 +1585,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.1876769,
-      "lon": -46.8523369
+      "lon": -46.8523369,
+      "distanceToCenter": 37.42,
+      "walkingDistanceToCenter": 41.77
     }
   },
   {
@@ -1496,7 +1614,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.0525736,
-      "lon": -47.8407421
+      "lon": -47.8407421,
+      "distanceToCenter": 81.52,
+      "walkingDistanceToCenter": 97.89
     }
   },
   {
@@ -1524,7 +1644,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.93726,
-      "lon": -47.07066
+      "lon": -47.07066,
+      "distanceToCenter": 3.21,
+      "walkingDistanceToCenter": 3.88
     }
   },
   {
@@ -1548,7 +1670,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.89221,
-      "lon": -47.06194
+      "lon": -47.06194,
+      "distanceToCenter": 2.03,
+      "walkingDistanceToCenter": 2.25
     }
   },
   {
@@ -1581,7 +1705,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.1876769,
-      "lon": -46.8523369
+      "lon": -46.8523369,
+      "distanceToCenter": 37.42,
+      "walkingDistanceToCenter": 41.77
     }
   },
   {
@@ -1611,7 +1737,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.98502,
-      "lon": -47.15355
+      "lon": -47.15355,
+      "distanceToCenter": 12.72,
+      "walkingDistanceToCenter": 14.16
     }
   },
   {
@@ -1639,7 +1767,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.03342,
-      "lon": -47.12494
+      "lon": -47.12494,
+      "distanceToCenter": 15.24,
+      "walkingDistanceToCenter": 17.41
     }
   },
   {
@@ -1666,7 +1796,9 @@
     "__status": "updated",
     "coords": {
       "lat": -20.2499754,
-      "lon": -50.5556623
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
     }
   },
   {
@@ -1699,7 +1831,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -1729,7 +1863,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.037882,
-      "lon": -47.112788
+      "lon": -47.112788,
+      "distanceToCenter": 15.2,
+      "walkingDistanceToCenter": 17.22
     }
   },
   {
@@ -1760,7 +1896,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -1784,7 +1922,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.8876835,
-      "lon": -47.02003641918954
+      "lon": -47.02003641918954,
+      "distanceToCenter": 4.76,
+      "walkingDistanceToCenter": 5.83
     }
   },
   {
@@ -1814,7 +1954,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -1844,7 +1986,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -1874,7 +2018,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.6830835,
-      "lon": -47.6689696
+      "lon": -47.6689696,
+      "distanceToCenter": 67.39,
+      "walkingDistanceToCenter": 79.67
     }
   },
   {
@@ -1907,7 +2053,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.945514000000003,
-      "lon": -47.165998475725374
+      "lon": -47.165998475725374,
+      "distanceToCenter": 11.59,
+      "walkingDistanceToCenter": 13.79
     }
   },
   {
@@ -1940,7 +2088,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.0393191,
-      "lon": -47.12085969847532
+      "lon": -47.12085969847532,
+      "distanceToCenter": 15.66,
+      "walkingDistanceToCenter": 18.13
     }
   },
   {
@@ -1970,7 +2120,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.89221,
-      "lon": -47.06194
+      "lon": -47.06194,
+      "distanceToCenter": 2.03,
+      "walkingDistanceToCenter": 2.25
     }
   },
   {
@@ -1997,7 +2149,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.02815,
-      "lon": -47.10006
+      "lon": -47.10006,
+      "distanceToCenter": 13.75,
+      "walkingDistanceToCenter": 15.34
     }
   },
   {
@@ -2030,7 +2184,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -2054,7 +2210,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.95753,
-      "lon": -47.13655
+      "lon": -47.13655,
+      "distanceToCenter": 9.48,
+      "walkingDistanceToCenter": 11.33
     }
   },
   {
@@ -2084,7 +2242,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.9596,
-      "lon": -46.39586
+      "lon": -46.39586,
+      "distanceToCenter": 134.9,
+      "walkingDistanceToCenter": 160.01
     }
   },
   {
@@ -2114,7 +2274,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.4454992,
-      "lon": -46.8362907
+      "lon": -46.8362907,
+      "distanceToCenter": 56.53,
+      "walkingDistanceToCenter": 73.39
     }
   },
   {
@@ -2144,7 +2306,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.947181999999998,
-      "lon": -47.18103266907876
+      "lon": -47.18103266907876,
+      "distanceToCenter": 13.1,
+      "walkingDistanceToCenter": 15.82
     }
   },
   {
@@ -2177,7 +2341,9 @@
     "__status": "updated",
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     }
   },
   {
@@ -2207,7 +2373,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.911,
-      "lon": -47.09605
+      "lon": -47.09605,
+      "distanceToCenter": 3.74,
+      "walkingDistanceToCenter": 4.43
     }
   },
   {
@@ -2240,7 +2408,9 @@
     "__status": "updated",
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     }
   },
   {
@@ -2267,7 +2437,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.945514000000003,
-      "lon": -47.165998475725374
+      "lon": -47.165998475725374,
+      "distanceToCenter": 11.59,
+      "walkingDistanceToCenter": 13.79
     }
   },
   {
@@ -2297,7 +2469,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.3491683,
-      "lon": -46.9451016
+      "lon": -46.9451016,
+      "distanceToCenter": 63.49,
+      "walkingDistanceToCenter": 76.74
     }
   },
   {
@@ -2327,7 +2501,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97545,
-      "lon": -47.12655
+      "lon": -47.12655,
+      "distanceToCenter": 9.98,
+      "walkingDistanceToCenter": 11.27
     }
   },
   {
@@ -2360,7 +2536,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.93726,
-      "lon": -47.07066
+      "lon": -47.07066,
+      "distanceToCenter": 3.21,
+      "walkingDistanceToCenter": 3.88
     }
   },
   {
@@ -2387,7 +2565,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.82678,
-      "lon": -47.09951
+      "lon": -47.09951,
+      "distanceToCenter": 10.15,
+      "walkingDistanceToCenter": 11.46
     }
   },
   {
@@ -2414,7 +2594,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9421762,
-      "lon": -47.07785804254273
+      "lon": -47.07785804254273,
+      "distanceToCenter": 4.01,
+      "walkingDistanceToCenter": 5.35
     }
   },
   {
@@ -2447,7 +2629,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.8974247,
-      "lon": -47.1960086
+      "lon": -47.1960086,
+      "distanceToCenter": 14.06,
+      "walkingDistanceToCenter": 16.76
     }
   },
   {
@@ -2474,7 +2658,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97774,
-      "lon": -47.16871
+      "lon": -47.16871,
+      "distanceToCenter": 13.46,
+      "walkingDistanceToCenter": 15.29
     }
   },
   {
@@ -2507,7 +2693,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9421762,
-      "lon": -47.07785804254273
+      "lon": -47.07785804254273,
+      "distanceToCenter": 4.01,
+      "walkingDistanceToCenter": 5.35
     }
   },
   {
@@ -2537,7 +2725,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9400324,
-      "lon": -47.189316891511126
+      "lon": -47.189316891511126,
+      "distanceToCenter": 13.7,
+      "walkingDistanceToCenter": 15.98
     }
   },
   {
@@ -2568,7 +2758,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.87869,
-      "lon": -47.02179
+      "lon": -47.02179,
+      "distanceToCenter": 5.22,
+      "walkingDistanceToCenter": 6.39
     }
   },
   {
@@ -2598,7 +2790,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -2625,7 +2819,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.1872681,
-      "lon": -46.9030973
+      "lon": -46.9030973,
+      "distanceToCenter": 34.71,
+      "walkingDistanceToCenter": 37.49
     }
   },
   {
@@ -2658,7 +2854,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.98267,
-      "lon": -47.11422
+      "lon": -47.11422,
+      "distanceToCenter": 9.81,
+      "walkingDistanceToCenter": 12.33
     }
   },
   {
@@ -2685,7 +2883,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9754633,
-      "lon": -47.1272723
+      "lon": -47.1272723,
+      "distanceToCenter": 10.03,
+      "walkingDistanceToCenter": 11.29
     }
   },
   {
@@ -2715,7 +2915,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.95753,
-      "lon": -47.13655
+      "lon": -47.13655,
+      "distanceToCenter": 9.48,
+      "walkingDistanceToCenter": 11.33
     }
   },
   {
@@ -2745,7 +2947,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.037882,
-      "lon": -47.112788
+      "lon": -47.112788,
+      "distanceToCenter": 15.2,
+      "walkingDistanceToCenter": 17.22
     }
   },
   {
@@ -2772,7 +2976,9 @@
     "__status": "updated",
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     }
   },
   {
@@ -2802,7 +3008,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97774,
-      "lon": -47.16871
+      "lon": -47.16871,
+      "distanceToCenter": 13.46,
+      "walkingDistanceToCenter": 15.29
     }
   },
   {
@@ -2822,7 +3030,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9754633,
-      "lon": -47.1272723
+      "lon": -47.1272723,
+      "distanceToCenter": 10.03,
+      "walkingDistanceToCenter": 11.29
     }
   },
   {
@@ -2852,7 +3062,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9490021,
-      "lon": -47.1126741
+      "lon": -47.1126741,
+      "distanceToCenter": 6.94,
+      "walkingDistanceToCenter": 7.75
     }
   },
   {
@@ -2879,7 +3091,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -2906,7 +3120,9 @@
     "__status": "updated",
     "coords": {
       "lat": -11.6754759,
-      "lon": -51.382205
+      "lon": -51.382205,
+      "distanceToCenter": 1330.56,
+      "walkingDistanceToCenter": 623.83
     }
   },
   {
@@ -2936,7 +3152,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.978375,
-      "lon": -47.16965686111111
+      "lon": -47.16965686111111,
+      "distanceToCenter": 13.58,
+      "walkingDistanceToCenter": 15.36
     }
   },
   {
@@ -2960,7 +3178,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9050869,
-      "lon": -47.0600751
+      "lon": -47.0600751,
+      "distanceToCenter": 0.58,
+      "walkingDistanceToCenter": 0.72
     }
   },
   {
@@ -2990,7 +3210,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9442298,
-      "lon": -47.1083519
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -3017,7 +3239,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.93726,
-      "lon": -47.07066
+      "lon": -47.07066,
+      "distanceToCenter": 3.21,
+      "walkingDistanceToCenter": 3.88
     }
   },
   {
@@ -3044,7 +3268,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.880833,
-      "lon": -47.051667
+      "lon": -47.051667,
+      "distanceToCenter": 3.37,
+      "walkingDistanceToCenter": 3.82
     }
   },
   {
@@ -3071,7 +3297,9 @@
     "__status": "updated",
     "coords": {
       "lat": -21.5274941,
-      "lon": -46.6358709
+      "lon": -46.6358709,
+      "distanceToCenter": 159.82,
+      "walkingDistanceToCenter": 199.16
     }
   },
   {
@@ -3101,7 +3329,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97179,
-      "lon": -47.16905
+      "lon": -47.16905,
+      "distanceToCenter": 13.14,
+      "walkingDistanceToCenter": 14.51
     }
   },
   {
@@ -3131,7 +3361,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.7867431,
-      "lon": -47.0641038
+      "lon": -47.0641038,
+      "distanceToCenter": 13.75,
+      "walkingDistanceToCenter": 17.76
     }
   },
   {
@@ -3151,7 +3383,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.02522,
-      "lon": -47.12096
+      "lon": -47.12096,
+      "distanceToCenter": 14.24,
+      "walkingDistanceToCenter": 16.38
     }
   },
   {
@@ -3181,7 +3415,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.1872681,
-      "lon": -46.9030973
+      "lon": -46.9030973,
+      "distanceToCenter": 34.71,
+      "walkingDistanceToCenter": 37.49
     }
   },
   {
@@ -3208,7 +3444,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.95529,
-      "lon": -47.18347
+      "lon": -47.18347,
+      "distanceToCenter": 13.65,
+      "walkingDistanceToCenter": 16.67
     }
   },
   {
@@ -3238,7 +3476,9 @@
     "__status": "updated",
     "coords": {
       "lat": -18.83529,
-      "lon": -41.9005
+      "lon": -41.9005,
+      "distanceToCenter": 701.73,
+      "walkingDistanceToCenter": 682.28
     }
   },
   {
@@ -3268,7 +3508,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.945514000000003,
-      "lon": -47.165998475725374
+      "lon": -47.165998475725374,
+      "distanceToCenter": 11.59,
+      "walkingDistanceToCenter": 13.79
     }
   },
   {
@@ -3301,7 +3543,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9421762,
-      "lon": -47.07785804254273
+      "lon": -47.07785804254273,
+      "distanceToCenter": 4.01,
+      "walkingDistanceToCenter": 5.35
     }
   },
   {
@@ -3325,7 +3569,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9050869,
-      "lon": -47.0600751
+      "lon": -47.0600751,
+      "distanceToCenter": 0.58,
+      "walkingDistanceToCenter": 0.72
     }
   },
   {
@@ -3352,7 +3598,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.911,
-      "lon": -47.09605
+      "lon": -47.09605,
+      "distanceToCenter": 3.74,
+      "walkingDistanceToCenter": 4.43
     }
   },
   {
@@ -3385,7 +3633,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.8416978,
-      "lon": -47.1387166
+      "lon": -47.1387166,
+      "distanceToCenter": 11.14,
+      "walkingDistanceToCenter": 12.8
     }
   },
   {
@@ -3418,7 +3668,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.89155,
-      "lon": -47.10636
+      "lon": -47.10636,
+      "distanceToCenter": 5.23,
+      "walkingDistanceToCenter": 5.47
     }
   },
   {
@@ -3451,7 +3703,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9400324,
-      "lon": -47.189316891511126
+      "lon": -47.189316891511126,
+      "distanceToCenter": 13.7,
+      "walkingDistanceToCenter": 15.98
     }
   },
   {
@@ -3478,7 +3732,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.91084,
-      "lon": -47.11593
+      "lon": -47.11593,
+      "distanceToCenter": 5.78,
+      "walkingDistanceToCenter": 6.87
     }
   },
   {
@@ -3508,7 +3764,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -3535,7 +3793,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.92609,
-      "lon": -47.05258
+      "lon": -47.05258,
+      "distanceToCenter": 1.89,
+      "walkingDistanceToCenter": 2.31
     }
   },
   {
@@ -3568,7 +3828,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -3598,7 +3860,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.1462072,
-      "lon": -46.9162728
+      "lon": -46.9162728,
+      "distanceToCenter": 30.05,
+      "walkingDistanceToCenter": 32.59
     }
   },
   {
@@ -3631,7 +3895,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -3664,7 +3930,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.8476825,
-      "lon": -47.1190068
+      "lon": -47.1190068,
+      "distanceToCenter": 9.25,
+      "walkingDistanceToCenter": 10.26
     }
   },
   {
@@ -3691,7 +3959,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.17304,
-      "lon": -46.9133472
+      "lon": -46.9133472,
+      "distanceToCenter": 32.82,
+      "walkingDistanceToCenter": 35.73
     }
   },
   {
@@ -3721,7 +3991,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.8040126,
-      "lon": -47.3100136
+      "lon": -47.3100136,
+      "distanceToCenter": 28.26,
+      "walkingDistanceToCenter": 33.16
     }
   },
   {
@@ -3754,7 +4026,9 @@
     "__status": "updated",
     "coords": {
       "lat": 40.31489,
-      "lon": -3.7834
+      "lon": -3.7834,
+      "distanceToCenter": 8335.21,
+      "walkingDistanceToCenter": null
     }
   },
   {
@@ -3784,7 +4058,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.18576,
-      "lon": -47.27957
+      "lon": -47.27957,
+      "distanceToCenter": 38.02,
+      "walkingDistanceToCenter": 43.77
     }
   },
   {
@@ -3817,7 +4093,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.8961315,
-      "lon": -47.1561793
+      "lon": -47.1561793,
+      "distanceToCenter": 10.03,
+      "walkingDistanceToCenter": 14.3
     }
   },
   {
@@ -3841,7 +4119,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9442298,
-      "lon": -47.1083519
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -3871,7 +4151,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.037882,
-      "lon": -47.112788
+      "lon": -47.112788,
+      "distanceToCenter": 15.2,
+      "walkingDistanceToCenter": 17.22
     }
   },
   {
@@ -3904,7 +4186,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -3931,7 +4215,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.9442298,
-      "lon": -47.1083519
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -3961,7 +4247,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.87766,
-      "lon": -47.1425
+      "lon": -47.1425,
+      "distanceToCenter": 9.24,
+      "walkingDistanceToCenter": 14.81
     }
   },
   {
@@ -3991,7 +4279,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -4021,7 +4311,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.04439,
-      "lon": -47.13025
+      "lon": -47.13025,
+      "distanceToCenter": 16.58,
+      "walkingDistanceToCenter": 19.01
     }
   },
   {
@@ -4051,7 +4343,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.947889449999998,
-      "lon": -47.16255568604536
+      "lon": -47.16255568604536,
+      "distanceToCenter": 11.35,
+      "walkingDistanceToCenter": 13.64
     }
   },
   {
@@ -4084,7 +4378,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.7576063,
-      "lon": -47.1450806
+      "lon": -47.1450806,
+      "distanceToCenter": 19.11,
+      "walkingDistanceToCenter": 20.76
     }
   },
   {
@@ -4111,7 +4407,9 @@
     "__status": "updated",
     "coords": {
       "lat": -19.52606,
-      "lon": -40.63814
+      "lon": -40.63814,
+      "distanceToCenter": 764.47,
+      "walkingDistanceToCenter": 993.53
     }
   },
   {
@@ -4141,7 +4439,9 @@
     "__status": "updated",
     "coords": {
       "lat": -10.1934964,
-      "lon": -48.9000447
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
     }
   },
   {
@@ -4171,7 +4471,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.4454992,
-      "lon": -46.8362907
+      "lon": -46.8362907,
+      "distanceToCenter": 56.53,
+      "walkingDistanceToCenter": 73.39
     }
   },
   {
@@ -4201,7 +4503,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.050304,
-      "lon": -46.9739075
+      "lon": -46.9739075,
+      "distanceToCenter": 96.03,
+      "walkingDistanceToCenter": 116.69
     }
   },
   {
@@ -4231,7 +4535,9 @@
     "__status": "updated",
     "coords": {
       "lat": -20.2499754,
-      "lon": -50.5556623
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
     }
   },
   {
@@ -4264,7 +4570,9 @@
     "__status": "updated",
     "coords": {
       "lat": -22.911,
-      "lon": -47.09605
+      "lon": -47.09605,
+      "distanceToCenter": 3.74,
+      "walkingDistanceToCenter": 4.43
     }
   },
   {
@@ -4295,7 +4603,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.18576,
-      "lon": -47.27957
+      "lon": -47.27957,
+      "distanceToCenter": 38.02,
+      "walkingDistanceToCenter": 43.77
     }
   },
   {
@@ -4322,7 +4632,9 @@
     "__status": "updated",
     "coords": {
       "lat": -23.2052977,
-      "lon": -46.8720963
+      "lon": -46.8720963,
+      "distanceToCenter": 37.99,
+      "walkingDistanceToCenter": 40.54
     }
   },
   {
@@ -4352,7 +4664,9 @@
     "__status": "added",
     "coords": {
       "lat": -21.4593487,
-      "lon": -47.0085588
+      "lon": -47.0085588,
+      "distanceToCenter": 161.42,
+      "walkingDistanceToCenter": 202.5
     }
   },
   {
@@ -4379,7 +4693,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9214274,
-      "lon": -47.1043182
+      "lon": -47.1043182,
+      "distanceToCenter": 4.75,
+      "walkingDistanceToCenter": 6.17
     }
   },
   {
@@ -4409,7 +4725,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9308471,
-      "lon": -47.0875066
+      "lon": -47.0875066,
+      "distanceToCenter": 3.67,
+      "walkingDistanceToCenter": 4.2
     }
   },
   {
@@ -4436,7 +4754,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9400324,
-      "lon": -47.189316891511126
+      "lon": -47.189316891511126,
+      "distanceToCenter": 13.7,
+      "walkingDistanceToCenter": 15.98
     }
   },
   {
@@ -4469,7 +4789,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9442298,
-      "lon": -47.1083519
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -4499,7 +4821,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.947889449999998,
-      "lon": -47.16255568604536
+      "lon": -47.16255568604536,
+      "distanceToCenter": 11.35,
+      "walkingDistanceToCenter": 13.64
     }
   },
   {
@@ -4532,7 +4856,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.3491683,
-      "lon": -46.9451016
+      "lon": -46.9451016,
+      "distanceToCenter": 63.49,
+      "walkingDistanceToCenter": 76.74
     }
   },
   {
@@ -4565,7 +4891,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.978375,
-      "lon": -47.16965686111111
+      "lon": -47.16965686111111,
+      "distanceToCenter": 13.58,
+      "walkingDistanceToCenter": 15.36
     }
   },
   {
@@ -4598,7 +4926,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.911,
-      "lon": -47.09605
+      "lon": -47.09605,
+      "distanceToCenter": 3.74,
+      "walkingDistanceToCenter": 4.43
     }
   },
   {
@@ -4628,7 +4958,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.98984,
-      "lon": -46.82796
+      "lon": -46.82796,
+      "distanceToCenter": 25.3,
+      "walkingDistanceToCenter": 31.34
     }
   },
   {
@@ -4661,7 +4993,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.1146923,
-      "lon": -51.4273927
+      "lon": -51.4273927,
+      "distanceToCenter": 457.29,
+      "walkingDistanceToCenter": 550.61
     }
   },
   {
@@ -4691,7 +5025,9 @@
     "__status": "added",
     "coords": {
       "lat": 40.31489,
-      "lon": -3.7834
+      "lon": -3.7834,
+      "distanceToCenter": 8335.21,
+      "walkingDistanceToCenter": null
     }
   },
   {
@@ -4724,7 +5060,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.96432,
-      "lon": -47.16947
+      "lon": -47.16947,
+      "distanceToCenter": 12.76,
+      "walkingDistanceToCenter": 14.68
     }
   },
   {
@@ -4757,7 +5095,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9587,
-      "lon": -47.1337
+      "lon": -47.1337,
+      "distanceToCenter": 9.31,
+      "walkingDistanceToCenter": 10.92
     }
   },
   {
@@ -4787,7 +5127,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.7409093,
-      "lon": -47.3676291
+      "lon": -47.3676291,
+      "distanceToCenter": 36.77,
+      "walkingDistanceToCenter": 43.19
     }
   },
   {
@@ -4817,7 +5159,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.947889449999998,
-      "lon": -47.16255568604536
+      "lon": -47.16255568604536,
+      "distanceToCenter": 11.35,
+      "walkingDistanceToCenter": 13.64
     }
   },
   {
@@ -4840,7 +5184,9 @@
     "publishDate": "2025-04-21 18:33:00",
     "coords": {
       "lat": -22.9360851,
-      "lon": -47.1601215
+      "lon": -47.1601215,
+      "distanceToCenter": 10.7,
+      "walkingDistanceToCenter": 12.76
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -4872,7 +5218,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -4899,7 +5247,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.85053615,
-      "lon": -47.03141553145108
+      "lon": -47.03141553145108,
+      "distanceToCenter": 7.24,
+      "walkingDistanceToCenter": 8.31
     }
   },
   {
@@ -4923,7 +5273,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9262115,
-      "lon": -47.113028402231905
+      "lon": -47.113028402231905,
+      "distanceToCenter": 5.76,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -4952,7 +5304,9 @@
     "publishDate": "2025-04-02 15:17:00",
     "coords": {
       "lat": -22.85864,
-      "lon": -47.15535
+      "lon": -47.15535,
+      "distanceToCenter": 11.38,
+      "walkingDistanceToCenter": 16.32
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "__status": "updated"
@@ -4987,7 +5341,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -5017,7 +5373,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9689952,
-      "lon": -47.1498288
+      "lon": -47.1498288,
+      "distanceToCenter": 11.32,
+      "walkingDistanceToCenter": 12.42
     }
   },
   {
@@ -5047,7 +5405,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.97179,
-      "lon": -47.16905
+      "lon": -47.16905,
+      "distanceToCenter": 13.14,
+      "walkingDistanceToCenter": 14.51
     }
   },
   {
@@ -5080,7 +5440,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.90063,
-      "lon": -47.10055
+      "lon": -47.10055,
+      "distanceToCenter": 4.34,
+      "walkingDistanceToCenter": 4.82
     }
   },
   {
@@ -5113,7 +5475,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9587,
-      "lon": -47.1337
+      "lon": -47.1337,
+      "distanceToCenter": 9.31,
+      "walkingDistanceToCenter": 10.92
     }
   },
   {
@@ -5143,7 +5507,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.89479,
-      "lon": -47.15146
+      "lon": -47.15146,
+      "distanceToCenter": 9.58,
+      "walkingDistanceToCenter": 14.8
     }
   },
   {
@@ -5176,7 +5542,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8756414,
-      "lon": -47.05496434080892
+      "lon": -47.05496434080892,
+      "distanceToCenter": 3.88,
+      "walkingDistanceToCenter": 4.99
     }
   },
   {
@@ -5206,7 +5574,9 @@
     "__status": "added",
     "coords": {
       "lat": -20.2499754,
-      "lon": -50.5556623
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
     }
   },
   {
@@ -5236,7 +5606,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.037882,
-      "lon": -47.112788
+      "lon": -47.112788,
+      "distanceToCenter": 15.2,
+      "walkingDistanceToCenter": 17.22
     }
   },
   {
@@ -5260,7 +5632,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9442298,
-      "lon": -47.1083519
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -5293,7 +5667,9 @@
     "__status": "added",
     "coords": {
       "lat": -20.2499754,
-      "lon": -50.5556623
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
     }
   },
   {
@@ -5326,7 +5702,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.18576,
-      "lon": -47.27957
+      "lon": -47.27957,
+      "distanceToCenter": 38.02,
+      "walkingDistanceToCenter": 43.77
     }
   },
   {
@@ -5359,7 +5737,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.1872681,
-      "lon": -46.9030973
+      "lon": -46.9030973,
+      "distanceToCenter": 34.71,
+      "walkingDistanceToCenter": 37.49
     }
   },
   {
@@ -5389,7 +5769,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8860217,
-      "lon": -47.0377564
+      "lon": -47.0377564,
+      "distanceToCenter": 3.5,
+      "walkingDistanceToCenter": 4.17
     }
   },
   {
@@ -5422,7 +5804,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9151726,
-      "lon": -47.0529305
+      "lon": -47.0529305,
+      "distanceToCenter": 0.86,
+      "walkingDistanceToCenter": 1.11
     }
   },
   {
@@ -5452,7 +5836,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.0525736,
-      "lon": -47.8407421
+      "lon": -47.8407421,
+      "distanceToCenter": 81.52,
+      "walkingDistanceToCenter": 97.89
     }
   },
   {
@@ -5482,7 +5868,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.3609606,
-      "lon": -46.9483048
+      "lon": -46.9483048,
+      "distanceToCenter": 62.14,
+      "walkingDistanceToCenter": 75.64
     }
   },
   {
@@ -5515,7 +5903,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.97765,
-      "lon": -47.13522
+      "lon": -47.13522,
+      "distanceToCenter": 10.78,
+      "walkingDistanceToCenter": 12.25
     }
   },
   {
@@ -5548,7 +5938,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9587,
-      "lon": -47.1337
+      "lon": -47.1337,
+      "distanceToCenter": 9.31,
+      "walkingDistanceToCenter": 10.92
     }
   },
   {
@@ -5578,7 +5970,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.82985,
-      "lon": -47.0822
+      "lon": -47.0822,
+      "distanceToCenter": 9.24,
+      "walkingDistanceToCenter": 12.84
     }
   },
   {
@@ -5611,7 +6005,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9360851,
-      "lon": -47.1601215
+      "lon": -47.1601215,
+      "distanceToCenter": 10.7,
+      "walkingDistanceToCenter": 12.76
     }
   },
   {
@@ -5641,7 +6037,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.5701692,
-      "lon": -47.4034094
+      "lon": -47.4034094,
+      "distanceToCenter": 51.71,
+      "walkingDistanceToCenter": 63.17
     }
   },
   {
@@ -5674,7 +6072,9 @@
     "__status": "added",
     "coords": {
       "lat": -21.5274941,
-      "lon": -46.6358709
+      "lon": -46.6358709,
+      "distanceToCenter": 159.82,
+      "walkingDistanceToCenter": 199.16
     }
   },
   {
@@ -5704,7 +6104,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9382895,
-      "lon": -47.03934470059432
+      "lon": -47.03934470059432,
+      "distanceToCenter": 3.73,
+      "walkingDistanceToCenter": 4.21
     }
   },
   {
@@ -5734,7 +6136,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.2063842,
-      "lon": -46.8893026
+      "lon": -46.8893026,
+      "distanceToCenter": 37.24,
+      "walkingDistanceToCenter": 40.21
     }
   },
   {
@@ -5767,7 +6171,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.3949025,
-      "lon": -46.6308139
+      "lon": -46.6308139,
+      "distanceToCenter": 69.46,
+      "walkingDistanceToCenter": 82.47
     }
   },
   {
@@ -5800,7 +6206,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8040126,
-      "lon": -47.3100136
+      "lon": -47.3100136,
+      "distanceToCenter": 28.26,
+      "walkingDistanceToCenter": 33.16
     }
   },
   {
@@ -5833,7 +6241,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.97445,
-      "lon": -47.12141
+      "lon": -47.12141,
+      "distanceToCenter": 9.54,
+      "walkingDistanceToCenter": 11.06
     }
   },
   {
@@ -5866,7 +6276,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.98267,
-      "lon": -47.11422
+      "lon": -47.11422,
+      "distanceToCenter": 9.81,
+      "walkingDistanceToCenter": 12.33
     }
   },
   {
@@ -5890,7 +6302,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8598285,
-      "lon": -47.03760583153676
+      "lon": -47.03760583153676,
+      "distanceToCenter": 6.04,
+      "walkingDistanceToCenter": 6.9
     }
   },
   {
@@ -5923,7 +6337,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.888889,
-      "lon": -47.081944
+      "lon": -47.081944,
+      "distanceToCenter": 3.31,
+      "walkingDistanceToCenter": 3.62
     }
   },
   {
@@ -5956,7 +6372,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8750674,
-      "lon": -47.07301410764019
+      "lon": -47.07301410764019,
+      "distanceToCenter": 4.16,
+      "walkingDistanceToCenter": 4.85
     }
   },
   {
@@ -5986,7 +6404,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.93288,
-      "lon": -47.09487
+      "lon": -47.09487,
+      "distanceToCenter": 4.41,
+      "walkingDistanceToCenter": 5.1
     }
   },
   {
@@ -6016,7 +6436,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.91658,
-      "lon": -47.03794
+      "lon": -47.03794,
+      "distanceToCenter": 2.32,
+      "walkingDistanceToCenter": 2.91
     }
   },
   {
@@ -6049,7 +6471,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9442298,
-      "lon": -47.1083519
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -6082,7 +6506,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8916592,
-      "lon": -47.100781730448645
+      "lon": -47.100781730448645,
+      "distanceToCenter": 4.71,
+      "walkingDistanceToCenter": 5.01
     }
   },
   {
@@ -6112,7 +6538,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9262115,
-      "lon": -47.113028402231905
+      "lon": -47.113028402231905,
+      "distanceToCenter": 5.76,
+      "walkingDistanceToCenter": 7.04
     }
   },
   {
@@ -6142,7 +6570,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.1898173,
-      "lon": -46.849775
+      "lon": -46.849775,
+      "distanceToCenter": 37.77,
+      "walkingDistanceToCenter": 42.07
     }
   },
   {
@@ -6175,7 +6605,9 @@
     "__status": "added",
     "coords": {
       "lat": 40.31489,
-      "lon": -3.7834
+      "lon": -3.7834,
+      "distanceToCenter": 8335.21,
+      "walkingDistanceToCenter": null
     }
   },
   {
@@ -6208,7 +6640,9 @@
     "__status": "added",
     "coords": {
       "lat": -21.5274941,
-      "lon": -46.6358709
+      "lon": -46.6358709,
+      "distanceToCenter": 159.82,
+      "walkingDistanceToCenter": 199.16
     }
   },
   {
@@ -6238,7 +6672,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.0602312,
-      "lon": -46.9838811
+      "lon": -46.9838811,
+      "distanceToCenter": 94.84,
+      "walkingDistanceToCenter": 115.97
     }
   },
   {
@@ -6271,7 +6707,9 @@
     "__status": "added",
     "coords": {
       "lat": -21.5274941,
-      "lon": -46.6358709
+      "lon": -46.6358709,
+      "distanceToCenter": 159.82,
+      "walkingDistanceToCenter": 199.16
     }
   },
   {
@@ -6304,7 +6742,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -6337,7 +6777,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.87392,
-      "lon": -47.1418
+      "lon": -47.1418,
+      "distanceToCenter": 9.35,
+      "walkingDistanceToCenter": 15.16
     }
   },
   {
@@ -6370,7 +6812,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8961315,
-      "lon": -47.1561793
+      "lon": -47.1561793,
+      "distanceToCenter": 10.03,
+      "walkingDistanceToCenter": 14.3
     }
   },
   {
@@ -6400,7 +6844,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8961315,
-      "lon": -47.1561793
+      "lon": -47.1561793,
+      "distanceToCenter": 10.03,
+      "walkingDistanceToCenter": 14.3
     }
   },
   {
@@ -6427,7 +6873,9 @@
     "__status": "added",
     "coords": {
       "lat": 40.31489,
-      "lon": -3.7834
+      "lon": -3.7834,
+      "distanceToCenter": 8335.21,
+      "walkingDistanceToCenter": null
     }
   },
   {
@@ -6457,7 +6905,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9587,
-      "lon": -47.1337
+      "lon": -47.1337,
+      "distanceToCenter": 9.31,
+      "walkingDistanceToCenter": 10.92
     }
   },
   {
@@ -6487,7 +6937,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.4785078,
-      "lon": -46.623682
+      "lon": -46.623682,
+      "distanceToCenter": 65.61,
+      "walkingDistanceToCenter": 83.03
     }
   },
   {
@@ -6520,7 +6972,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9587,
-      "lon": -47.1337
+      "lon": -47.1337,
+      "distanceToCenter": 9.31,
+      "walkingDistanceToCenter": 10.92
     }
   },
   {
@@ -6553,7 +7007,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.88499,
-      "lon": -47.03958
+      "lon": -47.03958,
+      "distanceToCenter": 3.48,
+      "walkingDistanceToCenter": 4.22
     }
   },
   {
@@ -6586,7 +7042,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9427307,
-      "lon": -47.1416499
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
     }
   },
   {
@@ -6613,7 +7071,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9463,
-      "lon": -47.09574
+      "lon": -47.09574,
+      "distanceToCenter": 5.46,
+      "walkingDistanceToCenter": 6.54
     }
   },
   {
@@ -6646,7 +7106,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.3473867,
-      "lon": -47.3837435
+      "lon": -47.3837435,
+      "distanceToCenter": 70.89,
+      "walkingDistanceToCenter": 83.78
     }
   },
   {
@@ -6676,7 +7138,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.1545723,
-      "lon": -47.0418849
+      "lon": -47.0418849,
+      "distanceToCenter": 27.22,
+      "walkingDistanceToCenter": 34.94
     }
   },
   {
@@ -6709,7 +7173,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.97514,
-      "lon": -47.18103
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
     }
   },
   {
@@ -6733,7 +7199,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8916592,
-      "lon": -47.100781730448645
+      "lon": -47.100781730448645,
+      "distanceToCenter": 4.71,
+      "walkingDistanceToCenter": 5.01
     }
   },
   {
@@ -6766,7 +7234,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.97545,
-      "lon": -47.12655
+      "lon": -47.12655,
+      "distanceToCenter": 9.98,
+      "walkingDistanceToCenter": 11.27
     }
   },
   {
@@ -6799,7 +7269,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.93737,
-      "lon": -47.09106
+      "lon": -47.09106,
+      "distanceToCenter": 4.42,
+      "walkingDistanceToCenter": 5.2
     }
   },
   {
@@ -6832,7 +7304,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.977525,
-      "lon": -47.1022475
+      "lon": -47.1022475,
+      "distanceToCenter": 8.66,
+      "walkingDistanceToCenter": 9.86
     }
   },
   {
@@ -6862,7 +7336,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.7409093,
-      "lon": -47.3676291
+      "lon": -47.3676291,
+      "distanceToCenter": 36.77,
+      "walkingDistanceToCenter": 43.19
     }
   },
   {
@@ -6895,7 +7371,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.7185124,
-      "lon": -47.6426022
+      "lon": -47.6426022,
+      "distanceToCenter": 63.46,
+      "walkingDistanceToCenter": 74.57
     }
   },
   {
@@ -6928,7 +7406,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9121159,
-      "lon": -47.1134891
+      "lon": -47.1134891,
+      "distanceToCenter": 5.53,
+      "walkingDistanceToCenter": 6.51
     }
   },
   {
@@ -6961,7 +7441,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.7409093,
-      "lon": -47.3676291
+      "lon": -47.3676291,
+      "distanceToCenter": 36.77,
+      "walkingDistanceToCenter": 43.19
     }
   },
   {
@@ -6991,7 +7473,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9121159,
-      "lon": -47.1134891
+      "lon": -47.1134891,
+      "distanceToCenter": 5.53,
+      "walkingDistanceToCenter": 6.51
     }
   },
   {
@@ -7022,7 +7506,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.888889,
-      "lon": -47.081944
+      "lon": -47.081944,
+      "distanceToCenter": 3.31,
+      "walkingDistanceToCenter": 3.62
     }
   },
   {
@@ -7052,7 +7538,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.892222,
-      "lon": -47.049722
+      "lon": -47.049722,
+      "distanceToCenter": 2.25,
+      "walkingDistanceToCenter": 2.78
     }
   },
   {
@@ -7085,7 +7573,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.1939396,
-      "lon": -46.91457
+      "lon": -46.91457,
+      "distanceToCenter": 34.85,
+      "walkingDistanceToCenter": 38.55
     }
   },
   {
@@ -7115,7 +7605,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.892222,
-      "lon": -47.049722
+      "lon": -47.049722,
+      "distanceToCenter": 2.25,
+      "walkingDistanceToCenter": 2.78
     }
   },
   {
@@ -7148,7 +7640,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.93945,
-      "lon": -47.11971
+      "lon": -47.11971,
+      "distanceToCenter": 6.97,
+      "walkingDistanceToCenter": 8.02
     }
   },
   {
@@ -7181,7 +7675,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.88487765,
-      "lon": -47.11751493802094
+      "lon": -47.11751493802094,
+      "distanceToCenter": 6.58,
+      "walkingDistanceToCenter": 10.92
     }
   },
   {
@@ -7214,7 +7710,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.8567607,
-      "lon": -47.0694473
+      "lon": -47.0694473,
+      "distanceToCenter": 6.04,
+      "walkingDistanceToCenter": 6.81
     }
   },
   {
@@ -7247,7 +7745,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.834966350000002,
-      "lon": -47.150270806170965
+      "lon": -47.150270806170965,
+      "distanceToCenter": 12.52,
+      "walkingDistanceToCenter": 14.87
     }
   },
   {
@@ -7274,7 +7774,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.117307250000003,
-      "lon": -46.57061385
+      "lon": -46.57061385,
+      "distanceToCenter": 55.08,
+      "walkingDistanceToCenter": 67.51
     }
   },
   {
@@ -7304,7 +7806,9 @@
     "__status": "added",
     "coords": {
       "lat": -23.0857062,
-      "lon": -46.9861488
+      "lon": -46.9861488,
+      "distanceToCenter": 20.9,
+      "walkingDistanceToCenter": 25.18
     }
   },
   {
@@ -7331,7 +7835,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.93368,
-      "lon": -47.04666
+      "lon": -47.04666,
+      "distanceToCenter": 2.91,
+      "walkingDistanceToCenter": 3.27
     }
   },
   {
@@ -7364,7 +7870,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.9509339,
-      "lon": -47.0249529
+      "lon": -47.0249529,
+      "distanceToCenter": 5.74,
+      "walkingDistanceToCenter": 6.2
     }
   },
   {
@@ -7397,7 +7905,9 @@
     "__status": "added",
     "coords": {
       "lat": -22.88487765,
-      "lon": -47.11751493802094
+      "lon": -47.11751493802094,
+      "distanceToCenter": 6.58,
+      "walkingDistanceToCenter": 10.92
     }
   }
 ]
