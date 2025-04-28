@@ -1,0 +1,108 @@
+name: Cleanup Before Merge
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - api
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Número do Pull Request para limpeza"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.TARGET_REPO_PAT }}
+
+      - name: Get PR branch name
+        id: pr-branch
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "branch=${{ github.head_ref }}" >> $GITHUB_OUTPUT
+            echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+          else
+            # Se for workflow_dispatch, usar o input
+            PR_NUM=${{ github.event.inputs.pr_number }}
+            if [[ -z "$PR_NUM" ]]; then
+              echo "Nenhum número de PR fornecido."
+              exit 1
+            fi
+            
+            # Obter informações do PR via API
+            PR_DATA=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                      "https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUM")
+            
+            BRANCH=$(echo "$PR_DATA" | jq -r .head.ref)
+            echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+            echo "pr_number=$PR_NUM" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout PR branch
+        run: |
+          git fetch origin
+          git checkout ${{ steps.pr-branch.outputs.branch }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci --prefer-offline
+
+      - name: Run cleanup script
+        run: |
+          echo "Executando limpeza na branch ${{ steps.pr-branch.outputs.branch }} (PR #${{ steps.pr-branch.outputs.pr_number }})"
+          node scripts/cleanupPrErrors.js ${{ steps.pr-branch.outputs.pr_number }}
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git status --porcelain
+          echo "modified=$(if git status --porcelain | grep -q .; then echo "true"; else echo "false"; fi)" >> $GITHUB_OUTPUT
+
+      - name: Commit changes if needed
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --local user.email "${{ secrets.GIT_USER_EMAIL }}"
+          git config --local user.name "${{ secrets.GIT_USER_NAME }}"
+          git add -A
+          git commit -m "🧹 Limpeza de capturas de erro antes do merge (PR #${{ steps.pr-branch.outputs.pr_number }})"
+          git push origin ${{ steps.pr-branch.outputs.branch }}
+
+      - name: Add comment to PR
+        if: steps.git-check.outputs.modified == 'true'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.TARGET_REPO_PAT }}
+          script: |
+            const prNumber = parseInt('${{ steps.pr-branch.outputs.pr_number }}');
+            const filesDeleted = parseInt('${{ env.CLEANUP_FILES_DELETED || 0 }}');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: `## 🧹 Limpeza Automática
+              
+              Foram removidas **${filesDeleted} capturas de erro** desnecessárias deste Pull Request.
+              
+              As imagens foram guardadas em logs para referência e apenas exemplos relevantes foram mantidos.`
+            });
