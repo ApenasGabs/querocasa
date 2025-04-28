@@ -7,9 +7,22 @@ import getBrasiliaTime from "./getBrasiliaTime.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OLD_RESULTS_PATH = path.join(__dirname, "../../querocasa/data/results");
-const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
+const DEFAULT_OLD_RESULTS_PATH = path.join(
+  __dirname,
+  "../../querocasa/data/results"
+);
+const DEFAULT_NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
 const PLATFORMS = ["olx", "zap"];
+
+// Variáveis de configuração que podem ser injetadas para testes
+let OLD_RESULTS_PATH = DEFAULT_OLD_RESULTS_PATH;
+let NEW_RESULTS_PATH = DEFAULT_NEW_RESULTS_PATH;
+
+// Função para configurar caminhos - usada principalmente para testes
+export function configurePaths(oldPath, newPath) {
+  OLD_RESULTS_PATH = oldPath || DEFAULT_OLD_RESULTS_PATH;
+  NEW_RESULTS_PATH = newPath || DEFAULT_NEW_RESULTS_PATH;
+}
 
 /**
  * Função para leitura segura de arquivos JSON
@@ -96,9 +109,8 @@ function generateId() {
 /**
  * Processa os resultados de uma plataforma
  */
-const processPlatformResults = async (platform) => {
+export const processPlatformResults = async (platform) => {
   const now = getBrasiliaTime();
-
   try {
     console.log(`\n🔄 Processando resultados da plataforma: ${platform}`);
 
@@ -109,8 +121,7 @@ const processPlatformResults = async (platform) => {
     const oldData = await safeReadJsonFile(oldFile);
     console.log(`📂 Carregando novos dados de: ${newFile}`);
     const newData = await safeReadJsonFile(newFile);
-    console.log(`📂 Dados antigos carregados (${platform}):`, oldData);
-    console.log(`📂 Dados novos carregados (${platform}):`, newData);
+
     console.log(`📊 Propriedades antigas carregadas: ${oldData.length}`);
     console.log(`📊 Novas propriedades encontradas: ${newData.length}`);
 
@@ -154,6 +165,7 @@ const processPlatformResults = async (platform) => {
     // Processa os novos dados
     newData.forEach((newProp) => {
       if (!newProp.link) {
+        // Novos itens sem link são adicionados com novos IDs
         newCount++;
         mergedData.push({
           ...newProp,
@@ -171,6 +183,7 @@ const processPlatformResults = async (platform) => {
 
       const oldProp = oldPropertiesByLink.get(newProp.link);
       if (oldProp) {
+        // Item existe em ambos os conjuntos de dados
         updatedCount++;
 
         // Criamos uma cópia do objeto antigo para preservar todos os campos
@@ -206,6 +219,7 @@ const processPlatformResults = async (platform) => {
 
         mergedData.push(mergedProp);
       } else {
+        // Item existe apenas nos novos dados
         newCount++;
         mergedData.push({
           ...newProp,
@@ -225,6 +239,7 @@ const processPlatformResults = async (platform) => {
     console.log(`\n[${platform.toUpperCase()} Results]`);
     console.log(`✅ Propriedades atualizadas: ${updatedCount}`);
     console.log(`✅ Novas propriedades adicionadas: ${newCount}`);
+    console.log(`✅ Propriedades preservadas: ${preservedCount}`);
     console.log(`📊 Total após merge: ${mergedData.length}`);
 
     await fs.promises.writeFile(oldFile, JSON.stringify(mergedData, null, 2));
