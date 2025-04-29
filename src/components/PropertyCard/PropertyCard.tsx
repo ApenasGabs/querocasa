@@ -41,10 +41,25 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
     const { address, images, description, link, price, scrapedAt } = property;
 
     const isNew = () => {
-      if (!scrapedAt) return false;
-      const today = new Date(getBrasiliaTime()).toLocaleDateString("pt-BR");
-      const scrapedDate = new Date(scrapedAt).toLocaleDateString("pt-BR");
-      return today === scrapedDate;
+      if (!scrapedAt) return null;
+
+      const currentDate = new Date(getBrasiliaTime());
+      const scrapedDate = new Date(scrapedAt);
+
+      // Calcular a diferença em dias
+      const diffTime = currentDate.getTime() - scrapedDate.getTime();
+      const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+      if (diffDays < 7) {
+        const formattedDate = scrapedDate.toLocaleDateString("pt-BR", {
+          day: "2-digit",
+          month: "2-digit",
+        });
+
+        return `New ${formattedDate}`;
+      }
+
+      return null;
     };
 
     const getDescriptionValue = (field: DescriptionFields) => {
@@ -82,7 +97,64 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
         .filter(Boolean)
         .join(" • ");
     };
+    const renderDistance = () => {
+      // Verificar se o imóvel tem coordenadas e dados de distância
+      if (
+        !property.coords ||
+        (!property.coords.distanceToCenter &&
+          !property.coords.walkingDistanceToCenter)
+      ) {
+        return null;
+      }
 
+      // Formatar a distância em linha reta
+      const directDistance = property.coords.distanceToCenter
+        ? `${property.coords.distanceToCenter} km`
+        : null;
+
+      // Formatar a distância a pé
+      const walkingDistance = property.coords.walkingDistanceToCenter
+        ? `${property.coords.walkingDistanceToCenter} km a pé`
+        : null;
+
+      // Determinar qual ícone usar baseado na distância até o centro
+      let distanceIcon = "🏙️";
+      let distanceClass = "text-blue-600";
+
+      if (property.coords.distanceToCenter) {
+        if (property.coords.distanceToCenter <= 4) {
+          distanceIcon = "🏙️";
+          distanceClass = "text-green-600 font-medium";
+        } else if (property.coords.distanceToCenter <= 8) {
+          distanceIcon = "🚌";
+          distanceClass = "text-blue-600";
+        } else if (property.coords.distanceToCenter <= 15) {
+          distanceIcon = "🚗";
+          distanceClass = "text-yellow-600";
+        } else {
+          distanceIcon = "✈️";
+          distanceClass = "text-red-600";
+        }
+      }
+
+      // Criar a string de distância
+      let distanceText = "";
+
+      if (directDistance && walkingDistance) {
+        distanceText = `${directDistance} (${walkingDistance})`;
+      } else if (directDistance) {
+        distanceText = directDistance;
+      } else if (walkingDistance) {
+        distanceText = walkingDistance;
+      }
+
+      return (
+        <div className={`flex items-center gap-1 ${distanceClass}`}>
+          <span>{distanceIcon}</span>
+          <span className="text-sm">{distanceText} do centro</span>
+        </div>
+      );
+    };
     const renderCarousel = () => {
       return validImages.map((image, imgIndex) => {
         const uniqImgID = `slide-${index}-${imgIndex}`;
@@ -134,8 +206,9 @@ const PropertyCard: React.FC<PropertyCardProps> = memo(
               style: "currency",
               currency: "BRL",
             }) || "Preço não disponível"}
+            {isNew() && <div className="badge badge-success">{isNew()}</div>}
           </h2>
-          {isNew() && <div className="badge badge-success">New</div>}
+          {renderDistance() && <p className="text-sm">{renderDistance()}</p>}
           <p className="text-sm">{renderDescription()}</p>
           <p className="text-sm text-gray-500">
             {address || "Endereço não disponível"}
