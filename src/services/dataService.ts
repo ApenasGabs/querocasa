@@ -30,6 +30,8 @@ export interface Property {
 export interface Coords {
   lat?: number;
   lon?: number;
+  distanceToCenter?: number;
+  walkingDistanceToCenter?: number;
 }
 
 export interface Description {

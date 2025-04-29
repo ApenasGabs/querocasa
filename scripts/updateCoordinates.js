@@ -42,6 +42,9 @@ const getCoordinates = async (neighborhood) => {
   let retries = 5;
   let delay = 2500;
 
+  // Garantir que sempre busque com o nome da cidade para maior precisão
+  const locationQuery = `${neighborhood}, Campinas, SP, Brasil`;
+
   while (retries > 0) {
     try {
       const response = await axios.get(
@@ -49,78 +52,97 @@ const getCoordinates = async (neighborhood) => {
         {
           params: {
             format: "json",
-            q: `${neighborhood}, Campinas`,
+            q: locationQuery,
+            // Adicionando bounded=1 para priorizar resultados dentro da área definida
+            bounded: 1,
+            // Definir um viewbox para limitar as buscas à região de Campinas
+            viewbox: "-47.2,-22.8,-46.9,-23.0",
+            // Limite o tipo de resultados para bairros/subúrbios
+            featuretype: "suburb",
           },
           headers: {
             "User-Agent": "Querocasa/1.0 (https://querocasa.apenasgabs.dev/)",
           },
         }
       );
+
       const data = response.data;
-      console.log(`response`, response);
-      console.log(`${neighborhood}: `, data);
+      console.log(`Busca por ${locationQuery}:`, data);
+
       if (data && data.length > 0) {
         return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) };
       } else {
-        // Chama hereapi se o Nominatim não encontrar o bairro
+        // Fallback para Here Maps se o Nominatim não encontrar
         console.log(
           `Nominatim não encontrou o bairro ${neighborhood}, ativando fallback hereapi...`
         );
-        const data = await getCoordinatesFromHereMaps(neighborhood);
-        console.log("data: ", data);
-        return data;
+        const hereData = await getCoordinatesFromHereMaps(neighborhood);
+        return hereData;
       }
     } catch (error) {
-      console.error(`Error fetching coordinates for ${neighborhood}:`, error);
+      console.error(`Erro ao buscar coordenadas para ${neighborhood}:`, error);
 
       if (error.response && error.response.status === 403) {
-        console.warn("Blocked by Nominatim. Increasing wait time...");
+        console.warn("Bloqueado pelo Nominatim. Aumentando tempo de espera...");
         await new Promise((resolve) => setTimeout(resolve, delay));
         delay *= 2; // Dobrar o tempo de espera em caso de bloqueio
         retries -= 1;
       } else {
-        return null; // Retornar null em caso de outros erros
+        return null;
       }
     }
   }
 
   console.error(
-    `Failed to fetch coordinates for ${neighborhood} after multiple attempts.`
+    `Falha ao obter coordenadas para ${neighborhood} após várias tentativas.`
   );
   return null;
 };
 
 /**
- * Fetches coordinates from Here Maps  API as a fallback.
+ * Fetches coordinates from Here Maps API as a fallback.
  *
  * @param {string} neighborhood - The name of the neighborhood.
  * @returns {Promise<{ lat: number, lon: number } | null>} The coordinates from Here Maps or null if not found.
  */
 const getCoordinatesFromHereMaps = async (neighborhood) => {
   const apiKey = process.argv[2];
+  if (!apiKey) {
+    console.error(
+      "Chave da API Here Maps não fornecida. Não é possível usar o fallback."
+    );
+    return null;
+  }
+
   try {
+    // Incluir sempre o nome completo da cidade para maior precisão
+    const locationQuery = `${neighborhood}, Campinas, São Paulo, Brasil`;
+
     const response = await axios.get(
       "https://geocode.search.hereapi.com/v1/geocode",
       {
         params: {
-          q: `${neighborhood}, Campinas, Brazil`,
+          q: locationQuery,
           apiKey: apiKey,
+          // Adicionar in para limitar resultados a Campinas
+          in: "city:Campinas",
         },
       }
     );
 
     const data = response.data.items;
-    console.log("data: ", data);
+    console.log(`Resultado Here Maps para ${locationQuery}:`, data);
+
     if (data && data.length > 0) {
       const location = data[0].position;
       return { lat: location.lat, lon: location.lng };
     } else {
-      console.error(`Geocoding failed for ${neighborhood}:`, data);
+      console.error(`Geocodificação falhou para ${neighborhood}:`, data);
       return null;
     }
   } catch (error) {
     console.error(
-      `Error fetching coordinates from Here Maps for ${neighborhood}:`,
+      `Erro ao buscar coordenadas do Here Maps para ${neighborhood}:`,
       error
     );
     return null;
@@ -262,38 +284,46 @@ const updateCoordinates = async () => {
         coordinates[neighborhood].lat &&
         coordinates[neighborhood].lon
       ) {
-        // Calcular distância em linha reta (Haversine)
-        const directDistance = calculateDistance(
-          coordinates[neighborhood].lat,
-          coordinates[neighborhood].lon,
-          CITY_CENTER.lat,
-          CITY_CENTER.lon
-        );
-        coordinates[neighborhood].distanceToCenter = directDistance;
-
-        // Calcular distância a pé
-        try {
-          const walkingDistance = await calculateWalkingDistance(
+        // Verificar se precisamos calcular a distância em linha reta
+        if (coordinates[neighborhood].distanceToCenter === undefined) {
+          console.log(`Calculando distância direta para ${neighborhood}...`);
+          const directDistance = calculateDistance(
             coordinates[neighborhood].lat,
             coordinates[neighborhood].lon,
             CITY_CENTER.lat,
-            CITY_CENTER.lon,
-            apiKey
+            CITY_CENTER.lon
           );
-
-          if (walkingDistance) {
-            coordinates[neighborhood].walkingDistanceToCenter = walkingDistance;
-          }
-        } catch (error) {
-          console.error(
-            `Erro ao calcular distância a pé para ${neighborhood}:`,
-            error
-          );
-          // Mantenha apenas a distância direta se a distância a pé falhar
+          coordinates[neighborhood].distanceToCenter = directDistance;
         }
 
-        // Aguardar um pouco entre as requisições para não sobrecarregar a API
-        await new Promise((resolve) => setTimeout(resolve, 500));
+        // Verificar se precisamos calcular a distância a pé
+        if (
+          coordinates[neighborhood].walkingDistanceToCenter === undefined &&
+          apiKey
+        ) {
+          console.log(`Calculando distância a pé para ${neighborhood}...`);
+          try {
+            const walkingDistance = await calculateWalkingDistance(
+              coordinates[neighborhood].lat,
+              coordinates[neighborhood].lon,
+              CITY_CENTER.lat,
+              CITY_CENTER.lon,
+              apiKey
+            );
+
+            if (walkingDistance) {
+              coordinates[neighborhood].walkingDistanceToCenter =
+                walkingDistance;
+              // Para não sobrecarregar a API, apenas aguarde se realmente fizer uma chamada
+              await new Promise((resolve) => setTimeout(resolve, 500));
+            }
+          } catch (error) {
+            console.error(
+              `Erro ao calcular distância a pé para ${neighborhood}:`,
+              error
+            );
+          }
+        }
       }
     }
 
