@@ -45,6 +45,12 @@ const filterObjects: filterListProps[] = [
     propName: "addressQuery",
     placeholder: "Pesquisar por endereço",
   },
+  {
+    label: "Distância ao Centro",
+    type: "distance",
+    propName: "distances",
+    placeholder: "Selecione a distância",
+  },
 ];
 
 const initialFilters: Filters = {
@@ -94,6 +100,14 @@ const PropertyNavbarFilters = ({
         payload: {
           name: e.target.name as "min" | "max",
           value: parseInt(value, 10) || 0,
+        },
+      });
+    } else if (key === "distances") {
+      dispatch({
+        type: "SET_FILTER",
+        payload: {
+          name: key,
+          value: value,
         },
       });
     } else {

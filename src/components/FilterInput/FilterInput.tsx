@@ -1,5 +1,6 @@
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 import { fetchGeoLocations } from "../../services/dataService";
+import DistanceFilter from "../DistanceFilter/DistanceFilter";
 import { FilterDropdownProps } from "../FilterDropdown/FilterDropdown";
 import { Option, SelectSearch } from "../SelectSearch/SelectSearch";
 
@@ -7,14 +8,22 @@ const FilterInput = ({
   filter,
   filters,
   handleInputChange,
+  handleApplyFilters,
   resetCounter = 0,
 }: FilterDropdownProps) => {
+  // Estados existentes
   const [addressOptions, setAddressOptions] = useState<Option[]>([]);
   const [filteredOptions, setFilteredOptions] = useState<Option[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [hasAddressSelection, setHasAddressSelection] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
+  // Adicionando estado para distâncias selecionadas
+  const [selectedDistances, setSelectedDistances] = useState<string[]>(
+    filters.distances || []
+  );
+
+  // Handler para mudanças no filtro de endereço - código existente
   const handleAddressSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
 
@@ -40,6 +49,7 @@ const FilterInput = ({
     handleInputChange(mockEvent, "addressQuery");
   };
 
+  // Handler para seleção de endereço - código existente
   const handleSelectChange = (selectedValue: string) => {
     try {
       if (!selectedValue || selectedValue.trim() === "") {
@@ -76,6 +86,21 @@ const FilterInput = ({
     }
   };
 
+  // Handler para resetar filtro de distância
+  const handleDistanceReset = () => {
+    setSelectedDistances([]);
+
+    const resetEvent: ChangeEvent<HTMLInputElement> = {
+      target: {
+        value: JSON.stringify([]),
+      },
+    };
+
+    handleInputChange(resetEvent, "distances");
+    handleApplyFilters();
+  };
+
+  // Efeitos existentes...
   useEffect(() => {
     if (
       filter.propName === "addressQuery" &&
@@ -84,7 +109,15 @@ const FilterInput = ({
     ) {
       setHasAddressSelection(false);
     }
-  }, [filters, filter.propName]);
+
+    // Sincronizar o estado local de distâncias com o estado global
+    if (
+      filter.propName === "distances" &&
+      JSON.stringify(filters.distances) !== JSON.stringify(selectedDistances)
+    ) {
+      setSelectedDistances(filters.distances || []);
+    }
+  }, [filters, filter.propName, selectedDistances]);
 
   useEffect(() => {
     const loadLocations = async () => {
@@ -101,11 +134,18 @@ const FilterInput = ({
 
     loadLocations();
   }, []);
+
   useEffect(() => {
-    if (resetCounter > 0 && filter.propName === "addressQuery") {
-      setHasAddressSelection(false);
+    if (resetCounter > 0) {
+      if (filter.propName === "addressQuery") {
+        setHasAddressSelection(false);
+      }
+
+      if (filter.propName === "distances" && selectedDistances.length > 0) {
+        setSelectedDistances([]);
+      }
     }
-  }, [resetCounter, filter.propName]);
+  }, [resetCounter, filter.propName, selectedDistances.length]);
 
   switch (filter.propName) {
     case "priceRange":
@@ -152,6 +192,16 @@ const FilterInput = ({
           value={filters.addressQuery}
           inputRef={searchInputRef}
           onReset={() => setHasAddressSelection(false)}
+        />
+      );
+    case "distances":
+      return (
+        <DistanceFilter
+          filter={filter}
+          filters={filters}
+          handleInputChange={handleInputChange}
+          handleApplyFilters={handleApplyFilters}
+          handleResetFilters={handleDistanceReset}
         />
       );
     default:
