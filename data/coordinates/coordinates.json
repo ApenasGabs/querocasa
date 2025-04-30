@@ -1,1910 +1,2864 @@
 {
   "Parque Eldorado": {
     "lat": -23.1678182,
-    "lon": -46.906254
+    "lon": -46.906254,
+    "distanceToCenter": 32.65,
+    "walkingDistanceToCenter": 34.85
   },
   "Cidade Satélite Íris": {
     "lat": -22.9427307,
-    "lon": -47.1416499
+    "lon": -47.1416499,
+    "distanceToCenter": 9.15,
+    "walkingDistanceToCenter": 10.63
   },
   "Vila Regina": {
     "lat": -22.050304,
-    "lon": -46.9739075
+    "lon": -46.9739075,
+    "distanceToCenter": 96.03,
+    "walkingDistanceToCenter": 116.69
   },
   "Vila San Martin": {
     "lat": -22.8402906,
-    "lon": -47.1554487
+    "lon": -47.1554487,
+    "distanceToCenter": 12.54,
+    "walkingDistanceToCenter": 14.1
   },
   "Jardim São Judas Tadeu": {
     "lat": -23.1876769,
-    "lon": -46.8523369
+    "lon": -46.8523369,
+    "distanceToCenter": 37.42,
+    "walkingDistanceToCenter": 41.77
   },
   "Residencial Campo Florido": {
     "lat": -22.832523549999998,
-    "lon": -47.15139825374783
+    "lon": -47.15139825374783,
+    "distanceToCenter": 12.78,
+    "walkingDistanceToCenter": 15.08
   },
   "Loteamento Residencial Novo Mundo": {
     "lat": -20.2499754,
-    "lon": -50.5556623
+    "lon": -50.5556623,
+    "distanceToCenter": 467.07,
+    "walkingDistanceToCenter": 537.73
   },
   "Jardim Itaguaçu I": {
     "lat": -23.0393191,
-    "lon": -47.12085969847532
+    "lon": -47.12085969847532,
+    "distanceToCenter": 15.66,
+    "walkingDistanceToCenter": 18.13
   },
   "Jardim Santo Antonio": {
     "lat": -22.3491683,
-    "lon": -46.9451016
+    "lon": -46.9451016,
+    "distanceToCenter": 63.49,
+    "walkingDistanceToCenter": 76.74
   },
   "Jardim Campos Elíseos": {
     "lat": -23.1872681,
-    "lon": -46.9030973
+    "lon": -46.9030973,
+    "distanceToCenter": 34.71,
+    "walkingDistanceToCenter": 37.49
   },
   "Jardim Yeda": {
     "lat": -22.9490021,
-    "lon": -47.1126741
+    "lon": -47.1126741,
+    "distanceToCenter": 6.94,
+    "walkingDistanceToCenter": 7.75
   },
   "Vila Rica": {
     "lat": -22.7107885,
-    "lon": -46.7642427
+    "lon": -46.7642427,
+    "distanceToCenter": 37.52,
+    "walkingDistanceToCenter": 47.12
   },
   "Núcleo Residencial Vila Vitória": {
     "lat": -22.978375,
-    "lon": -47.16965686111111
+    "lon": -47.16965686111111,
+    "distanceToCenter": 13.58,
+    "walkingDistanceToCenter": 15.36
   },
   "Jardim Planalto de Viracopos": {
     "lat": -22.99122155,
-    "lon": -47.14269620043826
+    "lon": -47.14269620043826,
+    "distanceToCenter": 12.39,
+    "walkingDistanceToCenter": 14.24
   },
   "Jardim Esplanada": {
     "lat": -22.987168,
-    "lon": -47.1547568
+    "lon": -47.1547568,
+    "distanceToCenter": 12.97,
+    "walkingDistanceToCenter": 14.4
   },
   "Santa Clara": {
     "lat": -10.1934964,
-    "lon": -48.9000447
+    "lon": -48.9000447,
+    "distanceToCenter": 1427.52,
+    "walkingDistanceToCenter": 1039.17
   },
   "Jardim Irmãos Sigrist": {
     "lat": -23.00426025,
-    "lon": -47.10511879606443
+    "lon": -47.10511879606443,
+    "distanceToCenter": 11.44,
+    "walkingDistanceToCenter": 14.96
   },
   "Jardim Amazonas": {
     "lat": -23.0857062,
-    "lon": -46.9861488
+    "lon": -46.9861488,
+    "distanceToCenter": 20.9,
+    "walkingDistanceToCenter": 25.18
   },
   "Jardim São Domingos": {
     "lat": -21.4593487,
-    "lon": -47.0085588
+    "lon": -47.0085588,
+    "distanceToCenter": 161.42,
+    "walkingDistanceToCenter": 202.5
   },
   "Jardim Capivari": {
     "lat": -22.9561835,
-    "lon": -47.10866172838848
+    "lon": -47.10866172838848,
+    "distanceToCenter": 7.17,
+    "walkingDistanceToCenter": 8.42
   },
   "São Charbel": {
     "lat": -22.89036325,
-    "lon": -47.03414495415895
+    "lon": -47.03414495415895,
+    "distanceToCenter": 3.41,
+    "walkingDistanceToCenter": 4.22
   },
   "Jardim São Jorge": {
     "lat": -22.8591734,
-    "lon": -47.1988796
+    "lon": -47.1988796,
+    "distanceToCenter": 15.37,
+    "walkingDistanceToCenter": 19.25
   },
   "Parque Santa Bárbara": {
     "lat": -22.4454992,
-    "lon": -46.8362907
+    "lon": -46.8362907,
+    "distanceToCenter": 56.53,
+    "walkingDistanceToCenter": 73.39
   },
   "Residencial São José": {
     "lat": -27.5990882,
-    "lon": -48.61344571700498
+    "lon": -48.61344571700498,
+    "distanceToCenter": 544.27,
+    "walkingDistanceToCenter": 784.05
   },
   "Vila Industrial": {
     "lat": -22.6830835,
-    "lon": -47.6689696
+    "lon": -47.6689696,
+    "distanceToCenter": 67.39,
+    "walkingDistanceToCenter": 79.67
   },
   "Jardim Mirassol": {
     "lat": -22.8416978,
-    "lon": -47.1387166
+    "lon": -47.1387166,
+    "distanceToCenter": 11.14,
+    "walkingDistanceToCenter": 12.8
   },
   "Campo Grande": {
     "lat": -22.9360851,
-    "lon": -47.1601215
+    "lon": -47.1601215,
+    "distanceToCenter": 10.7,
+    "walkingDistanceToCenter": 12.76
   },
   "Distrito Industrial": {
     "lat": -22.4542953,
-    "lon": -46.9646587
+    "lon": -46.9646587,
+    "distanceToCenter": 51.63,
+    "walkingDistanceToCenter": 64.45
   },
   "Vila Lunardi": {
     "lat": -22.8819519,
-    "lon": -47.14947800526805
+    "lon": -47.14947800526805,
+    "distanceToCenter": 9.74,
+    "walkingDistanceToCenter": 14.51
   },
   "Parque Cidade  Campinas": {
     "lat": -22.834966350000002,
-    "lon": -47.150270806170965
+    "lon": -47.150270806170965,
+    "distanceToCenter": 12.52,
+    "walkingDistanceToCenter": 14.87
   },
   "Jardim das Bandeiras": {
     "lat": -23.1557867,
-    "lon": -46.8710082
+    "lon": -46.8710082,
+    "distanceToCenter": 33.42,
+    "walkingDistanceToCenter": 38.47
   },
   "Residencial São Luís": {
     "lat": -22.8974247,
-    "lon": -47.1960086
+    "lon": -47.1960086,
+    "distanceToCenter": 14.06,
+    "walkingDistanceToCenter": 16.76
   },
   "Jardim Miranda": {
     "lat": -22.1146923,
-    "lon": -51.4273927
+    "lon": -51.4273927,
+    "distanceToCenter": 457.29,
+    "walkingDistanceToCenter": 550.61
   },
   "Jardim Maria Helena": {
     "lat": -22.6094444,
-    "lon": -46.9149728
+    "lon": -46.9149728,
+    "distanceToCenter": 36.59,
+    "walkingDistanceToCenter": 47.44
   },
   "Núcleo Residencial Recanto dos Pássaros": {
     "lat": -11.82229,
-    "lon": -55.51794
+    "lon": -55.51794,
+    "distanceToCenter": 1523.98,
+    "walkingDistanceToCenter": 1315.71
   },
   "Loteamento Vila Esperança": {
     "lat": -16.38852,
-    "lon": -48.95931
+    "lon": -48.95931,
+    "distanceToCenter": 751.94,
+    "walkingDistanceToCenter": 293.54
   },
   "Loteamento Residencial Campina Verde": {
     "lat": -22.96432,
-    "lon": -47.16947
+    "lon": -47.16947,
+    "distanceToCenter": 12.76,
+    "walkingDistanceToCenter": 14.68
   },
   "Parque Valença I": {
     "lat": -22.94217,
-    "lon": -47.18673
+    "lon": -47.18673,
+    "distanceToCenter": 13.5,
+    "walkingDistanceToCenter": 15.56
   },
   "Vila Santana": {
     "lat": -22.8161305,
-    "lon": -47.2741432
+    "lon": -47.2741432,
+    "distanceToCenter": 24.36,
+    "walkingDistanceToCenter": 28.85
   },
   "Jardim New York": {
     "lat": -22.93018,
-    "lon": -47.02051
+    "lon": -47.02051,
+    "distanceToCenter": 4.56,
+    "walkingDistanceToCenter": 5.38
   },
   "Vila Pompéia": {
     "lat": -22.9292826,
-    "lon": -47.0872963
+    "lon": -47.0872963,
+    "distanceToCenter": 3.54,
+    "walkingDistanceToCenter": 4.18
   },
   "Jardim Nova Europa": {
     "lat": -22.9436706,
-    "lon": -47.0596321
+    "lon": -47.0596321,
+    "distanceToCenter": 3.71,
+    "walkingDistanceToCenter": 4.39
   },
   "Parque Cidade Campinas": {
     "lat": -22.834966350000002,
-    "lon": -47.150270806170965
+    "lon": -47.150270806170965,
+    "distanceToCenter": 12.52,
+    "walkingDistanceToCenter": 14.87
   },
   "Parque Taquaral": {
     "lat": -22.8756414,
-    "lon": -47.05496434080892
+    "lon": -47.05496434080892,
+    "distanceToCenter": 3.88,
+    "walkingDistanceToCenter": 4.99
   },
   "Jardim Quarto Centenário": {
     "lat": -22.89313,
-    "lon": -47.09632
+    "lon": -47.09632,
+    "distanceToCenter": 4.23,
+    "walkingDistanceToCenter": 4.62
   },
   "Loteamento Alphaville Campinas": {
     "lat": -22.82164,
-    "lon": -47.0266
+    "lon": -47.0266,
+    "distanceToCenter": 10.42,
+    "walkingDistanceToCenter": 16.98
   },
   "Centro": {
     "lat": -22.9050869,
-    "lon": -47.0600751
+    "lon": -47.0600751,
+    "distanceToCenter": 0.58,
+    "walkingDistanceToCenter": 0.72
   },
   "Recanto do Sol I": {
     "lat": -22.9600243,
-    "lon": -47.145963988098025
+    "lon": -47.145963988098025,
+    "distanceToCenter": 10.44,
+    "walkingDistanceToCenter": 12.39
   },
   "Conjunto Habitacional Parque Itajaí": {
     "lat": -22.95802,
-    "lon": -47.19147
+    "lon": -47.19147,
+    "distanceToCenter": 14.52,
+    "walkingDistanceToCenter": 17.22
   },
   "Jardim García": {
     "lat": -22.9121159,
-    "lon": -47.1134891
+    "lon": -47.1134891,
+    "distanceToCenter": 5.53,
+    "walkingDistanceToCenter": 6.51
   },
   "Parque Dom Pedro II": {
     "lat": -22.9729548,
-    "lon": -47.1472696
+    "lon": -47.1472696,
+    "distanceToCenter": 11.37,
+    "walkingDistanceToCenter": 12.46
   },
   "Jardim Paranapanema": {
     "lat": -22.913388500000003,
-    "lon": -47.0343803511774
+    "lon": -47.0343803511774,
+    "distanceToCenter": 2.6,
+    "walkingDistanceToCenter": 3.18
   },
   "Jardim Roseira": {
     "lat": -23.3949025,
-    "lon": -46.6308139
+    "lon": -46.6308139,
+    "distanceToCenter": 69.46,
+    "walkingDistanceToCenter": 82.47
   },
   "Jardim Fernanda": {
     "lat": -23.042223,
-    "lon": -47.129119975992246
+    "lon": -47.129119975992246,
+    "distanceToCenter": 16.31,
+    "walkingDistanceToCenter": 18.65
   },
   "Chácara da Barra": {
     "lat": -22.8860217,
-    "lon": -47.0377564
+    "lon": -47.0377564,
+    "distanceToCenter": 3.5,
+    "walkingDistanceToCenter": 4.17
   },
   "Jardim Lisa": {
     "lat": -22.95529,
-    "lon": -47.18347
+    "lon": -47.18347,
+    "distanceToCenter": 13.65,
+    "walkingDistanceToCenter": 16.67
   },
   "Dic IV (Conjunto Habitacional Lech Walesa)": {
     "lat": -23.18574,
-    "lon": -45.85938
+    "lon": -45.85938,
+    "distanceToCenter": 126.56,
+    "walkingDistanceToCenter": 170.74
   },
   "Vila Aeroporto": {
     "lat": -22.9754633,
-    "lon": -47.1272723
+    "lon": -47.1272723,
+    "distanceToCenter": 10.03,
+    "walkingDistanceToCenter": 11.29
   },
   "Jardim Madalena": {
     "lat": -22.8643655,
-    "lon": -47.0259888
+    "lon": -47.0259888,
+    "distanceToCenter": 6.15,
+    "walkingDistanceToCenter": 6.95
   },
   "Jardim Andorinhas": {
     "lat": -22.918382,
-    "lon": -47.014076402968456
+    "lon": -47.014076402968456,
+    "distanceToCenter": 4.74,
+    "walkingDistanceToCenter": 5.88
   },
   "Vila Chico Amaral": {
     "lat": -22.89221,
-    "lon": -47.06194
+    "lon": -47.06194,
+    "distanceToCenter": 2.03,
+    "walkingDistanceToCenter": 2.25
   },
   "Jardim Santa Rosa": {
     "lat": -22.3473867,
-    "lon": -47.3837435
+    "lon": -47.3837435,
+    "distanceToCenter": 70.89,
+    "walkingDistanceToCenter": 83.78
   },
   "Parque Residencial Beira Rio": {
     "lat": -22.93945,
-    "lon": -47.11971
+    "lon": -47.11971,
+    "distanceToCenter": 6.97,
+    "walkingDistanceToCenter": 8.02
   },
   "Jardim Alto do Ipaussurama": {
     "lat": -22.9281,
-    "lon": -47.12143
+    "lon": -47.12143,
+    "distanceToCenter": 6.64,
+    "walkingDistanceToCenter": 7.94
   },
   "Jardim Campineiro": {
     "lat": -22.8454696,
-    "lon": -47.11889183365501
+    "lon": -47.11889183365501,
+    "distanceToCenter": 9.43,
+    "walkingDistanceToCenter": 10.57
   },
   "Recanto do Sol II": {
     "lat": -22.9600243,
-    "lon": -47.145963988098025
+    "lon": -47.145963988098025,
+    "distanceToCenter": 10.44,
+    "walkingDistanceToCenter": 12.39
   },
   "Jardim Cristina": {
     "lat": -23.2063842,
-    "lon": -46.8893026
+    "lon": -46.8893026,
+    "distanceToCenter": 37.24,
+    "walkingDistanceToCenter": 40.21
   },
   "Núcleo Residencial Novo Ipaussurama": {
     "lat": -22.94769,
-    "lon": -47.15952
+    "lon": -47.15952,
+    "distanceToCenter": 11.05,
+    "walkingDistanceToCenter": 13.14
   },
   "Jardim do Lago Continuação": {
     "lat": -22.93726,
-    "lon": -47.07066
+    "lon": -47.07066,
+    "distanceToCenter": 3.21,
+    "walkingDistanceToCenter": 3.88
   },
   "Núcleo Residencial Paranapanema": {
     "lat": -22.88353,
-    "lon": -47.04026
+    "lon": -47.04026,
+    "distanceToCenter": 3.57,
+    "walkingDistanceToCenter": 4.42
   },
   "Jardim Campo Belo": {
     "lat": -22.1146923,
-    "lon": -51.4273927
+    "lon": -51.4273927,
+    "distanceToCenter": 457.29,
+    "walkingDistanceToCenter": 550.61
   },
   "Jardim Eulina": {
     "lat": -22.8916592,
-    "lon": -47.100781730448645
+    "lon": -47.100781730448645,
+    "distanceToCenter": 4.71,
+    "walkingDistanceToCenter": 5.01
   },
   "Jardim Monte Cristo/Parque Oziel": {
     "lat": -22.9421762,
-    "lon": -47.07785804254273
+    "lon": -47.07785804254273,
+    "distanceToCenter": 4.01,
+    "walkingDistanceToCenter": 5.35
   },
   "Conjunto Habitacional Parque da Floresta": {
     "lat": -18.83529,
-    "lon": -41.9005
+    "lon": -41.9005,
+    "distanceToCenter": 701.73,
+    "walkingDistanceToCenter": 682.28
   },
   "Conjunto Habitacional Residencial Olímpia": {
     "lat": -22.97514,
-    "lon": -47.18103
+    "lon": -47.18103,
+    "distanceToCenter": 14.38,
+    "walkingDistanceToCenter": 15.85
   },
   "Jardim Santa Eudóxia": {
     "lat": -22.921701,
-    "lon": -47.032312672195665
+    "lon": -47.032312672195665,
+    "distanceToCenter": 3.06,
+    "walkingDistanceToCenter": 3.74
   },
   "Jardim Novo Campos Elíseos": {
     "lat": -22.9442298,
-    "lon": -47.1083519
+    "lon": -47.1083519,
+    "distanceToCenter": 6.27,
+    "walkingDistanceToCenter": 7.04
   },
   "Jardim Shangai": {
     "lat": -23.17304,
-    "lon": -46.9133472
+    "lon": -46.9133472,
+    "distanceToCenter": 32.82,
+    "walkingDistanceToCenter": 35.73
   },
   "Jardim Nova América": {
     "lat": -23.0895463,
-    "lon": -46.9344342
+    "lon": -46.9344342,
+    "distanceToCenter": 23.69,
+    "walkingDistanceToCenter": 25.83
   },
   "Residencial Colina das Nascentes": {
     "lat": -22.911,
-    "lon": -47.09605
+    "lon": -47.09605,
+    "distanceToCenter": 3.74,
+    "walkingDistanceToCenter": 4.43
   },
   "Residencial Unicamp": {
     "lat": -22.96171,
-    "lon": -47.21998
+    "lon": -47.21998,
+    "distanceToCenter": 17.4,
+    "walkingDistanceToCenter": 20.01
   },
   "Núcleo Residencial Parque da Amizade": {
     "lat": -23.54725,
-    "lon": -51.42385
+    "lon": -51.42385,
+    "distanceToCenter": 451.52,
+    "walkingDistanceToCenter": 550.23
   },
   "Jardim Florence": {
     "lat": -22.945514000000003,
-    "lon": -47.165998475725374
+    "lon": -47.165998475725374,
+    "distanceToCenter": 11.59,
+    "walkingDistanceToCenter": 13.79
   },
   "Vila Costa e Silva": {
     "lat": -22.8567607,
-    "lon": -47.0694473
+    "lon": -47.0694473,
+    "distanceToCenter": 6.04,
+    "walkingDistanceToCenter": 6.81
   },
   "Parque Universitário de Viracopos": {
     "lat": -22.9689952,
-    "lon": -47.1498288
+    "lon": -47.1498288,
+    "distanceToCenter": 11.32,
+    "walkingDistanceToCenter": 12.42
   },
   "Eldorado dos Carajás": {
     "lat": -22.98639,
-    "lon": -47.12318
+    "lon": -47.12318,
+    "distanceToCenter": 10.68,
+    "walkingDistanceToCenter": 12.58
   },
   "Parque Vista Alegre": {
     "lat": -22.9700446,
-    "lon": -47.148622517930136
+    "lon": -47.148622517930136,
+    "distanceToCenter": 11.29,
+    "walkingDistanceToCenter": 12.3
   },
   "Jardim Cidade Singer II": {
     "lat": -22.97774,
-    "lon": -47.16871
+    "lon": -47.16871,
+    "distanceToCenter": 13.46,
+    "walkingDistanceToCenter": 15.29
   },
   "Residencial Cittá di Salerno": {
     "lat": -22.98502,
-    "lon": -47.15355
+    "lon": -47.15355,
+    "distanceToCenter": 12.72,
+    "walkingDistanceToCenter": 14.16
   },
   "Jardim Ouro Verde": {
     "lat": -22.5878737,
-    "lon": -47.4216327
+    "lon": -47.4216327,
+    "distanceToCenter": 51.62,
+    "walkingDistanceToCenter": 62.25
   },
   "Jardim Novo Planalto": {
     "lat": -22.13776,
-    "lon": -51.38029
+    "lon": -51.38029,
+    "distanceToCenter": 452.02,
+    "walkingDistanceToCenter": 544.96
   },
   "Jardim Uruguai": {
     "lat": -22.95753,
-    "lon": -47.13655
+    "lon": -47.13655,
+    "distanceToCenter": 9.48,
+    "walkingDistanceToCenter": 11.33
   },
   "Conjunto Habitacional Vida Nova": {
     "lat": -22.97514,
-    "lon": -47.18103
+    "lon": -47.18103,
+    "distanceToCenter": 14.38,
+    "walkingDistanceToCenter": 15.85
   },
   "Jardim do Lago": {
     "lat": -23.1324872,
-    "lon": -46.5575459
+    "lon": -46.5575459,
+    "distanceToCenter": 57,
+    "walkingDistanceToCenter": 69.79
   },
   "Dic VI (Conjunto Habitacional Santo Dias Silva)": {
     "lat": -22.97545,
-    "lon": -47.12655
+    "lon": -47.12655,
+    "distanceToCenter": 9.98,
+    "walkingDistanceToCenter": 11.27
   },
   "Vila Itapura": {
     "lat": -22.8949512,
-    "lon": -47.0642763
+    "lon": -47.0642763,
+    "distanceToCenter": 1.78,
+    "walkingDistanceToCenter": 2.04
   },
   "Jardim Santa Genebra": {
     "lat": -22.8484507,
-    "lon": -47.0710471
+    "lon": -47.0710471,
+    "distanceToCenter": 6.98,
+    "walkingDistanceToCenter": 7.85
   },
   "Jardim Adhemar de Barros": {
     "lat": -23.02522,
-    "lon": -47.12096
+    "lon": -47.12096,
+    "distanceToCenter": 14.24,
+    "walkingDistanceToCenter": 16.38
   },
   "Cidade Singer": {
     "lat": -22.97774,
-    "lon": -47.16871
+    "lon": -47.16871,
+    "distanceToCenter": 13.46,
+    "walkingDistanceToCenter": 15.29
   },
   "Jardim Aurélia": {
     "lat": -23.2190113,
-    "lon": -46.8549621
+    "lon": -46.8549621,
+    "distanceToCenter": 40.2,
+    "walkingDistanceToCenter": 43.03
   },
   "Jardim Filadélfia": {
     "lat": -22.90603,
-    "lon": -47.09782
+    "lon": -47.09782,
+    "distanceToCenter": 3.95,
+    "walkingDistanceToCenter": 4.76
   },
   "Jardim São Pedro de Viracopos": {
     "lat": -22.98372,
-    "lon": -47.14104
+    "lon": -47.14104,
+    "distanceToCenter": 11.68,
+    "walkingDistanceToCenter": 13.53
   },
   "Vila Santa Odila": {
     "lat": -22.93375,
-    "lon": -47.02803
+    "lon": -47.02803,
+    "distanceToCenter": 4.15,
+    "walkingDistanceToCenter": 4.69
   },
   "Conjunto Residencial Parque São Bento": {
     "lat": -23.9596,
-    "lon": -46.39586
+    "lon": -46.39586,
+    "distanceToCenter": 134.9,
+    "walkingDistanceToCenter": 160.01
   },
   "Vila Boa Vista": {
     "lat": -11.6754759,
-    "lon": -51.382205
+    "lon": -51.382205,
+    "distanceToCenter": 1330.56,
+    "walkingDistanceToCenter": 623.83
   },
   "Jardim do Vovô": {
     "lat": -22.90352,
-    "lon": -47.10594
+    "lon": -47.10594,
+    "distanceToCenter": 4.82,
+    "walkingDistanceToCenter": 5.45
   },
   "Jardim Marialva": {
     "lat": -22.86335,
-    "lon": -47.02797
+    "lon": -47.02797,
+    "distanceToCenter": 6.14,
+    "walkingDistanceToCenter": 6.92
   },
   "Jardim Monte Líbano": {
     "lat": -20.2499754,
-    "lon": -50.5556623
+    "lon": -50.5556623,
+    "distanceToCenter": 467.07,
+    "walkingDistanceToCenter": 537.73
   },
   "Swiss Park": {
     "lat": -22.9682268,
-    "lon": -47.0701092
+    "lon": -47.0701092,
+    "distanceToCenter": 6.53,
+    "walkingDistanceToCenter": 9.57
   },
   "Vila Proost de Souza": {
     "lat": -22.90405,
-    "lon": -47.09374
+    "lon": -47.09374,
+    "distanceToCenter": 3.58,
+    "walkingDistanceToCenter": 4.3
   },
   "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu)": {
     "lat": -22.97545,
-    "lon": -47.12655
+    "lon": -47.12655,
+    "distanceToCenter": 9.98,
+    "walkingDistanceToCenter": 11.27
   },
   "Jardim Campina Grande": {
     "lat": -22.96026,
-    "lon": -47.21778
+    "lon": -47.21778,
+    "distanceToCenter": 17.13,
+    "walkingDistanceToCenter": 19.7
   },
   "Jardim Marisa": {
     "lat": -23.037882,
-    "lon": -47.112788
+    "lon": -47.112788,
+    "distanceToCenter": 15.2,
+    "walkingDistanceToCenter": 17.22
   },
   "Parque Residencial Campina Grande": {
     "lat": -22.96432,
-    "lon": -47.16947
+    "lon": -47.16947,
+    "distanceToCenter": 12.76,
+    "walkingDistanceToCenter": 14.68
   },
   "Núcleo Habitacional Boa Vista (Nova Aparecida)": {
     "lat": -22.87766,
-    "lon": -47.1425
+    "lon": -47.1425,
+    "distanceToCenter": 9.24,
+    "walkingDistanceToCenter": 14.81
   },
   "Botafogo": {
     "lat": -22.900278,
-    "lon": -47.070833
+    "lon": -47.070833,
+    "distanceToCenter": 1.61,
+    "walkingDistanceToCenter": 1.81
   },
   "Jardim Melina I": {
     "lat": -22.98377,
-    "lon": -47.1369898
+    "lon": -47.1369898,
+    "distanceToCenter": 11.39,
+    "walkingDistanceToCenter": 13.01
   },
   "Vila Eliza": {
     "lat": -23.2993354,
-    "lon": -46.7415006
+    "lon": -46.7415006,
+    "distanceToCenter": 54.12,
+    "walkingDistanceToCenter": 63.01
   },
   "Jardim Proença": {
     "lat": -22.91957,
-    "lon": -47.04445
+    "lon": -47.04445,
+    "distanceToCenter": 1.85,
+    "walkingDistanceToCenter": 2.19
   },
   "Jardim Paraíso de Viracopos": {
     "lat": -22.96844,
-    "lon": -47.11624
+    "lon": -47.11624,
+    "distanceToCenter": 8.69,
+    "walkingDistanceToCenter": 9.92
   },
   "Núcleo Residencial Padre Josimo": {
     "lat": -22.86489,
-    "lon": -47.14556
+    "lon": -47.14556,
+    "distanceToCenter": 10.16,
+    "walkingDistanceToCenter": 14.96
   },
   "Jardim Estoril": {
     "lat": -23.117307250000003,
-    "lon": -46.57061385
+    "lon": -46.57061385,
+    "distanceToCenter": 55.08,
+    "walkingDistanceToCenter": 67.51
   },
   "Barão Geraldo": {
     "lat": -22.80998855,
-    "lon": -47.0839428207261
+    "lon": -47.0839428207261,
+    "distanceToCenter": 11.43,
+    "walkingDistanceToCenter": 13.93
   },
   "Conjunto Mauro Marcondes": {
     "lat": -22.97179,
-    "lon": -47.16905
+    "lon": -47.16905,
+    "distanceToCenter": 13.14,
+    "walkingDistanceToCenter": 14.51
   },
   "Dic V (Conjunto Habitacional Chico Mendes)": {
     "lat": -22.97545,
-    "lon": -47.12655
+    "lon": -47.12655,
+    "distanceToCenter": 9.98,
+    "walkingDistanceToCenter": 11.27
   },
   "Núcleo Residencial Nossa Senhora Aparecida": {
     "lat": -19.52606,
-    "lon": -40.63814
+    "lon": -40.63814,
+    "distanceToCenter": 764.47,
+    "walkingDistanceToCenter": 993.53
   },
   "Vila Georgina": {
     "lat": -22.9382895,
-    "lon": -47.03934470059432
+    "lon": -47.03934470059432,
+    "distanceToCenter": 3.73,
+    "walkingDistanceToCenter": 4.21
   },
   "Parque Residencial Vila União": {
     "lat": 40.31489,
-    "lon": -3.7834
+    "lon": -3.7834,
+    "distanceToCenter": 8335.21,
+    "walkingDistanceToCenter": 10835.77
   },
   "Jardim Santa Rita de Cássia": {
     "lat": -22.9917308,
-    "lon": -47.3955667
+    "lon": -47.3955667,
+    "distanceToCenter": 35.58,
+    "walkingDistanceToCenter": 41.46
   },
   "Vila Padre Manoel de Nóbrega": {
     "lat": -22.91084,
-    "lon": -47.11593
+    "lon": -47.11593,
+    "distanceToCenter": 5.78,
+    "walkingDistanceToCenter": 6.87
   },
   "Jardim Aero Continental": {
     "lat": -22.94322,
-    "lon": -47.09455
+    "lon": -47.09455,
+    "distanceToCenter": 5.13,
+    "walkingDistanceToCenter": 6.16
   },
   "Jardim São Gabriel": {
     "lat": -22.943576,
-    "lon": -47.030438432341114
+    "lon": -47.030438432341114,
+    "distanceToCenter": 4.75,
+    "walkingDistanceToCenter": 5.1
   },
   "Jardim Novo Flamboyant": {
     "lat": -22.88814815,
-    "lon": -47.02901582811799
+    "lon": -47.02901582811799,
+    "distanceToCenter": 3.98,
+    "walkingDistanceToCenter": 4.77
   },
   "Jardim Santa Lúcia": {
     "lat": -21.5274941,
-    "lon": -46.6358709
+    "lon": -46.6358709,
+    "distanceToCenter": 159.82,
+    "walkingDistanceToCenter": 199.16
   },
   "São Bernardo": {
     "lat": -22.9375174,
-    "lon": -47.0550361
+    "lon": -47.0550361,
+    "distanceToCenter": 3.06,
+    "walkingDistanceToCenter": 3.59
   },
   "Loteamento Residencial Porto Seguro": {
     "lat": -23.18576,
-    "lon": -47.27957
+    "lon": -47.27957,
+    "distanceToCenter": 38.02,
+    "walkingDistanceToCenter": 43.77
   },
   "Ponte Preta": {
     "lat": -22.9151726,
-    "lon": -47.0529305
+    "lon": -47.0529305,
+    "distanceToCenter": 0.86,
+    "walkingDistanceToCenter": 1.11
   },
   "Fazenda Pau D'Alho": {
     "lat": -22.7452845,
-    "lon": -47.8171671
+    "lon": -47.8171671,
+    "distanceToCenter": 79.79,
+    "walkingDistanceToCenter": 96.57
   },
   "Jardim Baronesa": {
     "lat": -22.91658,
-    "lon": -47.03794
+    "lon": -47.03794,
+    "distanceToCenter": 2.32,
+    "walkingDistanceToCenter": 2.91
   },
   "Jardim Interlagos": {
     "lat": -22.90063,
-    "lon": -47.10055
+    "lon": -47.10055,
+    "distanceToCenter": 4.34,
+    "walkingDistanceToCenter": 4.82
   },
   "Vila Perseu Leite de Barros": {
     "lat": -22.9262115,
-    "lon": -47.113028402231905
+    "lon": -47.113028402231905,
+    "distanceToCenter": 5.76,
+    "walkingDistanceToCenter": 7.04
   },
   "Vila Iza": {
     "lat": -22.93288,
-    "lon": -47.09487
+    "lon": -47.09487,
+    "distanceToCenter": 4.41,
+    "walkingDistanceToCenter": 5.1
   },
   "Vila Joaquim Inácio": {
     "lat": -22.93105,
-    "lon": -47.03767
+    "lon": -47.03767,
+    "distanceToCenter": 3.21,
+    "walkingDistanceToCenter": 3.46
   },
   "Residencial Cittá Di Firenze": {
     "lat": -22.97538,
-    "lon": -47.15151
+    "lon": -47.15151,
+    "distanceToCenter": 11.88,
+    "walkingDistanceToCenter": 13.11
   },
   "Jardim Nilópolis": {
     "lat": -22.847982199999997,
-    "lon": -47.035289333486546
+    "lon": -47.035289333486546,
+    "distanceToCenter": 7.36,
+    "walkingDistanceToCenter": 8.46
   },
   "Vila Estanislau": {
     "lat": -22.5502756,
-    "lon": -47.92277095484558
+    "lon": -47.92277095484558,
+    "distanceToCenter": 97.17,
+    "walkingDistanceToCenter": 112.11
   },
   "Vila Paraíso": {
     "lat": -22.0602312,
-    "lon": -46.9838811
+    "lon": -46.9838811,
+    "distanceToCenter": 94.84,
+    "walkingDistanceToCenter": 115.97
   },
   "Parque Valença II": {
     "lat": -22.9400324,
-    "lon": -47.189316891511126
+    "lon": -47.189316891511126,
+    "distanceToCenter": 13.7,
+    "walkingDistanceToCenter": 15.98
   },
   "Jardim Monte Belo": {
     "lat": -22.7604544,
-    "lon": -46.980772138105905
+    "lon": -46.980772138105905,
+    "distanceToCenter": 18.51,
+    "walkingDistanceToCenter": 24.75
   },
   "Jardim Londres": {
     "lat": -22.923099,
-    "lon": -47.11102077757158
+    "lon": -47.11102077757158,
+    "distanceToCenter": 5.47,
+    "walkingDistanceToCenter": 6.72
   },
   "Jardim do Trevo": {
     "lat": -22.3581131,
-    "lon": -47.3935068
+    "lon": -47.3935068,
+    "distanceToCenter": 70.32,
+    "walkingDistanceToCenter": 83.41
   },
   "Jardim dos Oliveiras": {
     "lat": -22.93368,
-    "lon": -47.04666
+    "lon": -47.04666,
+    "distanceToCenter": 2.91,
+    "walkingDistanceToCenter": 3.27
   },
   "Jardim Stella": {
     "lat": -22.9100566,
-    "lon": -47.2153906
+    "lon": -47.2153906,
+    "distanceToCenter": 15.97,
+    "walkingDistanceToCenter": 19.22
   },
   "Jardim Ouro Preto": {
     "lat": -22.9587,
-    "lon": -47.1337
+    "lon": -47.1337,
+    "distanceToCenter": 9.31,
+    "walkingDistanceToCenter": 10.92
   },
   "Jardim Alto da Cidade Universitária": {
     "lat": -22.7867431,
-    "lon": -47.0641038
+    "lon": -47.0641038,
+    "distanceToCenter": 13.75,
+    "walkingDistanceToCenter": 17.76
   },
   "Jardim Leonor": {
     "lat": -22.7388734,
-    "lon": -47.1817744
+    "lon": -47.1817744,
+    "distanceToCenter": 22.81,
+    "walkingDistanceToCenter": 24.93
   },
   "Jardim Paulicéia": {
     "lat": -22.9214274,
-    "lon": -47.1043182
+    "lon": -47.1043182,
+    "distanceToCenter": 4.75,
+    "walkingDistanceToCenter": 6.17
   },
   "Residencial Parque das Araucárias": {
     "lat": -22.89619,
-    "lon": -47.04965
+    "lon": -47.04965,
+    "distanceToCenter": 1.87,
+    "walkingDistanceToCenter": 2.31
   },
   "Jardim Novo Sol": {
     "lat": -22.96421,
-    "lon": -47.14912
+    "lon": -47.14912,
+    "distanceToCenter": 10.96,
+    "walkingDistanceToCenter": 12.43
   },
   "Núcleo Residencial Princesa D'Oeste": {
     "lat": -22.90865,
-    "lon": -47.0448
+    "lon": -47.0448,
+    "distanceToCenter": 1.52,
+    "walkingDistanceToCenter": 1.88
   },
   "Jardim Princesa": {
     "lat": -22.91957,
-    "lon": -47.04445
+    "lon": -47.04445,
+    "distanceToCenter": 1.85,
+    "walkingDistanceToCenter": 2.19
   },
   "Vila Palmeiras II": {
     "lat": -23.02815,
-    "lon": -47.10006
+    "lon": -47.10006,
+    "distanceToCenter": 13.75,
+    "walkingDistanceToCenter": 15.34
   },
   "Jardim Aeronave de Viracopos": {
     "lat": -22.98779,
-    "lon": -47.1389
+    "lon": -47.1389,
+    "distanceToCenter": 11.85,
+    "walkingDistanceToCenter": 13.58
   },
   "Vila Lídia": {
     "lat": -22.91377,
-    "lon": -47.05647
+    "lon": -47.05647,
+    "distanceToCenter": 0.5,
+    "walkingDistanceToCenter": 0.69
   },
   "Núcleo Residencial Bairro da Conquista/Vila Ypê": {
     "lat": -22.88353,
-    "lon": -47.04026
+    "lon": -47.04026,
+    "distanceToCenter": 3.57,
+    "walkingDistanceToCenter": 4.42
   },
   "Vila Aeroporto I": {
     "lat": -22.9754633,
-    "lon": -47.1272723
+    "lon": -47.1272723,
+    "distanceToCenter": 10.03,
+    "walkingDistanceToCenter": 11.29
   },
   "Jardim Monte Alto": {
     "lat": -22.1146923,
-    "lon": -51.4273927
+    "lon": -51.4273927,
+    "distanceToCenter": 457.29,
+    "walkingDistanceToCenter": 550.61
   },
   "Jardim Caiman": {
     "lat": -22.95416,
-    "lon": -47.11119
+    "lon": -47.11119,
+    "distanceToCenter": 7.2,
+    "walkingDistanceToCenter": 8.17
   },
   "Jardim Aliança": {
     "lat": -22.89155,
-    "lon": -47.10636
+    "lon": -47.10636,
+    "distanceToCenter": 5.23,
+    "walkingDistanceToCenter": 5.47
   },
   "Jardim Novo Real Parque": {
     "lat": -22.82678,
-    "lon": -47.09951
+    "lon": -47.09951,
+    "distanceToCenter": 10.15,
+    "walkingDistanceToCenter": 11.46
   },
   "Residencial Cosmos": {
     "lat": -22.947889449999998,
-    "lon": -47.16255568604536
+    "lon": -47.16255568604536,
+    "distanceToCenter": 11.35,
+    "walkingDistanceToCenter": 13.64
   },
   "Núcleo Residencial Independência": {
     "lat": -23.15146,
-    "lon": -45.91702
+    "lon": -45.91702,
+    "distanceToCenter": 119.95,
+    "walkingDistanceToCenter": 162.57
   },
   "Parque Fazendinha": {
     "lat": -22.89479,
-    "lon": -47.15146
+    "lon": -47.15146,
+    "distanceToCenter": 9.58,
+    "walkingDistanceToCenter": 14.8
   },
   "Vila Palácios": {
     "lat": -22.9513222,
-    "lon": -47.1149261
+    "lon": -47.1149261,
+    "distanceToCenter": 7.28,
+    "walkingDistanceToCenter": 8.24
   },
   "Parque Residencial Shalon": {
     "lat": -22.8840605,
-    "lon": -47.15086459185808
+    "lon": -47.15086459185808,
+    "distanceToCenter": 9.8,
+    "walkingDistanceToCenter": 14.68
   },
   "Chácara Formosa": {
     "lat": -22.96382,
-    "lon": -47.12466
+    "lon": -47.12466,
+    "distanceToCenter": 8.94,
+    "walkingDistanceToCenter": 10.33
   },
   "Chácara Nova Boa Vista": {
     "lat": -22.8854163,
-    "lon": -47.1604883
+    "lon": -47.1604883,
+    "distanceToCenter": 10.71,
+    "walkingDistanceToCenter": 13.24
   },
   "Vila Castelo Branco": {
     "lat": -23.0882,
-    "lon": -47.19534636288603
+    "lon": -47.19534636288603,
+    "distanceToCenter": 24.18,
+    "walkingDistanceToCenter": 28.47
   },
   "Parque Via Norte": {
     "lat": -22.88487765,
-    "lon": -47.11751493802094
+    "lon": -47.11751493802094,
+    "distanceToCenter": 6.58,
+    "walkingDistanceToCenter": 10.92
   },
   "Loteamento Chácaras Gargantilhas": {
     "lat": -22.78282,
-    "lon": -46.94635
+    "lon": -46.94635,
+    "distanceToCenter": 18.31,
+    "walkingDistanceToCenter": 27.9
   },
   "Jardim Novo Maracanã": {
     "lat": -22.947181999999998,
-    "lon": -47.18103266907876
+    "lon": -47.18103266907876,
+    "distanceToCenter": 13.1,
+    "walkingDistanceToCenter": 15.82
   },
   "Núcleo Residencial Sete de Setembro": {
     "lat": -22.8724369,
-    "lon": -47.14252466516425
+    "lon": -47.14252466516425,
+    "distanceToCenter": 9.49,
+    "walkingDistanceToCenter": 14.53
   },
   "Parque Jambeiro": {
     "lat": -22.9617287,
-    "lon": -47.0504887
+    "lon": -47.0504887,
+    "distanceToCenter": 5.79,
+    "walkingDistanceToCenter": 6.75
   },
   "Conjunto Habitacional Padre Anchieta": {
     "lat": -22.85864,
-    "lon": -47.15535
+    "lon": -47.15535,
+    "distanceToCenter": 11.38,
+    "walkingDistanceToCenter": 16.32
   },
   "Jardim Liliza": {
     "lat": -22.89155,
-    "lon": -47.10636
+    "lon": -47.10636,
+    "distanceToCenter": 5.23,
+    "walkingDistanceToCenter": 5.47
   },
   "Parque União da Vitória": {
     "lat": -22.97262155,
-    "lon": -47.15424446830559
+    "lon": -47.15424446830559,
+    "distanceToCenter": 11.92,
+    "walkingDistanceToCenter": 13.12
   },
   "Núcleo Residencial Jardim Santa Marta": {
     "lat": -23.2109276,
-    "lon": -47.2735047
+    "lon": -47.2735047,
+    "distanceToCenter": 39.96,
+    "walkingDistanceToCenter": 46.59
   },
   "Vila Marieta": {
     "lat": -22.92609,
-    "lon": -47.05258
+    "lon": -47.05258,
+    "distanceToCenter": 1.89,
+    "walkingDistanceToCenter": 2.31
   },
   "Vila Renascença": {
     "lat": -22.86639,
-    "lon": -47.13971
+    "lon": -47.13971,
+    "distanceToCenter": 9.56,
+    "walkingDistanceToCenter": 14.2
   },
   "Jardim Nova Esperança": {
     "lat": -22.9660936,
-    "lon": -46.9135595
+    "lon": -46.9135595,
+    "distanceToCenter": 16.18,
+    "walkingDistanceToCenter": 20.86
   },
   "Jardim Amoreiras": {
     "lat": -22.9308471,
-    "lon": -47.0875066
+    "lon": -47.0875066,
+    "distanceToCenter": 3.67,
+    "walkingDistanceToCenter": 4.2
   },
   "Jardim Boa Esperança": {
     "lat": -23.1623007,
-    "lon": -47.0343112
+    "lon": -47.0343112,
+    "distanceToCenter": 28.14,
+    "walkingDistanceToCenter": 36.38
   },
   "Jardim Maria Rosa": {
     "lat": -22.9492657,
-    "lon": -46.9755152
+    "lon": -46.9755152,
+    "distanceToCenter": 9.63,
+    "walkingDistanceToCenter": 11.1
   },
   "Jardim São Vicente": {
     "lat": -23.1462072,
-    "lon": -46.9162728
+    "lon": -46.9162728,
+    "distanceToCenter": 30.05,
+    "walkingDistanceToCenter": 32.59
   },
   "Jardim Chapadão": {
     "lat": -22.888889,
-    "lon": -47.081944
+    "lon": -47.081944,
+    "distanceToCenter": 3.31,
+    "walkingDistanceToCenter": 3.62
   },
   "Jardim Tamoio": {
     "lat": -23.1898173,
-    "lon": -46.849775
+    "lon": -46.849775,
+    "distanceToCenter": 37.77,
+    "walkingDistanceToCenter": 42.07
   },
   "Jardim Santa Maria": {
     "lat": -22.0660881,
-    "lon": -46.9693622
+    "lon": -46.9693622,
+    "distanceToCenter": 94.33,
+    "walkingDistanceToCenter": 116.95
   },
   "Jardim Francisca": {
     "lat": -22.8634505,
-    "lon": -47.14099935909624
+    "lon": -47.14099935909624,
+    "distanceToCenter": 9.84,
+    "walkingDistanceToCenter": 14.62
   },
   "Vila Aeroporto III": {
     "lat": -22.97107,
-    "lon": -47.12399
+    "lon": -47.12399,
+    "distanceToCenter": 9.45,
+    "walkingDistanceToCenter": 10.7
   },
   "Vila Formosa": {
     "lat": -21.5875011,
-    "lon": -46.8861917
+    "lon": -46.8861917,
+    "distanceToCenter": 148.17,
+    "walkingDistanceToCenter": 180.67
   },
   "Jardim São Fernando": {
     "lat": -22.7409093,
-    "lon": -47.3676291
+    "lon": -47.3676291,
+    "distanceToCenter": 36.77,
+    "walkingDistanceToCenter": 43.19
   },
   "Loteamento Vila Lafayette Álvaro": {
     "lat": -22.87869,
-    "lon": -47.02179
+    "lon": -47.02179,
+    "distanceToCenter": 5.22,
+    "walkingDistanceToCenter": 6.39
   },
   "Parque das Indústrias": {
     "lat": -22.8154607,
-    "lon": -47.2025318
+    "lon": -47.2025318,
+    "distanceToCenter": 18.05,
+    "walkingDistanceToCenter": 22.63
   },
   "Jardim Bassoli": {
     "lat": -22.96731,
-    "lon": -47.20187
+    "lon": -47.20187,
+    "distanceToCenter": 15.9,
+    "walkingDistanceToCenter": 19
   },
   "Vila Trinta e Um de Março": {
     "lat": -22.90993,
-    "lon": -47.08055
+    "lon": -47.08055,
+    "distanceToCenter": 2.16,
+    "walkingDistanceToCenter": 2.72
   },
   "Taquaral": {
     "lat": -22.880833,
-    "lon": -47.051667
+    "lon": -47.051667,
+    "distanceToCenter": 3.37,
+    "walkingDistanceToCenter": 3.82
   },
   "Fundação da Casa Popular": {
     "lat": -22.9179,
-    "lon": -47.07808
+    "lon": -47.07808,
+    "distanceToCenter": 2.08,
+    "walkingDistanceToCenter": 2.78
   },
   "Jardim Vista Alegre": {
     "lat": -22.7576063,
-    "lon": -47.1450806
+    "lon": -47.1450806,
+    "distanceToCenter": 19.11,
+    "walkingDistanceToCenter": 20.76
   },
   "Jardim Maringá": {
     "lat": -23.0801342,
-    "lon": -52.4503592
+    "lon": -52.4503592,
+    "distanceToCenter": 552.1,
+    "walkingDistanceToCenter": 654.59
   },
   "Dic II (Conj Habitacional Doutor Antônio Mendonça de Barros)": {
     "lat": -22.97445,
-    "lon": -47.12141
+    "lon": -47.12141,
+    "distanceToCenter": 9.54,
+    "walkingDistanceToCenter": 11.06
   },
   "Parque São Paulo": {
     "lat": -23.1791122,
-    "lon": -47.011165
+    "lon": -47.011165,
+    "distanceToCenter": 30.3,
+    "walkingDistanceToCenter": 39.48
   },
   "Jardim São José": {
     "lat": -22.3313776,
-    "lon": -46.9465416
+    "lon": -46.9465416,
+    "distanceToCenter": 65.41,
+    "walkingDistanceToCenter": 78.93
   },
   "Parque São Jorge": {
     "lat": -22.8961315,
-    "lon": -47.1561793
+    "lon": -47.1561793,
+    "distanceToCenter": 10.03,
+    "walkingDistanceToCenter": 14.3
   },
   "Jardim Profilurb": {
     "lat": -22.97765,
-    "lon": -47.13522
+    "lon": -47.13522,
+    "distanceToCenter": 10.78,
+    "walkingDistanceToCenter": 12.25
   },
   "Jardim Metonópolis": {
     "lat": -22.95159,
-    "lon": -47.18618
+    "lon": -47.18618,
+    "distanceToCenter": 13.76,
+    "walkingDistanceToCenter": 16.27
   },
   "Vila Itália": {
     "lat": -24.3157943,
-    "lon": -50.6253582
+    "lon": -50.6253582,
+    "distanceToCenter": 395.47,
+    "walkingDistanceToCenter": 502.23
   },
   "Vila Teixeira": {
     "lat": -22.9086581,
-    "lon": -47.087097
+    "lon": -47.087097,
+    "distanceToCenter": 2.83,
+    "walkingDistanceToCenter": 3.43
   },
   "Parque Bom Retiro Paulínia": {
     "lat": -22.7920996,
-    "lon": -47.1827111632429
+    "lon": -47.1827111632429,
+    "distanceToCenter": 18.22,
+    "walkingDistanceToCenter": 21.37
   },
   "Residencial da Paz": {
     "lat": -23.2266589,
-    "lon": -47.3052087
+    "lon": -47.3052087,
+    "distanceToCenter": 43.24,
+    "walkingDistanceToCenter": 48.86
   },
   "Rosália": {
     "lat": -22.873257600000002,
-    "lon": -47.138290439900686
+    "lon": -47.138290439900686,
+    "distanceToCenter": 9.06,
+    "walkingDistanceToCenter": 13.94
   },
   "Residencial Nova Bandeirante": {
     "lat": -22.98797,
-    "lon": -47.10104
+    "lon": -47.10104,
+    "distanceToCenter": 9.63,
+    "walkingDistanceToCenter": 11.19
   },
   "Jardim San Diego": {
     "lat": -22.9858823,
-    "lon": -47.1002923
+    "lon": -47.1002923,
+    "distanceToCenter": 9.38,
+    "walkingDistanceToCenter": 11.05
   },
   "Parque das Praças": {
     "lat": -23.27711,
-    "lon": -47.66468
+    "lon": -47.66468,
+    "distanceToCenter": 74.13,
+    "walkingDistanceToCenter": 96.58
   },
   "Jardim Rossin": {
     "lat": -22.92904,
-    "lon": -47.1615
+    "lon": -47.1615,
+    "distanceToCenter": 10.65,
+    "walkingDistanceToCenter": 12.83
   },
   "Jardim São Cristóvão": {
     "lat": -23.0525736,
-    "lon": -47.8407421
+    "lon": -47.8407421,
+    "distanceToCenter": 81.52,
+    "walkingDistanceToCenter": 97.89
   },
   "Conjunto Habitacional Vila Réggio": {
     "lat": -22.87392,
-    "lon": -47.1418
+    "lon": -47.1418,
+    "distanceToCenter": 9.35,
+    "walkingDistanceToCenter": 15.16
   },
   "Chácara Mendonça": {
     "lat": -22.86816,
-    "lon": -47.14589
+    "lon": -47.14589,
+    "distanceToCenter": 10.01,
+    "walkingDistanceToCenter": 14.87
   },
   "Vila Iapi": {
     "lat": -22.90648,
-    "lon": -47.08852
+    "lon": -47.08852,
+    "distanceToCenter": 3,
+    "walkingDistanceToCenter": 3.67
   },
   "Recanto Fortuna": {
     "lat": -22.84769,
-    "lon": -47.12388
+    "lon": -47.12388,
+    "distanceToCenter": 9.59,
+    "walkingDistanceToCenter": 10.71
   },
   "Parque São Quirino": {
     "lat": -22.8598285,
-    "lon": -47.03760583153676
+    "lon": -47.03760583153676,
+    "distanceToCenter": 6.04,
+    "walkingDistanceToCenter": 6.9
   },
   "Jardim Nova Morada": {
     "lat": -22.92513,
-    "lon": -47.10939
+    "lon": -47.10939,
+    "distanceToCenter": 5.37,
+    "walkingDistanceToCenter": 6.74
   },
   "Joaquim Egídio": {
     "lat": -22.87588435,
-    "lon": -46.898703095274826
+    "lon": -46.898703095274826,
+    "distanceToCenter": 16.91,
+    "walkingDistanceToCenter": 21
   },
   "Jardim São Pedro": {
     "lat": -22.555,
-    "lon": -47.9025737
+    "lon": -47.9025737,
+    "distanceToCenter": 95.06,
+    "walkingDistanceToCenter": 110.5
   },
   "Vila Rossi Borghi e Siqueira": {
     "lat": -22.89538,
-    "lon": -47.07403
+    "lon": -47.07403,
+    "distanceToCenter": 2.23,
+    "walkingDistanceToCenter": 2.44
   },
   "Loteamento e Arruamento TELESP": {
     "lat": -22.82524,
-    "lon": -47.08143
+    "lon": -47.08143,
+    "distanceToCenter": 9.72,
+    "walkingDistanceToCenter": 12.62
   },
   "Chácara Primavera": {
     "lat": -22.8603492,
-    "lon": -47.0499266
+    "lon": -47.0499266,
+    "distanceToCenter": 5.64,
+    "walkingDistanceToCenter": 6.69
   },
   "Vila Aurocan": {
     "lat": -22.9126,
-    "lon": -47.08872
+    "lon": -47.08872,
+    "distanceToCenter": 3,
+    "walkingDistanceToCenter": 3.84
   },
   "Jardim Alvorada": {
     "lat": -22.8040126,
-    "lon": -47.3100136
+    "lon": -47.3100136,
+    "distanceToCenter": 28.26,
+    "walkingDistanceToCenter": 33.16
   },
   "Jardim Carlos Lourenço": {
     "lat": -22.92991025,
-    "lon": -47.0319489484375
+    "lon": -47.0319489484375,
+    "distanceToCenter": 3.57,
+    "walkingDistanceToCenter": 4.12
   },
   "Bosque": {
     "lat": -22.8876835,
-    "lon": -47.02003641918954
+    "lon": -47.02003641918954,
+    "distanceToCenter": 4.76,
+    "walkingDistanceToCenter": 5.83
   },
   "Jardim Ipaussurama": {
     "lat": -22.91994235,
-    "lon": -47.12082604263608
+    "lon": -47.12082604263608,
+    "distanceToCenter": 6.37,
+    "walkingDistanceToCenter": 7.79
   },
   "Dic III (Conjunto Habitacional Ruy Novaes)": {
     "lat": -22.97514,
-    "lon": -47.18103
+    "lon": -47.18103,
+    "distanceToCenter": 14.38,
+    "walkingDistanceToCenter": 15.85
   },
   "Jardim Anchieta": {
     "lat": -24.1716065,
-    "lon": -46.7769648
+    "lon": -46.7769648,
+    "distanceToCenter": 143.18,
+    "walkingDistanceToCenter": 206.02
   },
   "Jardim Conceição (Sousas)": {
     "lat": -22.88742,
-    "lon": -46.98259
+    "lon": -46.98259,
+    "distanceToCenter": 8.28,
+    "walkingDistanceToCenter": 8.62
   },
   "Jardim Cura D'Ars": {
     "lat": -22.93602,
-    "lon": -47.03489
+    "lon": -47.03489,
+    "distanceToCenter": 3.81,
+    "walkingDistanceToCenter": 4.09
   },
   "Residencial Fazenda Lagoa": {
     "lat": -22.93945,
-    "lon": -47.11971
+    "lon": -47.11971,
+    "distanceToCenter": 6.97,
+    "walkingDistanceToCenter": 8.02
   },
   "Jardim Santo Expedito": {
     "lat": -22.93945,
-    "lon": -47.03046
+    "lon": -47.03046,
+    "distanceToCenter": 4.4,
+    "walkingDistanceToCenter": 4.72
   },
   "Jardim Antonio Von Zuben": {
     "lat": -22.9509339,
-    "lon": -47.0249529
+    "lon": -47.0249529,
+    "distanceToCenter": 5.74,
+    "walkingDistanceToCenter": 6.2
   },
   "Vila João Jorge": {
     "lat": -22.91861,
-    "lon": -47.05965
+    "lon": -47.05965,
+    "distanceToCenter": 0.92,
+    "walkingDistanceToCenter": 1.52
   },
   "Jardim Santa Mônica": {
     "lat": -22.8504125,
-    "lon": -47.1105043
+    "lon": -47.1105043,
+    "distanceToCenter": 8.46,
+    "walkingDistanceToCenter": 10.14
   },
   "Cambuí": {
     "lat": -22.892222,
-    "lon": -47.049722
+    "lon": -47.049722,
+    "distanceToCenter": 2.25,
+    "walkingDistanceToCenter": 2.78
   },
   "Jardim Nova Mercedes": {
     "lat": -22.977525,
-    "lon": -47.1022475
+    "lon": -47.1022475,
+    "distanceToCenter": 8.66,
+    "walkingDistanceToCenter": 9.86
   },
   "Jardim Fernanda - Continuação": {
     "lat": -23.04439,
-    "lon": -47.13025
+    "lon": -47.13025,
+    "distanceToCenter": 16.58,
+    "walkingDistanceToCenter": 19.01
   },
   "Jardim Santa Amália": {
     "lat": -22.93894,
-    "lon": -47.09446
+    "lon": -47.09446,
+    "distanceToCenter": 4.79,
+    "walkingDistanceToCenter": 5.57
   },
   "Jardim Santa Terezinha": {
     "lat": -22.3326291,
-    "lon": -46.9281181
+    "lon": -46.9281181,
+    "distanceToCenter": 65.63,
+    "walkingDistanceToCenter": 79.36
   },
   "Bonfim": {
     "lat": -22.7382426,
-    "lon": -47.1570607
+    "lon": -47.1570607,
+    "distanceToCenter": 21.59,
+    "walkingDistanceToCenter": 23.76
   },
   "Cidade Jardim": {
     "lat": -22.7185124,
-    "lon": -47.6426022
+    "lon": -47.6426022,
+    "distanceToCenter": 63.46,
+    "walkingDistanceToCenter": 74.57
   },
   "Jardim Bom Sucesso": {
     "lat": -23.1098231,
-    "lon": -47.2608757
+    "lon": -47.2608757,
+    "distanceToCenter": 30.28,
+    "walkingDistanceToCenter": 36.18
   },
   "Loteamento Residencial Flavia": {
     "lat": -22.93945,
-    "lon": -47.11971
+    "lon": -47.11971,
+    "distanceToCenter": 6.97,
+    "walkingDistanceToCenter": 8.02
   },
   "Vila Palmeiras I": {
     "lat": -23.03097,
-    "lon": -47.10478
+    "lon": -47.10478,
+    "distanceToCenter": 14.2,
+    "walkingDistanceToCenter": 16.07
   },
   "Vila Lemos": {
     "lat": -22.91889,
-    "lon": -47.04146
+    "lon": -47.04146,
+    "distanceToCenter": 2.08,
+    "walkingDistanceToCenter": 2.45
   },
   "Conjunto Habitacional Vila Santana (Sousas)": {
     "lat": -22.88901,
-    "lon": -46.97817
+    "lon": -46.97817,
+    "distanceToCenter": 8.66,
+    "walkingDistanceToCenter": 8.89
   },
   "Jardim Sul América": {
     "lat": -27.2112282,
-    "lon": -49.6381867
+    "lon": -49.6381867,
+    "distanceToCenter": 544.18,
+    "walkingDistanceToCenter": 723.57
   },
   "Vila Maria Eugênia": {
     "lat": -22.9463,
-    "lon": -47.09574
+    "lon": -47.09574,
+    "distanceToCenter": 5.46,
+    "walkingDistanceToCenter": 6.54
   },
   "Parque Camélias": {
     "lat": -22.91787,
-    "lon": -47.06763
+    "lon": -47.06763,
+    "distanceToCenter": 1.18,
+    "walkingDistanceToCenter": 1.79
   },
   "Vila Anhangüera": {
     "lat": -16.67248385,
-    "lon": -49.28939080000001
+    "lon": -49.28939080000001,
+    "distanceToCenter": 731.75,
+    "walkingDistanceToCenter": 905.42
   },
   "Jardim Bandeirantes": {
     "lat": -22.7215534,
-    "lon": -46.8388518
+    "lon": -46.8388518,
+    "distanceToCenter": 30.85,
+    "walkingDistanceToCenter": 37.2
   },
   "Vila Nogueira": {
     "lat": -22.8680883,
-    "lon": -47.03575376938794
+    "lon": -47.03575376938794,
+    "distanceToCenter": 5.29,
+    "walkingDistanceToCenter": 6.14
   },
   "Village  Campinas": {
     "lat": -22.749698950000003,
-    "lon": -47.05450004596659
+    "lon": -47.05450004596659,
+    "distanceToCenter": 17.87,
+    "walkingDistanceToCenter": 21.85
   },
   "Parque da Figueira": {
     "lat": -22.9462517,
-    "lon": -47.0597617
+    "lon": -47.0597617,
+    "distanceToCenter": 4,
+    "walkingDistanceToCenter": 4.75
   },
   "Jardim Marajó": {
     "lat": -22.97063,
-    "lon": -47.16418
+    "lon": -47.16418,
+    "distanceToCenter": 12.65,
+    "walkingDistanceToCenter": 14.12
   },
   "Jardim Santa Cruz": {
     "lat": -22.3252776,
-    "lon": -46.9429522
+    "lon": -46.9429522,
+    "distanceToCenter": 66.14,
+    "walkingDistanceToCenter": 79.82
   },
   "Jardim Samambaia": {
     "lat": -23.1939396,
-    "lon": -46.91457
+    "lon": -46.91457,
+    "distanceToCenter": 34.85,
+    "walkingDistanceToCenter": 38.55
   },
   "Jardim Flamboyant": {
     "lat": -23.1446316,
-    "lon": -46.5420877
+    "lon": -46.5420877,
+    "distanceToCenter": 59.01,
+    "walkingDistanceToCenter": 72.96
   },
   "Vila Alberto Simões": {
     "lat": -22.93229,
-    "lon": -47.02916
+    "lon": -47.02916,
+    "distanceToCenter": 3.95,
+    "walkingDistanceToCenter": 4.42
   },
   "Jardim Aeroporto de Viracopos": {
     "lat": -23.01006,
-    "lon": -47.14566
+    "lon": -47.14566,
+    "distanceToCenter": 14.17,
+    "walkingDistanceToCenter": 22.07
   },
   "Parque dos Cisnes": {
     "lat": -22.93945,
-    "lon": -47.0224
+    "lon": -47.0224,
+    "distanceToCenter": 4.99,
+    "walkingDistanceToCenter": 5.43
   },
   "Parque Industrial": {
     "lat": -21.842641,
-    "lon": -46.9066336
+    "lon": -46.9066336,
+    "distanceToCenter": 119.75,
+    "walkingDistanceToCenter": 147.77
   },
   "Jardim Maracanã": {
     "lat": -22.1146923,
-    "lon": -51.4273927
+    "lon": -51.4273927,
+    "distanceToCenter": 457.29,
+    "walkingDistanceToCenter": 550.61
   },
   "Parque Rural Fazenda Santa Cândida": {
     "lat": -22.84501,
-    "lon": -47.05246
+    "lon": -47.05246,
+    "distanceToCenter": 7.3,
+    "walkingDistanceToCenter": 8.63
   },
   "Chácaras Campos dos Amarais": {
     "lat": -22.85204,
-    "lon": -47.1007
+    "lon": -47.1007,
+    "distanceToCenter": 7.73,
+    "walkingDistanceToCenter": 9.44
   },
   "Chácara São Domingos": {
     "lat": -22.93606,
-    "lon": -47.02428
+    "lon": -47.02428,
+    "distanceToCenter": 4.61,
+    "walkingDistanceToCenter": 5.12
   },
   "Jardim Itatinga": {
     "lat": -22.98346,
-    "lon": -47.10646
+    "lon": -47.10646,
+    "distanceToCenter": 9.45,
+    "walkingDistanceToCenter": 10.31
   },
   "Real Parque": {
     "lat": -22.8262395,
-    "lon": -47.1021427
+    "lon": -47.1021427,
+    "distanceToCenter": 10.32,
+    "walkingDistanceToCenter": 11.91
   },
   "Vila Bourbon (Sousas)": {
     "lat": -22.88608,
-    "lon": -46.97465
+    "lon": -46.97465,
+    "distanceToCenter": 9.1,
+    "walkingDistanceToCenter": 9.3
   },
   "Loteamento Country Ville": {
     "lat": -22.94804,
-    "lon": -47.09544
+    "lon": -47.09544,
+    "distanceToCenter": 5.58,
+    "walkingDistanceToCenter": 6.71
   },
   "Vila Orozimbo Maia": {
     "lat": -22.89920585,
-    "lon": -47.06341098338673
+    "lon": -47.06341098338673,
+    "distanceToCenter": 1.3,
+    "walkingDistanceToCenter": 1.42
   },
   "Jardim Proença I": {
     "lat": -22.91957,
-    "lon": -47.04445
+    "lon": -47.04445,
+    "distanceToCenter": 1.85,
+    "walkingDistanceToCenter": 2.19
   },
   "Vila Miguel Vicente Cury": {
     "lat": -22.8604977,
-    "lon": -47.061465
+    "lon": -47.061465,
+    "distanceToCenter": 5.54,
+    "walkingDistanceToCenter": 6.6
   },
   "Jardim Noêmia": {
     "lat": -22.95728,
-    "lon": -47.07929
+    "lon": -47.07929,
+    "distanceToCenter": 5.6,
+    "walkingDistanceToCenter": 6.65
   },
   "Vila Satúrnia": {
     "lat": -22.92165,
-    "lon": -47.07062
+    "lon": -47.07062,
+    "distanceToCenter": 1.7,
+    "walkingDistanceToCenter": 2.64
   },
   "Jardim Centenário": {
     "lat": -22.3609606,
-    "lon": -46.9483048
+    "lon": -46.9483048,
+    "distanceToCenter": 62.14,
+    "walkingDistanceToCenter": 75.64
   },
   "Parque Brasília": {
     "lat": -23.1805032,
-    "lon": -46.9154942
+    "lon": -46.9154942,
+    "distanceToCenter": 33.46,
+    "walkingDistanceToCenter": 36.83
   },
   "Jardim Guanabara": {
     "lat": -22.8930847,
-    "lon": -47.0639837
+    "lon": -47.0639837,
+    "distanceToCenter": 1.97,
+    "walkingDistanceToCenter": 2.23
   },
   "Parque Beatriz": {
     "lat": -22.91501,
-    "lon": -47.08956
+    "lon": -47.08956,
+    "distanceToCenter": 3.12,
+    "walkingDistanceToCenter": 3.98
   },
   "Jardim Santa Clara": {
     "lat": -22.1993965,
-    "lon": -46.768646
+    "lon": -46.768646,
+    "distanceToCenter": 84.5,
+    "walkingDistanceToCenter": 103.93
   },
   "Jardim Nossa Senhora Auxiliadora": {
     "lat": -22.8500847,
-    "lon": -47.2031651
+    "lon": -47.2031651,
+    "distanceToCenter": 16.17,
+    "walkingDistanceToCenter": 20.72
   },
   "Jardim Ouro Branco": {
     "lat": -23.0801342,
-    "lon": -52.4503592
+    "lon": -52.4503592,
+    "distanceToCenter": 552.1,
+    "walkingDistanceToCenter": 654.59
   },
   "Jardim Primavera": {
     "lat": -22.0518986,
-    "lon": -46.9830637
+    "lon": -46.9830637,
+    "distanceToCenter": 95.77,
+    "walkingDistanceToCenter": 116.69
   },
   "Vila Nova Teixeira": {
     "lat": -22.9044,
-    "lon": -47.08663
+    "lon": -47.08663,
+    "distanceToCenter": 2.86,
+    "walkingDistanceToCenter": 3.45
   },
   "Vila Carminha": {
     "lat": -22.9375,
-    "lon": -47.03197
+    "lon": -47.03197,
+    "distanceToCenter": 4.13,
+    "walkingDistanceToCenter": 4.46
   },
   "Vila Ângela Marta": {
     "lat": -22.92091,
-    "lon": -47.08036
+    "lon": -47.08036,
+    "distanceToCenter": 2.44,
+    "walkingDistanceToCenter": 3.04
   },
   "Vila Ipê": {
     "lat": -22.9448551,
-    "lon": -47.0443753
+    "lon": -47.0443753,
+    "distanceToCenter": 4.14,
+    "walkingDistanceToCenter": 4.72
   },
   "Jardim São Marcos": {
     "lat": -22.8476825,
-    "lon": -47.1190068
+    "lon": -47.1190068,
+    "distanceToCenter": 9.25,
+    "walkingDistanceToCenter": 10.26
   },
   "Parque Yolanda (Nova Veneza) Sumaré": {
     "lat": -22.8311368,
-    "lon": -47.1686464
+    "lon": -47.1686464,
+    "distanceToCenter": 14.23,
+    "walkingDistanceToCenter": 16.02
   },
   "Núcleo Residencial Vila Todescan": {
     "lat": -22.97359,
-    "lon": -47.1678
+    "lon": -47.1678,
+    "distanceToCenter": 13.13,
+    "walkingDistanceToCenter": 14.72
   },
   "Parque Itália": {
     "lat": -21.9668507,
-    "lon": -46.8130902
+    "lon": -46.8130902,
+    "distanceToCenter": 107.92,
+    "walkingDistanceToCenter": 131.78
   },
   "Sousas": {
     "lat": -22.881229,
-    "lon": -46.9698874
+    "lon": -46.9698874,
+    "distanceToCenter": 9.73,
+    "walkingDistanceToCenter": 10.1
   },
   "Jardim Petrópolis": {
     "lat": -23.201638,
-    "lon": -46.8901406
+    "lon": -46.8901406,
+    "distanceToCenter": 36.74,
+    "walkingDistanceToCenter": 39.37
   },
   "Vila São Bento": {
     "lat": -23.2512312,
-    "lon": -47.3078087
+    "lon": -47.3078087,
+    "distanceToCenter": 45.63,
+    "walkingDistanceToCenter": 53.12
   },
   "Vila Nova São José": {
     "lat": -23.1542199,
-    "lon": -47.0526028
+    "lon": -47.0526028,
+    "distanceToCenter": 27.13,
+    "walkingDistanceToCenter": 34.56
   },
   "Jardim Okita": {
     "lat": -22.9298,
-    "lon": -47.05119
+    "lon": -47.05119,
+    "distanceToCenter": 2.33,
+    "walkingDistanceToCenter": 2.9
   },
   "Jardim Icaraí": {
     "lat": -22.1146923,
-    "lon": -51.4273927
+    "lon": -51.4273927,
+    "distanceToCenter": 457.29,
+    "walkingDistanceToCenter": 550.61
   },
   "Jardim Itatiaia": {
     "lat": -23.2063093,
-    "lon": -46.9043286
+    "lon": -46.9043286,
+    "distanceToCenter": 36.54,
+    "walkingDistanceToCenter": 40.41
   },
   "Jardim Márcia": {
     "lat": -22.94395,
-    "lon": -47.11149
+    "lon": -47.11149,
+    "distanceToCenter": 6.51,
+    "walkingDistanceToCenter": 7.15
   },
   "Chácara Três Marias": {
     "lat": -22.86946,
-    "lon": -47.13532
+    "lon": -47.13532,
+    "distanceToCenter": 9,
+    "walkingDistanceToCenter": 14.06
   },
   "Nova Sousas (Sousas)": {
     "lat": -22.87067,
-    "lon": -46.96009
+    "lon": -46.96009,
+    "distanceToCenter": 11.1,
+    "walkingDistanceToCenter": 11.84
   },
   "Vila Carlito": {
     "lat": -22.93255,
-    "lon": -47.0505
+    "lon": -47.0505,
+    "distanceToCenter": 2.64,
+    "walkingDistanceToCenter": 3.06
   },
   "Jardim Guarani": {
     "lat": -22.91197,
-    "lon": -47.03639
+    "lon": -47.03639,
+    "distanceToCenter": 2.37,
+    "walkingDistanceToCenter": 2.8
   },
   "Jardim Santana": {
     "lat": -22.8502289,
-    "lon": -47.0364557
+    "lon": -47.0364557,
+    "distanceToCenter": 7.08,
+    "walkingDistanceToCenter": 8.1
   },
   "Vila Dutra": {
     "lat": -22.91179,
-    "lon": -47.0854
+    "lon": -47.0854,
+    "distanceToCenter": 2.66,
+    "walkingDistanceToCenter": 3.34
   },
   "Vila Manoel Ferreira": {
     "lat": -22.9122,
-    "lon": -47.09576
+    "lon": -47.09576,
+    "distanceToCenter": 3.72,
+    "walkingDistanceToCenter": 4.56
   },
   "Vila Campos Sales": {
     "lat": -23.2057122,
-    "lon": -46.8781973
+    "lon": -46.8781973,
+    "distanceToCenter": 37.72,
+    "walkingDistanceToCenter": 40.31
   },
   "Jardim Colonial": {
     "lat": -23.1132671,
-    "lon": -46.5923829
+    "lon": -46.5923829,
+    "distanceToCenter": 52.87,
+    "walkingDistanceToCenter": 65.18
   },
   "Jardim Tupi": {
     "lat": -23.2167419,
-    "lon": -46.85201472177812
+    "lon": -46.85201472177812,
+    "distanceToCenter": 40.15,
+    "walkingDistanceToCenter": 43.36
   },
   "Jardim Conceição": {
     "lat": -22.7549134,
-    "lon": -47.4059218
+    "lon": -47.4059218,
+    "distanceToCenter": 39.48,
+    "walkingDistanceToCenter": 45.48
   },
   "Jardim Mercedes": {
     "lat": -22.5701692,
-    "lon": -47.4034094
+    "lon": -47.4034094,
+    "distanceToCenter": 51.71,
+    "walkingDistanceToCenter": 63.17
   },
   "Residencial Terras do Barão": {
     "lat": -22.777203450000002,
-    "lon": -47.090587485231765
+    "lon": -47.090587485231765,
+    "distanceToCenter": 15.14,
+    "walkingDistanceToCenter": 17.46
   },
   "Jardim Magnólia": {
     "lat": -22.90345,
-    "lon": -47.09998
+    "lon": -47.09998,
+    "distanceToCenter": 4.22,
+    "walkingDistanceToCenter": 4.9
   },
   "Residencial Burato": {
     "lat": -22.82419,
-    "lon": -47.08763
+    "lon": -47.08763,
+    "distanceToCenter": 10,
+    "walkingDistanceToCenter": 11.77
   },
   "Chácaras Campos Elíseos": {
     "lat": -22.93988,
-    "lon": -47.10412
+    "lon": -47.10412,
+    "distanceToCenter": 5.63,
+    "walkingDistanceToCenter": 6.19
   },
   "Vila Elza": {
     "lat": -22.90906,
-    "lon": -47.06455
+    "lon": -47.06455,
+    "distanceToCenter": 0.54,
+    "walkingDistanceToCenter": 0.58
   },
   "Jardim Atibaia (Sousas)": {
     "lat": -22.88432,
-    "lon": -46.96557
+    "lon": -46.96557,
+    "distanceToCenter": 10.05,
+    "walkingDistanceToCenter": 11.36
   },
   "Jardim Pacaembu": {
     "lat": -23.1545723,
-    "lon": -47.0418849
+    "lon": -47.0418849,
+    "distanceToCenter": 27.22,
+    "walkingDistanceToCenter": 34.95
   },
   "Vila Maria": {
     "lat": -22.3740588,
-    "lon": -46.9317318
+    "lon": -46.9317318,
+    "distanceToCenter": 61.05,
+    "walkingDistanceToCenter": 74.58
   },
   "Jardim Indianópolis": {
     "lat": -22.95078,
-    "lon": -47.09954
+    "lon": -47.09954,
+    "distanceToCenter": 6.09,
+    "walkingDistanceToCenter": 7.08
   },
   "Vila Abaeté": {
     "lat": -22.9887529,
-    "lon": -47.0990574
+    "lon": -47.0990574,
+    "distanceToCenter": 9.62,
+    "walkingDistanceToCenter": 11.46
   },
   "Parque Tropical": {
     "lat": -22.93741,
-    "lon": -47.11438
+    "lon": -47.11438,
+    "distanceToCenter": 6.38,
+    "walkingDistanceToCenter": 7.52
   },
   "Nova  Campinas": {
     "lat": -22.9042766,
-    "lon": -47.0405108
+    "lon": -47.0405108,
+    "distanceToCenter": 2.06,
+    "walkingDistanceToCenter": 2.37
   },
   "Loteamento Parque Centenário": {
     "lat": -22.9853142,
-    "lon": -47.0675052
+    "lon": -47.0675052,
+    "distanceToCenter": 8.38,
+    "walkingDistanceToCenter": 9.91
   },
   "Jardim Aparecida": {
     "lat": -16.8369349,
-    "lon": -49.2286818
+    "lon": -49.2286818,
+    "distanceToCenter": 712.36,
+    "walkingDistanceToCenter": 884.25
   },
   "Jardim Campo Belo II": {
     "lat": -22.1146923,
-    "lon": -51.4273927
+    "lon": -51.4273927,
+    "distanceToCenter": 457.29,
+    "walkingDistanceToCenter": 550.61
   },
   "Jardim Aeroporto de  Campinas": {
     "lat": -22.860043249999997,
-    "lon": -47.10842181566554
+    "lon": -47.10842181566554,
+    "distanceToCenter": 7.51,
+    "walkingDistanceToCenter": 8.73
   },
   "Vila Nova": {
     "lat": -22.8750674,
-    "lon": -47.07301410764019
+    "lon": -47.07301410764019,
+    "distanceToCenter": 4.16,
+    "walkingDistanceToCenter": 4.85
   },
   "Parque Imperador": {
     "lat": -22.8455076,
-    "lon": -47.0247842
+    "lon": -47.0247842,
+    "distanceToCenter": 8.03,
+    "walkingDistanceToCenter": 9.17
   },
   "Jardim Esmeraldina": {
     "lat": -22.93477,
-    "lon": -47.01224
+    "lon": -47.01224,
+    "distanceToCenter": 5.55,
+    "walkingDistanceToCenter": 6.27
   },
   "Vila Progresso": {
     "lat": -23.2052977,
-    "lon": -46.8720963
+    "lon": -46.8720963,
+    "distanceToCenter": 37.99,
+    "walkingDistanceToCenter": 40.54
   },
   "Jardim Myrian Moreira da Costa": {
     "lat": -22.94892,
-    "lon": -47.11504
+    "lon": -47.11504,
+    "distanceToCenter": 7.13,
+    "walkingDistanceToCenter": 8.12
   },
   "Jardim Maria Eugênia": {
     "lat": -23.45688,
-    "lon": -47.49019
+    "lon": -47.49019,
+    "distanceToCenter": 75.05,
+    "walkingDistanceToCenter": 88.95
   },
   "Imperial Parque (Sousas)": {
     "lat": -22.88865,
-    "lon": -46.98193
+    "lon": -46.98193,
+    "distanceToCenter": 8.3,
+    "walkingDistanceToCenter": 8.5
   },
   "Jardim Dom Bosco": {
     "lat": -22.3766665,
-    "lon": -47.3647857
+    "lon": -47.3647857,
+    "distanceToCenter": 67.1,
+    "walkingDistanceToCenter": 80.65
   },
   "Vila Mimosa": {
     "lat": -22.93737,
-    "lon": -47.09106
+    "lon": -47.09106,
+    "distanceToCenter": 4.42,
+    "walkingDistanceToCenter": 5.2
   },
   "Jardim Ibirapuera": {
     "lat": -22.5935275,
-    "lon": -47.4092206
+    "lon": -47.4092206,
+    "distanceToCenter": 50.27,
+    "walkingDistanceToCenter": 61.83
   },
   "Recanto dos Dourados": {
     "lat": -22.795293,
-    "lon": -46.9949677
+    "lon": -46.9949677,
+    "distanceToCenter": 14.4,
+    "walkingDistanceToCenter": 20.1
   },
   "Bosque das Palmeiras": {
     "lat": -22.7838,
-    "lon": -47.04642
+    "lon": -47.04642,
+    "distanceToCenter": 14.13,
+    "walkingDistanceToCenter": 18.97
   },
   "Loteamento Residencial Barão do Café": {
     "lat": -22.79982,
-    "lon": -47.08165
+    "lon": -47.08165,
+    "distanceToCenter": 12.49,
+    "walkingDistanceToCenter": 15.03
   },
   "Jardim Morumbi": {
     "lat": -23.0542539,
-    "lon": -47.207035
+    "lon": -47.207035,
+    "distanceToCenter": 22.01,
+    "walkingDistanceToCenter": 27.08
   },
   "Jardim América": {
     "lat": -22.3571037,
-    "lon": -46.9273011
+    "lon": -46.9273011,
+    "distanceToCenter": 62.99,
+    "walkingDistanceToCenter": 76.64
   },
   "Jardim Bonfim": {
     "lat": -22.891246199999998,
-    "lon": -47.02836300326366
+    "lon": -47.02836300326366,
+    "distanceToCenter": 3.83,
+    "walkingDistanceToCenter": 4.82
   },
   "Chácara São José": {
     "lat": -22.3629948,
-    "lon": -47.3764265
+    "lon": -47.3764265,
+    "distanceToCenter": 69,
+    "walkingDistanceToCenter": 81.75
   },
   "Jardim São Gonçalo": {
     "lat": -12.915567,
-    "lon": -38.4623272
+    "lon": -38.4623272,
+    "distanceToCenter": 1435.14,
+    "walkingDistanceToCenter": 10.02
   },
   "Parque Residencial Carvalho de Moura": {
     "lat": -22.93835,
-    "lon": -47.11171
+    "lon": -47.11171,
+    "distanceToCenter": 6.19,
+    "walkingDistanceToCenter": 7.32
   },
   "Loteamento Parque São Martinho": {
     "lat": -22.95195,
-    "lon": -47.05647
+    "lon": -47.05647,
+    "distanceToCenter": 4.64,
+    "walkingDistanceToCenter": 5.47
   },
   "Parque Camboriú": {
     "lat": -22.9637,
-    "lon": -47.09146
+    "lon": -47.09146,
+    "distanceToCenter": 6.78,
+    "walkingDistanceToCenter": 8.18
   },
   "Jardim Alto da Barra": {
     "lat": -22.88329,
-    "lon": -47.03428
+    "lon": -47.03428,
+    "distanceToCenter": 3.96,
+    "walkingDistanceToCenter": 4.58
   },
   "Bosque de Barão Geraldo": {
     "lat": -22.81436335,
-    "lon": -47.06636775524608
+    "lon": -47.06636775524608,
+    "distanceToCenter": 10.69,
+    "walkingDistanceToCenter": 12.44
   },
   "Jardim Paraíso": {
     "lat": -22.4785078,
-    "lon": -46.623682
+    "lon": -46.623682,
+    "distanceToCenter": 65.61,
+    "walkingDistanceToCenter": 83.03
   },
   "Chácara de Recreio Barão": {
     "lat": -21.31896,
-    "lon": -50.34428
+    "lon": -50.34428,
+    "distanceToCenter": 381.83,
+    "walkingDistanceToCenter": 460.06
   },
   "Residencial Parque da Fazenda": {
     "lat": -23.54725,
-    "lon": -51.42385
+    "lon": -51.42385,
+    "distanceToCenter": 451.52,
+    "walkingDistanceToCenter": 550.23
   },
   "Parque dos Pomares": {
     "lat": -22.8163588,
-    "lon": -47.0112218
+    "lon": -47.0112218,
+    "distanceToCenter": 11.56,
+    "walkingDistanceToCenter": 16.75
   },
   "Jardim Santa Vitória": {
     "lat": -23.03163,
-    "lon": -47.13932
+    "lon": -47.13932,
+    "distanceToCenter": 15.77,
+    "walkingDistanceToCenter": 22.46
   },
   "Parque CEASA": {
     "lat": -22.83198,
-    "lon": -47.09741
+    "lon": -47.09741,
+    "distanceToCenter": 9.54,
+    "walkingDistanceToCenter": 11.63
   },
   "Jardim São Rafael": {
     "lat": -22.5396442,
-    "lon": -47.4232897
+    "lon": -47.4232897,
+    "distanceToCenter": 55.6,
+    "walkingDistanceToCenter": 66.81
   },
   "Jardim Santa Genebra II (Barão Geraldo)": {
     "lat": -22.8484507,
-    "lon": -47.0710471
+    "lon": -47.0710471,
+    "distanceToCenter": 6.98,
+    "walkingDistanceToCenter": 7.85
   },
   "Jardim Afife": {
     "lat": -22.82118,
-    "lon": -47.08121
+    "lon": -47.08121,
+    "distanceToCenter": 10.16,
+    "walkingDistanceToCenter": 12.65
   },
   "Jardim Planalto": {
     "lat": -22.3778684,
-    "lon": -46.9307877
+    "lon": -46.9307877,
+    "distanceToCenter": 60.66,
+    "walkingDistanceToCenter": 74.11
   },
   "Jardim Bela Vista": {
     "lat": -22.3699328,
-    "lon": -46.9361309
+    "lon": -46.9361309,
+    "distanceToCenter": 61.41,
+    "walkingDistanceToCenter": 74.46
   },
   "Núcleo Residencial Três Estrelas": {
     "lat": -22.95483,
-    "lon": -47.168476950461084
+    "lon": -47.168476950461084,
+    "distanceToCenter": 12.21,
+    "walkingDistanceToCenter": 14.97
   },
   "Chácara Cneo": {
     "lat": -22.95237,
-    "lon": -47.12444
+    "lon": -47.12444,
+    "distanceToCenter": 8.13,
+    "walkingDistanceToCenter": 9.79
   },
   "Vila Sônia (Sousas)": {
     "lat": -22.87966,
-    "lon": -46.96882
+    "lon": -46.96882,
+    "distanceToCenter": 9.89,
+    "walkingDistanceToCenter": 10.24
   },
   "Jardim José Martins": {
     "lat": -22.82644,
-    "lon": -47.07641
+    "lon": -47.07641,
+    "distanceToCenter": 9.48,
+    "walkingDistanceToCenter": 12.39
   },
   "Vila Antônio Lourenço": {
     "lat": -22.93257,
-    "lon": -47.02333
+    "lon": -47.02333,
+    "distanceToCenter": 4.46,
+    "walkingDistanceToCenter": 5.09
   },
   "Loteamento Parque das Hortências (Sousas)": {
     "lat": -21.8051,
-    "lon": -48.1305
+    "lon": -48.1305,
+    "distanceToCenter": 165.02,
+    "walkingDistanceToCenter": 206.47
   },
   "Parque Montreal": {
     "lat": -23.3134689,
-    "lon": -46.7570275
+    "lon": -46.7570275,
+    "distanceToCenter": 54.47,
+    "walkingDistanceToCenter": 60.32
   },
   "Loteamento Solar  Campinas": {
     "lat": -23.0904312,
-    "lon": -46.8511817
+    "lon": -46.8511817,
+    "distanceToCenter": 29.25,
+    "walkingDistanceToCenter": 38.58
   },
   "Vila Santa Isabel": {
     "lat": -22.8169314,
-    "lon": -47.0929222
+    "lon": -47.0929222,
+    "distanceToCenter": 10.93,
+    "walkingDistanceToCenter": 12.45
   },
   "Vila Horácio Tulli": {
     "lat": -22.9288,
-    "lon": -47.05116
+    "lon": -47.05116,
+    "distanceToCenter": 2.23,
+    "walkingDistanceToCenter": 2.63
   },
   "Vila Fortuna": {
     "lat": -22.90658,
-    "lon": -47.08588
+    "lon": -47.08588,
+    "distanceToCenter": 2.73,
+    "walkingDistanceToCenter": 3.33
   },
   "Jardim Paulistano": {
     "lat": -22.7253711,
-    "lon": -47.337275
+    "lon": -47.337275,
+    "distanceToCenter": 35.12,
+    "walkingDistanceToCenter": 41.31
   },
   "Jardim Dom Nery": {
     "lat": -22.91766,
-    "lon": -47.09176
+    "lon": -47.09176,
+    "distanceToCenter": 3.4,
+    "walkingDistanceToCenter": 4.23
   },
   "Chácaras Cruzeiro do Sul": {
     "lat": -22.92895,
-    "lon": -47.18007
+    "lon": -47.18007,
+    "distanceToCenter": 12.52,
+    "walkingDistanceToCenter": 17.19
   },
   "Loteamento Alphaville  Campinas": {
     "lat": -22.82164,
-    "lon": -47.0266
+    "lon": -47.0266,
+    "distanceToCenter": 10.42,
+    "walkingDistanceToCenter": 16.98
   },
   "Parque das Flores": {
     "lat": -22.8520865,
-    "lon": -47.055890736968294
+    "lon": -47.055890736968294,
+    "distanceToCenter": 6.48,
+    "walkingDistanceToCenter": 8.04
   },
   "Loteamento Chácaras Vale das Garças": {
     "lat": -22.73883,
-    "lon": -47.06694
+    "lon": -47.06694,
+    "distanceToCenter": 19.08,
+    "walkingDistanceToCenter": 23.57
   },
   "Parque Ipiranga": {
     "lat": -22.9512139,
-    "lon": -47.10343792423249
+    "lon": -47.10343792423249,
+    "distanceToCenter": 6.4,
+    "walkingDistanceToCenter": 7.45
   },
   "Jardim Santa Judith": {
     "lat": -22.92805,
-    "lon": -47.03059
+    "lon": -47.03059,
+    "distanceToCenter": 3.56,
+    "walkingDistanceToCenter": 4.15
   },
   "Jardim Aires da Costa": {
     "lat": -22.90784,
-    "lon": -47.10294
+    "lon": -47.10294,
+    "distanceToCenter": 4.46,
+    "walkingDistanceToCenter": 5.33
   },
   "Loteamento Residencial Rosário": {
     "lat": -22.93926,
-    "lon": -47.12466
+    "lon": -47.12466,
+    "distanceToCenter": 7.41,
+    "walkingDistanceToCenter": 8.52
   },
   "Jardim São João": {
     "lat": -22.3440227,
-    "lon": -47.3748601
+    "lon": -47.3748601,
+    "distanceToCenter": 70.8,
+    "walkingDistanceToCenter": 83.99
   },
   "Jardim São Francisco": {
     "lat": -22.8834964,
-    "lon": -46.9719855
+    "lon": -46.9719855,
+    "distanceToCenter": 9.45,
+    "walkingDistanceToCenter": 9.7
   },
   "Loteamento Residencial Parque dos Cantos": {
     "lat": -22.95084,
-    "lon": -47.17366
+    "lon": -47.17366,
+    "distanceToCenter": 12.53,
+    "walkingDistanceToCenter": 15.25
   },
   "Vila Tofanello": {
     "lat": -22.87704,
-    "lon": -47.03845
+    "lon": -47.03845,
+    "distanceToCenter": 4.28,
+    "walkingDistanceToCenter": 5.03
   },
   "Parque das Universidades": {
     "lat": -22.8380939,
-    "lon": -47.0532253
+    "lon": -47.0532253,
+    "distanceToCenter": 8.05,
+    "walkingDistanceToCenter": 9.6
   },
   "Jardim Brasil": {
     "lat": -22.1906339,
-    "lon": -46.7797241
+    "lon": -46.7797241,
+    "distanceToCenter": 85.02,
+    "walkingDistanceToCenter": 104.03
   },
   "Residencial Parque Rio das Pedras": {
     "lat": -22.79892,
-    "lon": -47.08118
+    "lon": -47.08118,
+    "distanceToCenter": 12.58,
+    "walkingDistanceToCenter": 15.15
   },
   "Jardim Presidente Wenceslau": {
     "lat": -22.88829,
-    "lon": -47.03559
+    "lon": -47.03559,
+    "distanceToCenter": 3.46,
+    "walkingDistanceToCenter": 4.04
   },
   "Vila Andrade Neves": {
     "lat": -22.9014545,
-    "lon": -47.071070621053195
+    "lon": -47.071070621053195,
+    "distanceToCenter": 1.54,
+    "walkingDistanceToCenter": 1.71
   },
   "Parque Jatibaia (Sousas)": {
     "lat": -22.87061,
-    "lon": -46.96615
+    "lon": -46.96615,
+    "distanceToCenter": 10.53,
+    "walkingDistanceToCenter": 11.36
   },
   "Residencial Terra Nova": {
     "lat": -22.92459,
-    "lon": -47.11719
+    "lon": -47.11719,
+    "distanceToCenter": 6.12,
+    "walkingDistanceToCenter": 7.29
   },
   "Reserva Riviera": {
     "lat": -22.91222,
-    "lon": -47.05298
+    "lon": -47.05298,
+    "distanceToCenter": 0.7,
+    "walkingDistanceToCenter": 0.96
   },
   "Fazenda São Quirino": {
     "lat": -22.9172047,
-    "lon": -46.8458345
+    "lon": -46.8458345,
+    "distanceToCenter": 21.9,
+    "walkingDistanceToCenter": 30.69
   },
   "Parque Aeroporto": {
     "lat": -22.34007,
-    "lon": -41.75489
+    "lon": -41.75489,
+    "distanceToCenter": 548.1,
+    "walkingDistanceToCenter": 185.19
   },
   "Res Cosmos": {
     "lat": -22.94769,
-    "lon": -47.15952
+    "lon": -47.15952,
+    "distanceToCenter": 11.05,
+    "walkingDistanceToCenter": 13.14
   },
   "Jardim Columbia": {
     "lat": -23.03342,
-    "lon": -47.12494
+    "lon": -47.12494,
+    "distanceToCenter": 15.24,
+    "walkingDistanceToCenter": 17.41
   },
   "Vila Ferreira Jorge": {
     "lat": -22.94247,
-    "lon": -47.04217
+    "lon": -47.04217,
+    "distanceToCenter": 3.99,
+    "walkingDistanceToCenter": 4.63
   },
   "Carlos Gomes": {
     "lat": -22.7509698,
-    "lon": -47.0002372
+    "lon": -47.0002372,
+    "distanceToCenter": 18.73,
+    "walkingDistanceToCenter": 25.59
   },
   "Parque Dom Bosco": {
     "lat": -22.9770796,
-    "lon": -47.178215036918786
+    "lon": -47.178215036918786,
+    "distanceToCenter": 14.24,
+    "walkingDistanceToCenter": 15.79
   },
   "Vila São João": {
     "lat": -22.369495,
-    "lon": -46.9308003
+    "lon": -46.9308003,
+    "distanceToCenter": 61.57,
+    "walkingDistanceToCenter": 74.95
   },
   "Novo Taquaral": {
     "lat": -22.8892857,
-    "lon": -47.0448929
+    "lon": -47.0448929,
+    "distanceToCenter": 2.77,
+    "walkingDistanceToCenter": 3.19
   },
   "Jardim Itaguaçu II": {
     "lat": -23.0393191,
-    "lon": -47.12085969847532
+    "lon": -47.12085969847532,
+    "distanceToCenter": 15.66,
+    "walkingDistanceToCenter": 18.13
   },
   "Lt Res Jaguari": {
     "lat": -22.95439,
-    "lon": -47.17879
+    "lon": -47.17879,
+    "distanceToCenter": 13.16,
+    "walkingDistanceToCenter": 16.4
   },
   "Residencial Aruanã": {
     "lat": -22.98267,
-    "lon": -47.11422
+    "lon": -47.11422,
+    "distanceToCenter": 9.81,
+    "walkingDistanceToCenter": 12.33
   },
   "Nova Aparecida": {
     "lat": -22.848388149999998,
-    "lon": -47.1443229856872
+    "lon": -47.1443229856872,
+    "distanceToCenter": 11.09,
+    "walkingDistanceToCenter": 12.9
   },
   "Cidade Universitária": {
     "lat": -22.8048472,
-    "lon": -47.0697047
+    "lon": -47.0697047,
+    "distanceToCenter": 11.77,
+    "walkingDistanceToCenter": 13.75
   },
   "Loteamento Caminhos de São Conrado (Sousas)": {
     "lat": -22.86074,
-    "lon": -46.97399
+    "lon": -46.97399,
+    "distanceToCenter": 10.35,
+    "walkingDistanceToCenter": 13.29
   },
   "Parque dos Resedás": {
     "lat": -23.158418150000003,
-    "lon": -47.09244741613341
+    "lon": -47.09244741613341,
+    "distanceToCenter": 27.79,
+    "walkingDistanceToCenter": 37.45
   },
   "Jardim Puccamp": {
     "lat": -22.9281,
-    "lon": -47.12143
+    "lon": -47.12143,
+    "distanceToCenter": 6.64,
+    "walkingDistanceToCenter": 7.94
   },
   "Nova Campinas": {
     "lat": -22.9042766,
-    "lon": -47.0405108
+    "lon": -47.0405108,
+    "distanceToCenter": 2.06,
+    "walkingDistanceToCenter": 2.37
   },
   "Conjunto Habitacional  H Campinas": {
     "lat": -22.8748864,
-    "lon": -47.14263802558679
+    "lon": -47.14263802558679,
+    "distanceToCenter": 9.38,
+    "walkingDistanceToCenter": 15.13
   },
   "Conjunto Residencial Souza Queiroz": {
     "lat": -22.94955,
-    "lon": -47.10057
+    "lon": -47.10057,
+    "distanceToCenter": 6.06,
+    "walkingDistanceToCenter": 6.94
   },
   "Jardim Martinelli (Sousas)": {
     "lat": -22.88432,
-    "lon": -46.96557
+    "lon": -46.96557,
+    "distanceToCenter": 10.05,
+    "walkingDistanceToCenter": 11.36
   },
   "Terras do Friburgo": {
     "lat": -22.88499,
-    "lon": -47.03958
+    "lon": -47.03958,
+    "distanceToCenter": 3.48,
+    "walkingDistanceToCenter": 4.22
   },
   "Jardim Novo Botafogo": {
     "lat": -22.89635,
-    "lon": -47.07179
+    "lon": -47.07179,
+    "distanceToCenter": 2,
+    "walkingDistanceToCenter": 2.5
   },
   "Chácara Santa Letícia": {
     "lat": -22.96521,
-    "lon": -47.12655
+    "lon": -47.12655,
+    "distanceToCenter": 9.19,
+    "walkingDistanceToCenter": 10.48
   },
   "Jardim Ipiranga": {
     "lat": -22.7534339,
-    "lon": -47.3599067
+    "lon": -47.3599067,
+    "distanceToCenter": 35.38,
+    "walkingDistanceToCenter": 41.81
   },
   "Jardim Rosana (Sousas)": {
     "lat": -22.95248,
-    "lon": -47.09574
+    "lon": -47.09574,
+    "distanceToCenter": 5.98,
+    "walkingDistanceToCenter": 7.06
   },
   "Recreio Tsuriba": {
     "lat": -22.74749,
-    "lon": -47.01583
+    "lon": -47.01583,
+    "distanceToCenter": 18.65,
+    "walkingDistanceToCenter": 27.51
   },
   "Parque Social": {
     "lat": -22.9402,
-    "lon": -47.08331
+    "lon": -47.08331,
+    "distanceToCenter": 4.12,
+    "walkingDistanceToCenter": 5.09
   },
   "Parque Prado": {
     "lat": -22.9334218,
-    "lon": -47.0573933
+    "lon": -47.0573933,
+    "distanceToCenter": 2.58,
+    "walkingDistanceToCenter": 3.21
   },
   "Parque Alto Taquaral": {
     "lat": -15.85702925,
-    "lon": -48.97244367692902
+    "lon": -48.97244367692902,
+    "distanceToCenter": 809.51,
+    "walkingDistanceToCenter": 360.1
   },
   "Residencial Sírius": {
     "lat": -22.9524528,
-    "lon": -47.1632442
+    "lon": -47.1632442,
+    "distanceToCenter": 11.61,
+    "walkingDistanceToCenter": 13.58
   },
   "": {
     "lat": -22.9056391,
-    "lon": -47.059564
+    "lon": -47.059564,
+    "distanceToCenter": 0.52,
+    "walkingDistanceToCenter": 0.67
   },
   "Jardim Santa Maria II": {
     "lat": -22.9444203,
-    "lon": -47.0001686
+    "lon": -47.0001686,
+    "distanceToCenter": 7.16,
+    "walkingDistanceToCenter": 8.7
   },
   "Parque Universal": {
     "lat": -22.727674399999998,
-    "lon": -47.64696825764623
+    "lon": -47.64696825764623,
+    "distanceToCenter": 63.54,
+    "walkingDistanceToCenter": 74.86
   },
   "Jardim São Francisco (Sousas)": {
     "lat": -22.8834964,
-    "lon": -46.9719855
+    "lon": -46.9719855,
+    "distanceToCenter": 9.45,
+    "walkingDistanceToCenter": 9.7
   },
   "Vila Modesto Fernandes": {
     "lat": -22.82985,
-    "lon": -47.0822
+    "lon": -47.0822,
+    "distanceToCenter": 9.24,
+    "walkingDistanceToCenter": 12.84
   },
   "Conjunto Habitacional Campinas F": {
     "lat": -22.8748864,
-    "lon": -47.14263802558679
+    "lon": -47.14263802558679,
+    "distanceToCenter": 9.38,
+    "walkingDistanceToCenter": 15.13
   },
   "Chácara de Recreio Santa Fé": {
     "lat": -22.43854,
-    "lon": -46.84366
+    "lon": -46.84366,
+    "distanceToCenter": 56.94,
+    "walkingDistanceToCenter": 74.84
   },
   "Parque Nova  Campinas": {
     "lat": -22.871412404975946,
-    "lon": -47.06937838779794
+    "lon": -47.06937838779794,
+    "distanceToCenter": 4.44,
+    "walkingDistanceToCenter": 4.9
   },
   "Núcleo Residencial Getúlio Vargas": {
     "lat": -27.88663,
-    "lon": -52.2289
+    "lon": -52.2289,
+    "distanceToCenter": 758.61,
+    "walkingDistanceToCenter": 947.41
   },
   "Chácaras Recanto da Colina Verde": {
     "lat": -22.92752,
-    "lon": -47.18196
+    "lon": -47.18196,
+    "distanceToCenter": 12.69,
+    "walkingDistanceToCenter": 17.14
   },
   "Jardim Belo Horizonte": {
     "lat": -23.0808855,
-    "lon": -46.9849139
+    "lon": -46.9849139,
+    "distanceToCenter": 20.45,
+    "walkingDistanceToCenter": 25.91
   },
   "Jardim Independência": {
     "lat": -23.154216771578778,
-    "lon": -47.05265162186421
+    "lon": -47.05265162186421,
+    "distanceToCenter": 27.13,
+    "walkingDistanceToCenter": 34.56
   },
   "Jardim das Paineiras": {
     "lat": -22.8957588,
-    "lon": -47.0309293
+    "lon": -47.0309293,
+    "distanceToCenter": 3.34,
+    "walkingDistanceToCenter": 4.03
   },
   "Tijuco das Telhas": {
     "lat": -22.90904,
-    "lon": -47.06454
+    "lon": -47.06454,
+    "distanceToCenter": 0.53,
+    "walkingDistanceToCenter": 0.58
   },
   "Parque Xangrilá": {
     "lat": -22.8002206,
-    "lon": -47.0219476
+    "lon": -47.0219476,
+    "distanceToCenter": 12.83,
+    "walkingDistanceToCenter": 27.49
   },
   "Loteamento Parque dos Alecrins": {
     "lat": -22.86123,
-    "lon": -47.043
+    "lon": -47.043,
+    "distanceToCenter": 5.71,
+    "walkingDistanceToCenter": 6.48
   },
   "Vila Aero Aeroporto": {
     "lat": -22.96911,
-    "lon": -47.12192
+    "lon": -47.12192,
+    "distanceToCenter": 9.14,
+    "walkingDistanceToCenter": 10.33
   },
   "Residencial Vila Park": {
     "lat": -15.85702925,
-    "lon": -48.97244367692902
+    "lon": -48.97244367692902,
+    "distanceToCenter": 809.51,
+    "walkingDistanceToCenter": 360.1
   },
   "Jardim Campituba": {
     "lat": -23.036259,
-    "lon": -47.11616194952242
+    "lon": -47.11616194952242,
+    "distanceToCenter": 15.16,
+    "walkingDistanceToCenter": 17.37
   },
   "Lt A Jequitibás": {
     "lat": -22.88672,
-    "lon": -47.12271
+    "lon": -47.12271,
+    "distanceToCenter": 6.99,
+    "walkingDistanceToCenter": 10.85
   },
   "Village Campinas": {
     "lat": -22.749698950000003,
-    "lon": -47.05450004596659
+    "lon": -47.05450004596659,
+    "distanceToCenter": 17.87,
+    "walkingDistanceToCenter": 21.85
   },
   "Núcleo Residencial Cristo Redentor": {
     "lat": -22.53513,
-    "lon": -44.16425
+    "lon": -44.16425,
+    "distanceToCenter": 299.86,
+    "walkingDistanceToCenter": 421.74
   },
   "Jardim Pita": {
     "lat": -22.91858,
-    "lon": -47.09685
+    "lon": -47.09685,
+    "distanceToCenter": 3.93,
+    "walkingDistanceToCenter": 4.81
   },
   "Jardim  Campinas": {
     "lat": -12.9156386,
-    "lon": -38.4624133
+    "lon": -38.4624133,
+    "distanceToCenter": 1435.13,
+    "walkingDistanceToCenter": 10.01
   },
   "Vila Mingone": {
     "lat": -22.88121,
-    "lon": -47.07171
+    "lon": -47.07171,
+    "distanceToCenter": 3.47,
+    "walkingDistanceToCenter": 3.86
   },
   "Jardim Itayu": {
     "lat": -22.92296,
-    "lon": -47.01526
+    "lon": -47.01526,
+    "distanceToCenter": 4.74,
+    "walkingDistanceToCenter": 5.62
   },
   "Jardim Margarida": {
     "lat": -22.7547662,
-    "lon": -47.4259228
+    "lon": -47.4259228,
+    "distanceToCenter": 41.34,
+    "walkingDistanceToCenter": 47.64
   },
   "Jardim Novo Barão Geraldo": {
     "lat": -22.83401,
-    "lon": -47.07936
+    "lon": -47.07936,
+    "distanceToCenter": 8.72,
+    "walkingDistanceToCenter": 13.07
   },
   "Núcleo Residencial Jossiara": {
     "lat": -22.98984,
-    "lon": -46.82796
+    "lon": -46.82796,
+    "distanceToCenter": 25.3,
+    "walkingDistanceToCenter": 31.34
   },
   "Núcleo Residencial Dois de Julho": {
     "lat": -22.90904,
-    "lon": -47.06454
+    "lon": -47.06454,
+    "distanceToCenter": 0.53,
+    "walkingDistanceToCenter": 0.58
   },
   "Terminal Intermodal de Cargas (TIC)": {
     "lat": -22.84513,
-    "lon": -47.15517
+    "lon": -47.15517,
+    "distanceToCenter": 12.19,
+    "walkingDistanceToCenter": 14.21
   },
   "Vila Marta": {
     "lat": -22.9228,
-    "lon": -47.05592
+    "lon": -47.05592,
+    "distanceToCenter": 1.44,
+    "walkingDistanceToCenter": 1.79
   },
   "Jardim Cidade Universitária": {
     "lat": -22.7867431,
-    "lon": -47.0641038
+    "lon": -47.0641038,
+    "distanceToCenter": 13.75,
+    "walkingDistanceToCenter": 17.76
   },
   "Jardim das Cerejeiras": {
     "lat": -23.1258708,
-    "lon": -46.5834389
+    "lon": -46.5834389,
+    "distanceToCenter": 54.3,
+    "walkingDistanceToCenter": 67.22
   },
   "Núcleo Residencial Gênesis": {
     "lat": -22.85053615,
-    "lon": -47.03141553145108
+    "lon": -47.03141553145108,
+    "distanceToCenter": 7.24,
+    "walkingDistanceToCenter": 8.31
   },
   "Núcleo Residencial Vila Boa Vista IV": {
     "lat": -22.97359,
-    "lon": -47.1678
+    "lon": -47.1678,
+    "distanceToCenter": 13.13,
+    "walkingDistanceToCenter": 14.72
   }
 }
