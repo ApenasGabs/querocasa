@@ -4,7 +4,7 @@ type FilterPropName = keyof Filters;
 
 export interface filterListProps {
   label: string;
-  type: "number" | "text" | "range";
+  type: "number" | "text" | "range" | "distance";
   propName: FilterPropName;
   placeholder: string | string[];
 }
