@@ -1,4 +1,4 @@
-// mergeResults.js (com AlaSQL e caminhos originais)
+// mergeResults.js com AlaSQL e caminhos originais
 
 import alasql from "alasql"; // Importa o AlaSQL
 import fs from "fs";
@@ -23,6 +23,7 @@ let NEW_RESULTS_PATH = DEFAULT_NEW_RESULTS_PATH;
 
 const PLATFORMS = ["olx", "zap"];
 const MAX_CONSECUTIVE_MISSES = 3; // Número de scrapes que um item pode faltar
+const MAX_DAYS_TO_KEEP_REMOVED = 5; // Número de dias para manter itens removidos
 
 /**
  * Função para configurar caminhos alternativos - usada principalmente para testes e CI
@@ -156,35 +157,44 @@ export const processPlatformResults = async (platform) => {
     preservedUnlinked: 0,
   };
 
-  // Adiciona 'platform' e inicializa 'consecutiveMisses' para consistência nos dados
-  // Adiciona um ID temporário para o AlaSQL se não houver, especialmente para newData
-  oldData = oldData.map((p, idx) => ({
-    ...p,
-    platform: p.platform || platform,
-    consecutiveMisses: p.consecutiveMisses || 0,
-    tempId: `old_${idx}`,
-  }));
-  newData = newData.map((p, idx) => ({
-    ...p,
-    platform: p.platform || platform,
-    tempId: `new_${idx}`,
-  }));
+  // Pré-processamento para adicionar um campo virtual 'identifier' que será usado para matching
+  // Este campo usa o link original OU o primeiro link de imagem como fallback
+  oldData = oldData.map((p, idx) => {
+    const identifier =
+      p.link || (p.images && p.images.length > 0 ? p.images[0] : null);
+    return {
+      ...p,
+      platform: p.platform || platform,
+      consecutiveMisses: p.consecutiveMisses || 0,
+      tempId: `old_${idx}`,
+      identifier,
+    };
+  });
 
-  // Separar itens com e sem link para tratamento diferenciado
-  const oldUnlinkedItems = alasql(
-    'SELECT * FROM ? WHERE link IS NULL OR link = ""',
-    [oldData]
-  );
+  newData = newData.map((p, idx) => {
+    const identifier =
+      p.link || (p.images && p.images.length > 0 ? p.images[0] : null);
+    return {
+      ...p,
+      platform: p.platform || platform,
+      tempId: `new_${idx}`,
+      identifier,
+    };
+  });
+
+  // Separar itens com e sem identificador para tratamento diferenciado
+  const oldUnlinkedItems = alasql("SELECT * FROM ? WHERE identifier IS NULL", [
+    oldData,
+  ]);
   const oldLinkedItems = alasql(
-    'SELECT * FROM ? WHERE link IS NOT NULL AND link <> ""',
+    "SELECT * FROM ? WHERE identifier IS NOT NULL",
     [oldData]
   );
-  const newUnlinkedItems = alasql(
-    'SELECT * FROM ? WHERE link IS NULL OR link = ""',
-    [newData]
-  );
+  const newUnlinkedItems = alasql("SELECT * FROM ? WHERE identifier IS NULL", [
+    newData,
+  ]);
   const newLinkedItems = alasql(
-    'SELECT * FROM ? WHERE link IS NOT NULL AND link <> ""',
+    "SELECT * FROM ? WHERE identifier IS NOT NULL",
     [newData]
   );
 
@@ -210,10 +220,10 @@ export const processPlatformResults = async (platform) => {
     });
   });
 
-  // Caso 1: Scraper não retornou NADA COM LINK, mas tínhamos dados antigos COM LINK.
+  // Caso 1: Scraper não retornou NADA COM IDENTIFICADOR, mas tínhamos dados antigos COM IDENTIFICADOR.
   if (newLinkedItems.length === 0 && oldLinkedItems.length > 0) {
     console.warn(
-      `[${platform}] Nenhum dado novo COM LINK do scraper. Verificando antigos COM LINK para remoção por ausência.`
+      `[${platform}] Nenhum dado novo COM IDENTIFICADOR do scraper. Verificando antigos COM IDENTIFICADOR para remoção por ausência.`
     );
     const updatedOldLinked = oldLinkedItems.map((oldProp) => {
       const misses = oldProp.consecutiveMisses + 1;
@@ -238,15 +248,15 @@ export const processPlatformResults = async (platform) => {
     // Usamos SQL para fazer o JOIN e determinar o status inicial
     const sql = `
       SELECT 
-        COALESCE(o.link, n.link) AS link,
+        COALESCE(o.identifier, n.identifier) AS identifier,
         o.tempId AS old_tempId,
         n.tempId AS new_tempId,
         CASE
-          WHEN o.link IS NULL THEN 'added'       -- Só existe em new
-          WHEN n.link IS NULL THEN 'missing'     -- Só existe em old
+          WHEN o.identifier IS NULL THEN 'added'       -- Só existe em new
+          WHEN n.identifier IS NULL THEN 'missing'     -- Só existe em old
           ELSE 'updated'                        -- Existe em ambos
         END AS merge_status
-      FROM ? AS o FULL JOIN ? AS n ON o.link = n.link AND o.platform = n.platform
+      FROM ? AS o FULL OUTER JOIN ? AS n ON o.identifier = n.identifier AND o.platform = n.platform
       WHERE o.platform = '${platform}' OR n.platform = '${platform}'`;
 
     const joinedResult = alasql(sql, [oldLinkedItems, newLinkedItems]);
@@ -284,7 +294,7 @@ export const processPlatformResults = async (platform) => {
           id: oldProp.id || newProp.id || generateId(), // Preserva ID antigo se possível
           firstSeenAt: oldProp.firstSeenAt || now,
           lastSeenAt: now,
-          scrapedAt: newProp.scrapedAt || now,
+          scrapedAt: oldProp.scrapedAt || newProp.scrapedAt || now, // Preserva scrapedAt original
           __status: "updated",
           consecutiveMisses: 0,
         };
@@ -363,6 +373,48 @@ export const processPlatformResults = async (platform) => {
   );
   console.log(`[${platform}] Arquivo de resultados salvo em: ${oldFilePath}`);
 
+  // Limpeza de itens marcados como removidos há muito tempo
+  // Sempre executa a limpeza para manter os dados organizados (script roda diariamente)
+  const finalData = finalUniqueData.filter((item) => {
+    // Mantém todos os itens que não estão marcados como removidos
+    if (item.__status !== "removed") return true;
+
+    // Para itens removidos, verifica há quanto tempo foram vistos pela última vez
+    if (!item.lastSeenAt) return true; // Se não tiver lastSeenAt, mantém por segurança
+
+    const lastSeenDate = new Date(item.lastSeenAt);
+    const currentDate = new Date(now);
+    const diffTime = Math.abs(currentDate.getTime() - lastSeenDate.getTime());
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+    // Mantém apenas se o número de dias for menor ou igual ao limite configurado (5 dias)
+    const keepItem = diffDays <= MAX_DAYS_TO_KEEP_REMOVED;
+    if (!keepItem) {
+      console.log(
+        `[${platform}] 🧹 Removendo permanentemente item ${
+          item.id || item.link || "sem ID"
+        } - não visto há ${diffDays} dias`
+      );
+    }
+    return keepItem;
+  });
+
+  if (finalData.length < finalUniqueData.length) {
+    console.log(
+      `[${platform}] 🧹 Limpeza: removidos ${
+        finalUniqueData.length - finalData.length
+      } itens antigos (após ${MAX_DAYS_TO_KEEP_REMOVED} dias)`
+    );
+    // Atualiza o arquivo com os dados limpos
+    await fs.promises.writeFile(
+      oldFilePath,
+      JSON.stringify(finalData, null, 2)
+    );
+
+    // Atualiza variável para refletir nos logs finais
+    finalUniqueData = finalData;
+  }
+
   // Atualizar GITHUB_ENV
   if (process.env.GITHUB_ENV) {
     const envPath = process.env.GITHUB_ENV;
@@ -381,7 +433,7 @@ export const processPlatformResults = async (platform) => {
 (async () => {
   try {
     console.log(
-      "\nIniciando processo de merge com AlaSQL (usando caminhos originais)..."
+      `\nIniciando processo de merge com AlaSQL (usando links e imagens como identificadores)...`
     );
     await checkAndCreateResultsDirectory();
 
