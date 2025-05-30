@@ -1,3 +1,4 @@
+import "@testing-library/jest-dom";
 import { PathLike } from "fs";
 import fs from "fs/promises";
 import {
@@ -10,12 +11,19 @@ import {
   vi,
 } from "vitest";
 
+const DEFAULT_DATE = "2025-04-15T00:00:00.000Z";
+
+vi.mock("./getBrasiliaTime.js", () => ({
+  default: vi.fn().mockReturnValue(DEFAULT_DATE),
+}));
+
 // Caminhos de teste
 const TEST_OLD_PATH = "/test-data/old";
 const TEST_NEW_PATH = "/test-data/new";
 
 describe("Teste do Merge de Resultados (AlaSQL)", () => {
   let writeFileSpy: MockInstance;
+
   function isStringContaining(
     path: PathLike | fs.FileHandle,
     substring: string
@@ -24,13 +32,13 @@ describe("Teste do Merge de Resultados (AlaSQL)", () => {
   }
 
   beforeEach(async () => {
-    // Mock da função getBrasiliaTime
-    vi.mock("./getBrasiliaTime.js", () => ({
-      default: () => "2025-04-15T00:00:00.000Z",
-    }));
-
     // Limpa todos os mocks anteriores
     vi.clearAllMocks();
+
+    // Se precisar redefinir o mock do getBrasiliaTime, faça assim:
+    const getBrasiliaTime = await import("./getBrasiliaTime.js");
+    vi.mocked(getBrasiliaTime.default).mockReturnValue(DEFAULT_DATE);
+
     // Mock para fs.existsSync
     vi.spyOn(require("fs"), "existsSync").mockImplementation(() => true);
 
@@ -119,10 +127,10 @@ describe("Teste do Merge de Resultados (AlaSQL)", () => {
     expect(updatedItem).toBeDefined();
 
     // Os outros campos são verificados normalmente
-    expect(updatedItem.firstSeenAt).toBe("2023-01-01"); // Data original mantida
-    expect(updatedItem.lastSeenAt).toBe("2025-04-15T00:00:00.000Z"); // Data atualizada
-    expect(updatedItem.price).toBe("300000"); // Preço atualizado
-    expect(updatedItem.description).toBe("Nova descrição"); // Descrição atualizada
+    expect(updatedItem.firstSeenAt).toBe("2023-01-01");
+    expect(updatedItem.lastSeenAt).toBe("2025-04-15T00:00:00.000Z");
+    expect(updatedItem.price).toBe("300000");
+    expect(updatedItem.description).toBe("Nova descrição");
   });
 
   test("Caso 2: Item existe em OLD_RESULTS_PATH mas não em NEW_RESULTS_PATH (deve ser removido)", async () => {
@@ -472,85 +480,52 @@ describe("Teste do Merge de Resultados (AlaSQL)", () => {
   });
 
   test("Caso 6: Itens marcados como 'removed' por longo período devem ser efetivamente excluídos", async () => {
-    // Mock dos dados - simulando um item que foi marcado como removido há muito tempo
+    // Definir data específica para este teste - data atual simulada
+    const CASE_6_DATE = "2025-05-30T00:00:00.000Z";
+
+    // Definir datas para os itens "removed"
+    // MAX_DAYS_TO_KEEP_REMOVED é 5 no arquivo alaSQLmergeResults.js
+    const SHOULD_KEEP_DATE = "2025-05-26T00:00:00.000Z"; // 4 dias atrás (manter)
+    const SHOULD_REMOVE_DATE = "2025-05-24T00:00:00.000Z"; // 6 dias atrás (excluir)
+
+    // Reconfigurar o mock existente sem usar vi.mock() dentro do teste
+    const getBrasiliaTime = await import("./getBrasiliaTime.js");
+    vi.mocked(getBrasiliaTime.default).mockReturnValue(CASE_6_DATE);
+
+    // Mock dos dados - simulando itens removed com diferentes datas
     const oldData = [
       {
-        id: "prop_123",
-        link: "http://olx.com/1",
+        id: "prop_normal",
+        link: "http://olx.com/normal",
         price: "250000",
         __status: "updated",
+        lastSeenAt: CASE_6_DATE,
         consecutiveMisses: 0,
-        lastSeenAt: "2025-04-15T00:00:00.000Z",
       },
       {
-        id: "prop_456",
-        link: "http://olx.com/2",
+        id: "prop_removed_recent",
+        link: "http://olx.com/removed-recent",
         price: "350000",
-        __status: "removed", // Já marcado como removido
-        consecutiveMisses: 10, // Muitas ausências consecutivas
-        lastSeenAt: "2025-01-01T00:00:00.000Z", // Não visto há 4+ meses
+        __status: "removed",
+        lastSeenAt: SHOULD_KEEP_DATE, // 4 dias atrás (deve manter)
+        consecutiveMisses: 3,
       },
       {
-        id: "prop_789",
-        link: "http://olx.com/3",
+        id: "prop_removed_old",
+        link: "http://olx.com/removed-old",
         price: "450000",
         __status: "removed",
-        consecutiveMisses: 5, // Menos ausências
-        lastSeenAt: "2025-04-01T00:00:00.000Z", // Relativamente recente (menos de 60 dias)
+        lastSeenAt: SHOULD_REMOVE_DATE, // 6 dias atrás (deve excluir)
+        consecutiveMisses: 3,
       },
     ];
 
     const newData = [
       {
-        link: "http://olx.com/1", // Item ativo
-        price: "300000",
+        link: "http://olx.com/normal", // Item ativo continua existindo
+        price: "280000", // Preço atualizado
       },
-      // Outros itens não aparecem nos novos dados
-    ]; // Definindo um tempo máximo para manter itens removidos (5 dias)
-    const MAX_DAYS_TO_KEEP_REMOVED = 5;
-
-    // Mock para o tempo atual - 30 de maio de 2025
-    const now = new Date("2025-05-30T00:00:00.000Z").toISOString();
-    vi.mock("./getBrasiliaTime.js", () => ({
-      default: () => now,
-    }));
-
-    // Adicionando mock para remover itens antigos
-    const originalModule = await import("./alaSQLmergeResults.js");
-    vi.mock("./alaSQLmergeResults.js", async () => {
-      return {
-        ...originalModule,
-        // Sobrescreve processamento para incluir limpeza de itens removidos antigos
-        processPlatformResults: async (platform) => {
-          const result = await originalModule.processPlatformResults(platform);
-
-          // Implementa filtro para remover itens marcados como "removed" há mais de MAX_DAYS_TO_KEEP_REMOVED dias
-          const filteredData = JSON.parse(
-            writeFileSpy.mock.calls[writeFileSpy.mock.calls.length - 1][1]
-          ).filter((item) => {
-            // Mantém itens não marcados como removed
-            if (item.__status !== "removed") return true; // Calcula diferença de dias desde a última visualização
-            const lastSeenDate = new Date(item.lastSeenAt);
-            const currentDate = new Date(now);
-            const diffTime = Math.abs(
-              currentDate.getTime() - lastSeenDate.getTime()
-            );
-            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-            // Mantém apenas itens removidos recentemente
-            return diffDays <= MAX_DAYS_TO_KEEP_REMOVED;
-          });
-
-          // Sobrescreve o último arquivo escrito com os dados filtrados
-          await fs.writeFile(
-            writeFileSpy.mock.calls[writeFileSpy.mock.calls.length - 1][0],
-            JSON.stringify(filteredData, null, 2)
-          );
-
-          return result;
-        },
-      };
-    });
+    ];
 
     // Mock para fs.readFile com os dados específicos
     vi.spyOn(fs, "readFile").mockImplementation(async (filePath) => {
@@ -585,27 +560,30 @@ describe("Teste do Merge de Resultados (AlaSQL)", () => {
       throw new Error("writeFile was not called with the expected parameters");
     }
 
-    // Verifica se os dados foram filtrados corretamente
+    // Verifica se os dados foram processados corretamente
     const writtenData = JSON.parse(relevantCall[1]);
 
-    // Deve ter apenas 2 itens: o item ativo e o item removido recentemente
-    expect(writtenData.length).toBe(2);
+    // Testes específicos para a limpeza de itens
 
-    // Verifica que o item prop_456 (removido há mais de 90 dias) foi completamente excluído
-    const oldRemovedItem = writtenData.find((item) => item.id === "prop_456");
-    expect(oldRemovedItem).toBeUndefined();
+    // Verifica se o item normal continua presente
+    const normalItem = writtenData.find((item) => item.id === "prop_normal");
+    expect(normalItem).toBeDefined();
+    expect(normalItem.price).toBe("280000"); // Preço atualizado
 
-    // Verifica que o item prop_789 (removido recentemente) ainda está presente
+    // Verifica se o item removido recentemente (< 5 dias) ainda está presente
     const recentRemovedItem = writtenData.find(
-      (item) => item.id === "prop_789"
+      (item) => item.id === "prop_removed_recent"
     );
     expect(recentRemovedItem).toBeDefined();
     expect(recentRemovedItem.__status).toBe("removed");
 
-    // Verifica que o item ativo está presente e atualizado
-    const activeItem = writtenData.find((item) => item.id === "prop_123");
-    expect(activeItem).toBeDefined();
-    expect(activeItem.price).toBe("300000");
-    expect(activeItem.__status).toBe("updated");
+    // Verifica se o item removido há muito tempo (> 5 dias) foi efetivamente excluído
+    const oldRemovedItem = writtenData.find(
+      (item) => item.id === "prop_removed_old"
+    );
+    expect(oldRemovedItem).toBeUndefined();
+
+    // Verificação adicional do número total de itens
+    expect(writtenData.length).toBe(2); // Apenas o normal e o removido recente
   });
 });

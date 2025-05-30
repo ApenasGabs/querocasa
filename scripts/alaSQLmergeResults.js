@@ -346,7 +346,7 @@ export const processPlatformResults = async (platform) => {
     }
   }
 
-  const finalUniqueData = Array.from(
+  let finalUniqueData = Array.from(
     new Map(
       mergedData.filter((p) => p && p.id).map((item) => [item.id, item])
     ).values()
@@ -367,16 +367,7 @@ export const processPlatformResults = async (platform) => {
     }`
   );
 
-  await fs.promises.writeFile(
-    oldFilePath,
-    JSON.stringify(finalUniqueData, null, 2)
-  );
-  console.log(`[${platform}] Arquivo de resultados salvo em: ${oldFilePath}`);
-
-  // Limpeza de itens marcados como removidos há muito tempo
-  // Sempre executa a limpeza para manter os dados organizados (script roda diariamente)
   const finalData = finalUniqueData.filter((item) => {
-    // Mantém todos os itens que não estão marcados como removidos
     if (item.__status !== "removed") return true;
 
     // Para itens removidos, verifica há quanto tempo foram vistos pela última vez
