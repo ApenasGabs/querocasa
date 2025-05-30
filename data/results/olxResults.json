@@ -1,162 +1,5 @@
 [
   {
-    "id": "prop_1744999603924_3448",
-    "address": "Campinas, Santa Clara",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "200"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/27/272549391057794.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/troco-vendo-1396535494",
-    "price": "90000",
-    "scrapedAt": "2025-04-18T15:06:43.904Z",
-    "publishDate": "2025-04-18 02:24:00",
-    "firstSeenAt": "2025-04-18T15:06:43.904Z",
-    "lastSeenAt": "2025-04-19T18:55:20.810Z",
-    "hasDuplicates": false,
-    "coords": {
-      "lat": -10.1934964,
-      "lon": -48.9000447,
-      "distanceToCenter": 1427.52,
-      "walkingDistanceToCenter": 1039.17
-    },
-    "__status": "removed"
-  },
-  {
-    "id": "prop_1745099720822_650",
-    "address": "Campinas, Jardim Ipaussurama",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "numberOfBathroomsTotal": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/48/483569138189731.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-garagem-em-otima-localizacao-1380244187",
-    "price": "140000",
-    "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-02-20 00:04:00",
-    "firstSeenAt": "2025-04-19T18:55:20.810Z",
-    "lastSeenAt": "2025-04-19T18:55:20.810Z",
-    "hasDuplicates": false,
-    "__status": "removed",
-    "coords": {
-      "lat": -22.91994235,
-      "lon": -47.12082604263608,
-      "distanceToCenter": 6.37,
-      "walkingDistanceToCenter": 7.79
-    }
-  },
-  {
-    "id": "prop_1745099720822_4149",
-    "address": "Campinas, Jardim São Judas Tadeu",
-    "description": [
-      {
-        "numberOfRooms": "3"
-      },
-      {
-        "floorSize": "162"
-      },
-      {
-        "numberOfParkingSpaces": "3"
-      },
-      {
-        "numberOfBathroomsTotal": "3"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/17/171506870882161.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-casa-no-jardim-uruguai-1391892906",
-    "price": "150000",
-    "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-04-02 01:17:00",
-    "firstSeenAt": "2025-04-19T18:55:20.810Z",
-    "lastSeenAt": "2025-04-19T18:55:20.810Z",
-    "hasDuplicates": false,
-    "__status": "removed",
-    "coords": {
-      "lat": -23.1876769,
-      "lon": -46.8523369,
-      "distanceToCenter": 37.42,
-      "walkingDistanceToCenter": 41.77
-    }
-  },
-  {
-    "id": "prop_1745099720823_8167",
-    "address": "Campinas, Jardim Santa Mônica",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "160"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/26/262540251875768.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-hortolandia-sp-1380046629",
-    "price": "200000",
-    "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-02-19 11:07:00",
-    "firstSeenAt": "2025-04-19T18:55:20.810Z",
-    "lastSeenAt": "2025-04-19T18:55:20.810Z",
-    "hasDuplicates": false,
-    "__status": "removed",
-    "coords": {
-      "lat": -22.8504125,
-      "lon": -47.1105043,
-      "distanceToCenter": 8.46,
-      "walkingDistanceToCenter": 10.14
-    }
-  },
-  {
-    "id": "prop_1745099720823_8175",
-    "address": "Campinas, Loteamento Residencial Novo Mundo",
-    "description": [
-      {
-        "floorSize": "150"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/28/286504256556166.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-garagem-em-otima-localizacao-1380286058",
-    "price": "210000",
-    "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-02-20 01:25:00",
-    "firstSeenAt": "2025-04-19T18:55:20.810Z",
-    "lastSeenAt": "2025-04-19T18:55:20.810Z",
-    "hasDuplicates": false,
-    "__status": "removed",
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623,
-      "distanceToCenter": 467.07,
-      "walkingDistanceToCenter": 537.73
-    }
-  },
-  {
     "id": "prop_1744732184466_533",
     "address": "Campinas, Campo Grande",
     "description": [
@@ -181,7 +24,10 @@
       "walkingDistanceToCenter": 12.76
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-lisa-em-campinas-toda-planejada-1390766139"
   },
   {
     "id": "prop_1744732179705_286",
@@ -211,7 +57,10 @@
       "walkingDistanceToCenter": 15.85
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-uma-casa-180-mil-1387968905"
   },
   {
     "id": "prop_1744732179705_675",
@@ -241,7 +90,10 @@
       "walkingDistanceToCenter": 1039.17
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-2-quartos-2-banheiro-aceito-troca-em-outra-casa-1380874735"
   },
   {
     "id": "prop_1744732179706_77",
@@ -266,7 +118,10 @@
       "walkingDistanceToCenter": 13.64
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-no-residencial-cosmos-em-campinas-1387051594"
   },
   {
     "id": "prop_1744732179706_673",
@@ -291,7 +146,10 @@
       "walkingDistanceToCenter": 160.01
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1383285968"
   },
   {
     "id": "prop_1744732179706_679",
@@ -316,7 +174,10 @@
       "walkingDistanceToCenter": 3.62
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/troco-apartamento-no-castelo-por-casa-1389508623"
   },
   {
     "id": "prop_1745310962140_9045",
@@ -351,7 +212,10 @@
       "lon": -41.75489,
       "distanceToCenter": 548.1,
       "walkingDistanceToCenter": 185.19
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/chacara-parque-aeroporto-campinas-1396996744"
   },
   {
     "id": "prop_1744732179706_671",
@@ -381,7 +245,10 @@
       "walkingDistanceToCenter": 3.88
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/consorcio-imovel-porto-bank-1386605072"
   },
   {
     "id": "prop_1744732179706_687",
@@ -408,7 +275,10 @@
       "walkingDistanceToCenter": 10.63
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-aceita-financiamento-1387709575"
   },
   {
     "id": "prop_1744732179706_455",
@@ -435,7 +305,10 @@
       "walkingDistanceToCenter": 4.39
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-no-jardim-nova-europa-1385900391"
   },
   {
     "id": "prop_1744732179706_875",
@@ -455,7 +328,10 @@
       "walkingDistanceToCenter": 550.61
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/mesa-4-cadeiras-1386222334"
   },
   {
     "id": "prop_1744732179707_264",
@@ -488,7 +364,10 @@
       "walkingDistanceToCenter": 10.63
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/venda-1389536433"
   },
   {
     "id": "prop_1744732179707_973",
@@ -508,7 +387,10 @@
       "walkingDistanceToCenter": 0.72
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/barraquinha-de-acessorios-eletronicos-e-brinquedos-1387529927"
   },
   {
     "id": "prop_1744732179707_257",
@@ -530,7 +412,10 @@
       "walkingDistanceToCenter": 8.1
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/troco-casa-por-apartamento-1391100449"
   },
   {
     "id": "prop_1744732179707_765",
@@ -563,7 +448,10 @@
       "walkingDistanceToCenter": 104.03
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-com-parcelas-1390354586"
   },
   {
     "id": "prop_1744732179707_319",
@@ -583,7 +471,10 @@
       "walkingDistanceToCenter": 13.58
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-area-verde-1387909647"
   },
   {
     "id": "prop_1744732179707_144",
@@ -607,7 +498,10 @@
       "walkingDistanceToCenter": 3.18
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-aconchegante-para-venda-1383534465"
   },
   {
     "id": "prop_1744732179708_530",
@@ -627,7 +521,10 @@
       "walkingDistanceToCenter": 10.92
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-60000-1393957374"
   },
   {
     "id": "prop_1744732179708_470",
@@ -651,7 +548,10 @@
       "walkingDistanceToCenter": 13.12
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-direto-com-proprietario-1392229338"
   },
   {
     "id": "prop_1744732179708_727",
@@ -678,7 +578,10 @@
       "walkingDistanceToCenter": 16.67
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-itaguacu-com-3-quartos-1381370646"
   },
   {
     "id": "prop_1744732179708_775",
@@ -698,7 +601,10 @@
       "walkingDistanceToCenter": 18.13
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-regiao-do-campo-belo-proximo-ao-aeroporto-internacional-viracopos-1386910660"
   },
   {
     "id": "prop_1744732179708_608",
@@ -722,7 +628,10 @@
       "walkingDistanceToCenter": 10835.77
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-ou-aluga-se-esta-casa-diretoc-proprietario-1391993783"
   },
   {
     "id": "prop_1744732179708_555",
@@ -746,7 +655,10 @@
       "walkingDistanceToCenter": 15.29
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-uma-casa-1387055832"
   },
   {
     "id": "prop_1744999603923_8938",
@@ -772,7 +684,10 @@
       "distanceToCenter": 11.59,
       "walkingDistanceToCenter": 13.79
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-jardim-florence-1-valor-75-000-mil-chamar-no-zap-1396363778"
   },
   {
     "id": "prop_1744732179709_664",
@@ -796,7 +711,10 @@
       "walkingDistanceToCenter": 46.59
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-santa-marta-1383919604"
   },
   {
     "id": "prop_1744732179709_777",
@@ -826,7 +744,10 @@
       "walkingDistanceToCenter": 14.24
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-de-esquina-em-capivari-1391153891"
   },
   {
     "id": "prop_1745310962141_1332",
@@ -861,7 +782,10 @@
       "lon": -48.9000447,
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-com-5-comodos-jd-santa-clara-1396535494"
   },
   {
     "id": "prop_1744732179709_964",
@@ -885,7 +809,10 @@
       "walkingDistanceToCenter": 8.02
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-beira-rio-rua-um-casa-206-1393381470"
   },
   {
     "id": "prop_1744732179709_806",
@@ -912,7 +839,10 @@
       "walkingDistanceToCenter": 14.68
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1390042680"
   },
   {
     "id": "prop_1744732179709_357",
@@ -945,7 +875,10 @@
       "walkingDistanceToCenter": 1039.17
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-3-quartos-fase-de-construcao-1381558936"
   },
   {
     "id": "prop_1744732179710_698",
@@ -969,7 +902,10 @@
       "walkingDistanceToCenter": 35.73
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-ouro-verde-1380894025"
   },
   {
     "id": "prop_1744732179709_326",
@@ -996,7 +932,10 @@
       "walkingDistanceToCenter": 19
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/apto-2-dormit-jd-bassoli-r-80-000-1392554618"
   },
   {
     "id": "prop_1744732179710_293",
@@ -1023,7 +962,10 @@
       "walkingDistanceToCenter": 3.88
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1384978492"
   },
   {
     "id": "prop_1744732179710_240",
@@ -1043,7 +985,10 @@
       "walkingDistanceToCenter": 10.63
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1382668345"
   },
   {
     "id": "prop_1744732179710_10",
@@ -1067,7 +1012,10 @@
       "walkingDistanceToCenter": 16.38
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-comodos-1394071935"
   },
   {
     "id": "prop_1744732179711_762",
@@ -1087,7 +1035,10 @@
       "walkingDistanceToCenter": 14.87
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-casa-em-campinas-1389110535"
   },
   {
     "id": "prop_1744732179710_792",
@@ -1114,7 +1065,10 @@
       "walkingDistanceToCenter": 19.7
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/venda-casa-avalio-trocas-1386089902"
   },
   {
     "id": "prop_1744732179710_379",
@@ -1141,7 +1095,10 @@
       "walkingDistanceToCenter": 17.37
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-campituba-1383711627"
   },
   {
     "id": "prop_1744732179711_259",
@@ -1163,7 +1120,10 @@
       "walkingDistanceToCenter": 18.13
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-pequena-1384537820"
   },
   {
     "id": "prop_1744732179711_630",
@@ -1187,7 +1147,10 @@
       "walkingDistanceToCenter": 5.88
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-area-da-prefeitura-jd-andorinhas-campinas-sp-1392797148"
   },
   {
     "id": "prop_1744732179711_842",
@@ -1214,7 +1177,10 @@
       "walkingDistanceToCenter": 682.28
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1390316510"
   },
   {
     "id": "prop_1744732179711_495",
@@ -1234,7 +1200,10 @@
       "walkingDistanceToCenter": 14.87
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-em-parque-cidade-campinas-1390172841"
   },
   {
     "id": "prop_1744865464095_5713",
@@ -1266,7 +1235,10 @@
       "distanceToCenter": 1.52,
       "walkingDistanceToCenter": 1.88
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/aceito-proposta-1392898296"
   },
   {
     "id": "prop_1744999603924_7803",
@@ -1295,7 +1267,10 @@
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-no-campo-belo-1395862954"
   },
   {
     "id": "prop_1744999603924_9924",
@@ -1324,7 +1299,10 @@
       "distanceToCenter": 33.42,
       "walkingDistanceToCenter": 38.47
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-area-verde-jd-das-bandeiras-1384861175"
   },
   {
     "id": "prop_1744999603924_2309",
@@ -1356,7 +1334,10 @@
       "distanceToCenter": 11.32,
       "walkingDistanceToCenter": 12.42
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-area-verde-4-quarto-2-banheiro-1381286372"
   },
   {
     "id": "prop_1744999603924_8145",
@@ -1388,7 +1369,10 @@
       "distanceToCenter": 0.53,
       "walkingDistanceToCenter": 0.58
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vendendo-1391473844"
   },
   {
     "id": "prop_1745056996891_7436",
@@ -1417,7 +1401,10 @@
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-residencial-cosmos-1387552896"
   },
   {
     "id": "prop_1745056996891_4477",
@@ -1449,7 +1436,10 @@
       "distanceToCenter": 10.44,
       "walkingDistanceToCenter": 12.39
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-2-quartos-para-venda-1383343631"
   },
   {
     "id": "prop_1745056996891_659",
@@ -1475,7 +1465,10 @@
       "distanceToCenter": 14.17,
       "walkingDistanceToCenter": 22.07
     },
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casas-a-venda-jd-aeroporto-campinas-sp-1386465109"
   },
   {
     "id": "prop_1745310962143_545",
@@ -1501,7 +1494,10 @@
       "lon": -47.14566,
       "distanceToCenter": 14.17,
       "walkingDistanceToCenter": 22.07
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jd-aeroporto-campinas-1389068533"
   },
   {
     "id": "prop_1745099720822_2229",
@@ -1530,7 +1526,10 @@
       "lon": -47.0694473,
       "distanceToCenter": 6.04,
       "walkingDistanceToCenter": 6.81
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vila-costa-e-silva-1387301279"
   },
   {
     "id": "prop_1745099720822_3870",
@@ -1559,7 +1558,10 @@
       "lon": -47.11593,
       "distanceToCenter": 5.78,
       "walkingDistanceToCenter": 6.87
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-novo-londres-1384277748"
   },
   {
     "id": "prop_1745099720822_8417",
@@ -1588,7 +1590,10 @@
       "lon": -46.8523369,
       "distanceToCenter": 37.42,
       "walkingDistanceToCenter": 41.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sao-judas-tadeu-1382222470"
   },
   {
     "id": "prop_1745099720822_1654",
@@ -1617,7 +1622,10 @@
       "lon": -47.8407421,
       "distanceToCenter": 81.52,
       "walkingDistanceToCenter": 97.89
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-no-jd-sao-cristovao-regiao-do-ouro-verde-campinas-sp-1380771407"
   },
   {
     "id": "prop_1745099720822_3269",
@@ -1647,7 +1655,10 @@
       "lon": -47.07066,
       "distanceToCenter": 3.21,
       "walkingDistanceToCenter": 3.88
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-otimo-local-para-moradia-ou-comercio-barracao-oficina-etc-1384407960"
   },
   {
     "id": "prop_1745099720822_2476",
@@ -1673,7 +1684,10 @@
       "lon": -47.06194,
       "distanceToCenter": 2.03,
       "walkingDistanceToCenter": 2.25
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-1396383012"
   },
   {
     "id": "prop_1745099720822_9312",
@@ -1708,7 +1722,10 @@
       "lon": -46.8523369,
       "distanceToCenter": 37.42,
       "walkingDistanceToCenter": 41.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-no-jardim-uruguai-1391890691"
   },
   {
     "id": "prop_1745099720823_6592",
@@ -1740,7 +1757,10 @@
       "lon": -47.15355,
       "distanceToCenter": 12.72,
       "walkingDistanceToCenter": 14.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-com-escritura-1389191460"
   },
   {
     "id": "prop_1745099720823_9035",
@@ -1770,7 +1790,10 @@
       "lon": -47.12494,
       "distanceToCenter": 15.24,
       "walkingDistanceToCenter": 17.41
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-pra-troca-ou-venda-1381454893"
   },
   {
     "id": "prop_1745099720823_5693",
@@ -1799,7 +1822,10 @@
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/residencia-no-residencial-novo-mundo-1377955740"
   },
   {
     "id": "prop_1745099720823_7084",
@@ -1834,7 +1860,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-de-vila-1390934604"
   },
   {
     "id": "prop_1745099720823_6932",
@@ -1866,7 +1895,10 @@
       "lon": -47.112788,
       "distanceToCenter": 15.2,
       "walkingDistanceToCenter": 17.22
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-2-casas-no-jardim-marisa-1391454746"
   },
   {
     "id": "prop_1745099720823_1340",
@@ -1899,7 +1931,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1383342932"
   },
   {
     "id": "prop_1745099720823_8240",
@@ -1925,7 +1960,10 @@
       "lon": -47.02003641918954,
       "distanceToCenter": 4.76,
       "walkingDistanceToCenter": 5.83
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/apartamento-proximo-ao-bosque-dos-jequitibas-1-quarto-1393819076"
   },
   {
     "id": "prop_1745099720823_4810",
@@ -1957,7 +1995,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/chacara-1387299624"
   },
   {
     "id": "prop_1745099720823_6762",
@@ -1989,39 +2030,45 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/baixou-pra-vender-1367278003"
   },
   {
     "id": "prop_1745099720823_6554",
-    "address": "Campinas, Vila Industrial",
+    "address": "Campinas, Conjunto Habitacional Parque da Floresta",
     "description": [
       {
         "numberOfRooms": "2"
       },
       {
-        "floorSize": "100"
+        "floorSize": "180"
       },
       {
-        "numberOfParkingSpaces": "5"
+        "numberOfParkingSpaces": "2"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/26/265547159792080.jpg"
+      "https://img.olx.com.br/thumbs500x360/47/476502143312044.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-res-sao-bento-1392240404",
-    "price": "175000",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1390124027",
+    "price": "250000",
     "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-04-03 03:20:00",
+    "publishDate": "2025-03-26 19:47:00",
     "firstSeenAt": "2025-04-19T18:55:20.810Z",
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "hasDuplicates": false,
     "__status": "updated",
     "coords": {
-      "lat": -22.6830835,
-      "lon": -47.6689696,
-      "distanceToCenter": 67.39,
-      "walkingDistanceToCenter": 79.67
-    }
+      "lat": -18.83529,
+      "lon": -41.9005,
+      "distanceToCenter": 701.73,
+      "walkingDistanceToCenter": 682.28
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1390124027"
   },
   {
     "id": "prop_1745099720823_5955",
@@ -2056,7 +2103,10 @@
       "lon": -47.165998475725374,
       "distanceToCenter": 11.59,
       "walkingDistanceToCenter": 13.79
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-para-venda-com-boa-localizacao-1387332808"
   },
   {
     "id": "prop_1745099720823_6526",
@@ -2091,7 +2141,10 @@
       "lon": -47.12085969847532,
       "distanceToCenter": 15.66,
       "walkingDistanceToCenter": 18.13
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jardim-itagucu-2-1387074198"
   },
   {
     "id": "prop_1745099720823_2328",
@@ -2123,7 +2176,10 @@
       "lon": -47.06194,
       "distanceToCenter": 2.03,
       "walkingDistanceToCenter": 2.25
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-somente-a-vista-1382163148"
   },
   {
     "id": "prop_1745099720823_7180",
@@ -2152,7 +2208,10 @@
       "lon": -47.10006,
       "distanceToCenter": 13.75,
       "walkingDistanceToCenter": 15.34
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-kitnet-renda-3-000-1390516362"
   },
   {
     "id": "prop_1745099720823_5410",
@@ -2187,7 +2246,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sobrado-1396851751"
   },
   {
     "id": "prop_1745099720823_6940",
@@ -2213,7 +2275,10 @@
       "lon": -47.13655,
       "distanceToCenter": 9.48,
       "walkingDistanceToCenter": 11.33
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-bairro-tranquilo-1382604907"
   },
   {
     "id": "prop_1745099720823_8721",
@@ -2245,39 +2310,42 @@
       "lon": -46.39586,
       "distanceToCenter": 134.9,
       "walkingDistanceToCenter": 160.01
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sao-bento-1381858686"
   },
   {
     "id": "prop_1745099720823_2394",
-    "address": "Campinas, Parque Santa Bárbara",
+    "address": "Campinas, Vila Marieta",
     "description": [
       {
         "numberOfRooms": "2"
       },
       {
-        "floorSize": "50"
-      },
-      {
-        "numberOfParkingSpaces": "4"
+        "floorSize": "270"
       }
     ],
     "images": [
-      "https://img.olx.com.br/thumbs500x360/15/156593500569553.jpg"
+      "https://img.olx.com.br/thumbs500x360/60/601547387205522.jpg"
     ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-parque-santa-barbara-2-quartos-cozinha-e-banheiro-1387536725",
-    "price": "185000",
+    "link": "https://sp.olx.com.br/grande-campinas/imoveis/lote-terreno-vila-paraiso-campinas-sp-otima-localizacao-1391564956",
+    "price": "259000",
     "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-03-18 15:01:00",
+    "publishDate": "2025-04-01 01:54:00",
     "firstSeenAt": "2025-04-19T18:55:20.810Z",
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
     "hasDuplicates": false,
     "__status": "updated",
     "coords": {
-      "lat": -22.4454992,
-      "lon": -46.8362907,
-      "distanceToCenter": 56.53,
-      "walkingDistanceToCenter": 73.39
-    }
+      "lat": -22.92609,
+      "lon": -47.05258,
+      "distanceToCenter": 1.89,
+      "walkingDistanceToCenter": 2.31
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/lote-terreno-vila-paraiso-campinas-sp-otima-localizacao-1391564956"
   },
   {
     "id": "prop_1745099720823_1523",
@@ -2309,7 +2377,10 @@
       "lon": -47.18103266907876,
       "distanceToCenter": 13.1,
       "walkingDistanceToCenter": 15.82
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-de-a-venda-no-jardim-lisa-1387488355"
   },
   {
     "id": "prop_1745099720823_4473",
@@ -2344,7 +2415,10 @@
       "lon": -48.9000447,
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-troco-cada-clube-santa-clara-do-lago-1393129343"
   },
   {
     "id": "prop_1745310962144_7828",
@@ -2376,7 +2450,10 @@
       "lon": -47.09605,
       "distanceToCenter": 3.74,
       "walkingDistanceToCenter": 4.43
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-salao-comercial-1397046767"
   },
   {
     "id": "prop_1745099720823_3002",
@@ -2411,7 +2488,10 @@
       "lon": -48.9000447,
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-3-quartos-2-banheiros-sala-cozinha-area-p-churrasqueira-garagem-p-2-carros-1378024672"
   },
   {
     "id": "prop_1745099720823_7868",
@@ -2440,7 +2520,10 @@
       "lon": -47.165998475725374,
       "distanceToCenter": 11.59,
       "walkingDistanceToCenter": 13.79
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/venda-casa-jd-florence-1-campinas-1394747489"
   },
   {
     "id": "prop_1745099720823_665",
@@ -2472,7 +2555,10 @@
       "lon": -46.9451016,
       "distanceToCenter": 63.49,
       "walkingDistanceToCenter": 76.74
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1385777667"
   },
   {
     "id": "prop_1745099720823_1991",
@@ -2504,7 +2590,10 @@
       "lon": -47.12655,
       "distanceToCenter": 9.98,
       "walkingDistanceToCenter": 11.27
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-1391064371"
   },
   {
     "id": "prop_1745099720823_5947",
@@ -2539,7 +2628,10 @@
       "lon": -47.07066,
       "distanceToCenter": 3.21,
       "walkingDistanceToCenter": 3.88
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-residencial-sitio-paraiso-aceito-propostas-1395176328"
   },
   {
     "id": "prop_1745099720823_4684",
@@ -2568,7 +2660,10 @@
       "lon": -47.09951,
       "distanceToCenter": 10.15,
       "walkingDistanceToCenter": 11.46
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-campinas-sp-1393954452"
   },
   {
     "id": "prop_1745099720823_9857",
@@ -2597,7 +2692,10 @@
       "lon": -47.07785804254273,
       "distanceToCenter": 4.01,
       "walkingDistanceToCenter": 5.35
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-para-vender-1383451746"
   },
   {
     "id": "prop_1745099720823_5744",
@@ -2632,7 +2730,10 @@
       "lon": -47.1960086,
       "distanceToCenter": 14.06,
       "walkingDistanceToCenter": 16.76
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-em-campinas-sp-1365968104"
   },
   {
     "id": "prop_1745099720823_277",
@@ -2661,7 +2762,10 @@
       "lon": -47.16871,
       "distanceToCenter": 13.46,
       "walkingDistanceToCenter": 15.29
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendendo-1386306221"
   },
   {
     "id": "prop_1745099720823_4045",
@@ -2696,7 +2800,10 @@
       "lon": -47.07785804254273,
       "distanceToCenter": 4.01,
       "walkingDistanceToCenter": 5.35
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-no-jardim-monte-cristo-1391855089"
   },
   {
     "id": "prop_1745099720823_6926",
@@ -2728,7 +2835,10 @@
       "lon": -47.189316891511126,
       "distanceToCenter": 13.7,
       "walkingDistanceToCenter": 15.98
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-duas-casa-uma-de-frente-outra-de-fundo-1389122611"
   },
   {
     "id": "prop_1745099720823_2237",
@@ -2761,7 +2871,10 @@
       "lon": -47.02179,
       "distanceToCenter": 5.22,
       "walkingDistanceToCenter": 6.39
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-vila-lafayete-alvaro-1383424747"
   },
   {
     "id": "prop_1745099720823_5398",
@@ -2793,7 +2906,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-edicula-2-quartos-e-garagem-para-4-carros-1381104235"
   },
   {
     "id": "prop_1745099720823_32",
@@ -2822,7 +2938,10 @@
       "lon": -46.9030973,
       "distanceToCenter": 34.71,
       "walkingDistanceToCenter": 37.49
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-sobrado-jd-campos-eliseos-1386155208"
   },
   {
     "id": "prop_1745310962144_2132",
@@ -2857,7 +2976,10 @@
       "lon": -47.11422,
       "distanceToCenter": 9.81,
       "walkingDistanceToCenter": 12.33
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-dic-6-campinas-1397169673"
   },
   {
     "id": "prop_1745099720823_2820",
@@ -2886,7 +3008,10 @@
       "lon": -47.1272723,
       "distanceToCenter": 10.03,
       "walkingDistanceToCenter": 11.29
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-casa-jardim-esplanada-1394282751"
   },
   {
     "id": "prop_1745099720823_681",
@@ -2918,7 +3043,10 @@
       "lon": -47.13655,
       "distanceToCenter": 9.48,
       "walkingDistanceToCenter": 11.33
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jardim-uruguai-1392674060"
   },
   {
     "id": "prop_1745099720823_5369",
@@ -2950,7 +3078,10 @@
       "lon": -47.112788,
       "distanceToCenter": 15.2,
       "walkingDistanceToCenter": 17.22
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-a-venda-no-jardim-marisa-1388345109"
   },
   {
     "id": "prop_1745099720823_41",
@@ -2979,7 +3110,10 @@
       "lon": -48.9000447,
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-sobrado-clube-santa-clara-1383725010"
   },
   {
     "id": "prop_1745099720823_6393",
@@ -3011,7 +3145,10 @@
       "lon": -47.16871,
       "distanceToCenter": 13.46,
       "walkingDistanceToCenter": 15.29
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jd-campo-belo-i-1396400272"
   },
   {
     "id": "prop_1745099720823_6573",
@@ -3033,7 +3170,10 @@
       "lon": -47.1272723,
       "distanceToCenter": 10.03,
       "walkingDistanceToCenter": 11.29
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-vila-aeroporto-dics-regiao-ouro-verde-1393568397"
   },
   {
     "id": "prop_1745099720823_2096",
@@ -3065,7 +3205,10 @@
       "lon": -47.1126741,
       "distanceToCenter": 6.94,
       "walkingDistanceToCenter": 7.75
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vende-ou-troca-em-campinas-sp-por-casa-ou-carro-no-negocio-1000515325"
   },
   {
     "id": "prop_1745099720823_4043",
@@ -3094,7 +3237,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1389281721"
   },
   {
     "id": "prop_1745099720823_7352",
@@ -3123,7 +3269,10 @@
       "lon": -51.382205,
       "distanceToCenter": 1330.56,
       "walkingDistanceToCenter": 623.83
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-na-vila-boa-vista-1395928658"
   },
   {
     "id": "prop_1745099720823_5821",
@@ -3155,7 +3304,10 @@
       "lon": -47.16965686111111,
       "distanceToCenter": 13.58,
       "walkingDistanceToCenter": 15.36
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-ampla-de-esquina-vila-vitoria-campinas-1389542251"
   },
   {
     "id": "prop_1745310962144_7202",
@@ -3181,7 +3333,10 @@
       "lon": -47.0600751,
       "distanceToCenter": 0.58,
       "walkingDistanceToCenter": 0.72
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-na-praia-ou-troco-por-imovel-em-campinas-1383692322"
   },
   {
     "id": "prop_1745099720823_8371",
@@ -3213,7 +3368,10 @@
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-praia-do-sape-maranduba-ubatuba-1381124440"
   },
   {
     "id": "prop_1745099720823_7788",
@@ -3242,7 +3400,10 @@
       "lon": -47.07066,
       "distanceToCenter": 3.21,
       "walkingDistanceToCenter": 3.88
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/apartamento-com-lazer-completo-em-campinas-2-dorms-vaga-1393711380"
   },
   {
     "id": "prop_1745099720823_5954",
@@ -3271,7 +3432,10 @@
       "lon": -47.051667,
       "distanceToCenter": 3.37,
       "walkingDistanceToCenter": 3.82
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casas-em-limeira-sp-1388009658"
   },
   {
     "id": "prop_1745099720823_4123",
@@ -3300,7 +3464,10 @@
       "lon": -46.6358709,
       "distanceToCenter": 159.82,
       "walkingDistanceToCenter": 199.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jardim-santa-lucia-1393427801"
   },
   {
     "id": "prop_1745099720823_9799",
@@ -3332,7 +3499,10 @@
       "lon": -47.16905,
       "distanceToCenter": 13.14,
       "walkingDistanceToCenter": 14.51
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-residencial-mauro-marcondes-1392961867"
   },
   {
     "id": "prop_1745099720823_847",
@@ -3364,7 +3534,10 @@
       "lon": -47.0641038,
       "distanceToCenter": 13.75,
       "walkingDistanceToCenter": 17.76
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-proximo-ao-aeroporto-de-viracopos-campinas-sp-1392688823"
   },
   {
     "id": "prop_1745099720823_7316",
@@ -3386,7 +3559,10 @@
       "lon": -47.12096,
       "distanceToCenter": 14.24,
       "walkingDistanceToCenter": 16.38
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1391401453"
   },
   {
     "id": "prop_1745099720823_2227",
@@ -3418,7 +3594,10 @@
       "lon": -46.9030973,
       "distanceToCenter": 34.71,
       "walkingDistanceToCenter": 37.49
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-2-quartos-1390631500"
   },
   {
     "id": "prop_1745099720823_7630",
@@ -3447,39 +3626,10 @@
       "lon": -47.18347,
       "distanceToCenter": 13.65,
       "walkingDistanceToCenter": 16.67
-    }
-  },
-  {
-    "id": "prop_1745099720823_6554",
-    "address": "Campinas, Conjunto Habitacional Parque da Floresta",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "180"
-      },
-      {
-        "numberOfParkingSpaces": "2"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/47/476502143312044.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-1390124027",
-    "price": "250000",
-    "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-03-26 19:47:00",
-    "firstSeenAt": "2025-04-19T18:55:20.810Z",
-    "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "hasDuplicates": false,
-    "__status": "updated",
-    "coords": {
-      "lat": -18.83529,
-      "lon": -41.9005,
-      "distanceToCenter": 701.73,
-      "walkingDistanceToCenter": 682.28
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-venda-cidade-campinas-bairro-jd-lisa-1390428704"
   },
   {
     "id": "prop_1745099720823_9871",
@@ -3511,7 +3661,10 @@
       "lon": -47.165998475725374,
       "distanceToCenter": 11.59,
       "walkingDistanceToCenter": 13.79
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-venda-1387944638"
   },
   {
     "id": "prop_1745099720823_9852",
@@ -3546,7 +3699,10 @@
       "lon": -47.07785804254273,
       "distanceToCenter": 4.01,
       "walkingDistanceToCenter": 5.35
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-top-a-venda-em-campinas-250-000-00-1385524718"
   },
   {
     "id": "prop_1745099720823_8621",
@@ -3572,7 +3728,10 @@
       "lon": -47.0600751,
       "distanceToCenter": 0.58,
       "walkingDistanceToCenter": 0.72
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/venda-de-casa-no-centro-de-campinas-1384071940"
   },
   {
     "id": "prop_1745099720823_3675",
@@ -3601,7 +3760,10 @@
       "lon": -47.09605,
       "distanceToCenter": 3.74,
       "walkingDistanceToCenter": 4.43
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-construcao-com-5-quartos-1381763143"
   },
   {
     "id": "prop_1745099720823_6206",
@@ -3636,7 +3798,10 @@
       "lon": -47.1387166,
       "distanceToCenter": 11.14,
       "walkingDistanceToCenter": 12.8
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-jardim-mirassol-1381019125"
   },
   {
     "id": "prop_1745099720823_8902",
@@ -3671,7 +3836,10 @@
       "lon": -47.10636,
       "distanceToCenter": 5.23,
       "walkingDistanceToCenter": 5.47
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/2-casas-de-aluguel-a-venda-1381889791"
   },
   {
     "id": "prop_1745099720823_8160",
@@ -3706,7 +3874,10 @@
       "lon": -47.189316891511126,
       "distanceToCenter": 13.7,
       "walkingDistanceToCenter": 15.98
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/rancho-1396198018"
   },
   {
     "id": "prop_1745099720823_4634",
@@ -3735,7 +3906,10 @@
       "lon": -47.11593,
       "distanceToCenter": 5.78,
       "walkingDistanceToCenter": 6.87
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-para-venda-no-nobrega-1381585809"
   },
   {
     "id": "prop_1745099720823_4440",
@@ -3767,36 +3941,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
-  },
-  {
-    "id": "prop_1745099720823_2394",
-    "address": "Campinas, Vila Marieta",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "270"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/60/601547387205522.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/lote-terreno-vila-paraiso-campinas-sp-otima-localizacao-1391564956",
-    "price": "259000",
-    "scrapedAt": "2025-04-19T18:55:20.810Z",
-    "publishDate": "2025-04-01 01:54:00",
-    "firstSeenAt": "2025-04-19T18:55:20.810Z",
-    "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "hasDuplicates": false,
-    "__status": "updated",
-    "coords": {
-      "lat": -22.92609,
-      "lon": -47.05258,
-      "distanceToCenter": 1.89,
-      "walkingDistanceToCenter": 2.31
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-em-condominio-1382126192"
   },
   {
     "id": "prop_1745099720823_4274",
@@ -3831,7 +3979,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-em-campinas-no-satelite-iris-iii-1388109564"
   },
   {
     "id": "prop_1745099720823_1600",
@@ -3863,7 +4014,10 @@
       "lon": -46.9162728,
       "distanceToCenter": 30.05,
       "walkingDistanceToCenter": 32.59
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vende-se-jardim-sao-vicente-1314121280"
   },
   {
     "id": "prop_1745099720823_3437",
@@ -3898,7 +4052,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-campinas-no-satelite-iris-1393953089"
   },
   {
     "id": "prop_1745099720823_4605",
@@ -3933,7 +4090,10 @@
       "lon": -47.1190068,
       "distanceToCenter": 9.25,
       "walkingDistanceToCenter": 10.26
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-avenda-1383182119"
   },
   {
     "id": "prop_1745310962145_3343",
@@ -3962,7 +4122,10 @@
       "lon": -46.9133472,
       "distanceToCenter": 32.82,
       "walkingDistanceToCenter": 35.73
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-casa-no-shanghai-1396930319"
   },
   {
     "id": "prop_1745099720823_7583",
@@ -3994,7 +4157,10 @@
       "lon": -47.3100136,
       "distanceToCenter": 28.26,
       "walkingDistanceToCenter": 33.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1395751989"
   },
   {
     "id": "prop_1745099720823_2438",
@@ -4029,7 +4195,10 @@
       "lon": -3.7834,
       "distanceToCenter": 8335.21,
       "walkingDistanceToCenter": 10835.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-no-residencial-cosmos-em-campinas-sp-1389188159"
   },
   {
     "id": "prop_1745099720823_6728",
@@ -4061,7 +4230,10 @@
       "lon": -47.27957,
       "distanceToCenter": 38.02,
       "walkingDistanceToCenter": 43.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-residencial-porto-seguro-1387567970"
   },
   {
     "id": "prop_1745099720823_7898",
@@ -4096,7 +4268,10 @@
       "lon": -47.1561793,
       "distanceToCenter": 10.03,
       "walkingDistanceToCenter": 14.3
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1383291339"
   },
   {
     "id": "prop_1745099720823_7520",
@@ -4122,7 +4297,10 @@
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1383229149"
   },
   {
     "id": "prop_1745099720823_2425",
@@ -4154,7 +4332,10 @@
       "lon": -47.112788,
       "distanceToCenter": 15.2,
       "walkingDistanceToCenter": 17.22
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-garagem-oportunidade-unica-para-sair-do-aluguel-1382132778"
   },
   {
     "id": "prop_1745099720823_820",
@@ -4189,7 +4370,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/3-casas-no-mesmo-terreno-ideal-para-morar-e-alugar-oportunidade-para-investidor-1391457571"
   },
   {
     "id": "prop_1745099720824_1957",
@@ -4218,7 +4402,10 @@
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-1394925090"
   },
   {
     "id": "prop_1745099720824_2130",
@@ -4250,7 +4437,10 @@
       "lon": -47.1425,
       "distanceToCenter": 9.24,
       "walkingDistanceToCenter": 14.81
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-trocar-1390707118"
   },
   {
     "id": "prop_1745099720824_1353",
@@ -4282,7 +4472,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-ou-troca-1396723519"
   },
   {
     "id": "prop_1745099720824_1815",
@@ -4314,7 +4507,10 @@
       "lon": -47.13025,
       "distanceToCenter": 16.58,
       "walkingDistanceToCenter": 19.01
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-regiao-do-aeroporto-viracopos-1390338238"
   },
   {
     "id": "prop_1745099720824_9957",
@@ -4346,7 +4542,10 @@
       "lon": -47.16255568604536,
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/venda-de-casa-1389617673"
   },
   {
     "id": "prop_1745099720824_1938",
@@ -4381,7 +4580,10 @@
       "lon": -47.1450806,
       "distanceToCenter": 19.11,
       "walkingDistanceToCenter": 20.76
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-vista-alegre-campinas-1379329661"
   },
   {
     "id": "prop_1745099720824_2804",
@@ -4410,7 +4612,10 @@
       "lon": -40.63814,
       "distanceToCenter": 764.47,
       "walkingDistanceToCenter": 993.53
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-imperdivel-casa-a-venda-1386071314"
   },
   {
     "id": "prop_1745099720824_4078",
@@ -4442,7 +4647,10 @@
       "lon": -48.9000447,
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/chacara-vende-se-lindo-espaco-festa-1301549836"
   },
   {
     "id": "prop_1745099720824_9724",
@@ -4474,7 +4682,10 @@
       "lon": -46.8362907,
       "distanceToCenter": 56.53,
       "walkingDistanceToCenter": 73.39
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-venda-bairro-parque-santa-barbara-campinas-sp-1382195092"
   },
   {
     "id": "prop_1745099720824_8314",
@@ -4506,7 +4717,10 @@
       "lon": -46.9739075,
       "distanceToCenter": 96.03,
       "walkingDistanceToCenter": 116.69
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-condominio-regina-1390882667"
   },
   {
     "id": "prop_1745099720824_5917",
@@ -4538,7 +4752,10 @@
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-nova-linda-1388234134"
   },
   {
     "id": "prop_1745099720824_7254",
@@ -4573,7 +4790,10 @@
       "lon": -47.09605,
       "distanceToCenter": 3.74,
       "walkingDistanceToCenter": 4.43
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-6-casa-ap-no-bairro-colinas-das-nascentes-na-regiao-do-campo-grande-em-campinas-1390470978"
   },
   {
     "id": "prop_1745099720824_4797",
@@ -4606,7 +4826,10 @@
       "lon": -47.27957,
       "distanceToCenter": 38.02,
       "walkingDistanceToCenter": 43.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-em-campinas-1391332746"
   },
   {
     "id": "prop_1745099720824_6858",
@@ -4635,7 +4858,10 @@
       "lon": -46.8720963,
       "distanceToCenter": 37.99,
       "walkingDistanceToCenter": 40.54
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-10-min-do-centro-de-campinas-sp-1390034584"
   },
   {
     "id": "prop_1745310962146_6464",
@@ -4667,7 +4893,10 @@
       "lon": -47.0085588,
       "distanceToCenter": 161.42,
       "walkingDistanceToCenter": 202.5
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-sao-domingos-1388973350"
   },
   {
     "id": "prop_1745310962146_7127",
@@ -4696,7 +4925,10 @@
       "lon": -47.1043182,
       "distanceToCenter": 4.75,
       "walkingDistanceToCenter": 6.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-tres-comodos-grande-cobertura-estrutura-metalica-terreno-250-metros-1383164091"
   },
   {
     "id": "prop_1745310962146_3555",
@@ -4728,7 +4960,10 @@
       "lon": -47.0875066,
       "distanceToCenter": 3.67,
       "walkingDistanceToCenter": 4.2
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jardim-amoreiras-1381822019"
   },
   {
     "id": "prop_1745310962146_1229",
@@ -4757,7 +4992,10 @@
       "lon": -47.189316891511126,
       "distanceToCenter": 13.7,
       "walkingDistanceToCenter": 15.98
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-otima-localizacao-1380853156"
   },
   {
     "id": "prop_1745310962146_783",
@@ -4792,7 +5030,10 @@
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-condominio-2-quartos-em-jd-novo-campos-eliseos-1385806102"
   },
   {
     "id": "prop_1745310962146_1506",
@@ -4824,7 +5065,10 @@
       "lon": -47.16255568604536,
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-residencial-cosmos-1391095500"
   },
   {
     "id": "prop_1745310962146_8227",
@@ -4859,7 +5103,10 @@
       "lon": -46.9451016,
       "distanceToCenter": 63.49,
       "walkingDistanceToCenter": 76.74
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-de-alto-padrao-1378047819"
   },
   {
     "id": "prop_1745310962146_5903",
@@ -4894,7 +5141,10 @@
       "lon": -47.16965686111111,
       "distanceToCenter": 13.58,
       "walkingDistanceToCenter": 15.36
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-sobrado-1382783239"
   },
   {
     "id": "prop_1745310962146_1042",
@@ -4929,7 +5179,10 @@
       "lon": -47.09605,
       "distanceToCenter": 3.74,
       "walkingDistanceToCenter": 4.43
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-de-um-linda-casa-nova-60-000-abaixo-do-valor-1389125359"
   },
   {
     "id": "prop_1745310962146_1446",
@@ -4961,7 +5214,10 @@
       "lon": -46.82796,
       "distanceToCenter": 25.3,
       "walkingDistanceToCenter": 31.34
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-1389255851"
   },
   {
     "id": "prop_1745310962146_9307",
@@ -4996,7 +5252,10 @@
       "lon": -51.4273927,
       "distanceToCenter": 457.29,
       "walkingDistanceToCenter": 550.61
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-proximo-da-regiao-do-jardim-aeroporto-1388694887"
   },
   {
     "id": "prop_1745310962146_7687",
@@ -5028,7 +5287,10 @@
       "lon": -3.7834,
       "distanceToCenter": 8335.21,
       "walkingDistanceToCenter": 10835.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vila-uniao-1389021710"
   },
   {
     "id": "prop_1745310962146_8247",
@@ -5063,7 +5325,10 @@
       "lon": -47.16947,
       "distanceToCenter": 12.76,
       "walkingDistanceToCenter": 14.68
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-campinas-3-quartos-um-com-suite-1363927520"
   },
   {
     "id": "prop_1745310962146_5151",
@@ -5098,7 +5363,10 @@
       "lon": -47.1337,
       "distanceToCenter": 9.31,
       "walkingDistanceToCenter": 10.92
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-04-quartos-e-03-banheiros-jd-ouro-preto-1391998795"
   },
   {
     "id": "prop_1745310962146_8352",
@@ -5130,7 +5398,10 @@
       "lon": -47.3676291,
       "distanceToCenter": 36.77,
       "walkingDistanceToCenter": 43.19
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-muito-boa-no-sao-fernando-campinas-1368092027"
   },
   {
     "id": "prop_1745310962146_4347",
@@ -5162,34 +5433,10 @@
       "lon": -47.16255568604536,
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
-    }
-  },
-  {
-    "id": "prop_1744732184466_533",
-    "address": "Campinas, Campo Grande",
-    "description": [
-      {
-        "numberOfRooms": "2"
-      },
-      {
-        "floorSize": "100"
-      }
-    ],
-    "images": [
-      "https://img.olx.com.br/thumbs500x360/28/288578020747611.jpg"
-    ],
-    "link": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-lisa-em-campinas-toda-planejada-1390766139",
-    "price": "350000",
-    "scrapedAt": "2025-04-15T15:49:44.466Z",
-    "publishDate": "2025-04-21 18:33:00",
-    "coords": {
-      "lat": -22.9360851,
-      "lon": -47.1601215,
-      "distanceToCenter": 10.7,
-      "walkingDistanceToCenter": 12.76
     },
-    "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-pronta-para-morar-aceita-financiamento-1395208600"
   },
   {
     "id": "prop_1745310962146_7558",
@@ -5221,7 +5468,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-sobrado-1395079101"
   },
   {
     "id": "prop_1745310962146_7678",
@@ -5250,7 +5500,10 @@
       "lon": -47.03141553145108,
       "distanceToCenter": 7.24,
       "walkingDistanceToCenter": 8.31
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-no-vila-genesis-1394980770"
   },
   {
     "id": "prop_1745310962146_5571",
@@ -5276,7 +5529,10 @@
       "lon": -47.113028402231905,
       "distanceToCenter": 5.76,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-vila-perseu-1392523836"
   },
   {
     "id": "prop_1744732184465_272",
@@ -5309,7 +5565,10 @@
       "walkingDistanceToCenter": 16.32
     },
     "lastSeenAt": "2025-04-22T05:36:02.124Z",
-    "__status": "updated"
+    "__status": "updated",
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-e-sobrado-1392024142"
   },
   {
     "id": "prop_1745310962146_7132",
@@ -5344,7 +5603,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jd-satelite-iris-iv-1386819759"
   },
   {
     "id": "prop_1745310962146_5946",
@@ -5376,7 +5638,10 @@
       "lon": -47.1498288,
       "distanceToCenter": 11.32,
       "walkingDistanceToCenter": 12.42
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-para-venda-em-bairro-tranquilo-1385890103"
   },
   {
     "id": "prop_1745310962146_8528",
@@ -5408,7 +5673,10 @@
       "lon": -47.16905,
       "distanceToCenter": 13.14,
       "walkingDistanceToCenter": 14.51
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-otima-localizacao-1385320101"
   },
   {
     "id": "prop_1745310962146_286",
@@ -5443,7 +5711,10 @@
       "lon": -47.10055,
       "distanceToCenter": 4.34,
       "walkingDistanceToCenter": 4.82
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-no-jardim-interlagos-em-campinas-1383792594"
   },
   {
     "id": "prop_1745310962146_58",
@@ -5478,7 +5749,10 @@
       "lon": -47.1337,
       "distanceToCenter": 9.31,
       "walkingDistanceToCenter": 10.92
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/excelente-casa-jd-interlagos-campinas-1382100949"
   },
   {
     "id": "prop_1745310962146_8694",
@@ -5510,7 +5784,10 @@
       "lon": -47.15146,
       "distanceToCenter": 9.58,
       "walkingDistanceToCenter": 14.8
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-aceito-troca-em-menor-valor-casa-bem-arejada-espacosa-e-bem-localizada-1383047609"
   },
   {
     "id": "prop_1745310962146_3443",
@@ -5545,7 +5822,10 @@
       "lon": -47.05496434080892,
       "distanceToCenter": 3.88,
       "walkingDistanceToCenter": 4.99
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/house-me-taquaral-1395528007"
   },
   {
     "id": "prop_1745310962146_3176",
@@ -5577,7 +5857,10 @@
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-residencial-novo-mundo-em-campinas-sp-1394699347"
   },
   {
     "id": "prop_1745310962146_9004",
@@ -5609,7 +5892,10 @@
       "lon": -47.112788,
       "distanceToCenter": 15.2,
       "walkingDistanceToCenter": 17.22
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-1393728723"
   },
   {
     "id": "prop_1745310962146_8760",
@@ -5635,7 +5921,10 @@
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/parcelamento-imobiliaria-1392626011"
   },
   {
     "id": "prop_1745310962146_3107",
@@ -5670,7 +5959,10 @@
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-sobrado-em-fase-final-de-acabamento-1391030257"
   },
   {
     "id": "prop_1745310962146_5892",
@@ -5705,7 +5997,10 @@
       "lon": -47.27957,
       "distanceToCenter": 38.02,
       "walkingDistanceToCenter": 43.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/aceito-troca-por-apartamento-1390389007"
   },
   {
     "id": "prop_1745310962146_3942",
@@ -5740,7 +6035,10 @@
       "lon": -46.9030973,
       "distanceToCenter": 34.71,
       "walkingDistanceToCenter": 37.49
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-um-sobrado-em-hortolandia-parcelo-e-aceito-carro-1387936692"
   },
   {
     "id": "prop_1745310962146_5702",
@@ -5772,7 +6070,10 @@
       "lon": -47.0377564,
       "distanceToCenter": 3.5,
       "walkingDistanceToCenter": 4.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-em-otima-localizacao-no-sao-judas-tadeu-1383480351"
   },
   {
     "id": "prop_1745310962146_8047",
@@ -5807,7 +6108,10 @@
       "lon": -47.0529305,
       "distanceToCenter": 0.86,
       "walkingDistanceToCenter": 1.11
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/terreno-com-imovel-para-reformar-1383601905"
   },
   {
     "id": "prop_1745310962146_956",
@@ -5839,7 +6143,10 @@
       "lon": -47.8407421,
       "distanceToCenter": 81.52,
       "walkingDistanceToCenter": 97.89
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-jd-melina-campinas-1380324088"
   },
   {
     "id": "prop_1745310962146_1918",
@@ -5871,7 +6178,10 @@
       "lon": -46.9483048,
       "distanceToCenter": 62.14,
       "walkingDistanceToCenter": 75.64
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-ou-troco-por-apartamento-1397065731"
   },
   {
     "id": "prop_1745310962146_6320",
@@ -5906,7 +6216,10 @@
       "lon": -47.13522,
       "distanceToCenter": 10.78,
       "walkingDistanceToCenter": 12.25
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-quartos-dic-1-1385877700"
   },
   {
     "id": "prop_1745310962146_7656",
@@ -5941,7 +6254,10 @@
       "lon": -47.1337,
       "distanceToCenter": 9.31,
       "walkingDistanceToCenter": 10.92
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/3-casas-no-mesmo-terreno-1390816876"
   },
   {
     "id": "prop_1745310962146_7666",
@@ -5973,7 +6289,10 @@
       "lon": -47.0822,
       "distanceToCenter": 9.24,
       "walkingDistanceToCenter": 12.84
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/cond-bairro-alto-barao-geraldo-campinas-1360906397"
   },
   {
     "id": "prop_1745310962146_2805",
@@ -6008,7 +6327,10 @@
       "lon": -47.1601215,
       "distanceToCenter": 10.7,
       "walkingDistanceToCenter": 12.76
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/chacara-pequena-espaco-festa-em-campinas-1353776537"
   },
   {
     "id": "prop_1745310962146_5576",
@@ -6040,7 +6362,10 @@
       "lon": -47.4034094,
       "distanceToCenter": 51.71,
       "walkingDistanceToCenter": 63.17
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-edicula-1384411376"
   },
   {
     "id": "prop_1745310962146_8215",
@@ -6075,7 +6400,10 @@
       "lon": -46.6358709,
       "distanceToCenter": 159.82,
       "walkingDistanceToCenter": 199.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-aconchegante-para-alugar-1383962150"
   },
   {
     "id": "prop_1745310962147_7397",
@@ -6107,7 +6435,10 @@
       "lon": -47.03934470059432,
       "distanceToCenter": 3.73,
       "walkingDistanceToCenter": 4.21
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-2-quartos-em-otima-localizacao-1381701260"
   },
   {
     "id": "prop_1745310962147_8743",
@@ -6139,7 +6470,10 @@
       "lon": -46.8893026,
       "distanceToCenter": 37.24,
       "walkingDistanceToCenter": 40.21
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-2-quartos-1387169188"
   },
   {
     "id": "prop_1745310962147_5771",
@@ -6174,7 +6508,10 @@
       "lon": -46.6308139,
       "distanceToCenter": 69.46,
       "walkingDistanceToCenter": 82.47
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-esquina-282-62mtrs2-oportunidade-de-investimento-1394741169"
   },
   {
     "id": "prop_1745310962147_2134",
@@ -6209,7 +6546,10 @@
       "lon": -47.3100136,
       "distanceToCenter": 28.26,
       "walkingDistanceToCenter": 33.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-03-quartos-01-suite-1367653541"
   },
   {
     "id": "prop_1745310962147_7618",
@@ -6244,7 +6584,10 @@
       "lon": -47.12141,
       "distanceToCenter": 9.54,
       "walkingDistanceToCenter": 11.06
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/otima-casa-a-venda-1397091513"
   },
   {
     "id": "prop_1745310962147_8967",
@@ -6279,7 +6622,10 @@
       "lon": -47.11422,
       "distanceToCenter": 9.81,
       "walkingDistanceToCenter": 12.33
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-no-dic-6-1396051411"
   },
   {
     "id": "prop_1745310962147_914",
@@ -6305,7 +6651,10 @@
       "lon": -47.03760583153676,
       "distanceToCenter": 6.04,
       "walkingDistanceToCenter": 6.9
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-2-quartos-sala-cozinha-1-banheiro-lavanderia-quintal-enorme-1395100981"
   },
   {
     "id": "prop_1745310962147_4508",
@@ -6340,7 +6689,10 @@
       "lon": -47.081944,
       "distanceToCenter": 3.31,
       "walkingDistanceToCenter": 3.62
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/otima-casa-em-jau-sp-troco-por-imovel-de-maior-valor-na-regiao-de-campinas-1394991335"
   },
   {
     "id": "prop_1745310962147_2681",
@@ -6375,7 +6727,10 @@
       "lon": -47.07301410764019,
       "distanceToCenter": 4.16,
       "walkingDistanceToCenter": 4.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-velha-em-otima-localizacao-1385985772"
   },
   {
     "id": "prop_1745310962147_5972",
@@ -6407,7 +6762,10 @@
       "lon": -47.09487,
       "distanceToCenter": 4.41,
       "walkingDistanceToCenter": 5.1
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-edicula-bairro-taquaral-vila-iza-1380691758"
   },
   {
     "id": "prop_1745310962147_3444",
@@ -6439,7 +6797,10 @@
       "lon": -47.03794,
       "distanceToCenter": 2.32,
       "walkingDistanceToCenter": 2.91
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-area-de-servico-em-condominio-fechado-1380462691"
   },
   {
     "id": "prop_1745310962147_3966",
@@ -6474,7 +6835,10 @@
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-novo-campos-eliseos-1386578950"
   },
   {
     "id": "prop_1745310962147_8554",
@@ -6509,7 +6873,10 @@
       "lon": -47.100781730448645,
       "distanceToCenter": 4.71,
       "walkingDistanceToCenter": 5.01
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-5-dorm-venda-jardim-eulina-campinas-sp-1303861000"
   },
   {
     "id": "prop_1745310962147_2677",
@@ -6541,7 +6908,10 @@
       "lon": -47.113028402231905,
       "distanceToCenter": 5.76,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/excelente-casa-jd-perseu-leite-de-barros-1392327259"
   },
   {
     "id": "prop_1745310962147_8502",
@@ -6573,7 +6943,10 @@
       "lon": -46.849775,
       "distanceToCenter": 37.77,
       "walkingDistanceToCenter": 42.07
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-2-dorm-aceita-financiamento-jd-tamoio-campinas-1390961818"
   },
   {
     "id": "prop_1745310962147_5810",
@@ -6608,7 +6981,10 @@
       "lon": -3.7834,
       "distanceToCenter": 8335.21,
       "walkingDistanceToCenter": 10835.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-vila-uniao-campinas-1385542104"
   },
   {
     "id": "prop_1745310962147_5314",
@@ -6643,7 +7019,10 @@
       "lon": -46.6358709,
       "distanceToCenter": 159.82,
       "walkingDistanceToCenter": 199.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-quintal-e-area-coberta-1383742674"
   },
   {
     "id": "prop_1745310962147_3352",
@@ -6675,7 +7054,10 @@
       "lon": -46.9838811,
       "distanceToCenter": 94.84,
       "walkingDistanceToCenter": 115.97
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-campinas-sp-vila-paraiso-1380652337"
   },
   {
     "id": "prop_1745310962147_8400",
@@ -6710,7 +7092,10 @@
       "lon": -46.6358709,
       "distanceToCenter": 159.82,
       "walkingDistanceToCenter": 199.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-3-casas-em-mesmo-terreno-1387575392"
   },
   {
     "id": "prop_1745310962147_5227",
@@ -6745,7 +7130,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/venda-ou-permuta-em-campinas-1396608953"
   },
   {
     "id": "prop_1745310962147_8316",
@@ -6780,7 +7168,10 @@
       "lon": -47.1418,
       "distanceToCenter": 9.35,
       "walkingDistanceToCenter": 15.16
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-3-dorm-aceita-financiamento-1384921008"
   },
   {
     "id": "prop_1745310962147_7650",
@@ -6815,7 +7206,10 @@
       "lon": -47.1561793,
       "distanceToCenter": 10.03,
       "walkingDistanceToCenter": 14.3
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-parque-sao-jorge-campinas-1387341137"
   },
   {
     "id": "prop_1745310962147_8019",
@@ -6847,7 +7241,10 @@
       "lon": -47.1561793,
       "distanceToCenter": 10.03,
       "walkingDistanceToCenter": 14.3
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-parque-sao-jorge-campinas-1387018914"
   },
   {
     "id": "prop_1745310962147_4020",
@@ -6876,7 +7273,10 @@
       "lon": -3.7834,
       "distanceToCenter": 8335.21,
       "walkingDistanceToCenter": 10835.77
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-reformada-vila-uniao-1388005715"
   },
   {
     "id": "prop_1745310962147_5825",
@@ -6908,7 +7308,10 @@
       "lon": -47.1337,
       "distanceToCenter": 9.31,
       "walkingDistanceToCenter": 10.92
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-a-venda-jd-ouro-preto-campinas-1392980684"
   },
   {
     "id": "prop_1745310962147_2880",
@@ -6940,7 +7343,10 @@
       "lon": -46.623682,
       "distanceToCenter": 65.61,
       "walkingDistanceToCenter": 83.03
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/cada-de-rua-bairro-tranquilo-otima-localizacao-1386525353"
   },
   {
     "id": "prop_1745310962147_4635",
@@ -6975,7 +7381,10 @@
       "lon": -47.1337,
       "distanceToCenter": 9.31,
       "walkingDistanceToCenter": 10.92
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-assobradada-no-jd-ouro-preto-campinas-1280897957"
   },
   {
     "id": "prop_1745310962147_9472",
@@ -7010,7 +7419,10 @@
       "lon": -47.03958,
       "distanceToCenter": 3.48,
       "walkingDistanceToCenter": 4.22
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/fino-acabamento-pronta-para-morar-1386879319"
   },
   {
     "id": "prop_1745310962147_5147",
@@ -7045,7 +7457,10 @@
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-terrea-satelite-iris-campinas-1397152991"
   },
   {
     "id": "prop_1745310962147_189",
@@ -7074,7 +7489,10 @@
       "lon": -47.09574,
       "distanceToCenter": 5.46,
       "walkingDistanceToCenter": 6.54
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vende-se-casa-4-dormitorios-1393664647"
   },
   {
     "id": "prop_1745310962147_5300",
@@ -7109,7 +7527,10 @@
       "lon": -47.3837435,
       "distanceToCenter": 70.89,
       "walkingDistanceToCenter": 83.78
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-no-jd-sta-rosa-com-terreno-1391963035"
   },
   {
     "id": "prop_1745310962147_9367",
@@ -7141,7 +7562,10 @@
       "lon": -47.0418849,
       "distanceToCenter": 27.22,
       "walkingDistanceToCenter": 34.95
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-dormitorio-p-via-norte-campinas-sp-1391443784"
   },
   {
     "id": "prop_1745310962147_1068",
@@ -7176,7 +7600,10 @@
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-3-dormitorios-a-venda-168-m-de-area-construida-1385902832"
   },
   {
     "id": "prop_1745310962147_3807",
@@ -7202,7 +7629,10 @@
       "lon": -47.100781730448645,
       "distanceToCenter": 4.71,
       "walkingDistanceToCenter": 5.01
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jd-campos-verdes-hortolandia-ac-permuta-de-menor-valor-1385558531"
   },
   {
     "id": "prop_1745310962147_3454",
@@ -7237,7 +7667,10 @@
       "lon": -47.12655,
       "distanceToCenter": 9.98,
       "walkingDistanceToCenter": 11.27
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/causa-de-frente-e-casa-de-fundos-1382634384"
   },
   {
     "id": "prop_1745310962147_179",
@@ -7272,7 +7705,10 @@
       "lon": -47.09106,
       "distanceToCenter": 4.42,
       "walkingDistanceToCenter": 5.2
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-condominio-1380873879"
   },
   {
     "id": "prop_1745310962147_6949",
@@ -7307,7 +7743,10 @@
       "lon": -47.1022475,
       "distanceToCenter": 8.66,
       "walkingDistanceToCenter": 9.86
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-excelente-2-dorm-aceita-financiamento-nova-mercedes-campinas-sp-1349571551"
   },
   {
     "id": "prop_1745310962147_4696",
@@ -7339,7 +7778,10 @@
       "lon": -47.3676291,
       "distanceToCenter": 36.77,
       "walkingDistanceToCenter": 43.19
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-dormitorios-3-salas-troca-por-apartamento-no-proenca-1391236540"
   },
   {
     "id": "prop_1745310962147_7528",
@@ -7374,7 +7816,10 @@
       "lon": -47.6426022,
       "distanceToCenter": 63.46,
       "walkingDistanceToCenter": 74.57
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-na-cidade-jardim-campinas-sp-1389499775"
   },
   {
     "id": "prop_1745310962147_5816",
@@ -7409,7 +7854,10 @@
       "lon": -47.1134891,
       "distanceToCenter": 5.53,
       "walkingDistanceToCenter": 6.51
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-casa-frente-e-fundo-jardim-garcia-1385462348"
   },
   {
     "id": "prop_1745310962147_379",
@@ -7444,7 +7892,10 @@
       "lon": -47.3676291,
       "distanceToCenter": 36.77,
       "walkingDistanceToCenter": 43.19
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-sobrado-jd-sao-fernando-r-480-000-00-sem-habite-se-1395723665"
   },
   {
     "id": "prop_1745310962147_8443",
@@ -7476,7 +7927,10 @@
       "lon": -47.1134891,
       "distanceToCenter": 5.53,
       "walkingDistanceToCenter": 6.51
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-jardim-garcia-1394813258"
   },
   {
     "id": "prop_1745310962147_557",
@@ -7509,7 +7963,10 @@
       "lon": -47.081944,
       "distanceToCenter": 3.31,
       "walkingDistanceToCenter": 3.62
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-uma-casa-no-jardim-chapadao-1389482971"
   },
   {
     "id": "prop_1745310962147_1544",
@@ -7541,7 +7998,10 @@
       "lon": -47.049722,
       "distanceToCenter": 2.25,
       "walkingDistanceToCenter": 2.78
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-oportunidade-no-jd-chapadao-em-campinas-1387299854"
   },
   {
     "id": "prop_1745310962147_8197",
@@ -7576,7 +8036,10 @@
       "lon": -46.91457,
       "distanceToCenter": 34.85,
       "walkingDistanceToCenter": 38.55
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/vendo-ou-troco-por-chacara-1396132768"
   },
   {
     "id": "prop_1745310962147_6612",
@@ -7608,7 +8071,10 @@
       "lon": -47.049722,
       "distanceToCenter": 2.25,
       "walkingDistanceToCenter": 2.78
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/sobrado-em-caragua-mobiliado-novo-direto-c-proprietario-1290219161"
   },
   {
     "id": "prop_1745310962147_6465",
@@ -7643,7 +8109,10 @@
       "lon": -47.11971,
       "distanceToCenter": 6.97,
       "walkingDistanceToCenter": 8.02
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-nova-1391703709"
   },
   {
     "id": "prop_1745310962147_1035",
@@ -7678,7 +8147,10 @@
       "lon": -47.11751493802094,
       "distanceToCenter": 6.58,
       "walkingDistanceToCenter": 10.92
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-com-edicula-1386969363"
   },
   {
     "id": "prop_1745310962147_8772",
@@ -7713,7 +8185,10 @@
       "lon": -47.0694473,
       "distanceToCenter": 6.04,
       "walkingDistanceToCenter": 6.81
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-rua-dos-guainumbis-costa-e-silva-1360864549"
   },
   {
     "id": "prop_1745310962147_1575",
@@ -7748,7 +8223,10 @@
       "lon": -47.150270806170965,
       "distanceToCenter": 12.52,
       "walkingDistanceToCenter": 14.87
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-com-3-dormitorios-em-parque-cidade-campinas-campinas-cod-ca002562-640662153"
   },
   {
     "id": "prop_1745310962147_3717",
@@ -7777,7 +8255,10 @@
       "lon": -46.57061385,
       "distanceToCenter": 55.08,
       "walkingDistanceToCenter": 67.51
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/oportunidade-unica-casa-ampla-a-venda-no-jardim-estoril-campinas-1381055033"
   },
   {
     "id": "prop_1745310962147_4782",
@@ -7809,7 +8290,10 @@
       "lon": -46.9861488,
       "distanceToCenter": 20.9,
       "walkingDistanceToCenter": 25.18
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-quartos-sendo-1-suite-no-jardim-amazonas-em-campinas-1392667957"
   },
   {
     "id": "prop_1745310962147_7659",
@@ -7838,7 +8322,10 @@
       "lon": -47.04666,
       "distanceToCenter": 2.91,
       "walkingDistanceToCenter": 3.27
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-a-venda-no-jardim-das-oliveiras-campinas-1397172276"
   },
   {
     "id": "prop_1745310962147_9095",
@@ -7873,7 +8360,10 @@
       "lon": -47.0249529,
       "distanceToCenter": 5.74,
       "walkingDistanceToCenter": 6.2
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-1388586653"
   },
   {
     "id": "prop_1745310962147_4866",
@@ -7908,6 +8398,9 @@
       "lon": -47.11751493802094,
       "distanceToCenter": 6.58,
       "walkingDistanceToCenter": 10.92
-    }
+    },
+    "platform": "olx",
+    "consecutiveMisses": 1,
+    "identifier": "https://sp.olx.com.br/grande-campinas/imoveis/casa-3-dormitorios-campinas-1385527207"
   }
 ]

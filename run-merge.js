@@ -1,4 +1,4 @@
-import { processPlatformResults, configurePaths } from './scripts/mergeResults.js';
+import { processPlatformResults, configurePaths } from './scripts/alaSQLmergeResults.js';
 
 const OLD_PATH = './data/results';
 const NEW_PATH = '../data/results_new';
