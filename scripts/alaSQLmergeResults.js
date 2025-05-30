@@ -10,11 +10,30 @@ import getBrasiliaTime from "./getBrasiliaTime.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const OLD_RESULTS_PATH = path.join(__dirname, "../../querocasa/data/results");
-const NEW_RESULTS_PATH = path.join(__dirname, "../../data/results"); // Usando o caminho que você confirmou
+// Definindo variáveis de caminho configuráveis
+const DEFAULT_OLD_RESULTS_PATH = path.join(
+  __dirname,
+  "../../querocasa/data/results"
+);
+const DEFAULT_NEW_RESULTS_PATH = path.join(__dirname, "../../data/results");
+
+// Variáveis que podem ser modificadas pela função configurePaths
+let OLD_RESULTS_PATH = DEFAULT_OLD_RESULTS_PATH;
+let NEW_RESULTS_PATH = DEFAULT_NEW_RESULTS_PATH;
 
 const PLATFORMS = ["olx", "zap"];
 const MAX_CONSECUTIVE_MISSES = 3; // Número de scrapes que um item pode faltar
+
+/**
+ * Função para configurar caminhos alternativos - usada principalmente para testes e CI
+ */
+export function configurePaths(oldPath, newPath) {
+  OLD_RESULTS_PATH = oldPath || DEFAULT_OLD_RESULTS_PATH;
+  NEW_RESULTS_PATH = newPath || DEFAULT_NEW_RESULTS_PATH;
+  console.log(
+    `[configurePaths] Caminhos configurados: OLD=${OLD_RESULTS_PATH}, NEW=${NEW_RESULTS_PATH}`
+  );
+}
 
 /**
  * Função para leitura segura de arquivos JSON
