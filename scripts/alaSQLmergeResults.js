@@ -356,23 +356,14 @@ export const processPlatformResults = async (platform) => {
       `${platformUpper}_TOTAL=${finalUniqueData.length}\n`
     );
   }
+
+  // Salvar os dados finais no arquivo
+  await fs.promises.writeFile(
+    oldFilePath,
+    JSON.stringify(finalUniqueData, null, 2)
+  );
+
+  console.log(
+    `[${platform}] ✅ Dados salvos com sucesso: ${finalUniqueData.length} itens`
+  );
 };
-
-// Processa todas as plataformas (como no seu script original)
-(async () => {
-  try {
-    console.log(
-      "\nIniciando processo de merge com AlaSQL (usando caminhos originais)..."
-    );
-    await checkAndCreateResultsDirectory();
-
-    for (const platform of PLATFORMS) {
-      await processPlatformResults(platform);
-    }
-
-    console.log("\n✅ Merge com AlaSQL concluído com sucesso.");
-  } catch (error) {
-    console.error("\n❌ Erro crítico durante o merge com AlaSQL:", error);
-    process.exit(1);
-  }
-})();
