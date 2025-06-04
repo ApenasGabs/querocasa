@@ -40,7 +40,7 @@
     "price": "150000",
     "scrapedAt": "2025-06-03T02:26:07.665Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-02T23:41:49.300Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.7107885,
@@ -48,8 +48,8 @@
       "distanceToCenter": 37.52,
       "walkingDistanceToCenter": 47.12
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748917634663_393",
@@ -92,7 +92,7 @@
     "price": "150000",
     "scrapedAt": "2025-06-03T02:27:14.663Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-02T23:41:49.300Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.7107885,
@@ -100,8 +100,8 @@
       "distanceToCenter": 37.52,
       "walkingDistanceToCenter": 47.12
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748917634665_929",
@@ -149,8 +149,8 @@
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748917634671_776",
@@ -190,7 +190,7 @@
     "price": "172092",
     "scrapedAt": "2025-06-03T02:27:14.671Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9050869,
@@ -242,7 +242,7 @@
     "price": "197000",
     "scrapedAt": "2025-06-03T02:29:35.484Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.8416978,
@@ -291,7 +291,7 @@
     "price": "200000",
     "scrapedAt": "2025-06-03T02:29:35.487Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9050869,
@@ -343,7 +343,7 @@
     "price": "200000",
     "scrapedAt": "2025-06-03T02:30:45.818Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -20.2499754,
@@ -395,7 +395,7 @@
     "price": "240000",
     "scrapedAt": "2025-06-03T02:31:53.043Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.978375,
@@ -455,8 +455,8 @@
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748917979791_77",
@@ -496,7 +496,7 @@
     "price": "230000",
     "scrapedAt": "2025-06-03T02:32:59.791Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T00:17:04.616Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.977525,
@@ -505,7 +505,7 @@
       "walkingDistanceToCenter": 9.86
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748917979791_938",
@@ -548,7 +548,7 @@
     "price": "230000",
     "scrapedAt": "2025-06-03T02:32:59.791Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9050869,
@@ -609,7 +609,7 @@
       "walkingDistanceToCenter": 550.61
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918054820_368",
@@ -652,7 +652,7 @@
     "price": "240000",
     "scrapedAt": "2025-06-03T02:34:14.820Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -23.9596,
@@ -713,7 +713,7 @@
       "walkingDistanceToCenter": 1.11
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918054822_970",
@@ -764,8 +764,8 @@
       "distanceToCenter": 134.9,
       "walkingDistanceToCenter": 160.01
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748918054824_407",
@@ -808,7 +808,7 @@
     "price": "240000",
     "scrapedAt": "2025-06-03T02:34:14.824Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9427307,
@@ -869,7 +869,7 @@
       "walkingDistanceToCenter": 7.04
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918136174_383",
@@ -921,7 +921,7 @@
       "walkingDistanceToCenter": 623.83
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918136175_692",
@@ -961,7 +961,7 @@
     "price": "320000",
     "scrapedAt": "2025-06-03T02:35:36.175Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T00:17:04.616Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -20.2499754,
@@ -970,7 +970,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748918136176_471",
@@ -1022,7 +1022,7 @@
       "walkingDistanceToCenter": 2.72
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918136177_968",
@@ -1071,7 +1071,7 @@
       "walkingDistanceToCenter": 2.72
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918136178_836",
@@ -1123,7 +1123,7 @@
       "walkingDistanceToCenter": 46.59
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918223042_930",
@@ -1175,7 +1175,7 @@
       "walkingDistanceToCenter": 11.27
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918223047_607",
@@ -1227,7 +1227,7 @@
       "walkingDistanceToCenter": 784.05
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918359922_63",
@@ -1278,8 +1278,8 @@
       "distanceToCenter": 5.23,
       "walkingDistanceToCenter": 5.47
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748918359925_141",
@@ -1327,8 +1327,8 @@
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748918430588_605",
@@ -1380,7 +1380,7 @@
       "walkingDistanceToCenter": 682.28
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918430592_65",
@@ -1428,8 +1428,8 @@
       "distanceToCenter": 9.58,
       "walkingDistanceToCenter": 14.8
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748918430592_696",
@@ -1478,7 +1478,7 @@
       "walkingDistanceToCenter": 682.28
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918430594_686",
@@ -1529,8 +1529,8 @@
       "distanceToCenter": 67.39,
       "walkingDistanceToCenter": 79.67
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748919406423_342",
@@ -1579,7 +1579,7 @@
       "walkingDistanceToCenter": 15.85
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748919742190_787",
@@ -1631,7 +1631,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748919815091_403",
@@ -1683,7 +1683,7 @@
       "walkingDistanceToCenter": 550.61
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748919815095_99",
@@ -1735,7 +1735,7 @@
       "walkingDistanceToCenter": 160.01
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920114297_995",
@@ -1787,7 +1787,7 @@
       "walkingDistanceToCenter": 5.47
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920114298_929",
@@ -1836,7 +1836,7 @@
       "walkingDistanceToCenter": 15.85
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920183912_711",
@@ -1885,7 +1885,7 @@
       "walkingDistanceToCenter": 14.8
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920183913_209",
@@ -1934,7 +1934,7 @@
       "walkingDistanceToCenter": 682.28
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920183914_737",
@@ -1986,7 +1986,7 @@
       "walkingDistanceToCenter": 79.67
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920261249_369",
@@ -2038,7 +2038,7 @@
       "walkingDistanceToCenter": 7.04
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920261250_671",
@@ -2087,7 +2087,7 @@
       "walkingDistanceToCenter": 13.64
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920261251_322",
@@ -2136,7 +2136,7 @@
       "walkingDistanceToCenter": 15.82
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920261253_965",
@@ -2188,7 +2188,7 @@
       "walkingDistanceToCenter": 13.79
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920339418_536",
@@ -2240,7 +2240,7 @@
       "walkingDistanceToCenter": 10.63
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920339418_81",
@@ -2289,7 +2289,7 @@
       "walkingDistanceToCenter": 10.63
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920409546_458",
@@ -2338,7 +2338,7 @@
       "walkingDistanceToCenter": 34.85
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920409548_144",
@@ -2390,7 +2390,7 @@
       "walkingDistanceToCenter": 11.27
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920409549_351",
@@ -2439,7 +2439,7 @@
       "walkingDistanceToCenter": 10835.77
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920482915_224",
@@ -2488,7 +2488,7 @@
       "walkingDistanceToCenter": 11.05
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920548625_401",
@@ -2540,7 +2540,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920548627_38",
@@ -2592,7 +2592,7 @@
       "walkingDistanceToCenter": 4.72
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748920548631_584",
@@ -2641,7 +2641,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748926848922_108",
@@ -2684,16 +2684,16 @@
     "price": "222000",
     "scrapedAt": "2025-06-03T05:00:48.922Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748926848925_11",
@@ -2735,14 +2735,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.977525,
       "lon": -47.1022475,
       "distanceToCenter": 8.66,
       "walkingDistanceToCenter": 9.86
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748926926770_613",
@@ -2785,16 +2785,16 @@
     "price": "235000",
     "scrapedAt": "2025-06-03T05:02:06.770Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9151726,
       "lon": -47.0529305,
       "distanceToCenter": 0.86,
       "walkingDistanceToCenter": 1.11
-    }
+    },
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927004486_56",
@@ -2839,14 +2839,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9442298,
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927004486_664",
@@ -2888,14 +2888,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927004487_246",
@@ -2940,14 +2940,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.90993,
       "lon": -47.08055,
       "distanceToCenter": 2.16,
       "walkingDistanceToCenter": 2.72
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927004490_355",
@@ -2992,14 +2992,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -23.2109276,
       "lon": -47.2735047,
       "distanceToCenter": 39.96,
       "walkingDistanceToCenter": 46.59
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927089584_181",
@@ -3044,14 +3044,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -27.5990882,
       "lon": -48.61344571700498,
       "distanceToCenter": 544.27,
       "walkingDistanceToCenter": 784.05
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927224524_666",
@@ -3093,14 +3093,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.97514,
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927294266_409",
@@ -3142,14 +3142,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.89479,
       "lon": -47.15146,
       "distanceToCenter": 9.58,
       "walkingDistanceToCenter": 14.8
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927294272_937",
@@ -3194,14 +3194,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9442298,
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927294272_392",
@@ -3243,14 +3243,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927382987_408",
@@ -3295,14 +3295,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.945514000000003,
       "lon": -47.165998475725374,
       "distanceToCenter": 11.59,
       "walkingDistanceToCenter": 13.79
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927598741_258",
@@ -3344,14 +3344,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9858823,
       "lon": -47.1002923,
       "distanceToCenter": 9.38,
       "walkingDistanceToCenter": 11.05
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927668168_473",
@@ -3396,14 +3396,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927737882_401",
@@ -3445,14 +3445,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9617287,
       "lon": -47.0504887,
       "distanceToCenter": 5.79,
       "walkingDistanceToCenter": 6.75
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927737884_234",
@@ -3497,14 +3497,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.98797,
       "lon": -47.10104,
       "distanceToCenter": 9.63,
       "walkingDistanceToCenter": 11.19
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927737885_857",
@@ -3546,14 +3546,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.8876835,
       "lon": -47.02003641918954,
       "distanceToCenter": 4.76,
       "walkingDistanceToCenter": 5.83
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927737887_74",
@@ -3598,14 +3598,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.947889449999998,
       "lon": -47.16255568604536,
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927737888_708",
@@ -3647,14 +3647,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -10.1934964,
       "lon": -48.9000447,
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819302_732",
@@ -3699,14 +3699,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.8604977,
       "lon": -47.061465,
       "distanceToCenter": 5.54,
       "walkingDistanceToCenter": 6.6
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819306_90",
@@ -3748,14 +3748,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.53513,
       "lon": -44.16425,
       "distanceToCenter": 299.86,
       "walkingDistanceToCenter": 421.74
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819307_661",
@@ -3800,14 +3800,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.91179,
       "lon": -47.0854,
       "distanceToCenter": 2.66,
       "walkingDistanceToCenter": 3.34
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819307_222",
@@ -3852,14 +3852,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.8604977,
       "lon": -47.061465,
       "distanceToCenter": 5.54,
       "walkingDistanceToCenter": 6.6
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819307_332",
@@ -3904,14 +3904,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -23.0882,
       "lon": -47.19534636288603,
       "distanceToCenter": 24.18,
       "walkingDistanceToCenter": 28.47
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819308_576",
@@ -3956,14 +3956,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": 40.31489,
       "lon": -3.7834,
       "distanceToCenter": 8335.21,
       "walkingDistanceToCenter": 10835.77
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819308_826",
@@ -4008,14 +4008,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9442298,
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819308_888",
@@ -4060,14 +4060,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9729548,
       "lon": -47.1472696,
       "distanceToCenter": 11.37,
       "walkingDistanceToCenter": 12.46
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927819309_170",
@@ -4109,14 +4109,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.97545,
       "lon": -47.12655,
       "distanceToCenter": 9.98,
       "walkingDistanceToCenter": 11.27
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927916946_6",
@@ -4161,14 +4161,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.921701,
       "lon": -47.032312672195665,
       "distanceToCenter": 3.06,
       "walkingDistanceToCenter": 3.74
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927916948_10",
@@ -4213,14 +4213,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.95802,
       "lon": -47.19147,
       "distanceToCenter": 14.52,
       "walkingDistanceToCenter": 17.22
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927916950_12",
@@ -4262,14 +4262,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.8040126,
       "lon": -47.3100136,
       "distanceToCenter": 28.26,
       "walkingDistanceToCenter": 33.16
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927990763_275",
@@ -4314,14 +4314,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -10.1934964,
       "lon": -48.9000447,
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927990763_885",
@@ -4363,14 +4363,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927990768_110",
@@ -4415,14 +4415,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928065174_729",
@@ -4464,14 +4464,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -21.4593487,
       "lon": -47.0085588,
       "distanceToCenter": 161.42,
       "walkingDistanceToCenter": 202.5
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928065178_987",
@@ -4513,14 +4513,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.9427307,
       "lon": -47.1416499,
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928065181_710",
@@ -4565,14 +4565,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928065181_696",
@@ -4614,14 +4614,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.85864,
       "lon": -47.15535,
       "distanceToCenter": 11.38,
       "walkingDistanceToCenter": 16.32
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928065182_439",
@@ -4663,14 +4663,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -23.1876769,
       "lon": -46.8523369,
       "distanceToCenter": 37.42,
       "walkingDistanceToCenter": 41.77
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928146239_379",
@@ -4715,14 +4715,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.89538,
       "lon": -47.07403,
       "distanceToCenter": 2.23,
       "walkingDistanceToCenter": 2.44
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928146242_11",
@@ -4767,14 +4767,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.90352,
       "lon": -47.10594,
       "distanceToCenter": 4.82,
       "walkingDistanceToCenter": 5.45
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928146244_736",
@@ -4819,14 +4819,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -23.1876769,
       "lon": -46.8523369,
       "distanceToCenter": 37.42,
       "walkingDistanceToCenter": 41.77
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928146244_722",
@@ -4871,14 +4871,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.98797,
       "lon": -47.10104,
       "distanceToCenter": 9.63,
       "walkingDistanceToCenter": 11.19
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928146244_86",
@@ -4923,14 +4923,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.95802,
       "lon": -47.19147,
       "distanceToCenter": 14.52,
       "walkingDistanceToCenter": 17.22
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928146244_540",
@@ -4975,14 +4975,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -23.1876769,
       "lon": -46.8523369,
       "distanceToCenter": 37.42,
       "walkingDistanceToCenter": 41.77
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928146244_546",
@@ -5027,14 +5027,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928235848_423",
@@ -5076,14 +5076,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -20.2499754,
       "lon": -50.5556623,
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928235849_212",
@@ -5128,14 +5128,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.96844,
       "lon": -47.11624,
       "distanceToCenter": 8.69,
       "walkingDistanceToCenter": 9.92
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928235850_517",
@@ -5177,14 +5177,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -23.1876769,
       "lon": -46.8523369,
       "distanceToCenter": 37.42,
       "walkingDistanceToCenter": 41.77
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928235851_575",
@@ -5229,14 +5229,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.95802,
       "lon": -47.19147,
       "distanceToCenter": 14.52,
       "walkingDistanceToCenter": 17.22
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928235852_801",
@@ -5275,14 +5275,14 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.6830835,
       "lon": -47.6689696,
       "distanceToCenter": 67.39,
       "walkingDistanceToCenter": 79.67
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748928235855_982",
@@ -5327,13 +5327,319 @@
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
     "lastSeenAt": "2025-06-03T02:25:21.284Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.947889449999998,
       "lon": -47.16255568604536,
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
+  },
+  {
+    "id": "prop_1749012931468_634",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-conjunto-habitacional-residencial-olimpia-campinas-sp-105m2-id-2811247618/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Habitacional Residencial Olímpia, Campinas",
+    "description": [
+      {
+        "Image-img": "+7 fotos"
+      },
+      {
+        "Location": "Conjunto Habitacional Residencial Olímpia, Campinas"
+      },
+      {
+        "Street": "Rua do Hipismo"
+      },
+      {
+        "Tamanho do imóvel": "105 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Price": "R$ 150.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a30b263d39867ac4a934a13a5e86d962.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6e80439726a5acfd7189670a765980f8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9f601c3c8cb0713864009e4e6f43d8c7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/33e1c4e7ab87170e08c2cfc71983d57f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b92398ddbc3bff36894d3d28cf924fde.webp"
+    ],
+    "price": "150000",
+    "scrapedAt": "2025-06-04T04:55:31.468Z",
+    "firstSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.97514,
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
+    }
+  },
+  {
+    "id": "prop_1749013343885_351",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-monte-alto-campinas-sp-100m2-id-2805536594/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Monte Alto, Campinas",
+    "description": [
+      {
+        "Image-img": "+3 fotos"
+      },
+      {
+        "Location": "Jardim Monte Alto, Campinas"
+      },
+      {
+        "Street": "Rua Um"
+      },
+      {
+        "Tamanho do imóvel": "100 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 230.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/91aa8ca2b3c73b31f518c27ced108718.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2c642ce6d4a559dce980ba192cc4fb18.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1d438ca61ce8191358cea3c5a20f643e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b933049aad406727b629c0ccdc8366e4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/041e6c7c763b7c54d2c5cef0311c034c.webp"
+    ],
+    "price": "230000",
+    "scrapedAt": "2025-06-04T05:02:23.885Z",
+    "firstSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.1146923,
+      "lon": -51.4273927,
+      "distanceToCenter": 457.29,
+      "walkingDistanceToCenter": 550.61
+    }
+  },
+  {
+    "id": "prop_1749013425634_705",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-residencial-parque-sao-bento-campinas-sp-90m2-id-2725779665/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": [
+      {
+        "Image-img": "+1 fotos"
+      },
+      {
+        "Location": "Conjunto Residencial Parque São Bento, Campinas"
+      },
+      {
+        "Street": "Rua Júlio Roald Martin Jonsson"
+      },
+      {
+        "Tamanho do imóvel": "90 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 235.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c0ba581994732ad84e95f672a3a435c2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6dda561f5618bcbde3908c7cb93358bc.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/aac2c0705f09a46b5497269fc9bdabf8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d2d9255beada693d470edc7e5037e882.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9dea4cdc10a6dcfa8865372cb259cb99.webp"
+    ],
+    "price": "235000",
+    "scrapedAt": "2025-06-04T05:03:45.634Z",
+    "firstSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.9596,
+      "lon": -46.39586,
+      "distanceToCenter": 134.9,
+      "walkingDistanceToCenter": 160.01
+    }
+  },
+  {
+    "id": "prop_1749013425637_365",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-residencial-colina-das-nascentes-campinas-sp-126m2-id-2783282029/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Residencial Colina das Nascentes, Campinas",
+    "description": [
+      {
+        "Image-img": "+5 fotos"
+      },
+      {
+        "Location": "Residencial Colina das Nascentes, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "126 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 255.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ed3146a1010f72043a2ee16ac8a0420b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a696809cec78d5c9891cecc209a76b39.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bec42c213b11aae00230d333b4f16009.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7b581afb8040fa81373b4133fd7b168d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5348ea57a872089e05f674bd8211fc15.webp"
+    ],
+    "price": "255000",
+    "scrapedAt": "2025-06-04T05:03:45.637Z",
+    "firstSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.911,
+      "lon": -47.09605,
+      "distanceToCenter": 3.74,
+      "walkingDistanceToCenter": 4.43
+    }
+  },
+  {
+    "id": "prop_1749013425640_841",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-boa-vista-campinas-sp-125m2-id-2798368040/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Boa Vista, Campinas",
+    "description": [
+      {
+        "Image-img": "+4 fotos"
+      },
+      {
+        "Location": "Vila Boa Vista, Campinas"
+      },
+      {
+        "Street": "Rua das Aroeiras"
+      },
+      {
+        "Tamanho do imóvel": "125 m²"
+      },
+      {
+        "Quantidade de quartos": "2-3"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 250.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/62c9fd7b1742422853844fba064163ab.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/02cb67d4ab70358ff53c77b51677047b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0744b8ae889052a6b9961c57745e43de.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b57f8e3be1d1dafabb0283f24781a04b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c1765b43b3d0be4f44867f0c8451ef6a.webp"
+    ],
+    "price": "250000",
+    "scrapedAt": "2025-06-04T05:03:45.640Z",
+    "firstSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -11.6754759,
+      "lon": -51.382205,
+      "distanceToCenter": 1330.56,
+      "walkingDistanceToCenter": 623.83
+    }
+  },
+  {
+    "id": "prop_1749013425642_422",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-varanda-jardim-novo-campos-eliseos-campinas-sp-300m2-id-2805532982/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Novo Campos Elíseos, Campinas",
+    "description": [
+      {
+        "Image-img": "+16 fotos"
+      },
+      {
+        "Location": "Jardim Novo Campos Elíseos, Campinas"
+      },
+      {
+        "Street": "Rua Socorro"
+      },
+      {
+        "Tamanho do imóvel": "300 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 240.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/30f3d2fbc28a2a6def3ce0f6243b9d10.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0455ef17f71b8164a453657440b5c652.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2f0fd956ec155b05cfe4fc6f4e3730ea.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c2c3eb02f03230a04c08af20811bcb76.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3da6206eb4056d5f28a97c67165f908b.webp"
+    ],
+    "price": "240000",
+    "scrapedAt": "2025-06-04T05:03:45.642Z",
+    "firstSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9442298,
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
     }
   }
 ]
