@@ -40,7 +40,7 @@
     "price": "150000",
     "scrapedAt": "2025-06-03T02:26:07.665Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.7107885,
@@ -92,7 +92,7 @@
     "price": "150000",
     "scrapedAt": "2025-06-03T02:27:14.663Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.7107885,
@@ -150,7 +150,7 @@
       "walkingDistanceToCenter": 15.85
     },
     "__status": "removed",
-    "consecutiveMisses": 3
+    "consecutiveMisses": 4
   },
   {
     "id": "prop_1748917634671_776",
@@ -190,7 +190,7 @@
     "price": "172092",
     "scrapedAt": "2025-06-03T02:27:14.671Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9050869,
@@ -242,7 +242,7 @@
     "price": "197000",
     "scrapedAt": "2025-06-03T02:29:35.484Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.8416978,
@@ -300,7 +300,7 @@
       "walkingDistanceToCenter": 0.72
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748917845818_970",
@@ -343,7 +343,7 @@
     "price": "200000",
     "scrapedAt": "2025-06-03T02:30:45.818Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -20.2499754,
@@ -395,7 +395,7 @@
     "price": "240000",
     "scrapedAt": "2025-06-03T02:31:53.043Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.978375,
@@ -456,7 +456,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "removed",
-    "consecutiveMisses": 3
+    "consecutiveMisses": 4
   },
   {
     "id": "prop_1748917979791_77",
@@ -496,7 +496,7 @@
     "price": "230000",
     "scrapedAt": "2025-06-03T02:32:59.791Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.977525,
@@ -557,7 +557,7 @@
       "walkingDistanceToCenter": 0.72
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918054818_811",
@@ -600,7 +600,7 @@
     "price": "230000",
     "scrapedAt": "2025-06-03T02:34:14.818Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.1146923,
@@ -609,7 +609,7 @@
       "walkingDistanceToCenter": 550.61
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748918054820_368",
@@ -661,7 +661,7 @@
       "walkingDistanceToCenter": 160.01
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748918054821_584",
@@ -712,8 +712,8 @@
       "distanceToCenter": 0.86,
       "walkingDistanceToCenter": 1.11
     },
-    "__status": "updated",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748918054822_970",
@@ -765,7 +765,7 @@
       "walkingDistanceToCenter": 160.01
     },
     "__status": "removed",
-    "consecutiveMisses": 3
+    "consecutiveMisses": 4
   },
   {
     "id": "prop_1748918054824_407",
@@ -808,7 +808,7 @@
     "price": "240000",
     "scrapedAt": "2025-06-03T02:34:14.824Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9427307,
@@ -860,7 +860,7 @@
     "price": "240000",
     "scrapedAt": "2025-06-03T02:35:36.173Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T00:17:04.616Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9442298,
@@ -869,7 +869,7 @@
       "walkingDistanceToCenter": 7.04
     },
     "__status": "updated",
-    "consecutiveMisses": 2
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748918136174_383",
@@ -921,7 +921,7 @@
       "walkingDistanceToCenter": 623.83
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918136175_692",
@@ -961,7 +961,7 @@
     "price": "320000",
     "scrapedAt": "2025-06-03T02:35:36.175Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -20.2499754,
@@ -1013,7 +1013,7 @@
     "price": "245000",
     "scrapedAt": "2025-06-03T02:35:36.176Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T00:17:04.616Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.90993,
@@ -1022,7 +1022,7 @@
       "walkingDistanceToCenter": 2.72
     },
     "__status": "updated",
-    "consecutiveMisses": 2
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748918136177_968",
@@ -1071,7 +1071,7 @@
       "walkingDistanceToCenter": 2.72
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918136178_836",
@@ -1122,8 +1122,8 @@
       "distanceToCenter": 39.96,
       "walkingDistanceToCenter": 46.59
     },
-    "__status": "updated",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748918223042_930",
@@ -1166,7 +1166,7 @@
     "price": "270000",
     "scrapedAt": "2025-06-03T02:37:03.042Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.97545,
@@ -1175,7 +1175,7 @@
       "walkingDistanceToCenter": 11.27
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748918223047_607",
@@ -1218,7 +1218,7 @@
     "price": "250000",
     "scrapedAt": "2025-06-03T02:37:03.047Z",
     "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-06-03T00:17:04.616Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -27.5990882,
@@ -1227,7 +1227,7 @@
       "walkingDistanceToCenter": 784.05
     },
     "__status": "updated",
-    "consecutiveMisses": 2
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748918359922_63",
@@ -1279,7 +1279,7 @@
       "walkingDistanceToCenter": 5.47
     },
     "__status": "removed",
-    "consecutiveMisses": 3
+    "consecutiveMisses": 4
   },
   {
     "id": "prop_1748918359925_141",
@@ -1328,7 +1328,7 @@
       "walkingDistanceToCenter": 15.85
     },
     "__status": "removed",
-    "consecutiveMisses": 3
+    "consecutiveMisses": 4
   },
   {
     "id": "prop_1748918430588_605",
@@ -1380,7 +1380,7 @@
       "walkingDistanceToCenter": 682.28
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918430592_65",
@@ -1429,7 +1429,7 @@
       "walkingDistanceToCenter": 14.8
     },
     "__status": "removed",
-    "consecutiveMisses": 3
+    "consecutiveMisses": 4
   },
   {
     "id": "prop_1748918430592_696",
@@ -1478,7 +1478,7 @@
       "walkingDistanceToCenter": 682.28
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748918430594_686",
@@ -1530,7 +1530,7 @@
       "walkingDistanceToCenter": 79.67
     },
     "__status": "removed",
-    "consecutiveMisses": 3
+    "consecutiveMisses": 4
   },
   {
     "id": "prop_1748919406423_342",
@@ -1578,8 +1578,8 @@
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748919742190_787",
@@ -1630,8 +1630,8 @@
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748919815091_403",
@@ -1682,8 +1682,8 @@
       "distanceToCenter": 457.29,
       "walkingDistanceToCenter": 550.61
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748919815095_99",
@@ -1726,7 +1726,7 @@
     "price": "235000",
     "scrapedAt": "2025-06-03T03:03:35.095Z",
     "firstSeenAt": "2025-06-03T00:17:04.616Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -23.9596,
@@ -1735,7 +1735,7 @@
       "walkingDistanceToCenter": 160.01
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748920114297_995",
@@ -1778,7 +1778,7 @@
     "price": "250000",
     "scrapedAt": "2025-06-03T03:08:34.297Z",
     "firstSeenAt": "2025-06-03T00:17:04.616Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.89155,
@@ -1787,7 +1787,7 @@
       "walkingDistanceToCenter": 5.47
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748920114298_929",
@@ -1835,8 +1835,8 @@
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748920183912_711",
@@ -1884,8 +1884,8 @@
       "distanceToCenter": 9.58,
       "walkingDistanceToCenter": 14.8
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748920183913_209",
@@ -1933,8 +1933,8 @@
       "distanceToCenter": 701.73,
       "walkingDistanceToCenter": 682.28
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748920183914_737",
@@ -1986,7 +1986,7 @@
       "walkingDistanceToCenter": 79.67
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920261249_369",
@@ -2037,8 +2037,8 @@
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748920261250_671",
@@ -2078,7 +2078,7 @@
     "price": "260801",
     "scrapedAt": "2025-06-03T03:11:01.250Z",
     "firstSeenAt": "2025-06-03T00:17:04.616Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.947889449999998,
@@ -2087,7 +2087,7 @@
       "walkingDistanceToCenter": 13.64
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748920261251_322",
@@ -2127,7 +2127,7 @@
     "price": "262000",
     "scrapedAt": "2025-06-03T03:11:01.251Z",
     "firstSeenAt": "2025-06-03T00:17:04.616Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.947181999999998,
@@ -2136,7 +2136,7 @@
       "walkingDistanceToCenter": 15.82
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748920261253_965",
@@ -2187,8 +2187,8 @@
       "distanceToCenter": 11.59,
       "walkingDistanceToCenter": 13.79
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748920339418_536",
@@ -2231,7 +2231,7 @@
     "price": "275000",
     "scrapedAt": "2025-06-03T03:12:19.418Z",
     "firstSeenAt": "2025-06-03T00:17:04.616Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9427307,
@@ -2240,7 +2240,7 @@
       "walkingDistanceToCenter": 10.63
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748920339418_81",
@@ -2289,7 +2289,7 @@
       "walkingDistanceToCenter": 10.63
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920409546_458",
@@ -2338,7 +2338,7 @@
       "walkingDistanceToCenter": 34.85
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920409548_144",
@@ -2390,7 +2390,7 @@
       "walkingDistanceToCenter": 11.27
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920409549_351",
@@ -2430,7 +2430,7 @@
     "price": "270000",
     "scrapedAt": "2025-06-03T03:13:29.549Z",
     "firstSeenAt": "2025-06-03T00:17:04.616Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": 40.31489,
@@ -2439,7 +2439,7 @@
       "walkingDistanceToCenter": 10835.77
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748920482915_224",
@@ -2487,8 +2487,8 @@
       "distanceToCenter": 9.38,
       "walkingDistanceToCenter": 11.05
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748920548625_401",
@@ -2531,7 +2531,7 @@
     "price": "270000",
     "scrapedAt": "2025-06-03T03:15:48.625Z",
     "firstSeenAt": "2025-06-03T00:17:04.616Z",
-    "lastSeenAt": "2025-06-03T00:17:04.616Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -20.2499754,
@@ -2539,8 +2539,8 @@
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748920548627_38",
@@ -2592,7 +2592,7 @@
       "walkingDistanceToCenter": 4.72
     },
     "__status": "updated",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748920548631_584",
@@ -2640,8 +2640,8 @@
       "distanceToCenter": 467.07,
       "walkingDistanceToCenter": 537.73
     },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "__status": "removed",
+    "consecutiveMisses": 3
   },
   {
     "id": "prop_1748926848922_108",
@@ -2693,7 +2693,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748926848925_11",
@@ -2742,7 +2742,7 @@
       "walkingDistanceToCenter": 9.86
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748926926770_613",
@@ -2794,7 +2794,7 @@
       "walkingDistanceToCenter": 1.11
     },
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1748927004486_56",
@@ -2846,7 +2846,7 @@
       "walkingDistanceToCenter": 7.04
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927004486_664",
@@ -2895,7 +2895,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927004487_246",
@@ -2947,7 +2947,7 @@
       "walkingDistanceToCenter": 2.72
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927004490_355",
@@ -2999,7 +2999,7 @@
       "walkingDistanceToCenter": 46.59
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927089584_181",
@@ -3051,7 +3051,7 @@
       "walkingDistanceToCenter": 784.05
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927224524_666",
@@ -3100,7 +3100,7 @@
       "walkingDistanceToCenter": 15.85
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927294266_409",
@@ -3149,7 +3149,7 @@
       "walkingDistanceToCenter": 14.8
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927294272_937",
@@ -3201,7 +3201,7 @@
       "walkingDistanceToCenter": 7.04
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927294272_392",
@@ -3241,7 +3241,7 @@
     "price": "260000",
     "scrapedAt": "2025-06-03T05:08:14.272Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.9427307,
@@ -3249,8 +3249,8 @@
       "distanceToCenter": 9.15,
       "walkingDistanceToCenter": 10.63
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927382987_408",
@@ -3302,7 +3302,7 @@
       "walkingDistanceToCenter": 13.79
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927598741_258",
@@ -3351,7 +3351,7 @@
       "walkingDistanceToCenter": 11.05
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927668168_473",
@@ -3403,7 +3403,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927737882_401",
@@ -3452,7 +3452,7 @@
       "walkingDistanceToCenter": 6.75
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927737884_234",
@@ -3504,7 +3504,7 @@
       "walkingDistanceToCenter": 11.19
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927737885_857",
@@ -3544,7 +3544,7 @@
     "price": "279160",
     "scrapedAt": "2025-06-03T05:15:37.885Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.8876835,
@@ -3552,8 +3552,8 @@
       "distanceToCenter": 4.76,
       "walkingDistanceToCenter": 5.83
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927737887_74",
@@ -3596,7 +3596,7 @@
     "price": "280000",
     "scrapedAt": "2025-06-03T05:15:37.887Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.947889449999998,
@@ -3604,8 +3604,8 @@
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927737888_708",
@@ -3654,7 +3654,7 @@
       "walkingDistanceToCenter": 1039.17
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927819302_732",
@@ -3697,7 +3697,7 @@
     "price": "280000",
     "scrapedAt": "2025-06-03T05:16:59.302Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.8604977,
@@ -3705,8 +3705,8 @@
       "distanceToCenter": 5.54,
       "walkingDistanceToCenter": 6.6
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927819306_90",
@@ -3755,7 +3755,7 @@
       "walkingDistanceToCenter": 421.74
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927819307_661",
@@ -3807,7 +3807,7 @@
       "walkingDistanceToCenter": 3.34
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927819307_222",
@@ -3859,7 +3859,7 @@
       "walkingDistanceToCenter": 6.6
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927819307_332",
@@ -3911,7 +3911,7 @@
       "walkingDistanceToCenter": 28.47
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927819308_576",
@@ -3954,7 +3954,7 @@
     "price": "290000",
     "scrapedAt": "2025-06-03T05:16:59.308Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": 40.31489,
@@ -3962,8 +3962,8 @@
       "distanceToCenter": 8335.21,
       "walkingDistanceToCenter": 10835.77
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927819308_826",
@@ -4015,7 +4015,7 @@
       "walkingDistanceToCenter": 7.04
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927819308_888",
@@ -4067,7 +4067,7 @@
       "walkingDistanceToCenter": 12.46
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927819309_170",
@@ -4107,7 +4107,7 @@
     "price": "280000",
     "scrapedAt": "2025-06-03T05:16:59.309Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.97545,
@@ -4115,8 +4115,8 @@
       "distanceToCenter": 9.98,
       "walkingDistanceToCenter": 11.27
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927916946_6",
@@ -4168,7 +4168,7 @@
       "walkingDistanceToCenter": 3.74
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927916948_10",
@@ -4211,7 +4211,7 @@
     "price": "310000",
     "scrapedAt": "2025-06-03T05:18:36.948Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.95802,
@@ -4219,8 +4219,8 @@
       "distanceToCenter": 14.52,
       "walkingDistanceToCenter": 17.22
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927916950_12",
@@ -4269,7 +4269,7 @@
       "walkingDistanceToCenter": 33.16
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927990763_275",
@@ -4312,7 +4312,7 @@
     "price": "280000",
     "scrapedAt": "2025-06-03T05:19:50.763Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -10.1934964,
@@ -4320,8 +4320,8 @@
       "distanceToCenter": 1427.52,
       "walkingDistanceToCenter": 1039.17
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748927990763_885",
@@ -4370,7 +4370,7 @@
       "walkingDistanceToCenter": 10.63
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748927990768_110",
@@ -4422,7 +4422,7 @@
       "walkingDistanceToCenter": 10.63
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928065174_729",
@@ -4462,7 +4462,7 @@
     "price": "287000",
     "scrapedAt": "2025-06-03T05:21:05.174Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -21.4593487,
@@ -4470,8 +4470,8 @@
       "distanceToCenter": 161.42,
       "walkingDistanceToCenter": 202.5
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748928065178_987",
@@ -4520,7 +4520,7 @@
       "walkingDistanceToCenter": 10.63
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928065181_710",
@@ -4572,7 +4572,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928065181_696",
@@ -4621,7 +4621,7 @@
       "walkingDistanceToCenter": 16.32
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928065182_439",
@@ -4661,7 +4661,7 @@
     "price": "290000",
     "scrapedAt": "2025-06-03T05:21:05.182Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -23.1876769,
@@ -4669,8 +4669,8 @@
       "distanceToCenter": 37.42,
       "walkingDistanceToCenter": 41.77
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748928146239_379",
@@ -4713,7 +4713,7 @@
     "price": "290000",
     "scrapedAt": "2025-06-03T05:22:26.239Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.89538,
@@ -4721,8 +4721,8 @@
       "distanceToCenter": 2.23,
       "walkingDistanceToCenter": 2.44
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748928146242_11",
@@ -4765,7 +4765,7 @@
     "price": "290000",
     "scrapedAt": "2025-06-03T05:22:26.242Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.90352,
@@ -4773,8 +4773,8 @@
       "distanceToCenter": 4.82,
       "walkingDistanceToCenter": 5.45
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748928146244_736",
@@ -4826,7 +4826,7 @@
       "walkingDistanceToCenter": 41.77
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928146244_722",
@@ -4878,7 +4878,7 @@
       "walkingDistanceToCenter": 11.19
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928146244_86",
@@ -4921,7 +4921,7 @@
     "price": "295000",
     "scrapedAt": "2025-06-03T05:22:26.244Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.95802,
@@ -4929,8 +4929,8 @@
       "distanceToCenter": 14.52,
       "walkingDistanceToCenter": 17.22
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748928146244_540",
@@ -4982,7 +4982,7 @@
       "walkingDistanceToCenter": 41.77
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928146244_546",
@@ -5034,7 +5034,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928235848_423",
@@ -5083,7 +5083,7 @@
       "walkingDistanceToCenter": 537.73
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928235849_212",
@@ -5126,7 +5126,7 @@
     "price": "390000",
     "scrapedAt": "2025-06-03T05:23:55.849Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.96844,
@@ -5134,8 +5134,8 @@
       "distanceToCenter": 8.69,
       "walkingDistanceToCenter": 9.92
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748928235850_517",
@@ -5184,7 +5184,7 @@
       "walkingDistanceToCenter": 41.77
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928235851_575",
@@ -5227,7 +5227,7 @@
     "price": "320000",
     "scrapedAt": "2025-06-03T05:23:55.851Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.95802,
@@ -5235,8 +5235,8 @@
       "distanceToCenter": 14.52,
       "walkingDistanceToCenter": 17.22
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1748928235852_801",
@@ -5282,7 +5282,7 @@
       "walkingDistanceToCenter": 79.67
     },
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1748928235855_982",
@@ -5325,7 +5325,7 @@
     "price": "320000",
     "scrapedAt": "2025-06-03T05:23:55.855Z",
     "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-06-03T02:25:21.284Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
     "coords": {
       "lat": -22.947889449999998,
@@ -5333,8 +5333,8 @@
       "distanceToCenter": 11.35,
       "walkingDistanceToCenter": 13.64
     },
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1749012931468_634",
@@ -5376,14 +5376,14 @@
     "firstSeenAt": "2025-06-04T02:05:21.899Z",
     "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.97514,
       "lon": -47.18103,
       "distanceToCenter": 14.38,
       "walkingDistanceToCenter": 15.85
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1749013343885_351",
@@ -5428,14 +5428,14 @@
     "firstSeenAt": "2025-06-04T02:05:21.899Z",
     "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.1146923,
       "lon": -51.4273927,
       "distanceToCenter": 457.29,
       "walkingDistanceToCenter": 550.61
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1749013425634_705",
@@ -5480,14 +5480,14 @@
     "firstSeenAt": "2025-06-04T02:05:21.899Z",
     "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -23.9596,
       "lon": -46.39586,
       "distanceToCenter": 134.9,
       "walkingDistanceToCenter": 160.01
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1749013425637_365",
@@ -5527,16 +5527,16 @@
     "price": "255000",
     "scrapedAt": "2025-06-04T05:03:45.637Z",
     "firstSeenAt": "2025-06-04T02:05:21.899Z",
-    "lastSeenAt": "2025-06-04T02:05:21.899Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -22.911,
       "lon": -47.09605,
       "distanceToCenter": 3.74,
       "walkingDistanceToCenter": 4.43
-    }
+    },
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1749013425640_841",
@@ -5581,14 +5581,14 @@
     "firstSeenAt": "2025-06-04T02:05:21.899Z",
     "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
     "coords": {
       "lat": -11.6754759,
       "lon": -51.382205,
       "distanceToCenter": 1330.56,
       "walkingDistanceToCenter": 623.83
-    }
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1749013425642_422",
@@ -5633,6 +5633,820 @@
     "firstSeenAt": "2025-06-04T02:05:21.899Z",
     "lastSeenAt": "2025-06-04T02:05:21.899Z",
     "hasDuplicates": true,
+    "coords": {
+      "lat": -22.9442298,
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
+    },
+    "__status": "added",
+    "consecutiveMisses": 1
+  },
+  {
+    "id": "prop_1749099277795_517",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-conjunto-habitacional-residencial-olimpia-campinas-sp-105m2-id-2811236343/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Habitacional Residencial Olímpia, Campinas",
+    "description": [
+      {
+        "Image-img": "+7 fotos"
+      },
+      {
+        "Location": "Conjunto Habitacional Residencial Olímpia, Campinas"
+      },
+      {
+        "Street": "Rua do Hipismo"
+      },
+      {
+        "Tamanho do imóvel": "105 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Price": "R$ 150.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a30b263d39867ac4a934a13a5e86d962.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6e80439726a5acfd7189670a765980f8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9f601c3c8cb0713864009e4e6f43d8c7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/33e1c4e7ab87170e08c2cfc71983d57f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b92398ddbc3bff36894d3d28cf924fde.webp"
+    ],
+    "price": "150000",
+    "scrapedAt": "2025-06-05T04:54:37.795Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.97514,
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
+    }
+  },
+  {
+    "id": "prop_1749099479474_192",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-centro-campinas-sp-51m2-id-2806612219/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Centro, Campinas",
+    "description": [
+      {
+        "Image-img": "+10 fotos"
+      },
+      {
+        "Location": "Centro, Campinas"
+      },
+      {
+        "Street": "Rua Luzitana"
+      },
+      {
+        "Tamanho do imóvel": "51 m²"
+      },
+      {
+        "Quantidade de quartos": "1"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 200.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cd7f219ca3172747b5cdebd6f5121ee0.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e480fd1d42fe5d22a7c43183d73400c4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f68391cdad57276e3439e5b5a1d8ff90.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6ae21e0b49320936ffbe52ad9585e5c2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/86c6bcf3c00d854ef6c8877392355f9c.webp"
+    ],
+    "price": "200000",
+    "scrapedAt": "2025-06-05T04:57:59.474Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9050869,
+      "lon": -47.0600751,
+      "distanceToCenter": 0.58,
+      "walkingDistanceToCenter": 0.72
+    }
+  },
+  {
+    "id": "prop_1749099618122_44",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-loteamento-residencial-novo-mundo-campinas-sp-75m2-id-2704420460/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": [
+      {
+        "Image-img": "+18 fotos"
+      },
+      {
+        "Location": "Loteamento Residencial Novo Mundo, Campinas"
+      },
+      {
+        "Street": "Rua Moacyr Egydio Penteado"
+      },
+      {
+        "Tamanho do imóvel": "75 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 222.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b1274669aea95aae6fb59d1a320c3f4b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a59b9e6ebd00b45886d0a0026c2a7cbb.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/02fe8836866ec9874d6ed3cca66eeaab.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/53e424a96383c34db648de342f29f227.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b0b11c41ffa93f6ea6ad19bb01cf0e2.webp"
+    ],
+    "price": "222000",
+    "scrapedAt": "2025-06-05T05:00:18.122Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
+    }
+  },
+  {
+    "id": "prop_1749099687714_424",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-centro-campinas-sp-126m2-id-2767719140/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Centro, Campinas",
+    "description": [
+      {
+        "Image-img": "+22 fotos"
+      },
+      {
+        "Location": "Centro, Campinas"
+      },
+      {
+        "Street": "Rua Álvares Machado"
+      },
+      {
+        "Tamanho do imóvel": "126 m²"
+      },
+      {
+        "Quantidade de quartos": "3"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 230.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/557118b8490b252af5db5bb03b709ad5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dc360576380f3de730f10e97c3847451.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f8300ab9edd511ab88bb27b23c859adf.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bb98bd83707523f8be327d9381923093.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/db060287e68e735c8c6be2288e9d66cb.webp"
+    ],
+    "price": "230000",
+    "scrapedAt": "2025-06-05T05:01:27.714Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9050869,
+      "lon": -47.0600751,
+      "distanceToCenter": 0.58,
+      "walkingDistanceToCenter": 0.72
+    }
+  },
+  {
+    "id": "prop_1749099687718_190",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-residencial-parque-sao-bento-campinas-sp-90m2-id-2765065250/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": [
+      {
+        "Image-img": "+13 fotos"
+      },
+      {
+        "Location": "Conjunto Residencial Parque São Bento, Campinas"
+      },
+      {
+        "Street": "Rua Doutor Eraldo Liner"
+      },
+      {
+        "Tamanho do imóvel": "90 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "3"
+      },
+      {
+        "Quantidade de vagas de garagem": "3"
+      },
+      {
+        "Price": "R$ 240.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/599654981a689d994103097f74beeaae.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/098c5cc4bc35caa60942c5e054f25d0b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/624abf49b41cd77c0d4fdeec42214d6d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/615c46d365dbf02ec0e372f8dfafb03b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/401dfc8b6f32717e9c6e6611f5cffc18.webp"
+    ],
+    "price": "240000",
+    "scrapedAt": "2025-06-05T05:01:27.718Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.9596,
+      "lon": -46.39586,
+      "distanceToCenter": 134.9,
+      "walkingDistanceToCenter": 160.01
+    }
+  },
+  {
+    "id": "prop_1749099687720_856",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-ponte-preta-campinas-sp-76m2-id-2767721233/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Ponte Preta, Campinas",
+    "description": [
+      {
+        "Image-img": "+7 fotos"
+      },
+      {
+        "Location": "Ponte Preta, Campinas"
+      },
+      {
+        "Street": "Rua Álvaro Ribeiro"
+      },
+      {
+        "Tamanho do imóvel": "76 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 235.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2264c46cf89f84d34a81e6e97d2b8764.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/367deab78207def055d8408ee857207d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7657bcc5219dc656c57074e4f9e920c1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/43ae29a2a64c3863c79f0e9b7ca19c60.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a157618ac444f4539cb046ac9ccc6730.webp"
+    ],
+    "price": "235000",
+    "scrapedAt": "2025-06-05T05:01:27.720Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9151726,
+      "lon": -47.0529305,
+      "distanceToCenter": 0.86,
+      "walkingDistanceToCenter": 1.11
+    }
+  },
+  {
+    "id": "prop_1749099769432_296",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-boa-vista-campinas-sp-125m2-id-2807545143/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Boa Vista, Campinas",
+    "description": [
+      {
+        "Image-img": "+5 fotos"
+      },
+      {
+        "Location": "Vila Boa Vista, Campinas"
+      },
+      {
+        "Street": "Rua das Aroeiras"
+      },
+      {
+        "Tamanho do imóvel": "125 m²"
+      },
+      {
+        "Quantidade de quartos": "2-3"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 240.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/68a3592f022db6c32225597cf0fa2bff.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b81da9a019be852a9f8347aa5ac6d5e0.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ffa6397fcdcea71dc14ad518db47306a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/60aafb7b111eb8d7e5da3fd3f8d45ded.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1cd0f6a0e45ecd08f296774acbe2da91.webp"
+    ],
+    "price": "240000",
+    "scrapedAt": "2025-06-05T05:02:49.432Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -11.6754759,
+      "lon": -51.382205,
+      "distanceToCenter": 1330.56,
+      "walkingDistanceToCenter": 623.83
+    }
+  },
+  {
+    "id": "prop_1749099850858_129",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-trinta-e-um-de-marco-campinas-sp-95m2-id-2780761822/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Trinta e Um de Março, Campinas",
+    "description": [
+      {
+        "Image-img": "+16 fotos"
+      },
+      {
+        "Location": "Vila Trinta e Um de Março, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "95 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "4"
+      },
+      {
+        "Price": "R$ 245.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ecd70eb1e798f6b3adca6a6ea7af8615.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/26f1753d252ac50713dcd6cbb70c0880.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/42f293a47ef4075217cceabe20dcc090.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a42c0c83f273af57947177f990b63f1f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e032f9856d8cec1bab3633c3e570b684.webp"
+    ],
+    "price": "245000",
+    "scrapedAt": "2025-06-05T05:04:10.858Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.90993,
+      "lon": -47.08055,
+      "distanceToCenter": 2.16,
+      "walkingDistanceToCenter": 2.72
+    }
+  },
+  {
+    "id": "prop_1749099850858_502",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-churrasqueira-jardim-santa-rita-de-cassia-campinas-sp-300m2-id-2811246682/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Núcleo Residencial Jardim Santa Marta, Campinas",
+    "description": [
+      {
+        "Image-img": "+17 fotos"
+      },
+      {
+        "Location": "Núcleo Residencial Jardim Santa Marta, Campinas"
+      },
+      {
+        "Street": "Rua Projetada 1"
+      },
+      {
+        "Tamanho do imóvel": "300 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "6"
+      },
+      {
+        "Price": "R$ 245.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/68d1e123d9696f690d8cc1a110957ced.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9b851df5410b65047e2f39b684b2ee64.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8abd6192046cceef2727d9795675c1cf.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/50a28ffff2e24451da6d3df928267cfb.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8d2b494cc55bae6612fc0e6bd610d5fe.webp"
+    ],
+    "price": "245000",
+    "scrapedAt": "2025-06-05T05:04:10.858Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.2109276,
+      "lon": -47.2735047,
+      "distanceToCenter": 39.96,
+      "walkingDistanceToCenter": 46.59
+    }
+  },
+  {
+    "id": "prop_1749100063648_489",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-residencial-olimpia-campinas-sp-90m2-id-2805509997/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Habitacional Residencial Olímpia, Campinas",
+    "description": [
+      {
+        "Image-img": "+5 fotos"
+      },
+      {
+        "Location": "Conjunto Habitacional Residencial Olímpia, Campinas"
+      },
+      {
+        "Street": "Rua da Maratona"
+      },
+      {
+        "Tamanho do imóvel": "90 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 255.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fd9ab16b95fbf9a987f09a71df8c21c9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b1c412bf1eca8c789a2be78ac184d670.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1c98046ab2761b6e9de0b1d1746315c3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f70d2ec7f830ad921c02a7518c401298.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6feb1179ae8f655e835c7b4545c969de.webp"
+    ],
+    "price": "255000",
+    "scrapedAt": "2025-06-05T05:07:43.648Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.97514,
+      "lon": -47.18103,
+      "distanceToCenter": 14.38,
+      "walkingDistanceToCenter": 15.85
+    }
+  },
+  {
+    "id": "prop_1749100063653_874",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-parque-da-floresta-campinas-sp-108m2-id-2797050919/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
+    "description": [
+      {
+        "Image-img": "+24 fotos"
+      },
+      {
+        "Location": "Conjunto Habitacional Parque da Floresta, Campinas"
+      },
+      {
+        "Street": "Rua Maria Francisca Meirelles Mello"
+      },
+      {
+        "Tamanho do imóvel": "108 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 260.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8c2c3a6da807a589ac1ca6497de432f8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1cfef88d62d97e76f96cb22f7213cbe3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d682320cf5616befaa0d1ec3a551df73.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b9a880aa5e5791e410601239c954e458.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b53489f793f762828c6c80aa1102bb3a.webp"
+    ],
+    "price": "260000",
+    "scrapedAt": "2025-06-05T05:07:43.653Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -18.83529,
+      "lon": -41.9005,
+      "distanceToCenter": 701.73,
+      "walkingDistanceToCenter": 682.28
+    }
+  },
+  {
+    "id": "prop_1749100063656_781",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-parque-fazendinha-campinas-sp-400m2-id-2805532332/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Parque Fazendinha, Campinas",
+    "description": [
+      {
+        "Image-img": "+26 fotos"
+      },
+      {
+        "Location": "Parque Fazendinha, Campinas"
+      },
+      {
+        "Street": "Rua Luci Camargo Erbolato"
+      },
+      {
+        "Tamanho do imóvel": "400 m²"
+      },
+      {
+        "Quantidade de quartos": "1"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 260.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7cd31928add11129b6ec3c35a8a488e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/813292bdd320d9a24e00105bbdb610af.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/444f46330e714543929e23490b0f1e52.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a35c12fefb0af7fc1e3e3ca5d6af7bd7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4509e8132e15690f03cd51dd50e1fa95.webp"
+    ],
+    "price": "260000",
+    "scrapedAt": "2025-06-05T05:07:43.656Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.89479,
+      "lon": -47.15146,
+      "distanceToCenter": 9.58,
+      "walkingDistanceToCenter": 14.8
+    }
+  },
+  {
+    "id": "prop_1749100137421_389",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-conjunto-habitacional-parque-da-floresta-campinas-sp-78m2-id-2752199105/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
+    "description": [
+      {
+        "Image-img": "+20 fotos"
+      },
+      {
+        "Location": "Conjunto Habitacional Parque da Floresta, Campinas"
+      },
+      {
+        "Street": "Rua Maria Francisca Meirelles Mello"
+      },
+      {
+        "Tamanho do imóvel": "78 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 260.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/47456389c338e43c2845da1cdd7efec3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/15ab99f8968b4d4377947703a7fb9a46.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f2c294edd6e1ae7624ecd859d4e6e2ff.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/66b893151d4a9e41b79dc54b322852f3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7d24a1a1b71d51b7805a845dca790fef.webp"
+    ],
+    "price": "260000",
+    "scrapedAt": "2025-06-05T05:08:57.421Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -18.83529,
+      "lon": -41.9005,
+      "distanceToCenter": 701.73,
+      "walkingDistanceToCenter": 682.28
+    }
+  },
+  {
+    "id": "prop_1749100137422_87",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-industrial-campinas-sp-96m2-id-2793415930/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Industrial, Campinas",
+    "description": [
+      {
+        "Image-img": "+20 fotos"
+      },
+      {
+        "Location": "Vila Industrial, Campinas"
+      },
+      {
+        "Street": "Rua Catanduva"
+      },
+      {
+        "Tamanho do imóvel": "96 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2-3"
+      },
+      {
+        "Price": "R$ 300.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4f4d8ffe041cebcdc2794f6dcffb1520.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9b5a571fc572c15879014f4d9d984693.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c2a9d29991c45aed59921a248b1f2bc4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a7efb45ee327353abfed7a1039c65d64.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/133adf31f772e2806c0c1a615e4b46a2.webp"
+    ],
+    "price": "300000",
+    "scrapedAt": "2025-06-05T05:08:57.422Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.6830835,
+      "lon": -47.6689696,
+      "distanceToCenter": 67.39,
+      "walkingDistanceToCenter": 79.67
+    }
+  },
+  {
+    "id": "prop_1749100137422_403",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-interfone-residencial-cosmos-campinas-sp-42m2-id-2811024201/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Residencial Cosmos, Campinas",
+    "description": [
+      {
+        "Image-img": "+5 fotos"
+      },
+      {
+        "Location": "Residencial Cosmos, Campinas"
+      },
+      {
+        "Street": "Rua Rodolfo de Carvalho Troiano"
+      },
+      {
+        "Tamanho do imóvel": "42 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "0-1"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/85b71e158dfa5127b3f0b37f87910422.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a2e7284920d74581fe17c57a3a039a18.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/21a180ba88699a0d089edc713ce8a6a8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fc55add6aa0b3c7d10f08d09c6a84096.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9c8d86335852e87aa61ae74b1e7898ab.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:08:57.422Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.947889449999998,
+      "lon": -47.16255568604536,
+      "distanceToCenter": 11.35,
+      "walkingDistanceToCenter": 13.64
+    }
+  },
+  {
+    "id": "prop_1749100137423_180",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-ar-condicionado-jardim-novo-campos-eliseos-campinas-sp-142m2-id-2767704580/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Novo Campos Elíseos, Campinas",
+    "description": [
+      {
+        "Image-img": "+4 fotos"
+      },
+      {
+        "Location": "Jardim Novo Campos Elíseos, Campinas"
+      },
+      {
+        "Street": "Rua Arcino Ascenção Ferreira"
+      },
+      {
+        "Tamanho do imóvel": "142 m²"
+      },
+      {
+        "Quantidade de quartos": "3"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "3"
+      },
+      {
+        "Price": "R$ 260.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/810962741fdab8babf54a059751d9077.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/98b92c0e08a5ac30c524eae6dbac812e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/86e9bfc31be11f23a59b6b1e39610bab.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cd471469f3556ec264259cfab68917e6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e4938cddfbcfa9646f7df680f71f2559.webp"
+    ],
+    "price": "260000",
+    "scrapedAt": "2025-06-05T05:08:57.423Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
     "__status": "added",
     "consecutiveMisses": 0,
     "coords": {
@@ -5640,6 +6454,1778 @@
       "lon": -47.1083519,
       "distanceToCenter": 6.27,
       "walkingDistanceToCenter": 7.04
+    }
+  },
+  {
+    "id": "prop_1749100137424_305",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-residencial-cosmos-campinas-sp-60m2-id-2811477451/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Residencial Cosmos, Campinas",
+    "description": [
+      {
+        "Image-img": "+9 fotos"
+      },
+      {
+        "Location": "Residencial Cosmos, Campinas"
+      },
+      {
+        "Street": "Rua Antonio Carlos do Amaral"
+      },
+      {
+        "Tamanho do imóvel": "60 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 260.801"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0280d10eda2b4c7f61e491bfd25ad724.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bee2d49bed7acb5c84407f6d563a7c51.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dd094ca2839eb27b28a6faeba67fa57d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3fbc83c858571897cf39b49483862b34.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/00bb22c23aafbe291f7672f1986980fe.webp"
+    ],
+    "price": "260801",
+    "scrapedAt": "2025-06-05T05:08:57.424Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.947889449999998,
+      "lon": -47.16255568604536,
+      "distanceToCenter": 11.35,
+      "walkingDistanceToCenter": 13.64
+    }
+  },
+  {
+    "id": "prop_1749100230536_244",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-florence-campinas-sp-70m2-id-2805512125/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Florence, Campinas",
+    "description": [
+      {
+        "Image-img": "+2 fotos"
+      },
+      {
+        "Location": "Jardim Florence, Campinas"
+      },
+      {
+        "Street": "Rua Vicente Moura Ferrão"
+      },
+      {
+        "Tamanho do imóvel": "69-70 m²"
+      },
+      {
+        "Quantidade de quartos": "1"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "0-2"
+      },
+      {
+        "Price": "R$ 285.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5fe6f8e318882f407673817f2400331b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5e0ea7a79ecc7fe86dadb55996fdfaba.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/546fe21e870e94a894474b39ed547488.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/64dc176670e39205833ae72a2fa110ff.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/edb6779298a3678bf4c2c6ca508a375d.webp"
+    ],
+    "price": "285000",
+    "scrapedAt": "2025-06-05T05:10:30.536Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.945514000000003,
+      "lon": -47.165998475725374,
+      "distanceToCenter": 11.59,
+      "walkingDistanceToCenter": 13.79
+    }
+  },
+  {
+    "id": "prop_1749100230539_58",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-grande-cidade-satelite-iris-campinas-sp-65m2-id-2660144243/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "Image-img": "+9 fotos"
+      },
+      {
+        "Location": "Cidade Satélite Íris, Campinas"
+      },
+      {
+        "Street": "Rua Pastor Samuel de Campos Chiminazzo"
+      },
+      {
+        "Tamanho do imóvel": "57-65 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "1-2"
+      },
+      {
+        "Price": "R$ 265.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/444ca6dd6f879a0efb4477e53989ee8d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/639bbcbb35341752f6acb60d42334a0f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/df68822c088859ffb7a75b6774d649bc.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fd3e91fe280bb65de73572fdf1a916ab.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9b398781e0470c73e1fe6fa72267a5d0.webp"
+    ],
+    "price": "265000",
+    "scrapedAt": "2025-06-05T05:10:30.539Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9427307,
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
+    }
+  },
+  {
+    "id": "prop_1749100369224_82",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-dic-v-conjunto-habitacional-chico-mendes-campinas-sp-100m2-id-2769339215/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
+    "description": [
+      {
+        "Image-img": "+14 fotos"
+      },
+      {
+        "Location": "Dic V (Conjunto Habitacional Chico Mendes), Campinas"
+      },
+      {
+        "Street": "Rua Faustina Falsetti Capellini"
+      },
+      {
+        "Tamanho do imóvel": "100 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2-3"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5dd5a8e939e072b4b0074dc83f76d777.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e2c7f15da0a0da8b2a2090b462d33a9f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fabfdc105ab4bcb1baadd9ecc2487df7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/da869a9beddb3e64b88b54a536a3c291.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ad6ba939b10f54be95f6afd65b2d2ba0.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:12:49.224Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.97545,
+      "lon": -47.12655,
+      "distanceToCenter": 9.98,
+      "walkingDistanceToCenter": 11.27
+    }
+  },
+  {
+    "id": "prop_1749100369227_823",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-parque-eldorado-campinas-sp-70m2-id-2677475398/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Parque Eldorado, Campinas",
+    "description": [
+      {
+        "Image-img": "+16 fotos"
+      },
+      {
+        "Location": "Parque Eldorado, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "70 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 290.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/33a05f7b6ca9872cc3ea46bb18877fdf.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/eb285c39b63d4a25bc93ceb8518a3712.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/30313a711bbd1a02d514bf7c3026d884.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d9845745d78b147cf7d61954909398ed.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2e4d1bfb25c9847ad0febe89475f7a21.webp"
+    ],
+    "price": "290000",
+    "scrapedAt": "2025-06-05T05:12:49.227Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.1678182,
+      "lon": -46.906254,
+      "distanceToCenter": 32.65,
+      "walkingDistanceToCenter": 34.85
+    }
+  },
+  {
+    "id": "prop_1749100369230_937",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-san-diego-campinas-sp-47m2-id-2805513583/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim San Diego, Campinas",
+    "description": [
+      {
+        "Image-img": "+10 fotos"
+      },
+      {
+        "Location": "Jardim San Diego, Campinas"
+      },
+      {
+        "Street": "Rua Gelsumino Lizardi"
+      },
+      {
+        "Tamanho do imóvel": "47 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 270.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5ea633b37e7acf573879da5f9e74fc0b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e62940f76fd2c6865b12685bc07e2cb6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bbe6eaa14ad2e6f9b840f709726b72da.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2800dc7897520363439150b6633019ca.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d07b5b45bfab69d109a46ba0612a46da.webp"
+    ],
+    "price": "270000",
+    "scrapedAt": "2025-06-05T05:12:49.230Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9858823,
+      "lon": -47.1002923,
+      "distanceToCenter": 9.38,
+      "walkingDistanceToCenter": 11.05
+    }
+  },
+  {
+    "id": "prop_1749100446278_919",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-vila-ipe-campinas-sp-151m2-id-2798450266/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Ipê, Campinas",
+    "description": [
+      {
+        "Image-img": "+12 fotos"
+      },
+      {
+        "Location": "Vila Ipê, Campinas"
+      },
+      {
+        "Street": "Rua Meciaçu"
+      },
+      {
+        "Tamanho do imóvel": "151 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 350.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/7246e7aceeb5434dff32d84627d5637c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/27a4a1943b0b21cce696398636bc59f3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1b8b8365921ade9fa6fc59c6c1f5ed2f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b8a1348d7bbe1d780bc903fbd5745b5e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/47ee99d820da9b281b9ca3994808aa9a.webp"
+    ],
+    "price": "350000",
+    "scrapedAt": "2025-06-05T05:14:06.278Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9448551,
+      "lon": -47.0443753,
+      "distanceToCenter": 4.14,
+      "walkingDistanceToCenter": 4.72
+    }
+  },
+  {
+    "id": "prop_1749100515579_951",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-loteamento-residencial-novo-mundo-campinas-sp-105m2-id-2714908560/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": [
+      {
+        "Image-img": "+4 fotos"
+      },
+      {
+        "Location": "Loteamento Residencial Novo Mundo, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "100-105 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 275.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/15958d03987854b2000fcc9d249c8ae3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fc55e15ea7f0d7ad86e38a73fdc3a3e5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9edfb91b651c67fe0b2396323de03bba.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bf6b14c23ddb834e21f818ecfc28038d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fc1195df075658a7856695cc5c20ec8a.webp"
+    ],
+    "price": "275000",
+    "scrapedAt": "2025-06-05T05:15:15.579Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
+    }
+  },
+  {
+    "id": "prop_1749100515582_592",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-parque-jambeiro-campinas-sp-112m2-id-2809337921/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Parque Jambeiro, Campinas",
+    "description": [
+      {
+        "Image-img": "+14 fotos"
+      },
+      {
+        "Location": "Parque Jambeiro, Campinas"
+      },
+      {
+        "Street": "Rua Maestro Eliseu Narciso"
+      },
+      {
+        "Tamanho do imóvel": "112 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 275.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6cb9ebe4d364eb6b76eacfeef64d1af2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d437b6beaa8fd278e0f12da959ba1d03.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2efe95a317fb4e3ba47a625f0b4b577f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ed75c09e45fb8e11396df9ec167a5ca2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/beada2d669b0ba6234825868fcc4d98c.webp"
+    ],
+    "price": "275000",
+    "scrapedAt": "2025-06-05T05:15:15.582Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9617287,
+      "lon": -47.0504887,
+      "distanceToCenter": 5.79,
+      "walkingDistanceToCenter": 6.75
+    }
+  },
+  {
+    "id": "prop_1749100515583_82",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-quintal-residencial-nova-bandeirante-campinas-sp-60m2-id-2712098316/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Residencial Nova Bandeirante, Campinas",
+    "description": [
+      {
+        "Image-img": "+4 fotos"
+      },
+      {
+        "Location": "Residencial Nova Bandeirante, Campinas"
+      },
+      {
+        "Street": "Rua Shoziro Sudo"
+      },
+      {
+        "Tamanho do imóvel": "60 m²"
+      },
+      {
+        "Quantidade de quartos": "1"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 277.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1a7216e25e3660baa9cdf5f12386c881.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a5e89ee9f3a0c6043b6039ba5ecf3676.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/631d9ec9752c1459d6020901e4b73395.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/590da1d97d4f9408f7c4d349bb3b7355.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/97a267ddbc6a03356651b2a7cddf7555.webp"
+    ],
+    "price": "277000",
+    "scrapedAt": "2025-06-05T05:15:15.583Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.98797,
+      "lon": -47.10104,
+      "distanceToCenter": 9.63,
+      "walkingDistanceToCenter": 11.19
+    }
+  },
+  {
+    "id": "prop_1749100593041_806",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-vila-teixeira-campinas-sp-99m2-id-2770106374/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Dutra, Campinas",
+    "description": [
+      {
+        "Image-img": "+13 fotos"
+      },
+      {
+        "Location": "Vila Dutra, Campinas"
+      },
+      {
+        "Street": "Rua Doutor Mário Monteiro"
+      },
+      {
+        "Tamanho do imóvel": "99 m²"
+      },
+      {
+        "Quantidade de quartos": "2-3"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "1-3"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0afe315f5c8cf80bc9ab88b2ec92dcc3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/af3de3bb09c46ac2c20a6ada355339ce.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5bfd0dc88d0dc1df171294641b524390.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/60060e8fe65b827ece3f0b8cf6d6a0cc.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ce53c99c401746893a17eed03ea16446.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:16:33.041Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.91179,
+      "lon": -47.0854,
+      "distanceToCenter": 2.66,
+      "walkingDistanceToCenter": 3.34
+    }
+  },
+  {
+    "id": "prop_1749100593041_497",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-2-quartos-com-ar-condicionado-vila-maria-eugenia-campinas-sp-200m2-id-2810137754/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Santa Clara, Campinas",
+    "description": [
+      {
+        "Location": "Santa Clara, Campinas"
+      },
+      {
+        "Street": "Estrada Municipal da Paz"
+      },
+      {
+        "Tamanho do imóvel": "200 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "4"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d847d7807a114f47f41ce05b779b6aa8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8101e15a9fe713c01a2e4357357d5306.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/dcacd9bb6f31334230edcc4c51656a8e.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e5d7bdafcbc6a2ebc2aa56e69b2e056f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/75885e40da119c69db18bee19655ecbb.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:16:33.041Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -10.1934964,
+      "lon": -48.9000447,
+      "distanceToCenter": 1427.52,
+      "walkingDistanceToCenter": 1039.17
+    }
+  },
+  {
+    "id": "prop_1749100593043_298",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-miguel-vicente-cury-campinas-sp-40m2-id-2789781533/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Miguel Vicente Cury, Campinas",
+    "description": [
+      {
+        "Image-img": "+20 fotos"
+      },
+      {
+        "Location": "Vila Miguel Vicente Cury, Campinas"
+      },
+      {
+        "Street": "Rua dos Uapixanas"
+      },
+      {
+        "Tamanho do imóvel": "40 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "1-2"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e401d94b03c7870a4b6e4b0f8a8813f1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6de879f4987bb86c6acd53d1e8b7c6de.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e4b957394a12ef1ac6b472bd4170f031.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/65106e9a2ec8ca57e43bcda5b127d152.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/cf9dbecabfe7672bb9d77e19302e11b4.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:16:33.043Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.8604977,
+      "lon": -47.061465,
+      "distanceToCenter": 5.54,
+      "walkingDistanceToCenter": 6.6
+    }
+  },
+  {
+    "id": "prop_1749100593043_362",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-infraestrutura-internet-jardim-santa-lucia-campinas-sp-69m2-id-2783847829/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Núcleo Residencial Cristo Redentor, Campinas",
+    "description": [
+      {
+        "Image-img": "+15 fotos"
+      },
+      {
+        "Location": "Núcleo Residencial Cristo Redentor, Campinas"
+      },
+      {
+        "Street": "Rua Ronaldo José de Souza Freitas"
+      },
+      {
+        "Tamanho do imóvel": "69 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e37a28d4886f31c2680d0d3d49e641c5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b8b1cc220a3a786e29b2e3a32558b2f0.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f743a43054cf70caff97a513f4ca24ee.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/40875d515202424d76db617e0932b856.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9fbd139c0c76b2a4bf0fb336fbe06476.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:16:33.043Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.53513,
+      "lon": -44.16425,
+      "distanceToCenter": 299.86,
+      "walkingDistanceToCenter": 421.74
+    }
+  },
+  {
+    "id": "prop_1749100682301_715",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-parque-dom-pedro-ii-campinas-sp-100m2-id-2767702764/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Parque Dom Pedro II, Campinas",
+    "description": [
+      {
+        "Image-img": "+9 fotos"
+      },
+      {
+        "Location": "Parque Dom Pedro II, Campinas"
+      },
+      {
+        "Street": "Rua Gravataí"
+      },
+      {
+        "Tamanho do imóvel": "100 m²"
+      },
+      {
+        "Quantidade de quartos": "3"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "0-1"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/da2ebd6eb391ebe24945c730eb8b7120.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0bb63b4835ff8cc82e88b8a92fc4d316.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9e4b46256d289a2a51bfd397abdc757c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a0d268c0dfa544676ed83e5c923b72ca.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b0fce323ae92f763f3ea98f74d4bfa4f.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:18:02.301Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9729548,
+      "lon": -47.1472696,
+      "distanceToCenter": 11.37,
+      "walkingDistanceToCenter": 12.46
+    }
+  },
+  {
+    "id": "prop_1749100682301_893",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-castelo-branco-campinas-sp-83m2-id-2795621521/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Castelo Branco, Campinas",
+    "description": [
+      {
+        "Image-img": "+10 fotos"
+      },
+      {
+        "Location": "Vila Castelo Branco, Campinas"
+      },
+      {
+        "Street": "Rua Castelnuovo"
+      },
+      {
+        "Tamanho do imóvel": "83 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8d94a0cc9e7dc510942c6b57437d062a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/153f5ea9ef241dea5b85e739a9726445.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/35779d1697d4bfb6d95401c67cd0bd38.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/224ff65896ca6c83c38d2a731f2e5302.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5abf73a7f7a22489e2cce066ff12f042.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:18:02.301Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.0882,
+      "lon": -47.19534636288603,
+      "distanceToCenter": 24.18,
+      "walkingDistanceToCenter": 28.47
+    }
+  },
+  {
+    "id": "prop_1749100682302_226",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-area-de-servico-jardim-novo-campos-eliseos-campinas-sp-166m2-id-2805539031/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Novo Campos Elíseos, Campinas",
+    "description": [
+      {
+        "Image-img": "+16 fotos"
+      },
+      {
+        "Location": "Jardim Novo Campos Elíseos, Campinas"
+      },
+      {
+        "Street": "Rua Cneo Pompeo de Camargo"
+      },
+      {
+        "Tamanho do imóvel": "166 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/89aea51e7e4e34ef522126f46d310560.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e8b7af656523ec4d93cbaa049b49349b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/09a856cb0761e1aea03b08ac669daaf9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/be5b47af8a3a66bcb200a239713e20e8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a8803ab2f9b49c0bd23eceb4a9da38c2.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:18:02.302Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9442298,
+      "lon": -47.1083519,
+      "distanceToCenter": 6.27,
+      "walkingDistanceToCenter": 7.04
+    }
+  },
+  {
+    "id": "prop_1749100682304_430",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-com-edicula-jardim-alvorada-campinas-sp-200m2-id-2701971779/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Alvorada, Campinas",
+    "description": [
+      {
+        "Image-img": "+23 fotos"
+      },
+      {
+        "Location": "Jardim Alvorada, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "200 m²"
+      },
+      {
+        "Quantidade de quartos": "2-5"
+      },
+      {
+        "Quantidade de banheiros": "1-4"
+      },
+      {
+        "Quantidade de vagas de garagem": "2-5"
+      },
+      {
+        "Price": "R$ 290.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/670f0a4fe390c4d1918bbb0eb314722c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1e9613ce25beaced44da9e5d92cb649b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1d22256ac7714397ca060883dd364649.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/05745b8abee9917798ddcb16b835075f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6c2a019c203c5538564758340b93bab2.webp"
+    ],
+    "price": "290000",
+    "scrapedAt": "2025-06-05T05:18:02.304Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.8040126,
+      "lon": -47.3100136,
+      "distanceToCenter": 28.26,
+      "walkingDistanceToCenter": 33.16
+    }
+  },
+  {
+    "id": "prop_1749100763952_172",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-com-edicula-jardim-alvorada-campinas-sp-200m2-id-2701971779/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Alvorada, Campinas",
+    "description": [
+      {
+        "Image-img": "+23 fotos"
+      },
+      {
+        "Location": "Jardim Alvorada, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "200 m²"
+      },
+      {
+        "Quantidade de quartos": "2-5"
+      },
+      {
+        "Quantidade de banheiros": "1-4"
+      },
+      {
+        "Quantidade de vagas de garagem": "2-5"
+      },
+      {
+        "Price": "R$ 290.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/670f0a4fe390c4d1918bbb0eb314722c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1e9613ce25beaced44da9e5d92cb649b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1d22256ac7714397ca060883dd364649.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/05745b8abee9917798ddcb16b835075f.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6c2a019c203c5538564758340b93bab2.webp"
+    ],
+    "price": "290000",
+    "scrapedAt": "2025-06-05T05:19:23.952Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.8040126,
+      "lon": -47.3100136,
+      "distanceToCenter": 28.26,
+      "walkingDistanceToCenter": 33.16
+    }
+  },
+  {
+    "id": "prop_1749100763957_363",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-sp-68m2-id-2703261580/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "Image-img": "+10 fotos"
+      },
+      {
+        "Location": "Cidade Satélite Íris, Campinas"
+      },
+      {
+        "Street": "Rua Antônio Zancanella"
+      },
+      {
+        "Tamanho do imóvel": "68 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/15542e3ed83ed8ffa77fbf0056802a76.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/673ace34e487958d4aaaa14c83c2bcef.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e5c61016d9767f163117108b5b949a11.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b244b06deaa31f42aede3145270b6396.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/af644231b610c1276daef9d628e4ab25.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:19:23.957Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9427307,
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
+    }
+  },
+  {
+    "id": "prop_1749100763960_224",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-jardim-santa-eudoxia-campinas-sp-242m2-id-2714166726/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Santa Eudóxia, Campinas",
+    "description": [
+      {
+        "Image-img": "+21 fotos"
+      },
+      {
+        "Location": "Jardim Santa Eudóxia, Campinas"
+      },
+      {
+        "Street": "Rua Henedina Oliveira Bresler"
+      },
+      {
+        "Tamanho do imóvel": "242 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "3"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 382.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/28332a7b2ab6dde6b06f937620865468.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bce7a8470111b63467e25cedded92ac3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b18d3ec5d50784cf05c8bebf14ef108c.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f1249054f17ff0ebdbf8249cb85c9026.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/78a95d57486442a955af9001c735d769.webp"
+    ],
+    "price": "382000",
+    "scrapedAt": "2025-06-05T05:19:23.960Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.921701,
+      "lon": -47.032312672195665,
+      "distanceToCenter": 3.06,
+      "walkingDistanceToCenter": 3.74
+    }
+  },
+  {
+    "id": "prop_1749100845304_489",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-cidade-satelite-iris-campinas-sp-130m2-id-2792972485/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "Image-img": "+9 fotos"
+      },
+      {
+        "Location": "Cidade Satélite Íris, Campinas"
+      },
+      {
+        "Street": "Rua Benedita Iny de Ávila"
+      },
+      {
+        "Tamanho do imóvel": "130 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fef9d4ada458fd94d27239c57e0288c4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/263161658d7514795b59ef9c6bf50927.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0a087229f2b8ae3f5179641c549bec17.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/16f3f2a39a4e2f2b61e596c7995fe403.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/d157173249bd346c923464a7b4d6caeb.webp"
+    ],
+    "price": "280000",
+    "scrapedAt": "2025-06-05T05:20:45.304Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9427307,
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
+    }
+  },
+  {
+    "id": "prop_1749100845309_819",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-sp-60m2-id-2764955319/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "Image-img": "+19 fotos"
+      },
+      {
+        "Location": "Cidade Satélite Íris, Campinas"
+      },
+      {
+        "Street": "Rua Maria Neusa Belinteni"
+      },
+      {
+        "Tamanho do imóvel": "58-60 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2-5"
+      },
+      {
+        "Price": "R$ 285.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/44912820d7f42ac6a8f3a3dc5d57ecbf.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/63b5a9dabdcc3dceb704646b4f70c26a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/99da5e696c8b6fcfc1bec30bc6b63eb5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6a1309e89c8c36fbf299af7c933ffe32.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/14083b31fb86212a171013f3820dc37d.webp"
+    ],
+    "price": "285000",
+    "scrapedAt": "2025-06-05T05:20:45.309Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9427307,
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
+    }
+  },
+  {
+    "id": "prop_1749100918572_253",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-cidade-satelite-iris-campinas-sp-63m2-id-2746685580/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Cidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "Image-img": "+5 fotos"
+      },
+      {
+        "Location": "Cidade Satélite Íris, Campinas"
+      },
+      {
+        "Street": "Rua Gideone Buffo"
+      },
+      {
+        "Tamanho do imóvel": "63 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "0-2"
+      },
+      {
+        "Price": "R$ 310.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/ddaca256d46a2171e7a06026071650d7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8987f5c95e232a797c524b56d546333a.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e2f1e6d0b8c6460eef4ec638792c7045.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fc1dc07e1d930de20f3158e84ad7eaa3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a6f0026772f5e86612df802eca492c50.webp"
+    ],
+    "price": "310000",
+    "scrapedAt": "2025-06-05T05:21:58.572Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.9427307,
+      "lon": -47.1416499,
+      "distanceToCenter": 9.15,
+      "walkingDistanceToCenter": 10.63
+    }
+  },
+  {
+    "id": "prop_1749100918574_667",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-conjunto-habitacional-padre-anchieta-campinas-sp-185m2-id-2796485819/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Habitacional Padre Anchieta, Campinas",
+    "description": [
+      {
+        "Image-img": "+25 fotos"
+      },
+      {
+        "Location": "Conjunto Habitacional Padre Anchieta, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "185 m²"
+      },
+      {
+        "Quantidade de quartos": "2-4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "3"
+      },
+      {
+        "Price": "R$ 339.200"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/50e38dace9215cfca452d599994fdf54.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9a63db54618120f5dde393c0caa3fc94.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9d16a5d22dd7ec8d07fbb047065ead0b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/25fe197269b19ea8e3a7e4dc12998d69.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/570e6ac1ac6707b8b96f3afa6547fc14.webp"
+    ],
+    "price": "339200",
+    "scrapedAt": "2025-06-05T05:21:58.574Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.85864,
+      "lon": -47.15535,
+      "distanceToCenter": 11.38,
+      "walkingDistanceToCenter": 16.32
+    }
+  },
+  {
+    "id": "prop_1749101000326_509",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-tv-a-cabo-jardim-sao-judas-tadeu-campinas-sp-63m2-id-2685569211/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim São Judas Tadeu, Campinas",
+    "description": [
+      {
+        "Image-img": "+12 fotos"
+      },
+      {
+        "Location": "Jardim São Judas Tadeu, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "62-63 m²"
+      },
+      {
+        "Quantidade de quartos": "1-2"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "0-4"
+      },
+      {
+        "Price": "R$ 293.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/471e9ca6e7b0ba0e85bd6433430b88b6.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/74ecbcbe47da4cbf8b6bd73be2c121c5.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/59ce2a46cfa9dbec3f17ee1b241ab542.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f6da0a40dafd95f68c5bb6d0952c149d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/8417abf1f4af78756f910cf41709e83a.webp"
+    ],
+    "price": "293000",
+    "scrapedAt": "2025-06-05T05:23:20.326Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.1876769,
+      "lon": -46.8523369,
+      "distanceToCenter": 37.42,
+      "walkingDistanceToCenter": 41.77
+    }
+  },
+  {
+    "id": "prop_1749101000326_971",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-loteamento-residencial-novo-mundo-campinas-sp-55m2-id-2767679478/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": [
+      {
+        "Image-img": "+4 fotos"
+      },
+      {
+        "Location": "Loteamento Residencial Novo Mundo, Campinas"
+      },
+      {
+        "Street": "Rua Terezinha Carlos Tavares"
+      },
+      {
+        "Tamanho do imóvel": "55 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 290.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/bd1307f976e76b129889bd524331c4c8.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9993d9443ad4b26e1d7d16b984dfb7af.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9edaca919d7154bcca696ca4179f614d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f246ffb021c7f908c7ab2a95ab449664.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a32cf58402d00d6412474b119512ff21.webp"
+    ],
+    "price": "290000",
+    "scrapedAt": "2025-06-05T05:23:20.326Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
+    }
+  },
+  {
+    "id": "prop_1749101000327_860",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavabo-jardim-san-diego-campinas-sp-50m2-id-2807435822/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Residencial Nova Bandeirante, Campinas",
+    "description": [
+      {
+        "Image-img": "+13 fotos"
+      },
+      {
+        "Location": "Residencial Nova Bandeirante, Campinas"
+      },
+      {
+        "Street": "Rua Manoella Marcolino da Silva Derigo"
+      },
+      {
+        "Tamanho do imóvel": "50 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 290.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/36e1cee34556821dd60106508c7f806d.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/1bccfb9ffbb155369230b1eff9024481.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/61ea4e000a6b6d395a52fffc3b322f0b.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/57d4cf96e100697c387a700efc9cdafc.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e0af52a70551bea3ee4b5929f7d6bd28.webp"
+    ],
+    "price": "290000",
+    "scrapedAt": "2025-06-05T05:23:20.327Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.98797,
+      "lon": -47.10104,
+      "distanceToCenter": 9.63,
+      "walkingDistanceToCenter": 11.19
+    }
+  },
+  {
+    "id": "prop_1749101000329_360",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-loteamento-residencial-novo-mundo-campinas-sp-82m2-id-2733784758/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Loteamento Residencial Novo Mundo, Campinas",
+    "description": [
+      {
+        "Image-img": "+5 fotos"
+      },
+      {
+        "Location": "Loteamento Residencial Novo Mundo, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "82 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 308.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/2106c31c06713e23b2d799097bb03e86.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e6b068d4b8d00fc1d448b56c18155018.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c56fc04dffb2e49b691f848f674a6ff2.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/92488aa5ed7ebb5a0becf172accc51ec.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/c58425f1648ca8788c8e7a5792f802cf.webp"
+    ],
+    "price": "308000",
+    "scrapedAt": "2025-06-05T05:23:20.329Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -20.2499754,
+      "lon": -50.5556623,
+      "distanceToCenter": 467.07,
+      "walkingDistanceToCenter": 537.73
+    }
+  },
+  {
+    "id": "prop_1749101000331_165",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-industrial-campinas-sp-171m2-id-2759374965/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Industrial, Campinas",
+    "description": [
+      {
+        "Image-img": "+7 fotos"
+      },
+      {
+        "Location": "Vila Industrial, Campinas"
+      },
+      {
+        "Street": "Rua João Teodoro"
+      },
+      {
+        "Tamanho do imóvel": "171 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 295.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/acab30210da38b7c1fadc59e77758509.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/97a723e5957cc625378abb13f14f14ad.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0a2a3fc9599dedeeb089f0cd3eb45b75.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4adcb8a5bf91c5b70b03a25c2d0ea450.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e16f97a157c3c36fa37763e42ec6604a.webp"
+    ],
+    "price": "295000",
+    "scrapedAt": "2025-06-05T05:23:20.331Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.6830835,
+      "lon": -47.6689696,
+      "distanceToCenter": 67.39,
+      "walkingDistanceToCenter": 79.67
+    }
+  },
+  {
+    "id": "prop_1749101093442_592",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-industrial-campinas-sp-171m2-id-2759374965/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Industrial, Campinas",
+    "description": [
+      {
+        "Image-img": "+7 fotos"
+      },
+      {
+        "Location": "Vila Industrial, Campinas"
+      },
+      {
+        "Street": "Rua João Teodoro"
+      },
+      {
+        "Tamanho do imóvel": "171 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 295.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/acab30210da38b7c1fadc59e77758509.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/97a723e5957cc625378abb13f14f14ad.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0a2a3fc9599dedeeb089f0cd3eb45b75.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4adcb8a5bf91c5b70b03a25c2d0ea450.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e16f97a157c3c36fa37763e42ec6604a.webp"
+    ],
+    "price": "295000",
+    "scrapedAt": "2025-06-05T05:24:53.442Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.6830835,
+      "lon": -47.6689696,
+      "distanceToCenter": 67.39,
+      "walkingDistanceToCenter": 79.67
+    }
+  },
+  {
+    "id": "prop_1749101093448_950",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-anchieta-campinas-sp-100m2-id-2767683732/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Anchieta, Campinas",
+    "description": [
+      {
+        "Image-img": "+14 fotos"
+      },
+      {
+        "Location": "Jardim Anchieta, Campinas"
+      },
+      {
+        "Street": "Rua Antônio Name Chaib"
+      },
+      {
+        "Tamanho do imóvel": "100 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "0-3"
+      },
+      {
+        "Price": "R$ 390.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/71b063cb83704dd507110c49e707d140.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6df6e01ca0bda79309269f5f763938a0.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e27988e46f1378b0ac1533cbd00ba950.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/6b88ff949bc801aff30eed20df5feef3.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/62c9a85d157951fc33b5d69734927fe5.webp"
+    ],
+    "price": "390000",
+    "scrapedAt": "2025-06-05T05:24:53.448Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -24.1716065,
+      "lon": -46.7769648,
+      "distanceToCenter": 143.18,
+      "walkingDistanceToCenter": 206.02
+    }
+  },
+  {
+    "id": "prop_1749101093448_927",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-estoril-campinas-sp-227m2-id-2700230180/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Jardim Estoril, Campinas",
+    "description": [
+      {
+        "Image-img": "+2 fotos"
+      },
+      {
+        "Location": "Jardim Estoril, Campinas"
+      },
+      {
+        "Street": "Rua Joaquim Hilário Ribeiro"
+      },
+      {
+        "Tamanho do imóvel": "227 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2-3"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 300.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/15b96d78051ef77c65bc3e8b5de761db.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/e7300191620e95e3d4d44c1e61234656.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/34f952ead37530a248fa1b1df8a12d56.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/3df8828292e54930c855cf1f7a8f89e7.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/5543dd9374cd234a0b797a186fcd5ea9.webp"
+    ],
+    "price": "300000",
+    "scrapedAt": "2025-06-05T05:24:53.448Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.117307250000003,
+      "lon": -46.57061385,
+      "distanceToCenter": 55.08,
+      "walkingDistanceToCenter": 67.51
+    }
+  },
+  {
+    "id": "prop_1749101093449_767",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-residencial-parque-sao-bento-campinas-sp-100m2-id-2805530108/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Conjunto Residencial Parque São Bento, Campinas",
+    "description": [
+      {
+        "Image-img": "+29 fotos"
+      },
+      {
+        "Location": "Conjunto Residencial Parque São Bento, Campinas"
+      },
+      {
+        "Street": "Rua Renato Leite de Carvalho e Silva"
+      },
+      {
+        "Tamanho do imóvel": "100 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Price": "R$ 299.900"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/4cecd65bc7a2539080473bc473878e56.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/f40fa97e02d1a6e4ee872f214e5b83b9.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/382e050d2680ea3b647ebea0956a4812.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/a3321a1844fe151ebcd636c055cde4c1.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/b2648591578e26c0c7ed0379783523c1.webp"
+    ],
+    "price": "299900",
+    "scrapedAt": "2025-06-05T05:24:53.449Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -23.9596,
+      "lon": -46.39586,
+      "distanceToCenter": 134.9,
+      "walkingDistanceToCenter": 160.01
+    }
+  },
+  {
+    "id": "prop_1749101178824_741",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-industrial-campinas-sp-138m2-id-2782252134/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Vila Industrial, Campinas",
+    "description": [
+      {
+        "Image-img": "+9 fotos"
+      },
+      {
+        "Location": "Vila Industrial, Campinas"
+      },
+      {
+        "Street": "Avenida Doutor Carlos de Campos"
+      },
+      {
+        "Tamanho do imóvel": "138 m²"
+      },
+      {
+        "Quantidade de quartos": "3"
+      },
+      {
+        "Quantidade de banheiros": "1-2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 320.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/fbda31ab2fda792a1e23be0eff392fbb.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/9d705cde410b12d0124d376c106c64fd.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/85adb4127c0ddf74d511f7cbeaf70442.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/301be92088ee1697f4b44d5661c880b4.webp",
+      "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/0facaa8005389398c6a4e273bbae2836.webp"
+    ],
+    "price": "320000",
+    "scrapedAt": "2025-06-05T05:26:18.824Z",
+    "firstSeenAt": "2025-06-05T02:27:28.056Z",
+    "lastSeenAt": "2025-06-05T02:27:28.056Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {
+      "lat": -22.6830835,
+      "lon": -47.6689696,
+      "distanceToCenter": 67.39,
+      "walkingDistanceToCenter": 79.67
     }
   }
 ]
