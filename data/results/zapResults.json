@@ -1,609 +1,5 @@
 [
   {
-    "id": "prop_1748917845818_970",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-loteamento-residencial-novo-mundo-campinas-sp-80m2-id-2714887954/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "Image-img": "+10 fotos"
-      },
-      {
-        "Location": "Loteamento Residencial Novo Mundo, Campinas"
-      },
-      {
-        "Street": "Rua Carlos Ernesto Carmona Fussi"
-      },
-      {
-        "Tamanho do imóvel": "80 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 200.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/445442dca969e45b8e3e61f4a29db4f1.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1c1088d867e27e51afb8faddead604f5.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3699c4627579985064b3f5ab9956ac19.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a1ba781405f9ce833c1f23449351cf8d.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/28b256157f263625c3c3eff76fbe51fb.webp"
-    ],
-    "price": "200000",
-    "scrapedAt": "2025-06-03T02:30:45.818Z",
-    "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623,
-      "distanceToCenter": 467.07,
-      "walkingDistanceToCenter": 537.73
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1748918054820_368",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-conjunto-residencial-parque-sao-bento-campinas-sp-90m2-id-2765065250/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": [
-      {
-        "Image-img": "+13 fotos"
-      },
-      {
-        "Location": "Conjunto Residencial Parque São Bento, Campinas"
-      },
-      {
-        "Street": "Rua Doutor Eraldo Liner"
-      },
-      {
-        "Tamanho do imóvel": "90 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "3"
-      },
-      {
-        "Quantidade de vagas de garagem": "3"
-      },
-      {
-        "Price": "R$ 240.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/599654981a689d994103097f74beeaae.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/098c5cc4bc35caa60942c5e054f25d0b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/624abf49b41cd77c0d4fdeec42214d6d.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/615c46d365dbf02ec0e372f8dfafb03b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/401dfc8b6f32717e9c6e6611f5cffc18.webp"
-    ],
-    "price": "240000",
-    "scrapedAt": "2025-06-03T02:34:14.820Z",
-    "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -23.9596,
-      "lon": -46.39586,
-      "distanceToCenter": 134.9,
-      "walkingDistanceToCenter": 160.01
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1748918136175_692",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-sobrados-3-quartos-com-piscina-loteamento-residencial-novo-mundo-campinas-sp-140m2-id-2733787222/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Sobrado para comprar em\nLoteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "Image-img": "+23 fotos"
-      },
-      {
-        "Location": "Sobrado para comprar em\nLoteamento Residencial Novo Mundo, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "140 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "4"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 320.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8e793709b434378faac8610741f87bb6.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0f447f6448a6a739265c24dfbab184f0.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/7abb9b3b3ab6a003c24a213b50bfc732.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6d02e55a14f6bb7380be99c737084a8c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/50ab71f7d0a75baa34e33d88d9d564b9.webp"
-    ],
-    "price": "320000",
-    "scrapedAt": "2025-06-03T02:35:36.175Z",
-    "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {},
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1748918223042_930",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-dic-i-campinas-sp-93m2-id-2714132106/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas",
-    "description": [
-      {
-        "Image-img": "+5 fotos"
-      },
-      {
-        "Location": "Dic I (Conjunto Habitacional Monsenhor Luiz Fernando Abreu), Campinas"
-      },
-      {
-        "Street": "Rua Luísa Blumer"
-      },
-      {
-        "Tamanho do imóvel": "93 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "1-2"
-      },
-      {
-        "Quantidade de vagas de garagem": "1-3"
-      },
-      {
-        "Price": "R$ 270.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0050c0ee1430777a87839f453d270c6c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/46be654c7fe013d680071532fec612c8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f2f621dbf9c9d27a9b8c689c4f4067a4.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6af387c1c4f4ad0ec6d7cad015291844.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6ff7891c0910915845d424658f49af78.webp"
-    ],
-    "price": "270000",
-    "scrapedAt": "2025-06-03T02:37:03.042Z",
-    "firstSeenAt": "2025-06-02T23:41:49.300Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.97545,
-      "lon": -47.12655,
-      "distanceToCenter": 9.98,
-      "walkingDistanceToCenter": 11.27
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1748927004487_246",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-trinta-e-um-de-marco-campinas-sp-70m2-id-2776772998/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Trinta e Um de Março, Campinas",
-    "description": [
-      {
-        "Image-img": "+17 fotos"
-      },
-      {
-        "Location": "Vila Trinta e Um de Março, Campinas"
-      },
-      {
-        "Street": "Rua Laudo Camargo"
-      },
-      {
-        "Tamanho do imóvel": "70 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-4"
-      },
-      {
-        "Price": "R$ 270.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/47ed13b04dda036420265fd8b524f1e8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9575039cf81d1314e63576174f22331f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a599bd7e82db0a217bf259c432fd9d87.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/2297793980c954280e48e59dc374e885.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/33dd3c66b37823acc38a19b4dc1616f0.webp"
-    ],
-    "price": "270000",
-    "scrapedAt": "2025-06-03T05:03:24.487Z",
-    "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.90993,
-      "lon": -47.08055,
-      "distanceToCenter": 2.16,
-      "walkingDistanceToCenter": 2.72
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1748927294272_392",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-cidade-satelite-iris-campinas-sp-75m2-id-2559852966/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": [
-      {
-        "Image-img": "+28 fotos"
-      },
-      {
-        "Location": "Cidade Satélite Íris, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "68-75 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 260.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c869aa1ebebf868bbd80fd264a4237e7.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f83d5a7419a4c70db6a2c1c77f07296e.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/83e50388b20a0ae1dc95621809ae5f50.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/92914645535fef7b038274fbdf0736da.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c4d2b960ff159ba6737abf57a7201aac.webp"
-    ],
-    "price": "260000",
-    "scrapedAt": "2025-06-03T05:08:14.272Z",
-    "firstSeenAt": "2025-06-03T02:25:21.284Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499,
-      "distanceToCenter": 9.15,
-      "walkingDistanceToCenter": 10.63
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1749013425637_365",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-residencial-colina-das-nascentes-campinas-sp-126m2-id-2783282029/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Residencial Colina das Nascentes, Campinas",
-    "description": [
-      {
-        "Image-img": "+5 fotos"
-      },
-      {
-        "Location": "Residencial Colina das Nascentes, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "126 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 255.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ed3146a1010f72043a2ee16ac8a0420b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a696809cec78d5c9891cecc209a76b39.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/bec42c213b11aae00230d333b4f16009.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/7b581afb8040fa81373b4133fd7b168d.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5348ea57a872089e05f674bd8211fc15.webp"
-    ],
-    "price": "255000",
-    "scrapedAt": "2025-06-04T05:03:45.637Z",
-    "firstSeenAt": "2025-06-04T02:05:21.899Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.911,
-      "lon": -47.09605,
-      "distanceToCenter": 3.74,
-      "walkingDistanceToCenter": 4.43
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1749099850858_129",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-trinta-e-um-de-marco-campinas-sp-95m2-id-2780761822/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Trinta e Um de Março, Campinas",
-    "description": [
-      {
-        "Image-img": "+16 fotos"
-      },
-      {
-        "Location": "Vila Trinta e Um de Março, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "95 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "4"
-      },
-      {
-        "Price": "R$ 245.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ecd70eb1e798f6b3adca6a6ea7af8615.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/26f1753d252ac50713dcd6cbb70c0880.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/42f293a47ef4075217cceabe20dcc090.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a42c0c83f273af57947177f990b63f1f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e032f9856d8cec1bab3633c3e570b684.webp"
-    ],
-    "price": "245000",
-    "scrapedAt": "2025-06-05T05:04:10.858Z",
-    "firstSeenAt": "2025-06-05T02:27:28.056Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.90993,
-      "lon": -47.08055,
-      "distanceToCenter": 2.16,
-      "walkingDistanceToCenter": 2.72
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1749704394552_230",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-nucleo-residencial-vila-vitoria-campinas-sp-120m2-id-2791733436/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Núcleo Residencial Vila Vitória, Campinas",
-    "description": [
-      {
-        "Image-img": "+13 fotos"
-      },
-      {
-        "Location": "Núcleo Residencial Vila Vitória, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "115-130 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "3"
-      },
-      {
-        "Price": "R$ 220.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b5bf5ef8e4b6115bd664870fcd163815.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/fb2c2a38f62fcf2c4b49af8df8eb85ab.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6c1752da3df82aa586fae86e0ffbd017.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f5639bb43cb948256d95a27962125c1a.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e13cb3f24fce7f0ad91e0f4087701199.webp"
-    ],
-    "price": "220000",
-    "scrapedAt": "2025-06-12T04:59:54.552Z",
-    "firstSeenAt": "2025-06-12T02:14:06.155Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.978375,
-      "lon": -47.16965686111111,
-      "distanceToCenter": 13.58,
-      "walkingDistanceToCenter": 15.36
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1749704464547_914",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-monte-alto-campinas-sp-100m2-id-2805511515/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Monte Alto, Campinas",
-    "description": [
-      {
-        "Image-img": "+3 fotos"
-      },
-      {
-        "Location": "Jardim Monte Alto, Campinas"
-      },
-      {
-        "Street": "Rua Um"
-      },
-      {
-        "Tamanho do imóvel": "100 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 230.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/2c642ce6d4a559dce980ba192cc4fb18.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/229da37b6f5be1df06cb825a88da51cb.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1e6be374d16db5275367a79ed6220ef8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a5922c64754e12c19c2e9775cc655244.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/041e6c7c763b7c54d2c5cef0311c034c.webp"
-    ],
-    "price": "230000",
-    "scrapedAt": "2025-06-12T05:01:04.547Z",
-    "firstSeenAt": "2025-06-12T02:14:06.155Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.1146923,
-      "lon": -51.4273927,
-      "distanceToCenter": 457.29,
-      "walkingDistanceToCenter": 550.61
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1749705016797_300",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-cidade-satelite-iris-campinas-sp-60m2-id-2812175216/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": [
-      {
-        "Image-img": "+12 fotos"
-      },
-      {
-        "Location": "Cidade Satélite Íris, Campinas"
-      },
-      {
-        "Street": "Rua Pastor Samuel de Campos Chiminazzo"
-      },
-      {
-        "Tamanho do imóvel": "57-65 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1-2"
-      },
-      {
-        "Quantidade de vagas de garagem": "1-2"
-      },
-      {
-        "Price": "R$ 265.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ce19611731c7b1c2f80262d93e6a4ac1.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1f566620cf195a02028c76d62593565d.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4fad22aec14b6450e6dd7dbd04709ba9.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/139270e39002ff9228429ceb35e22abf.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f384b3d50da83fb419c701d0085bf06d.webp"
-    ],
-    "price": "265000",
-    "scrapedAt": "2025-06-12T05:10:16.797Z",
-    "firstSeenAt": "2025-06-12T02:14:06.155Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499,
-      "distanceToCenter": 9.15,
-      "walkingDistanceToCenter": 10.63
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1750914263800_302",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-loteamento-residencial-novo-mundo-campinas-sp-80m2-id-2815498442/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "Image-img": "+12 fotos"
-      },
-      {
-        "Location": "Loteamento Residencial Novo Mundo, Campinas"
-      },
-      {
-        "Street": "Rua Fernando Manoel Pismel Dantas"
-      },
-      {
-        "Tamanho do imóvel": "80 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "3"
-      },
-      {
-        "Price": "R$ 240.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/64d3c0523dac0fc7b986798be6f346e4.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/20f48be6bdace7500527a1ec8bb1a10b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0857403f57d4bad707fdb8dcced6d8e9.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/970bf3ef5a7d34e3c01ce681cce85e3f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e50a2465ddeb5d143352c6143356ba16.webp"
-    ],
-    "price": "240000",
-    "scrapedAt": "2025-06-26T05:04:23.800Z",
-    "firstSeenAt": "2025-06-26T02:25:00.772Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623,
-      "distanceToCenter": 467.07,
-      "walkingDistanceToCenter": 537.73
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
     "id": "prop_1750914728711_275",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-7",
     "platform": "zap",
@@ -645,71 +41,25 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
-    "id": "prop_1750914887884_246",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-parque-eldorado-campinas-sp-70m2-id-2677475398/?source=ranking%2Crp",
+    "id": "prop_1753074387795_918",
+    "link": "https://www.zapimoveis.com.br/imovel/house-item-0",
     "platform": "zap",
-    "address": "Parque Eldorado, Campinas",
+    "address": "Casa para comprar com 70 m², 1 quarto, 1 banheiro, 5 vagas em\nJardim Aeroporto de Viracopos, Campinas",
     "description": [
       {
-        "Image-img": "+16 fotos"
+        "Image-img": "+11 fotos"
       },
       {
-        "Location": "Parque Eldorado, Campinas"
+        "Location": "Casa para comprar com 70 m², 1 quarto, 1 banheiro, 5 vagas em\nJardim Aeroporto de Viracopos, Campinas"
+      },
+      {
+        "Street": "Rua Igarapé"
       },
       {
         "Tamanho do imóvel": "70 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 290.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/33a05f7b6ca9872cc3ea46bb18877fdf.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/eb285c39b63d4a25bc93ceb8518a3712.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/30313a711bbd1a02d514bf7c3026d884.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d9845745d78b147cf7d61954909398ed.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/2e4d1bfb25c9847ad0febe89475f7a21.webp"
-    ],
-    "price": "290000",
-    "scrapedAt": "2025-06-26T05:14:47.884Z",
-    "firstSeenAt": "2025-06-26T02:25:00.772Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -23.1678182,
-      "lon": -46.906254,
-      "distanceToCenter": 32.65,
-      "walkingDistanceToCenter": 34.85
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1750915031939_111",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-cozinha-parque-residencial-vila-uniao-campinas-sp-74m2-id-2743629023/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Parque Residencial Vila União, Campinas",
-    "description": [
-      {
-        "Image-img": "+16 fotos"
-      },
-      {
-        "Location": "Parque Residencial Vila União, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "74 m²"
       },
       {
         "Quantidade de quartos": "1"
@@ -718,691 +68,27 @@
         "Quantidade de banheiros": "1"
       },
       {
-        "Quantidade de vagas de garagem": "4-6"
+        "Quantidade de vagas de garagem": "5"
       },
       {
-        "Price": "R$ 275.000"
+        "Price": "R$ 215.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f3ac0fb265a4fdd9b13881cf678119f3.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e7bed231e746876e43c640cffb42830b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4a46727cd39727c46988b857efcdb504.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c3f1822f9f08963a69d35e0141d48d10.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8e78842d8e702ed216f055985002cfa0.webp"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/141ba303d7e239568ae3bedabdeccebb/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/205c57bfb3dc0aeb2fcefceba3e51b5c/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/38430f5a92e5d5fb34880b4ae08e4eb6/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/ca943ac25c5b8233b0b290fefdd21816/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a2f87c9b16880e5595dcb8f727460ed9/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "275000",
-    "scrapedAt": "2025-06-26T05:17:11.939Z",
-    "firstSeenAt": "2025-06-26T02:25:00.772Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": 40.31489,
-      "lon": -3.7834,
-      "distanceToCenter": 8335.21,
-      "walkingDistanceToCenter": 10835.77
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1750915183384_25",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-vila-miguel-vicente-cury-campinas-sp-39m2-id-2773819113/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Miguel Vicente Cury, Campinas",
-    "description": [
-      {
-        "Image-img": "+14 fotos"
-      },
-      {
-        "Location": "Vila Miguel Vicente Cury, Campinas"
-      },
-      {
-        "Street": "Rua dos Uapixanas"
-      },
-      {
-        "Tamanho do imóvel": "39 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c65dd4368d9434c12a10b18e41c9afa6.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9765ddc096f6092bfec0f036df2aa22c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/89d1026736e03478a0c16476cfa60ceb.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8d204c56d1b3d96588160455ef82bf11.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4b816818474c9100e5a2f9b451dbb562.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-06-26T05:19:43.384Z",
-    "firstSeenAt": "2025-06-26T02:25:00.772Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.8604977,
-      "lon": -47.061465,
-      "distanceToCenter": 5.54,
-      "walkingDistanceToCenter": 6.6
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1750915257438_800",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-com-cozinha-jardim-alvorada-campinas-sp-200m2-id-2701971779/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Alvorada, Campinas",
-    "description": [
-      {
-        "Image-img": "+23 fotos"
-      },
-      {
-        "Location": "Jardim Alvorada, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "200 m²"
-      },
-      {
-        "Quantidade de quartos": "2-5"
-      },
-      {
-        "Quantidade de banheiros": "1-4"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-5"
-      },
-      {
-        "Price": "R$ 290.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/670f0a4fe390c4d1918bbb0eb314722c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1e9613ce25beaced44da9e5d92cb649b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1d22256ac7714397ca060883dd364649.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/05745b8abee9917798ddcb16b835075f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6c2a019c203c5538564758340b93bab2.webp"
-    ],
-    "price": "290000",
-    "scrapedAt": "2025-06-26T05:20:57.438Z",
-    "firstSeenAt": "2025-06-26T02:25:00.772Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.8040126,
-      "lon": -47.3100136,
-      "distanceToCenter": 28.26,
-      "walkingDistanceToCenter": 33.16
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1750915339783_857",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-5-quartos-com-cozinha-jardim-alvorada-campinas-sp-200m2-id-2701971779/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Alvorada, Campinas",
-    "description": [
-      {
-        "Image-img": "+23 fotos"
-      },
-      {
-        "Location": "Jardim Alvorada, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "200 m²"
-      },
-      {
-        "Quantidade de quartos": "2-5"
-      },
-      {
-        "Quantidade de banheiros": "1-4"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-5"
-      },
-      {
-        "Price": "R$ 290.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/670f0a4fe390c4d1918bbb0eb314722c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1e9613ce25beaced44da9e5d92cb649b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1d22256ac7714397ca060883dd364649.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/05745b8abee9917798ddcb16b835075f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6c2a019c203c5538564758340b93bab2.webp"
-    ],
-    "price": "290000",
-    "scrapedAt": "2025-06-26T05:22:19.783Z",
-    "firstSeenAt": "2025-06-26T02:25:00.772Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.8040126,
-      "lon": -47.3100136,
-      "distanceToCenter": 28.26,
-      "walkingDistanceToCenter": 33.16
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1750915339783_204",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-cidade-satelite-iris-campinas-sp-130m2-id-2805529946/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": [
-      {
-        "Image-img": "+9 fotos"
-      },
-      {
-        "Location": "Cidade Satélite Íris, Campinas"
-      },
-      {
-        "Street": "Rua Benedita Iny de Ávila"
-      },
-      {
-        "Tamanho do imóvel": "130 m²"
-      },
-      {
-        "Quantidade de quartos": "4"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/fef9d4ada458fd94d27239c57e0288c4.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/263161658d7514795b59ef9c6bf50927.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0a087229f2b8ae3f5179641c549bec17.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/16f3f2a39a4e2f2b61e596c7995fe403.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d157173249bd346c923464a7b4d6caeb.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-06-26T05:22:19.783Z",
-    "firstSeenAt": "2025-06-26T02:25:00.772Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499,
-      "distanceToCenter": 9.15,
-      "walkingDistanceToCenter": 10.63
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752037913264_195",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-de-condominio-2-quartos-com-lavabo-cidade-satelite-iris-campinas-sp-82m2-id-2724638642/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Casa de condomínio para comprar em\nCidade Satélite Íris, Campinas",
-    "description": [
-      {
-        "Image-img": "+12 fotos"
-      },
-      {
-        "Location": "Casa de condomínio para comprar em\nCidade Satélite Íris, Campinas"
-      },
-      {
-        "Street": "Rua Doutor Lázaro Pinto Barroso"
-      },
-      {
-        "Tamanho do imóvel": "80-82 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 264.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ce9d61d9e36e1f92dcea9f78f80a9792.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/85434dfa1880be5788453d7907c6f77a.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b1fa36f312ef808e1c9618ab91c98cce.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4a80743c9fda5ec8bb05ffe20cc6cc79.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8e3236f10674c58713de152d2b4a0ed7.webp"
-    ],
-    "price": "264000",
-    "scrapedAt": "2025-07-09T05:11:53.264Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
+    "price": "215000",
+    "scrapedAt": "2025-07-21T05:06:27.795Z",
+    "firstSeenAt": "2025-07-21T02:34:27.572Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752038447592_231",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-dic-v-conjunto-habitacional-chico-mendes-campinas-sp-100m2-id-2769339215/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
-    "description": [
-      {
-        "Image-img": "+14 fotos"
-      },
-      {
-        "Location": "Dic V (Conjunto Habitacional Chico Mendes), Campinas"
-      },
-      {
-        "Street": "Rua Faustina Falsetti Capellini"
-      },
-      {
-        "Tamanho do imóvel": "100 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-3"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5dd5a8e939e072b4b0074dc83f76d777.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e2c7f15da0a0da8b2a2090b462d33a9f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/fabfdc105ab4bcb1baadd9ecc2487df7.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/da869a9beddb3e64b88b54a536a3c291.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ad6ba939b10f54be95f6afd65b2d2ba0.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-09T05:20:47.592Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.97545,
-      "lon": -47.12655,
-      "distanceToCenter": 9.98,
-      "walkingDistanceToCenter": 11.27
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752038514311_500",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-dic-v-conjunto-habitacional-chico-mendes-campinas-sp-100m2-id-2769339215/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Dic V (Conjunto Habitacional Chico Mendes), Campinas",
-    "description": [
-      {
-        "Image-img": "+14 fotos"
-      },
-      {
-        "Location": "Dic V (Conjunto Habitacional Chico Mendes), Campinas"
-      },
-      {
-        "Street": "Rua Faustina Falsetti Capellini"
-      },
-      {
-        "Tamanho do imóvel": "100 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-3"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5dd5a8e939e072b4b0074dc83f76d777.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e2c7f15da0a0da8b2a2090b462d33a9f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/fabfdc105ab4bcb1baadd9ecc2487df7.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/da869a9beddb3e64b88b54a536a3c291.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ad6ba939b10f54be95f6afd65b2d2ba0.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-09T05:21:54.311Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.97545,
-      "lon": -47.12655,
-      "distanceToCenter": 9.98,
-      "walkingDistanceToCenter": 11.27
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752038514313_881",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-vila-lemos-campinas-sp-70m2-id-2812537220/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Lemos, Campinas",
-    "description": [
-      {
-        "Image-img": "+3 fotos"
-      },
-      {
-        "Location": "Vila Lemos, Campinas"
-      },
-      {
-        "Street": "Avenida Doutor Arlindo Joaquim de Lemos"
-      },
-      {
-        "Tamanho do imóvel": "70 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 270.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a2b52a8667919d362c29719609171f47.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e54be4529b3ffeca56e8a1833733fffa.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6e236ba7552502ebab9782124ea9d1e6.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/dd1b953e6e420e9641a11e07a3e7ce3a.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4c41519db11ca59f5b5ad74193bdf492.webp"
-    ],
-    "price": "270000",
-    "scrapedAt": "2025-07-09T05:21:54.313Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.91889,
-      "lon": -47.04146,
-      "distanceToCenter": 2.08,
-      "walkingDistanceToCenter": 2.45
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752038588022_815",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-loteamento-residencial-novo-mundo-campinas-sp-43m2-id-2808722213/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "Image-img": "+11 fotos"
-      },
-      {
-        "Location": "Loteamento Residencial Novo Mundo, Campinas"
-      },
-      {
-        "Street": "Rua Laila Samara Tuma"
-      },
-      {
-        "Tamanho do imóvel": "43 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 270.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d1500b4d9457e440215baf09fb85fd5b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8e120561d15e825903e01e64e22197c3.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b76de2ac4fe23345459f245c58626d37.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/fbbaf59ea751290286516afc0256ef2e.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/39cb2a8ed14e82b9d109b0034b999fdc.webp"
-    ],
-    "price": "270000",
-    "scrapedAt": "2025-07-09T05:23:08.022Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623,
-      "distanceToCenter": 467.07,
-      "walkingDistanceToCenter": 537.73
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752038735199_190",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-bosque-campinas-sp-80m2-id-2777490642/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Bosque, Campinas",
-    "description": [
-      {
-        "Image-img": "+10 fotos"
-      },
-      {
-        "Location": "Bosque, Campinas"
-      },
-      {
-        "Street": "Rua Proença"
-      },
-      {
-        "Tamanho do imóvel": "74-80 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1-2"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6cb2d358394235308572e32e097f95ab.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/67960baf9681ab576c2a98a4049c471f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/75493c51ad95a949445433ed2f81b3ae.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6af0986498c560a2c532c4745f1b138f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4245200edc5804bbd340cfde4819206f.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-09T05:25:35.199Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.8876835,
-      "lon": -47.02003641918954,
-      "distanceToCenter": 4.76,
-      "walkingDistanceToCenter": 5.83
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752038909378_460",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-conjunto-habitacional-parque-itajai-campinas-sp-110m2-id-2776354716/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Conjunto Habitacional Parque Itajaí, Campinas",
-    "description": [
-      {
-        "Image-img": "+9 fotos"
-      },
-      {
-        "Location": "Conjunto Habitacional Parque Itajaí, Campinas"
-      },
-      {
-        "Street": "Rua Constantino Abrahão"
-      },
-      {
-        "Tamanho do imóvel": "110 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "1-3"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-3"
-      },
-      {
-        "Price": "R$ 310.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/82930b02700f38f587a18afe494a3c27.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d7e4b5d577f9ef883b2b8d2b4b06bf17.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1e875c9edd5aed83d388d92593328c72.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9216776ccaa891533c4476410fbf2fe5.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8a6c526abc12e54887b340df8d729292.webp"
-    ],
-    "price": "310000",
-    "scrapedAt": "2025-07-09T05:28:29.378Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.95802,
-      "lon": -47.19147,
-      "distanceToCenter": 14.52,
-      "walkingDistanceToCenter": 17.22
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1752038909383_732",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-santa-clara-campinas-sp-200m2-id-2767679676/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Santa Clara, Campinas",
-    "description": [
-      {
-        "Image-img": "+11 fotos"
-      },
-      {
-        "Location": "Santa Clara, Campinas"
-      },
-      {
-        "Street": "Estrada Municipal da Paz"
-      },
-      {
-        "Tamanho do imóvel": "200 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "6"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3c910a4a7750ea660cd9cb16d151da4a.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e0e56bb71171995c87892ac7e4873170.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d157b4043ed968d8910fe27433ab88a8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/03b74296fba3a35bcd20bab25a628456.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0c0458f918f732c2872f53cf0847498f.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-09T05:28:29.383Z",
-    "firstSeenAt": "2025-07-09T02:31:14.357Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -10.1934964,
-      "lon": -48.9000447,
-      "distanceToCenter": 1427.52,
-      "walkingDistanceToCenter": 1039.17
-    },
-    "__status": "updated",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753074387795_918",
-    "link": "https://www.zapimoveis.com.br/imovel/house-item-0",
-    "platform": "zap",
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": [
-      {
-        "Image-img": "+22 fotos"
-      },
-      {
-        "Location": "Cidade Satélite Íris, Campinas"
-      },
-      {
-        "Street": "Rua Antônio Zancanella"
-      },
-      {
-        "Tamanho do imóvel": "63 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "3"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 40.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3cda98af0c72685cffd537d178906f31.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/615ea8ac6006ce5be4c258ec7a15d83c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e8ec118470c1c349318d2a3a1ed15ab7.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c67091fdd41c65e0477a6e41bb0a46cc.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c799f223bd176390cfb8afbba77146fe.webp"
-    ],
-    "price": "40000",
-    "scrapedAt": "2025-07-21T05:06:27.795Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499,
-      "distanceToCenter": 9.15,
-      "walkingDistanceToCenter": 10.63
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1753074387802_54",
@@ -1449,1589 +135,54 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
-    "consecutiveMisses": 1
-  },
-  {
-    "id": "prop_1753074523503_499",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-loteamento-residencial-novo-mundo-campinas-sp-69m2-id-2815684451/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "Image-img": "+12 fotos"
-      },
-      {
-        "Location": "Loteamento Residencial Novo Mundo, Campinas"
-      },
-      {
-        "Street": "Rua Romeu dos Santos"
-      },
-      {
-        "Tamanho do imóvel": "69 m²"
-      },
-      {
-        "Quantidade de quartos": "1"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 191.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/7295e2bd8511d5481156550c5c63371b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/242e568ff36af1e0b9a621344c019551.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/844ee35524953739bc0784b616ba8107.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/52d10f29da9adb1b4be059413074e10e.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/2ebd19290c52aa03a9f6810370e91999.webp"
-    ],
-    "price": "191000",
-    "scrapedAt": "2025-07-21T05:08:43.503Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623,
-      "distanceToCenter": 467.07,
-      "walkingDistanceToCenter": 537.73
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753074588854_737",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-com-area-de-servico-jardim-mirassol-campinas-sp-60m2-id-2759658520/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Mirassol, Campinas",
-    "description": [
-      {
-        "Image-img": "+11 fotos"
-      },
-      {
-        "Location": "Jardim Mirassol, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "60 m²"
-      },
-      {
-        "Quantidade de quartos": "1"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "3-4"
-      },
-      {
-        "Price": "R$ 250.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/cd304ec05a0a32245c9b738267d58d0b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/000af5bbb811ffeb7ef342f9c8861329.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/eb6562ecf4389dcb61a847a108c85256.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0d4a2adcd63e6f538034bcd2ceef03a0.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b3111f05684bf5d397313dee532d757c.webp"
-    ],
-    "price": "250000",
-    "scrapedAt": "2025-07-21T05:09:48.854Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.8416978,
-      "lon": -47.1387166,
-      "distanceToCenter": 11.14,
-      "walkingDistanceToCenter": 12.8
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753074791436_817",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-loteamento-residencial-novo-mundo-campinas-sp-75m2-id-2815684010/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "Image-img": "+23 fotos"
-      },
-      {
-        "Location": "Loteamento Residencial Novo Mundo, Campinas"
-      },
-      {
-        "Street": "Rua Moacyr Egydio Penteado"
-      },
-      {
-        "Tamanho do imóvel": "75 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 222.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9874483c5fc0268ede7ce5234f067a5b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3a5ca5165243ac2059d5b82787ef87c6.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/160ff8ba350d59028094577e4c359710.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c3d48bfd45d250e25a0dbf716e3f901b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b550bab00d4404163ebd75d76d12ae87.webp"
-    ],
-    "price": "222000",
-    "scrapedAt": "2025-07-21T05:13:11.436Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623,
-      "distanceToCenter": 467.07,
-      "walkingDistanceToCenter": 537.73
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753074791437_157",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-sao-pedro-de-viracopos-campinas-sp-200m2-id-2818116649/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim São Pedro de Viracopos, Campinas",
-    "description": [
-      {
-        "Image-img": "+11 fotos"
-      },
-      {
-        "Location": "Jardim São Pedro de Viracopos, Campinas"
-      },
-      {
-        "Street": "Avenida Martinho Lutero"
-      },
-      {
-        "Tamanho do imóvel": "200 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 224.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/090fd4dc4a78160da15457946be37a79.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/71b2658c5049e78bfaa6ac382f7fa5c6.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/366cf0c6faff505ba4a3dbb57101f85b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6520fdf18976b74538f3020abfa39719.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c110e6e93ec2304d24d5b18290020655.webp"
-    ],
-    "price": "224000",
-    "scrapedAt": "2025-07-21T05:13:11.437Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.98372,
-      "lon": -47.14104,
-      "distanceToCenter": 11.68,
-      "walkingDistanceToCenter": 13.53
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753074865521_60",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-residencial-parque-sao-bento-campinas-sp-90m2-id-2725779665/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Conjunto Residencial Parque São Bento, Campinas",
-    "description": [
-      {
-        "Image-img": "+1 fotos"
-      },
-      {
-        "Location": "Conjunto Residencial Parque São Bento, Campinas"
-      },
-      {
-        "Street": "Rua Júlio Roald Martin Jonsson"
-      },
-      {
-        "Tamanho do imóvel": "90 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 235.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c0ba581994732ad84e95f672a3a435c2.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6dda561f5618bcbde3908c7cb93358bc.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/aac2c0705f09a46b5497269fc9bdabf8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d2d9255beada693d470edc7e5037e882.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9dea4cdc10a6dcfa8865372cb259cb99.webp"
-    ],
-    "price": "235000",
-    "scrapedAt": "2025-07-21T05:14:25.521Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -23.9596,
-      "lon": -46.39586,
-      "distanceToCenter": 134.9,
-      "walkingDistanceToCenter": 160.01
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753074939442_886",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-varanda-jardim-novo-campos-eliseos-campinas-sp-300m2-id-2805508255/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Novo Campos Elíseos, Campinas",
-    "description": [
-      {
-        "Image-img": "+16 fotos"
-      },
-      {
-        "Location": "Jardim Novo Campos Elíseos, Campinas"
-      },
-      {
-        "Street": "Rua Socorro"
-      },
-      {
-        "Tamanho do imóvel": "300 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 240.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/30f3d2fbc28a2a6def3ce0f6243b9d10.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0455ef17f71b8164a453657440b5c652.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/2f0fd956ec155b05cfe4fc6f4e3730ea.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c2c3eb02f03230a04c08af20811bcb76.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3da6206eb4056d5f28a97c67165f908b.webp"
-    ],
-    "price": "240000",
-    "scrapedAt": "2025-07-21T05:15:39.442Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9442298,
-      "lon": -47.1083519,
-      "distanceToCenter": 6.27,
-      "walkingDistanceToCenter": 7.04
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753074939445_188",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-churrasqueira-jardim-santa-rita-de-cassia-campinas-sp-300m2-id-2811246682/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Núcleo Residencial Jardim Santa Marta, Campinas",
-    "description": [
-      {
-        "Image-img": "+17 fotos"
-      },
-      {
-        "Location": "Núcleo Residencial Jardim Santa Marta, Campinas"
-      },
-      {
-        "Street": "Rua Projetada 1"
-      },
-      {
-        "Tamanho do imóvel": "300 m²"
-      },
-      {
-        "Quantidade de quartos": "4"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "6"
-      },
-      {
-        "Price": "R$ 245.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8704a168444c82efd22f5cdcc38f3a2d.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8abd6192046cceef2727d9795675c1cf.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/68d1e123d9696f690d8cc1a110957ced.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9b851df5410b65047e2f39b684b2ee64.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/50a28ffff2e24451da6d3df928267cfb.webp"
-    ],
-    "price": "245000",
-    "scrapedAt": "2025-07-21T05:15:39.445Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -23.2109276,
-      "lon": -47.2735047,
-      "distanceToCenter": 39.96,
-      "walkingDistanceToCenter": 46.59
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075029122_804",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-sala-de-jantar-residencial-sao-jose-campinas-sp-80m2-id-2808433480/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Residencial São José, Campinas",
-    "description": [
-      {
-        "Image-img": "+18 fotos"
-      },
-      {
-        "Location": "Residencial São José, Campinas"
-      },
-      {
-        "Street": "Rua Hans Melchert"
-      },
-      {
-        "Tamanho do imóvel": "80 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 250.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/393d1eef4c8bb526835da1eaf64264b4.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ca9bf03c30f9683b2714e585915d6792.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/753c4b75ca5caba8bbd40a28150a6244.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d4e7de37d0856fde58645d62f579b72d.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/017f92a6245640b0a1146456962ec823.webp"
-    ],
-    "price": "250000",
-    "scrapedAt": "2025-07-21T05:17:09.122Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -27.5990882,
-      "lon": -48.61344571700498,
-      "distanceToCenter": 544.27,
-      "walkingDistanceToCenter": 784.05
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075029124_751",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-cozinha-vila-boa-vista-campinas-sp-125m2-id-2798368040/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Boa Vista, Campinas",
-    "description": [
-      {
-        "Image-img": "+4 fotos"
-      },
-      {
-        "Location": "Vila Boa Vista, Campinas"
-      },
-      {
-        "Street": "Rua das Aroeiras"
-      },
-      {
-        "Tamanho do imóvel": "125 m²"
-      },
-      {
-        "Quantidade de quartos": "2-3"
-      },
-      {
-        "Quantidade de banheiros": "1-2"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 250.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/62c9fd7b1742422853844fba064163ab.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/02cb67d4ab70358ff53c77b51677047b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0744b8ae889052a6b9961c57745e43de.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b57f8e3be1d1dafabb0283f24781a04b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/c1765b43b3d0be4f44867f0c8451ef6a.webp",
-      "https://cdnfiles.vivareal.com/campanhas/2025/festival-da-mudanca/stamps/stamp-zap.png"
-    ],
-    "price": "250000",
-    "scrapedAt": "2025-07-21T05:17:09.124Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -11.6754759,
-      "lon": -51.382205,
-      "distanceToCenter": 1330.56,
-      "walkingDistanceToCenter": 623.83
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075169229_223",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-conjunto-habitacional-residencial-olimpia-campinas-sp-90m2-id-2805532465/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Conjunto Habitacional Residencial Olímpia, Campinas",
-    "description": [
-      {
-        "Image-img": "+5 fotos"
-      },
-      {
-        "Location": "Conjunto Habitacional Residencial Olímpia, Campinas"
-      },
-      {
-        "Street": "Rua da Maratona"
-      },
-      {
-        "Tamanho do imóvel": "90 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Price": "R$ 255.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/82bc9c48c30f44c1eb292f2c4961ee68.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1ce2f013a706ed53c3cd7112f5241ec8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/00473b878efee1ddfec7ea8c337991cd.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/2b31d4e476a599bd7152f0ccf6a3d3fe.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/32dec54a6b193f305a091e23f229502d.webp"
-    ],
-    "price": "255000",
-    "scrapedAt": "2025-07-21T05:19:29.229Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.97514,
-      "lon": -47.18103,
-      "distanceToCenter": 14.38,
-      "walkingDistanceToCenter": 15.85
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075235500_124",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-parque-fazendinha-campinas-sp-400m2-id-2805508653/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Parque Fazendinha, Campinas",
-    "description": [
-      {
-        "Image-img": "+26 fotos"
-      },
-      {
-        "Location": "Parque Fazendinha, Campinas"
-      },
-      {
-        "Street": "Rua Luci Camargo Erbolato"
-      },
-      {
-        "Tamanho do imóvel": "400 m²"
-      },
-      {
-        "Quantidade de quartos": "1"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Price": "R$ 260.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a7cd31928add11129b6ec3c35a8a488e.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/813292bdd320d9a24e00105bbdb610af.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/444f46330e714543929e23490b0f1e52.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a35c12fefb0af7fc1e3e3ca5d6af7bd7.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4509e8132e15690f03cd51dd50e1fa95.webp"
-    ],
-    "price": "260000",
-    "scrapedAt": "2025-07-21T05:20:35.500Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.89479,
-      "lon": -47.15146,
-      "distanceToCenter": 9.58,
-      "walkingDistanceToCenter": 14.8
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075235502_361",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-conjunto-habitacional-parque-da-floresta-campinas-sp-108m2-id-2797050919/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Conjunto Habitacional Parque da Floresta, Campinas",
-    "description": [
-      {
-        "Image-img": "+24 fotos"
-      },
-      {
-        "Location": "Conjunto Habitacional Parque da Floresta, Campinas"
-      },
-      {
-        "Street": "Rua Maria Francisca Meirelles Mello"
-      },
-      {
-        "Tamanho do imóvel": "108 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 260.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8c2c3a6da807a589ac1ca6497de432f8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1cfef88d62d97e76f96cb22f7213cbe3.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d682320cf5616befaa0d1ec3a551df73.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b9a880aa5e5791e410601239c954e458.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b53489f793f762828c6c80aa1102bb3a.webp"
-    ],
-    "price": "260000",
-    "scrapedAt": "2025-07-21T05:20:35.502Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -18.83529,
-      "lon": -41.9005,
-      "distanceToCenter": 701.73,
-      "walkingDistanceToCenter": 682.28
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075309616_165",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-vila-industrial-campinas-sp-96m2-id-2819993742/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Industrial, Campinas",
-    "description": [
-      {
-        "Image-img": "+15 fotos"
-      },
-      {
-        "Location": "Vila Industrial, Campinas"
-      },
-      {
-        "Street": "Rua Catanduva"
-      },
-      {
-        "Tamanho do imóvel": "96 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1-2"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-3"
-      },
-      {
-        "Price": "R$ 300.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/87ac34e1c6c8f9395f6a8f5470f8175b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e9a6fe92a4c0a1c322ced8aa81a6094d.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/40c0e1a2e73fa4971ae9abc0a35ea0db.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/210739ecf51b02a251b997f073033df8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/be17d8786a8bfd0ff1b2df87eaec3b00.webp"
-    ],
-    "price": "300000",
-    "scrapedAt": "2025-07-21T05:21:49.616Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.6830835,
-      "lon": -47.6689696,
-      "distanceToCenter": 67.39,
-      "walkingDistanceToCenter": 79.67
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075309620_103",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-ar-condicionado-jardim-novo-campos-eliseos-campinas-sp-142m2-id-2767704580/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Novo Campos Elíseos, Campinas",
-    "description": [
-      {
-        "Image-img": "+4 fotos"
-      },
-      {
-        "Location": "Jardim Novo Campos Elíseos, Campinas"
-      },
-      {
-        "Street": "Rua Arcino Ascenção Ferreira"
-      },
-      {
-        "Tamanho do imóvel": "142 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "3"
-      },
-      {
-        "Price": "R$ 260.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/810962741fdab8babf54a059751d9077.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/98b92c0e08a5ac30c524eae6dbac812e.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/86e9bfc31be11f23a59b6b1e39610bab.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/cd471469f3556ec264259cfab68917e6.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e4938cddfbcfa9646f7df680f71f2559.webp"
-    ],
-    "price": "260000",
-    "scrapedAt": "2025-07-21T05:21:49.620Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9442298,
-      "lon": -47.1083519,
-      "distanceToCenter": 6.27,
-      "walkingDistanceToCenter": 7.04
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075309624_190",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-parque-residencial-vila-uniao-campinas-sp-155m2-id-2806613624/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Parque Residencial Vila União, Campinas",
-    "description": [
-      {
-        "Image-img": "+14 fotos"
-      },
-      {
-        "Location": "Parque Residencial Vila União, Campinas"
-      },
-      {
-        "Street": "Rua Rúbens Roberto Ciolfi"
-      },
-      {
-        "Tamanho do imóvel": "155 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "3-4"
-      },
-      {
-        "Price": "R$ 290.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/7a8e96cc6bf7ec4983dbcbebc1acad52.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d0ff721550198aad87103cf888313ef8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/18a5752088ec095d0c27111fe3c779d6.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/81f411571b766a27993efef3ab0dd7fa.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5380b75d5036e11117c493c1c2f374f7.webp"
-    ],
-    "price": "290000",
-    "scrapedAt": "2025-07-21T05:21:49.624Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": 40.31489,
-      "lon": -3.7834,
-      "distanceToCenter": 8335.21,
-      "walkingDistanceToCenter": 10835.77
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075387555_540",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-florence-campinas-sp-70m2-id-2767679245/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Florence, Campinas",
-    "description": [
-      {
-        "Image-img": "+2 fotos"
-      },
-      {
-        "Location": "Jardim Florence, Campinas"
-      },
-      {
-        "Street": "Rua Vicente Moura Ferrão"
-      },
-      {
-        "Tamanho do imóvel": "69-70 m²"
-      },
-      {
-        "Quantidade de quartos": "1"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "0-2"
-      },
-      {
-        "Price": "R$ 285.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5fe6f8e318882f407673817f2400331b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5e0ea7a79ecc7fe86dadb55996fdfaba.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/546fe21e870e94a894474b39ed547488.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/64dc176670e39205833ae72a2fa110ff.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/edb6779298a3678bf4c2c6ca508a375d.webp"
-    ],
-    "price": "285000",
-    "scrapedAt": "2025-07-21T05:23:07.555Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.945514000000003,
-      "lon": -47.165998475725374,
-      "distanceToCenter": 11.59,
-      "walkingDistanceToCenter": 13.79
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075523829_73",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-industrial-campinas-sp-180m2-id-2816169635/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Industrial, Campinas",
-    "description": [
-      {
-        "Image-img": "+9 fotos"
-      },
-      {
-        "Location": "Vila Industrial, Campinas"
-      },
-      {
-        "Street": "Rua Catanduva"
-      },
-      {
-        "Tamanho do imóvel": "180 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "3"
-      },
-      {
-        "Price": "R$ 270.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b603a76bf5514cfc6571b87383cd6921.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6be945eff10ef3b2c1b4140861e6ecbf.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/fdd30b061b373ed9a5d7ca004724cefd.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f09f478d2bc483b537664dcd196dc99f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/63665bf3d28316677e0727fea3bc2b73.webp"
-    ],
-    "price": "270000",
-    "scrapedAt": "2025-07-21T05:25:23.829Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.6830835,
-      "lon": -47.6689696,
-      "distanceToCenter": 67.39,
-      "walkingDistanceToCenter": 79.67
-    },
-    "__status": "added",
     "consecutiveMisses": 2
   },
   {
     "id": "prop_1753075593643_18",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-3",
     "platform": "zap",
-    "address": "Casa para comprar com 125 m², 3 quartos, 2 banheiros, 1 vaga em\nVila Boa Vista, Campinas",
+    "address": "Casa para comprar com 90 m², 2 quartos, 1 banheiro, 2 vagas em\nResidencial São José, Campinas",
     "description": [
       {
-        "Image-img": "+4 fotos"
+        "Image-img": "+6 fotos"
       },
       {
-        "Location": "Casa para comprar com 125 m², 3 quartos, 2 banheiros, 1 vaga em\nVila Boa Vista, Campinas"
+        "Location": "Casa para comprar com 90 m², 2 quartos, 1 banheiro, 2 vagas em\nResidencial São José, Campinas"
       },
       {
-        "Street": "Rua das Aroeiras"
+        "Street": "Rua Hadmad de Souza Bueno"
       },
       {
-        "Tamanho do imóvel": "125 m²"
+        "Tamanho do imóvel": "90 m²"
       },
       {
-        "Quantidade de quartos": "3"
+        "Quantidade de quartos": "2"
       },
       {
-        "Quantidade de banheiros": "2"
+        "Quantidade de banheiros": "1"
       },
       {
-        "Quantidade de vagas de garagem": "1"
+        "Quantidade de vagas de garagem": "2"
       },
       {
-        "Price": "R$ 250.000"
+        "Price": "R$ 300.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/62c9fd7b1742422853844fba064163ab/casa-com-3-quartos-a-venda-125m-no-vila-boa-vista-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/02cb67d4ab70358ff53c77b51677047b/casa-com-3-quartos-a-venda-125m-no-vila-boa-vista-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/0744b8ae889052a6b9961c57745e43de/casa-com-3-quartos-a-venda-125m-no-vila-boa-vista-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b57f8e3be1d1dafabb0283f24781a04b/casa-com-3-quartos-a-venda-125m-no-vila-boa-vista-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/c1765b43b3d0be4f44867f0c8451ef6a/casa-com-3-quartos-a-venda-125m-no-vila-boa-vista-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/d3621380090bd2c38d27ba0c24103171/casa-com-2-quartos-a-venda-90m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/aea8940069c1e72341a5fc91c658ebcc/casa-com-2-quartos-a-venda-90m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/6e7497f93097b69b40828b2eae98ebf7/casa-com-2-quartos-a-venda-90m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f2ec0e4153f443a5412d789ef15eafda/casa-com-2-quartos-a-venda-90m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/ca08c28361b093f4c7ffd2e4a898eaf6/casa-com-2-quartos-a-venda-90m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "250000",
+    "price": "300000",
     "scrapedAt": "2025-07-21T05:26:33.643Z",
     "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
     "consecutiveMisses": 0
-  },
-  {
-    "id": "prop_1753075593646_639",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-sp-100m2-id-2811235899/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Loteamento Residencial Novo Mundo, Campinas",
-    "description": [
-      {
-        "Image-img": "+7 fotos"
-      },
-      {
-        "Location": "Loteamento Residencial Novo Mundo, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "100-105 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "1"
-      },
-      {
-        "Price": "R$ 300.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e64e24d76fb6f0626103af4c568b8eee.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f44acd7c510c231ee6febaa72b8ab342.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3faeeeb13d7ce1695beff907f263935f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/da756a1ba13e39ad8c52ce4c85fcbdef.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f1a599660e5cbb1cf56ff96f0f50bc56.webp"
-    ],
-    "price": "300000",
-    "scrapedAt": "2025-07-21T05:26:33.646Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -20.2499754,
-      "lon": -50.5556623,
-      "distanceToCenter": 467.07,
-      "walkingDistanceToCenter": 537.73
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075671496_934",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-parque-jambeiro-campinas-sp-112m2-id-2809337921/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Parque Jambeiro, Campinas",
-    "description": [
-      {
-        "Image-img": "+14 fotos"
-      },
-      {
-        "Location": "Parque Jambeiro, Campinas"
-      },
-      {
-        "Street": "Rua Maestro Eliseu Narciso"
-      },
-      {
-        "Tamanho do imóvel": "112 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Price": "R$ 275.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/6cb9ebe4d364eb6b76eacfeef64d1af2.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d437b6beaa8fd278e0f12da959ba1d03.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/2efe95a317fb4e3ba47a625f0b4b577f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ed75c09e45fb8e11396df9ec167a5ca2.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/beada2d669b0ba6234825868fcc4d98c.webp"
-    ],
-    "price": "275000",
-    "scrapedAt": "2025-07-21T05:27:51.496Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9617287,
-      "lon": -47.0504887,
-      "distanceToCenter": 5.79,
-      "walkingDistanceToCenter": 6.75
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075742295_676",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-vila-teixeira-campinas-sp-99m2-id-2770106374/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Dutra, Campinas",
-    "description": [
-      {
-        "Image-img": "+13 fotos"
-      },
-      {
-        "Location": "Vila Dutra, Campinas"
-      },
-      {
-        "Street": "Rua Doutor Mário Monteiro"
-      },
-      {
-        "Tamanho do imóvel": "99 m²"
-      },
-      {
-        "Quantidade de quartos": "2-3"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "1-3"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0afe315f5c8cf80bc9ab88b2ec92dcc3.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/af3de3bb09c46ac2c20a6ada355339ce.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5bfd0dc88d0dc1df171294641b524390.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/60060e8fe65b827ece3f0b8cf6d6a0cc.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ce53c99c401746893a17eed03ea16446.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-21T05:29:02.295Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.91179,
-      "lon": -47.0854,
-      "distanceToCenter": 2.66,
-      "walkingDistanceToCenter": 3.34
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075742299_206",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-parque-dom-pedro-ii-campinas-sp-100m2-id-2805527673/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Parque Dom Pedro II, Campinas",
-    "description": [
-      {
-        "Image-img": "+9 fotos"
-      },
-      {
-        "Location": "Parque Dom Pedro II, Campinas"
-      },
-      {
-        "Street": "Rua Gravataí"
-      },
-      {
-        "Tamanho do imóvel": "100 m²"
-      },
-      {
-        "Quantidade de quartos": "3"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "0-1"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/da2ebd6eb391ebe24945c730eb8b7120.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0bb63b4835ff8cc82e88b8a92fc4d316.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9e4b46256d289a2a51bfd397abdc757c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a0d268c0dfa544676ed83e5c923b72ca.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b0fce323ae92f763f3ea98f74d4bfa4f.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-21T05:29:02.299Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9729548,
-      "lon": -47.1472696,
-      "distanceToCenter": 11.37,
-      "walkingDistanceToCenter": 12.46
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075742299_689",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-vila-castelo-branco-campinas-sp-83m2-id-2795621521/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Vila Castelo Branco, Campinas",
-    "description": [
-      {
-        "Image-img": "+10 fotos"
-      },
-      {
-        "Location": "Vila Castelo Branco, Campinas"
-      },
-      {
-        "Street": "Rua Castelnuovo"
-      },
-      {
-        "Tamanho do imóvel": "83 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/8d94a0cc9e7dc510942c6b57437d062a.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/153f5ea9ef241dea5b85e739a9726445.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/35779d1697d4bfb6d95401c67cd0bd38.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/224ff65896ca6c83c38d2a731f2e5302.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5abf73a7f7a22489e2cce066ff12f042.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-21T05:29:02.299Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -23.0882,
-      "lon": -47.19534636288603,
-      "distanceToCenter": 24.18,
-      "walkingDistanceToCenter": 28.47
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075742299_843",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-cozinha-jardim-novo-campos-eliseos-campinas-sp-166m2-id-2805513320/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Novo Campos Elíseos, Campinas",
-    "description": [
-      {
-        "Image-img": "+16 fotos"
-      },
-      {
-        "Location": "Jardim Novo Campos Elíseos, Campinas"
-      },
-      {
-        "Street": "Rua Cneo Pompeo de Camargo"
-      },
-      {
-        "Tamanho do imóvel": "166 m²"
-      },
-      {
-        "Quantidade de quartos": "4"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/89aea51e7e4e34ef522126f46d310560.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e8b7af656523ec4d93cbaa049b49349b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/09a856cb0761e1aea03b08ac669daaf9.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/be5b47af8a3a66bcb200a239713e20e8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/a8803ab2f9b49c0bd23eceb4a9da38c2.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-21T05:29:02.299Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9442298,
-      "lon": -47.1083519,
-      "distanceToCenter": 6.27,
-      "walkingDistanceToCenter": 7.04
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075823601_112",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-jardim-santa-clara-campinas-sp-200m2-id-2805513749/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Santa Clara, Campinas",
-    "description": [
-      {
-        "Image-img": "+11 fotos"
-      },
-      {
-        "Location": "Santa Clara, Campinas"
-      },
-      {
-        "Street": "Estrada Municipal da Paz"
-      },
-      {
-        "Tamanho do imóvel": "200 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "6"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3c910a4a7750ea660cd9cb16d151da4a.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/e0e56bb71171995c87892ac7e4873170.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d157b4043ed968d8910fe27433ab88a8.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/03b74296fba3a35bcd20bab25a628456.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/0c0458f918f732c2872f53cf0847498f.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-21T05:30:23.601Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -10.1934964,
-      "lon": -48.9000447,
-      "distanceToCenter": 1427.52,
-      "walkingDistanceToCenter": 1039.17
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075895863_942",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-cozinha-jardim-santa-eudoxia-campinas-sp-242m2-id-2714166726/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Santa Eudóxia, Campinas",
-    "description": [
-      {
-        "Image-img": "+21 fotos"
-      },
-      {
-        "Location": "Jardim Santa Eudóxia, Campinas"
-      },
-      {
-        "Street": "Rua Henedina Oliveira Bresler"
-      },
-      {
-        "Tamanho do imóvel": "242 m²"
-      },
-      {
-        "Quantidade de quartos": "4"
-      },
-      {
-        "Quantidade de banheiros": "3"
-      },
-      {
-        "Quantidade de vagas de garagem": "2"
-      },
-      {
-        "Price": "R$ 382.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/28332a7b2ab6dde6b06f937620865468.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/bce7a8470111b63467e25cedded92ac3.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/b18d3ec5d50784cf05c8bebf14ef108c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/f1249054f17ff0ebdbf8249cb85c9026.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/78a95d57486442a955af9001c735d769.webp"
-    ],
-    "price": "382000",
-    "scrapedAt": "2025-07-21T05:31:35.863Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.921701,
-      "lon": -47.032312672195665,
-      "distanceToCenter": 3.06,
-      "walkingDistanceToCenter": 3.74
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075895866_689",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-jardim-santa-lucia-campinas-sp-91m2-id-2822480782/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Santa Lúcia, Campinas",
-    "description": [
-      {
-        "Image-img": "+16 fotos"
-      },
-      {
-        "Location": "Jardim Santa Lúcia, Campinas"
-      },
-      {
-        "Street": "Rua Primo Fradim"
-      },
-      {
-        "Tamanho do imóvel": "91 m²"
-      },
-      {
-        "Quantidade de quartos": "4"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Price": "R$ 280.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5fdb67b69954ff7e83c015c76515836f.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/36226ff53402f531cbf6b54e133da915.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/1044cb94133c85936845cabbce799bf0.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/7127656db30d01b391d5fcaef2df81a9.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/4a6bb408fedf99dc09faec3590182a02.webp"
-    ],
-    "price": "280000",
-    "scrapedAt": "2025-07-21T05:31:35.866Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -21.5274941,
-      "lon": -46.6358709,
-      "distanceToCenter": 159.82,
-      "walkingDistanceToCenter": 199.16
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075977525_53",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-florence-campinas-sp-70m2-id-2805512125/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Florence, Campinas",
-    "description": [
-      {
-        "Image-img": "+2 fotos"
-      },
-      {
-        "Location": "Jardim Florence, Campinas"
-      },
-      {
-        "Street": "Rua Vicente Moura Ferrão"
-      },
-      {
-        "Tamanho do imóvel": "70 m²"
-      },
-      {
-        "Quantidade de quartos": "1"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Price": "R$ 285.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5fe6f8e318882f407673817f2400331b.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/5e0ea7a79ecc7fe86dadb55996fdfaba.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/546fe21e870e94a894474b39ed547488.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/64dc176670e39205833ae72a2fa110ff.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/edb6779298a3678bf4c2c6ca508a375d.webp"
-    ],
-    "price": "285000",
-    "scrapedAt": "2025-07-21T05:32:57.525Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.945514000000003,
-      "lon": -47.165998475725374,
-      "distanceToCenter": 11.59,
-      "walkingDistanceToCenter": 13.79
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075977527_325",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-quintal-cidade-satelite-iris-campinas-sp-60m2-id-2743048455/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Cidade Satélite Íris, Campinas",
-    "description": [
-      {
-        "Image-img": "+13 fotos"
-      },
-      {
-        "Location": "Cidade Satélite Íris, Campinas"
-      },
-      {
-        "Street": "Rua Maria Neusa Belinteni"
-      },
-      {
-        "Tamanho do imóvel": "60 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Quantidade de vagas de garagem": "2-5"
-      },
-      {
-        "Price": "R$ 285.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/990f3d004239871fc0195d836632596c.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/880f00a54228c16169120eb627b44540.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/096e5fa5b91003e90375a79e57f89eb4.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/350805e4bbc2081c82a034b757388cad.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/425a696ce2d27e8b71dd8daffb2a1181.webp",
-      "https://cdnfiles.vivareal.com/campanhas/2025/festival-da-mudanca/stamps/stamp-zap.png"
-    ],
-    "price": "285000",
-    "scrapedAt": "2025-07-21T05:32:57.527Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9427307,
-      "lon": -47.1416499,
-      "distanceToCenter": 9.15,
-      "walkingDistanceToCenter": 10.63
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075977529_531",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-sao-domingos-campinas-sp-95m2-id-2805509151/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim São Domingos, Campinas",
-    "description": [
-      {
-        "Image-img": "+14 fotos"
-      },
-      {
-        "Location": "Jardim São Domingos, Campinas"
-      },
-      {
-        "Street": "Rua Alberto Lencastre Junior"
-      },
-      {
-        "Tamanho do imóvel": "95 m²"
-      },
-      {
-        "Quantidade de quartos": "2"
-      },
-      {
-        "Quantidade de banheiros": "2"
-      },
-      {
-        "Price": "R$ 287.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/90f16142452ba9c7c6c28256f4138968.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/012ba4605a3e71d62d0028cf6398de67.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/118580dad6f2f31e6a9c2fd5be6dbc94.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/97af48053fcabe896714673339b93883.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/3ce448c54396125cb5198e346ac0bb95.webp"
-    ],
-    "price": "287000",
-    "scrapedAt": "2025-07-21T05:32:57.529Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -21.4593487,
-      "lon": -47.0085588,
-      "distanceToCenter": 161.42,
-      "walkingDistanceToCenter": 202.5
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
-  },
-  {
-    "id": "prop_1753075977532_684",
-    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-1-quarto-jardim-novo-campos-eliseos-campinas-sp-49m2-id-2808340214/?source=ranking%2Crp",
-    "platform": "zap",
-    "address": "Jardim Novo Campos Elíseos, Campinas",
-    "description": [
-      {
-        "Image-img": "+5 fotos"
-      },
-      {
-        "Location": "Jardim Novo Campos Elíseos, Campinas"
-      },
-      {
-        "Tamanho do imóvel": "49 m²"
-      },
-      {
-        "Quantidade de quartos": "1"
-      },
-      {
-        "Quantidade de banheiros": "1"
-      },
-      {
-        "Quantidade de vagas de garagem": "3-9"
-      },
-      {
-        "Price": "R$ 300.000"
-      }
-    ],
-    "images": [
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ec0f705a63c8758cb06f027b89c9ecdd.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/ad4ae937cc426fd705dd217ddb15377a.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/d2d658189b8a69cd51e7e4abe4b8b1d5.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/03d3afe685e78a93ee8f31548fd27aa0.webp",
-      "https://resizedimgs.zapimoveis.com.br/fit-in/614x297/vr.images.sp/9a030c6c8a713cb91d5bcf44ffd6d6e0.webp"
-    ],
-    "price": "300000",
-    "scrapedAt": "2025-07-21T05:32:57.532Z",
-    "firstSeenAt": "2025-07-21T02:34:27.572Z",
-    "lastSeenAt": "2025-07-21T02:34:27.572Z",
-    "hasDuplicates": true,
-    "coords": {
-      "lat": -22.9442298,
-      "lon": -47.1083519,
-      "distanceToCenter": 6.27,
-      "walkingDistanceToCenter": 7.04
-    },
-    "__status": "added",
-    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775628705561_678",
@@ -3078,50 +229,50 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775628772481_614",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-26",
     "platform": "zap",
-    "address": "Casa para comprar com 70 m², 1 quarto, 1 banheiro, 5 vagas em\nJardim Aeroporto de Viracopos, Campinas",
+    "address": "Casa para comprar com 95 m², 2 quartos, 1 banheiro, 1 vaga em\nLoteamento Residencial Novo Mundo, Campinas",
     "description": [
       {
         "Image-img": "+11 fotos"
       },
       {
-        "Location": "Casa para comprar com 70 m², 1 quarto, 1 banheiro, 5 vagas em\nJardim Aeroporto de Viracopos, Campinas"
+        "Location": "Casa para comprar com 95 m², 2 quartos, 1 banheiro, 1 vaga em\nLoteamento Residencial Novo Mundo, Campinas"
       },
       {
-        "Street": "Rua Igarapé"
+        "Street": "Rua Carlos Ernesto Carmona Fussi"
       },
       {
-        "Tamanho do imóvel": "70 m²"
+        "Tamanho do imóvel": "95 m²"
       },
       {
-        "Quantidade de quartos": "1"
+        "Quantidade de quartos": "2"
       },
       {
         "Quantidade de banheiros": "1"
       },
       {
-        "Quantidade de vagas de garagem": "5"
+        "Quantidade de vagas de garagem": "1 - 2"
       },
       {
-        "Price": "R$ 215.000"
+        "Price": "R$ 200.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/141ba303d7e239568ae3bedabdeccebb/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/205c57bfb3dc0aeb2fcefceba3e51b5c/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/38430f5a92e5d5fb34880b4ae08e4eb6/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/ca943ac25c5b8233b0b290fefdd21816/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a2f87c9b16880e5595dcb8f727460ed9/casa-com-1-quarto-a-venda-70m-no-jardim-aeroporto-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/52647e043d809104b2eabdc74c944f61/casa-com-2-quartos-a-venda-95m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/2ef5ae15e469ead050b3eeb979733557/casa-com-2-quartos-a-venda-95m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/1aa0e764e4df8ac828310440cf4dc043/casa-com-2-quartos-a-venda-95m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/27d296d7e466bab6a1d411d36e4493f5/casa-com-2-quartos-a-venda-95m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/ee760594b1093193c45afaaea2b02405/casa-com-2-quartos-a-venda-95m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "215000",
+    "price": "200000",
     "scrapedAt": "2026-04-08T06:12:52.481Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -3172,7 +323,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775628839234_17",
@@ -3219,7 +370,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775628839235_388",
@@ -3262,7 +413,7 @@
     "price": "230000",
     "scrapedAt": "2026-04-08T06:13:59.235Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -3310,7 +461,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775628916975_651",
@@ -3353,58 +504,55 @@
     "price": "240000",
     "scrapedAt": "2026-04-08T06:15:16.975Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775628916982_308",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-25",
     "platform": "zap",
-    "address": "Casa para comprar com 300 m², 4 quartos, 2 banheiros, 6 vagas em\nNúcleo Residencial Jardim Santa Marta, Campinas",
+    "address": "Casa para comprar com 100 m², 2 quartos, 2 banheiros em\nConjunto Residencial Parque São Bento, Campinas",
     "description": [
       {
-        "Image-img": "+17 fotos"
+        "Image-img": "+29 fotos"
       },
       {
-        "Location": "Casa para comprar com 300 m², 4 quartos, 2 banheiros, 6 vagas em\nNúcleo Residencial Jardim Santa Marta, Campinas"
+        "Location": "Casa para comprar com 100 m², 2 quartos, 2 banheiros em\nConjunto Residencial Parque São Bento, Campinas"
       },
       {
-        "Street": "Rua Projetada 1"
+        "Street": "Rua Renato Leite de Carvalho e Silva"
       },
       {
-        "Tamanho do imóvel": "300 m²"
+        "Tamanho do imóvel": "100 m²"
       },
       {
-        "Quantidade de quartos": "4"
+        "Quantidade de quartos": "2"
       },
       {
         "Quantidade de banheiros": "2"
       },
       {
-        "Quantidade de vagas de garagem": "6"
-      },
-      {
-        "Price": "R$ 245.000"
+        "Price": "R$ 299.900"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/8704a168444c82efd22f5cdcc38f3a2d/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/8abd6192046cceef2727d9795675c1cf/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/68d1e123d9696f690d8cc1a110957ced/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/9b851df5410b65047e2f39b684b2ee64/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/50a28ffff2e24451da6d3df928267cfb/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/382e050d2680ea3b647ebea0956a4812/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/4cecd65bc7a2539080473bc473878e56/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f40fa97e02d1a6e4ee872f214e5b83b9/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a3321a1844fe151ebcd636c055cde4c1/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b2648591578e26c0c7ed0379783523c1/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "245000",
+    "price": "299900",
     "scrapedAt": "2026-04-08T06:15:16.982Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775628987812_376",
@@ -3451,7 +599,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775628987818_783",
@@ -3491,58 +639,58 @@
     "price": "250000",
     "scrapedAt": "2026-04-08T06:16:27.818Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629058739_725",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-1",
     "platform": "zap",
-    "address": "Casa para comprar com 60 m², 2 quartos, 2 banheiros, 2 vagas em\nJardim Liliza, Campinas",
+    "address": "Casa para comprar com 80 m², 3 quartos, 1 banheiro, 2 vagas em\nResidencial São José, Campinas",
     "description": [
       {
-        "Image-img": "+3 fotos"
+        "Image-img": "+18 fotos"
       },
       {
-        "Location": "Casa para comprar com 60 m², 2 quartos, 2 banheiros, 2 vagas em\nJardim Liliza, Campinas"
+        "Location": "Casa para comprar com 80 m², 3 quartos, 1 banheiro, 2 vagas em\nResidencial São José, Campinas"
       },
       {
-        "Street": "Rua Andrelino Bento do Amaral"
+        "Street": "Rua Hans Melchert"
       },
       {
-        "Tamanho do imóvel": "60 m²"
+        "Tamanho do imóvel": "80 m²"
       },
       {
-        "Quantidade de quartos": "2"
+        "Quantidade de quartos": "3"
       },
       {
-        "Quantidade de banheiros": "2"
+        "Quantidade de banheiros": "1"
       },
       {
         "Quantidade de vagas de garagem": "2"
       },
       {
-        "Price": "R$ 250.000"
+        "Price": "R$ 280.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/c4a22f5f17c6134af7b0b8df48e0431a/casa-com-2-quartos-a-venda-60m-no-jardim-liliza-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b7ad4701301303fea903ccd2679c2c90/casa-com-2-quartos-a-venda-60m-no-jardim-liliza-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/6a5a42841bc933b510393671620543c5/casa-com-2-quartos-a-venda-60m-no-jardim-liliza-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/e46e34e70922da68ffc1c5f8ad659d1d/casa-com-2-quartos-a-venda-60m-no-jardim-liliza-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/78ca375fa54626f833ba96c627b223f0/casa-com-2-quartos-a-venda-60m-no-jardim-liliza-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/393d1eef4c8bb526835da1eaf64264b4/casa-com-3-quartos-a-venda-80m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/ca9bf03c30f9683b2714e585915d6792/casa-com-3-quartos-a-venda-80m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/753c4b75ca5caba8bbd40a28150a6244/casa-com-3-quartos-a-venda-80m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/d4e7de37d0856fde58645d62f579b72d/casa-com-3-quartos-a-venda-80m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/017f92a6245640b0a1146456962ec823/casa-com-3-quartos-a-venda-80m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "250000",
+    "price": "280000",
     "scrapedAt": "2026-04-08T06:17:38.739Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629124679_792",
@@ -3589,7 +737,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629124690_366",
@@ -3633,7 +781,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629194935_728",
@@ -3680,7 +828,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629194936_724",
@@ -3727,7 +875,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629194945_783",
@@ -3774,7 +922,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629194946_645",
@@ -3817,7 +965,7 @@
     "price": "265000",
     "scrapedAt": "2026-04-08T06:19:54.946Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -3827,44 +975,44 @@
     "id": "prop_1775629343347_138",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-5",
     "platform": "zap",
-    "address": "Casa para comprar com 112 m², 3 quartos, 3 banheiros, 1 vaga em\nVila Paraíso, Campinas",
+    "address": "Casa para comprar com 100 - 110 m², 3 quartos, 1 banheiro, 2 vagas em\nNúcleo Residencial Vila Vitória, Campinas",
     "description": [
       {
-        "Image-img": "+16 fotos"
+        "Image-img": "+10 fotos"
       },
       {
-        "Location": "Casa para comprar com 112 m², 3 quartos, 3 banheiros, 1 vaga em\nVila Paraíso, Campinas"
+        "Location": "Casa para comprar com 100 - 110 m², 3 quartos, 1 banheiro, 2 vagas em\nNúcleo Residencial Vila Vitória, Campinas"
       },
       {
-        "Street": "Avenida Francisco de Angelis"
+        "Street": "Rua Etiópia"
       },
       {
-        "Tamanho do imóvel": "112 m²"
+        "Tamanho do imóvel": "100 - 110 m²"
       },
       {
         "Quantidade de quartos": "3"
       },
       {
-        "Quantidade de banheiros": "3"
+        "Quantidade de banheiros": "1"
       },
       {
-        "Quantidade de vagas de garagem": "1"
+        "Quantidade de vagas de garagem": "2"
       },
       {
-        "Price": "R$ 270.000"
+        "Price": "R$ 250.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/450b6d88705eec3da87d1cac640d0fa0/casa-com-3-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/90fb33b9c0c67d6a53949f3953bdcd10/casa-com-3-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/5cd2a26870d213508114aed74692400a/casa-com-3-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/9d0699cde207ee29f2bf7126c556ec96/casa-com-3-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/97c68a084dfc381d91752c5ddc174bdc/casa-com-3-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/28fdf809749eb03bb156d7455db4e028/casa-com-3-quartos-a-venda-110m-no-nucleo-residencial-vila-vitoria-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/59db695a6955f81d4dcf672ce88b11e0/casa-com-3-quartos-a-venda-110m-no-nucleo-residencial-vila-vitoria-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b59cc40b638e31c990020708fe1bd121/casa-com-3-quartos-a-venda-110m-no-nucleo-residencial-vila-vitoria-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f120fe9a90ba6063f5ba79540f0dd50a/casa-com-3-quartos-a-venda-110m-no-nucleo-residencial-vila-vitoria-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/552225f6cb0f2c857086076a6d36ba9d/casa-com-3-quartos-a-venda-110m-no-nucleo-residencial-vila-vitoria-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "270000",
+    "price": "250000",
     "scrapedAt": "2026-04-08T06:22:23.347Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -3915,22 +1063,22 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775629343360_68",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-20",
     "platform": "zap",
-    "address": "Casa para comprar com 200 m², 2 quartos, 2 banheiros, 6 vagas em\nSanta Clara, Campinas",
+    "address": "Casa para comprar com 200 m², 2 quartos, 1 banheiro, 1 vaga em\nJardim São Pedro de Viracopos, Campinas",
     "description": [
       {
         "Image-img": "+11 fotos"
       },
       {
-        "Location": "Casa para comprar com 200 m², 2 quartos, 2 banheiros, 6 vagas em\nSanta Clara, Campinas"
+        "Location": "Casa para comprar com 200 m², 2 quartos, 1 banheiro, 1 vaga em\nJardim São Pedro de Viracopos, Campinas"
       },
       {
-        "Street": "Estrada Municipal da Paz"
+        "Street": "Avenida Martinho Lutero"
       },
       {
         "Tamanho do imóvel": "200 m²"
@@ -3939,26 +1087,26 @@
         "Quantidade de quartos": "2"
       },
       {
-        "Quantidade de banheiros": "2"
+        "Quantidade de banheiros": "1"
       },
       {
-        "Quantidade de vagas de garagem": "6"
+        "Quantidade de vagas de garagem": "1"
       },
       {
-        "Price": "R$ 280.000"
+        "Price": "R$ 224.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/5c302f01be3e7f325f91ecb8bcdfea17/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/3d9f7752a0dd07b91a3bde9b9c7093c1/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/e0e56bb71171995c87892ac7e4873170/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/03b74296fba3a35bcd20bab25a628456/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/8bf8052fe6e5d77405799966ca7291d7/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/090fd4dc4a78160da15457946be37a79/casa-com-2-quartos-a-venda-200m-no-jardim-sao-pedro-de-viracopos-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/71b2658c5049e78bfaa6ac382f7fa5c6/casa-com-2-quartos-a-venda-200m-no-jardim-sao-pedro-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/366cf0c6faff505ba4a3dbb57101f85b/casa-com-2-quartos-a-venda-200m-no-jardim-sao-pedro-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/6520fdf18976b74538f3020abfa39719/casa-com-2-quartos-a-venda-200m-no-jardim-sao-pedro-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/c110e6e93ec2304d24d5b18290020655/casa-com-2-quartos-a-venda-200m-no-jardim-sao-pedro-de-viracopos-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "280000",
+    "price": "224000",
     "scrapedAt": "2026-04-08T06:22:23.360Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -3968,41 +1116,44 @@
     "id": "prop_1775629417115_583",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-24",
     "platform": "zap",
-    "address": "Casa para comprar com 91 m², 4 quartos, 2 banheiros em\nJardim Santa Lúcia, Campinas",
+    "address": "Casa para comprar com 60 m², 2 quartos, 2 banheiros, 2 vagas em\nResidencial São José, Campinas",
     "description": [
       {
-        "Image-img": "+16 fotos"
+        "Image-img": "+7 fotos"
       },
       {
-        "Location": "Casa para comprar com 91 m², 4 quartos, 2 banheiros em\nJardim Santa Lúcia, Campinas"
+        "Location": "Casa para comprar com 60 m², 2 quartos, 2 banheiros, 2 vagas em\nResidencial São José, Campinas"
       },
       {
-        "Street": "Rua Primo Fradim"
+        "Street": "Rua Comendador Arly Gomes Ribeiro"
       },
       {
-        "Tamanho do imóvel": "91 m²"
+        "Tamanho do imóvel": "60 m²"
       },
       {
-        "Quantidade de quartos": "4"
+        "Quantidade de quartos": "2"
       },
       {
         "Quantidade de banheiros": "2"
       },
       {
-        "Price": "R$ 280.000"
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 271.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/5fdb67b69954ff7e83c015c76515836f/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/36226ff53402f531cbf6b54e133da915/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/1044cb94133c85936845cabbce799bf0/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/7127656db30d01b391d5fcaef2df81a9/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/4a6bb408fedf99dc09faec3590182a02/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/8a8bbac1a3ff0d4e5d392331d2dd4641/casa-com-2-quartos-a-venda-60m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/374636faf8c811ed22742746afe88ba8/casa-com-2-quartos-a-venda-60m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f93fd97884196129c5a12e69907d20c3/casa-com-2-quartos-a-venda-60m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/64fb5e0d083fa06f01113e3d2c962710/casa-com-2-quartos-a-venda-60m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/dd62f4df63f40ccc744ba3fbe2bb3dca/casa-com-2-quartos-a-venda-60m-no-residencial-sao-jose-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "280000",
+    "price": "271000",
     "scrapedAt": "2026-04-08T06:23:37.115Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -4053,7 +1204,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629483622_275",
@@ -4096,11 +1247,11 @@
     "price": "280000",
     "scrapedAt": "2026-04-08T06:24:43.622Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629483623_542",
@@ -4147,7 +1298,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629483624_552",
@@ -4187,11 +1338,11 @@
     "price": "280000",
     "scrapedAt": "2026-04-08T06:24:43.624Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629483628_974",
@@ -4235,7 +1386,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629483633_158",
@@ -4282,7 +1433,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775629483634_17",
@@ -4326,51 +1477,54 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629573335_549",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-16",
     "platform": "zap",
-    "address": "Casa para comprar com 91 m², 4 quartos, 2 banheiros em\nJardim Santa Lúcia, Campinas",
+    "address": "Casa para comprar com 65 m², 2 quartos, 1 banheiro, 2 vagas em\nCidade Satélite Íris, Campinas",
     "description": [
       {
-        "Image-img": "+16 fotos"
+        "Image-img": "+5 fotos"
       },
       {
-        "Location": "Casa para comprar com 91 m², 4 quartos, 2 banheiros em\nJardim Santa Lúcia, Campinas"
+        "Location": "Casa para comprar com 65 m², 2 quartos, 1 banheiro, 2 vagas em\nCidade Satélite Íris, Campinas"
       },
       {
-        "Street": "Rua Primo Fradim"
+        "Street": "Rua Pastor Samuel de Campos Chiminazzo"
       },
       {
-        "Tamanho do imóvel": "91 m²"
+        "Tamanho do imóvel": "65 m²"
       },
       {
-        "Quantidade de quartos": "4"
+        "Quantidade de quartos": "2"
       },
       {
-        "Quantidade de banheiros": "2"
+        "Quantidade de banheiros": "1 - 2"
       },
       {
-        "Price": "R$ 280.000"
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 265.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/5fdb67b69954ff7e83c015c76515836f/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/36226ff53402f531cbf6b54e133da915/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/1044cb94133c85936845cabbce799bf0/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/7127656db30d01b391d5fcaef2df81a9/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/4a6bb408fedf99dc09faec3590182a02/casa-com-4-quartos-a-venda-91m-no-jardim-santa-lucia-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/d2991276d57024f2c62a29794b113a74/casa-com-2-quartos-a-venda-65m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/0e4a450d1d965b52b2113c198c110366/casa-com-2-quartos-a-venda-65m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/538b4893c50377dce1569fbd82e1aa5d/casa-com-2-quartos-a-venda-65m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/6b05ca6b4d654adbaf877a664b415a0b/casa-com-2-quartos-a-venda-65m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/453ea6eef229389102a39386c74c0855/casa-com-2-quartos-a-venda-65m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "280000",
+    "price": "265000",
     "scrapedAt": "2026-04-08T06:26:13.335Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629573341_86",
@@ -4417,7 +1571,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629643753_658",
@@ -4460,11 +1614,11 @@
     "price": "285000",
     "scrapedAt": "2026-04-08T06:27:23.753Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629643762_646",
@@ -4508,94 +1662,91 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629643764_321",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-25",
     "platform": "zap",
-    "address": "Casa para comprar com 49 m², 1 quarto, 1 banheiro, 3 vagas em\nJardim Novo Campos Elíseos, Campinas",
+    "address": "Casa para comprar com 100 m², 2 quartos, 2 banheiros em\nConjunto Residencial Parque São Bento, Campinas",
     "description": [
       {
-        "Image-img": "+8 fotos"
+        "Image-img": "+29 fotos"
       },
       {
-        "Location": "Casa para comprar com 49 m², 1 quarto, 1 banheiro, 3 vagas em\nJardim Novo Campos Elíseos, Campinas"
+        "Location": "Casa para comprar com 100 m², 2 quartos, 2 banheiros em\nConjunto Residencial Parque São Bento, Campinas"
       },
       {
-        "Tamanho do imóvel": "49 m²"
+        "Street": "Rua Renato Leite de Carvalho e Silva"
       },
       {
-        "Quantidade de quartos": "1"
+        "Tamanho do imóvel": "100 m²"
       },
       {
-        "Quantidade de banheiros": "1"
+        "Quantidade de quartos": "2"
       },
       {
-        "Quantidade de vagas de garagem": "3 - 9"
+        "Quantidade de banheiros": "2"
       },
       {
-        "Price": "R$ 289.900"
+        "Price": "R$ 299.900"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/997b62efc8b28a8af22c2eb24a866bd5/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/eb6ae2c2573f30074f59222a15c5d980/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/c3c35504e92f97009d50624bb392a9f9/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/1baf9863d6b8554a1b5994da40962967/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/727a79818aafca82a67358cdc53a617c/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/382e050d2680ea3b647ebea0956a4812/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/4cecd65bc7a2539080473bc473878e56/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f40fa97e02d1a6e4ee872f214e5b83b9/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a3321a1844fe151ebcd636c055cde4c1/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b2648591578e26c0c7ed0379783523c1/casa-com-2-quartos-a-venda-100m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "289900",
+    "price": "299900",
     "scrapedAt": "2026-04-08T06:27:23.764Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629721523_118",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-2",
     "platform": "zap",
-    "address": "Casa para comprar com 150 m², 4 quartos, 3 banheiros, 5 vagas em\nCidade Satélite Íris, Campinas",
+    "address": "Casa para comprar com 90 m², 2 quartos, 3 banheiros, 3 vagas em\nConjunto Residencial Parque São Bento, Campinas",
     "description": [
       {
-        "Image-img": "+12 fotos"
+        "Location": "Casa para comprar com 90 m², 2 quartos, 3 banheiros, 3 vagas em\nConjunto Residencial Parque São Bento, Campinas"
       },
       {
-        "Location": "Casa para comprar com 150 m², 4 quartos, 3 banheiros, 5 vagas em\nCidade Satélite Íris, Campinas"
+        "Street": "Rua Doutor Eraldo Liner"
       },
       {
-        "Street": "Rua José Casonatto"
+        "Tamanho do imóvel": "90 m²"
       },
       {
-        "Tamanho do imóvel": "150 m²"
-      },
-      {
-        "Quantidade de quartos": "4"
+        "Quantidade de quartos": "2"
       },
       {
         "Quantidade de banheiros": "3"
       },
       {
-        "Quantidade de vagas de garagem": "5"
+        "Quantidade de vagas de garagem": "3"
       },
       {
-        "Price": "R$ 280.000"
+        "Price": "R$ 230.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/45bb8cf3b9acc9844d08aff0a72aed8b/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/be78cb225bb52334ba5939b9e1763f48/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/bee4bb21be9f1506a423f403c876af79/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/be6f550eb69a62d1905c6a67889fce89/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/fb599c311831e3a7fbea17ec4f4325c8/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/98bee6abfb36dab4969025c1ecea0afb/casa-com-2-quartos-a-venda-90m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/58b3b6f9391973fcfa36969d16da6502/casa-com-2-quartos-a-venda-90m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/305b61d44eaf7736b870afd610501d75/casa-com-2-quartos-a-venda-90m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/da7b399a7cb26ea14e93e9055abb66aa/casa-com-2-quartos-a-venda-90m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/499292c41b765c078745191c75b6e3b5/casa-com-2-quartos-a-venda-90m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "280000",
+    "price": "230000",
     "scrapedAt": "2026-04-08T06:28:41.523Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -4646,22 +1797,22 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629721529_650",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-10",
     "platform": "zap",
-    "address": "Casa para comprar com 95 m², 2 quartos, 1 banheiro, 2 vagas em\nVila Trinta e Um de Março, Campinas",
+    "address": "Casa para comprar com 120 m², 2 quartos, 1 banheiro, 2 vagas em\nJardim Shangai, Campinas",
     "description": [
       {
-        "Image-img": "+6 fotos"
+        "Image-img": "+9 fotos"
       },
       {
-        "Location": "Casa para comprar com 95 m², 2 quartos, 1 banheiro, 2 vagas em\nVila Trinta e Um de Março, Campinas"
+        "Location": "Casa para comprar com 120 m², 2 quartos, 1 banheiro, 2 vagas em\nJardim Shangai, Campinas"
       },
       {
-        "Tamanho do imóvel": "95 m²"
+        "Tamanho do imóvel": "120 m²"
       },
       {
         "Quantidade de quartos": "2"
@@ -4670,23 +1821,23 @@
         "Quantidade de banheiros": "1"
       },
       {
-        "Quantidade de vagas de garagem": "2 - 4"
+        "Quantidade de vagas de garagem": "2"
       },
       {
-        "Price": "R$ 250.000"
+        "Price": "R$ 293.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/e0243ca89a11705343d3fa0e14fe1567/casa-com-2-quartos-a-venda-95m-no-vila-trinta-e-um-de-marco-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/ea3412e73efb6fb0de51309568678c77/casa-com-2-quartos-a-venda-95m-no-vila-trinta-e-um-de-marco-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/24fab9222ca93164dae16a9b13aa83dc/casa-com-2-quartos-a-venda-95m-no-vila-trinta-e-um-de-marco-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/86ebc3a4796fc3e33440f3b04bad02fe/casa-com-2-quartos-a-venda-95m-no-vila-trinta-e-um-de-marco-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a98dd1c1177fd7fcdfaac05a0e8012cf/casa-com-2-quartos-a-venda-95m-no-vila-trinta-e-um-de-marco-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/cc655c4aeb39bba856670fde44b43b14/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/bed3020a75e8b5a214d499cbd665911a/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/33ebefb5917e8817939116b4a9b47415/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/7dfd8d0ac17b65179e4be9c8b1022373/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f9ad77dbcacade7536e5f939295b9016/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "250000",
+    "price": "293000",
     "scrapedAt": "2026-04-08T06:28:41.529Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -4737,7 +1888,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629721542_588",
@@ -4784,7 +1935,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629802892_798",
@@ -4831,51 +1982,51 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
-    "consecutiveMisses": 0
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775629802892_868",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-9",
     "platform": "zap",
-    "address": "Casa para comprar com 120 m², 2 quartos, 1 banheiro, 2 vagas em\nJardim Shangai, Campinas",
+    "address": "Casa para comprar com 63 m², 1 quarto, 2 banheiros em\nJardim São Judas Tadeu, Campinas",
     "description": [
       {
         "Image-img": "+9 fotos"
       },
       {
-        "Location": "Casa para comprar com 120 m², 2 quartos, 1 banheiro, 2 vagas em\nJardim Shangai, Campinas"
+        "Location": "Casa para comprar com 63 m², 1 quarto, 2 banheiros em\nJardim São Judas Tadeu, Campinas"
       },
       {
-        "Tamanho do imóvel": "120 m²"
+        "Street": "Rua Antônio Augusto Vianna"
       },
       {
-        "Quantidade de quartos": "2"
+        "Tamanho do imóvel": "63 m²"
       },
       {
-        "Quantidade de banheiros": "1"
+        "Quantidade de quartos": "1"
       },
       {
-        "Quantidade de vagas de garagem": "2"
+        "Quantidade de banheiros": "2"
       },
       {
         "Price": "R$ 293.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/cc655c4aeb39bba856670fde44b43b14/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/bed3020a75e8b5a214d499cbd665911a/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/33ebefb5917e8817939116b4a9b47415/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/7dfd8d0ac17b65179e4be9c8b1022373/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f9ad77dbcacade7536e5f939295b9016/casa-com-2-quartos-a-venda-120m-no-jardim-shangai-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a3e07d33a9e59cda7b76bb0bf0c430c0/casa-com-1-quarto-a-venda-63m-no-jardim-sao-judas-tadeu-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/6404684f1b3aa8187b9bbf09dcd90362/casa-com-1-quarto-a-venda-63m-no-jardim-sao-judas-tadeu-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/2c4be51840ba528ae7db61f26dae1b1a/casa-com-1-quarto-a-venda-63m-no-jardim-sao-judas-tadeu-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/5901eddc75248a60f8892f21862ba18c/casa-com-1-quarto-a-venda-63m-no-jardim-sao-judas-tadeu-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b0b8c467740ead9eb23c55ac1e576c2f/casa-com-1-quarto-a-venda-63m-no-jardim-sao-judas-tadeu-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
     "price": "293000",
     "scrapedAt": "2026-04-08T06:30:02.892Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-08T03:32:45.509Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
-    "__status": "added",
-    "consecutiveMisses": 1
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775629802901_463",
@@ -4918,7 +2069,7 @@
     "price": "295000",
     "scrapedAt": "2026-04-08T06:30:02.901Z",
     "firstSeenAt": "2026-04-08T03:32:45.509Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "coords": {},
     "__status": "updated",
@@ -4966,7 +2117,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775629876085_478",
@@ -5013,7 +2164,7 @@
     "hasDuplicates": true,
     "coords": {},
     "__status": "added",
-    "consecutiveMisses": 1
+    "consecutiveMisses": 2
   },
   {
     "id": "prop_1775715101855_341",
@@ -5058,9 +2209,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715236003_146",
@@ -5105,9 +2256,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715236004_154",
@@ -5150,58 +2301,58 @@
     "price": "230000",
     "scrapedAt": "2026-04-09T06:13:56.004Z",
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "coords": {},
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775715315319_464",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-14",
     "platform": "zap",
-    "address": "Casa para comprar com 80 m², 3 quartos, 2 banheiros, 3 vagas em\nLoteamento Residencial Novo Mundo, Campinas",
+    "address": "Casa para comprar com 200 m², 2 quartos, 2 banheiros, 6 vagas em\nSanta Clara, Campinas",
     "description": [
       {
-        "Image-img": "+12 fotos"
+        "Image-img": "+11 fotos"
       },
       {
-        "Location": "Casa para comprar com 80 m², 3 quartos, 2 banheiros, 3 vagas em\nLoteamento Residencial Novo Mundo, Campinas"
+        "Location": "Casa para comprar com 200 m², 2 quartos, 2 banheiros, 6 vagas em\nSanta Clara, Campinas"
       },
       {
-        "Street": "Rua Fernando Manoel Pismel Dantas"
+        "Street": "Estrada Municipal da Paz"
       },
       {
-        "Tamanho do imóvel": "80 m²"
+        "Tamanho do imóvel": "200 m²"
       },
       {
-        "Quantidade de quartos": "3"
+        "Quantidade de quartos": "2"
       },
       {
         "Quantidade de banheiros": "2"
       },
       {
-        "Quantidade de vagas de garagem": "3"
+        "Quantidade de vagas de garagem": "6"
       },
       {
-        "Price": "R$ 240.000"
+        "Price": "R$ 280.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/64d3c0523dac0fc7b986798be6f346e4/casa-com-3-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/20f48be6bdace7500527a1ec8bb1a10b/casa-com-3-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/0857403f57d4bad707fdb8dcced6d8e9/casa-com-3-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/970bf3ef5a7d34e3c01ce681cce85e3f/casa-com-3-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/e50a2465ddeb5d143352c6143356ba16/casa-com-3-quartos-a-venda-80m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/5c302f01be3e7f325f91ecb8bcdfea17/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/3d9f7752a0dd07b91a3bde9b9c7093c1/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/e0e56bb71171995c87892ac7e4873170/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/03b74296fba3a35bcd20bab25a628456/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/8bf8052fe6e5d77405799966ca7291d7/casa-com-2-quartos-a-venda-200m-no-santa-clara-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "240000",
+    "price": "280000",
     "scrapedAt": "2026-04-09T06:15:15.319Z",
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "coords": {},
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775715386717_271",
@@ -5246,9 +2397,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715461681_777",
@@ -5293,53 +2444,53 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715529517_974",
     "link": "https://www.zapimoveis.com.br/imovel/house-item-13",
     "platform": "zap",
-    "address": "Casa para comprar com 400 m², 1 quarto, 1 banheiro em\nParque Fazendinha, Campinas",
+    "address": "Casa para comprar com 39 m², 2 quartos, 1 banheiro, 3 vagas em\nJardim Santa Rosa, Campinas",
     "description": [
       {
-        "Image-img": "+26 fotos"
+        "Image-img": "+13 fotos"
       },
       {
-        "Location": "Casa para comprar com 400 m², 1 quarto, 1 banheiro em\nParque Fazendinha, Campinas"
+        "Location": "Casa para comprar com 39 m², 2 quartos, 1 banheiro, 3 vagas em\nJardim Santa Rosa, Campinas"
       },
       {
-        "Street": "Rua Luci Camargo Erbolato"
+        "Tamanho do imóvel": "39 m²"
       },
       {
-        "Tamanho do imóvel": "400 m²"
-      },
-      {
-        "Quantidade de quartos": "1"
+        "Quantidade de quartos": "2"
       },
       {
         "Quantidade de banheiros": "1"
       },
       {
-        "Price": "R$ 260.000"
+        "Quantidade de vagas de garagem": "3"
+      },
+      {
+        "Price": "R$ 280.000"
       }
     ],
     "images": [
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a7cd31928add11129b6ec3c35a8a488e/casa-com-1-quarto-a-venda-400m-no-parque-fazendinha-campinas.webp?action=fit-in&dimension=614x297",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/813292bdd320d9a24e00105bbdb610af/casa-com-1-quarto-a-venda-400m-no-parque-fazendinha-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/444f46330e714543929e23490b0f1e52/casa-com-1-quarto-a-venda-400m-no-parque-fazendinha-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a35c12fefb0af7fc1e3e3ca5d6af7bd7/casa-com-1-quarto-a-venda-400m-no-parque-fazendinha-campinas.webp?action=fit-in&dimension=614x297&seo=false",
-      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/4509e8132e15690f03cd51dd50e1fa95/casa-com-1-quarto-a-venda-400m-no-parque-fazendinha-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f8b0a7deca628ddcd7e99f5153452da8/casa-com-2-quartos-a-venda-39m-no-jardim-santa-rosa-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/81f21d5490bec4102084b3ff3fd26c13/casa-com-2-quartos-a-venda-39m-no-jardim-santa-rosa-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/87c7bfdd2f3be46b559796cd2846322e/casa-com-2-quartos-a-venda-39m-no-jardim-santa-rosa-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/06400ee343fffa8df2c3fb2ac54c7266/casa-com-2-quartos-a-venda-39m-no-jardim-santa-rosa-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/4c319d5b86f22ce972eec55741cf89f1/casa-com-2-quartos-a-venda-39m-no-jardim-santa-rosa-campinas.webp?action=fit-in&dimension=614x297&seo=false"
     ],
-    "price": "260000",
+    "price": "280000",
     "scrapedAt": "2026-04-09T06:18:49.517Z",
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "coords": {},
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775715600653_71",
@@ -5384,9 +2535,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715600663_287",
@@ -5431,9 +2582,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715745179_428",
@@ -5478,9 +2629,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715819970_348",
@@ -5525,9 +2676,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715886818_354",
@@ -5569,9 +2720,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715886819_77",
@@ -5616,9 +2767,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715886820_203",
@@ -5660,9 +2811,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775715886833_810",
@@ -5705,11 +2856,11 @@
     "price": "280000",
     "scrapedAt": "2026-04-09T06:24:46.833Z",
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "coords": {},
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775715886835_596",
@@ -5751,9 +2902,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716047948_960",
@@ -5795,9 +2946,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716047949_74",
@@ -5842,9 +2993,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716047950_191",
@@ -5886,9 +3037,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716047951_789",
@@ -5933,9 +3084,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716047951_440",
@@ -5980,9 +3131,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716134889_512",
@@ -6024,9 +3175,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716134892_299",
@@ -6069,11 +3220,11 @@
     "price": "290000",
     "scrapedAt": "2026-04-09T06:28:54.892Z",
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "coords": {},
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775716134904_907",
@@ -6116,11 +3267,11 @@
     "price": "290000",
     "scrapedAt": "2026-04-09T06:28:54.904Z",
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
-    "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "coords": {},
+    "__status": "updated",
+    "consecutiveMisses": 0
   },
   {
     "id": "prop_1775716210625_732",
@@ -6162,9 +3313,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716286292_302",
@@ -6209,9 +3360,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716286311_663",
@@ -6253,9 +3404,9 @@
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
     "lastSeenAt": "2026-04-09T03:32:52.035Z",
     "hasDuplicates": true,
+    "coords": {},
     "__status": "added",
-    "consecutiveMisses": 0,
-    "coords": {}
+    "consecutiveMisses": 1
   },
   {
     "id": "prop_1775716286313_659",
@@ -6298,7 +3449,559 @@
     "price": "300000",
     "scrapedAt": "2026-04-09T06:31:26.313Z",
     "firstSeenAt": "2026-04-09T03:32:52.035Z",
-    "lastSeenAt": "2026-04-09T03:32:52.035Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "coords": {},
+    "__status": "updated",
+    "consecutiveMisses": 0
+  },
+  {
+    "id": "prop_1775802238933_232",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-churrasqueira-jardim-santa-rita-de-cassia-campinas-sp-300m2-id-2869861383/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 300 m², 4 quartos, 2 banheiros, 6 vagas em\nNúcleo Residencial Jardim Santa Marta, Campinas",
+    "description": [
+      {
+        "Image-img": "+17 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 300 m², 4 quartos, 2 banheiros, 6 vagas em\nNúcleo Residencial Jardim Santa Marta, Campinas"
+      },
+      {
+        "Street": "Rua Projetada 1"
+      },
+      {
+        "Tamanho do imóvel": "300 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "6"
+      },
+      {
+        "Price": "R$ 245.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/8704a168444c82efd22f5cdcc38f3a2d/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/8abd6192046cceef2727d9795675c1cf/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/68d1e123d9696f690d8cc1a110957ced/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/9b851df5410b65047e2f39b684b2ee64/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/50a28ffff2e24451da6d3df928267cfb/casa-com-4-quartos-a-venda-300m-no-nucleo-residencial-jardim-santa-marta-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "245000",
+    "scrapedAt": "2026-04-10T06:23:58.933Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775802520565_152",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-cozinha-loteamento-residencial-novo-mundo-campinas-sp-64m2-id-2869859609/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 64 m², 2 quartos, 1 banheiro, 2 vagas em\nLoteamento Residencial Novo Mundo, Campinas",
+    "description": [
+      {
+        "Image-img": "+6 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 64 m², 2 quartos, 1 banheiro, 2 vagas em\nLoteamento Residencial Novo Mundo, Campinas"
+      },
+      {
+        "Street": "Rua Romeu dos Santos"
+      },
+      {
+        "Tamanho do imóvel": "64 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 265.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b71467cfd1d19bb3284d2d9d9205f614/casa-com-2-quartos-a-venda-64m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/c6bcec3654182e964f1d83a61cc9b08a/casa-com-2-quartos-a-venda-64m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a4d12bc2c9e98b13af98354827481071/casa-com-2-quartos-a-venda-64m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/adc342b65635967c65d7863d4379b1c4/casa-com-2-quartos-a-venda-64m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/acd63d054bcbbaf6b64ad5d159065a17/casa-com-2-quartos-a-venda-64m-no-loteamento-residencial-novo-mundo-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "265000",
+    "scrapedAt": "2026-04-10T06:28:40.565Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775802737746_500",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-varanda-gourmet-cidade-satelite-iris-campinas-sp-150m2-id-2831493606/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 150 m², 4 quartos, 3 banheiros, 5 vagas em\nCidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "Image-img": "+12 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 150 m², 4 quartos, 3 banheiros, 5 vagas em\nCidade Satélite Íris, Campinas"
+      },
+      {
+        "Street": "Rua José Casonatto"
+      },
+      {
+        "Tamanho do imóvel": "150 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "3"
+      },
+      {
+        "Quantidade de vagas de garagem": "5"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/45bb8cf3b9acc9844d08aff0a72aed8b/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/be78cb225bb52334ba5939b9e1763f48/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/bee4bb21be9f1506a423f403c876af79/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/be6f550eb69a62d1905c6a67889fce89/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/fb599c311831e3a7fbea17ec4f4325c8/casa-com-4-quartos-a-venda-150m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "280000",
+    "scrapedAt": "2026-04-10T06:32:17.746Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775802737747_616",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-area-de-servico-jardim-novo-campos-eliseos-campinas-sp-166m2-id-2869822994/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 166 m², 4 quartos, 2 banheiros, 2 vagas em\nJardim Novo Campos Elíseos, Campinas",
+    "description": [
+      {
+        "Image-img": "+16 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 166 m², 4 quartos, 2 banheiros, 2 vagas em\nJardim Novo Campos Elíseos, Campinas"
+      },
+      {
+        "Street": "Rua Cneo Pompeo de Camargo"
+      },
+      {
+        "Tamanho do imóvel": "166 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/89aea51e7e4e34ef522126f46d310560/casa-com-4-quartos-a-venda-166m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/e8b7af656523ec4d93cbaa049b49349b/casa-com-4-quartos-a-venda-166m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/09a856cb0761e1aea03b08ac669daaf9/casa-com-4-quartos-a-venda-166m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/be5b47af8a3a66bcb200a239713e20e8/casa-com-4-quartos-a-venda-166m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a8803ab2f9b49c0bd23eceb4a9da38c2/casa-com-4-quartos-a-venda-166m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "280000",
+    "scrapedAt": "2026-04-10T06:32:17.747Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775802807733_346",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-churrasqueira-parque-dom-pedro-ii-campinas-sp-100m2-id-2869828975/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 100 m², 3 quartos, 1 banheiro em\nParque Dom Pedro II, Campinas",
+    "description": [
+      {
+        "Image-img": "+9 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 100 m², 3 quartos, 1 banheiro em\nParque Dom Pedro II, Campinas"
+      },
+      {
+        "Street": "Rua Gravataí"
+      },
+      {
+        "Tamanho do imóvel": "100 m²"
+      },
+      {
+        "Quantidade de quartos": "3"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/382de1480304dea4134be2b75162d334/casa-com-3-quartos-a-venda-100m-no-parque-dom-pedro-ii-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/da2ebd6eb391ebe24945c730eb8b7120/casa-com-3-quartos-a-venda-100m-no-parque-dom-pedro-ii-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/0bb63b4835ff8cc82e88b8a92fc4d316/casa-com-3-quartos-a-venda-100m-no-parque-dom-pedro-ii-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/9e4b46256d289a2a51bfd397abdc757c/casa-com-3-quartos-a-venda-100m-no-parque-dom-pedro-ii-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a0d268c0dfa544676ed83e5c923b72ca/casa-com-3-quartos-a-venda-100m-no-parque-dom-pedro-ii-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "280000",
+    "scrapedAt": "2026-04-10T06:33:27.733Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775802807734_659",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-4-quartos-com-piscina-vila-paraiso-campinas-sp-112m2-id-2875932787/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 112 m², 4 quartos, 3 banheiros, 1 vaga em\nVila Paraíso, Campinas",
+    "description": [
+      {
+        "Image-img": "+14 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 112 m², 4 quartos, 3 banheiros, 1 vaga em\nVila Paraíso, Campinas"
+      },
+      {
+        "Street": "Avenida Francisco de Angelis"
+      },
+      {
+        "Tamanho do imóvel": "112 m²"
+      },
+      {
+        "Quantidade de quartos": "4"
+      },
+      {
+        "Quantidade de banheiros": "3"
+      },
+      {
+        "Quantidade de vagas de garagem": "1"
+      },
+      {
+        "Price": "R$ 280.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/5d0b0747391527d87154a544ceda497c/casa-com-4-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/6b2c54944e6fda23523331ec67b8c63e/casa-com-4-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/513eabe2462b7f3e575984011883598a/casa-com-4-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/833eb14359b518a9f8482dd00f8fd97a/casa-com-4-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/635f7cd6e6099d0a42b50b2dd069c11e/casa-com-4-quartos-a-venda-112m-no-vila-paraiso-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "280000",
+    "scrapedAt": "2026-04-10T06:33:27.734Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775802962899_397",
+    "link": "https://www.zapimoveis.com.br/imovel/house-item-21",
+    "platform": "zap",
+    "address": "Casa para comprar com 95 m², 2 quartos, 2 banheiros em\nJardim São Domingos, Campinas",
+    "description": [
+      {
+        "Image-img": "+14 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 95 m², 2 quartos, 2 banheiros em\nJardim São Domingos, Campinas"
+      },
+      {
+        "Street": "Rua Alberto Lencastre Junior"
+      },
+      {
+        "Tamanho do imóvel": "95 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Price": "R$ 287.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/90f16142452ba9c7c6c28256f4138968/casa-com-2-quartos-a-venda-95m-no-jardim-sao-domingos-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/012ba4605a3e71d62d0028cf6398de67/casa-com-2-quartos-a-venda-95m-no-jardim-sao-domingos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/118580dad6f2f31e6a9c2fd5be6dbc94/casa-com-2-quartos-a-venda-95m-no-jardim-sao-domingos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/97af48053fcabe896714673339b93883/casa-com-2-quartos-a-venda-95m-no-jardim-sao-domingos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/3ce448c54396125cb5198e346ac0bb95/casa-com-2-quartos-a-venda-95m-no-jardim-sao-domingos-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "287000",
+    "scrapedAt": "2026-04-10T06:36:02.899Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775802962902_599",
+    "link": "https://www.zapimoveis.com.br/imovel/house-item-28",
+    "platform": "zap",
+    "address": "Casa para comprar com 49 m², 1 quarto, 1 banheiro, 3 vagas em\nJardim Novo Campos Elíseos, Campinas",
+    "description": [
+      {
+        "Image-img": "+8 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 49 m², 1 quarto, 1 banheiro, 3 vagas em\nJardim Novo Campos Elíseos, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "49 m²"
+      },
+      {
+        "Quantidade de quartos": "1"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "3 - 9"
+      },
+      {
+        "Price": "R$ 289.900"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/997b62efc8b28a8af22c2eb24a866bd5/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/eb6ae2c2573f30074f59222a15c5d980/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/c3c35504e92f97009d50624bb392a9f9/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/1baf9863d6b8554a1b5994da40962967/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/727a79818aafca82a67358cdc53a617c/casa-com-1-quarto-a-venda-49m-no-jardim-novo-campos-eliseos-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "289900",
+    "scrapedAt": "2026-04-10T06:36:02.902Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775803040930_267",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-conjunto-residencial-parque-sao-bento-campinas-sp-45m2-id-2869808670/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 45 m², 2 quartos, 1 banheiro, 2 vagas em\nConjunto Residencial Parque São Bento, Campinas",
+    "description": [
+      {
+        "Image-img": "+10 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 45 m², 2 quartos, 1 banheiro, 2 vagas em\nConjunto Residencial Parque São Bento, Campinas"
+      },
+      {
+        "Street": "Rua Professor Romeu Ceravolo"
+      },
+      {
+        "Tamanho do imóvel": "45 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "1"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 290.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/d3f0968b633615b4aa8e0772d9fde5c4/casa-com-2-quartos-a-venda-45m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/56e7e7f2569bc2c326d4243997b15373/casa-com-2-quartos-a-venda-45m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/bc1e414f04d791469bace402dd84ba38/casa-com-2-quartos-a-venda-45m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/83e658db9b4b43195fcd5d47d2485e01/casa-com-2-quartos-a-venda-45m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/56be89ce0c8412250b922a447f3faba1/casa-com-2-quartos-a-venda-45m-no-conjunto-residencial-parque-sao-bento-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "290000",
+    "scrapedAt": "2026-04-10T06:37:20.930Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775803040930_893",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-lavanderia-coletiva-conjunto-habitacional-parque-itajai-campinas-sp-110m2-id-2853684122/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 110 m², 2 quartos, 2 banheiros, 2 vagas em\nConjunto Habitacional Parque Itajaí, Campinas",
+    "description": [
+      {
+        "Image-img": "+1 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 110 m², 2 quartos, 2 banheiros, 2 vagas em\nConjunto Habitacional Parque Itajaí, Campinas"
+      },
+      {
+        "Tamanho do imóvel": "110 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 290.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/cc5783f1d81cfe8a57dcff00b04176ba/casa-com-2-quartos-a-venda-110m-no-conjunto-habitacional-parque-itajai-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/84ab51213b889143e686a5447f044dd9/casa-com-2-quartos-a-venda-110m-no-conjunto-habitacional-parque-itajai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/fb8ae0a0e8e3cc549b9186d6d821e2d7/casa-com-2-quartos-a-venda-110m-no-conjunto-habitacional-parque-itajai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/e74613f50503f670566404db124254b6/casa-com-2-quartos-a-venda-110m-no-conjunto-habitacional-parque-itajai-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/f737f6eee44c73c36ad5789f57f1fcd9/casa-com-2-quartos-a-venda-110m-no-conjunto-habitacional-parque-itajai-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "290000",
+    "scrapedAt": "2026-04-10T06:37:20.930Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775803267094_377",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-2-quartos-com-churrasqueira-jardim-santana-campinas-sp-147m2-id-2877874790/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 147 m², 2 quartos, 2 banheiros, 2 vagas em\nNúcleo Residencial Getúlio Vargas, Campinas",
+    "description": [
+      {
+        "Image-img": "+65 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 147 m², 2 quartos, 2 banheiros, 2 vagas em\nNúcleo Residencial Getúlio Vargas, Campinas"
+      },
+      {
+        "Street": "Rua Manoella Candida de Paula"
+      },
+      {
+        "Tamanho do imóvel": "147 m²"
+      },
+      {
+        "Quantidade de quartos": "2"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "2"
+      },
+      {
+        "Price": "R$ 300.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/44d8f89035588d68dddfa7e06b60830c/casa-com-2-quartos-a-venda-147m-no-nucleo-residencial-getulio-vargas-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/933b52c50bddce2fa9bceffe4ba53211/casa-com-2-quartos-a-venda-147m-no-nucleo-residencial-getulio-vargas-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/65af6216e373175b1066a231d5f5d91b/casa-com-2-quartos-a-venda-147m-no-nucleo-residencial-getulio-vargas-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/288c8bf597dee252ce6b1132d198a68d/casa-com-2-quartos-a-venda-147m-no-nucleo-residencial-getulio-vargas-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/c7081f87e690af70a0d6dbdb6c80cee1/casa-com-2-quartos-a-venda-147m-no-nucleo-residencial-getulio-vargas-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "300000",
+    "scrapedAt": "2026-04-10T06:41:07.094Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
+    "hasDuplicates": true,
+    "__status": "added",
+    "consecutiveMisses": 0,
+    "coords": {}
+  },
+  {
+    "id": "prop_1775803267107_400",
+    "link": "https://www.zapimoveis.com.br/imovel/venda-casa-3-quartos-com-quintal-cidade-satelite-iris-campinas-sp-290m2-id-2834029256/?source=ranking%2Crp",
+    "platform": "zap",
+    "address": "Casa para comprar com 290 - 300 m², 3 quartos, 2 banheiros, 3 vagas em\nCidade Satélite Íris, Campinas",
+    "description": [
+      {
+        "Image-img": "+19 fotos"
+      },
+      {
+        "Location": "Casa para comprar com 290 - 300 m², 3 quartos, 2 banheiros, 3 vagas em\nCidade Satélite Íris, Campinas"
+      },
+      {
+        "Street": "Rua Doutor Dante Erbolato"
+      },
+      {
+        "Tamanho do imóvel": "290 - 300 m²"
+      },
+      {
+        "Quantidade de quartos": "3"
+      },
+      {
+        "Quantidade de banheiros": "2"
+      },
+      {
+        "Quantidade de vagas de garagem": "3"
+      },
+      {
+        "Price": "R$ 300.000"
+      }
+    ],
+    "images": [
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/b5bb03ede54c343ecc19c98dd5e6836e/casa-com-3-quartos-a-venda-300m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/6a22d2b41b9b5184020abb92b4f19d97/casa-com-3-quartos-a-venda-300m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/9c986fe34377393cba747053e12a03ef/casa-com-3-quartos-a-venda-300m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/a092fe745711bc5be58361d9d4fcc0b5/casa-com-3-quartos-a-venda-300m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false",
+      "https://resizedimgs.zapimoveis.com.br/img/vr-listing/2c114f4e8aa3cb8c00745485c395ec1e/casa-com-3-quartos-a-venda-300m-no-cidade-satelite-iris-campinas.webp?action=fit-in&dimension=614x297&seo=false"
+    ],
+    "price": "300000",
+    "scrapedAt": "2026-04-10T06:41:07.107Z",
+    "firstSeenAt": "2026-04-10T03:42:44.875Z",
+    "lastSeenAt": "2026-04-10T03:42:44.875Z",
     "hasDuplicates": true,
     "__status": "added",
     "consecutiveMisses": 0,
